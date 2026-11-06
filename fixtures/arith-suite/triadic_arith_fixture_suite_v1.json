@@ -1,0 +1,2234 @@
+{
+ "suite": "triadic_arith_fixture_suite_v1",
+ "family": "arith-* (17-A; the GROUP-3 label retired, item 128)",
+ "pre_registration": "arith-fixture-family-preregistration.md",
+ "option": "arith-M (96 rows: 48 positives, 48 controls)",
+ "rw5_paraphrase_axis": "OFF (owner ruling, item 162)",
+ "typed_row_schema": [
+  "fixture_id",
+  "class",
+  "magnitude",
+  "anchor_family",
+  "statement_text",
+  "ground_truth",
+  "expected_verdict",
+  "expected_slips",
+  "expected_guard",
+  "expected_event_class",
+  "habit_exemplar",
+  "pending_ruling",
+  "class_note"
+ ],
+ "family_applicability_note": "P1-P6 instantiate both anchor families (4 inline / 4 scratchpad). N3/N6/N7 instantiate both (3/3). N1 (the inline word-separated fragment), N2 (word-separated prose), N4 (prose restatements), N5 (dimensional prose) and N8 (the fails-open floor) have no banked scratchpad form — authored inline/prose only, recorded here as class applicability, not as a census gap.",
+ "expected_verdict_enum_note": "SILENT extends the pre-registered enum for rows where no candidate forms at all (N2/N4/N5 and the N8 SILENT rows) — the pre-registered class descriptions ('fails open, silent') carried the semantics; the export makes the slot explicit and typed.",
+ "pending_ruling_rows": {
+  "gate5-compression": "N3 (6 rows)",
+  "gate5-truncation": "N7 (6 rows)",
+  "branches": "both pre-registered; the owner's Gate-5 stamp decides (tolerance-legal display vs charged damage)"
+ },
+ "counts": {
+  "total": 96,
+  "positives": 48,
+  "controls": 48,
+  "per_class": {
+   "N1": 6,
+   "N2": 6,
+   "N3": 6,
+   "N4": 6,
+   "N5": 6,
+   "N6": 6,
+   "N7": 6,
+   "N8": 6,
+   "P1": 8,
+   "P2": 8,
+   "P3": 8,
+   "P4": 8,
+   "P5": 8,
+   "P6": 8
+  },
+  "loud": 24,
+  "subtle": 24,
+  "inline": 63,
+  "scratchpad": 33
+ },
+ "fixtures": [
+  {
+   "fixture_id": "arith-P1-001",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The build has four stages. Stage one: 240 + 180 = 420. Stage two: 420 + 90 = 510. Stage three: 510 + 60 = 570. Stage four: 570 + 50 = 675.",
+   "ground_truth": {
+    "target_lhs": "570 + 50",
+    "target_stated": "675",
+    "stated_value": "675",
+    "true_values": [
+     "620"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-002",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The build has four stages. Stage one: 1200 + 340 = 1540. Stage two: 1540 + 150 = 1690. Stage three: 1690 + 75 = 1765. Stage four: 1765 + 300 = 2100.",
+   "ground_truth": {
+    "target_lhs": "1765 + 300",
+    "target_stated": "2100",
+    "stated_value": "2100",
+    "true_values": [
+     "2065"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-003",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The build has four stages. Stage one: 240 + 180 = 420. Stage two: 420 + 90 = 510. Stage three: 510 + 60 = 570. Stage four: 570 + 50 = 625.",
+   "ground_truth": {
+    "target_lhs": "570 + 50",
+    "target_stated": "625",
+    "stated_value": "625",
+    "true_values": [
+     "620"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-004",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The build has four stages. Stage one: 450 + 380 = 830. Stage two: 830 + 220 = 1050. Stage three: 1050 + 140 = 1190. Stage four: 1190 + 90 = 1284.",
+   "ground_truth": {
+    "target_lhs": "1190 + 90",
+    "target_stated": "1284",
+    "stated_value": "1284",
+    "true_values": [
+     "1280"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-005",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The build has four stages. Stage one: <<450 + 380 = 830>> Stage two: <<830 + 220 = 1050>> Stage three: <<1050 + 140 = 1190>> Stage four: <<1190 + 90 = 1600>>",
+   "ground_truth": {
+    "target_lhs": "1190 + 90",
+    "target_stated": "1600",
+    "stated_value": "1600",
+    "true_values": [
+     "1280"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-006",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The build has four stages. Stage one: <<96 + 88 = 184>> Stage two: <<184 + 64 = 248>> Stage three: <<248 + 52 = 300>> Stage four: <<300 + 40 = 500>>",
+   "ground_truth": {
+    "target_lhs": "300 + 40",
+    "target_stated": "500",
+    "stated_value": "500",
+    "true_values": [
+     "340"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-007",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The build has four stages. Stage one: <<96 + 88 = 184>> Stage two: <<184 + 64 = 248>> Stage three: <<248 + 52 = 300>> Stage four: <<300 + 40 = 343>>",
+   "ground_truth": {
+    "target_lhs": "300 + 40",
+    "target_stated": "343",
+    "stated_value": "343",
+    "true_values": [
+     "340"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P1-008",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The build has four stages. Stage one: <<1200 + 340 = 1540>> Stage two: <<1540 + 150 = 1690>> Stage three: <<1690 + 75 = 1765>> Stage four: <<1765 + 300 = 2070>>",
+   "ground_truth": {
+    "target_lhs": "1765 + 300",
+    "target_stated": "2070",
+    "stated_value": "2070",
+    "true_values": [
+     "2065"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the banked late-skew census (raw 198/67, chat 17/2; doc-11 family)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-001",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "First the batch: 36 x 68 = 2460. Then the additions: 2460 + 120 = 2580. The total: 2580 + 300 = 2880.",
+   "ground_truth": {
+    "target_lhs": "36 x 68",
+    "target_stated": "2460",
+    "stated_value": "2460",
+    "true_values": [
+     "2448"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-002",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "First the batch: 150 x 44 = 6660. Then the additions: 6660 + 80 = 6740. The total: 6740 + 160 = 6900.",
+   "ground_truth": {
+    "target_lhs": "150 x 44",
+    "target_stated": "6660",
+    "stated_value": "6660",
+    "true_values": [
+     "6600"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-003",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "First the batch: 36 x 68 = 2449. Then the additions: 2449 + 120 = 2569. The total: 2569 + 300 = 2869.",
+   "ground_truth": {
+    "target_lhs": "36 x 68",
+    "target_stated": "2449",
+    "stated_value": "2449",
+    "true_values": [
+     "2448"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-004",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "First the batch: 150 x 44 = 6602. Then the additions: 6602 + 80 = 6682. The total: 6682 + 160 = 6842.",
+   "ground_truth": {
+    "target_lhs": "150 x 44",
+    "target_stated": "6602",
+    "stated_value": "6602",
+    "true_values": [
+     "6600"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-005",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "First the batch: <<52 x 77 = 4034>> Then the additions: <<4034 + 90 = 4124>> The total: <<4124 + 210 = 4334>>.",
+   "ground_truth": {
+    "target_lhs": "52 x 77",
+    "target_stated": "4034",
+    "stated_value": "4034",
+    "true_values": [
+     "4004"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-006",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "First the batch: <<310 x 25 = 8000>> Then the additions: <<8000 + 140 = 8140>> The total: <<8140 + 90 = 8230>>.",
+   "ground_truth": {
+    "target_lhs": "310 x 25",
+    "target_stated": "8000",
+    "stated_value": "8000",
+    "true_values": [
+     "7750"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-007",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "First the batch: <<52 x 77 = 4007>> Then the additions: <<4007 + 90 = 4097>> The total: <<4097 + 210 = 4307>>.",
+   "ground_truth": {
+    "target_lhs": "52 x 77",
+    "target_stated": "4007",
+    "stated_value": "4007",
+    "true_values": [
+     "4004"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P2-008",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "First the batch: <<310 x 25 = 7751>> Then the additions: <<7751 + 140 = 7891>> The total: <<7891 + 90 = 7981>>.",
+   "ground_truth": {
+    "target_lhs": "310 x 25",
+    "target_stated": "7751",
+    "stated_value": "7751",
+    "true_values": [
+     "7750"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 11 (36 x 68 = 2460; the seeding slip carries to the total)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-001",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The ledger line reads 20 - 22 = 2.",
+   "ground_truth": {
+    "target_lhs": "20 - 22",
+    "target_stated": "2",
+    "stated_value": "2",
+    "true_values": [
+     "-2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-002",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The ledger line reads 75 - 90 = 15.",
+   "ground_truth": {
+    "target_lhs": "75 - 90",
+    "target_stated": "15",
+    "stated_value": "15",
+    "true_values": [
+     "-15"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-003",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The ledger line reads 12.8 - 12.5 = 0.8.",
+   "ground_truth": {
+    "target_lhs": "12.8 - 12.5",
+    "target_stated": "0.8",
+    "stated_value": "4/5",
+    "true_values": [
+     "3/10"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-004",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The ledger line reads 44.6 - 44.1 = 0.9.",
+   "ground_truth": {
+    "target_lhs": "44.6 - 44.1",
+    "target_stated": "0.9",
+    "stated_value": "9/10",
+    "true_values": [
+     "1/2"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-005",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The ledger line: <<140 - 175 = 35>> recorded.",
+   "ground_truth": {
+    "target_lhs": "140 - 175",
+    "target_stated": "35",
+    "stated_value": "35",
+    "true_values": [
+     "-35"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-006",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The ledger line: <<500 - 650 = 150>> recorded.",
+   "ground_truth": {
+    "target_lhs": "500 - 650",
+    "target_stated": "150",
+    "stated_value": "150",
+    "true_values": [
+     "-150"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-007",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The ledger line: <<9.15 - 8.95 = 0.4>> recorded.",
+   "ground_truth": {
+    "target_lhs": "9.15 - 8.95",
+    "target_stated": "0.4",
+    "stated_value": "2/5",
+    "true_values": [
+     "1/5"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P3-008",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The ledger line: <<30.25 - 29.75 = 0.7>> recorded.",
+   "ground_truth": {
+    "target_lhs": "30.25 - 29.75",
+    "target_stated": "0.7",
+    "stated_value": "7/10",
+    "true_values": [
+     "1/2"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "doc 507 (20 - 22 = 2)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-001",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The fee compounds each year. Year one: 450 x 1.1 = 495. Year two: 495 x 1.1 = 540. Year three: 540 x 1.1 = 594.",
+   "ground_truth": {
+    "target_lhs": "495 x 1.1",
+    "target_stated": "540",
+    "stated_value": "540",
+    "true_values": [
+     "1089/2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-002",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The fee compounds each year. Year one: 800 x 1.1 = 880. Year two: 880 x 1.1 = 950. Year three: 950 x 1.1 = 1045.",
+   "ground_truth": {
+    "target_lhs": "880 x 1.1",
+    "target_stated": "950",
+    "stated_value": "950",
+    "true_values": [
+     "968"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-003",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The fee compounds each year. Year one: 450 x 1.1 = 495. Year two: 495 x 1.1 = 544.9. Year three: 544.9 x 1.1 = 599.39.",
+   "ground_truth": {
+    "target_lhs": "495 x 1.1",
+    "target_stated": "544.9",
+    "stated_value": "5449/10",
+    "true_values": [
+     "1089/2"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-004",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The fee compounds each year. Year one: 620 x 1.1 = 682. Year two: 682 x 1.1 = 750.6. Year three: 750.6 x 1.1 = 825.66.",
+   "ground_truth": {
+    "target_lhs": "682 x 1.1",
+    "target_stated": "750.6",
+    "stated_value": "3753/5",
+    "true_values": [
+     "3751/5"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-005",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The fee compounds each year. Year one: <<620 x 1.1 = 682>> Year two: <<682 x 1.1 = 730>> Year three: <<730 x 1.1 = 803>>.",
+   "ground_truth": {
+    "target_lhs": "682 x 1.1",
+    "target_stated": "730",
+    "stated_value": "730",
+    "true_values": [
+     "3751/5"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-006",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The fee compounds each year. Year one: <<940 x 1.1 = 1034>> Year two: <<1034 x 1.1 = 1120>> Year three: <<1120 x 1.1 = 1232>>.",
+   "ground_truth": {
+    "target_lhs": "1034 x 1.1",
+    "target_stated": "1120",
+    "stated_value": "1120",
+    "true_values": [
+     "5687/5"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-007",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The fee compounds each year. Year one: <<940 x 1.1 = 1034>> Year two: <<1034 x 1.1 = 1137.9>> Year three: <<1137.9 x 1.1 = 1251.69>>.",
+   "ground_truth": {
+    "target_lhs": "1034 x 1.1",
+    "target_stated": "1137.9",
+    "stated_value": "11379/10",
+    "true_values": [
+     "5687/5"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P4-008",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The fee compounds each year. Year one: <<800 x 1.1 = 880>> Year two: <<880 x 1.1 = 968.5>> Year three: <<968.5 x 1.1 = 1065.35>>.",
+   "ground_truth": {
+    "target_lhs": "880 x 1.1",
+    "target_stated": "968.5",
+    "stated_value": "1937/2",
+    "true_values": [
+     "968"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 87 (the three-step x1.1 cascade)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-001",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The exchange rate is 0.2607. Outbound: 0.2607 x 220 = 50. Return leg: 50 / 220 = 0.227.",
+   "ground_truth": {
+    "target_lhs": "0.2607 x 220",
+    "target_stated": "50",
+    "stated_value": "50",
+    "true_values": [
+     "28677/500"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-002",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The exchange rate is 0.75. Outbound: 0.75 x 320 = 200. Return leg: 200 / 320 = 0.625.",
+   "ground_truth": {
+    "target_lhs": "0.75 x 320",
+    "target_stated": "200",
+    "stated_value": "200",
+    "true_values": [
+     "240"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-003",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The exchange rate is 0.2607. Outbound: 0.2607 x 220 = 57.0. Return leg: 57.0 / 220 = 0.259.",
+   "ground_truth": {
+    "target_lhs": "0.2607 x 220",
+    "target_stated": "57.0",
+    "stated_value": "57",
+    "true_values": [
+     "28677/500"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-004",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The exchange rate is 0.75. Outbound: 0.75 x 320 = 239.5. Return leg: 239.5 / 320 = 0.748.",
+   "ground_truth": {
+    "target_lhs": "0.75 x 320",
+    "target_stated": "239.5",
+    "stated_value": "479/2",
+    "true_values": [
+     "240"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-005",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The exchange rate is 0.043. Outbound: <<0.043 x 500 = 18>> Return leg: <<18 / 500 = 0.036>>.",
+   "ground_truth": {
+    "target_lhs": "0.043 x 500",
+    "target_stated": "18",
+    "stated_value": "18",
+    "true_values": [
+     "43/2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-006",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The exchange rate is 0.525. Outbound: <<0.525 x 800 = 360>> Return leg: <<360 / 800 = 0.45>>.",
+   "ground_truth": {
+    "target_lhs": "0.525 x 800",
+    "target_stated": "360",
+    "stated_value": "360",
+    "true_values": [
+     "420"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-007",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The exchange rate is 0.043. Outbound: <<0.043 x 500 = 21.2>> Return leg: <<21.2 / 500 = 0.0424>>.",
+   "ground_truth": {
+    "target_lhs": "0.043 x 500",
+    "target_stated": "21.2",
+    "stated_value": "106/5",
+    "true_values": [
+     "43/2"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P5-008",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The exchange rate is 0.525. Outbound: <<0.525 x 800 = 419.6>> Return leg: <<419.6 / 800 = 0.5245>>.",
+   "ground_truth": {
+    "target_lhs": "0.525 x 800",
+    "target_stated": "419.6",
+    "stated_value": "2098/5",
+    "true_values": [
+     "420"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 46 (0.2607 x 220 = 57.354 stated 57.0)",
+   "pending_ruling": null,
+   "class_note": ""
+  },
+  {
+   "fixture_id": "arith-P6-001",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The warehouse counts the north row: 120 + 130 = 250 units. The audit restates the north row: 120 + 130 = 240 units.",
+   "ground_truth": {
+    "target_lhs": "120 + 130",
+    "target_stated": "240",
+    "stated_value": "240",
+    "true_values": [
+     "250"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-002",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "statement_text": "The warehouse counts the north row: 450 + 380 = 830 units. The audit restates the north row: 450 + 380 = 800 units.",
+   "ground_truth": {
+    "target_lhs": "450 + 380",
+    "target_stated": "800",
+    "stated_value": "800",
+    "true_values": [
+     "830"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-003",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The warehouse counts the north row: 120 + 130 = 250 units. The audit restates the north row: 120 + 130 = 251 units.",
+   "ground_truth": {
+    "target_lhs": "120 + 130",
+    "target_stated": "251",
+    "stated_value": "251",
+    "true_values": [
+     "250"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-004",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "statement_text": "The warehouse counts the north row: 96 + 88 = 184 units. The audit restates the north row: 96 + 88 = 185 units.",
+   "ground_truth": {
+    "target_lhs": "96 + 88",
+    "target_stated": "185",
+    "stated_value": "185",
+    "true_values": [
+     "184"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-005",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The warehouse counts the north row: <<96 + 88 = 184>> units. The audit restates the north row: <<96 + 88 = 200>> units.",
+   "ground_truth": {
+    "target_lhs": "96 + 88",
+    "target_stated": "200",
+    "stated_value": "200",
+    "true_values": [
+     "184"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-006",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "statement_text": "The warehouse counts the north row: <<1200 + 340 = 1540>> units. The audit restates the north row: <<1200 + 340 = 1500>> units.",
+   "ground_truth": {
+    "target_lhs": "1200 + 340",
+    "target_stated": "1500",
+    "stated_value": "1500",
+    "true_values": [
+     "1540"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-007",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The warehouse counts the north row: <<450 + 380 = 830>> units. The audit restates the north row: <<450 + 380 = 831>> units.",
+   "ground_truth": {
+    "target_lhs": "450 + 380",
+    "target_stated": "831",
+    "stated_value": "831",
+    "true_values": [
+     "830"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-P6-008",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "statement_text": "The warehouse counts the north row: <<1200 + 340 = 1540>> units. The audit restates the north row: <<1200 + 340 = 1541>> units.",
+   "ground_truth": {
+    "target_lhs": "1200 + 340",
+    "target_stated": "1541",
+    "stated_value": "1541",
+    "true_values": [
+     "1540"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the RW-12 verified-impossibility axis (T4 reconciliation, items 104/124)",
+   "pending_ruling": null,
+   "class_note": "the same lhs stated twice; the contradicting restatement must flag"
+  },
+  {
+   "fixture_id": "arith-N1-001",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "He runs 3 hours * 1/2 = 1.5 hours.",
+   "ground_truth": {
+    "target_lhs": "1/2",
+    "target_stated": "1.5",
+    "stated_value": "3/2",
+    "true_values": [
+     "1/2",
+     "2"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": "G1-fragment",
+   "expected_event_class": "fragment",
+   "habit_exemplar": "chat doc 38 (3 hours * 1/2 = 1.5 — the natural false-fire of record)",
+   "pending_ruling": null,
+   "class_note": "true statement; G1 must suppress the fragment fire"
+  },
+  {
+   "fixture_id": "arith-N1-002",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "She reads 5 pages * 1/2 = 2.5 pages.",
+   "ground_truth": {
+    "target_lhs": "1/2",
+    "target_stated": "2.5",
+    "stated_value": "5/2",
+    "true_values": [
+     "1/2",
+     "2"
+    ],
+    "epsilon_as_is": "50000001/1000000000",
+    "stated_decimals": 1,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": "G1-fragment",
+   "expected_event_class": "fragment",
+   "habit_exemplar": "chat doc 38 (3 hours * 1/2 = 1.5 — the natural false-fire of record)",
+   "pending_ruling": null,
+   "class_note": "true statement; G1 must suppress the fragment fire"
+  },
+  {
+   "fixture_id": "arith-N1-003",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The cable spans 8 meters * 1/2 = 4 meters.",
+   "ground_truth": {
+    "target_lhs": "1/2",
+    "target_stated": "4",
+    "stated_value": "4",
+    "true_values": [
+     "1/2",
+     "2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": "G1-fragment",
+   "expected_event_class": "fragment",
+   "habit_exemplar": "chat doc 38 (3 hours * 1/2 = 1.5 — the natural false-fire of record)",
+   "pending_ruling": null,
+   "class_note": "true statement; G1 must suppress the fragment fire"
+  },
+  {
+   "fixture_id": "arith-N1-004",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The van holds 12 seats * 1/2 = 6 seats.",
+   "ground_truth": {
+    "target_lhs": "1/2",
+    "target_stated": "6",
+    "stated_value": "6",
+    "true_values": [
+     "1/2",
+     "2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": "G1-fragment",
+   "expected_event_class": "fragment",
+   "habit_exemplar": "chat doc 38 (3 hours * 1/2 = 1.5 — the natural false-fire of record)",
+   "pending_ruling": null,
+   "class_note": "true statement; G1 must suppress the fragment fire"
+  },
+  {
+   "fixture_id": "arith-N1-005",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The tank stores 20 liters * 1/2 = 10 liters.",
+   "ground_truth": {
+    "target_lhs": "1/2",
+    "target_stated": "10",
+    "stated_value": "10",
+    "true_values": [
+     "1/2",
+     "2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": "G1-fragment",
+   "expected_event_class": "fragment",
+   "habit_exemplar": "chat doc 38 (3 hours * 1/2 = 1.5 — the natural false-fire of record)",
+   "pending_ruling": null,
+   "class_note": "true statement; G1 must suppress the fragment fire"
+  },
+  {
+   "fixture_id": "arith-N1-006",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The tape runs 40 minutes * 1/2 = 20 minutes.",
+   "ground_truth": {
+    "target_lhs": "1/2",
+    "target_stated": "20",
+    "stated_value": "20",
+    "true_values": [
+     "1/2",
+     "2"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": "G1-fragment",
+   "expected_event_class": "fragment",
+   "habit_exemplar": "chat doc 38 (3 hours * 1/2 = 1.5 — the natural false-fire of record)",
+   "pending_ruling": null,
+   "class_note": "true statement; G1 must suppress the fragment fire"
+  },
+  {
+   "fixture_id": "arith-N2-001",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "She does 3 sprints * 3 times a week = 9 in total.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 3 (3 sprints * 3 times a week = 9 — below the candidate gate)",
+   "pending_ruling": null,
+   "class_note": "true statement; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N2-002",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "He swims 4 laps * 4 sessions = 20 in total.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 3 (3 sprints * 3 times a week = 9 — below the candidate gate)",
+   "pending_ruling": null,
+   "class_note": "true statement; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N2-003",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The band plays 6 drums * 6 beats = 24 in total.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 3 (3 sprints * 3 times a week = 9 — below the candidate gate)",
+   "pending_ruling": null,
+   "class_note": "true statement; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N2-004",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The garden has 7 rows * 7 plants = 56 in total.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 3 (3 sprints * 3 times a week = 9 — below the candidate gate)",
+   "pending_ruling": null,
+   "class_note": "true statement; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N2-005",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The case holds 5 shelves * 5 books = 45 in total.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 3 (3 sprints * 3 times a week = 9 — below the candidate gate)",
+   "pending_ruling": null,
+   "class_note": "true statement; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N2-006",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The hall shows 9 tanks * 9 fish = 54 in total.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "chat doc 3 (3 sprints * 3 times a week = 9 — below the candidate gate)",
+   "pending_ruling": null,
+   "class_note": "true statement; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N3-001",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The discount comes to 40/100 = $40 cheaper.",
+   "ground_truth": {
+    "target_lhs": "40/100",
+    "target_stated": "40",
+    "stated_value": "40",
+    "true_values": [
+     "4000",
+     "2/5"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "raw doc 978 (40/100 = $40 cheaper; the 26-event compression class)",
+   "pending_ruling": "gate5-compression",
+   "class_note": "fires under the banked bare-fraction rule as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N3-002",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The discount comes to 25/100 = $25 off.",
+   "ground_truth": {
+    "target_lhs": "25/100",
+    "target_stated": "25",
+    "stated_value": "25",
+    "true_values": [
+     "1/4",
+     "2500"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "raw doc 978 (40/100 = $40 cheaper; the 26-event compression class)",
+   "pending_ruling": "gate5-compression",
+   "class_note": "fires under the banked bare-fraction rule as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N3-003",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The discount comes to 60/100 = $60 saved.",
+   "ground_truth": {
+    "target_lhs": "60/100",
+    "target_stated": "60",
+    "stated_value": "60",
+    "true_values": [
+     "6000",
+     "3/5"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "raw doc 978 (40/100 = $40 cheaper; the 26-event compression class)",
+   "pending_ruling": "gate5-compression",
+   "class_note": "fires under the banked bare-fraction rule as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N3-004",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The discount math: <<75/100 = 75>> less.",
+   "ground_truth": {
+    "target_lhs": "75/100",
+    "target_stated": "75",
+    "stated_value": "75",
+    "true_values": [
+     "3/4",
+     "7500"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "raw doc 978 (40/100 = $40 cheaper; the 26-event compression class)",
+   "pending_ruling": "gate5-compression",
+   "class_note": "fires under the banked bare-fraction rule as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N3-005",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The discount math: <<30/100 = 30>> reduced.",
+   "ground_truth": {
+    "target_lhs": "30/100",
+    "target_stated": "30",
+    "stated_value": "30",
+    "true_values": [
+     "3000",
+     "3/10"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "raw doc 978 (40/100 = $40 cheaper; the 26-event compression class)",
+   "pending_ruling": "gate5-compression",
+   "class_note": "fires under the banked bare-fraction rule as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N3-006",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The discount math: <<90/100 = 90>> markdown.",
+   "ground_truth": {
+    "target_lhs": "90/100",
+    "target_stated": "90",
+    "stated_value": "90",
+    "true_values": [
+     "9000",
+     "9/10"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "raw doc 978 (40/100 = $40 cheaper; the 26-event compression class)",
+   "pending_ruling": "gate5-compression",
+   "class_note": "fires under the banked bare-fraction rule as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N4-001",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The record lists Plan A = Plan A-prime = 48 units.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 189-rejection equivalence-chain class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "restatement style; no candidate forms; never fires"
+  },
+  {
+   "fixture_id": "arith-N4-002",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The record lists Route x = Route x-prime = 120 miles.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 189-rejection equivalence-chain class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "restatement style; no candidate forms; never fires"
+  },
+  {
+   "fixture_id": "arith-N4-003",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The record lists Item k = Item k-prime = 260 dollars.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 189-rejection equivalence-chain class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "restatement style; no candidate forms; never fires"
+  },
+  {
+   "fixture_id": "arith-N4-004",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The record lists Team one = Team one-alt = 37 points.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 189-rejection equivalence-chain class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "restatement style; no candidate forms; never fires"
+  },
+  {
+   "fixture_id": "arith-N4-005",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The record lists Model M = Model M2 = 94 outputs.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 189-rejection equivalence-chain class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "restatement style; no candidate forms; never fires"
+  },
+  {
+   "fixture_id": "arith-N4-006",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The record lists Batch 1 = Batch 1b = 410 items.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 189-rejection equivalence-chain class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "restatement style; no candidate forms; never fires"
+  },
+  {
+   "fixture_id": "arith-N5-001",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The route covers 12 miles / 12 hours.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 50-rejection lhs-not-arith class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "dimensional prose; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N5-002",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The recipe needs 3 cups / 2 quarts.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 50-rejection lhs-not-arith class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "dimensional prose; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N5-003",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The pump moves 500 gallons / 10 minutes.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 50-rejection lhs-not-arith class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "dimensional prose; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N5-004",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The standard relation reads speed = distance / time.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 50-rejection lhs-not-arith class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "dimensional prose; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N5-005",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The flow equation is flow = volume / time.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 50-rejection lhs-not-arith class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "dimensional prose; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N5-006",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The pace formula is pace = distance / duration.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the 50-rejection lhs-not-arith class (raw leg)",
+   "pending_ruling": null,
+   "class_note": "dimensional prose; no candidate forms; fails open"
+  },
+  {
+   "fixture_id": "arith-N6-001",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The ledger shows 12 400 + 3 600 = 16000.",
+   "ground_truth": {
+    "target_lhs": "12400 + 3600",
+    "target_stated": "16000",
+    "stated_value": "16000",
+    "true_values": [
+     "16000"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": false
+   },
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the space-thousands merge class (the self-check of record)",
+   "pending_ruling": null,
+   "class_note": "thousands must merge and AGREE"
+  },
+  {
+   "fixture_id": "arith-N6-002",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The city counts 400 000 + 12 000 = 412000 residents.",
+   "ground_truth": {
+    "target_lhs": "400000 + 12000",
+    "target_stated": "412000",
+    "stated_value": "412000",
+    "true_values": [
+     "412000"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": false
+   },
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the space-thousands merge class (the self-check of record)",
+   "pending_ruling": null,
+   "class_note": "thousands must merge and AGREE"
+  },
+  {
+   "fixture_id": "arith-N6-003",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The bank holds 2,500 + 1,350 = 3,850.",
+   "ground_truth": {
+    "target_lhs": "2,500 + 1,350",
+    "target_stated": "3,850",
+    "stated_value": "3850",
+    "true_values": [
+     "3850"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": false
+   },
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the space-thousands merge class (the self-check of record)",
+   "pending_ruling": null,
+   "class_note": "thousands must merge and AGREE"
+  },
+  {
+   "fixture_id": "arith-N6-004",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The bank statement: <<2,500 + 1,350 = 3,850>>.",
+   "ground_truth": {
+    "target_lhs": "2,500 + 1,350",
+    "target_stated": "3,850",
+    "stated_value": "3850",
+    "true_values": [
+     "3850"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": false
+   },
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the space-thousands merge class (the self-check of record)",
+   "pending_ruling": null,
+   "class_note": "thousands must merge and AGREE"
+  },
+  {
+   "fixture_id": "arith-N6-005",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The plant total: <<1,250 x 4 = 5000>>.",
+   "ground_truth": {
+    "target_lhs": "1,250 x 4",
+    "target_stated": "5000",
+    "stated_value": "5000",
+    "true_values": [
+     "5000"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": false
+   },
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the space-thousands merge class (the self-check of record)",
+   "pending_ruling": null,
+   "class_note": "thousands must merge and AGREE"
+  },
+  {
+   "fixture_id": "arith-N6-006",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The yield sheet: <<12,400 + 3,600 = 16000>>.",
+   "ground_truth": {
+    "target_lhs": "12,400 + 3,600",
+    "target_stated": "16000",
+    "stated_value": "16000",
+    "true_values": [
+     "16000"
+    ],
+    "epsilon_as_is": "500000001/1000000000",
+    "stated_decimals": 0,
+    "beyond_epsilon_as_is": false
+   },
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the space-thousands merge class (the self-check of record)",
+   "pending_ruling": null,
+   "class_note": "thousands must merge and AGREE"
+  },
+  {
+   "fixture_id": "arith-N7-001",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The ratio reads 80/75 = 1.066 truncated.",
+   "ground_truth": {
+    "target_lhs": "80/75",
+    "target_stated": "1.066",
+    "stated_value": "533/500",
+    "true_values": [
+     "6000",
+     "16/15"
+    ],
+    "epsilon_as_is": "500001/1000000000",
+    "stated_decimals": 3,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the truncation-rounding subclass (80/75 = 1.066; item 55)",
+   "pending_ruling": "gate5-truncation",
+   "class_note": "truncated display beyond the half-unit tolerance as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N7-002",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The ratio reads 4100/3 = 1366.66 truncated.",
+   "ground_truth": {
+    "target_lhs": "4100/3",
+    "target_stated": "1366.66",
+    "stated_value": "68333/50",
+    "true_values": [
+     "4100/3",
+     "12300"
+    ],
+    "epsilon_as_is": "5000001/1000000000",
+    "stated_decimals": 2,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the truncation-rounding subclass (80/75 = 1.066; item 55)",
+   "pending_ruling": "gate5-truncation",
+   "class_note": "truncated display beyond the half-unit tolerance as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N7-003",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The ratio reads 22/7 = 3.142 truncated.",
+   "ground_truth": {
+    "target_lhs": "22/7",
+    "target_stated": "3.142",
+    "stated_value": "1571/500",
+    "true_values": [
+     "22/7",
+     "154"
+    ],
+    "epsilon_as_is": "500001/1000000000",
+    "stated_decimals": 3,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the truncation-rounding subclass (80/75 = 1.066; item 55)",
+   "pending_ruling": "gate5-truncation",
+   "class_note": "truncated display beyond the half-unit tolerance as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N7-004",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The ratio: <<100/6 = 16.66>> truncated.",
+   "ground_truth": {
+    "target_lhs": "100/6",
+    "target_stated": "16.66",
+    "stated_value": "833/50",
+    "true_values": [
+     "600",
+     "50/3"
+    ],
+    "epsilon_as_is": "5000001/1000000000",
+    "stated_decimals": 2,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the truncation-rounding subclass (80/75 = 1.066; item 55)",
+   "pending_ruling": "gate5-truncation",
+   "class_note": "truncated display beyond the half-unit tolerance as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N7-005",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The ratio: <<1000/7 = 142.85>> truncated.",
+   "ground_truth": {
+    "target_lhs": "1000/7",
+    "target_stated": "142.85",
+    "stated_value": "2857/20",
+    "true_values": [
+     "7000",
+     "1000/7"
+    ],
+    "epsilon_as_is": "5000001/1000000000",
+    "stated_decimals": 2,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the truncation-rounding subclass (80/75 = 1.066; item 55)",
+   "pending_ruling": "gate5-truncation",
+   "class_note": "truncated display beyond the half-unit tolerance as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N7-006",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "statement_text": "The ratio: <<500/7 = 71.42>> truncated.",
+   "ground_truth": {
+    "target_lhs": "500/7",
+    "target_stated": "71.42",
+    "stated_value": "3571/50",
+    "true_values": [
+     "500/7",
+     "3500"
+    ],
+    "epsilon_as_is": "5000001/1000000000",
+    "stated_decimals": 2,
+    "beyond_epsilon_as_is": true
+   },
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the truncation-rounding subclass (80/75 = 1.066; item 55)",
+   "pending_ruling": "gate5-truncation",
+   "class_note": "truncated display beyond the half-unit tolerance as-is; branch pre-registered on the Gate-5 stamp"
+  },
+  {
+   "fixture_id": "arith-N8-001",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The venture will not have a profit.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the chat qualitative-answer class",
+   "pending_ruling": null,
+   "class_note": "no candidate forms"
+  },
+  {
+   "fixture_id": "arith-N8-002",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The committee has no remaining seats.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the chat qualitative-answer class",
+   "pending_ruling": null,
+   "class_note": "no candidate forms"
+  },
+  {
+   "fixture_id": "arith-N8-003",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The running total was 340 + 25 =",
+   "ground_truth": null,
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": "no-parseable-result",
+   "habit_exemplar": "the cap-truncated class (raw doc 298)",
+   "pending_ruling": null,
+   "class_note": "truncated result; fails open, no invented verdict"
+  },
+  {
+   "fixture_id": "arith-N8-004",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The count so far is 1,240 + 88 =",
+   "ground_truth": null,
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": "no-parseable-result",
+   "habit_exemplar": "the cap-truncated class (raw doc 298)",
+   "pending_ruling": null,
+   "class_note": "truncated result; fails open, no invented verdict"
+  },
+  {
+   "fixture_id": "arith-N8-005",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The sum is = = 5.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the malformed class",
+   "pending_ruling": null,
+   "class_note": "no well-formed candidate; fails open"
+  },
+  {
+   "fixture_id": "arith-N8-006",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "statement_text": "The total equals = = 12.",
+   "ground_truth": null,
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "expected_guard": null,
+   "expected_event_class": null,
+   "habit_exemplar": "the malformed class",
+   "pending_ruling": null,
+   "class_note": "no well-formed candidate; fails open"
+  }
+ ]
+}
