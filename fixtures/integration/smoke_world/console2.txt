@@ -1,0 +1,36 @@
+=== TRIADIC INTEGRATION READOUT, PHASE 2 (B6 of the streaming-monitors act) ===
+  the fork parent: the integration runner of record (sha256 02d75b6cf5a44f07...)
+  the pinned sheet: streaming-event-monitors-phase2-preregistration.md (sha256 a0d36c1bd4fd75fe...)
+  the two rule lines: the B1 module of record (sha256 45bf152ed171a851...)
+  the label join: the landed phase-2 census export of record (sha256 5f09f1a91a942393...)
+  the pre-committed readings: the landed parity receipts of record (sha256 e620fa02bb5a20c9...)
+  mode: FIXTURE MODE -- pins echoed, never enforced
+  pins echoed: census export 5f09f1a91a942393..., caches {'math': '11004cd11cd70b1b', 'p2': '426459930ad726d7'}..., monitors 45bf152ed171a851..., census fork cbe8b12aea49844f..., forensics 1eb86e96ea9dba71...
+
+-- math --
+  docs: 8 (even calibration 4 / odd 4)
+  the r2 entry band (this leg's own, the calibration prefix-mean range): [-0.866263, 0.685393]
+  R-SM1 cleared silent: 3/3 -- HARD GATE GREEN
+  R-SM2 degenerate flagged: 3/3 -- HARD GATE GREEN
+  line split among flagged: {"both": 1, "cycle_only": 1, "phrase_only": 3}
+  cut-step quartiles (degenerate): min 7.0, q1 11.0, median 15.0, q3 43.0, max 71.0
+  census spike quartiles beside: min 2.0, q1 2.0, median 2.0, q3 2.0, max 2.0
+  frac of the cap saved by the cut: min 0.28, q1 0.4733, median 0.6667, q3 0.7084, max 0.75
+  the restoration at the cuts: 3 anchor(s) found, 0 absent
+  R-SM3 the boundary block: [2]
+  unexpected-stop block: [{'doc_id': 5, 'stop_reason': 'stop:fewshot-boundary'}]
+
+-- p2 --
+  docs: 3 (even calibration 2 / odd 1)
+  the r2 entry band (this leg's own, the calibration prefix-mean range): [-0.563553, 0.282358]
+  the empty-generation boundary block: 1 doc(s) [3] -- never through the gates
+  R-SM1 cleared silent: 1/1 -- HARD GATE GREEN
+  R-SM2 degenerate flagged: 1/1 -- HARD GATE GREEN
+  line split among flagged: {"both": 0, "cycle_only": 0, "phrase_only": 2}
+  cut-step quartiles (degenerate): min 71.0, q1 71.0, median 71.0, q3 71.0, max 71.0
+  census spike quartiles beside: min 2.0, q1 2.0, median 2.0, q3 2.0, max 2.0
+  frac of the cap saved by the cut: min 0.28, q1 0.28, median 0.28, q3 0.28, max 0.28
+  the restoration at the cuts: 1 anchor(s) found, 0 absent
+  R-SM3 the boundary block: [1]
+
+integration receipt written: receipt2.json (17813 bytes)
