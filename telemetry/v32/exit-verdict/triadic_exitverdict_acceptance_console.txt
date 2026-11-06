@@ -1,0 +1,98 @@
+EXIT-VERDICT ANNOTATOR — ACCEPTANCE RUN OF RECORD (item-182 stamp; design sheet item 181)
+Instrument: triadic_exitverdict_annotator.py v1.0.0  (offline posture annotator; zero model contact; additive-only)
+
+[1] INPUT RECEIPTS (SHA-256, before the run)
+    2ed76fd841c6c1ce...7eea1929  triadic_code17c_offline_pass_v1_per_doc.jsonl
+    6309d7f2bea94196...523c7250  triadic_prose17p_offline_pass_v1_per_doc.jsonl
+    966fa4da2ad7fd5e...a07197c9  triadic_p2corpus_offline_pass_v1_per_doc.jsonl
+    c8703a9571cea8c3...f9833bb3  gate17a_acceptance_run_v1.json
+    8ba17942eff1ffb7...0fee019b  triadic_generations_p2corpus_raw_v1.json
+    d3eb049df72b68e3...be0460f9  triadic_generations_p2corpus_chat_v1.json
+
+[2] THE ANNOTATION — run twice for determinism
+    run-1 bytes: 1081048   run-2 bytes: 1081048   BYTE-IDENTICAL: True
+
+[3] EXPORT OF RECORD: triadic_exitverdict_annotator_run_v1.json  1081052 bytes  SHA-256 c4213bbc92c9d327c29ff08ea492067645ab67d0e7ce4d83bce29299239d09b3
+
+[4] THE HAND-AUTHORED FIXTURES (exitverdict_acceptance_fixtures_v1.json; authored BEFORE the run; fix-the-fixture-or-the-builder)
+    PASS  E-PRIME-17C  raw:0  grade=DEGRADED lockout=False
+    PASS  E-PRIME-17C  raw:1  grade=DEGRADED lockout=False
+    PASS  E-PRIME-17C  raw:2  grade=CLEAN lockout=False
+    PASS  E-PRIME-17C  raw:38  grade=DEGRADED lockout=True
+    PASS  E-PRIME-17C  raw:50  grade=DEGRADED lockout=True
+    PASS  E-DOUBLE-17P  raw:0  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  raw:3  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  raw:9  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  raw:91  grade=CLEAN lockout=False
+    PASS  E-DOUBLE-17P  raw:98  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-17P  raw:120  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  chat:120  grade=DEGRADED lockout=True
+    PASS  E-DOUBLE-P2  raw:3  grade=CLEAN lockout=False
+    PASS  E-DOUBLE-P2  raw:11  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-P2  raw:44  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-P2  raw:72  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-P2  raw:90  grade=CALIBRATED-REJECTION lockout=False
+    PASS  17A-RUNTIME  raw:2  grade=DEGRADED lockout=True
+    PASS  17A-RUNTIME  raw:8  grade=DEGRADED lockout=True
+    PASS  17A-RUNTIME  raw:10  grade=DEGRADED lockout=True
+    PASS  17A-RUNTIME  raw:109  grade=CLEAN lockout=False
+    PASS  17A-RUNTIME  raw:211  grade=DEGRADED lockout=False
+    PASS  T2-P2-RAW  raw:0  grade=DEGRADED lockout=False
+    PASS  T2-P2-RAW  raw:1  grade=CLEAN lockout=False
+    PASS  T2-P2-RAW  raw:2  grade=DEGRADED lockout=False
+    PASS  T2-P2-RAW  raw:6  grade=DEGRADED lockout=False
+    PASS  T2-P2-CHAT  chat:0  grade=CLEAN lockout=False
+    PASS  T2-P2-CHAT  chat:100  grade=DEGRADED lockout=False
+    PASS  T2-P2-CHAT  chat:158  grade=DEGRADED lockout=False
+    FIXTURES: 29/29 MATCH EXPECTED
+
+[5] RUN CENSUS (every walk consumed exactly once; full feature record per D-S2(a))
+    17A-RUNTIME     1319 walks
+    E-DOUBLE-17P     151 walks
+    E-DOUBLE-P2       74 walks
+    E-PRIME-17C      164 walks
+    T2-P2-CHAT       180 walks
+    T2-P2-RAW        180 walks
+    TOTAL 2,068 walks
+    grade CALIBRATED-REJECTION       44
+    grade CLEAN                    1384
+    grade DEGRADED                  640
+    gap   CONFLICT                           12
+    gap   PROMOTION                           3
+    gap   PROMOTION-A                        10
+    gap   PROMOTION-B                        33
+
+[6] HONEST NOTES (stated, never smoothed)
+    - Band features INPUT-MISSING on every walk of every lane: the banked exports carry
+      no per-step margin columns (the near-tie band's mechanical source). A flagged
+      event therefore cannot be upgraded by the typed confidence rule -> every
+      flagged walk on this corpus grades DEGRADED or CALIBRATED-REJECTION. When an
+      owner-side full telemetry dump carries margins, band_member computes and the
+      rule can upgrade out-of-band events. Nothing fabricated here.
+    - Gap classes typed in the instrument but with ZERO members on the natural corpora:
+      the UNVERIFIED fails-open class (the natural code corpus was 164/164 RUNNABLE) and
+      the STATED-ANSWER-CONTRADICTION class (zero prose flags in the natural corpus).
+      Their engineered ground is the three closed fixture families; this replay is
+      natural corpora only — the census records the zeros honestly.
+    - CONTROL-FIRING rows (the P2 control axis, censused separately per M2-P2) and
+      SILENCE/BLANK-ANSWER rows (the honest-absence class) are census-only: no flag,
+      no gap — a control firing or a silence is not a fault and not an unverifiable claim.
+    - 17-A has no gap classes: a slip is a VERIFIED fault (deterministic math), never
+      an unverifiable claim.
+
+[7] NO-TOUCH RECEIPTS (SHA-256, after the run)
+    2ed76fd841c6c1ce...7eea1929  triadic_code17c_offline_pass_v1_per_doc.jsonl  UNCHANGED
+    6309d7f2bea94196...523c7250  triadic_prose17p_offline_pass_v1_per_doc.jsonl  UNCHANGED
+    966fa4da2ad7fd5e...a07197c9  triadic_p2corpus_offline_pass_v1_per_doc.jsonl  UNCHANGED
+    c8703a9571cea8c3...f9833bb3  gate17a_acceptance_run_v1.json  UNCHANGED
+    8ba17942eff1ffb7...0fee019b  triadic_generations_p2corpus_raw_v1.json  UNCHANGED
+    d3eb049df72b68e3...be0460f9  triadic_generations_p2corpus_chat_v1.json  UNCHANGED
+    2083233aaafd323b...410b8b4e  exitverdict_acceptance_fixtures_v1.json  UNCHANGED
+
+[8] VERDICT
+    R-EV1 runs-clean (all fixtures match expected):      PASS
+    R-EV2 determinism (two runs byte-identical):         PASS
+    R-EV3 no-touch (every input byte-unchanged):         PASS
+    ACCEPTANCE: ALL THREE PASS — the readings await the owner's stamps
+    θ [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-θ); no thresholds set, moved, or adjudicated; the band is a
+    banked cited census number; findings presented, never adjudicated.

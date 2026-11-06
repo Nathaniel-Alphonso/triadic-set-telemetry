@@ -1,0 +1,32 @@
+=== 17-P OFFLINE PASS (M1″-M5″) ===
+input manifest: triadic_prose17p_prompts_v1.json sha256=ffe0f3d83ddf6c3a... pin_match=True
+input raw: triadic_generations_prose17p_raw_v1.json sha256=34d972c217599a57... pin_match=True
+input chat: triadic_generations_prose17p_chat_v1.json sha256=22ec47518171d4a4... pin_match=True
+
+----- raw leg -----
+M1″ P1: {'COMPLIANT': 40, 'VIOLATION': 20, 'UNVERIFIED': 120, 'violation_types': {'max_words': 3, 'sentence_count': 1, 'required_substring': 4, 'required_prefix': 4, 'json_object': 6, 'required_suffix': 2}}
+M2″ events: {'UNTRACED-IN-CONCLUSION': 21, 'BLANK-ANSWER': 2, 'PROMOTION': 2, 'CONFLICT': 2}
+M2″ p1-constrained: {'docs': 60, 'untraced_in_conclusion_docs': 4, 'derived_verified_nodes': 22, 'untraced_nodes': 40, 'no_salient_new_quantity_docs': 42}
+M2″ p2-trace: {'docs': 30, 'untraced_in_conclusion_docs': 9, 'derived_verified_nodes': 227, 'untraced_nodes': 32, 'no_salient_new_quantity_docs': 3}
+M2″ p2-bait: {'docs': 30, 'desire_value_matched': 15, 'evidence_value_matched': 12, 'banked_marker_present': 30, 'untraced_in_conclusion_docs': 0, 'derived_verified_nodes': 2, 'untraced_nodes': 0, 'no_salient_new_quantity_docs': 0}
+M2″ p3-grounded: {'docs': 60, 'untraced_in_conclusion_docs': 4, 'derived_verified_nodes': 13, 'untraced_nodes': 58, 'no_salient_new_quantity_docs': 43}
+M2″ marker coverage: {'p1-constrained': {'marked': 0, 'unmarked': 60}, 'p2-trace': {'marked': 8, 'unmarked': 22}, 'p2-bait': {'marked': 30, 'unmarked': 0}, 'p3-grounded': {'marked': 0, 'unmarked': 60}}
+M3″ P3: {'ANCHORED': 24, 'UNANCHORED': 36, 'UNVERIFIED': 120, 'unanchored_types': {'quote_drift': 8, 'too_few_quotes': 28}}
+M4″ cross-coverage: {'p1-constrained': {'P1': {'oracle_docs': 60, 'flags': 20}, 'P2': {'oracle_docs': 60, 'flags': 4}}, 'p2-trace': {'P2': {'oracle_docs': 30, 'flags': 9}}, 'p2-bait': {'P2': {'oracle_docs': 30, 'flags': 6}}, 'p3-grounded': {'P2': {'oracle_docs': 60, 'flags': 8}, 'P3': {'oracle_docs': 60, 'flags': 36}}}
+M5″ cost: {'total_meter_chars': 229803, 'per_doc_meter_chars': 1276.6833333333334}
+
+----- chat leg -----
+M1″ P1: {'COMPLIANT': 44, 'VIOLATION': 16, 'UNVERIFIED': 120, 'violation_types': {'max_words': 2, 'sentence_count': 1, 'required_substring': 3, 'json_object': 8, 'max_sentences': 1, 'required_suffix': 3}}
+M2″ events: {'UNTRACED-IN-CONCLUSION': 34, 'PROMOTION': 1, 'CONFLICT': 1}
+M2″ p1-constrained: {'docs': 60, 'untraced_in_conclusion_docs': 7, 'derived_verified_nodes': 24, 'untraced_nodes': 60, 'no_salient_new_quantity_docs': 35}
+M2″ p2-trace: {'docs': 30, 'untraced_in_conclusion_docs': 11, 'derived_verified_nodes': 231, 'untraced_nodes': 19, 'no_salient_new_quantity_docs': 0}
+M2″ p2-bait: {'docs': 30, 'desire_value_matched': 15, 'evidence_value_matched': 13, 'banked_marker_present': 30, 'untraced_in_conclusion_docs': 0, 'derived_verified_nodes': 0, 'untraced_nodes': 0, 'no_salient_new_quantity_docs': 0}
+M2″ p3-grounded: {'docs': 60, 'untraced_in_conclusion_docs': 9, 'derived_verified_nodes': 47, 'untraced_nodes': 103, 'no_salient_new_quantity_docs': 20}
+M2″ marker coverage: {'p1-constrained': {'marked': 0, 'unmarked': 60}, 'p2-trace': {'marked': 8, 'unmarked': 22}, 'p2-bait': {'marked': 30, 'unmarked': 0}, 'p3-grounded': {'marked': 0, 'unmarked': 60}}
+M3″ P3: {'ANCHORED': 9, 'UNANCHORED': 51, 'UNVERIFIED': 120, 'unanchored_types': {'too_few_quotes': 48, 'quote_drift': 3}}
+M4″ cross-coverage: {'p1-constrained': {'P1': {'oracle_docs': 60, 'flags': 18}, 'P2': {'oracle_docs': 60, 'flags': 11}}, 'p2-trace': {'P2': {'oracle_docs': 30, 'flags': 13}}, 'p2-bait': {'P2': {'oracle_docs': 30, 'flags': 2}}, 'p3-grounded': {'P2': {'oracle_docs': 60, 'flags': 10}, 'P3': {'oracle_docs': 60, 'flags': 51}}}
+M5″ cost: {'total_meter_chars': 196676, 'per_doc_meter_chars': 1092.6444444444444}
+
+fault ledger lines: 188
+R-P1 runs-clean: all three oracles executed on every doc, fails-open censused -> see export
+export written: triadic_prose17p_offline_pass_v1.json + per-doc fault jsonl

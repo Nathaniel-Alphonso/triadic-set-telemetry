@@ -1,0 +1,109 @@
+EXIT-VERDICT ANNOTATOR v1.0.1 — THE MARGINS-JOIN ACCEPTANCE RUN OF RECORD (items 182/186/187)
+Instrument: triadic_exitverdict_annotator.py v1.0.1  (offline posture annotator; zero model contact; additive-only)
+
+[1] INPUT RECEIPTS (SHA-256, before the run)
+    2ed76fd841c6c1ce...7eea1929  triadic_code17c_offline_pass_v1_per_doc.jsonl
+    6309d7f2bea94196...523c7250  triadic_prose17p_offline_pass_v1_per_doc.jsonl
+    966fa4da2ad7fd5e...a07197c9  triadic_p2corpus_offline_pass_v1_per_doc.jsonl
+    c8703a9571cea8c3...f9833bb3  gate17a_acceptance_run_v1.json
+    8ba17942eff1ffb7...0fee019b  triadic_generations_p2corpus_raw_v1.json
+    d3eb049df72b68e3...be0460f9  triadic_generations_p2corpus_chat_v1.json
+    c0f5cca616833a5a...b8ac93b9  t2margins_t2-gsm-full_thin.jsonl
+    044d9fafa223e486...78dde3bf  t2margins_t2-gsm-chat100-a1_thin.jsonl
+
+[2] THE ANNOTATION — run twice for determinism
+    run-1 bytes: 1127000   run-2 bytes: 1127000   BYTE-IDENTICAL: True
+
+[3] EXPORT OF RECORD: triadic_exitverdict_annotator_run_v101.json  1127004 bytes  SHA-256 1b17575364cd6a674c34f71737756f7f8296c6d6fc63e5a3af9d8381198f54e1
+
+[4] THE HAND-AUTHORED FIXTURES (exitverdict_acceptance_fixtures_v2.json; authored BEFORE the run; fix-the-fixture-or-the-builder)
+    PASS  E-PRIME-17C  raw:0  grade=DEGRADED lockout=False
+    PASS  E-PRIME-17C  raw:1  grade=DEGRADED lockout=False
+    PASS  E-PRIME-17C  raw:2  grade=CLEAN lockout=False
+    PASS  E-PRIME-17C  raw:38  grade=DEGRADED lockout=True
+    PASS  E-PRIME-17C  raw:50  grade=DEGRADED lockout=True
+    PASS  E-DOUBLE-17P  raw:0  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  raw:3  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  raw:9  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  raw:91  grade=CLEAN lockout=False
+    PASS  E-DOUBLE-17P  raw:98  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-17P  raw:120  grade=DEGRADED lockout=False
+    PASS  E-DOUBLE-17P  chat:120  grade=DEGRADED lockout=True
+    PASS  E-DOUBLE-P2  raw:3  grade=CLEAN lockout=False
+    PASS  E-DOUBLE-P2  raw:11  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-P2  raw:44  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-P2  raw:72  grade=CALIBRATED-REJECTION lockout=False
+    PASS  E-DOUBLE-P2  raw:90  grade=CALIBRATED-REJECTION lockout=False
+    PASS  T2-P2-RAW  raw:0  grade=DEGRADED lockout=False
+    PASS  T2-P2-RAW  raw:1  grade=CLEAN lockout=False
+    PASS  T2-P2-RAW  raw:2  grade=DEGRADED lockout=False
+    PASS  T2-P2-RAW  raw:6  grade=DEGRADED lockout=False
+    PASS  T2-P2-CHAT  chat:0  grade=CLEAN lockout=False
+    PASS  T2-P2-CHAT  chat:100  grade=DEGRADED lockout=False
+    PASS  T2-P2-CHAT  chat:158  grade=DEGRADED lockout=False
+    PASS  17A-RUNTIME  raw:2  grade=CLEAN lockout=False
+    PASS  17A-RUNTIME  raw:8  grade=CLEAN lockout=False
+    PASS  17A-RUNTIME  raw:10  grade=CLEAN lockout=False
+    PASS  17A-RUNTIME  raw:109  grade=CLEAN lockout=False
+    PASS  17A-RUNTIME  raw:211  grade=CLEAN lockout=False
+    PASS  17A-RUNTIME  raw:266  grade=DEGRADED lockout=True
+    PASS  17A-RUNTIME  raw:1030  grade=DEGRADED lockout=True
+    FIXTURES: 31/31 MATCH EXPECTED
+
+[5] RUN CENSUS (every walk consumed exactly once; full feature record per D-S2(a))
+    17A-RUNTIME     1319 walks
+    E-DOUBLE-17P     151 walks
+    E-DOUBLE-P2       74 walks
+    E-PRIME-17C      164 walks
+    T2-P2-CHAT       180 walks
+    T2-P2-RAW        180 walks
+    TOTAL 2,068 walks
+    band-join census: margins records loaded 1429  |  17-A joined 1319  |  chat-leg banked-unjoined 100
+    grade CALIBRATED-REJECTION       44
+    grade CLEAN                    1732
+    grade DEGRADED                  292
+    gap   CONFLICT                           12
+    gap   PROMOTION                           3
+    gap   PROMOTION-A                        10
+    gap   PROMOTION-B                        33
+
+[6] HONEST NOTES (stated, never smoothed)
+    - v1.0.1 THE MARGINS-JOIN (item-187): the band is LIVE on the 17-A lane — the item-186
+      thin-margin records join 1,319/1,319 walks; the typed confidence rule's upgrade path
+      is now exercised (PASS-OUT-OF-BAND upgrades; FAIL-IN-BAND stands). The decisive read
+      binding is walk-level (last ANSWER-phase commitment gap, else last commitment gap)
+      because the 17-A fire records carry no step indices — typed as such, never guessed.
+    - Every lane EXCEPT 17-A remains INPUT-MISSING: no margins exist for those corpora
+      (the E'/E"/T2-P2 corpora were never walked under telemetry; the chat-leg margins
+      are banked input with ZERO current lane joins — censused, not fabricated). The
+      zero-commitment class is typed in the instrument with zero members on the joining
+      lane (the single zero-commit record is a loop fixture, not a 17-A walk).
+    - Gap classes typed in the instrument but with ZERO members on the natural corpora:
+      the UNVERIFIED fails-open class (the natural code corpus was 164/164 RUNNABLE) and
+      the STATED-ANSWER-CONTRADICTION class (zero prose flags in the natural corpus).
+      Their engineered ground is the three closed fixture families; this replay is
+      natural corpora only — the census records the zeros honestly.
+    - CONTROL-FIRING rows (the P2 control axis, censused separately per M2-P2) and
+      SILENCE/BLANK-ANSWER rows (the honest-absence class) are census-only: no flag,
+      no gap — a control firing or a silence is not a fault and not an unverifiable claim.
+    - 17-A has no gap classes: a slip is a VERIFIED fault (deterministic math), never
+      an unverifiable claim.
+
+[7] NO-TOUCH RECEIPTS (SHA-256, after the run)
+    2ed76fd841c6c1ce...7eea1929  triadic_code17c_offline_pass_v1_per_doc.jsonl  UNCHANGED
+    6309d7f2bea94196...523c7250  triadic_prose17p_offline_pass_v1_per_doc.jsonl  UNCHANGED
+    966fa4da2ad7fd5e...a07197c9  triadic_p2corpus_offline_pass_v1_per_doc.jsonl  UNCHANGED
+    c8703a9571cea8c3...f9833bb3  gate17a_acceptance_run_v1.json  UNCHANGED
+    8ba17942eff1ffb7...0fee019b  triadic_generations_p2corpus_raw_v1.json  UNCHANGED
+    d3eb049df72b68e3...be0460f9  triadic_generations_p2corpus_chat_v1.json  UNCHANGED
+    c0f5cca616833a5a...b8ac93b9  t2margins_t2-gsm-full_thin.jsonl  UNCHANGED
+    044d9fafa223e486...78dde3bf  t2margins_t2-gsm-chat100-a1_thin.jsonl  UNCHANGED
+    3ed677994f4745d3...80812636  exitverdict_acceptance_fixtures_v2.json  UNCHANGED
+
+[8] VERDICT
+    R-EV1 runs-clean (all fixtures match expected):      PASS
+    R-EV2 determinism (two runs byte-identical):         PASS
+    R-EV3 no-touch (every input byte-unchanged):         PASS
+    ACCEPTANCE: ALL THREE PASS — the readings await the owner's stamps
+    θ [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-θ); no thresholds set, moved, or adjudicated; the band is a
+    banked cited census number; findings presented, never adjudicated.

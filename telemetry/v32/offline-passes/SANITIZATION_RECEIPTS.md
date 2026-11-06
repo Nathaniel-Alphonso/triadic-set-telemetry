@@ -35,3 +35,4 @@ Original SHA-256 is the byte-hash of the unredacted artifact of record.
 | triadic_p2corpus_offline_pass_console.txt | 0 | 4da5b9cb55c45d97cb0dc8c19c6d06ddd7f98bd8f1205e426c7049daaeef12a2 |
 | triadic_checker_offline_pass_8b_console.txt | 0 | aca7117b48f0dbb40e56967ca0bf784630860185e17d6c18b7efa9749b47899f |
 | triadic_checker_offline_pass_chat_8b_console.txt | 0 | 23f26fb73afe3818be34bdc8a6470ac9dd74419f66af7655b09e244324550b5a |
+| triadic_prose17p_offline_pass_console.txt | 0 | 7b0bb8e5cefdd9db3b23864fc5672ec72808cb4b564fd744870dd673a65dbdc2 |
