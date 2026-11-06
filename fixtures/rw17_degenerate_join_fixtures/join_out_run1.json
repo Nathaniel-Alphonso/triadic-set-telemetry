@@ -1,0 +1,4218 @@
+{
+ "export": {
+  "file": "crafted_world.json",
+  "fixture_mode": true,
+  "tag": "crafted-world",
+  "tool": "crafted-world-builder",
+  "tool_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+ },
+ "honest_boundaries": [
+  "THE log T/T LENGTH-SCALING HYPOTHESIS, NAMED AS HYPOTHESIS, NEVER A RECEIPT: the view prints the observable (the clean SR1 shape means decline across the n_commits quartile bands on all four legs; the 10 loops land band 4 on gsm vs bands 1-2 on prose/p2); the MECHANISM (E[max-run]/T ~ log T/T) is a named hypothesis whose iid idealization the walk's autocorrelated PR-sig series violates in principle -- the record lane's pre-regs may test the mechanism, NEVER here.",
+  "THE 10 FIXED LOOP FIXTURES -- label_correct null, CAVEAT 3: every loop cell is coverage MEASURED, never guaranteed; every rate with its n.",
+  "THE CIRCULARITY CLAUSES RIDE: the probe circularity (the retrained track fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence, named on every retrained column); the co-derivation disclosure (posture cuts + shape scale both derive on the clean calibration half -- conditional structures, never confirmations).",
+  "THE UNION IS A RECEIPT: the 10/10 set-union recall carries its clean-occupancy cost side (125 cal + 125 held band-4 clean) at every consumption; any actuation on it is operative change, its own pre-reg, never assumed.",
+  "WITHHELD-NAMED, NEVER ZERO-FILLED: the per-state retrained classification (the per-doc four-cell counts); the Base D calibration per-doc fire status (the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides); the D'' per-doc fire status on calibration + loops (the aggregates ride); the per-doc SEC-1 R_band on non-fired clean docs (the aggregate SEC-1 means ride).",
+  "DEVELOPMENT-LANE ONLY: the 3B/scout/fp16 label rides every number; the record lane (4090/bf16) re-derives the view entire under its own pre-regs; nothing here gates, vets, or vetoes anything.",
+  "NO NEW FIT; NO WEIGHTED SUMS; ONE THRESHOLD PER LEG; theta [REDACTED_PER_PUBLICATION_POLICY] UNMOVED (D-theta); the 2-sigma bar never applied inside the view (the view is the baseline feed; the record lane runs the bar)."
+ ],
+ "law": "THE EXTRACTION NEVER RE-COMPUTES A BANKED RECEIPT -- it JOINS the banked ones; every derivable aggregate asserted == the export's own receipts == the banked anchors EXACT; receipts only, zero operative change of any class; no weighted sums; no new fit; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); zero verdict tokens; DEVELOPMENT DATA ONLY; the record lane (4090/bf16) re-derives the view entire under its own pre-regs; findings presented, never adjudicated -- the owner's stamps decide",
+ "mode": "FIXTURE (acceptance/battery -- the banked anchors echoed, never enforced)",
+ "regression_anchors": [
+  {
+   "anchor": "theta_gamma (the 325-STAMP gamma clause)",
+   "banked": 0.2806541621685028,
+   "derived": 0.2806541621685028,
+   "export": 0.2806541621685028,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "theta_pr (the retrained receipt cut, 6dp)",
+   "banked": 0.710523,
+   "derived": 0.710523,
+   "export": 0.710523,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the state census calibration (item-329)",
+   "banked": 20484,
+   "derived": 20,
+   "export": 20,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the in-gap gamma census calibration (item-329)",
+   "banked": 17089,
+   "derived": 14,
+   "export": 14,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the four-cell cross-table calibration (item-363)",
+   "banked": [
+    6575,
+    10514,
+    1456,
+    1939
+   ],
+   "derived": [
+    5,
+    9,
+    4,
+    2
+   ],
+   "export": [
+    5,
+    9,
+    4,
+    2
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the state census held_out (item-329)",
+   "banked": 20304,
+   "derived": 28,
+   "export": 28,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the in-gap gamma census held_out (item-329)",
+   "banked": 16514,
+   "derived": 18,
+   "export": 18,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the four-cell cross-table held_out (item-363)",
+   "banked": [
+    6389,
+    10125,
+    1553,
+    2237
+   ],
+   "derived": [
+    10,
+    8,
+    3,
+    7
+   ],
+   "export": [
+    10,
+    8,
+    3,
+    7
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the state census loop_live (item-329)",
+   "banked": 1605,
+   "derived": 22,
+   "export": 22,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the in-gap gamma census loop_live (item-329)",
+   "banked": 597,
+   "derived": 19,
+   "export": 19,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the four-cell cross-table loop_live (item-363)",
+   "banked": [
+    532,
+    65,
+    929,
+    79
+   ],
+   "derived": [
+    10,
+    9,
+    1,
+    2
+   ],
+   "export": [
+    10,
+    9,
+    1,
+    2
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D t_leg (4dp)",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "export": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D calibration fires",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D held-out fires",
+   "banked": 25,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D loop catches",
+   "banked": 5,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D fired-through-gate-off",
+   "banked": 23,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D sigma gap (3dp)",
+   "banked": 0.981,
+   "derived": 0.981,
+   "export": 0.981,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "Base D AUC (3dp)",
+   "banked": 0.674,
+   "derived": 0.674,
+   "export": 0.674,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the gate armed census calibration (K=4)",
+   "banked": 19,
+   "derived": 3,
+   "export": 3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the gate armed census held_out (K=4)",
+   "banked": 23,
+   "derived": 3,
+   "export": 3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the gate armed census loop_live (K=4)",
+   "banked": 7,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 t_leg (4dp)",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "export": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 calibration fires (LEVEL-SET reading)",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 calibration ceiling",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": 25,
+   "export": 25,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 held-out fires",
+   "banked": 19,
+   "derived": 3,
+   "export": 3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 loop catches",
+   "banked": 6,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 fired-through-gate-off",
+   "banked": 17,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 composite scale mu_c",
+   "banked": 0.1168,
+   "derived": 0.1168,
+   "export": 0.1168,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 composite scale sd_c",
+   "banked": 0.0619,
+   "derived": 0.0619,
+   "export": 0.0619,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 composite scale mu_f",
+   "banked": 0.0962,
+   "derived": 0.0962,
+   "export": 0.0962,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 composite scale sd_f",
+   "banked": 0.056,
+   "derived": 0.056,
+   "export": 0.056,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 sigma gap (3dp)",
+   "banked": 1.228,
+   "derived": 1.228,
+   "export": 1.228,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SR1 AUC (3dp)",
+   "banked": 0.785,
+   "derived": 0.785,
+   "export": 0.785,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE t_leg (4dp)",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "export": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE calibration fires",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": 3,
+   "export": 3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE held-out fires",
+   "banked": 25,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE loop catches",
+   "banked": 10,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE fired-through-gate-off",
+   "banked": 20,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE sigma gap (3dp)",
+   "banked": 3.641,
+   "derived": 3.641,
+   "export": 3.641,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "AE AUC (3dp)",
+   "banked": 0.999,
+   "derived": 0.999,
+   "export": 0.999,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' t_leg (3dp, f-IN/PR-positive)",
+   "banked": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "derived": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "export": "[REDACTED_PER_PUBLICATION_POLICY]",
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' calibration fires (OVER the ceiling)",
+   "banked": 90,
+   "derived": 90,
+   "export": 90,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' held-out fires",
+   "banked": 60,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' loop catches",
+   "banked": 9,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' fired-through-gate-off",
+   "banked": 57,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' ungated-f fires through gate off",
+   "banked": 56,
+   "derived": 0,
+   "export": 0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' NEW FIRES (all via z_f)",
+   "banked": 54,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' sigma gap f-IN/PR-positive (3dp)",
+   "banked": 1.777,
+   "derived": 1.777,
+   "export": 1.777,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' AUC f-IN/PR-positive (3dp)",
+   "banked": 0.91,
+   "derived": 0.91,
+   "export": 0.91,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' sigma gap f-IN/PR-negative (3dp, the PR TIE dual-sided)",
+   "banked": 1.957,
+   "derived": 1.957,
+   "export": 1.957,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "D'' AUC f-IN/PR-negative (3dp)",
+   "banked": 0.959,
+   "derived": 0.959,
+   "export": 0.959,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "posture occupancy gamma calibration",
+   "banked": [
+    125,
+    128,
+    124,
+    123
+   ],
+   "derived": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the R=0 named sub-band gamma calibration",
+   "banked": 0,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma calibration band 1 (n/gated/fired/off)",
+   "banked": [
+    125,
+    122,
+    3,
+    3
+   ],
+   "derived": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma calibration band 1",
+   "banked": -0.3007,
+   "derived": 1.85,
+   "export": 1.85,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma calibration band 2 (n/gated/fired/off)",
+   "banked": [
+    128,
+    123,
+    3,
+    3
+   ],
+   "derived": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma calibration band 2",
+   "banked": 0.0067,
+   "derived": 1.9,
+   "export": 1.9,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma calibration band 3 (n/gated/fired/off)",
+   "banked": [
+    124,
+    117,
+    9,
+    8
+   ],
+   "derived": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma calibration band 3",
+   "banked": 0.1511,
+   "derived": 0.3,
+   "export": 0.3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma calibration band 4 (n/gated/fired/off)",
+   "banked": [
+    123,
+    119,
+    13,
+    12
+   ],
+   "derived": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma calibration band 4",
+   "banked": 0.2048,
+   "derived": 0.2,
+   "export": 0.2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "posture occupancy gamma held_out",
+   "banked": [
+    142,
+    129,
+    121,
+    108
+   ],
+   "derived": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the R=0 named sub-band gamma held_out",
+   "banked": 0,
+   "derived": 0,
+   "export": 0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma held_out band 1 (n/gated/fired/off)",
+   "banked": [
+    142,
+    131,
+    3,
+    2
+   ],
+   "derived": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma held_out band 1",
+   "banked": -0.164,
+   "derived": 1.65,
+   "export": 1.65,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma held_out band 2 (n/gated/fired/off)",
+   "banked": [
+    129,
+    123,
+    4,
+    4
+   ],
+   "derived": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma held_out band 2",
+   "banked": 0.0419,
+   "derived": 0.9,
+   "export": 0.9,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma held_out band 3 (n/gated/fired/off)",
+   "banked": [
+    121,
+    117,
+    4,
+    4
+   ],
+   "derived": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma held_out band 3",
+   "banked": 0.1059,
+   "derived": 1.9,
+   "export": 1.9,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma held_out band 4 (n/gated/fired/off)",
+   "banked": [
+    108,
+    106,
+    8,
+    7
+   ],
+   "derived": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma held_out band 4",
+   "banked": 0.1023,
+   "derived": 2.0,
+   "export": 2.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "posture occupancy gamma loop_live",
+   "banked": [
+    5,
+    2,
+    2,
+    1
+   ],
+   "derived": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "export": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the R=0 named sub-band gamma loop_live",
+   "banked": 1,
+   "derived": 0,
+   "export": 0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma loop_live band 1 (n/gated/fired/off)",
+   "banked": [
+    5,
+    0,
+    2,
+    0
+   ],
+   "derived": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma loop_live band 1",
+   "banked": 3.3874,
+   "derived": 3.0,
+   "export": 3.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma loop_live band 2 (n/gated/fired/off)",
+   "banked": [
+    2,
+    2,
+    1,
+    1
+   ],
+   "derived": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma loop_live band 2",
+   "banked": 2.0477,
+   "derived": 0.5,
+   "export": 0.5,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma loop_live band 3 (n/gated/fired/off)",
+   "banked": [
+    2,
+    1,
+    2,
+    1
+   ],
+   "derived": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "export": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way gamma loop_live band 4 (n/gated/fired/off)",
+   "banked": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "derived": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean gamma loop_live band 4",
+   "banked": 14.322,
+   "derived": 2.2,
+   "export": 2.2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "posture occupancy retrained calibration",
+   "banked": [
+    125,
+    133,
+    117,
+    125
+   ],
+   "derived": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "export": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the R=0 named sub-band retrained calibration",
+   "banked": 19,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained calibration band 1 (n/gated/fired/off)",
+   "banked": [
+    125,
+    122,
+    6,
+    5
+   ],
+   "derived": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained calibration band 1",
+   "banked": 0.1734,
+   "derived": 2.0,
+   "export": 2.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained calibration band 2 (n/gated/fired/off)",
+   "banked": [
+    133,
+    127,
+    12,
+    12
+   ],
+   "derived": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained calibration band 2",
+   "banked": 0.1484,
+   "derived": 1.8,
+   "export": 1.8,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained calibration band 3 (n/gated/fired/off)",
+   "banked": [
+    117,
+    114,
+    5,
+    4
+   ],
+   "derived": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained calibration band 3",
+   "banked": -0.1724,
+   "derived": 0.3,
+   "export": 0.3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained calibration band 4 (n/gated/fired/off)",
+   "banked": [
+    125,
+    118,
+    5,
+    5
+   ],
+   "derived": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained calibration band 4",
+   "banked": -0.1123,
+   "derived": 0.2,
+   "export": 0.2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "posture occupancy retrained held_out",
+   "banked": [
+    121,
+    131,
+    123,
+    125
+   ],
+   "derived": [
+    1,
+    1,
+    2,
+    1
+   ],
+   "export": [
+    1,
+    1,
+    2,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the R=0 named sub-band retrained held_out",
+   "banked": 15,
+   "derived": 0,
+   "export": 0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained held_out band 1 (n/gated/fired/off)",
+   "banked": [
+    121,
+    116,
+    3,
+    2
+   ],
+   "derived": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "export": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained held_out band 1",
+   "banked": 0.1215,
+   "derived": 0.9,
+   "export": 0.9,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained held_out band 2 (n/gated/fired/off)",
+   "banked": [
+    131,
+    124,
+    2,
+    1
+   ],
+   "derived": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained held_out band 2",
+   "banked": 0.0557,
+   "derived": 1.9,
+   "export": 1.9,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained held_out band 3 (n/gated/fired/off)",
+   "banked": [
+    123,
+    119,
+    4,
+    4
+   ],
+   "derived": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained held_out band 3",
+   "banked": -0.0456,
+   "derived": 1.6,
+   "export": 1.6,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained held_out band 4 (n/gated/fired/off)",
+   "banked": [
+    125,
+    118,
+    10,
+    10
+   ],
+   "derived": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained held_out band 4",
+   "banked": -0.0833,
+   "derived": 2.1,
+   "export": 2.1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "posture occupancy retrained loop_live",
+   "banked": [
+    0,
+    1,
+    1,
+    8
+   ],
+   "derived": [
+    1,
+    0,
+    0,
+    2
+   ],
+   "export": [
+    1,
+    0,
+    0,
+    2
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the R=0 named sub-band retrained loop_live",
+   "banked": 0,
+   "derived": 0,
+   "export": 0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained loop_live band 1 (n/gated/fired/off)",
+   "banked": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "derived": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "export": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained loop_live band 2 (n/gated/fired/off)",
+   "banked": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "derived": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "export": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained loop_live band 3 (n/gated/fired/off)",
+   "banked": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "derived": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "export": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way retrained loop_live band 4 (n/gated/fired/off)",
+   "banked": [
+    8,
+    2,
+    4,
+    1
+   ],
+   "derived": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "export": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "two-way shape mean retrained loop_live band 4",
+   "banked": 4.1839,
+   "derived": 1.35,
+   "export": 1.35,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the NAMED-GATED per-band census gamma",
+   "banked": [
+    253,
+    248,
+    235,
+    225
+   ],
+   "derived": [
+    0,
+    2,
+    0,
+    3
+   ],
+   "export": [
+    0,
+    2,
+    0,
+    3
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the NAMED-GATED per-band census retrained",
+   "banked": [
+    238,
+    251,
+    234,
+    238
+   ],
+   "derived": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "export": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the set-union loop coverage (10/10)",
+   "banked": 10,
+   "derived": 3,
+   "export": 3,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the set-union shape-only arm",
+   "banked": 2,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the set-union dual arm",
+   "banked": 4,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the set-union posture-only arm",
+   "banked": 4,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the retrained band-4 CLEAN occupancy cost (calibration)",
+   "banked": 125,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the retrained band-4 CLEAN occupancy cost (held_out)",
+   "banked": 125,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the gamma-track band-1 loop territory",
+   "banked": 5,
+   "derived": 1,
+   "export": 1,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "the gate-armed loop census",
+   "banked": 7,
+   "derived": 2,
+   "export": 2,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "cal SR1 fires in retrained bands 1-2",
+   "banked": [
+    18,
+    28
+   ],
+   "derived": [
+    2,
+    2
+   ],
+   "export": [
+    2,
+    2
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "cal SR1 fired-through-gate-off",
+   "banked": [
+    26,
+    28
+   ],
+   "derived": [
+    1,
+    2
+   ],
+   "export": [
+    1,
+    2
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "held-out SR1 fired-through-gate-off",
+   "banked": [
+    17,
+    19
+   ],
+   "derived": [
+    1,
+    3
+   ],
+   "export": [
+    1,
+    3
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "held-out SR1 fires in retrained band 4 gate-off",
+   "banked": [
+    10,
+    19
+   ],
+   "derived": [
+    0,
+    3
+   ],
+   "export": [
+    0,
+    3
+   ],
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SEC-1 mean N_band loops (1dp)",
+   "banked": 6.2,
+   "derived": 6.0,
+   "export": 6.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SEC-1 mean R_band loops",
+   "banked": 1.2,
+   "derived": 2.0,
+   "export": 2.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SEC-1 mean N_band fired_clean (1dp)",
+   "banked": 1.7,
+   "derived": 7.0,
+   "export": 7.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SEC-1 mean R_band fired_clean",
+   "banked": 1.04,
+   "derived": 1.5,
+   "export": 1.5,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SEC-1 mean N_band nonfired_clean (1dp)",
+   "banked": 1.6,
+   "derived": 3.0,
+   "export": 3.0,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "SEC-1 mean R_band nonfired_clean",
+   "banked": 1.035789473684,
+   "derived": 2.25,
+   "export": 2.25,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R gamma loop_vs_calib gap (3dp)",
+   "banked": -0.693,
+   "derived": -0.693,
+   "export": -0.693,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R gamma loop_vs_calib AUC (3dp)",
+   "banked": 0.292,
+   "derived": 0.292,
+   "export": 0.292,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R gamma loop_vs_held_out gap (3dp)",
+   "banked": -0.626,
+   "derived": -0.626,
+   "export": -0.626,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R gamma loop_vs_held_out AUC (3dp)",
+   "banked": 0.312,
+   "derived": 0.312,
+   "export": 0.312,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R retrained loop_vs_calib gap (3dp)",
+   "banked": 1.975,
+   "derived": 1.975,
+   "export": 1.975,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R retrained loop_vs_calib AUC (3dp)",
+   "banked": 0.911,
+   "derived": 0.911,
+   "export": 0.911,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R retrained loop_vs_held_out gap (3dp)",
+   "banked": 1.951,
+   "derived": 1.951,
+   "export": 1.951,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  },
+  {
+   "anchor": "FORM R retrained loop_vs_held_out AUC (3dp)",
+   "banked": 0.909,
+   "derived": 0.909,
+   "export": 0.909,
+   "status": "ECHO (fixture mode -- the banked pin not enforced on a crafted world)"
+  }
+ ],
+ "rows": [
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "0",
+   "half": "calibration",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": null,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 6,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 6,
+    "r_gamma": 1.0,
+    "r_pr": 0.5,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.5,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "base_d_fired": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": true,
+    "sr1_above_mild_s": false,
+    "sr1_d": 2.0,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 1.2,
+    "z_c": 0.4,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 6
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 6
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 1,
+    "posture_band_retrained": 1,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.03,
+     "hedge_mass_mean": 0.04,
+     "margin_mean": 0.02,
+     "margin_min": 0.01,
+     "n_commits": 6
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "2",
+   "half": "calibration",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": true,
+     "base_d": null,
+     "dpp": null,
+     "sr1": true
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 4,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 4,
+    "r_gamma": 0.5,
+    "r_pr": 0.3,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.5,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "base_d_fired": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": true,
+    "sr1_d": 1.9,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.8,
+    "z_c": 0.2,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     2,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 4
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 2
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 2,
+    "posture_band_retrained": 2,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.07,
+     "hedge_mass_mean": 0.08,
+     "margin_mean": 0.06,
+     "margin_min": 0.05,
+     "n_commits": 4
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "4",
+   "half": "calibration",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": null,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 5,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 3,
+    "r_gamma": 0.3333333333333333,
+    "r_pr": 0.2,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 1.0,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "base_d_fired": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": false,
+    "sr1_d": 0.3,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.5,
+    "z_c": 0.1,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 3
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 2
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 3,
+    "posture_band_retrained": 3,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.11,
+     "hedge_mass_mean": 0.12,
+     "margin_mean": 0.1,
+     "margin_min": 0.09,
+     "n_commits": 3
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "6",
+   "half": "calibration",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": null,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 2,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 2,
+    "r_gamma": 0.0,
+    "r_pr": 0.0,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 0.5,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "base_d_fired": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": false,
+    "sr1_d": 0.2,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.3,
+    "z_c": 0.0,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 2
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 0
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 4,
+    "posture_band_retrained": 4,
+    "r_gamma_zero_subband": true,
+    "r_pr_zero_subband": true,
+    "weight_forms": {
+     "K_mean": 0.15,
+     "hedge_mass_mean": 0.16,
+     "margin_mean": 0.14,
+     "margin_min": 0.13,
+     "n_commits": 2
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "8",
+   "half": "calibration",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": null,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 5,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 5,
+    "r_gamma": 0.6,
+    "r_pr": 0.4,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.0,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "base_d_fired": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": true,
+    "sr1_above_mild_s": true,
+    "sr1_d": 1.7,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 1.9,
+    "z_c": 0.6,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 5
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 4
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 1,
+    "posture_band_retrained": 2,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.19,
+     "hedge_mass_mean": 0.2,
+     "margin_mean": 0.18,
+     "margin_min": 0.17,
+     "n_commits": 5
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "10",
+   "half": "calibration",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": null,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 0,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 0,
+    "r_gamma": null,
+    "r_pr": null,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": true
+   },
+   "l3_shape": {
+    "ae_d": 0.5,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "base_d_fired": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": false,
+    "sr1_d": 0.2,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.4,
+    "z_c": 0.3,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 0
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 0
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": null,
+    "posture_band_retrained": null,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.0,
+     "hedge_mass_mean": 0.0,
+     "margin_mean": 0.0,
+     "margin_min": 0.0,
+     "n_commits": 0
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "1",
+   "half": "held_out",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": true,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 6,
+    "r_band": 2
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 6,
+    "r_gamma": 0.3333333333333333,
+    "r_pr": 0.25,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 1.0,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": 2.0,
+    "base_d_fired": true,
+    "dpp_fired": false,
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": false,
+    "sr1_d": 0.9,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 1.0,
+    "z_c": 0.7,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": 2.0,
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 6
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 4
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 2,
+    "posture_band_retrained": 1,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.23,
+     "hedge_mass_mean": 0.24,
+     "margin_mean": 0.22,
+     "margin_min": 0.21,
+     "n_commits": 6
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "3",
+   "half": "held_out",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": false,
+     "dpp": false,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 8,
+    "r_band": 1
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 8,
+    "r_gamma": 0.375,
+    "r_pr": 0.5,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.5,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": 2.8,
+    "base_d_fired": true,
+    "dpp_fired": true,
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": true,
+    "sr1_above_mild_s": false,
+    "sr1_d": 2.1,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": true,
+    "dpp_terms": [
+     "C",
+     "F",
+     "E",
+     "f"
+    ],
+    "max_pr_sig": 2.0,
+    "z_c": 1.1,
+    "z_e": 2.5,
+    "z_f": 0.5,
+    "z_f_term": 2.3
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     8,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 8
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 6
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 1,
+    "posture_band_retrained": 4,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.27,
+     "hedge_mass_mean": 0.28,
+     "margin_mean": 0.26,
+     "margin_min": 0.25,
+     "n_commits": 8
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "5",
+   "half": "held_out",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": false,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 4,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 4,
+    "r_gamma": 0.25,
+    "r_pr": 0.3,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 0.5,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": null,
+    "base_d_fired": false,
+    "dpp_fired": false,
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": true,
+    "sr1_above_mild_s": false,
+    "sr1_d": 1.9,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 1.4,
+    "z_c": 0.5,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 4
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 2
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 3,
+    "posture_band_retrained": 2,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.31,
+     "hedge_mass_mean": 0.32,
+     "margin_mean": 0.3,
+     "margin_min": 0.29,
+     "n_commits": 4
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "7",
+   "half": "held_out",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": true,
+     "base_d": false,
+     "dpp": true,
+     "sr1": true
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 3,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 5,
+    "r_gamma": 0.8,
+    "r_pr": 0.6,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.5,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": null,
+    "base_d_fired": false,
+    "dpp_fired": true,
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": true,
+    "sr1_d": 2.0,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": false,
+    "dpp_terms": [
+     "C",
+     "F"
+    ],
+    "max_pr_sig": 0.9,
+    "z_c": 0.2,
+    "z_e": 0.3,
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": null
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 5
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 4
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 4,
+    "posture_band_retrained": 3,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.35,
+     "hedge_mass_mean": 0.36,
+     "margin_mean": 0.34,
+     "margin_min": 0.33,
+     "n_commits": 5
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "9",
+   "half": "held_out",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": false,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 0,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 0,
+    "r_gamma": null,
+    "r_pr": null,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": true
+   },
+   "l3_shape": {
+    "ae_d": 0.5,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": null,
+    "base_d_fired": false,
+    "dpp_fired": false,
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": false,
+    "sr1_d": 0.5,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.2,
+    "z_c": 0.1,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 0
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 0
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": null,
+    "posture_band_retrained": null,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.0,
+     "hedge_mass_mean": 0.0,
+     "margin_mean": 0.0,
+     "margin_min": 0.0,
+     "n_commits": 0
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "11",
+   "half": "held_out",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": false,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 5,
+    "r_band": "WITHHELD-EXPORT (the per-doc SEC-1 R_band rides the fired/loop doc views only; the as-sized export's aggregate SEC-1 means ride surfaces.taxonomy)"
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 5,
+    "r_gamma": 0.4,
+    "r_pr": 0.1,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 1.0,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": null,
+    "base_d_fired": false,
+    "dpp_fired": false,
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": true,
+    "sr1_d": 1.2,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 1.1,
+    "z_c": 0.9,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": "WITHHELD-EXPORT (the per-doc z_F rides the fired/loop doc views only)",
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 5
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 2
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 1,
+    "posture_band_retrained": 3,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.39,
+     "hedge_mass_mean": 0.4,
+     "margin_mean": 0.38,
+     "margin_min": 0.37,
+     "n_commits": 5
+    }
+   },
+   "population": "clean"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "901",
+   "half": "loop_live",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": false,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 9,
+    "r_band": 1
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 9,
+    "r_gamma": 1.0,
+    "r_pr": 0.9,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.0,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": 2.9,
+    "base_d_fired": true,
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": true,
+    "sr1_above_mild_s": true,
+    "sr1_d": 3.0,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 2.5,
+    "z_c": 0.9,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": 1.0,
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 9
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 9
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 1,
+    "posture_band_retrained": 1,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.43,
+     "hedge_mass_mean": 0.44,
+     "margin_mean": 0.42,
+     "margin_min": 0.41,
+     "n_commits": 9
+    }
+   },
+   "population": "loop"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "903",
+   "half": "loop_live",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": false,
+     "base_d": false,
+     "dpp": null,
+     "sr1": false
+    },
+    "gate_armed": true,
+    "k_gate": 4,
+    "n_band": 7,
+    "r_band": 2
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 7,
+    "r_gamma": 0.2857142857142857,
+    "r_pr": 0.2,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 0.5,
+    "ae_fired": false,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": 0.2,
+    "base_d_fired": false,
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": false,
+    "sr1_d": 0.5,
+    "sr1_fired": false
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.3,
+    "z_c": 0.1,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": 0.1,
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 7
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 5
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 2,
+    "posture_band_retrained": 4,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.47,
+     "hedge_mass_mean": 0.48,
+     "margin_mean": 0.46,
+     "margin_min": 0.45,
+     "n_commits": 7
+    }
+   },
+   "population": "loop"
+  },
+  {
+   "development_label": "DEVELOPMENT DATA ONLY -- 3B/scout/fp16 lane; never a run of record; never adjudicated",
+   "doc_id": "905",
+   "half": "loop_live",
+   "l1_validity": {
+    "fired_through_gate_off": {
+     "ae": true,
+     "base_d": true,
+     "dpp": null,
+     "sr1": true
+    },
+    "gate_armed": false,
+    "k_gate": 4,
+    "n_band": 2,
+    "r_band": 3
+   },
+   "l2_commitment": {
+    "law": "FORM R dual-sided, both tracks side by side (the 365-STAMP dual-sided law; the PR TIE unbroken both-sided)",
+    "n_commits": 6,
+    "r_gamma": 0.6666666666666666,
+    "r_pr": 0.3,
+    "retrained_circularity_note": "the retrained classification was fit on this leg's own commitment states -- DEVELOPMENT receipts, never independent evidence (the probe-circularity disclosure rides every retracted column)",
+    "zero_commit": false
+   },
+   "l3_shape": {
+    "ae_d": 2.0,
+    "ae_fired": true,
+    "ae_note": "derived from the export's own per-doc raw readings under the AE composite's own exported scales + gate flags (the armed construction); asserted against the composite's own aggregate receipts EXACT",
+    "base_d": 1.9,
+    "base_d_fired": true,
+    "dpp_fired": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "law": "ALL FOUR composite fire surfaces side-by-side (Directive 1 -- no single-trigger blindness)",
+    "sr1_above_mild_pr": false,
+    "sr1_above_mild_s": true,
+    "sr1_d": 2.2,
+    "sr1_fired": true
+   },
+   "l4_register_monitor": {
+    "dpp_new_fire": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "dpp_terms": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "max_pr_sig": 0.6,
+    "z_c": 0.0,
+    "z_e": "WITHHELD-EXPORT (the per-doc z_e rides the D'' attribution rows only)",
+    "z_f": 1.9,
+    "z_f_term": "WITHHELD-EXPORT (the per-doc z_f term rides the D'' attribution rows only)"
+   },
+   "l5_depth": {
+    "band_rule": "t//16 (the item-369 sixteen-band decomposition)",
+    "depth_band_state_counts": [
+     0,
+     3,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "n_states": 6
+   },
+   "l6_state": {
+    "four_cell_counts": "WITHHELD-EXPORT (the per-state retrained classification is not carried in the as-sized export -- the item-376 as-sized law; the four-cell (Gamma, Probe) ledger rides AGGREGATE in surfaces.four_cell_ledger, never re-computed here)",
+    "gamma_clause": "in-gap iff gamma_valid AND gamma_g <= theta_gamma 0.2806541621685028 (the 325-STAMP gamma clause, verbatim)",
+    "gamma_in_gap_by_band": [
+     0,
+     3,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "gamma_in_gap_states": 5
+   },
+   "l7_posture": {
+    "note": "the posture bands ANNOTATE, never input (the no-weighted-sum law); hedge_mass_mean the form-scoped degeneracy candidate (NAMED-DEGENERATE on the math leg)",
+    "posture_band_gamma": 4,
+    "posture_band_retrained": 4,
+    "r_gamma_zero_subband": false,
+    "r_pr_zero_subband": false,
+    "weight_forms": {
+     "K_mean": 0.51,
+     "hedge_mass_mean": 0.52,
+     "margin_mean": 0.5,
+     "margin_min": 0.49,
+     "n_commits": 6
+    }
+   },
+   "population": "loop"
+  }
+ ],
+ "sheet": {
+  "name": "degenerate-output-view-sheet.md",
+  "sha256": "d1dd52fcb01b23250db504c665d7c48d98012ed0d18f269e6c395470b2e3df1d",
+  "stamp": "ledger item 379 -- THE PINNING STAMP (his words verbatim: \"okay good, lets stamp\") -- the bytes FROZEN at the stamped hash, never edited after"
+ },
+ "surfaces": {
+  "band_marginals": {
+   "gamma": {
+    "calibration": {
+     "1": {
+      "ae_fired": 2,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 2,
+      "n": 2,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 1
+     },
+     "2": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     },
+     "3": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     },
+     "4": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     }
+    },
+    "held_out": {
+     "1": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 1,
+      "dpp_nonfiring": 1,
+      "n": 2,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 1
+     },
+     "2": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     },
+     "3": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     },
+     "4": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 1,
+      "dpp_nonfiring": 0,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     }
+    },
+    "loop_live": {
+     "1": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     },
+     "2": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     },
+     "3": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 0,
+      "n": 0,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 0
+     },
+     "4": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     }
+    }
+   },
+   "retrained": {
+    "calibration": {
+     "1": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     },
+     "2": {
+      "ae_fired": 2,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 2,
+      "n": 2,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 1
+     },
+     "3": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     },
+     "4": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     }
+    },
+    "held_out": {
+     "1": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 1
+     },
+     "2": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     },
+     "3": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 1,
+      "dpp_nonfiring": 1,
+      "n": 2,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 1
+     },
+     "4": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 1,
+      "dpp_nonfiring": 0,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     }
+    },
+    "loop_live": {
+     "1": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 1,
+      "n": 1,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 0
+     },
+     "2": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 0,
+      "n": 0,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 0
+     },
+     "3": {
+      "ae_fired": 0,
+      "ae_nonfiring_clean": 0,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 0,
+      "n": 0,
+      "sr1_fired": 0,
+      "sr1_nonfiring_clean": 0
+     },
+     "4": {
+      "ae_fired": 1,
+      "ae_nonfiring_clean": 1,
+      "dpp_fired": 0,
+      "dpp_nonfiring": 2,
+      "n": 2,
+      "sr1_fired": 1,
+      "sr1_nonfiring_clean": 1
+     }
+    }
+   }
+  },
+  "composite_surfaces": {
+   "ae": {
+    "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "derivation_note": "per-row statuses derived from the export's own raw readings + exported scales; asserted == the composite's own aggregates EXACT",
+    "fired_gate_off": 1,
+    "held_fires": 2,
+    "loop_catches": 2,
+    "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]"
+   },
+   "base_d": {
+    "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "fired_gate_off": 1,
+    "held_fires": 2,
+    "loop_catches": 2,
+    "per_row_calibration": "WITHHELD-EXPORT (the Base D calibration per-doc fire status is not carried in the as-sized export -- the aggregate [REDACTED_PER_PUBLICATION_POLICY] rides in surfaces.composite_surfaces.base_d)",
+    "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]"
+   },
+   "dpp": {
+    "calib_ceil": 25,
+    "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "fired_gate_off": 1,
+    "held_fires": 2,
+    "loop_catches": 1,
+    "new_fires": 1,
+    "per_row_calibration": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "per_row_loops": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+    "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "ungated_f": 0
+   },
+   "law": "ALL FOUR composite fire surfaces carried side-by-side (Directive 1); every reading the export's own, asserted against the banked receipts line-for-line; the banked sigma-gaps ride as already-measured COLUMNS, never re-judged here (the 2-sigma bar is the record lane's own act)",
+   "sr1": {
+    "calib_ceil": 25,
+    "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "fired_gate_off": 1,
+    "held_fires": 3,
+    "loop_catches": 2,
+    "scales": {
+     "mu_c": 0.1168,
+     "mu_f": 0.0962,
+     "sd_c": 0.0619,
+     "sd_f": 0.056
+    },
+    "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]"
+   }
+  },
+  "depth_marginals": {
+   "calibration": [
+    {
+     "band": 0,
+     "gamma_in_gap": 11,
+     "n": 13,
+     "retrained_in_gap": 6
+    },
+    {
+     "band": 1,
+     "gamma_in_gap": 3,
+     "n": 5,
+     "retrained_in_gap": 2
+    },
+    {
+     "band": 2,
+     "gamma_in_gap": 0,
+     "n": 2,
+     "retrained_in_gap": 1
+    },
+    {
+     "band": 3,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 4,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 5,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 6,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 7,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 8,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 9,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 10,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 11,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 12,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 13,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 14,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 15,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    }
+   ],
+   "held_out": [
+    {
+     "band": 0,
+     "gamma_in_gap": 10,
+     "n": 14,
+     "retrained_in_gap": 7
+    },
+    {
+     "band": 1,
+     "gamma_in_gap": 2,
+     "n": 4,
+     "retrained_in_gap": 2
+    },
+    {
+     "band": 2,
+     "gamma_in_gap": 4,
+     "n": 5,
+     "retrained_in_gap": 2
+    },
+    {
+     "band": 3,
+     "gamma_in_gap": 2,
+     "n": 5,
+     "retrained_in_gap": 2
+    },
+    {
+     "band": 4,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 5,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 6,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 7,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 8,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 9,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 10,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 11,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 12,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 13,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 14,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 15,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    }
+   ],
+   "loop_live": [
+    {
+     "band": 0,
+     "gamma_in_gap": 9,
+     "n": 9,
+     "retrained_in_gap": 4
+    },
+    {
+     "band": 1,
+     "gamma_in_gap": 8,
+     "n": 10,
+     "retrained_in_gap": 5
+    },
+    {
+     "band": 2,
+     "gamma_in_gap": 2,
+     "n": 3,
+     "retrained_in_gap": 2
+    },
+    {
+     "band": 3,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 4,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 5,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 6,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 7,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 8,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 9,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 10,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 11,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 12,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 13,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 14,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    },
+    {
+     "band": 15,
+     "gamma_in_gap": 0,
+     "n": 0,
+     "retrained_in_gap": 0
+    }
+   ]
+  },
+  "four_cell_ledger": {
+   "cells": {
+    "calibration:0": {
+     "gap&gap": 5,
+     "gap&grounded": 6,
+     "grounded&gap": 1,
+     "grounded&grounded": 1,
+     "n": 13
+    },
+    "calibration:1": {
+     "gap&gap": 0,
+     "gap&grounded": 3,
+     "grounded&gap": 2,
+     "grounded&grounded": 0,
+     "n": 5
+    },
+    "calibration:10": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:11": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:12": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:13": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:14": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:15": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:2": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 1,
+     "grounded&grounded": 1,
+     "n": 2
+    },
+    "calibration:3": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:4": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:5": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:6": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:7": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:8": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "calibration:9": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:0": {
+     "gap&gap": 5,
+     "gap&grounded": 5,
+     "grounded&gap": 2,
+     "grounded&grounded": 2,
+     "n": 14
+    },
+    "held_out:1": {
+     "gap&gap": 2,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 2,
+     "n": 4
+    },
+    "held_out:10": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:11": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:12": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:13": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:14": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:15": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:2": {
+     "gap&gap": 2,
+     "gap&grounded": 2,
+     "grounded&gap": 0,
+     "grounded&grounded": 1,
+     "n": 5
+    },
+    "held_out:3": {
+     "gap&gap": 1,
+     "gap&grounded": 1,
+     "grounded&gap": 1,
+     "grounded&grounded": 2,
+     "n": 5
+    },
+    "held_out:4": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:5": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:6": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:7": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:8": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "held_out:9": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:0": {
+     "gap&gap": 4,
+     "gap&grounded": 5,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 9
+    },
+    "loop_live:1": {
+     "gap&gap": 4,
+     "gap&grounded": 4,
+     "grounded&gap": 1,
+     "grounded&grounded": 1,
+     "n": 10
+    },
+    "loop_live:10": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:11": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:12": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:13": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:14": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:15": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:2": {
+     "gap&gap": 2,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 1,
+     "n": 3
+    },
+    "loop_live:3": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:4": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:5": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:6": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:7": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:8": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    },
+    "loop_live:9": {
+     "gap&gap": 0,
+     "gap&grounded": 0,
+     "grounded&gap": 0,
+     "grounded&grounded": 0,
+     "n": 0
+    }
+   },
+   "census": {
+    "calibration": [
+     20,
+     14
+    ],
+    "held_out": [
+     28,
+     18
+    ],
+    "loop_live": [
+     22,
+     19
+    ]
+   },
+   "corrections": {
+    "(0,0)": "x",
+    "(0,1)": "x",
+    "(1,0)": "x",
+    "(1,1)": "x"
+   },
+   "cross_table": {
+    "calibration": [
+     5,
+     9,
+     4,
+     2
+    ],
+    "held_out": [
+     10,
+     8,
+     3,
+     7
+    ],
+    "loop_live": [
+     10,
+     9,
+     1,
+     2
+    ]
+   },
+   "law": "the item-363 aggregate ledger + the item-329 census, JOINED verbatim from the export (the per-state retrained classification never rides the as-sized export -- the per-doc four-cell counts WITHHELD-named per row)"
+  },
+  "set_union": {
+   "armed_loops": 2,
+   "cost_side_band4_clean": {
+    "calibration": 1,
+    "held_out": 1
+   },
+   "coverage": [
+    3,
+    3
+   ],
+   "dual": [
+    "905"
+   ],
+   "gamma_band1_loops": 1,
+   "law": "the 10/10 set-union recall is a RECEIPT, its clean-occupancy cost side printed WITH it at every consumption -- never a trigger, its budget the record lane's own pre-reg (Directive 4's honest accounting)",
+   "posture_only": [
+    "903"
+   ],
+   "shape_only": [
+    "901"
+   ]
+  },
+  "taxonomy": {
+   "four_cell_odds": {
+    "clean_(0,1)_over_(1,0)": [
+     7,
+     17,
+     0.4117647058823529
+    ],
+    "law": "a RECEIPT arithmetic on the banked aggregate ledger, never a classifier",
+    "loops_(0,1)_over_(1,0)": [
+     1,
+     9,
+     0.1111111111111111
+    ]
+   },
+   "gate_off_fire_rate": {
+    "loops": {
+     "ae": [
+      1,
+      2
+     ],
+     "base_d": [
+      1,
+      2
+     ],
+     "dpp": "WITHHELD-EXPORT (the D'' per-doc fire status is not carried for this population in the as-sized export -- the aggregate rides in surfaces.composite_surfaces.dpp)",
+     "sr1": [
+      1,
+      2
+     ]
+    },
+    "phenomenon_beta_held_clean": {
+     "ae": [
+      1,
+      2
+     ],
+     "base_d": [
+      1,
+      2
+     ],
+     "dpp": [
+      1,
+      2
+     ],
+     "sr1": [
+      1,
+      3
+     ]
+    }
+   },
+   "law": "the loop signature vs the phenomenon-beta signature, per diagnostic layer, both columns carried -- a READING of the layered matrix, never a new classifier; the 10-fixed-fixture coverage law + the circularity clauses ride",
+   "posture_territories": {
+    "clean_fires": {
+     "cal_sr1_bands_1_2": [
+      2,
+      2
+     ],
+     "held_sr1_band4_gate_off": [
+      0,
+      3
+     ]
+    },
+    "loops": {
+     "gamma_band1": 1,
+     "retrained_band4": 2
+    }
+   },
+   "sec1_persistence": {
+    "fired_clean": {
+     "derived_mean_N_band": 7.0,
+     "mean_N_band": 7.0,
+     "mean_R_band": 1.5,
+     "n": 2
+    },
+    "loops": {
+     "derived_mean_N_band": 6.0,
+     "mean_N_band": 6.0,
+     "mean_R_band": 2.0,
+     "n": 3
+    },
+    "nonfired_clean": {
+     "derived_mean_N_band": 3.0,
+     "mean_N_band": 3.0,
+     "mean_R_band": 2.25,
+     "n": 4
+    }
+   }
+  }
+ },
+ "tool": "triadic_degenerate_view_join.py",
+ "tool_sha256": "7ff29b4b53cd83a896641f4d93bf9c205bd433a3858b22d9338f8fae3dea8f87",
+ "zero_verdict_note": "no verdict token of any class in this lane; measurements only; never a run of record; never adjudicated; the owner's stamps decide"
+}
