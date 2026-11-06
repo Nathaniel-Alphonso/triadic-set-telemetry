@@ -1,0 +1,725 @@
+{
+  "alpha": {
+    "binding_operating_alpha": "DEFERRED-TO-THETA-WIRING-PREREG (R16-D2, ledger item 221); nothing wires here",
+    "coarse_guard": 0.05,
+    "falsifier": "any leg's HELD-OUT-half combined clean fire-rate over the coarse guard kills the candidate even if the sigma-gap passes",
+    "per_side": 0.025,
+    "split_rule": "Bonferroni (alpha/2 per side); thresholds = the calibration half's census-applied clean z-population empirical (1 - alpha/2) quantiles (linear interpolation)"
+  },
+  "amendment": "ledger item 229 (the owner-stamped Option B doc-split amendment); the pinned sheet SHA-256 6f3af50ecc6dd8a5a7dac647bb954e5f471c55123c182208dfdf0d4c46ef4ef8 stands UNTOUCHED; the item-222 two-set build of record is preserved as triadic_rw16_ensemble_readout_v1.py (SHA-256 03a06966...9858f)",
+  "census_line": "named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165",
+  "census_ruling": "ledger item 205 (Option A), amended by ledger item 213 (the verified 35-doc empty-generation class): named-record exclusion for the loop-side/adjudication NEGATIVE population",
+  "doc_split": {
+    "calib_half": "even doc_id",
+    "caveat": "the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)",
+    "held_out_half": "odd doc_id",
+    "population_guard": ">= 5/side, PER HALF (ledger item 229)",
+    "rule": "ledger item 229 (the owner-stamped Option B doc-split amendment): each leg's census-applied clean corpus docs split by DOC_ID PARITY -- EVEN doc_id = calibration half, ODD doc_id = held-out test half; the census applied BEFORE the split; the z-baselines (mu/sigma, ddof=1) AND the step-level depth baselines draw from the CALIBRATION half ONLY (held-out docs never touch any baseline); thresholds = the calibration half's clean z-population empirical (1 - alpha/2) quantiles (alpha=5%, alpha/2=2.5%/side Bonferroni, the pinned _quantile linear interpolation); the sigma-gap bar (>=2.0 on D), AUC, fire falsifier (any leg's held-out-half combined clean fire-rate over 5% kills the candidate even if the gap passes; count-ceil + one-sided 95% Wilson upper reported), the +/-0.02 jitter clause, the population guard (>=5/side, PER HALF), and the forensics block are ALL measured on the HELD-OUT half's clean docs as the negative population, with the leg's OWN 8 live fixtures as the positive population (fixtures never participate in any calibration)"
+  },
+  "doc_split_mode": true,
+  "empty_form_records_excluded": [],
+  "fixture_identity_receipt": {
+    "walks": {
+      "copies_byte_identical": true,
+      "n_loop_fixtures": 10,
+      "rule": "within-set byte-identity asserted (HARD EXIT on divergence), item-213 Stamp-2 semantics"
+    }
+  },
+  "fixture_mode": true,
+  "inputs": {
+    "walks": [
+      {
+        "n_empty_form": 0,
+        "n_records": 51,
+        "path": "c_gsm8k.jsonl",
+        "pin": null,
+        "sha256": "45f073f6bec125abecce0b04cb054341c2a11b128bc4e0e515884436f60ba299"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 51,
+        "path": "c_humaneval.jsonl",
+        "pin": null,
+        "sha256": "ec08420b6094c0fe884410af2cf839bea0ed84746c93c6115634046021d103b7"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 52,
+        "path": "c_prose17p.jsonl",
+        "pin": {
+          "leg": "prose17p",
+          "match": false,
+          "pinned_file": "triadic_t2_cache_t2-prose17p-fresh_bfloat16_bos.jsonl",
+          "pinned_sha256": "586048c6d1be3d58c2d4ff6555a377a57d385b1173b2737ee6fb4771452b9138"
+        },
+        "sha256": "96ac8e909c529fef20fc2c50ee2caddf88c97cd00cfb1620e4d52072c165712d"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 52,
+        "path": "c_p2corpus.jsonl",
+        "pin": {
+          "leg": "p2corpus",
+          "match": false,
+          "pinned_file": "triadic_t2_cache_t2-p2corpus-fresh_bfloat16_bos.jsonl",
+          "pinned_sha256": "b9d0219576b0519018ec1343371209f93919b078ea7aa482a7d8f6346eba78a8"
+        },
+        "sha256": "aa46e3cfe8c4c0f843439b463889665674791735c397ca5ebaae8b08aced4ffb"
+      }
+    ]
+  },
+  "legs": {
+    "gsm8k": {
+      "calibration": {
+        "census_docs": [],
+        "half": "even doc_id",
+        "in_sample_clean_fires": {
+          "combined": 1,
+          "combined_rate": 0.047619,
+          "z_C": 1,
+          "z_F": 1
+        },
+        "in_sample_loop_catch": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 21,
+        "n_held_out_clean": 20,
+        "n_inert": 2,
+        "n_live": 8,
+        "sd_C": 1.0,
+        "sd_F": 0.012409673645990858,
+        "thresholds": {
+          "z_C": 1.5310636316482227,
+          "z_F": 1.531063631648224
+        }
+      },
+      "doc_split": {
+        "caveat": "the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)",
+        "n_even_calib": 21,
+        "n_odd_held_out": 20,
+        "rule": "ledger item 229 (the owner-stamped Option B doc-split amendment): each leg's census-applied clean corpus docs split by DOC_ID PARITY -- EVEN doc_id = calibration half, ODD doc_id = held-out test half; the census applied BEFORE the split; the z-baselines (mu/sigma, ddof=1) AND the step-level depth baselines draw from the CALIBRATION half ONLY (held-out docs never touch any baseline); thresholds = the calibration half's clean z-population empirical (1 - alpha/2) quantiles (alpha=5%, alpha/2=2.5%/side Bonferroni, the pinned _quantile linear interpolation); the sigma-gap bar (>=2.0 on D), AUC, fire falsifier (any leg's held-out-half combined clean fire-rate over 5% kills the candidate even if the gap passes; count-ceil + one-sided 95% Wilson upper reported), the +/-0.02 jitter clause, the population guard (>=5/side, PER HALF), and the forensics block are ALL measured on the HELD-OUT half's clean docs as the negative population, with the leg's OWN 8 live fixtures as the positive population (fixtures never participate in any calibration)"
+      },
+      "test": {
+        "ensemble": {
+          "auc": 1.0,
+          "sigma_gap": 92.94,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "held-out 2-sigma verdict statistic met on this leg (gap 92.94 >= 2.0)",
+          "verdict_presented": "PASS_2SIGMA"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 1,
+          "combined_fires": 1,
+          "combined_rate": 0.05,
+          "fires_z_C": 1,
+          "fires_z_F": 0,
+          "n_clean": 20,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5310636316482227,
+            "z_F": 1.531063631648224
+          },
+          "wilson_upper_95": 0.196025
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.5311,
+            "loop_D_range": [
+              62.8542,
+              63.1362
+            ],
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 8,
+            "loop_docs": 8
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": 0,
+            "leg": "gsm8k",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 239,
+                "fired_via": "C",
+                "z_C": 1.5311,
+                "z_F": 1.5311
+              }
+            ]
+          },
+          "why": "the loop population's D rides Side F on 8/8 docs; the clean overlap at the loop floor is 0 doc(s)"
+        },
+        "half": "odd doc_id",
+        "loop_catches": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "loop_population": {
+          "inert": [
+            "inert-loop-seeded-chant",
+            "inert-loop-seeded-code-line"
+          ],
+          "n_inert": 2,
+          "n_live": 8,
+          "source_cache": "c_gsm8k.jsonl"
+        },
+        "n_census_excluded": 0,
+        "n_clean": 20,
+        "n_corpus_all": 41,
+        "sides_context_raw": {
+          "maxPRsig_gap": 7.128,
+          "minS_gap": 92.94,
+          "note": "the item-215 quantities recomputed on the held-out half (drift readout, context only)"
+        }
+      }
+    },
+    "humaneval": {
+      "calibration": {
+        "census_docs": [],
+        "half": "even doc_id",
+        "in_sample_clean_fires": {
+          "combined": 1,
+          "combined_rate": 0.047619,
+          "z_C": 1,
+          "z_F": 1
+        },
+        "in_sample_loop_catch": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 21,
+        "n_held_out_clean": 20,
+        "n_inert": 2,
+        "n_live": 8,
+        "sd_C": 1.0,
+        "sd_F": 0.012409673645990858,
+        "thresholds": {
+          "z_C": 1.5310636316482227,
+          "z_F": 1.531063631648224
+        }
+      },
+      "doc_split": {
+        "caveat": "the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)",
+        "n_even_calib": 21,
+        "n_odd_held_out": 20,
+        "rule": "ledger item 229 (the owner-stamped Option B doc-split amendment): each leg's census-applied clean corpus docs split by DOC_ID PARITY -- EVEN doc_id = calibration half, ODD doc_id = held-out test half; the census applied BEFORE the split; the z-baselines (mu/sigma, ddof=1) AND the step-level depth baselines draw from the CALIBRATION half ONLY (held-out docs never touch any baseline); thresholds = the calibration half's clean z-population empirical (1 - alpha/2) quantiles (alpha=5%, alpha/2=2.5%/side Bonferroni, the pinned _quantile linear interpolation); the sigma-gap bar (>=2.0 on D), AUC, fire falsifier (any leg's held-out-half combined clean fire-rate over 5% kills the candidate even if the gap passes; count-ceil + one-sided 95% Wilson upper reported), the +/-0.02 jitter clause, the population guard (>=5/side, PER HALF), and the forensics block are ALL measured on the HELD-OUT half's clean docs as the negative population, with the leg's OWN 8 live fixtures as the positive population (fixtures never participate in any calibration)"
+      },
+      "test": {
+        "ensemble": {
+          "auc": 1.0,
+          "sigma_gap": 92.94,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "held-out 2-sigma verdict statistic met on this leg (gap 92.94 >= 2.0)",
+          "verdict_presented": "PASS_2SIGMA"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 1,
+          "combined_fires": 1,
+          "combined_rate": 0.05,
+          "fires_z_C": 1,
+          "fires_z_F": 0,
+          "n_clean": 20,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5310636316482227,
+            "z_F": 1.531063631648224
+          },
+          "wilson_upper_95": 0.196025
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.5311,
+            "loop_D_range": [
+              62.8542,
+              63.1362
+            ],
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 8,
+            "loop_docs": 8
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": 0,
+            "leg": "humaneval",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 239,
+                "fired_via": "C",
+                "z_C": 1.5311,
+                "z_F": 1.5311
+              }
+            ]
+          },
+          "why": "the loop population's D rides Side F on 8/8 docs; the clean overlap at the loop floor is 0 doc(s)"
+        },
+        "half": "odd doc_id",
+        "loop_catches": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "loop_population": {
+          "inert": [
+            "inert-loop-seeded-chant",
+            "inert-loop-seeded-code-line"
+          ],
+          "n_inert": 2,
+          "n_live": 8,
+          "source_cache": "c_humaneval.jsonl"
+        },
+        "n_census_excluded": 0,
+        "n_clean": 20,
+        "n_corpus_all": 41,
+        "sides_context_raw": {
+          "maxPRsig_gap": 7.128,
+          "minS_gap": 92.94,
+          "note": "the item-215 quantities recomputed on the held-out half (drift readout, context only)"
+        }
+      }
+    },
+    "p2corpus": {
+      "calibration": {
+        "census_docs": [
+          {
+            "doc_id": 7,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 8,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 13,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 16,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 17,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 18,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 23,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 27,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 28,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 33,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 37,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 38,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 43,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 48,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 52,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 53,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 58,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 62,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 63,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 66,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 74,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 75,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 76,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 78,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 85,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 86,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 93,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 113,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 118,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 128,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 133,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 165,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 3,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          }
+        ],
+        "half": "even doc_id",
+        "in_sample_clean_fires": {
+          "combined": 1,
+          "combined_rate": 0.047619,
+          "z_C": 1,
+          "z_F": 1
+        },
+        "in_sample_loop_catch": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 21,
+        "n_held_out_clean": 20,
+        "n_inert": 2,
+        "n_live": 8,
+        "sd_C": 1.0,
+        "sd_F": 0.012409673645990858,
+        "thresholds": {
+          "z_C": 1.5310636316482227,
+          "z_F": 1.531063631648224
+        }
+      },
+      "doc_split": {
+        "caveat": "the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)",
+        "n_even_calib": 21,
+        "n_odd_held_out": 20,
+        "rule": "ledger item 229 (the owner-stamped Option B doc-split amendment): each leg's census-applied clean corpus docs split by DOC_ID PARITY -- EVEN doc_id = calibration half, ODD doc_id = held-out test half; the census applied BEFORE the split; the z-baselines (mu/sigma, ddof=1) AND the step-level depth baselines draw from the CALIBRATION half ONLY (held-out docs never touch any baseline); thresholds = the calibration half's clean z-population empirical (1 - alpha/2) quantiles (alpha=5%, alpha/2=2.5%/side Bonferroni, the pinned _quantile linear interpolation); the sigma-gap bar (>=2.0 on D), AUC, fire falsifier (any leg's held-out-half combined clean fire-rate over 5% kills the candidate even if the gap passes; count-ceil + one-sided 95% Wilson upper reported), the +/-0.02 jitter clause, the population guard (>=5/side, PER HALF), and the forensics block are ALL measured on the HELD-OUT half's clean docs as the negative population, with the leg's OWN 8 live fixtures as the positive population (fixtures never participate in any calibration)"
+      },
+      "test": {
+        "ensemble": {
+          "auc": 1.0,
+          "sigma_gap": 92.94,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "held-out 2-sigma verdict statistic met on this leg (gap 92.94 >= 2.0)",
+          "verdict_presented": "PASS_2SIGMA"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 1,
+          "combined_fires": 1,
+          "combined_rate": 0.05,
+          "fires_z_C": 1,
+          "fires_z_F": 0,
+          "n_clean": 20,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5310636316482227,
+            "z_F": 1.531063631648224
+          },
+          "wilson_upper_95": 0.196025
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.5311,
+            "loop_D_range": [
+              62.8542,
+              63.1362
+            ],
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 8,
+            "loop_docs": 8
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": 0,
+            "leg": "p2corpus",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 239,
+                "fired_via": "C",
+                "z_C": 1.5311,
+                "z_F": 1.5311
+              }
+            ]
+          },
+          "why": "the loop population's D rides Side F on 8/8 docs; the clean overlap at the loop floor is 0 doc(s)"
+        },
+        "half": "odd doc_id",
+        "loop_catches": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "loop_population": {
+          "inert": [
+            "inert-loop-seeded-chant",
+            "inert-loop-seeded-code-line"
+          ],
+          "n_inert": 2,
+          "n_live": 8,
+          "source_cache": "c_p2corpus.jsonl"
+        },
+        "n_census_excluded": 1,
+        "n_clean": 20,
+        "n_corpus_all": 42,
+        "sides_context_raw": {
+          "maxPRsig_gap": 7.128,
+          "minS_gap": 92.94,
+          "note": "the item-215 quantities recomputed on the held-out half (drift readout, context only)"
+        }
+      }
+    },
+    "prose17p": {
+      "calibration": {
+        "census_docs": [
+          {
+            "doc_id": 108,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 91,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          }
+        ],
+        "half": "even doc_id",
+        "in_sample_clean_fires": {
+          "combined": 1,
+          "combined_rate": 0.047619,
+          "z_C": 1,
+          "z_F": 1
+        },
+        "in_sample_loop_catch": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 21,
+        "n_held_out_clean": 20,
+        "n_inert": 2,
+        "n_live": 8,
+        "sd_C": 1.0,
+        "sd_F": 0.012409673645990858,
+        "thresholds": {
+          "z_C": 1.5310636316482227,
+          "z_F": 1.531063631648224
+        }
+      },
+      "doc_split": {
+        "caveat": "the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)",
+        "n_even_calib": 21,
+        "n_odd_held_out": 20,
+        "rule": "ledger item 229 (the owner-stamped Option B doc-split amendment): each leg's census-applied clean corpus docs split by DOC_ID PARITY -- EVEN doc_id = calibration half, ODD doc_id = held-out test half; the census applied BEFORE the split; the z-baselines (mu/sigma, ddof=1) AND the step-level depth baselines draw from the CALIBRATION half ONLY (held-out docs never touch any baseline); thresholds = the calibration half's clean z-population empirical (1 - alpha/2) quantiles (alpha=5%, alpha/2=2.5%/side Bonferroni, the pinned _quantile linear interpolation); the sigma-gap bar (>=2.0 on D), AUC, fire falsifier (any leg's held-out-half combined clean fire-rate over 5% kills the candidate even if the gap passes; count-ceil + one-sided 95% Wilson upper reported), the +/-0.02 jitter clause, the population guard (>=5/side, PER HALF), and the forensics block are ALL measured on the HELD-OUT half's clean docs as the negative population, with the leg's OWN 8 live fixtures as the positive population (fixtures never participate in any calibration)"
+      },
+      "test": {
+        "ensemble": {
+          "auc": 1.0,
+          "sigma_gap": 92.94,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "held-out 2-sigma verdict statistic met on this leg (gap 92.94 >= 2.0)",
+          "verdict_presented": "PASS_2SIGMA"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 1,
+          "combined_fires": 1,
+          "combined_rate": 0.05,
+          "fires_z_C": 1,
+          "fires_z_F": 0,
+          "n_clean": 20,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5310636316482227,
+            "z_F": 1.531063631648224
+          },
+          "wilson_upper_95": 0.196025
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.5311,
+            "loop_D_range": [
+              62.8542,
+              63.1362
+            ],
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 8,
+            "loop_docs": 8
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": 0,
+            "leg": "prose17p",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 239,
+                "fired_via": "C",
+                "z_C": 1.5311,
+                "z_F": 1.5311
+              }
+            ]
+          },
+          "why": "the loop population's D rides Side F on 8/8 docs; the clean overlap at the loop floor is 0 doc(s)"
+        },
+        "half": "odd doc_id",
+        "loop_catches": {
+          "either": 8,
+          "via_zC": 8,
+          "via_zF": 8
+        },
+        "loop_population": {
+          "inert": [
+            "inert-loop-seeded-chant",
+            "inert-loop-seeded-code-line"
+          ],
+          "n_inert": 2,
+          "n_live": 8,
+          "source_cache": "c_prose17p.jsonl"
+        },
+        "n_census_excluded": 1,
+        "n_clean": 20,
+        "n_corpus_all": 42,
+        "sides_context_raw": {
+          "maxPRsig_gap": 7.128,
+          "minS_gap": 92.94,
+          "note": "the item-215 quantities recomputed on the held-out half (drift readout, context only)"
+        }
+      }
+    }
+  },
+  "mode": "RW-16 dual-sided ensemble adjudication readout -- DOC-SPLIT AMENDMENT (offline read-only; calibration on each leg's EVEN-doc_id half, out-of-sample on the ODD-doc_id held-out half; presented verdict typings + failure forensics -- NO adjudication, NO threshold, NO wired theta)",
+  "prereg": "rw16-dual-sided-ensemble-preregistration.md (owner-stamped, ledger item 221; sheet SHA-256 6f3af50ecc6dd8a5a7dac647bb954e5f471c55123c182208dfdf0d4c46ef4ef8; R16-D1(a) item 220; R16-D2 two-stage alpha item 221; doc-split amendment item 229)",
+  "presented_candidate_verdict": {
+    "basis": "the ensemble D cleared the held-out 2-sigma bar on all four legs' held-out halves within the coarse-guard budget (presented, never adjudicated; theta wiring is its own pre-reg)",
+    "caveat": "the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)",
+    "failed_legs": [],
+    "jitter_legs": [],
+    "near_bar_legs": [],
+    "note": "presented, never adjudicated; theta wiring is its own pre-registration (theta [REDACTED_PER_PUBLICATION_POLICY] unmoved, D-theta); the D-FW6 second stage follows per its own sequencing",
+    "verdict_presented": "PASS_2SIGMA-ALL-FOUR-LEGS"
+  },
+  "rw14_rider": "ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders and backlog table (C) adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.",
+  "theta_note": "theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no threshold set, moved, or adjudicated; the thresholds in this export are calibration presentations only; any wiring is the theta-wiring pre-registration's own step.",
+  "tool": "triadic_rw16_ensemble_readout.py",
+  "tool_sha256": "24c2a2dd7eeffde690c356b184debd093568ed64c2d4aea6b11a7bbce130ca83"
+}

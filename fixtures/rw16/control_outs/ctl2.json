@@ -1,0 +1,898 @@
+{
+  "alpha": {
+    "binding_operating_alpha": "DEFERRED-TO-THETA-WIRING-PREREG (R16-D2, ledger item 221); nothing wires here",
+    "coarse_guard": 0.05,
+    "falsifier": "any TEST leg's combined clean fire-rate over the coarse guard kills the candidate even if the sigma-gap passes",
+    "per_side": 0.025,
+    "split_rule": "Bonferroni (alpha/2 per side); thresholds = the calibration leg's census-applied clean z-population empirical (1 - alpha/2) quantiles (linear interpolation)"
+  },
+  "census_line": "named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165",
+  "census_ruling": "ledger item 205 (Option A), amended by ledger item 213 (the verified 35-doc empty-generation class): named-record exclusion for the loop-side/adjudication NEGATIVE population",
+  "empty_form_records_excluded": [],
+  "fixture_identity_receipt": {
+    "calibration": {
+      "copies_byte_identical": true,
+      "n_loop_fixtures": 10,
+      "rule": "within-set byte-identity asserted (HARD EXIT on divergence), item-213 Stamp-2 semantics"
+    },
+    "cross_set_reported": {
+      "divergent_fixtures": [],
+      "n_compared": 10,
+      "n_identical": 10
+    },
+    "test": {
+      "copies_byte_identical": true,
+      "n_loop_fixtures": 10,
+      "rule": "within-set byte-identity asserted (HARD EXIT on divergence), item-213 Stamp-2 semantics"
+    }
+  },
+  "fixture_mode": true,
+  "inputs": {
+    "calibration": [
+      {
+        "n_empty_form": 0,
+        "n_records": 30,
+        "path": "triadic_t2_cache_t2-prose17p-smoke_bfloat16_bos.jsonl",
+        "pin": {
+          "leg": "prose17p",
+          "match": false,
+          "pinned_file": "triadic_t2_cache_t2-prose17p-fresh_bfloat16_bos.jsonl",
+          "pinned_sha256": "586048c6d1be3d58c2d4ff6555a377a57d385b1173b2737ee6fb4771452b9138"
+        },
+        "sha256": "a2f57964232d981db586b007ddbf642b7d6fe7224f65f3499ce9ecacb2e763e1"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 41,
+        "path": "filler_gsm8k.jsonl",
+        "pin": null,
+        "sha256": "321db381c1904a58272ad3f11bd4eb3cfea17681e72626bdaf97beefe9e36cea"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 41,
+        "path": "filler_humaneval.jsonl",
+        "pin": null,
+        "sha256": "48537c22877b1314ca0cc58079e6ac54905bc7705fa3ab757660174f677b71a6"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 41,
+        "path": "filler_p2corpus.jsonl",
+        "pin": {
+          "leg": "p2corpus",
+          "match": false,
+          "pinned_file": "triadic_t2_cache_t2-p2corpus-fresh_bfloat16_bos.jsonl",
+          "pinned_sha256": "b9d0219576b0519018ec1343371209f93919b078ea7aa482a7d8f6346eba78a8"
+        },
+        "sha256": "e8fc70014dae8052e9e79b476eb7c10d9bdd9052de9d9057f0d05133838a8eb0"
+      }
+    ],
+    "test": [
+      {
+        "n_empty_form": 0,
+        "n_records": 30,
+        "path": "triadic_t2_cache_t2-prose17p-smoke_bfloat16_bos.jsonl",
+        "pin": null,
+        "sha256": "a2f57964232d981db586b007ddbf642b7d6fe7224f65f3499ce9ecacb2e763e1"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 41,
+        "path": "filler_gsm8k.jsonl",
+        "pin": null,
+        "sha256": "321db381c1904a58272ad3f11bd4eb3cfea17681e72626bdaf97beefe9e36cea"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 41,
+        "path": "filler_humaneval.jsonl",
+        "pin": null,
+        "sha256": "48537c22877b1314ca0cc58079e6ac54905bc7705fa3ab757660174f677b71a6"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 41,
+        "path": "filler_p2corpus.jsonl",
+        "pin": null,
+        "sha256": "e8fc70014dae8052e9e79b476eb7c10d9bdd9052de9d9057f0d05133838a8eb0"
+      }
+    ]
+  },
+  "legs": {
+    "gsm8k": {
+      "calibration": {
+        "census_docs": [],
+        "in_sample_clean_fires": {
+          "combined": 2,
+          "combined_rate": 0.04878,
+          "z_C": 2,
+          "z_F": 2
+        },
+        "in_sample_loop_catch": {
+          "either": 0,
+          "via_zC": 0,
+          "via_zF": 0
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 41,
+        "n_inert": 0,
+        "n_live": 0,
+        "sd_C": 1.0,
+        "sd_F": 0.01197914855071094,
+        "thresholds": {
+          "z_C": 1.5860893551463966,
+          "z_F": 1.5860893551463975
+        }
+      },
+      "test": {
+        "census_docs": [],
+        "ensemble": {
+          "auc": null,
+          "sigma_gap": null,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "population guard: n_pos=0 n_neg=41 (< 5/side)",
+          "verdict_presented": "INCONCLUSIVE-POPULATION-GUARD"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 3,
+          "combined_fires": 2,
+          "combined_rate": 0.04878,
+          "fires_z_C": 2,
+          "fires_z_F": 2,
+          "n_clean": 41,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5860893551463966,
+            "z_F": 1.5860893551463975
+          },
+          "wilson_upper_95": 0.13716
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.6696,
+            "loop_D_range": null,
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 0,
+            "loop_docs": 0
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": null,
+            "leg": "gsm8k",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 540,
+                "fired_via": "C",
+                "z_C": 1.6696,
+                "z_F": 1.6696
+              },
+              {
+                "doc_id": 539,
+                "fired_via": "C",
+                "z_C": 1.5861,
+                "z_F": 1.5861
+              }
+            ]
+          },
+          "why": "the clean D tail overlaps the loop floor (None clean doc(s) at/above the lowest loop D); the loop signal rides Side C on 0/0 docs"
+        },
+        "loop_catches": {
+          "either": 0,
+          "via_zC": 0,
+          "via_zF": 0
+        },
+        "loop_population": {
+          "inert": [],
+          "n_inert": 0,
+          "n_live": 0,
+          "source_cache": "filler_gsm8k.jsonl"
+        },
+        "n_census_excluded": 0,
+        "n_clean": 41,
+        "n_corpus_all": 41,
+        "sides_context_raw": {
+          "maxPRsig_gap": null,
+          "minS_gap": null,
+          "note": "the item-215 quantities recomputed on the NEW walks (drift readout, context only)"
+        }
+      }
+    },
+    "humaneval": {
+      "calibration": {
+        "census_docs": [],
+        "in_sample_clean_fires": {
+          "combined": 2,
+          "combined_rate": 0.04878,
+          "z_C": 2,
+          "z_F": 2
+        },
+        "in_sample_loop_catch": {
+          "either": 0,
+          "via_zC": 0,
+          "via_zF": 0
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 41,
+        "n_inert": 0,
+        "n_live": 0,
+        "sd_C": 1.0,
+        "sd_F": 0.01197914855071094,
+        "thresholds": {
+          "z_C": 1.5860893551463966,
+          "z_F": 1.5860893551463975
+        }
+      },
+      "test": {
+        "census_docs": [],
+        "ensemble": {
+          "auc": null,
+          "sigma_gap": null,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "population guard: n_pos=0 n_neg=41 (< 5/side)",
+          "verdict_presented": "INCONCLUSIVE-POPULATION-GUARD"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 3,
+          "combined_fires": 2,
+          "combined_rate": 0.04878,
+          "fires_z_C": 2,
+          "fires_z_F": 2,
+          "n_clean": 41,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5860893551463966,
+            "z_F": 1.5860893551463975
+          },
+          "wilson_upper_95": 0.13716
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.6696,
+            "loop_D_range": null,
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 0,
+            "loop_docs": 0
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": null,
+            "leg": "humaneval",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 540,
+                "fired_via": "C",
+                "z_C": 1.6696,
+                "z_F": 1.6696
+              },
+              {
+                "doc_id": 539,
+                "fired_via": "C",
+                "z_C": 1.5861,
+                "z_F": 1.5861
+              }
+            ]
+          },
+          "why": "the clean D tail overlaps the loop floor (None clean doc(s) at/above the lowest loop D); the loop signal rides Side C on 0/0 docs"
+        },
+        "loop_catches": {
+          "either": 0,
+          "via_zC": 0,
+          "via_zF": 0
+        },
+        "loop_population": {
+          "inert": [],
+          "n_inert": 0,
+          "n_live": 0,
+          "source_cache": "filler_humaneval.jsonl"
+        },
+        "n_census_excluded": 0,
+        "n_clean": 41,
+        "n_corpus_all": 41,
+        "sides_context_raw": {
+          "maxPRsig_gap": null,
+          "minS_gap": null,
+          "note": "the item-215 quantities recomputed on the NEW walks (drift readout, context only)"
+        }
+      }
+    },
+    "p2corpus": {
+      "calibration": {
+        "census_docs": [
+          {
+            "doc_id": 3,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 7,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 8,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 13,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 16,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 17,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 18,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 23,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 27,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 28,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 33,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 37,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 38,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 43,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 48,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 52,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 53,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 58,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 62,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 63,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 66,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 74,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 75,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 76,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 78,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 85,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 86,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 93,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 113,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 118,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 128,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 133,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 165,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          }
+        ],
+        "in_sample_clean_fires": {
+          "combined": 2,
+          "combined_rate": 0.04878,
+          "z_C": 2,
+          "z_F": 2
+        },
+        "in_sample_loop_catch": {
+          "either": 0,
+          "via_zC": 0,
+          "via_zF": 0
+        },
+        "mu_C": 0.0,
+        "mu_F": 0.12,
+        "n_clean": 41,
+        "n_inert": 0,
+        "n_live": 0,
+        "sd_C": 1.0,
+        "sd_F": 0.01197914855071094,
+        "thresholds": {
+          "z_C": 1.5860893551463966,
+          "z_F": 1.5860893551463975
+        }
+      },
+      "test": {
+        "census_docs": [
+          {
+            "doc_id": 3,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 7,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 8,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 13,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 16,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 17,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 18,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 23,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 27,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 28,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 33,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 37,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 38,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 43,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 48,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 52,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 53,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 58,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 62,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 63,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 66,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 74,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 75,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 76,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 78,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 85,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 86,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 93,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 113,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 118,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 128,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 133,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 165,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          }
+        ],
+        "ensemble": {
+          "auc": null,
+          "sigma_gap": null,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "population guard: n_pos=0 n_neg=41 (< 5/side)",
+          "verdict_presented": "INCONCLUSIVE-POPULATION-GUARD"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 3,
+          "combined_fires": 2,
+          "combined_rate": 0.04878,
+          "fires_z_C": 2,
+          "fires_z_F": 2,
+          "n_clean": 41,
+          "over_budget": false,
+          "thresholds": {
+            "z_C": 1.5860893551463966,
+            "z_F": 1.5860893551463975
+          },
+          "wilson_upper_95": 0.13716
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 1.6696,
+            "loop_D_range": null,
+            "loop_carried_via_zC": 0,
+            "loop_carried_via_zF": 0,
+            "loop_docs": 0
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": null,
+            "leg": "p2corpus",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 540,
+                "fired_via": "C",
+                "z_C": 1.6696,
+                "z_F": 1.6696
+              },
+              {
+                "doc_id": 539,
+                "fired_via": "C",
+                "z_C": 1.5861,
+                "z_F": 1.5861
+              }
+            ]
+          },
+          "why": "the clean D tail overlaps the loop floor (None clean doc(s) at/above the lowest loop D); the loop signal rides Side C on 0/0 docs"
+        },
+        "loop_catches": {
+          "either": 0,
+          "via_zC": 0,
+          "via_zF": 0
+        },
+        "loop_population": {
+          "inert": [],
+          "n_inert": 0,
+          "n_live": 0,
+          "source_cache": "filler_p2corpus.jsonl"
+        },
+        "n_census_excluded": 0,
+        "n_clean": 41,
+        "n_corpus_all": 41,
+        "sides_context_raw": {
+          "maxPRsig_gap": null,
+          "minS_gap": null,
+          "note": "the item-215 quantities recomputed on the NEW walks (drift readout, context only)"
+        }
+      }
+    },
+    "prose17p": {
+      "calibration": {
+        "census_docs": [
+          {
+            "doc_id": 91,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 108,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          }
+        ],
+        "in_sample_clean_fires": {
+          "combined": 2,
+          "combined_rate": 0.1,
+          "z_C": 1,
+          "z_F": 1
+        },
+        "in_sample_loop_catch": {
+          "either": 7,
+          "via_zC": 4,
+          "via_zF": 6
+        },
+        "mu_C": 1.8999232783633004,
+        "mu_F": 0.03281984895002097,
+        "n_clean": 20,
+        "n_inert": 2,
+        "n_live": 8,
+        "sd_C": 0.8356774699917978,
+        "sd_F": 0.06309869878511039,
+        "thresholds": {
+          "z_C": 2.5533248488792184,
+          "z_F": 2.0339221904300135
+        }
+      },
+      "test": {
+        "census_docs": [
+          {
+            "doc_id": 91,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          },
+          {
+            "doc_id": 108,
+            "note": "not in this run's cache (nothing to exclude)",
+            "present": false
+          }
+        ],
+        "ensemble": {
+          "auc": 0.9875,
+          "sigma_gap": 2.592,
+          "statistic": "D = max(z_C, z_F)",
+          "verdict_basis": "the coarse guard falsifier fired: combined clean fire-rate 10.0000% > 5% budget (2/20 docs) -- the candidate dies EVEN IF the sigma-gap passes (R16-D2, ledger item 221)",
+          "verdict_presented": "CANDIDATE-KILLED-FALSE-ALARM-BUDGET"
+        },
+        "fire_accounting": {
+          "budget": 0.05,
+          "budget_count_ceil": 1,
+          "combined_fires": 2,
+          "combined_rate": 0.1,
+          "fires_z_C": 1,
+          "fires_z_F": 1,
+          "n_clean": 20,
+          "over_budget": true,
+          "thresholds": {
+            "z_C": 2.5533248488792184,
+            "z_F": 2.0339221904300135
+          },
+          "wilson_upper_95": 0.261681
+        },
+        "forensics": {
+          "how": {
+            "clean_D_max": 2.6535,
+            "loop_D_range": [
+              2.4057,
+              11.716
+            ],
+            "loop_carried_via_zC": 2,
+            "loop_carried_via_zF": 6,
+            "loop_docs": 8
+          },
+          "what_next": [
+            "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+            "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there); nothing wires here",
+            "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+            "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+          ],
+          "where": {
+            "clean_overlap_at_loop_floor": 2,
+            "leg": "prose17p",
+            "top_fired_clean_docs": [
+              {
+                "doc_id": 13,
+                "fired_via": "C",
+                "z_C": 2.6535,
+                "z_F": -0.4878
+              },
+              {
+                "doc_id": 19,
+                "fired_via": "F",
+                "z_C": 0.7882,
+                "z_F": 2.2161
+              }
+            ]
+          },
+          "why": "the clean D tail overlaps the loop floor (2 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 6/8 docs"
+        },
+        "loop_catches": {
+          "either": 7,
+          "via_zC": 4,
+          "via_zF": 6
+        },
+        "loop_population": {
+          "inert": [
+            "loop-seeded-affirm",
+            "loop-seeded-chant"
+          ],
+          "n_inert": 2,
+          "n_live": 8,
+          "source_cache": "triadic_t2_cache_t2-prose17p-smoke_bfloat16_bos.jsonl"
+        },
+        "n_census_excluded": 0,
+        "n_clean": 20,
+        "n_corpus_all": 20,
+        "sides_context_raw": {
+          "maxPRsig_gap": 3.18,
+          "minS_gap": 2.309,
+          "note": "the item-215 quantities recomputed on the NEW walks (drift readout, context only)"
+        }
+      }
+    }
+  },
+  "mode": "RW-16 dual-sided ensemble adjudication readout (offline read-only; calibration on the banked walks, out-of-sample on the new legs; presented verdict typings + failure forensics -- NO adjudication, NO threshold, NO wired theta)",
+  "prereg": "rw16-dual-sided-ensemble-preregistration.md (owner-stamped, ledger item 221; sheet SHA-256 6f3af50ecc6dd8a5a7dac647bb954e5f471c55123c182208dfdf0d4c46ef4ef8; R16-D1(a) item 220; R16-D2 two-stage alpha item 221)",
+  "presented_candidate_verdict": {
+    "basis": "at least one test leg's combined clean fire-rate exceeded the coarse-guard budget -- the R16-D2 falsifier; the candidate dies even if gaps passed",
+    "failed_legs": [],
+    "jitter_legs": [],
+    "near_bar_legs": [],
+    "note": "presented, never adjudicated; theta wiring is its own pre-registration (theta [REDACTED_PER_PUBLICATION_POLICY] unmoved, D-theta); the D-FW6 second stage follows per its own sequencing",
+    "verdict_presented": "CANDIDATE-KILLED-FALSE-ALARM-BUDGET"
+  },
+  "rw14_rider": "ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders and backlog table (C) adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.",
+  "theta_note": "theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no threshold set, moved, or adjudicated; the thresholds in this export are calibration presentations only; any wiring is the theta-wiring pre-registration's own step.",
+  "tool": "triadic_rw16_ensemble_readout.py",
+  "tool_sha256": "24c2a2dd7eeffde690c356b184debd093568ed64c2d4aea6b11a7bbce130ca83"
+}
