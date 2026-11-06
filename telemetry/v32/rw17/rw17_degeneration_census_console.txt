@@ -1,0 +1,38 @@
+=== RW-17 EMISSION DEGENERATION CENSUS ===
+mode: REAL MODE -- the banked thins + manifests + adjudication export of record (items 254/256); the forensics functions imported verbatim
+tag: rw17-census
+governing sheet: rw17-code-degeneration-census-preregistration.md (SHA-256 820c76f63cb3b67a951106a7ccb953510c359f6c1866e6b286ad817b46ca9f47; the owner's stamps Oct 13 2026: code scope OPTION A, prose OPTION P1)
+pins verified: forensics 1eb86e96..., export e294da43..., sheet 820c76f6...
+
+-- mbpprw17 --
+corpus docs: 400 (expected 400)
+stop reasons: {'cap': 291, 'eos': 109}
+class histogram: {'BOUNDARY': 37, 'OTHER': 122, 'REPETITION': 241}
+census types: {'DEGENERATE-EMISSION': 215, 'MILD-REPETITION': 26}
+DEGENERATE-EMISSION: 215 docs
+MILD-REPETITION: 26 docs
+fires of record: 11 ([81, 101, 107, 135, 175, 179, 187, 193, 211, 377, 393])
+fired census-degenerate: 10 ([81, 101, 107, 135, 179, 187, 193, 211, 377, 393])
+fired mild: 0 ([])
+ACCOUNTING: 11 fires - 10 census-degenerate = 1 corpus-doc fires vs count-ceil 10 -- PRESENTED, never a re-score of the standing item-256 verdict
+unfired degenerate (honest detector misses): 205
+owner confirmation sample: [47, 99, 157, 206, 224, 232, 281, 304, 310, 346]
+loop contrast classes: {'REPETITION': 7, 'BOUNDARY': 1}
+
+-- prose17p-rw17 --
+corpus docs: 620 (expected 620)
+stop reasons: {'eos': 476, 'cap': 144}
+class histogram: {'OTHER': 379, 'BOUNDARY': 97, 'REPETITION': 144}
+census types: {'DEGENERATE-EMISSION': 118, 'MILD-REPETITION': 26}
+DEGENERATE-EMISSION: 118 docs
+MILD-REPETITION: 26 docs
+fires of record: 25 ([47, 101, 103, 105, 117, 119, 269, 285, 303, 321, 325, 327, 329, 345, 347, 349, 353, 365, 395, 399, 413, 419, 503, 581, 609])
+fired census-degenerate: 4 ([117, 285, 321, 347])
+fired mild: 2 ([503, 609])
+ACCOUNTING: 25 fires - 4 census-degenerate = 21 corpus-doc fires vs count-ceil 16 -- PRESENTED, never a re-score of the standing item-256 verdict
+unfired degenerate (honest detector misses): 114
+owner confirmation sample: [126, 149, 241, 284, 300, 319, 397, 424, 515, 615]
+loop contrast classes: {'REPETITION': 7, 'BOUNDARY': 1}
+
+theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings presented, never adjudicated -- the owner's stamps decide.
+census export written: triadic_rw17_degeneration_census_rw17-census.json (647751 bytes)

@@ -1,0 +1,83 @@
+  (tag: rw17-sec-baseline)
+==============================================================================
+=== RW-17 SEC BASELINE PASS (offline read-only zero-GPU) ===
+  DEVELOPMENT DATA, NON-GATING, NEVER ENTERS ADJUDICATION (ledger items 240-241).
+  The pinned sheet of record: rw17-fresh-corpus-preregistration.md
+  (SHA-256 64f87bc01906ee6f...f74075; the owner's pinning stamp, ledger item 241).
+  ROLE: measure the SEC baselines + the RW-17 construction's operating readings
+  on the OLD corpora's banked caches -- the ANCHORS the fresh run's SEC
+  readings get read against (the delta; phenomenon-beta recurrence
+  attributable: recurred / deepened / vanished).
+  THE CONSTRUCTION (the pinned sheet §1): D over the leg's ARMED sides only;
+  ARMING (prior evidence only, ledger item 237): gsm8k CF | humaneval F | prose17p CF | p2corpus CF
+  HONEST COST OWNED (the sheet §1.2): arming is prior-evidence-driven; if the
+  fresh code corpus would have shown C-separation, this construction has
+  surrendered that coverage -- never fresh-data-driven.
+  CENSUS (rides every readout): named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165
+  DEVELOPMENT-DATA DISCLOSURE (the sheet §1.7): the pair (item-215) and the
+  SEC features (items 231-232 forensics) were developed against these same
+  banked walks -- these readings are BASELINES for interpreting the fresh
+  run, never adjudication; the pinned sheet's constants are NEVER amended
+  by these findings (any constant change rides the refinement's own pre-reg).
+  NOT an instrument: the banked v32.2.1 is UNTOUCHED; this tool runs zero walks.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated;
+  NO verdict, NO wiring -- presented, never adjudicated.
+  [walks] loading triadic_t2_cache_t2-gsm-fresh3_bfloat16_bos.jsonl (sha256 6049a2d3c64d503f...): 1329 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_t2-he-fresh3_bfloat16_bos.jsonl (sha256 4708bc67fbb0ec2a...): 174 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_t2-prose17p-fresh2_bfloat16_bos.jsonl (sha256 586048c6d1be3d58...): 190 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_t2-p2corpus-fresh2_bfloat16_bos.jsonl (sha256 b9d0219576b05190...): 190 records (+0 empty-form)
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [gsm8k, from cache triadic_t2_cache_t2-gsm-fresh3_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [gsm8k, from cache triadic_t2_cache_t2-gsm-fresh3_bfloat16_bos.jsonl].
+
+  --- LEG [gsm8k] (armed: CF) --- (1319 corpus docs | 0 census-excluded | even 660 / odd 659 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 40/659 = 6.0698% (count-ceil 33; Wilson upper 7.7869%) | escalation 9
+    loop catches (diagnostic): 8/8 at t_leg | 6/8 at t_esc
+    loop-floor overlap line: 23/659 = 3.4901% clean docs at/above the easiest loop's D (2.2304)
+    separation context (armed D): gap=3.553 AUC=0.9928
+    SEC-1 @0.90 mean N_band: loops 7.25 | named-beta 1.0 | fired 1.35 | non-fired 1.8594507269789984
+    SEC-1 @0.90 mean R_band: loops 1.0 | named-beta 1.0 | fired 1.0 | non-fired 1.0177705977382876
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [humaneval, from cache triadic_t2_cache_t2-he-fresh3_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [humaneval, from cache triadic_t2_cache_t2-he-fresh3_bfloat16_bos.jsonl].
+
+  --- LEG [humaneval] (armed: F) --- (164 corpus docs | 0 census-excluded | even 82 / odd 82 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 4/82 = 4.8780% (count-ceil 5; Wilson upper 10.4306%) | escalation 1
+    loop catches (diagnostic): 7/8 at t_leg | 7/8 at t_esc
+    loop-floor overlap line: 8/82 = 9.7561% clean docs at/above the easiest loop's D (1.1878)
+    separation context (armed D): gap=2.417 AUC=0.9863
+    SEC-1 @0.90 mean N_band: loops 6.375 | named-beta None | fired 2.75 | non-fired 2.6153846153846154
+    SEC-1 @0.90 mean R_band: loops 1.25 | named-beta None | fired 1.0 | non-fired 1.0769230769230769
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p, from cache triadic_t2_cache_t2-prose17p-fresh2_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p, from cache triadic_t2_cache_t2-prose17p-fresh2_bfloat16_bos.jsonl].
+
+  --- LEG [prose17p] (armed: CF) --- (180 corpus docs | 2 census-excluded | even 89 / odd 89 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 7/89 = 7.8652% (count-ceil 5; Wilson upper 13.8969%) | escalation 1
+    loop catches (diagnostic): 7/8 at t_leg | 6/8 at t_esc
+    loop-floor overlap line: 7/89 = 7.8652% clean docs at/above the easiest loop's D (2.7985)
+    separation context (armed D): gap=3.838 AUC=0.9888
+    SEC-1 @0.90 mean N_band: loops 8.375 | named-beta 1.0 | fired 1.4285714285714286 | non-fired 3.048780487804878
+    SEC-1 @0.90 mean R_band: loops 1.0 | named-beta 1.0 | fired 1.0 | non-fired 1.0975609756097562
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [p2corpus, from cache triadic_t2_cache_t2-p2corpus-fresh2_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [p2corpus, from cache triadic_t2_cache_t2-p2corpus-fresh2_bfloat16_bos.jsonl].
+
+  --- LEG [p2corpus] (armed: CF) --- (180 corpus docs | 33 census-excluded | even 74 / odd 73 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 6/73 = 8.2192% (count-ceil 4; Wilson upper 15.1157%) | escalation 2
+    loop catches (diagnostic): 6/8 at t_leg | 5/8 at t_esc
+    loop-floor overlap line: 14/73 = 19.1781% clean docs at/above the easiest loop's D (2.5621)
+    separation context (armed D): gap=2.459 AUC=0.9469
+    SEC-1 @0.90 mean N_band: loops 8.625 | named-beta 3.5 | fired 1.8333333333333333 | non-fired 2.2388059701492535
+    SEC-1 @0.90 mean R_band: loops 1.0 | named-beta 1.0 | fired 1.0 | non-fired 1.044776119402985
+
+  === BASELINE PASS COMPLETE ===
+  DEVELOPMENT DATA, NON-GATING, NEVER ENTERS ADJUDICATION.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated;
+  findings presented, never adjudicated -- the owner's stamps decide.
+
+  export written: triadic_rw17_sec_baseline_rw17-sec-baseline.json (139705 bytes)

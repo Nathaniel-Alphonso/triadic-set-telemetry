@@ -1,0 +1,18 @@
+  PASS  F1a determinism: same-path rebuild byte-identical
+  PASS  F2a selection: seeded shuffle + first-N + original-index order matches the independent recomputation
+  PASS  F2b no prefix rows selected
+  PASS  F2c design.seed == pinned 20261012
+  PASS  F3a scale: 6 fixture docs
+  PASS  F3b ids contiguous 0..5
+  PASS  F3c schema field == gsm8k-rw17-v1
+  PASS  F3d every doc carries doc_id/question/answer, non-empty
+  PASS  F4 gold discipline (#### segment, banked law)
+  PASS  F5a duplicate question hard exit (VOID, named)
+  PASS  F5b TEST-collision hard exit (VOID, the disjointness law named)
+  PASS  F6a console carries the contamination-guard receipt
+  PASS  F6b console carries the seed + scale + sha receipts
+  PASS  F6c console carries the disjointness receipt
+
+MATH BUILDER ACCEPTANCE: 14 PASS / 0 FAIL
+(fixture-mode lane; the REAL build runs owner-side per the pinned spec; its console + manifest get receipt-verified on upload)
+(fixture manifest sha256: ca7262e527da898dc9c374e9946844df02f7a2b15c5d9b853be692e3f9ea823d)

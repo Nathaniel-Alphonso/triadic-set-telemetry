@@ -1,0 +1,63 @@
+==============================================================================
+=== THE RW-17 READOUT AMENDMENT V2 CONTROL RUN (real smoke
+    bytes; the item-255 control precedent + the V1<->V2
+    DELTA OF RECORD) ===
+  tool under test: triadic_rw17_readout_v2.py (the
+    persistence-gated Side C, K = 4 -- owner-stamped
+    Option A of the refinement sheet, item 260)
+  contrast tool: triadic_rw17_readout.py (the item-255
+    build of record, never edited -- the parity law)
+  LAW: every exported quantity EXACT vs the banked
+  independent gate-aware recompute engine (47/47 in the
+  acceptance of record); fix-the-fixture-or-the-builder,
+  never the tool's record; NEVER a re-score of item 256.
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-math-smoke_bfloat16_bos.jsonl carries its pinned SHA-256
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-code-smoke_bfloat16_bos.jsonl carries its pinned SHA-256
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-prose-smoke_bfloat16_bos.jsonl carries its pinned SHA-256
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-p2-synth-filler.jsonl carries its pinned SHA-256
+  [C0] PASS -- the v2 tool carries its build-of-record SHA-256 (item 263's build pin)
+  [C0] PASS -- the v1 tool carries its item-255 build pin UNTOUCHED (the parity law)
+  [C1] PASS -- the v2 tool CLI runs clean on the three REAL smoke caches + the filler (fixture mode, pins echoed never enforced)
+  [C2] PASS -- the v2 export == the independent gate-aware recompute EXACT on the REAL bytes (every field, every leg, every doc, order-exact)
+  [C3] PASS -- leg gsmrw17 v2 reading of record: fires 0/10, catches 5/8, gap 1.3160439382, AUC 0.8125 -> FAIL
+  [C3] PASS -- leg mbpprw17 v2 reading of record: fires 0/10, catches 7/8, gap 2.2663178754, AUC 0.9625 -> PASS_2SIGMA
+  [C3] PASS -- leg prose17p-rw17 v2 reading of record: fires 3/10, catches 7/8, gap 1.9743003703, AUC 0.9 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+  [C3] PASS -- leg p2corpus-rw17 v2 reading of record: fires 0/20, catches 0/0, gap None, AUC None -> INCONCLUSIVE-POPULATION-GUARD
+  [C4] PASS -- the v1 tool CLI runs clean on the SAME four caches (the parity law; the contrast of record)
+  [C4] PASS -- the v1 export == the banked item-255 independent recompute EXACT on the same REAL bytes (the port-fidelity receipt re-proven at the v2 control)
+  [C4] PASS -- leg gsmrw17 v1 reading reproduces the banked item-255 control reading EXACT (fires 3/10, gap 1.6671212963, AUC 0.8125 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET)
+  [C4] PASS -- leg mbpprw17 v1 reading reproduces the banked item-255 control reading EXACT (fires 0/10, gap 2.2663178754, AUC 0.9625 -> PASS_2SIGMA)
+  [C4] PASS -- leg prose17p-rw17 v1 reading reproduces the banked item-255 control reading EXACT (fires 3/10, gap 3.0398015748, AUC 1.0 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET)
+  [C4] PASS -- leg p2corpus-rw17 v1 reading reproduces the banked item-255 control reading EXACT (fires 0/20, gap None, AUC None -> INCONCLUSIVE-POPULATION-GUARD)
+  [C4] PASS -- THE CODE-LEG IDENTITY: the mbpp leg block is v1 == v2 at EVERY leaf except the additive gate fields (gate_census + the per-doc c_gate_on/side_c_gate census fields, all NAMED N/A -- the gate never applies where Side C is unarmed; every D, every summary, every quantity UNCHANGED)
+  [C4] PASS -- the filler guard identity: the p2 leg block is v1 == v2 at EVERY leaf except gate_census and the TWO mean_D summary leaves riding the gated D (calibration 0.4045, held-out nonfired -0.1834 -- the measured gate effect on the armed-but-guarded filler; n_pos = 0, the honest INCONCLUSIVE-POPULATION-GUARD null leg unchanged)
+  [C4] PASS -- THE GSM DELTA OF RECORD: v1 fires 3/10 [5,7,15] KILLED -> v2 fires 0/10 (all three gated off, N_band < 4), gap 1.6671 -> 1.3160, catches 8/8 -> 5/8 (4 live loop positives gate off), overlap 3 -> 8, verdict KILLED -> FAIL -- the falsifier's kill vanishes AND the bar now fails: the pre-named honest cost (catch measured never promised), a measurement never an adjudication
+  [C4] PASS -- the gsm gate census rides NAMED (calibration 9, held-out 10, loops 4, fired-through-gate-off 0) and no v2 fired doc exists to name
+  [C4] PASS -- THE PROSE DELTA OF RECORD: fires UNCHANGED [1,7,11] -- 2 of 3 fired docs fired THROUGH the gate-off via Side F (docs 1, 11 NAMED-GATED-OFF; doc 7 PASSES at N_band=4); t_leg 1.9426 -> 1.5587, gap 3.0398 -> 1.9743, AUC 1.0 -> 0.9, catches 8/8 -> 7/8, overlap 0 -> 5; the leg STAYS KILLED (the count form governs over the bar)
+  [C4] PASS -- leg gsmrw17 the leaf-confinement law: every differing leaf v1 -> v2 sits inside a gate-measured block (thresholds / separation_context / held_out / loop_catches / overlap line / populations / forensics / verdict) -- the parity block, the census, the loop_population, the level-set receipt, the z_baselines, the armed_sides and the populations' non-D counts are v1 == v2 EXACT
+  [C4] PASS -- leg prose17p-rw17 the leaf-confinement law: every differing leaf v1 -> v2 sits inside a gate-measured block (thresholds / separation_context / held_out / loop_catches / overlap line / populations / forensics / verdict) -- the parity block, the census, the loop_population, the level-set receipt, the z_baselines, the armed_sides and the populations' non-D counts are v1 == v2 EXACT
+  [C4] PASS -- the candidate verdict delta: over-budget legs [gsmrw17, prose17p-rw17] -> [prose17p-rw17] (the gsm kill vanishes under the gate; the prose kill stands); the guard legs unchanged [p2corpus-rw17]
+  [C4] PASS -- the additive-only top law: every top-level block other than the named v2/delta blocks is v1 == v2 EXACT (the inputs, the censuses, the excluded-empties receipt, the fixture-identity receipt, the SEC definition, the theta note, the RW-14 rider); construction differs ONLY by refinement_v2; the caveats differ ONLY by refinement_disclosure; the legs-level differences are confined to the per-leg laws above (the mbpp/p2 identity receipts + the gsm/prose delta pins + the leaf-confinement law)
+  [C4] PASS -- the v2 additive blocks of record: construction.refinement_v2 (option OPTION A, the pinned refinement sheet SHA, k_gate 4) + the four caveats incl. refinement_disclosure + the v2 prereg string naming the refinement sheet
+  [C5] PASS -- the census-pin ECHO receipts: the smoke corpora carry ZERO EOS@step0 docs vs the expected pins -- three loud echo lines (mbpp 1, prose 3, p2 95); the math leg's 0 == its pin 0, no echo; echoed in fixture mode, NEVER silently pooled
+  [C5] PASS -- the math leg's census receipt: measured 0 == the item-254 pin 0 (no echo, receipts empty)
+  [C6] PASS -- the fixture-identity receipt: the 10 loop fixtures byte-identical across the three REAL smoke caches
+  [C7] PASS -- the console rides the per-leg persistence-gate lines (gsm 9/10-10/10-4/8-0/0; mbpp N/A; prose 8/10-8/10-3/8-2/3; p2 14/20-18/20-0/0-0/0) + CAVEAT 4 verbatim
+  [C8] PASS -- determinism: the same-path v2 re-run export is byte-identical AND the console output byte-identical across the two runs
+
+==============================================================================
+  C0: 6/6 PASS
+  C1: 1/1 PASS
+  C2: 1/1 PASS
+  C3: 4/4 PASS
+  C4: 16/16 PASS
+  C5: 2/2 PASS
+  C6: 1/1 PASS
+  C7: 1/1 PASS
+  C8: 1/1 PASS
+
+  TOTAL: 33/33 PASS, 0 FAIL
+
+  Fix-the-fixture-or-the-builder, never the tool's record.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings presented, never
+  adjudicated -- the owner's stamps decide.

@@ -1,0 +1,15 @@
+BASE VERIFIED: triadic_telemetry_t2_v32.2.2.py sha256 c53742663b5f57de0b4da960b5a660d90c065524d457de98cb35410ee0a47884 == the banked pin
+EDIT APPLIED: C6-docstring
+EDIT APPLIED: B1-version-line
+EDIT APPLIED: B2-cache-compat
+EDIT APPLIED: C1-hook-block
+EDIT APPLIED: C3-drain-call
+EDIT APPLIED: C2-runner-block
+EDIT APPLIED: C4-argparse
+EDIT APPLIED: C5-dispatch
+PY_COMPILE CLEAN: triadic_telemetry_t2_v32.3.0.py
+INVERSE ROUND-TRIP: the stripped build reproduces the base bytes EXACT (the parity law, W1-class)
+SIZE: base 175827 B -> built 211780 B (+35953 B; 756 added lines; zero original lines removed beyond the two sanctioned sites)
+BUILT SHA-256: 8b4250f3ee0aa55b654284f33f142d07f9dacb8aab38ed9517d99e6f167d2e18
+MANIFEST ECHO PIN: 15c681dc7a6fd9fc2c436cd8a8960ee4580cf1036e94e1f5ce6b8437789e85a5
+BUILD OK

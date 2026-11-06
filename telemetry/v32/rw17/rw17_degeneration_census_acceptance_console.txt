@@ -1,0 +1,27 @@
+PASS -- F1a the clean two-leg world runs clean (rc 0)
+PASS -- F1b the export carries both legs + the governing-sheet stamp
+PASS -- F1c the constants block echoes the item-257 pins
+PASS -- F2a cap + 4-gram cycle x6 -> DEGENERATE-EMISSION
+PASS -- F2b eos + 15-token phrase x3 -> MILD-REPETITION
+PASS -- F2c cap WITHOUT repetition -> never typed (cap alone insufficient)
+PASS -- F2d repetition with an unexpected stop -> named, never folded
+PASS -- F2e the zero-step doc measured honestly (OTHER, no spike, no crash)
+PASS -- F3a the fired overlap: fired=2, fired-degenerate=[0], fired-mild=[1]
+PASS -- F3b the re-derived accounting line exact (2 - 1 = 1 vs ceil 1)
+PASS -- F4a 15 unfired degenerate -> exactly 10 owner-sample docs, seeded
+PASS -- F4b the sample byte-stable across runs
+PASS -- F5 the loop contrast fires REPETITION on both legs (same rules)
+PASS -- F5b the prose leg: phrase+cap -> DEGENERATE; distinct+eos -> not typed
+PASS -- F6 determinism: same-path re-run export byte-identical
+PASS -- F7 the forensics functions are imported LIVE (module identity)
+PASS -- F8 hard exit fires: thin law violation
+PASS -- F8 hard exit fires: duplicate record key
+PASS -- F8 hard exit fires: records missing
+PASS -- F8 hard exit fires: key mismatch
+PASS -- F8 hard exit fires: not real-mode
+PASS -- F9a REAL-mode thin pin mismatch fires loud
+PASS -- F9b REAL-mode export pin mismatch fires loud
+PASS -- F9c REAL-mode forensics-tool pin fires on the fixture bytes
+PASS -- F10 REAL mode without --sheet refuses (never guess the sheet)
+
+ACCEPTANCE: 25 PASS / 0 FAIL

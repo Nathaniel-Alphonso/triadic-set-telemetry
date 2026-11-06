@@ -1,0 +1,25 @@
+PASS  F0 tool runs clean on the main fixture world (rc 0)
+PASS  F1a consecutive k-gram cycle measured x6 (k=3 gram) on doc A -- cyc=6 gram=' a  b  c'
+PASS  F1b doc A classed REPETITION (cycle 6 >= REP_CYCLE_MIN 4)
+PASS  F1c phrase-level: a >=12-token n-gram x3 measured on doc G (the non-consecutive law) -- 16x3
+PASS  F1d doc G classed REPETITION
+PASS  F2a doc B: spike AT the last content commit (dist 0) -> BOUNDARY
+PASS  F2b doc D: spike 2 steps from the CoT->ANSWER transition -> BOUNDARY -- 2
+PASS  F2c doc E: spike_frac 0.966 >= 0.85 (the tail law) -> BOUNDARY
+PASS  F2d doc F: mid-run spike, no transitions, no tail, no repetition -> OTHER (never forced)
+PASS  F3a doc C echo rate == independent recompute to the digit (2/6 window 4-grams in the reference) -- 0.3333 vs 0.3333
+PASS  F3b doc H echo rate 0.0 (window 4-grams absent from the reference) -- 0.0
+PASS  F4a the loop-fixture contrast record (consecutive phrase cycle, like the real fixtures) classes REPETITION under the SAME rules -- REPETITION
+PASS  F4b every leg's loop contrast reads leg 'loop' and carries NO echo (loop fixtures have no manifest doc)
+PASS  F4c the four legs' fired-class histograms == the hand-derived expectations
+PASS  F5 thin-law: HARD EXIT (rc 2, named message) -- HARD EXIT -- thin law violation on gsmrw17:1
+PASS  F5 missing-record: HARD EXIT (rc 2, named message) -- HARD EXIT -- records missing from thin gsmrw17: ['gsmrw17:1']
+PASS  F5 key-mismatch: HARD EXIT (rc 2, named message) -- HARD EXIT -- key mismatch: gsmrw17:3 carries leg=gsmrw17 doc_id=99
+PASS  F5 nprsig-mismatch: HARD EXIT (rc 2, named message) -- HARD EXIT -- n_prsig_steps mismatch on gsmrw17:1: export 31 != thin non-None PR 30
+PASS  F5 fixture-mode-flag: HARD EXIT (rc 2, named message) -- HARD EXIT -- the export is not real-mode
+PASS  F5g REAL-MODE pin lane: unpinned world without --fixture -> HARD EXIT on the export pin -- ch/rw17_fires_forensics/acceptance/world/export.json sha256 37c3b083d4fb5a992fad1ec250e95fe4a820e0150632ce59cb9c9829d0eb5459 != pinned e294da43ef003ccd81abb45880773fa00bd58241677c42e0ad25ea95244226c8
+PASS  F6a same-path determinism: report byte-identical on re-run
+PASS  F6b console byte-identical on re-run (same --out path; the first F6b draft compared consoles across DIFFERENT out paths -- checker-side, fixed checker-side)
+PASS  F7 the forensic constants echo exactly (WINDOW 5 / K 2..8 / CYCLE_MIN 4 / PHRASE 12x3 / BOUNDARY 3 / TAIL 0.15 / ECHO 4 / RAW_BAND 0.90)
+
+ACCEPTANCE: 23 PASS / 0 FAIL

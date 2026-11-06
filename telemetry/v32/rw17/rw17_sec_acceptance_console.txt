@@ -1,0 +1,182 @@
+==============================================================================
+=== RW-17 SEC BASELINE PASS -- ACCEPTANCE RUN ===
+PASS F6a clean run exits 0
+PASS F6b rerun exits 0
+PASS F6c determinism byte-identical export
+PASS F6d determinism byte-identical console
+PASS F7a alpha echoes the pinned 0.05
+PASS F7b alpha_esc echoes the pinned 0.01
+PASS F7c sec_band_factor echoes the pinned 0.90
+PASS F7d the sweep echoes
+PASS F7e the arming table echoes the pinned sheet
+PASS F7f the prereg SHA rides
+PASS F7g the development-data typing rides
+PASS F1[gsm8k] parity even
+PASS F1[gsm8k] parity odd
+PASS F1[gsm8k] live positives
+PASS F1[gsm8k] inert positives
+PASS F1[gsm8k] z mu_C
+PASS F1[gsm8k] z sd_C
+PASS F1[gsm8k] z mu_F
+PASS F1[gsm8k] z sd_F
+PASS F1[gsm8k] t_leg
+PASS F1[gsm8k] t_esc
+PASS F1[gsm8k] th_C_coelev
+PASS F1[gsm8k] th_F_coelev
+PASS F1[gsm8k] level-set calib fires
+PASS F1[gsm8k] level-set ceiling
+PASS F1[gsm8k] calib escalation
+PASS F1[gsm8k] held-out n
+PASS F1[gsm8k] held-out fires
+PASS F1[gsm8k] held-out rate
+PASS F1[gsm8k] held-out count-ceil
+PASS F1[gsm8k] held-out wilson
+PASS F1[gsm8k] held-out escalation
+PASS F1[gsm8k] fired docs list EXACT (order + every field)
+PASS F1[gsm8k] overlap easiest-loop D
+PASS F1[gsm8k] overlap n
+PASS F1[gsm8k] overlap rate
+PASS F1[gsm8k] catches at t_leg
+PASS F1[gsm8k] catches at t_esc
+PASS F1[gsm8k] gap
+PASS F1[gsm8k] auc
+PASS F1[gsm8k] loop views EXACT
+PASS F1[gsm8k] named-beta doc 613 view EXACT
+PASS F1[gsm8k] named-beta doc 657 view EXACT
+PASS F1[gsm8k] named-beta doc 1097 view EXACT
+PASS F1[gsm8k] summary loops
+PASS F1[gsm8k] summary fired
+PASS F1[gsm8k] summary non-fired
+PASS F1[gsm8k] summary calib
+PASS F1[gsm8k] census receipts
+PASS F1[humaneval] parity even
+PASS F1[humaneval] parity odd
+PASS F1[humaneval] live positives
+PASS F1[humaneval] inert positives
+PASS F1[humaneval] z mu_C
+PASS F1[humaneval] z sd_C
+PASS F1[humaneval] z mu_F
+PASS F1[humaneval] z sd_F
+PASS F1[humaneval] t_leg
+PASS F1[humaneval] t_esc
+PASS F1[humaneval] th_C_coelev
+PASS F1[humaneval] th_F_coelev
+PASS F1[humaneval] level-set calib fires
+PASS F1[humaneval] level-set ceiling
+PASS F1[humaneval] calib escalation
+PASS F1[humaneval] held-out n
+PASS F1[humaneval] held-out fires
+PASS F1[humaneval] held-out rate
+PASS F1[humaneval] held-out count-ceil
+PASS F1[humaneval] held-out wilson
+PASS F1[humaneval] held-out escalation
+PASS F1[humaneval] fired docs list EXACT (order + every field)
+PASS F1[humaneval] overlap easiest-loop D
+PASS F1[humaneval] overlap n
+PASS F1[humaneval] overlap rate
+PASS F1[humaneval] catches at t_leg
+PASS F1[humaneval] catches at t_esc
+PASS F1[humaneval] gap
+PASS F1[humaneval] auc
+PASS F1[humaneval] loop views EXACT
+PASS F1[humaneval] summary loops
+PASS F1[humaneval] summary fired
+PASS F1[humaneval] summary non-fired
+PASS F1[humaneval] summary calib
+PASS F1[humaneval] census receipts
+PASS F1[prose17p] parity even
+PASS F1[prose17p] parity odd
+PASS F1[prose17p] live positives
+PASS F1[prose17p] inert positives
+PASS F1[prose17p] z mu_C
+PASS F1[prose17p] z sd_C
+PASS F1[prose17p] z mu_F
+PASS F1[prose17p] z sd_F
+PASS F1[prose17p] t_leg
+PASS F1[prose17p] t_esc
+PASS F1[prose17p] th_C_coelev
+PASS F1[prose17p] th_F_coelev
+PASS F1[prose17p] level-set calib fires
+PASS F1[prose17p] level-set ceiling
+PASS F1[prose17p] calib escalation
+PASS F1[prose17p] held-out n
+PASS F1[prose17p] held-out fires
+PASS F1[prose17p] held-out rate
+PASS F1[prose17p] held-out count-ceil
+PASS F1[prose17p] held-out wilson
+PASS F1[prose17p] held-out escalation
+PASS F1[prose17p] fired docs list EXACT (order + every field)
+PASS F1[prose17p] overlap easiest-loop D
+PASS F1[prose17p] overlap n
+PASS F1[prose17p] overlap rate
+PASS F1[prose17p] catches at t_leg
+PASS F1[prose17p] catches at t_esc
+PASS F1[prose17p] gap
+PASS F1[prose17p] auc
+PASS F1[prose17p] loop views EXACT
+PASS F1[prose17p] named-beta doc 95 absent receipt
+PASS F1[prose17p] summary loops
+PASS F1[prose17p] summary fired
+PASS F1[prose17p] summary non-fired
+PASS F1[prose17p] summary calib
+PASS F1[prose17p] census receipts
+PASS F1[p2corpus] parity even
+PASS F1[p2corpus] parity odd
+PASS F1[p2corpus] live positives
+PASS F1[p2corpus] inert positives
+PASS F1[p2corpus] z mu_C
+PASS F1[p2corpus] z sd_C
+PASS F1[p2corpus] z mu_F
+PASS F1[p2corpus] z sd_F
+PASS F1[p2corpus] t_leg
+PASS F1[p2corpus] t_esc
+PASS F1[p2corpus] th_C_coelev
+PASS F1[p2corpus] th_F_coelev
+PASS F1[p2corpus] level-set calib fires
+PASS F1[p2corpus] level-set ceiling
+PASS F1[p2corpus] calib escalation
+PASS F1[p2corpus] held-out n
+PASS F1[p2corpus] held-out fires
+PASS F1[p2corpus] held-out rate
+PASS F1[p2corpus] held-out count-ceil
+PASS F1[p2corpus] held-out wilson
+PASS F1[p2corpus] held-out escalation
+PASS F1[p2corpus] fired docs list EXACT (order + every field)
+PASS F1[p2corpus] overlap easiest-loop D
+PASS F1[p2corpus] overlap n
+PASS F1[p2corpus] overlap rate
+PASS F1[p2corpus] catches at t_leg
+PASS F1[p2corpus] catches at t_esc
+PASS F1[p2corpus] gap
+PASS F1[p2corpus] auc
+PASS F1[p2corpus] loop views EXACT
+PASS F1[p2corpus] named-beta doc 91 view EXACT
+PASS F1[p2corpus] named-beta doc 137 view EXACT
+PASS F1[p2corpus] summary loops
+PASS F1[p2corpus] summary fired
+PASS F1[p2corpus] summary non-fired
+PASS F1[p2corpus] summary calib
+PASS F1[p2corpus] census receipts
+PASS F2a the unarmed-side doc (21) carries D == z_F exactly
+PASS F2b the unarmed-side doc (21) is NOT fired despite huge z_C
+PASS F2c every he-leg doc carries D == z_F
+PASS F2d the F-hot docs fire (9, 33)
+PASS F3[gsm8k] level-set ok (calib fires [REDACTED_PER_PUBLICATION_POLICY])
+PASS F3[humaneval] level-set ok (calib fires [REDACTED_PER_PUBLICATION_POLICY])
+PASS F3[prose17p] level-set ok (calib fires [REDACTED_PER_PUBLICATION_POLICY])
+PASS F3[p2corpus] level-set ok (calib fires [REDACTED_PER_PUBLICATION_POLICY])
+PASS F4a SEC identities hold on every profiled doc (monotone sweep, R<=N, frac)
+PASS F4b closed-form doc (constant PRsig): N_band == n_prsig_steps at every sweep factor
+PASS F4c closed-form doc: R_band == n_prsig_steps
+PASS F4d closed-form doc: ceiling_pos_frac == 0.0 (constant series, first max)
+PASS F5a truncated JSON -> hard exit naming the file
+PASS F5b census premise violation -> hard exit naming leg+doc
+PASS F5c non-int doc_id -> parity hard exit naming it
+PASS F5d duplicate leg -> hard exit
+PASS F5e missing leg -> hard exit
+PASS F5f real-mode pin law -> hard exit on the unpinned p2 cache
+PASS F5g absent statistic -> column-guard hard exit naming leg+doc+key
+
+==============================================================================
+ACCEPTANCE: 176 PASS / 0 FAIL
+theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated.

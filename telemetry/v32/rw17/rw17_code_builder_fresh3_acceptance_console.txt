@@ -1,0 +1,27 @@
+  PASS  F1a determinism: same-path rebuild byte-identical
+  PASS  F2a selection: seeded shuffle + first-N + task_id-ascending order matches the independent recomputation
+  PASS  F2b the fresh1 subtraction exercised (its fixture ids absent)
+  PASS  F2c no few-shot prompt tasks selected
+  PASS  F2d design.seed == pinned 20261017
+  PASS  F3a scale: 8 fixture docs
+  PASS  F3b ids contiguous 0..7
+  PASS  F3c schema field == mbpp-rw17-v1 (UNCHANGED)
+  PASS  F3d every doc carries the vehicle-pinned fields, non-empty
+  PASS  F4 the pinned prompt form byte-exact on every doc
+  PASS  F5a duplicate task_id hard exit (VOID, named)
+  PASS  F5b he164-collision hard exit (VOID, the disjointness law named)
+  PASS  F5c fresh1-absent-task hard exit (VOID, the subtraction law named)
+  PASS  F6a console carries the OPTION-A pool receipt
+  PASS  F6b console carries the fresh3 subtraction receipt
+  PASS  F6c console carries the pool receipts line
+  PASS  F6d console carries the seed + sha receipts
+  PASS  F6e console carries the disjointness receipt + schema + tag
+  PASS  F7a design.spec_sha256 == the stamped fresh3 sheet pin
+  PASS  F7b design.walk_tag == rw17-code-fresh3
+  PASS  F7c design names the fork base + the fresh1 subtraction law
+  PASS  F7d design carries the census discipline (rides at readout)
+  PASS  F7e design carries the parity law (EVEN=calibration)
+
+CODE FRESH3 BUILDER ACCEPTANCE: 23 PASS / 0 FAIL
+(fixture-mode lane; the REAL build runs owner-side per the stamped spec; its console + manifest get receipt-verified on upload)
+(fixture manifest sha256: aeaec3d696aaf4dd6f3b226cd5c6a91e0403c08ddd80eaf28cd27c0a3820e861)

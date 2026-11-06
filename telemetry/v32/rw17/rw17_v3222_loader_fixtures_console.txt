@@ -1,0 +1,38 @@
+=== RW-17 v32.2.2 LOADER FIXTURES + PARITY (spec §5) ===
+  PASS  F-neg-schema-mismatch [gsm8k-rw17-v0] -- named hard exit proven: ...unrecognized
+  PASS  F-neg-schema-mismatch [mbpp-rw17-v0] -- named hard exit proven: ...unrecognized
+  PASS  F-neg-schema-mismatch [prose17p-rw17-v0] -- named hard exit proven: ...unrecognized
+  PASS  F-neg-schema-mismatch [p2corpus-rw17-v0] -- named hard exit proven: ...unrecognized
+  PASS  F-neg-count-mismatch [math 999/1000] -- named hard exit proven: ...expected 1000 docs, found 999
+  PASS  F-neg-count-mismatch [code 399/400] -- named hard exit proven: ...expected 400 docs, found 399
+  PASS  F-neg-count-mismatch [prose 619/620] -- named hard exit proven: ...expected 620 docs, found 619
+  PASS  F-neg-count-mismatch [p2 749/750] -- named hard exit proven: ...expected 750 docs, found 749
+  PASS  F-neg-slice-census-mismatch [prose 199/111/110/200] -- named hard exit proven: ...slice census
+  PASS  F-neg-positional-census-mismatch [p2 R-block axis] -- named hard exit proven: ...positional layout
+  PASS  F-neg-noncontig [math id 1000 in a 0..999 count] -- named hard exit proven: ...not a contiguous
+  PASS  F-neg-noncontig [code id 400 in a 0..399 count] -- named hard exit proven: ...not a contiguous
+  PASS  F-neg-noncontig [prose id 620 in a 0..619 count] -- named hard exit proven: ...not a contiguous
+  PASS  F-neg-noncontig [p2 id 750 in a 0..749 count] -- named hard exit proven: ...not a contiguous
+  PASS  F-neg-duplicate-doc_id [math id 5 under key '05'] -- named hard exit proven: ...does not match its doc_id
+  PASS  F-neg-duplicate-doc_id [code] -- named hard exit proven: ...does not match its doc_id
+  PASS  F-neg-duplicate-doc_id [prose] -- named hard exit proven: ...does not match its doc_id
+  PASS  F-neg-duplicate-doc_id [p2] -- named hard exit proven: ...does not match its doc_id
+  PASS  F-neg-truncated [math] -- named hard exit proven: ...truncated or malformed JSON
+  PASS  F-neg-truncated [code] -- named hard exit proven: ...truncated or malformed JSON
+  PASS  F-neg-truncated [prose] -- named hard exit proven: ...truncated or malformed JSON
+  PASS  F-neg-truncated [p2] -- named hard exit proven: ...truncated or malformed JSON
+  PASS  F-neg-harness-leak [prompt rebuilt with code appended] -- named hard exit proven: ...does not equal the pinned form
+  PASS  F-neg-harness-leak [code field exposed inside the prompt] -- named hard exit proven: ...HARNESS-FIELD LEAK
+  PASS  F-neg-register [chat register on a fresh leg] -- named hard exit proven: ...pinned to the raw completion register
+  PASS  F-pos-prose [REAL fresh prose manifest loads clean] -- leg prose17p-rw17, 620 docs, census 200/110/110/200 enforced, slice rides, labels None
+  PASS  F-pos-p2 [REAL fresh p2 manifest loads clean] -- leg p2corpus-rw17, 750 docs, positional R 0..374 / D 375..749 + 187/94/94 axis census enforced, joins ride
+  PASS  F-pos-math [fixture-world manifest, prefix monkeypatched] -- leg gsmrw17, 1000 docs, canonical prefix prepended (fixture), gold = the banked #### extraction
+  PASS  F-pos-code [fixture-world manifest loads clean] -- leg mbpprw17, 400 docs, pinned text+tests prompt, leak guard PASS, task_id rides, labels None
+  PASS  F-pos-dup-report [item-197 REPORT, not an exit] -- duplicate prompts REPORTED per item-197 (walked as independent docs; no exit)
+  prose corpus triadic_prose17p_prompts_v1.json: 2 exact-duplicate prompt pair(s) REPORTED (the item-197 amendment -- walked as independent docs, the walk unit is the doc_id): doc 67 == doc 82; doc 68 == doc 83
+  prose corpus triadic_prose17p_prompts_v1.json: 2 exact-duplicate prompt pair(s) REPORTED (the item-197 amendment -- walked as independent docs, the walk unit is the doc_id): doc 67 == doc 82; doc 68 == doc 83
+  PASS  F-par-banked-prose17p [v32.2.1 == v32.2.2 load] -- triadic_prose17p_prompts_v1.json: leg prose17p, 180 docs, byte-identical docs through both instruments
+  PASS  F-par-banked-p2corpus [v32.2.1 == v32.2.2 load] -- triadic_p2corpus_prompts_v1.json: leg p2corpus, 180 docs, byte-identical docs through both instruments
+  PASS  F-par-cache-record [banked v32.2.1 record reads back] -- 30/30 v32.2.1 records accepted by the v32.2.2 compat set; prose17p:0 numbers reproduced (100 steps, eos, walk_ids 100, all step columns 100, t = 0..99, hidden 83x2048 fp16 = 339968 bytes)
+  PASS  F-par-constants [version + cache-compat] -- v32.2.2 in the compat set with every banked version; the 10 loop fixtures byte-identical; v32.2.1 module untouched in memory
+=== FIXTURE RUN: 34 PASS / 0 FAIL ===

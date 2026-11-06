@@ -1,0 +1,26 @@
+  PASS  F1a determinism: same-path rebuild byte-identical
+  PASS  F2a selection: seeded shuffle + first-N + original-index order matches the independent recomputation
+  PASS  F2b no prefix rows selected
+  PASS  F2c the fresh1 subtraction exercised (its fixture index absent)
+  PASS  F2d design.seed == pinned 20261016
+  PASS  F3a scale: 6 fixture docs
+  PASS  F3b ids contiguous 0..5
+  PASS  F3c schema field == gsm8k-rw17-v1 (UNCHANGED)
+  PASS  F3d every doc carries doc_id/question/answer, non-empty
+  PASS  F4 gold discipline (#### segment, banked law)
+  PASS  F5a duplicate question hard exit (VOID, named)
+  PASS  F5b TEST-collision hard exit (VOID, the disjointness law named)
+  PASS  F5c fresh1 no-match hard exit (VOID, the subtraction law named)
+  PASS  F6a console carries the contamination-guard receipt
+  PASS  F6b console carries the fresh3 subtraction receipt
+  PASS  F6c console carries the pool receipts line
+  PASS  F6d console carries the seed + sha receipts
+  PASS  F6e console carries the disjointness receipt + the schema + tag
+  PASS  F7a design.spec_sha256 == the stamped fresh3 sheet pin
+  PASS  F7b design.walk_tag == rw17-math-fresh3
+  PASS  F7c design names the fork base + the fresh1 subtraction law
+  PASS  F7d design carries the parity law (EVEN=calibration)
+
+MATH FRESH3 BUILDER ACCEPTANCE: 22 PASS / 0 FAIL
+(fixture-mode lane; the REAL build runs owner-side per the stamped spec; its console + manifest get receipt-verified on upload)
+(fixture manifest sha256: f4e75fb078fadcf155e026fd6f698afd20704e7e9ee04f8c39c15de94b58f584)

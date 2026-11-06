@@ -1,0 +1,104 @@
+==============================================================================
+=== THE RW-17 READOUT AMENDMENT V2 ACCEPTANCE RUN (the item-255 pattern) ===
+  tool under test: triadic_rw17_readout_v2.py
+  (the owner-stamped specificity refinement OPTION A -- the
+   persistence-gated Side C, K=4; the stamped sheet
+   rw17-specificity-refinement-preregistration.md, SHA-256 c03dffed4ca13210ee5df7c7c27f9b065abfd128be7311b4fb6948e413d36c29)
+  LAW: every family drives the REAL v2 TOOL via its CLI and
+  compares EXACT against THIS RUNNER'S OWN gate-aware independent
+  recompute (the banked v1 engine imported for the world-builder
+  + arithmetic helpers, never the tool's functions; the v1 CLI is
+  the port-fidelity oracle); fix-the-fixture-or-the-builder,
+  never the tool's record.
+  (run dir: .scratch/rw17_readout_v2_accept_run)
+
+==============================================================================
+=== FAMILY F1: the clean four-leg V-PASS world through the v2 CLI: every quantity EXACT vs the independent v2 recompute ===
+  [F1] PASS -- the V-PASS world: the v2 tool runs clean (rc 0)
+  [F1] PASS -- the V-PASS world: export == the independent v2 recompute EXACT (every field, every leg, every doc)
+
+==============================================================================
+=== FAMILY F2: the gate law: gated-off Side C => D == z_F on C+F legs; gate on => D == max(z_C, z_F); the F-only code leg => D == z_F with the N/A string; the NAMED-GATED census strings exact ===
+  [F2] PASS -- leg gsmrw17: every exported doc view (9 views: fired + live loops) obeys the gate law exactly [0 gated / 9 pass]
+  [F2] PASS -- leg mbpprw17: every exported doc view (8 views: fired + live loops) obeys the gate law exactly [0 gated / 0 pass]
+  [F2] PASS -- leg prose17p-rw17: every exported doc view (9 views: fired + live loops) obeys the gate law exactly [1 gated / 8 pass]
+  [F2] PASS -- leg p2corpus-rw17: every exported doc view (9 views: fired + live loops) obeys the gate law exactly [1 gated / 8 pass]
+  [F2] PASS -- the F-only code leg: every view carries the N/A census string (the gate never applies)
+  [F2] PASS -- leg gsmrw17: gate_census.fired_gated == the fired views' NAMED-GATED-OFF count (0)
+  [F2] PASS -- leg mbpprw17: gate_census.fired_gated == the fired views' NAMED-GATED-OFF count (0)
+  [F2] PASS -- leg prose17p-rw17: gate_census.fired_gated == the fired views' NAMED-GATED-OFF count (1)
+  [F2] PASS -- leg p2corpus-rw17: gate_census.fired_gated == the fired views' NAMED-GATED-OFF count (1)
+
+==============================================================================
+=== FAMILY F3: PORT FIDELITY: the all-flat-PR world -- NO doc gated; the v1 CLI and the v2 CLI on the SAME world; every inherited quantity EXACT-equal ===
+  [F3] PASS -- both CLIs run clean on the flat world
+  [F3] PASS -- the flat world gates NOTHING (every census count 0; every C-armed view PASS; the code leg N/A)
+  [F3] PASS -- every inherited quantity EXACT-equal v1 vs v2 (every leg, threshold, fire, gap, AUC, verdict, view field -- the additive keys excepted by name)
+  [F3] PASS -- the v2-only fields carry their expected values (the V2 mode line, the tool name, the refinement_v2 block, the FOUR caveat lines, the prereg string)
+  [F3] PASS -- every leg's gate_census carries K=4 and the caveats carry the refinement disclosure (the 4th line)
+  [F3] PASS -- the v2 export == the independent v2 recompute EXACT on the flat world as well
+
+==============================================================================
+=== FAMILY F4: the gate-effect world: v1 fires a held-out single-spike doc through Side C; the v2 gate EXCLUDES it (N_band=1), the spiked calibration docs gate off too -- t_leg re-derived on the gated D (the operating point MOVES); the level-set receipt holds ===
+  [F4] PASS -- both CLIs run clean on the spike world
+  [F4] PASS -- v1 FIRES the spike doc 3 (Side C's ceiling spike -- the item-257 boundary anchor shape; t_leg rides the milder spiked calibration docs)
+  [F4] PASS -- v2 EXCLUDES the spike doc 3 (NAMED-GATED-OFF at N_band=1 < K=4; D falls to z_F)
+  [F4] PASS -- the spike doc's OWN SEC-1 band recomputed from the raw bytes: N_band == 1 (single in-band step), c_gate_on False -- the boundary-spike anchor shape gated off
+  [F4] PASS -- the three spiked CALIBRATION docs also gate off (N_band=1 each) -- the calibration half's gated-D distribution is what moves the operating point
+  [F4] PASS -- t_leg re-derived on the GATED D (v2 1.9023 == the independent recompute 1.9023 EXACT; v1's ungated 2.2529 differs -- the operating point moved, named honestly)
+  [F4] PASS -- the level-set receipt holds on the GATED D (calibration fires [REDACTED_PER_PUBLICATION_POLICY]; ok True)
+  [F4] PASS -- the v2 export == the independent v2 recompute EXACT on the spike world (every field)
+  [F4] PASS -- the per-leg persistence-gate console line rides every leg (3 C-armed census lines + the code leg's N/A line; NAMED-GATED never silent)
+
+==============================================================================
+=== FAMILY F5: every inherited hard exit fires loud through the v2 CLI (fail-loud, never a silent repair) ===
+  [F5] PASS -- truncated cache line -> HARD EXIT naming 'truncated'
+  [F5] PASS -- duplicate record -> HARD EXIT naming 'duplicate'
+  [F5] PASS -- degenerate calibration -> HARD EXIT naming 'DEGENERATE'
+  [F5] PASS -- missing leg -> HARD EXIT (the four-leg law)
+  [F5] PASS -- an unrecognized leg -> HARD EXIT at load (the loader's never-guess-a-key law)
+  [F5] PASS -- real mode on a non-pinned cache -> HARD EXIT (the SS4 pin law ENFORCED in real mode)
+
+==============================================================================
+=== FAMILY F6: determinism: the same-path re-run byte-identical on BOTH the export and the console ===
+  [F6] PASS -- the re-run export AND console are byte-identical
+
+==============================================================================
+=== FAMILY F7: the constants echo: K_GATE=4, the refinement sheet's pinned SHA, the RW-17 sheet's pinned SHA unchanged, the arming table unchanged, the fresh1 echo constants with the honest note, the FOUR caveat lines ===
+  [F7] PASS -- K_GATE == 4 (the stamped Option A pin)
+  [F7] PASS -- REFINEMENT_SHA == the stamped refinement sheet's pinned SHA (the item-260 pin, byte-exact)
+  [F7] PASS -- PREREG_SHA unchanged (the pinned RW-17 sheet, the item-241 pin)
+  [F7] PASS -- the arming table unchanged (math CF / code F / prose CF / p2 CF)
+  [F7] PASS -- the fresh1 echo constants carried (the SS4 cache pins + the item-254 expected censuses, ENFORCED real-mode values riding until the fresh3 echo-constant update -- the honest lifecycle note)
+  [F7] PASS -- the mode line names the V2 amendment with the stamped option
+  [F7] PASS -- the four caveat lines ride (the three pinned lines + the refinement disclosure)
+  [F7] PASS -- SEC_BAND_FACTOR 0.90 / ALPHA 0.05 / ALPHA_ESC 0.01 unchanged (the pinned constants never amended)
+
+==============================================================================
+=== FAMILY F8: the verdict-knob worlds (V-NEAR / V-JITTER / V-FAIL) through the v2 CLI: every quantity EXACT vs the independent v2 recompute; the typings AS MEASURED under the gate, named honestly ===
+  [F8] PASS -- V-NEAR: the v2 tool runs clean (rc 0)
+  [F8] PASS -- V-NEAR: export == the independent v2 recompute EXACT
+    (V-NEAR measured typings under the gate: {'gsmrw17': 'FAIL', 'mbpprw17': 'PASS_2SIGMA', 'prose17p-rw17': 'PASS_2SIGMA', 'p2corpus-rw17': 'PASS_2SIGMA'}; the candidate-level verdict: FAIL)
+  [F8] PASS -- V-JITTER: the v2 tool runs clean (rc 0)
+  [F8] PASS -- V-JITTER: export == the independent v2 recompute EXACT
+    (V-JITTER measured typings under the gate: {'gsmrw17': 'FAIL', 'mbpprw17': 'PASS_2SIGMA', 'prose17p-rw17': 'PASS_2SIGMA', 'p2corpus-rw17': 'PASS_2SIGMA'}; the candidate-level verdict: FAIL)
+  [F8] PASS -- V-FAIL: the v2 tool runs clean (rc 0)
+  [F8] PASS -- V-FAIL: export == the independent v2 recompute EXACT
+    (V-FAIL measured typings under the gate: {'gsmrw17': 'FAIL', 'mbpprw17': 'PASS_2SIGMA', 'prose17p-rw17': 'PASS_2SIGMA', 'p2corpus-rw17': 'PASS_2SIGMA'}; the candidate-level verdict: FAIL)
+
+==============================================================================
+  F1: 2/2 PASS
+  F2: 9/9 PASS
+  F3: 6/6 PASS
+  F4: 9/9 PASS
+  F5: 6/6 PASS
+  F6: 1/1 PASS
+  F7: 8/8 PASS
+  F8: 6/6 PASS
+
+  TOTAL: 47/47 PASS, 0 FAIL
+
+  Fix-the-fixture-or-the-builder, never the tool's record.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved,
+  or adjudicated; findings presented, never adjudicated --
+  the owner's stamps decide.

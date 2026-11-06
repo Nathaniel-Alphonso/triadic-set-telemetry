@@ -1,0 +1,13 @@
+PROSE CORPUS BUILD: REAL MODE
+  build spec: rw17-prose-corpus-build-spec-fresh3.md (stamped, item 263(e)(3); stamps banked item 266)
+  seed: 20261018 (pinned)
+  docs: 620  ids: 0..619 contiguous
+  slices: p1-constrained 200 / p2-trace 110 / p2-bait 110 (contra 73 + control 37) / p3-grounded 200
+  p1 families: {'forbidden_substring': 40, 'json_object': 20, 'max_sentences': 20, 'max_words': 20, 'required_prefix': 20, 'required_substring': 40, 'required_suffix': 20, 'sentence_count': 20}
+  trace kinds: {'derived-area': 10, 'derived-average': 10, 'derived-mixed': 10, 'derived-multistep': 15, 'derived-net': 10, 'derived-percent': 10, 'derived-profit': 10, 'derived-rate': 10, 'derived-scaling': 10, 'derived-total': 15}
+  bait marker histogram: {'I want': 12, "I'm hoping": 12, 'We need': 12, "I'd love": 11, 'The client expects': 11, 'We already told': 11, "Let's target": 11, "I'm counting on": 10, "I'd like": 10, 'we promised': 10}
+  p3 passages: 50 (x4 variants), quotes_required 2
+  disjointness receipt: PASS (banked + fresh1 shas verified; zero collisions, zero duplicates; zero content-level family overlap)
+  schema: prose17p-rw17-v1
+  written: triadic_rw17_prose_prompts_v2.json
+  sha256: b3c7087d33b58576b5eeb8bc853642407dcb1a331139614d1198c650fab38cc1

@@ -1,0 +1,76 @@
+==============================================================================
+=== RW-17 SEC BASELINE PASS TOOL -- REAL-CACHE CONTROL RUN (zero-GPU, read-only) ===
+PASS input receipt: the smoke cache SHA == the item-214 banked pin
+PASS (a) the control CLI run exits 0
+PASS (a) the export carries the tool's own SHA-256
+PASS (a) the export carries the pinned sheet's SHA-256
+PASS (a) the development-data typing rides
+PASS (a) fixture-mode is recorded
+PASS (a) the smoke-cache pin echo: the item-199 prose pin recorded, match FALSE (the smoke cache is not the pinned fresh cache)
+PASS (a) the smoke cache shape (20 prose17p corpus docs + 10 loop fixtures)
+PASS [17p] census: corpus 20 / removed 0
+PASS [17p] census not-present receipts (91/108 absent, never a silent drop)
+PASS [17p] parity 10/10 (EVEN calibration / ODD held-out)
+PASS [17p] loop population 8 live / 2 inert FROM THE SMOKE CACHE (live iff n_gen_steps >= 32)
+PASS [17p] z mu_C
+PASS [17p] z sd_C
+PASS [17p] z mu_F
+PASS [17p] z sd_F
+PASS [17p] t_leg (threshold-on-D level set)
+PASS [17p] t_esc (SEC-3)
+PASS [17p] th_C co-elev (SEC-4)
+PASS [17p] th_F co-elev (SEC-4)
+PASS [17p] level-set receipt
+PASS [17p] held-out n
+PASS [17p] held-out fires
+PASS [17p] held-out rate
+PASS [17p] held-out count-ceil
+PASS [17p] held-out Wilson upper
+PASS [17p] held-out escalation
+PASS [17p] fired docs list EXACT (order + every field + every SEC view)
+PASS [17p] overlap easiest-loop D
+PASS [17p] overlap n
+PASS [17p] overlap rate
+PASS [17p] catches at t_leg
+PASS [17p] catches at t_esc
+PASS [17p] gap on armed D
+PASS [17p] AUC on armed D
+PASS [17p] loop views EXACT (every field + every SEC view)
+PASS [17p] named-beta doc 95 absent receipt (not in the smoke corpus; nothing profiled)
+PASS [17p] summary loops
+PASS [17p] summary fired
+PASS [17p] summary non-fired
+PASS [17p] summary calib
+PASS [gsm8k filler] parity halves 24/24
+PASS [gsm8k filler] census receipts all not-present (the pinned census members, in pinned order)
+PASS [gsm8k filler] no doc removed (census members absent)
+PASS [gsm8k filler] loop population EMPTY (no fixtures carried, never fabricated)
+PASS [gsm8k filler] catches honestly 0/0
+PASS [gsm8k filler] overlap line honest nulls
+PASS [gsm8k filler] separation context honest nulls
+PASS [gsm8k filler] level-set receipt self-consistent
+PASS [gsm8k filler] armed sides echo the pinned arming table
+PASS [humaneval filler] parity halves 24/24
+PASS [humaneval filler] census receipts all not-present (the pinned census members, in pinned order)
+PASS [humaneval filler] no doc removed (census members absent)
+PASS [humaneval filler] loop population EMPTY (no fixtures carried, never fabricated)
+PASS [humaneval filler] catches honestly 0/0
+PASS [humaneval filler] overlap line honest nulls
+PASS [humaneval filler] separation context honest nulls
+PASS [humaneval filler] level-set receipt self-consistent
+PASS [humaneval filler] armed sides echo the pinned arming table
+PASS [p2corpus filler] parity halves 24/24
+PASS [p2corpus filler] census receipts all not-present (the pinned census members, in pinned order)
+PASS [p2corpus filler] no doc removed (census members absent)
+PASS [p2corpus filler] loop population EMPTY (no fixtures carried, never fabricated)
+PASS [p2corpus filler] catches honestly 0/0
+PASS [p2corpus filler] overlap line honest nulls
+PASS [p2corpus filler] separation context honest nulls
+PASS [p2corpus filler] level-set receipt self-consistent
+PASS [p2corpus filler] armed sides echo the pinned arming table
+PASS (c) determinism: a fresh re-run byte-identical
+
+==============================================================================
+CONTROL CENSUS: 69 PASS / 0 FAIL
+  Fix-the-fixture-or-the-builder, never the tool.
+theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated.

@@ -1,0 +1,12 @@
+P2 CORPUS BUILD: REAL MODE
+  build spec: rw17-p2-corpus-build-spec-fresh3.md (stamped, item 263(e)(4); stamps banked item 266)
+  seed: 20261019 (pinned)
+  docs: 750  ids: 0..749 contiguous
+  R: contra 187 absent 94 control 94
+  D: contra 187 absent 94 control 94
+  axes: contra 374 / absent 188 / control 188
+  marker histogram: {'I want': 78, "I'm hoping": 78, 'We need': 78, "I'd love": 78, 'The client expects': 74, 'We already told': 74, "Let's target": 74, "I'm counting on": 72, "I'd like": 72, 'we promised': 72}
+  disjointness receipt: PASS (banked + fresh1 shas verified; zero collisions, zero duplicates; zero content-level family overlap)
+  schema: p2corpus-rw17-v1
+  written: triadic_rw17_p2_prompts_v2.json
+  sha256: e543a5de3bc25753104553651b11a2754927a06d85918d8046cbb8c42802a3a7

@@ -1,0 +1,149 @@
+==============================================================================
+=== RW-17 FIRES FORENSICS (Lane 1; offline read-only zero-GPU) ===
+  the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from this
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; this is a reading, not a scoring
+  mode: REAL MODE -- the banked adjudication run of record + the banked thins of record (items 254/256)
+  (tag: rw17-fires-forensics)
+
+  --- LEG [gsmrw17] fires 23 ---
+    doc       D  spk  frac    ph  dTr  dLc cyc  phr   ech  rNb  rRb  class
+     15   4.300   79  0.95   CoT    1    4   1    0  0.00    3    2  BOUNDARY
+    297   3.847   63  0.95   CoT    1    3   2    0  0.00    2    1  BOUNDARY
+     81   3.804   47  0.94   CoT    1    3   1    0  0.00    2    1  BOUNDARY
+    751   3.676  111  0.97   CoT    1    4   1    0  0.00    2    1  BOUNDARY
+    237   3.077   95  0.97   CoT    1    3   1    0  0.00    6    1  BOUNDARY
+    597   3.005   79  0.96   CoT    1    3   2    0  0.00    4    2  BOUNDARY
+    593   2.996   63  0.95   CoT    1    3   1    0  0.00    1    1  BOUNDARY
+    529   2.793   79  0.96   CoT    1    3   1    0  0.00    3    1  BOUNDARY
+    735   2.436   79  0.96   CoT    1    3   1    0  0.00    1    1  BOUNDARY
+    189   2.429   63  0.97   CoT    0    2   1    0 -1.00    1    1  BOUNDARY
+     67   2.398  223  0.87   CoT   -1   31   1    0  0.00    7    1  BOUNDARY
+    881   2.352   15  0.29   CoT   35   37   2    0  0.00    1    1  OTHER
+    765   2.183   95  0.71   CoT   36   39   1    0  0.00    5    1  OTHER
+    991   2.090   40  0.52   CoT   37   37   1    0  0.00    1    1  OTHER
+     53   2.021   63  0.84   CoT    9   12   2    0  0.00    1    1  OTHER
+    789   2.008   15  0.47   CoT   14   17   1    0  0.00    2    1  OTHER
+     39   1.937  191  0.75   CoT   -1   63   1    0  0.00    5    2  OTHER
+    515   1.907   47  0.94   CoT    1    3   1    0  0.00    1    1  BOUNDARY
+    769   1.890   63  0.84   CoT    9   12   2    0  0.00    2    1  OTHER
+    917   1.870   63  0.95   CoT    1    3   1    0 -1.00    2    1  BOUNDARY
+     59   1.757   63  0.95   CoT    1    3   1    0 -1.00    2    1  BOUNDARY
+    531   1.724   31  0.44   CoT   38   40   1    0  0.00    2    1  OTHER
+    513   1.690   40  0.85   CoT    5    7   1    0  0.00    2    1  BOUNDARY
+  fired classes:   {"BOUNDARY": 15, "OTHER": 8}
+  loop-fixture classes (the contrast, same rules): {"REPETITION": 7, "OTHER": 1}
+    [loop] loop-injection-code      cyc   9 phrase  40x 5 spk  111/ 256 -> REPETITION
+    [loop] loop-injection-prose     cyc 128 phrase  40x109 spk   31/ 256 -> REPETITION
+    [loop] loop-seeded-code-line    cyc   1 phrase   0x 0 spk   15/  37 -> OTHER
+    [loop] loop-seeded-countdown    cyc  25 phrase  40x18 spk  175/ 256 -> REPETITION
+    [loop] loop-seeded-counter      cyc  64 phrase  40x89 spk   79/ 256 -> REPETITION
+    [loop] loop-seeded-cycle        cyc  85 phrase  40x66 spk  127/ 256 -> REPETITION
+    [loop] loop-seeded-json         cyc  51 phrase  40x32 spk   63/ 256 -> REPETITION
+    [loop] mask-reserved-stubborn   cyc  64 phrase  40x89 spk  175/ 256 -> REPETITION
+
+  --- LEG [mbpprw17] fires 11 ---
+    doc       D  spk  frac    ph  dTr  dLc cyc  phr   ech  rNb  rRb  class
+    135   5.000   63  0.12   CoT   -1  447  11   33  0.00    3    1  REPETITION
+    179   4.680  437  0.86   CoT   -1   74   1   24  0.00    7    1  REPETITION
+    393   4.253    7  0.01   CoT   -1  504  13   40  0.00    2    1  REPETITION
+    211   2.638  406  0.79   CoT   -1  103  49   40  0.00    1    1  REPETITION
+    193   2.357  367  0.72   CoT   -1  144   1   40  0.00    7    2  REPETITION
+    101   2.238    5  0.01   CoT   -1  505  81   40  0.00    3    1  REPETITION
+    175   2.135  239  0.47   CoT   -1  270   1    0  0.00    3    1  OTHER
+    377   2.112    7  0.01   CoT   -1  503   1   40  0.00    3    1  REPETITION
+    187   2.083  271  0.53   CoT   -1  240   1   40  0.00    2    1  REPETITION
+    107   1.944   95  0.19   CoT   -1  416  39   40  0.00    3    1  REPETITION
+     81   1.944  511  1.00   CoT   -1    0  49   40 -1.00   11    2  REPETITION
+  fired classes:   {"REPETITION": 10, "OTHER": 1}
+  loop-fixture classes (the contrast, same rules): {"REPETITION": 7, "OTHER": 1}
+    [loop] loop-injection-code      cyc   9 phrase  40x 5 spk  111/ 256 -> REPETITION
+    [loop] loop-injection-prose     cyc 128 phrase  40x109 spk   31/ 256 -> REPETITION
+    [loop] loop-seeded-code-line    cyc   1 phrase   0x 0 spk   24/  37 -> OTHER
+    [loop] loop-seeded-countdown    cyc  25 phrase  40x18 spk  175/ 256 -> REPETITION
+    [loop] loop-seeded-counter      cyc  64 phrase  40x89 spk   79/ 256 -> REPETITION
+    [loop] loop-seeded-cycle        cyc  85 phrase  40x66 spk  181/ 256 -> REPETITION
+    [loop] loop-seeded-json         cyc  51 phrase  40x32 spk   63/ 256 -> REPETITION
+    [loop] mask-reserved-stubborn   cyc  64 phrase  40x89 spk    2/ 256 -> REPETITION
+
+  --- LEG [prose17p-rw17] fires 25 ---
+    doc       D  spk  frac    ph  dTr  dLc cyc  phr   ech  rNb  rRb  class
+    325   4.946  175  0.35   CoT   -1  330   1    0  0.00    4    1  OTHER
+    117   4.701  127  0.25   CoT   -1  384   1   25  0.00    2    1  REPETITION
+    285   4.457  159  0.31   CoT   -1  352   2   40  0.00    5    2  REPETITION
+    419   4.032   15  0.13   CoT   -1  102   1    0  0.29    2    1  OTHER
+    327   3.901    0  0.00   CoT   -1   17   1    0  0.00    1    1  OTHER
+    399   3.847    7  0.35   CoT   -1   12   1    0  0.00    2    1  OTHER
+    413   3.823    7  0.54   CoT   -1    5   1    0  0.00    1    1  OTHER
+    329   3.807   15  0.58   CoT   -1   10   1    0  0.00    1    1  OTHER
+    105   3.797   63  0.33   CoT   -1  125   1    0  0.00    3    1  OTHER
+    345   3.781    7  0.44   CoT   -1    8   1    0  0.00    1    1  OTHER
+    395   3.733    0  0.00   CoT   -1    4   1    0  0.00    2    1  OTHER
+    353   3.690    9  0.36   CoT   -1   15   1    0  0.00    1    1  OTHER
+    349   3.661    0  0.00   CoT   -1    4   1    0  0.00    1    1  OTHER
+     47   3.655   63  0.33   CoT   -1  129   1    0  0.00    7    1  OTHER
+    365   3.642    7  0.32   CoT   -1   14   1    0  0.00    1    1  OTHER
+    119   3.488  175  0.34   CoT   -1  336   1    0  0.00    5    1  OTHER
+    347   3.393  143  0.28   CoT   -1  368   1   40  0.00    1    1  REPETITION
+    101   3.374   95  0.74   CoT   -1   31   1    0  0.00    1    1  OTHER
+    503   3.368  303  0.64   CoT   -1  171   1   19  0.00    5    1  REPETITION
+    269   3.286  111  0.67   CoT   -1   54   1    0  0.00    7    1  OTHER
+    103   3.275   47  0.48   CoT   -1   48   1    0  0.00    2    1  OTHER
+    303   3.218   23  0.23   CoT   -1   74   1    0  0.00    4    1  OTHER
+    321   3.163  111  0.22   CoT   -1  400   1   40  0.00    9    1  REPETITION
+    581   3.132  239  0.82   CoT   -1   51   1    0  0.00    4    1  OTHER
+    609   3.121  383  0.99   CoT   -1    3   1   15  0.00    7    2  REPETITION
+  fired classes:   {"OTHER": 19, "REPETITION": 6}
+  loop-fixture classes (the contrast, same rules): {"REPETITION": 7, "OTHER": 1}
+    [loop] loop-injection-code      cyc   9 phrase  40x 5 spk  111/ 256 -> REPETITION
+    [loop] loop-injection-prose     cyc 128 phrase  40x109 spk   31/ 256 -> REPETITION
+    [loop] loop-seeded-code-line    cyc   1 phrase   0x 0 spk   15/  37 -> OTHER
+    [loop] loop-seeded-countdown    cyc  25 phrase  40x18 spk  175/ 256 -> REPETITION
+    [loop] loop-seeded-counter      cyc  64 phrase  40x89 spk   79/ 256 -> REPETITION
+    [loop] loop-seeded-cycle        cyc  85 phrase  40x66 spk  127/ 256 -> REPETITION
+    [loop] loop-seeded-json         cyc  51 phrase  40x32 spk   63/ 256 -> REPETITION
+    [loop] mask-reserved-stubborn   cyc  64 phrase  40x89 spk  175/ 256 -> REPETITION
+
+  --- LEG [p2corpus-rw17] fires 23 ---
+    doc       D  spk  frac    ph  dTr  dLc cyc  phr   ech  rNb  rRb  class
+    643   3.674  111  0.62   CoT   -1   66   1    0  0.00    4    1  OTHER
+    511   3.522   79  0.15   CoT   -1  432   1   40  0.00    3    1  REPETITION
+    245   3.515  319  0.76   CoT   -1  101   1    0  0.00   10    1  OTHER
+    409   3.436    0  0.00   CoT   -1    6   1    0  0.00    2    2  OTHER
+    747   3.413    0  0.00   CoT   -1    5   1    0  0.00    2    2  OTHER
+    557   3.372    0  0.00   CoT   -1    8   1    0  0.00    2    2  OTHER
+    393   3.353    0  0.00   CoT   -1    6   1    0  0.00    1    1  OTHER
+    543   3.350    0  0.00   CoT   -1   15   1    0  0.00    1    1  OTHER
+    503   3.259    0  0.00   CoT   -1    5   1    0  0.00    1    1  OTHER
+    551   3.247    0  0.00   CoT   -1    5   1    0  0.00    2    2  OTHER
+    465   3.242    0  0.00   CoT   -1    8   1    0  0.00    2    2  OTHER
+    683   3.182    0  0.00   CoT   -1   12   1    0  0.00    1    1  OTHER
+    521   3.177  287  0.84   CoT   -1   54   1    0  0.00    3    1  OTHER
+    727   3.174    0  0.00   CoT   -1    5   1    0  0.00    1    1  OTHER
+    575   3.158    0  0.00   CoT   -1    8   1    0  0.00    1    1  OTHER
+    485   3.151  143  0.34   CoT   -1  279   1    0  0.00    5    1  OTHER
+    443   3.138    9  0.90   CoT   -1    0   1    0  0.00    1    1  BOUNDARY
+    549   3.114    0  0.00   CoT   -1    5   1    0  0.00    2    2  OTHER
+    541   3.105    0  0.00   CoT   -1   12   1    0  0.00    1    1  OTHER
+    733   3.091    0  0.00   CoT   -1    5   1    0  0.00    2    2  OTHER
+    481   3.068    0  0.00   CoT   -1   13   1    0  0.00    2    2  OTHER
+    115   3.039    7  0.37   CoT   -1   11   1    0  0.00    2    1  OTHER
+    743   3.036   15  0.04   CoT   -1  333   2    0  0.00    3    1  OTHER
+  fired classes:   {"OTHER": 21, "REPETITION": 1, "BOUNDARY": 1}
+  loop-fixture classes (the contrast, same rules): {"REPETITION": 7, "OTHER": 1}
+    [loop] loop-injection-code      cyc   9 phrase  40x 5 spk  111/ 256 -> REPETITION
+    [loop] loop-injection-prose     cyc 128 phrase  40x109 spk   31/ 256 -> REPETITION
+    [loop] loop-seeded-code-line    cyc   1 phrase   0x 0 spk   15/  37 -> OTHER
+    [loop] loop-seeded-countdown    cyc  25 phrase  40x18 spk  175/ 256 -> REPETITION
+    [loop] loop-seeded-counter      cyc  64 phrase  40x89 spk   79/ 256 -> REPETITION
+    [loop] loop-seeded-cycle        cyc  85 phrase  40x66 spk  127/ 256 -> REPETITION
+    [loop] loop-seeded-json         cyc  51 phrase  40x32 spk   63/ 256 -> REPETITION
+    [loop] mask-reserved-stubborn   cyc  64 phrase  40x89 spk  175/ 256 -> REPETITION
+
+  === FINDINGS (presented, never adjudicated; the owner's stamps decide) ===
+  gsmrw17: fired BOUNDARY 15/23 | OTHER 8/23 || loops (contrast): OTHER 1 | REPETITION 7
+  mbpprw17: fired OTHER 1/11 | REPETITION 10/11 || loops (contrast): OTHER 1 | REPETITION 7
+  prose17p-rw17: fired OTHER 19/25 | REPETITION 6/25 || loops (contrast): OTHER 1 | REPETITION 7
+  p2corpus-rw17: fired BOUNDARY 1/23 | OTHER 21/23 | REPETITION 1/23 || loops (contrast): OTHER 1 | REPETITION 7
+
+  === FORENSICS COMPLETE (presented, never adjudicated) ===
+  export written: rw17_fires_forensics_report.json (90607 bytes)

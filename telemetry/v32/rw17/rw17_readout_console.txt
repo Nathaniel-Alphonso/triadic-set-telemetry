@@ -1,0 +1,94 @@
+  (tag: rw17-fresh-adjudication)
+==============================================================================
+=== RW-17 FRESH-CORPUS ADJUDICATION READOUT (offline read-only zero-GPU) ===
+  ADJUDICATION READOUT OF RECORD -- PRESENTED, NEVER ADJUDICATED; THE OWNER'S STAMPS DECIDE
+  The pinned sheet of record: rw17-fresh-corpus-preregistration.md
+  (SHA-256 64f87bc01906ee6f...f74075; the owner's pinning stamp, ledger item 241; this is the sheet's SS4.5 readout tool amendment -- the current builds preserved).
+  THE CONSTRUCTION (the pinned sheet SS1): D over the leg's ARMED sides only;
+  ARMING (prior evidence only, ledger item 237; family-scoped): gsmrw17 CF | mbpprw17 F | prose17p-rw17 CF | p2corpus-rw17 CF
+  HONEST COST OWNED (the sheet SS1.2): arming is prior-evidence-driven; if the
+  fresh code corpus would have shown C-separation, this construction has
+  surrendered that coverage -- never fresh-data-driven.
+  THE BAR: held-out 2-sigma on armed D (the leg's live fixtures as positives vs
+  the held-out half's census-applied clean docs; PASS_2SIGMA iff gap >= 2.0; the [REDACTED_PER_PUBLICATION_POLICY] jitter clause;
+  the above-bar near-bar FLAG; the per-half population guard (>=5/half).
+  THE FALSIFIER (the sheet SS1.5 count form): fires > ceil(0.05 * n_held) ==> CANDIDATE-KILLED-FALSE-ALARM-BUDGET;
+  KILLED dominates a guard typing (the sheet SS1.8); loop catches are
+  DIAGNOSTIC, never a gate (the stamped tradeoff clause, item 237).
+  THE FRESH CENSUS LAW (the sheet SS1.8): empty generation, EOS@step0 (measured at readout)
+  + the EXPECTED FRESH CENSUSES of record (ledger item 254): gsmrw17 0 | mbpprw17 1 | prose17p-rw17 3 | p2corpus-rw17 95
+  THE PINS: the four SS4 cache checksum lines of record (ledger items 253/254)
+  ENFORCED in real mode; the within-set loop-fixture byte-identity receipt;
+  thin records pass this loader unchanged (the item-253 law; hidden_b64 never decoded).
+  NO LABEL JOINS (the RW-14 riders adjudicate under their own pre-registered
+  readout, the G-FW3 no-silent-multiplexing law).
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated;
+  the binding operating alpha stays deferred to the theta-wiring pre-reg (R16-D2);
+  findings presented, never adjudicated -- the owner's stamps decide.
+  [walks] loading triadic_t2_cache_rw17-math-fresh_bfloat16_bos.jsonl (sha256 5bc76e86a85271bb...): 1010 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_rw17-code-fresh_bfloat16_bos.jsonl (sha256 38c1225263290712...): 410 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_rw17-prose-fresh_bfloat16_bos.jsonl (sha256 69ad79ae0dca7538...): 630 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_rw17-p2-fresh_bfloat16_bos.jsonl (sha256 69b10ff18ad951da...): 760 records (+0 empty-form)
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [gsmrw17, from cache triadic_t2_cache_rw17-math-fresh_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [gsmrw17, from cache triadic_t2_cache_rw17-math-fresh_bfloat16_bos.jsonl].
+
+  --- LEG [gsmrw17] (armed: CF) --- (1000 corpus docs | 0 censused EOS@step0 (expected 0) | even 500 / odd 500 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 23/500 = 4.6000% (count-ceil 25; Wilson upper 6.4007%) | escalation 5
+    loop catches (diagnostic): 8/8 at t_leg | 6/8 at t_esc
+    loop-floor overlap line: 12/500 = 2.4000% clean docs at/above the easiest loop's D (2.1834)
+    the BAR on armed D: gap=3.585 AUC=0.9938 -> PASS_2SIGMA
+    (held-out 2-sigma bar met on this leg (gap 3.585 >= 2.0))
+    SEC-1 @0.90 mean N_band: loops 7.0 | fired 1.173913043478261 | non-fired 2.0649895178197064
+    SEC-1 @0.90 mean R_band: loops 1.0 | fired 1.0 | non-fired 1.0335429769392033
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [mbpprw17, from cache triadic_t2_cache_rw17-code-fresh_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [mbpprw17, from cache triadic_t2_cache_rw17-code-fresh_bfloat16_bos.jsonl].
+
+  --- LEG [mbpprw17] (armed: F) --- (400 corpus docs | 1 censused EOS@step0 (expected 1) | even 200 / odd 199 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 11/199 = 5.5276% (count-ceil 10; Wilson upper 8.8375%) | escalation 4
+    loop catches (diagnostic): 6/8 at t_leg | 6/8 at t_esc
+    loop-floor overlap line: 53/199 = 26.6332% clean docs at/above the easiest loop's D (0.3357)
+    the BAR on armed D: gap=2.196 AUC=0.9535 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+    (the coarse-guard falsifier fired: the held-out half's clean fire count 11/199 > ceil(0.05 * 199) = 10 (rate 5.5276%) -- the candidate dies EVEN IF the sigma-gap passes (the pinned sheet SS1.5, the R16-D2 falsifier))
+    SEC-1 @0.90 mean N_band: loops 10.25 | fired 10.454545454545455 | non-fired 4.031914893617022
+    SEC-1 @0.90 mean R_band: loops 1.375 | fired 1.1818181818181819 | non-fired 1.0797872340425532
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p-rw17, from cache triadic_t2_cache_rw17-prose-fresh_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p-rw17, from cache triadic_t2_cache_rw17-prose-fresh_bfloat16_bos.jsonl].
+
+  --- LEG [prose17p-rw17] (armed: CF) --- (620 corpus docs | 3 censused EOS@step0 (expected 3) | even 309 / odd 308 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 25/308 = 8.1169% (count-ceil 16; Wilson upper 11.0562%) | escalation 3
+    loop catches (diagnostic): 7/8 at t_leg | 6/8 at t_esc
+    loop-floor overlap line: 30/308 = 9.7403% clean docs at/above the easiest loop's D (2.9317)
+    the BAR on armed D: gap=3.467 AUC=0.9785 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+    (the coarse-guard falsifier fired: the held-out half's clean fire count 25/308 > ceil(0.05 * 308) = 16 (rate 8.1169%) -- the candidate dies EVEN IF the sigma-gap passes (the pinned sheet SS1.5, the R16-D2 falsifier))
+    SEC-1 @0.90 mean N_band: loops 8.625 | fired 1.96 | non-fired 3.208480565371025
+    SEC-1 @0.90 mean R_band: loops 1.0 | fired 1.04 | non-fired 1.1590106007067138
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [p2corpus-rw17, from cache triadic_t2_cache_rw17-p2-fresh_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [p2corpus-rw17, from cache triadic_t2_cache_rw17-p2-fresh_bfloat16_bos.jsonl].
+
+  --- LEG [p2corpus-rw17] (armed: CF) --- (750 corpus docs | 95 censused EOS@step0 (expected 95) | even 327 / odd 328 | 8 live / 2 inert positives)
+    THRESHOLD-ON-D: t_leg=[REDACTED_PER_PUBLICATION_POLICY] | t_esc=[REDACTED_PER_PUBLICATION_POLICY]
+    level-set receipt: [REDACTED_PER_PUBLICATION_POLICY] (OK)
+    held-out-half: fires 23/328 = 7.0122% (count-ceil 17; Wilson upper 9.7004%) | escalation 3
+    loop catches (diagnostic): 6/8 at t_leg | 4/8 at t_esc
+    loop-floor overlap line: 43/328 = 13.1098% clean docs at/above the easiest loop's D (2.2507)
+    the BAR on armed D: gap=2.958 AUC=0.9615 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+    (the coarse-guard falsifier fired: the held-out half's clean fire count 23/328 > ceil(0.05 * 328) = 17 (rate 7.0122%) -- the candidate dies EVEN IF the sigma-gap passes (the pinned sheet SS1.5, the R16-D2 falsifier))
+    SEC-1 @0.90 mean N_band: loops 8.625 | fired 1.2608695652173914 | non-fired 2.685245901639344
+    SEC-1 @0.90 mean R_band: loops 1.0 | fired 1.0 | non-fired 1.0819672131147542
+
+  --- PRESENTED CANDIDATE VERDICT (the owner's stamps decide) ---
+    RW-17 armed D (threshold-on-D): CANDIDATE-KILLED-FALSE-ALARM-BUDGET -- at least one leg's held-out-half clean fire count exceeded the coarse-guard budget ceiling (the pinned sheet SS1.5 falsifier) -- the candidate dies even if gaps passed; KILLED dominates a guard typing (SS1.8)
+    CAVEAT 1 (development-data disclosure): the candidate pair (item-215) and the SEC features (items 231-232 forensics) were developed against the BANKED walks; the fresh corpora are the DISJOINT adjudication (the design intent of S-A); the disclosure rides every verdict -- the record never claims amnesia
+    CAVEAT 2 (the fresh-census line): the fresh corpora carry their OWN censuses (the sheet SS1.8): EOS@step0 docs censused AT READOUT, measured never named, every receipt carried; the 35-doc named class is banked history
+    CAVEAT 3 (the fixed-fixtures line): the same 10 loop fixtures ride every leg (instrument built-ins): the fresh test is of the negative population + the operating point; the positives are FIXED -- loop-catch coverage is measured, never guaranteed (the sheet SS3.4)
+    theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no threshold set, moved, or adjudicated; t_leg/t_esc are calibration artifacts measured per run, never a theta move; the binding operating alpha stays deferred to the theta-wiring pre-registration (R16-D2)
+
+  === ADJUDICATION READOUT COMPLETE (presented, never adjudicated) ===
+
+  export written: triadic_rw17_readout_rw17-fresh-adjudication.json (189987 bytes)

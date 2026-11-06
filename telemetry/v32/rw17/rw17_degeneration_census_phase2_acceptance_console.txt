@@ -1,0 +1,43 @@
+PASS -- A0 the A-pins guard: the fork's sha is exactly the pinned build
+PASS -- A1 py_compile clean on the phase-2 fork
+PASS -- F1a the clean both-leg world runs clean (rc 0)
+PASS -- F1b the export carries BOTH legs + the governing-sheet stamp
+PASS -- F1c the constants block echoes the pins
+PASS -- F1d the typing block carries all four named lines
+PASS -- F2a cap + 4-gram cycle x6 -> DEGENERATE-EMISSION
+PASS -- F2b eos + 15-token phrase x3 -> MILD-REPETITION
+PASS -- F2c cap WITHOUT repetition -> never typed
+PASS -- F2d repetition + fewshot-boundary -> the named unexpected line
+PASS -- F2e a clean fewshot-boundary doc -> the tail rule, never typed
+PASS -- F2f the empty generation never corrupts the join (doc 5 rides)
+PASS -- F2g p2 cap + phrase x3 -> DEGENERATE-EMISSION
+PASS -- F2h the empty-form doc -> the named EMPTY-GENERATION line
+PASS -- F2i the empty row counted in the stop census, excluded from classes
+PASS -- F2j the numeric-string manifest join landed (echo refs resolved)
+PASS -- F2k the loop contrast: live + inert read separately
+PASS -- F3a the actuated overlap: fired=2, deg=[0], mild=[1]
+PASS -- F3b the re-derived accounting line exact (2 - 1 = 1 vs ceil 2)
+PASS -- F4a 15 unactuated degenerate -> exactly 10 owner-sample docs, seeded
+PASS -- F4b the run twice is byte-identical (determinism)
+PASS -- F5a the premise receipts: declared pins enforced + reconciled
+PASS -- G1 a thin-stripped rider refused at the cache law
+PASS -- G2 a duplicate record key refused
+PASS -- G3 a missing record refused (never a silent skip)
+PASS -- G4 a key/leg mismatch refused
+PASS -- G5 an empty-form doc on the math leg = premise violation
+PASS -- G6 an empty-generation count drift refused
+PASS -- G7 the export receipts doc-list drift refused
+PASS -- G8 a stop-census drift refused
+PASS -- G9 a walk-record count drift refused
+PASS -- G10 a fixture world without declared premise pins refused
+PASS -- G11 a numeric-string manifest miss refused
+PASS -- G12 a missing cache file dies the CLEAN named exit (never a traceback)
+PASS -- R1 wrong export bytes die at the export pin (rc 3)
+PASS -- R2 the real export + real sheet + wrong cache bytes die at the cache pin
+PASS -- R3 REAL mode without the governing sheet is refused
+PASS -- I1 the leg-key digest resolution against the real landed export
+PASS -- I2 the zero-match leg-key guard hard-exits
+PASS -- I3 the empty-slot guard hard-exits
+
+PHASE-2 CENSUS ACCEPTANCE: 40 PASS / 0 FAIL
+ALL GREEN

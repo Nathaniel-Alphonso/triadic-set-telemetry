@@ -1,0 +1,23 @@
+  PASS  F1a real build runs clean (rc 0, CENSUS implied by rc)
+  PASS  F1b same-path rebuild byte-identical
+  PASS  F1c different path differs ONLY in the corpus basename echo
+  PASS  F2 every doc matches the independent seeded recomputation (family/axis/marker/desire/prompt/conflict, all 750)
+  PASS  F3a scale 750 + ids contiguous 0..749
+  PASS  F3b schema == p2corpus-rw17-v1
+  PASS  F3c family/axis census EXACT (375/375; 187/94/94 x2)
+  PASS  F3d every doc carries the pinned fields; D docs the artifact
+  PASS  F4a rule-truth: marker band verbatim, desire embedded, axis laws honored (all 750)
+  PASS  F4b marker histogram covers the full 10-marker band
+  PASS  F4c positional layout law (R 0..374 then D 375..749, axis blocks in census order)
+  PASS  F4d zero duplicate prompts within
+  PASS  F4e zero overlap vs the banked 180 (disjointness law, item 228)
+  PASS  F5a missing banked reference hard exit (VOID, named)
+  PASS  F5b banked SHA mismatch hard exit (VOID, the pin named)
+  PASS  F5c disjointness collision hard exit (VOID, the item-228 law named)
+  PASS  F5d duplicate-prompt hard exit (VOID, named)
+  PASS  F6a console carries the seed + spec receipts
+  PASS  F6b console carries the census receipts
+  PASS  F6c console carries the disjointness receipt + sha
+
+P2 BUILDER ACCEPTANCE: 20 PASS / 0 FAIL
+(real-mode lane: the builder is the corpus of record's generator; the manifest sha256: 5200e79db9da0729406fc476e5be4e5e25531934d035321f18ba8416238e758b)

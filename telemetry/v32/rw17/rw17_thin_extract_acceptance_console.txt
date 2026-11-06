@@ -1,0 +1,17 @@
+  PASS  F1 the tool runs clean (returncode 0)
+  PASS  F2 record census: 6 thin lines
+  PASS  F3a every field rides unchanged; hidden_b64 == ""; thin: true
+  PASS  F3b key order preserved + thin appended last
+  PASS  F3c serialization byte-canonical (the cache-writer format)
+  PASS  F4 empty-form pass-through byte-identical, no marker
+  PASS  F5 zero-step record: hidden_n 0, hidden_b64 "", thin true
+  PASS  F6 REQUIRED_RECORD_FIELDS + REQUIRED_STEP_FIELDS present on every thin record (the readout-class loader law passes)
+  PASS  F7 read-only: cache SHA unchanged by the run
+  PASS  F8a console carries the cache SHA receipt
+  PASS  F8b console census: 6 records, legs {'gsmrw17': 3, 'mbpprw17': 3}
+  PASS  F8c console census: 10 per-step rows carried
+  PASS  F9a same-path rerun byte-identical
+  PASS  F9b the console deterministic on a same-path rerun
+  PASS  F10 truncated line -> named hard exit (file + line number)
+
+THIN EXTRACT ACCEPTANCE: 15 PASS / 0 FAIL

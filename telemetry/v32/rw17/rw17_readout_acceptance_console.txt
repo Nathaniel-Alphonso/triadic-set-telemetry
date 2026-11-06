@@ -1,0 +1,146 @@
+==============================================================================
+=== THE RW-17 READOUT TOOL ACCEPTANCE RUN (the item-242 pattern) ===
+  tool under test: triadic_rw17_readout.py
+  (the pinned sheet SS4.5 readout tool amendment; the pinned sheet
+   rw17-fresh-corpus-preregistration.md, SHA-256
+   64f87bc01906ee6f5a50d38c2b09c09aa9f089f14803cfae9e8a07dd0af74075)
+  LAW: every family drives the REAL TOOL via its CLI and
+  compares EXACT against THIS RUNNER'S OWN independent
+  recomputation; fix-the-fixture-or-the-builder, never
+  the tool's record.
+  (run dir: .scratch/rw17_readout_accept_run)
+
+==============================================================================
+=== FAMILY F1: the clean four-leg V-PASS world: every exported quantity EXACT vs the independent recompute ===
+  [F1] PASS -- the V-PASS world: the tool runs clean (rc 0)
+  [F1] PASS -- the V-PASS world: export == the independent recompute EXACT (every field, every leg, every doc, order-exact)
+  [F1] PASS -- the candidate verdict is PASS_2SIGMA-ALL-FOUR-LEGS
+  [F1] PASS -- leg gsmrw17 types PASS_2SIGMA
+  [F1] PASS -- leg gsmrw17: loop population 8 live / 2 inert
+  [F1] PASS -- leg mbpprw17 types PASS_2SIGMA
+  [F1] PASS -- leg mbpprw17: loop population 8 live / 2 inert
+  [F1] PASS -- leg prose17p-rw17 types PASS_2SIGMA
+  [F1] PASS -- leg prose17p-rw17: loop population 8 live / 2 inert
+  [F1] PASS -- leg p2corpus-rw17 types PASS_2SIGMA
+  [F1] PASS -- leg p2corpus-rw17: loop population 8 live / 2 inert
+  [F1] PASS -- leg gsmrw17: measured census 0 == the pin
+  [F1] PASS -- leg mbpprw17: measured census 1 == the pin
+  [F1] PASS -- leg prose17p-rw17: measured census 3 == the pin
+  [F1] PASS -- leg p2corpus-rw17: measured census 95 == the pin
+  [F1] PASS -- the one empty-form record is excluded, never pooled
+  [F1] PASS -- the fixture-identity receipt: 10 loop fixtures, byte-identical across all four caches
+  [F1] PASS -- the closed-form constant-PR doc 39 is the one fired clean doc on gsmrw17
+
+==============================================================================
+=== FAMILY F2: the arming law: mbpprw17 is F-ONLY -- D == z_F exactly; the loops' huge z_C ignored, never fires ===
+  [F2] PASS -- mbpprw17 armed_sides == ['F']
+  [F2] PASS -- every live loop view on mbpprw17: D == z_F EXACTLY (the unarmed Side C never contributes)
+  [F2] PASS -- the loops' Side-C signal runs large (z_C >= 2 on every loop) yet is IGNORED on this F-only leg -- D == z_F everywhere, the honest cost owned in the sheet SS1.2
+  [F2] PASS -- the forensics block carries all 8 loops via zF (0 via zC)
+  [F2] PASS -- leg gsmrw17 (C+F): every loop D == max(z_C, z_F)
+  [F2] PASS -- leg prose17p-rw17 (C+F): every loop D == max(z_C, z_F)
+  [F2] PASS -- leg p2corpus-rw17 (C+F): every loop D == max(z_C, z_F)
+
+==============================================================================
+=== FAMILY F3: the level-set receipts self-consistent on all four legs ===
+  [F3] PASS -- leg gsmrw17: calib fires 1/20 <= ceiling 1 (= ceil(0.05 * n_calib)); the ok flag honest
+  [F3] PASS -- leg mbpprw17: calib fires 1/20 <= ceiling 1 (= ceil(0.05 * n_calib)); the ok flag honest
+  [F3] PASS -- leg prose17p-rw17: calib fires 1/20 <= ceiling 1 (= ceil(0.05 * n_calib)); the ok flag honest
+  [F3] PASS -- leg p2corpus-rw17: calib fires 1/20 <= ceiling 1 (= ceil(0.05 * n_calib)); the ok flag honest
+
+==============================================================================
+=== FAMILY F4: the SEC identities: band sweep monotone, R <= N, frac == N/n; the closed-form doc's flat bands ===
+  [F4] PASS -- every profiled view (35 = 4 legs x 8 live loops + 3 fired docs): R_band <= N_band, the sweep monotone non-increasing in the factor, frac == N_band / n_prsig_steps
+  [F4] PASS -- the closed-form constant-PR doc (gsmrw17 doc 39): N_band == R_band == n_prsig_steps == 40 at EVERY sweep factor (frac 1.0) and ceiling_pos_frac == 0.0 (the argmax lands on the first step)
+
+==============================================================================
+=== FAMILY F5: every hard exit fires loud, naming the defect (fail-loud, never a silent repair) ===
+  [F5] PASS -- a truncated/malformed JSON record line is a NAMED hard exit
+  [F5] PASS -- a census premise violation (n_gen_steps=0 with a materialized generation) is a hard exit
+  [F5] PASS -- a non-integer corpus doc_id is a hard exit (the parity split needs int doc_ids)
+  [F5] PASS -- the same cache passed twice (a duplicated leg) is a hard exit
+  [F5] PASS -- a three-cache run (a missing leg) is a hard exit
+  [F5] PASS -- an old-corpus leg record (gsm8k) is a hard exit (the four fresh legs are the population)
+  [F5] PASS -- real mode (no --fixture-mode) enforces the SS4 SHA pins: a mismatched cache dies at the first pin
+  [F5] PASS -- a duplicate (leg, doc_id) record key is a hard exit (never a silent double population)
+  [F5] PASS -- an absent consumed statistic (all-None PR on a clean doc) is a hard exit, never a silent repair
+  [F5] PASS -- a degenerate calibration half (zero spread on maxPRsig via an identical MULTI-VALUED PR pattern, not a scalar) is a hard exit
+  [F5] PASS -- a divergent loop-fixture copy (one cache's copy mutated) is a hard exit
+  [F5] PASS -- a partial fixture overlap (two fixtures dropped from one cache) is a hard exit
+  [F5] PASS -- ragged step columns are a hard exit
+  [F5] PASS -- n_gen_steps != len(steps.t) is a hard exit
+  [F5] PASS -- key != leg:doc_id is a hard exit (the join fields must agree)
+  [F5] PASS -- a non-object record line is a hard exit
+  [F5] PASS -- 'steps' not an object is a hard exit
+  [F5] PASS -- the fixture-mode census-pin ECHO: a census drift in fixture mode is rc 0 + the loud echo line (measured 1 != the pin 0), the receipts carried in the export
+
+==============================================================================
+=== FAMILY F6: the verdict worlds (frozen knobs, bisected against the real tool) ===
+  [F6] PASS -- V-NEAR: the tool runs clean (rc 0)
+  [F6] PASS -- V-NEAR: export == the independent recompute EXACT (every field, every leg, every doc, order-exact)
+  [F6] PASS -- V-NEAR: candidate PASS_2SIGMA-ALL-FOUR-LEGS; gsm PASS_2SIGMA with the gap in [2.0, 2.02); the near-bar FLAG rides
+  [F6] PASS -- V-JITTER: the tool runs clean (rc 0)
+  [F6] PASS -- V-JITTER: export == the independent recompute EXACT (every field, every leg, every doc, order-exact)
+  [F6] PASS -- V-JITTER: candidate INCONCLUSIVE-FROM-JITTER; gsm INCONCLUSIVE-FROM-JITTER with the gap in [1.98, 2.0)
+  [F6] PASS -- V-FAIL: the tool runs clean (rc 0)
+  [F6] PASS -- V-FAIL: export == the independent recompute EXACT (every field, every leg, every doc, order-exact)
+  [F6] PASS -- V-FAIL: candidate FAIL; gsm FAIL below the jitter band (the honest max-of-two headwind named)
+  [F6] PASS -- V-GUARD: the tool runs clean (rc 0)
+  [F6] PASS -- V-GUARD: export == the independent recompute EXACT (every field, every leg, every doc, order-exact)
+  [F6] PASS -- V-GUARD: candidate INCONCLUSIVE-POPULATION-GUARD with the guard on [gsmrw17] (a tiny leg: 4/4 halves) and 1 honest fire
+  [F6] PASS -- V-KILLED: the tool runs clean (rc 0)
+  [F6] PASS -- V-KILLED: export == the independent recompute EXACT (every field, every leg, every doc, order-exact)
+  [F6] PASS -- V-KILLED: the falsifier's teeth -- hot held-out docs fire 4 > ceil(0.05 * 20) = 1 with the gap STILL >= 2.0, so the candidate dies CANDIDATE-KILLED even though the bar passes
+  [F6] PASS -- V-KILLED: KILLED dominates a guard typing (the guard leg [prose17p-rw17] rides, the candidate is still KILLED -- the sheet SS1.8)
+
+==============================================================================
+=== FAMILY F7: port fidelity: the item-242 build of record reproduced on the banked bytes, then replicated through the NEW tool's own functions, EXACT ===
+  [F7] PASS -- the old tool's SHA-256 == the banked pin
+  [F7] PASS -- the banked R-BC1 smoke cache's SHA-256 == the pin
+  [F7] PASS -- the OLD tool CLI runs clean on the banked R-BC1 + the three fillers (fixture mode)
+  [F7] PASS -- the old 17p leg: parity 10/10, catches 8/8 live loops at BOTH tiers, fires 2 (ids 13, 19), Wilson upper EXACT vs the banked run
+  [F7] PASS -- the old 17p sigma-gap == the banked run EXACT and round4 == the item-242 pin 2.6528
+  [F7] PASS -- the old 17p AUC measures 0.9875 (round4) on the pinned bytes TODAY -- the item-242 LEDGER PROSE says 0.8750, a PROSE SLIP named here and at the banking item, never edited (the banked item-242 control console records PASS without the value)
+  [F7] PASS -- the R-BC1 partition: 20 corpus (the named census ids 91/108 absent from the smoke corpus -- keep 20), 10 loops, 8 live / 2 inert, parity 10/10
+  [F7] PASS -- the NEW tool's own functions, replicating the old 17p pipeline over the R-BC1 records, reproduce EVERY banked value EXACTLY (mu/sd/t_leg/t_esc/th_C/th_F/gap/AUC/Wilson)
+  [F7] PASS -- the replication's fires are ids [13, 19] (order exact) and all 8 live loops catch at t_leg
+  [F7] PASS -- the pure-function battery: 58 old-vs-new comparisons (mean_std/_quantile/sigma_gap/auc/wilson/armed_D under the leg mapping, the pinned constants, the loader field tuples) -- all EXACT
+
+==============================================================================
+=== FAMILY F8: determinism: the same-path re-run is byte-identical on BOTH the export and the console ===
+  [F8] PASS -- both runs rc 0
+  [F8] PASS -- the same-path re-run export is byte-identical (no timestamps, no dict-order noise)
+  [F8] PASS -- the console output is byte-identical across the two runs
+
+==============================================================================
+=== FAMILY F9: the constants echo: the pinned sheet's constants, the census pins, the SS4 pins, the caveats ===
+  [F9] PASS -- alpha 0.05 / alpha_esc 0.01 / band 0.90 / sweep (0.80, 0.85, 0.90, 0.95) / co_elev 0.975 / pop guard 5 / jitter 0.02 -- all echo the pinned sheet
+  [F9] PASS -- the arming table echoes (gsm CF, mbpp F, prose CF, p2 CF)
+  [F9] PASS -- the expected fresh censuses of record echo (0 / 1 / 3 / 95)
+  [F9] PASS -- the four SS4 cache pin lines echo with match=False (fixture mode echoes, never enforces)
+  [F9] PASS -- fixture_mode True; the mode line; the tag
+  [F9] PASS -- the pinned sheet's SHA rides the prereg block
+  [F9] PASS -- the theta note: theta [REDACTED_PER_PUBLICATION_POLICY] unmoved, nothing wired
+  [F9] PASS -- the RW-14 rider: no label joins, routed to its own pre-registration
+  [F9] PASS -- the three pinned caveat lines ride the verdict
+  [F9] PASS -- the tool's own SHA rides the export
+  [F9] PASS -- the old-corpus anchor reference names the item-243 banked baseline table (the delta reading happens at the reading, never inside this tool)
+  [F9] PASS -- the fixture-identity receipt names its law (the item-213 Stamp-2 semantics; the item-254 C10 cross-leg law)
+
+==============================================================================
+  F1: 18/18 PASS
+  F2: 7/7 PASS
+  F3: 4/4 PASS
+  F4: 2/2 PASS
+  F5: 18/18 PASS
+  F6: 16/16 PASS
+  F7: 10/10 PASS
+  F8: 3/3 PASS
+  F9: 12/12 PASS
+
+  TOTAL: 90/90 PASS, 0 FAIL
+
+  Fix-the-fixture-or-the-builder, never the tool's record.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved,
+  or adjudicated; findings presented, never adjudicated --
+  the owner's stamps decide.

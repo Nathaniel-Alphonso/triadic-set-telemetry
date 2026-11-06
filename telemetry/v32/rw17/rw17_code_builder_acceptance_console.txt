@@ -1,0 +1,21 @@
+  PASS  F1a determinism: same-path rebuild byte-identical
+  PASS  F2a selection: seeded shuffle + first-8 + task_id order matches the independent recomputation
+  PASS  F2b OPTION A: no task_id 1..10 in the selection
+  PASS  F2c design.seed == pinned 20261013
+  PASS  F2d design.pool_ruling == OPTION A
+  PASS  F3a scale: 8 fixture docs
+  PASS  F3b ids contiguous 0..7
+  PASS  F3c schema field == mbpp-rw17-v1
+  PASS  F3d every doc carries the 7 pinned fields
+  PASS  F4a prompt == the pinned construction from text + test_list
+  PASS  F4b the canonical code never appears in any prompt
+  PASS  F5a missing he-reference hard exit (VOID, named)
+  PASS  F5b he164-collision hard exit (VOID, the disjointness law named)
+  PASS  F5c duplicate-prompt hard exit (VOID, named)
+  PASS  F6a console carries the OPTION-A pool receipt
+  PASS  F6b console carries the seed + scale + sha receipts
+  PASS  F6c console carries the disjointness receipt
+
+CODE BUILDER ACCEPTANCE: 17 PASS / 0 FAIL
+(fixture-mode lane; the REAL build runs owner-side per the pinned spec; its console + manifest get receipt-verified on upload)
+(fixture manifest sha256: 74031b233f0b7081ca9b289388190b53b174041b2284cc95f3279ebac8956a4a)

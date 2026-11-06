@@ -1,0 +1,44 @@
+=== RW-17 v32.2.2 FORK (the anchored-edit law) ===
+BASE VERIFIED: triadic_telemetry_t2_v32.2.1.py 155202 B SHA-256 b7ee028ee49e0266010990f993e419d932f6f8ab4a59797091adb5cca780b38b
+ANCHOR OK (unique): E1 docstring v32.2.2 note
+ANCHOR OK (unique): E2 INSTRUMENT_VERSION
+ANCHOR OK (unique): E3 CACHE_COMPAT_VERSIONS
+ANCHOR OK (unique): E4 fresh loaders inserted + signature gains fewshot
+ANCHOR OK (unique): E5 schema dispatch gains the fresh schemas
+ANCHOR OK (unique): E6 call site gains fewshot
+ANCHOR OK (unique, sliced): E7 census/banner block (16 lines banked, preserved verbatim under the fresh-leg guard modulo indent)
+ANCHOR OK (applied): E7 census/banner dispatch under the fresh-leg guard (banked lines verbatim, +4 indent only)
+ANCHOR OK (unique): E8 fresh-leg budget classes
+ANCHOR OK (unique): E9 content_fn fresh override
+ANCHOR OK (unique): E10 boundary_stop fresh math leg
+ANCHOR OK (unique): E11 marker_ids gains gsmrw17
+ANCHOR OK (unique): E12 labels loop gains gsmrw17
+ANCHOR OK (unique): E13 gamma keys gain gsmrw17
+ANCHOR OK (unique): E15 manifest JSON parse named truncation exit
+ANCHOR OK (unique): E14 --prose-corpus help
+PY_COMPILE: triadic_telemetry_t2_v32.2.2.py CLEAN (175827 bytes)
+SHA-256: c53742663b5f57de0b4da960b5a660d90c065524d457de98cb35410ee0a47884
+DIFF vs v32.2.1: 22 removed line(s), 397 added line(s)
+  REMOVED-AND-REPLACED: INSTRUMENT_VERSION = "v32.2.1"
+  REMOVED-AND-REPLACED: "v32.2.0", "v32.2.1"}
+  REMOVED-AND-REPLACED: def load_prose_corpus(path, register, tok=None):
+  REMOVED-AND-REPLACED: with open(path) as f:
+  REMOVED-AND-REPLACED: manifest = json.load(f)
+  REMOVED-AND-REPLACED: f"schema {schema!r} (expected 'prose17p-prompts-v1' or "
+  REMOVED-AND-REPLACED: f"'p2corpus-prompts-v1') -- never guess a key; "
+  REMOVED-AND-REPLACED: f"aborting.")
+  REMOVED-AND-REPLACED: if leg_name in ("gsm8k", "gsm8k-chat") else None,
+  REMOVED-AND-REPLACED: help="prose manifest (RW-15; ONE pinned manifest "
+  REMOVED-AND-REPLACED: "per run: triadic_prose17p_prompts_v1.json or "
+  REMOVED-AND-REPLACED: "triadic_p2corpus_prompts_v1.json). REPLACES "
+  REMOVED-AND-REPLACED: args.prose_corpus, args.prose_leg, tok)
+  REMOVED-AND-REPLACED: if _pleg_key == "prose17p":
+  REMOVED-AND-REPLACED: print(f"  PROSE-CORPUS: {os.path.basename(args.prose_corpus)} "
+  REMOVED-AND-REPLACED: f"(sha256 {_sha256_file(args.prose_corpus)}) -- leg "
+  REMOVED-AND-REPLACED: f"{_pleg_key}, register {args.prose_leg}, {len(_pdocs)} "
+  REMOVED-AND-REPLACED: f"docs (census {_census}), budget "
+  REMOVED-AND-REPLACED: f"{args.prose_max_new_tokens}, labels NONE -> detector "
+  REMOVED-AND-REPLACED: f"side INCOMPLETE (telemetry only)")
+  REMOVED-AND-REPLACED: for _gleg in ("gsm8k", "gsm8k-chat"):
+  REMOVED-AND-REPLACED: if leg_name in ("gsm8k", "gsm8k-chat"):
+=== FORK COMPLETE: triadic_telemetry_t2_v32.2.2.py (175827 B, SHA-256 c53742663b5f57de0b4da960b5a660d90c065524d457de98cb35410ee0a47884) ===

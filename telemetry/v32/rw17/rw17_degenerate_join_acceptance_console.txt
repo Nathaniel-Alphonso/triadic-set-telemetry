@@ -1,0 +1,76 @@
+==============================================================================
+=== THE DEGENERATE-OUTPUT VIEW extraction/join tool --
+=== THE ACCEPTANCE BATTERY (crafted worlds; the banked
+=== anchors ECHO in fixture mode, the structural guards
+=== enforce EXACT; every negative dies LOUD by name) ===
+  the pinned sheet of record: degenerate-output-view-sheet.md (SHA-256 d1dd52fcb01b2325...e3df1d; ledger item 379 -- THE PINNING STAMP (his words verbatim: "okay good, lets stamp") -- the bytes FROZEN at the stamped hash, never edited after)
+  the CC fork of record pinned: triadic_rw17_readout_v2_3b_scout_amend_grepin_dp_dir_reg_lay_pe_pf_pr_bd_cc.py
+  RECEIPTS ONLY; no weighted sums; no new fit; theta
+  [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); DEVELOPMENT DATA ONLY;
+  findings presented, never adjudicated -- the owner's
+  stamps decide.
+  PASS -- py_compile the extraction/join tool
+  PASS -- py_compile the acceptance battery itself
+  PASS -- the crafted world carries 15 annotations
+  PASS -- the fixture-mode run completes (exit 0)
+  PASS -- the positive console carries no abort
+  PASS -- the row-domain line reads 15 rows
+  PASS -- the fixture-mode banner rides
+  PASS -- the set-union console line reads 3/3 (1+1+1)
+  PASS -- the anchors summary line parses
+  PASS -- fixture mode: every anchor ECHO, none EXACT
+  PASS -- the join table carries all 15 rows
+  PASS -- the out mode names FIXTURE
+  PASS -- the row order is (population, numeric id)
+  PASS -- row doc 0 EXACT (a calibration SR1+AE fire)
+  PASS -- row doc 3 EXACT (Base D fired clean + D'' NEW FIRE)
+  PASS -- row doc 901 EXACT (a loop shape-only fire)
+  PASS -- marker round-trip: Base D calibration WITHHELD
+  PASS -- marker round-trip: D'' non-attributed held doc -- the fire status a REAL reading, the terms/new-fire WITHHELD-named
+  PASS -- marker round-trip: D'' loop per-row WITHHELD
+  PASS -- the zero-commit doc rides WITHHELD-named (never pooled)
+  PASS -- marker round-trip: every row's four-cell counts WITHHELD-named
+  PASS -- the four-cell census surface reads [20,14]/[28,18]/[22,19]
+  PASS -- Base D surface: 2 held fires / 2 catches / 1 gate-off
+  PASS -- SR1 surface: cal 2 / held 3 / catches 2 / gate-off 1
+  PASS -- AE surface: cal 3 / held 2 / catches 2 / gate-off 1
+  PASS -- D'' surface: held 2 / NEW FIRES 1 / ungated-f 0
+  PASS -- band marginal spot: gamma cal band 1 (n 2, SR1 1, AE 2, D'' 0)
+  PASS -- the set-union surface: 3/3 with arms 901/905/903
+  PASS -- the set-union cost side: band-4 clean 1 cal + 1 held
+  PASS -- the taxonomy gate-off rates: loops SR1 [1,2] / AE [1,2] / Base D [1,2]; held SR1 [1,3]
+  PASS -- the anchor log rides in the out JSON, all ECHO
+  PASS -- the BANKED pin-table structural lint (arity exact; never a None in a count position)
+  PASS -- the second run completes (exit 0)
+  PASS -- determinism: byte-identical --out across runs
+  PASS -- determinism: byte-identical stdout across runs
+  PASS -- negative -- wrong-tag-real-mode dies PROVENANCE
+  PASS -- negative -- wrong-tool-sha-real-mode dies PROVENANCE
+  PASS -- negative -- fixture-flag-real-mode dies PROVENANCE
+  PASS -- negative -- real mode refuses the crafted row domain (ROW-DOMAIN)
+  PASS -- negative -- missing-band-decomp-block dies MISSING-BLOCK
+  PASS -- negative -- missing-annotation-block dies MISSING-BLOCK
+  PASS -- negative -- missing-amend-development-block dies MISSING-BLOCK
+  PASS -- negative -- missing-section-h-in-amend-development dies MISSING-BLOCK
+  PASS -- negative -- duplicate-doc-annotation dies ROW-DOMAIN
+  PASS -- negative -- parity-law-violation dies ROW-DOMAIN
+  PASS -- negative -- cross-block-completeness dies ROW-DOMAIN
+  PASS -- negative -- gate-arms-under-K dies GATE-LAW
+  PASS -- negative -- SR1-fire-status-vs-D dies TWO-CODE-PATHS
+  PASS -- negative -- FORM-R-annotation-drift dies TWO-CODE-PATHS
+  PASS -- negative -- four-cell-census-drift dies TWO-CODE-PATHS
+  PASS -- negative -- BD-vs-CC-cell-drift dies TWO-CODE-PATHS
+  PASS -- negative -- AE-aggregate-drift dies TWO-CODE-PATHS
+  PASS -- negative -- two-way-table-drift dies TWO-CODE-PATHS
+  PASS -- negative -- D''-new-fire-without-f-term dies TWO-CODE-PATHS
+  PASS -- negative -- set-union-survivor dies TWO-CODE-PATHS
+  PASS -- negative -- state-without-t dies STATE-TABLE
+  PASS -- negative -- state-t-out-of-depth-domain dies STATE-TABLE
+  PASS -- negative -- gamma-clause-theta-drift dies TWO-CODE-PATHS
+  PASS -- negative -- lane-2a-n-gap-drift dies TWO-CODE-PATHS
+
+  59 PASS / 0 FAIL
+  THE BATTERY IS GREEN -- every guard proven die-loud by name; the join reproduces the crafted
+  world's own aggregates EXACT (two code paths agree); the markers round-trip; the runs are byte-
+  identical; DEVELOPMENT DATA ONLY; never a run of record; never adjudicated; findings presented,
+  never adjudicated -- the owner's stamps decide.

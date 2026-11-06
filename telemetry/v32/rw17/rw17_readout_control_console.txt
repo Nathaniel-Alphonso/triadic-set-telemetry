@@ -1,0 +1,45 @@
+==============================================================================
+=== THE RW-17 READOUT TOOL CONTROL RUN (real smoke bytes; the item-242 precedent) ===
+  tool under test: triadic_rw17_readout.py
+  real bytes: the three library smoke caches (math/code/prose)
+  + one synthetic p2corpus-rw17 filler (no real p2 smoke uploaded --
+    an OPEN RECEIPT; the p2 leg's real control rides the owner-side
+    single adjudication command on the full caches of record).
+  LAW: every exported quantity EXACT vs the banked independent
+  recompute engine (the acceptance run's own arithmetic, 90/90);
+  fix-the-fixture-or-the-builder, never the tool's record.
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-math-smoke_bfloat16_bos.jsonl carries its pinned SHA-256
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-code-smoke_bfloat16_bos.jsonl carries its pinned SHA-256
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-prose-smoke_bfloat16_bos.jsonl carries its pinned SHA-256
+  [C0] PASS -- the banked control input triadic_t2_cache_rw17-p2-synth-filler.jsonl carries its pinned SHA-256
+  [C1] PASS -- the tool CLI runs clean on the three REAL smoke caches + the filler (fixture mode, pins echoed never enforced)
+  [C2] PASS -- the export == the independent recompute EXACT on the REAL bytes (every field, every leg, every doc, order-exact)
+  [C3] PASS -- leg gsmrw17 reading of record: fires 3/10, catches 8/8, gap 1.6671, AUC 0.8125 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+  [C3] PASS -- leg mbpprw17 reading of record: fires 0/10, catches 7/8, gap 2.2663, AUC 0.9625 -> PASS_2SIGMA
+  [C3] PASS -- leg prose17p-rw17 reading of record: fires 3/10, catches 8/8, gap 3.0398, AUC 1.0 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+  [C3] PASS -- leg p2corpus-rw17 reading of record: fires 0/20, catches 0/0, gap None, AUC None -> INCONCLUSIVE-POPULATION-GUARD
+  [C3] PASS -- the candidate-level reading: KILLED by the falsifier on the two over-budget real legs [gsmrw17, prose17p-rw17] with the filler's honest guard [p2corpus-rw17] riding -- the count form governs over the bar on real bytes
+  [C4] PASS -- leg gsmrw17: parity 10/10 (EVEN calibration / ODD held-out on the real smoke corpus) and 8 live / 2 inert positives (the two sub-32 fixtures)
+  [C4] PASS -- leg mbpprw17: parity 10/10 (EVEN calibration / ODD held-out on the real smoke corpus) and 8 live / 2 inert positives (the two sub-32 fixtures)
+  [C4] PASS -- leg prose17p-rw17: parity 10/10 (EVEN calibration / ODD held-out on the real smoke corpus) and 8 live / 2 inert positives (the two sub-32 fixtures)
+  [C4] PASS -- the filler leg: parity 20/20, ZERO positives -> the honest INCONCLUSIVE-POPULATION-GUARD null leg
+  [C5] PASS -- the census-pin ECHO receipts: the smoke corpora carry ZERO EOS@step0 docs vs the expected pins -- three loud echo lines (mbpp 1, prose 3, p2 95); the math leg's 0 == its pin 0, no echo; echoed in fixture mode, NEVER silently pooled
+  [C5] PASS -- the math leg's census receipt: measured 0 == the item-254 pin 0 (no echo, receipts empty)
+  [C6] PASS -- the fixture-identity receipt: the 10 loop fixtures byte-identical across the three REAL smoke caches (the instrument's own fixture copies, as received)
+  [C7] PASS -- determinism: the same-path re-run export is byte-identical AND the console output byte-identical across the two runs
+
+==============================================================================
+  C0: 4/4 PASS
+  C1: 1/1 PASS
+  C2: 1/1 PASS
+  C3: 5/5 PASS
+  C4: 4/4 PASS
+  C5: 2/2 PASS
+  C6: 1/1 PASS
+  C7: 1/1 PASS
+
+  TOTAL: 19/19 PASS, 0 FAIL
+
+  Fix-the-fixture-or-the-builder, never the tool's record.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings presented, never
+  adjudicated -- the owner's stamps decide.

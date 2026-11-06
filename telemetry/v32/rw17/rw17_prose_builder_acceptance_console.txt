@@ -1,0 +1,28 @@
+  PASS  F1a real build runs clean (rc 0, CENSUS implied by rc)
+  PASS  F1b same-path rebuild byte-identical
+  PASS  F1c different path differs ONLY in the corpus basename echo
+  PASS  F2 every doc matches the independent seeded recomputation (slice/prompt, all 620; own rng stream, own p1 templates)
+  PASS  F3a scale 620 + ids contiguous 0..619
+  PASS  F3b schema == prose17p-rw17-v1
+  PASS  F3c slice census EXACT (200/110/110/200)
+  PASS  F3d every doc carries its slice's pinned fields (the banked 17-P doc shapes)
+  PASS  F3e trace-kind census EXACT (total 15 / multistep 15 / others 10)
+  PASS  F3f bait census 110 = 73 contra + 37 controls (positional: contra 310-382)
+  PASS  F4a p1 rule-truth: every constraint value lawfully in its prompt (incl. the no-question-mark law)
+  PASS  F4b trace rule-truth: every prompt is a rule-true instantiation of its template (numeric variants verbatim)
+  PASS  F4c bait rule-truth: marker band verbatim (sentence-initial capitalization honored), desire + evidence embedded, contra dv != ev
+  PASS  F4d bait marker histogram covers the full 10-marker band
+  PASS  F4e p3 rule-truth: 50 distinct fresh passages, each x the 4 banked variants in cycling order, passage embedded verbatim
+  PASS  F4f zero duplicate prompts within
+  PASS  F4g zero overlap vs the banked 180 (disjointness law, item 228; the banked 67==82/68==83 pairs not carried)
+  PASS  F4h fresh topics disjoint from the banked 15 (banked topic list re-typed, none reused)
+  PASS  F5a missing banked reference hard exit (VOID, named)
+  PASS  F5b banked SHA mismatch hard exit (VOID, the pin named)
+  PASS  F5c disjointness collision hard exit (VOID, the item-228 law named)
+  PASS  F5d duplicate-prompt hard exit (VOID, named)
+  PASS  F6a console carries the seed + spec receipts
+  PASS  F6b console carries the census receipts
+  PASS  F6c console carries the disjointness receipt + sha
+
+PROSE BUILDER ACCEPTANCE: 25 PASS / 0 FAIL
+(real-mode lane: the builder is the corpus of record's generator; the manifest sha256: 10994e441e88d871b3ed29b383bc4264fb23478c39fe9c51ea9d69d8935cd8b9)

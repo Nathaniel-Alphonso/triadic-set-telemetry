@@ -1,0 +1,105 @@
+zoo world built; math cache: /tmp/p4_fixture_1bjiwu_v/asr_zoo/cache_gsmrw17.jsonl
+RUN: /usr/local/bin/python3 rw17_horizon_composition.py --cache /tmp/p4_fixture_1bjiwu_v/asr_zoo/cache_gsmrw17.jsonl --tag fixture-zoo --fixture-mode --out /tmp/p4_fixture_1bjiwu_v/fixture_export.json
+==============================================================================
+=== THE ROUTE-ONE MECHANISM RECEIPT ACT ===
+  (the horizon composition, Phase 4; tag: fixture-zoo)
+  the pinned sheet: rw17-horizon-composition-
+  preregistration.md (sha cbbc6f03...0ab170)
+  the pinned horizon weight: 0.3613 (the stamped
+  value, candidate A -- the midpoint of the audited
+  range of record 0.1367-0.5859; one value, pinned
+  pre-measurement, never tuned after)
+  the mechanism (the sheet S2): the composed score =
+  the lane-four mass of record x [(1 - w) + w x
+  horizon], the horizon = the doc's generation-step
+  count over the corpus maximum 256, continuous,
+  never a stop-form gate; the loop scores never
+  touched in mass terms (all ten maximal-length)
+  -- the gain, if any, a population re-weighting,
+  never a new loop signal; the hazard rides at full
+  weight: horizon-keying reads walk-population shape
+  -- the population-marker finding cuts both ways.
+  Receipts only: no form conferred, no level
+  conferred, no verdict tokens -- presented, never
+  adjudicated; the owner's stamps decide.
+  mode: FIXTURE (pins + census + anchors echoed, never enforced; the w-zero identity ALWAYS enforced)
+  cache pin receipt (fixture): match False (synthetic bytes; the r2 pin of record the comparison receipt, never enforced)
+  census receipts: 40 records / 10 loop fixtures / 0 empty-form
+  stop-reason mix (clean corpus, measured): {"eos": 30}
+  populations: calibration 14 / held-out 15 / live loops 8 / censused 1
+  the lane-four recompute of record: mu=18.073932622280562 sd=6.114037053452654 | t_leg=1.4276079773121049 | t_esc=1.5620251910141594
+  the raw alarm set: 9 held-out docs at the level | 8 at escalation
+
+== THE W-ZERO IDENTITY RECEIPT (the composition machinery at w = 0 ==
+   must reproduce the engine's own raw readings exactly)
+  GREEN: at w = 0 the composed world equals the raw world exactly -- mu/sd/t_leg/t_esc, the alarm set, the escalation count, the level-set, the catches, the loop floor, the gap, the ranking, and the normal-scores audit receipt all byte-identical to the engine of record
+
+== THE COMPOSED RUN (the pinned horizon weight 0.3613) ==
+  the composed z-scale: mu=12.564150743417779 sd=4.250191964073405
+  the composed operating levels: t_leg=1.4276079773121049 | t_esc=1.5620251910141594
+  the composed level-set: 1/14 at the level (the count line 1; ok True)
+  the composed held-out alarms: 9/15 (rate 60.0000%; Wilson upper 77.6844%) | escalation 8
+  the composed loop catches: 0/8 at the level | 0/8 at escalation (the banked raw reading 8/10 + 7/10)
+  the composed loop floor: the easiest loop at -0.7859859689747992 | 10 held-out docs at or above it (the banked raw reading 71)
+  the composed separation (standing units, the phase-3 stamped convention):
+    standing gap -1.6501916043158074 | ranking 0.16666666666666666
+    the normal-scores audit receipt alongside (never a claim): gap -1.6447339378381753 | ranking 0.16666666666666666
+    the identical-alarm-sets + identical-catches identities GREEN (the audit, fail-loud)
+  the guard reads (printed for his stamps, never adjudicated here):
+    the standing count form at 1 (the comparability line, the form every chain kill was read against): OVER at 9
+    the stamped form B at 34 (the governing trip line pre-named for any future cycle): under at 9
+
+== THE COMPOSED ALARM POPULATION PROFILE ==
+  9 composed alarms | 9 survived from the raw 33 | 0 new entrants
+  lengths: min 40 / mean 40.00 / max 40
+  stop-form mix: {"eos": 9}
+   doc 27: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=45.640000 -> 31.726789 D=4.5087 -> 4.5087
+   doc 25: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=43.320000 -> 30.114033 D=4.1292 -> 4.1292
+   doc 31: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=38.000000 -> 26.415819 D=3.2591 -> 3.2591
+   doc 23: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=33.600000 -> 23.357145 D=2.5394 -> 2.5394
+   doc 21: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=32.000000 -> 22.244900 D=2.2777 -> 2.2777
+   doc 19: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=30.400000 -> 21.132655 D=2.0160 -> 2.0160
+   doc 17: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=28.800000 -> 20.020410 D=1.7543 -> 1.7543
+   doc 3: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=28.000000 -> 19.464287 D=1.6235 -> 1.6235
+   doc 15: len=40 horizon=0.156250 mult=0.695153 stop=eos mass=27.200000 -> 18.908165 D=1.4926 -> 1.4926
+  the raw alarms that did not survive: none
+
+== THE CAP STRATUM RE-READ (the 4-doc base named, never claimed solved) ==
+
+== THE LIVE LOOP FIXTURES ON THE COMPOSED SCALE ==
+  loop loop-injection-code: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop loop-injection-prose: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop loop-seeded-code-line: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop loop-seeded-countdown: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop loop-seeded-counter: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop loop-seeded-cycle: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop loop-seeded-json: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+  loop mask-reserved-stubborn: len=40 horizon=0.156250 mult=0.695153 mass=13.268385 -> 9.223559 D=-0.7860
+
+  THE READING (presented, never adjudicated): the
+  pre-registered terms of the sheet S6, both
+  directions carried -- a composed gap at or over
+  2.0 with the count under the governing guard earns
+  the mechanism receipt candidate status for the
+  record lane; a gap at or over with the count over
+  names the separation-vs-budget squeeze again, the
+  kill standing at the count falsifier; a gap under
+  2.0 kills the route on these bytes. The dev bytes
+  never adjudicate the bar -- the record lane remains
+  the bar's adjudicator. The hazard rides at full
+  weight: horizon-keying reads walk-population
+  shape -- the population-marker finding cuts both
+  ways; the loop scores were never touched in mass
+  terms, so the gain, if any, is a population
+  re-weighting, never a new loop signal. The owner's
+  stamps decide.
+
+  export written: /tmp/p4_fixture_1bjiwu_v/fixture_export.json (6765 bytes)
+
+  (offline paper act only, zero GPU, zero decodes, zero build
+  hours; Oct 23 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no
+  thresholds set, moved, or adjudicated; findings presented,
+  never adjudicated -- the owner's stamps decide)
+==============================================================================
+
+FIXTURE-WORLD VERIFICATION: EXIT 0, EXPORT WRITTEN

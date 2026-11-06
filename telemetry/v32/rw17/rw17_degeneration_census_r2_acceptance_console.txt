@@ -1,0 +1,33 @@
+PASS -- F1a the clean both-leg world runs clean (rc 0)
+PASS -- F1b the export carries BOTH legs + the governing-sheet slot note
+PASS -- F1c the constants block echoes the item-257 pins
+PASS -- F2a cap + 4-gram cycle x6 -> DEGENERATE-EMISSION
+PASS -- F2b eos + 15-token phrase x3 -> MILD-REPETITION
+PASS -- F2c cap WITHOUT repetition -> never typed (cap alone insufficient)
+PASS -- F2d repetition with an unexpected stop -> named, never folded
+PASS -- F2e the zero-step doc measured honestly (OTHER, no spike, no crash)
+PASS -- F2f the prose leg rides: cap + 15-token phrase x3 -> DEGENERATE-EMISSION
+PASS -- F3a the fired overlap: fired=2, fired-degenerate=[0], fired-mild=[1]
+PASS -- F3b the re-derived accounting line exact (2 - 1 = 1 vs ceil 1)
+PASS -- F4a 15 unfired degenerate -> exactly 10 owner-sample docs, seeded
+PASS -- F4b the sample byte-stable across runs
+PASS -- F5a the loop contrast fires REPETITION on both legs (same rules)
+PASS -- F6 determinism: same-path re-run export byte-identical
+PASS -- F7 the forensics functions are imported LIVE (module identity)
+PASS -- F8 hard exit fires: cache law violation (a thin rider in the cache slot)
+PASS -- F8 hard exit fires: census premise violation (an empty-form record in the population)
+PASS -- F8 hard exit fires: duplicate record key
+PASS -- F8 hard exit fires: records missing
+PASS -- F8 hard exit fires: key mismatch
+PASS -- F8 hard exit fires: not real-mode
+PASS -- F9a REAL-mode export tool_sha mismatch fires loud (the item-652 pin)
+PASS -- F9b REAL-mode export tag mismatch fires loud (rw17-r2-adjudication)
+PASS -- F9c REAL-mode cache pin mismatch fires loud (the item-643 pin)
+PASS -- F9d REAL-mode manifest pin mismatch fires loud
+PASS -- F9e REAL-mode sheet pin mismatch fires loud (the governing sheet)
+PASS -- F9f REAL-mode forensics-tool pin fires loud
+PASS -- F11a REAL mode refuses the empty EXPORT slot before any byte read
+PASS -- F11b REAL mode refuses the empty SHEET slot before any byte read
+PASS -- F10 REAL mode without --sheet refuses (never guess the sheet)
+
+ACCEPTANCE: 31 PASS / 0 FAIL
