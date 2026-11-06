@@ -1,0 +1,5027 @@
+{
+  "suite": "telemetry_w5_loader_negative_fixtures_v1.json",
+  "target": "triadic_telemetry_t2_v32.3.1_cuda.py",
+  "target_sha256": "ea654cf2c5a5c1d85660767dd4d0ee9287d7bb2c0f351a02c6011e134f7b59e7",
+  "built_under": "phase4-8b-w5-suite-walks-preregistration.md (OWNER-PINNED Oct 25 2026, item 855)",
+  "law": "fix-the-fixture-or-the-builder, never the instrument",
+  "cases": [
+    {
+      "id": "N-01-unrecognized-schema",
+      "kind": "negative",
+      "schema": "w5bogus-v1",
+      "load_register": "raw",
+      "fragment": "unrecognized",
+      "manifest": {
+        "schema": "w5bogus-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-02-register-pin",
+      "kind": "negative",
+      "schema": "w5prose-chat-v1",
+      "load_register": "raw",
+      "fragment": "pinned to the chat register",
+      "manifest": {
+        "schema": "w5prose-chat-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-000"
+            ],
+            "register": "chat"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-001"
+            ],
+            "register": "chat"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-002"
+            ],
+            "register": "chat"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-003"
+            ],
+            "register": "chat"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-004"
+            ],
+            "register": "chat"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-005"
+            ],
+            "register": "chat"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-006"
+            ],
+            "register": "chat"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-007"
+            ],
+            "register": "chat"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-008"
+            ],
+            "register": "chat"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-009"
+            ],
+            "register": "chat"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-010"
+            ],
+            "register": "chat"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-011"
+            ],
+            "register": "chat"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-012"
+            ],
+            "register": "chat"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-013"
+            ],
+            "register": "chat"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-014"
+            ],
+            "register": "chat"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-015"
+            ],
+            "register": "chat"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-016"
+            ],
+            "register": "chat"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-017"
+            ],
+            "register": "chat"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-018"
+            ],
+            "register": "chat"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-019"
+            ],
+            "register": "chat"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-020"
+            ],
+            "register": "chat"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-021"
+            ],
+            "register": "chat"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-022"
+            ],
+            "register": "chat"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-023"
+            ],
+            "register": "chat"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-024"
+            ],
+            "register": "chat"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-025"
+            ],
+            "register": "chat"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-026"
+            ],
+            "register": "chat"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-027"
+            ],
+            "register": "chat"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-028"
+            ],
+            "register": "chat"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-029"
+            ],
+            "register": "chat"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PN1"
+            ],
+            "fixture_ids": [
+              "synthetic-PN1-030"
+            ],
+            "register": "chat"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-03-docs-not-mapping",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "not a non-empty mapping",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": [
+          {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        ]
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-04-count-mismatch",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "expected 31 docs, found 30",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-05-key-doc-id-mismatch",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "does not match its doc_id",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-06-empty-prompt",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "empty prompt",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "   ",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-07-empty-class-set",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "suite_class_set",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-08-unrecognized-class",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "suite_class_set",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "XX9"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-09-unsorted-class-set",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "is not sorted",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP2",
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-10-duplicate-fixture-ids",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "duplicate-free list of suite fixture ids",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008",
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-11-doc-register-mismatch",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "pinned register",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "chat"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "N-12-truncated-json",
+      "kind": "truncated",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "truncated or malformed JSON",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": "truncate",
+      "expect": null
+    },
+    {
+      "id": "N-13-non-contiguous-ids",
+      "kind": "negative",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "not a contiguous",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 01 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "31": {
+            "doc_id": 31,
+            "prompt": "synthetic suite prompt 31",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-031"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": null
+    },
+    {
+      "id": "R-01-duplicate-report",
+      "kind": "report",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "exact-duplicate prompt pair(s) REPORTED",
+      "manifest": {
+        "schema": "w5prose-raw-v1",
+        "docs": {
+          "0": {
+            "doc_id": 0,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-000"
+            ],
+            "register": "raw"
+          },
+          "1": {
+            "doc_id": 1,
+            "prompt": "synthetic suite prompt 00 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-001"
+            ],
+            "register": "raw"
+          },
+          "2": {
+            "doc_id": 2,
+            "prompt": "synthetic suite prompt 02 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-002"
+            ],
+            "register": "raw"
+          },
+          "3": {
+            "doc_id": 3,
+            "prompt": "synthetic suite prompt 03 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-003"
+            ],
+            "register": "raw"
+          },
+          "4": {
+            "doc_id": 4,
+            "prompt": "synthetic suite prompt 04 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-004"
+            ],
+            "register": "raw"
+          },
+          "5": {
+            "doc_id": 5,
+            "prompt": "synthetic suite prompt 05 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-005"
+            ],
+            "register": "raw"
+          },
+          "6": {
+            "doc_id": 6,
+            "prompt": "synthetic suite prompt 06 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-006"
+            ],
+            "register": "raw"
+          },
+          "7": {
+            "doc_id": 7,
+            "prompt": "synthetic suite prompt 07 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-007"
+            ],
+            "register": "raw"
+          },
+          "8": {
+            "doc_id": 8,
+            "prompt": "synthetic suite prompt 08 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-008"
+            ],
+            "register": "raw"
+          },
+          "9": {
+            "doc_id": 9,
+            "prompt": "synthetic suite prompt 09 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-009"
+            ],
+            "register": "raw"
+          },
+          "10": {
+            "doc_id": 10,
+            "prompt": "synthetic suite prompt 10 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-010"
+            ],
+            "register": "raw"
+          },
+          "11": {
+            "doc_id": 11,
+            "prompt": "synthetic suite prompt 11 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-011"
+            ],
+            "register": "raw"
+          },
+          "12": {
+            "doc_id": 12,
+            "prompt": "synthetic suite prompt 12 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-012"
+            ],
+            "register": "raw"
+          },
+          "13": {
+            "doc_id": 13,
+            "prompt": "synthetic suite prompt 13 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-013"
+            ],
+            "register": "raw"
+          },
+          "14": {
+            "doc_id": 14,
+            "prompt": "synthetic suite prompt 14 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-014"
+            ],
+            "register": "raw"
+          },
+          "15": {
+            "doc_id": 15,
+            "prompt": "synthetic suite prompt 15 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-015"
+            ],
+            "register": "raw"
+          },
+          "16": {
+            "doc_id": 16,
+            "prompt": "synthetic suite prompt 16 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-016"
+            ],
+            "register": "raw"
+          },
+          "17": {
+            "doc_id": 17,
+            "prompt": "synthetic suite prompt 17 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-017"
+            ],
+            "register": "raw"
+          },
+          "18": {
+            "doc_id": 18,
+            "prompt": "synthetic suite prompt 18 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-018"
+            ],
+            "register": "raw"
+          },
+          "19": {
+            "doc_id": 19,
+            "prompt": "synthetic suite prompt 19 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-019"
+            ],
+            "register": "raw"
+          },
+          "20": {
+            "doc_id": 20,
+            "prompt": "synthetic suite prompt 20 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-020"
+            ],
+            "register": "raw"
+          },
+          "21": {
+            "doc_id": 21,
+            "prompt": "synthetic suite prompt 21 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-021"
+            ],
+            "register": "raw"
+          },
+          "22": {
+            "doc_id": 22,
+            "prompt": "synthetic suite prompt 22 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-022"
+            ],
+            "register": "raw"
+          },
+          "23": {
+            "doc_id": 23,
+            "prompt": "synthetic suite prompt 23 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-023"
+            ],
+            "register": "raw"
+          },
+          "24": {
+            "doc_id": 24,
+            "prompt": "synthetic suite prompt 24 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-024"
+            ],
+            "register": "raw"
+          },
+          "25": {
+            "doc_id": 25,
+            "prompt": "synthetic suite prompt 25 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-025"
+            ],
+            "register": "raw"
+          },
+          "26": {
+            "doc_id": 26,
+            "prompt": "synthetic suite prompt 26 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-026"
+            ],
+            "register": "raw"
+          },
+          "27": {
+            "doc_id": 27,
+            "prompt": "synthetic suite prompt 27 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-027"
+            ],
+            "register": "raw"
+          },
+          "28": {
+            "doc_id": 28,
+            "prompt": "synthetic suite prompt 28 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-028"
+            ],
+            "register": "raw"
+          },
+          "29": {
+            "doc_id": 29,
+            "prompt": "synthetic suite prompt 29 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-029"
+            ],
+            "register": "raw"
+          },
+          "30": {
+            "doc_id": 30,
+            "prompt": "synthetic suite prompt 30 -- assess.",
+            "suite_class_set": [
+              "PP1"
+            ],
+            "fixture_ids": [
+              "synthetic-PP1-030"
+            ],
+            "register": "raw"
+          }
+        }
+      },
+      "content_mode": null,
+      "expect": {
+        "leg": "w5proseraw",
+        "n": 31
+      }
+    },
+    {
+      "id": "P-01-real-raw",
+      "kind": "real",
+      "schema": "w5prose-raw-v1",
+      "load_register": "raw",
+      "fragment": "",
+      "manifest": null,
+      "content_mode": null,
+      "expect": {
+        "leg": "w5proseraw",
+        "n": 31,
+        "file": "triadic_w5prose_raw_prompts_v1.json"
+      }
+    },
+    {
+      "id": "P-02-real-chat",
+      "kind": "real",
+      "schema": "w5prose-chat-v1",
+      "load_register": "chat",
+      "fragment": "",
+      "manifest": null,
+      "content_mode": null,
+      "expect": {
+        "leg": "w5prosechat",
+        "n": 31,
+        "file": "triadic_w5prose_chat_prompts_v1.json"
+      }
+    },
+    {
+      "id": "P-03-real-code",
+      "kind": "real",
+      "schema": "w5code-v1",
+      "load_register": "raw",
+      "fragment": "",
+      "manifest": null,
+      "content_mode": null,
+      "expect": {
+        "leg": "w5code",
+        "n": 24,
+        "file": "triadic_w5code_prompts_v1.json"
+      }
+    },
+    {
+      "id": "B-01-banked-17p-parity",
+      "kind": "banked_17p",
+      "schema": "prose17p-prompts-v1",
+      "load_register": "raw",
+      "fragment": "",
+      "manifest": null,
+      "content_mode": null,
+      "expect": {
+        "leg": "prose17p",
+        "n": 180,
+        "file": "triadic_prose17p_prompts_v1.json"
+      }
+    }
+  ]
+}
