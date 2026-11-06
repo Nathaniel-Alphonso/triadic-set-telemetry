@@ -1,0 +1,6005 @@
+{
+  "census_law": {
+    "expected_census_note": "the item-270 receipt-measured EOS@step0 counts of record, ENFORCED in real mode (a census drift = wrong bytes = hard exit); echoed in fixture mode",
+    "expected_fresh_census": {
+      "gsmrw17": 0,
+      "mbpprw17": 0,
+      "p2corpus-rw17": 92,
+      "prose17p-rw17": 5
+    },
+    "reason": "empty generation, EOS@step0 (measured at readout)"
+  },
+  "construction": {
+    "alpha": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "alpha_esc": 0.01,
+    "armed_sides": {
+      "gsmrw17": [
+        "C",
+        "F"
+      ],
+      "mbpprw17": [
+        "F"
+      ],
+      "p2corpus-rw17": [
+        "C",
+        "F"
+      ],
+      "prose17p-rw17": [
+        "C",
+        "F"
+      ]
+    },
+    "arming_evidence": {
+      "gsmrw17": "item-215: both sides separate on the gsm leg (math family)",
+      "mbpprw17": "item-215: G3_pr FAIL on the he leg -- the ceiling is blind on code-family legs (Side F only; the honest cost owned in the sheet SS1.2)",
+      "p2corpus-rw17": "items 215/231: both sides separate (p2 family)",
+      "prose17p-rw17": "items 215/231: both sides separate (prose family)"
+    },
+    "bar": "the held-out 2-sigma bar on armed D: the leg's live loop fixtures as positives vs the held-out half's census-applied clean docs as negatives; PASS_2SIGMA iff sigma-gap >= 2.0; the [REDACTED_PER_PUBLICATION_POLICY] jitter clause on below-bar near-misses (INCONCLUSIVE-FROM-JITTER); the above-bar near-bar FLAG; the per-half population guard (>=5/half)",
+    "co_elev_quantile": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "doc_split": "the item-229 parity law re-pinned for the fresh legs (the sheet SS2): EVEN doc_id = calibration half, ODD = held-out; the census applied BEFORE the split; baselines from the calibration half ONLY",
+    "falsifier": "fires > ceil(0.05 * n_held) ==> CANDIDATE-KILLED-FALSE-ALARM-BUDGET (the pinned sheet SS1.5 count form; the RW-16 rate form superseded here); KILLED dominates a guard typing (SS1.8); the one-sided 95% Wilson upper reported per leg",
+    "jitter_band": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "pop_guard_min": 5,
+    "refinement_v2": {
+      "development_data_disclosure": "the refinement's constants (K=4) pin from PRIOR data only (the banked old anchors + the fresh forensics); the fresh corpora thereby become DEVELOPMENT DATA for the refinement; its own adjudication is the fresh3 generation (new prompts, never re-walks -- the refinement sheet SS6, the item-228 determinism law)",
+      "echo_constants_note": "PINNED_CACHE_SHA + EXPECTED_FRESH_CENSUS carry the FRESH3 values of record (the item-270 walk-receipt pins: the four fresh3 cache SHAs + the measured fresh3 EOS@step0 censuses 0/0/5/92); the planned PRE-BANK echo-constant update EXECUTED at the fresh3 walk-receipt phase, BEFORE the single adjudication command -- the same lifecycle as v1 (built after its walks landed); measured, never guessed",
+      "gate_law": "Side C contributes to D only when N_band([REDACTED_PER_PUBLICATION_POLICY]) >= K=4 (pinned from PRIOR data only -- the item-243/257 anchors); z_C itself UNCHANGED; a gated-off Side C contributes -inf to D (exactly the unarmed-side law); Side F unchanged; the SEC annotations ride unchanged; gated docs censused NAMED-GATED, never silent; t_leg re-derived on the gated D ([REDACTED_PER_PUBLICATION_POLICY] -- the level-set guarantee holds by construction); the gate NEVER applies on the F-only code leg (Side C unarmed already)",
+      "k_gate": 4,
+      "option": "OPTION A -- THE PERSISTENCE-GATED SIDE C (the owner-stamped refinement sheet, ledger item 260)",
+      "refinement_sheet_sha256": "c03dffed4ca13210ee5df7c7c27f9b065abfd128be7311b4fb6948e413d36c29"
+    },
+    "sec_band_factor": 0.9,
+    "sec_sweep": [
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "statistic": "D over the leg's ARMED sides only (the pinned sheet's arming table); an unarmed side contributes -inf",
+    "threshold_rule": "[REDACTED_PER_PUBLICATION_POLICY]"
+  },
+  "empty_form_records_excluded": [],
+  "fixture_identity_receipt": {
+    "copies_byte_identical": true,
+    "n_loop_fixtures": 10,
+    "rule": "within-set byte-identity asserted (HARD EXIT on divergence), item-213 Stamp-2 semantics; the item-254 C10 cross-leg law"
+  },
+  "fixture_mode": false,
+  "inputs": {
+    "walks": [
+      {
+        "n_empty_form": 0,
+        "n_records": 1010,
+        "path": "triadic_t2_cache_rw17-math-fresh3_bfloat16_bos.jsonl",
+        "pin": {
+          "leg": "gsmrw17",
+          "match": true,
+          "pinned_file": "triadic_t2_cache_rw17-math-fresh3_bfloat16_bos.jsonl",
+          "pinned_sha256": "b16552ccda1b2068ca2949905866b7a018c99806d0104243a9e1e125893c2cb9"
+        },
+        "sha256": "b16552ccda1b2068ca2949905866b7a018c99806d0104243a9e1e125893c2cb9"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 410,
+        "path": "triadic_t2_cache_rw17-code-fresh3_bfloat16_bos.jsonl",
+        "pin": {
+          "leg": "mbpprw17",
+          "match": true,
+          "pinned_file": "triadic_t2_cache_rw17-code-fresh3_bfloat16_bos.jsonl",
+          "pinned_sha256": "347ece58325bdc1c1b022c99bc74ec7490e01b331cdcc678a6ef89265d0cae25"
+        },
+        "sha256": "347ece58325bdc1c1b022c99bc74ec7490e01b331cdcc678a6ef89265d0cae25"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 630,
+        "path": "triadic_t2_cache_rw17-prose-fresh3_bfloat16_bos.jsonl",
+        "pin": {
+          "leg": "prose17p-rw17",
+          "match": true,
+          "pinned_file": "triadic_t2_cache_rw17-prose-fresh3_bfloat16_bos.jsonl",
+          "pinned_sha256": "4da8214151211cc75a3d95124723cfd26872429042c265a7e04e18feafeb2e97"
+        },
+        "sha256": "4da8214151211cc75a3d95124723cfd26872429042c265a7e04e18feafeb2e97"
+      },
+      {
+        "n_empty_form": 0,
+        "n_records": 760,
+        "path": "triadic_t2_cache_rw17-p2-fresh3_bfloat16_bos.jsonl",
+        "pin": {
+          "leg": "p2corpus-rw17",
+          "match": true,
+          "pinned_file": "triadic_t2_cache_rw17-p2-fresh3_bfloat16_bos.jsonl",
+          "pinned_sha256": "4a6ced41f842777d28b789c9ee069912d51cb140617c05e46b04550f0c91ffdf"
+        },
+        "sha256": "4a6ced41f842777d28b789c9ee069912d51cb140617c05e46b04550f0c91ffdf"
+      }
+    ]
+  },
+  "legs": {
+    "gsmrw17": {
+      "armed_sides": [
+        "C",
+        "F"
+      ],
+      "calibration_escalation_fires": 5,
+      "census": {
+        "corpus_docs": 1000,
+        "expected_of_record": 0,
+        "measured_eos_step0": 0,
+        "receipts": []
+      },
+      "forensics": {
+        "how": {
+          "clean_D_max": 2.2344,
+          "loop_D_range": [
+            -1.1268,
+            4.6151
+          ],
+          "loop_carried_via_zC": 3,
+          "loop_carried_via_zF": 5,
+          "loop_docs": 8
+        },
+        "what_next": [
+          "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+          "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there; the sheet SS3.6); nothing wires here",
+          "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+          "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+        ],
+        "where": {
+          "clean_overlap_at_loop_floor": 406,
+          "leg": "gsmrw17",
+          "threshold_t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+          "top_fired_clean_docs": [
+            {
+              "D": 2.2344,
+              "doc_id": 485,
+              "max_side": "F",
+              "z_C": 1.8835,
+              "z_F": 2.2344
+            },
+            {
+              "D": 1.7557,
+              "doc_id": 671,
+              "max_side": "F",
+              "z_C": 1.1665,
+              "z_F": 1.7557
+            },
+            {
+              "D": 1.4017,
+              "doc_id": 933,
+              "max_side": "F",
+              "z_C": -0.0345,
+              "z_F": 1.4017
+            }
+          ]
+        },
+        "why": "the clean D tail overlaps the loop floor (406 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 5/8 docs"
+      },
+      "gate_census": {
+        "calibration_gated": 447,
+        "fired_gated": 17,
+        "held_out_gated": 465,
+        "k_gate": 4,
+        "law": "gated-off Side C docs censused NAMED-GATED, never silent (the stamped refinement sheet); the gate NEVER applies on the F-only code leg (Side C unarmed); a gated-off doc can still fire through Side F on C+F legs -- typed in fired_gated, never hidden",
+        "loop_live_gated": 4,
+        "side_c_armed": true
+      },
+      "held_out": {
+        "count_ceil": 25,
+        "escalation_fires": 3,
+        "fired_docs": [
+          {
+            "D": 2.2343819428078313,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 485,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.2234074905795653,
+            "minS": 0.4840674102306366,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.00390625
+              }
+            },
+            "sec1_frac": 0.00390625,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 1.8835489951517495,
+            "z_F": 2.2343819428078313
+          },
+          {
+            "D": 1.7556559269662024,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 671,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.028956200257267,
+            "minS": 0.42615199089050293,
+            "n_prsig_steps": 79,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012658227848101266
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012658227848101266
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012658227848101266
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012658227848101266
+              }
+            },
+            "sec1_frac": 0.012658227848101266,
+            "sec2_ceiling_pos": 72,
+            "sec2_ceiling_pos_frac": 0.9230769230769231,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 1.1664848596083257,
+            "z_F": 1.7556559269662024
+          },
+          {
+            "D": 1.4017071133821664,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 933,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.7032699680087386,
+            "minS": 0.38333189487457275,
+            "n_prsig_steps": 72,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.027777777777777776
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.027777777777777776
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.013888888888888888
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.013888888888888888
+              }
+            },
+            "sec1_frac": 0.013888888888888888,
+            "sec2_ceiling_pos": 55,
+            "sec2_ceiling_pos_frac": 0.7746478873239436,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.03452499843171428,
+            "z_F": 1.4017071133821664
+          },
+          {
+            "D": 1.333225549691475,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 419,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.6655876009507533,
+            "minS": 0.37504711747169495,
+            "n_prsig_steps": 113,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.05309734513274336
+              },
+              "0.85": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.04424778761061947
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.017699115044247787
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.008849557522123894
+              }
+            },
+            "sec1_frac": 0.017699115044247787,
+            "sec2_ceiling_pos": 79,
+            "sec2_ceiling_pos_frac": 0.7053571428571429,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -0.1734835721438154,
+            "z_F": 1.333225549691475
+          },
+          {
+            "D": 1.3261731983371612,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 871,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.3846099663105593,
+            "minS": 0.37419393658638,
+            "n_prsig_steps": 126,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.031746031746031744
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.023809523809523808
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.015873015873015872
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.007936507936507936
+              }
+            },
+            "sec1_frac": 0.015873015873015872,
+            "sec2_ceiling_pos": 102,
+            "sec2_ceiling_pos_frac": 0.816,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.209624727887037,
+            "z_F": 1.3261731983371612
+          },
+          {
+            "D": 1.3193558596694483,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 277,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.7718186046427928,
+            "minS": 0.3733691871166229,
+            "n_prsig_steps": 100,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.02
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.02
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.02
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01
+              }
+            },
+            "sec1_frac": 0.02,
+            "sec2_ceiling_pos": 79,
+            "sec2_ceiling_pos_frac": 0.797979797979798,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": 0.21825691311645393,
+            "z_F": 1.3193558596694483
+          },
+          {
+            "D": 1.308586661967716,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 429,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.341419792211922,
+            "minS": 0.37206634879112244,
+            "n_prsig_steps": 68,
+            "sec1_N_band": 5,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.10294117647058823
+              },
+              "0.85": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.08823529411764706
+              },
+              "0.90": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.07352941176470588
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.04411764705882353
+              }
+            },
+            "sec1_frac": 0.07352941176470588,
+            "sec2_ceiling_pos": 50,
+            "sec2_ceiling_pos_frac": 0.746268656716418,
+            "side_c_gate": "PASS (N_band=5 >= K=4)",
+            "z_C": -1.3688940482534748,
+            "z_F": 1.308586661967716
+          },
+          {
+            "D": 1.279882843068271,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 105,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.5883493554088084,
+            "minS": 0.36859381198883057,
+            "n_prsig_steps": 37,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.08108108108108109
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.05405405405405406
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              }
+            },
+            "sec1_frac": 0.02702702702702703,
+            "sec2_ceiling_pos": 7,
+            "sec2_ceiling_pos_frac": 0.19444444444444445,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.4583095338467517,
+            "z_F": 1.279882843068271
+          },
+          {
+            "D": 1.279243825343907,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 235,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.4761184042733326,
+            "minS": 0.3685165047645569,
+            "n_prsig_steps": 54,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.07407407407407407
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.05555555555555555
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.018518518518518517
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.018518518518518517
+              }
+            },
+            "sec1_frac": 0.018518518518518517,
+            "sec2_ceiling_pos": 43,
+            "sec2_ceiling_pos_frac": 0.8113207547169812,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.8721755967758684,
+            "z_F": 1.279243825343907
+          },
+          {
+            "D": 1.2448891091510217,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 711,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.040231673417311,
+            "minS": 0.36436033248901367,
+            "n_prsig_steps": 77,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012987012987012988
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012987012987012988
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012987012987012988
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.012987012987012988
+              }
+            },
+            "sec1_frac": 0.012987012987012988,
+            "sec2_ceiling_pos": 15,
+            "sec2_ceiling_pos_frac": 0.19736842105263158,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 1.208064616682444,
+            "z_F": 1.2448891091510217
+          },
+          {
+            "D": 1.2444067665510583,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 257,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.4473352161916395,
+            "minS": 0.36430197954177856,
+            "n_prsig_steps": 62,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              }
+            },
+            "sec1_frac": 0.03225806451612903,
+            "sec2_ceiling_pos": 7,
+            "sec2_ceiling_pos_frac": 0.11475409836065574,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -0.9783173037595236,
+            "z_F": 1.2444067665510583
+          },
+          {
+            "D": 1.2418383784268416,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 927,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.5781646644586242,
+            "minS": 0.36399126052856445,
+            "n_prsig_steps": 90,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.022222222222222223
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.011111111111111112
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.011111111111111112
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.011111111111111112
+              }
+            },
+            "sec1_frac": 0.011111111111111112,
+            "sec2_ceiling_pos": 74,
+            "sec2_ceiling_pos_frac": 0.8314606741573034,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.49586689126961103,
+            "z_F": 1.2418383784268416
+          },
+          {
+            "D": 1.2289028268823736,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 977,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.7158659734356683,
+            "minS": 0.3624263405799866,
+            "n_prsig_steps": 101,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.009900990099009901
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.009900990099009901
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.009900990099009901
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.009900990099009901
+              }
+            },
+            "sec1_frac": 0.009900990099009901,
+            "sec2_ceiling_pos": 40,
+            "sec2_ceiling_pos_frac": 0.4,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 0.011924391170129016,
+            "z_F": 1.2289028268823736
+          },
+          {
+            "D": 1.2181099801052602,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 967,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.5394502134759418,
+            "minS": 0.36112064123153687,
+            "n_prsig_steps": 45,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.08888888888888889
+              },
+              "0.85": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.08888888888888889
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.08888888888888889
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.022222222222222223
+              }
+            },
+            "sec1_frac": 0.08888888888888889,
+            "sec2_ceiling_pos": 42,
+            "sec2_ceiling_pos_frac": 0.9545454545454546,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": -0.6386314071590284,
+            "z_F": 1.2181099801052602
+          },
+          {
+            "D": 1.2065529725798902,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 449,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.4825967734208851,
+            "minS": 0.3597224950790405,
+            "n_prsig_steps": 59,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.05084745762711865
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.05084745762711865
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.05084745762711865
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.03389830508474576
+              }
+            },
+            "sec1_frac": 0.05084745762711865,
+            "sec2_ceiling_pos": 54,
+            "sec2_ceiling_pos_frac": 0.9310344827586207,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": -0.8482857775577943,
+            "z_F": 1.2065529725798902
+          },
+          {
+            "D": 1.2064583762783654,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 221,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.9950252905736265,
+            "minS": 0.35971105098724365,
+            "n_prsig_steps": 91,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.02197802197802198
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.02197802197802198
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01098901098901099
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01098901098901099
+              }
+            },
+            "sec1_frac": 0.01098901098901099,
+            "sec2_ceiling_pos": 15,
+            "sec2_ceiling_pos_frac": 0.16666666666666666,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 1.041360267325218,
+            "z_F": 1.2064583762783654
+          },
+          {
+            "D": 1.201762556747978,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 717,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.071137838912395,
+            "minS": 0.3591429591178894,
+            "n_prsig_steps": 50,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.04
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.04
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.04
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02
+              }
+            },
+            "sec1_frac": 0.04,
+            "sec2_ceiling_pos": 8,
+            "sec2_ceiling_pos_frac": 0.16326530612244897,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": 1.322035075849682,
+            "z_F": 1.201762556747978
+          },
+          {
+            "D": 1.201216164568857,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 663,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.9515018339206558,
+            "minS": 0.3590768575668335,
+            "n_prsig_steps": 55,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01818181818181818
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01818181818181818
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01818181818181818
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.01818181818181818
+              }
+            },
+            "sec1_frac": 0.01818181818181818,
+            "sec2_ceiling_pos": 31,
+            "sec2_ceiling_pos_frac": 0.5740740740740741,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 0.8808619246863194,
+            "z_F": 1.201216164568857
+          },
+          {
+            "D": 1.1958628514739642,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 223,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.846329600993535,
+            "minS": 0.3584292232990265,
+            "n_prsig_steps": 42,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.047619047619047616
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.047619047619047616
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.023809523809523808
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.023809523809523808
+              }
+            },
+            "sec1_frac": 0.023809523809523808,
+            "sec2_ceiling_pos": 8,
+            "sec2_ceiling_pos_frac": 0.1951219512195122,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 0.4930257927580684,
+            "z_F": 1.1958628514739642
+          }
+        ],
+        "fires": 19,
+        "n": 500,
+        "rate": 0.038,
+        "wilson_upper_95": 0.05473340348284785
+      },
+      "level_set_receipt": {
+        "alpha": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "ceiling": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "n_calib": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "note": "the level-set rule controls the calibration half's own combined count BY CONSTRUCTION; a violation is ties at t_leg, reported honestly, never adjudicated",
+        "ok": true
+      },
+      "loop_catches": {
+        "at_t_esc": 5,
+        "at_t_leg": 5,
+        "n_live": 8
+      },
+      "loop_floor_overlap_line": {
+        "easiest_loop_D": -1.1268201247627256,
+        "n_clean_at_or_above": 406,
+        "note": "the standing loop-floor overlap count (the item-232 decomposition): held-out clean docs at/above the easiest live loop's D -- phenomenon beta always visible, never silent, never adjudicated away",
+        "rate": 0.812
+      },
+      "loop_population": {
+        "inert": [
+          "loop-seeded-affirm",
+          "loop-seeded-chant"
+        ],
+        "n_inert": 2,
+        "n_live": 8
+      },
+      "parity": {
+        "n_even_calibration": 500,
+        "n_odd_held_out": 500
+      },
+      "populations": {
+        "loops_live": [
+          {
+            "D": -1.1268201247627256,
+            "c_gate_on": false,
+            "doc_id": "loop-injection-code",
+            "half": "loop-fixture",
+            "maxPRsig": 2.8904156969751367,
+            "minS": 0.07743518054485321,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 111,
+            "sec2_ceiling_pos_frac": 0.43529411764705883,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": 4.34322751992091,
+            "z_F": -1.1268201247627256
+          },
+          {
+            "D": 3.7858812576058414,
+            "c_gate_on": true,
+            "doc_id": "loop-injection-prose",
+            "half": "loop-fixture",
+            "maxPRsig": 2.438189189670946,
+            "minS": 0.6717650294303894,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 10,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.0390625,
+            "sec2_ceiling_pos": 31,
+            "sec2_ceiling_pos_frac": 0.12156862745098039,
+            "side_c_gate": "PASS (N_band=10 >= K=4)",
+            "z_C": 2.6755841271081238,
+            "z_F": 3.7858812576058414
+          },
+          {
+            "D": -0.6231509856963396,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-code-line",
+            "half": "loop-fixture",
+            "maxPRsig": 2.3578890005040747,
+            "minS": 0.1383681744337082,
+            "n_prsig_steps": 37,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              }
+            },
+            "sec1_frac": 0.02702702702702703,
+            "sec2_ceiling_pos": 15,
+            "sec2_ceiling_pos_frac": 0.4166666666666667,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 2.3794668545846145,
+            "z_F": -0.6231509856963396
+          },
+          {
+            "D": 4.4282374431110885,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-countdown",
+            "half": "loop-fixture",
+            "maxPRsig": 2.774670143454776,
+            "minS": 0.7494761347770691,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 12,
+                "R_band": 1,
+                "frac": 0.046875
+              },
+              "0.85": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.02734375
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": 3.9164009087911658,
+            "z_F": 4.4282374431110885
+          },
+          {
+            "D": 4.110153437720844,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-counter",
+            "half": "loop-fixture",
+            "maxPRsig": 2.4682447449653524,
+            "minS": 0.7109948992729187,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 16,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.0625,
+            "sec2_ceiling_pos": 79,
+            "sec2_ceiling_pos_frac": 0.30980392156862746,
+            "side_c_gate": "PASS (N_band=16 >= K=4)",
+            "z_C": 2.7864178517891975,
+            "z_F": 4.110153437720844
+          },
+          {
+            "D": 4.615139534672522,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-cycle",
+            "half": "loop-fixture",
+            "maxPRsig": 2.3447840552703463,
+            "minS": 0.7720872163772583,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 9,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.85": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.90": {
+                "N_band": 9,
+                "R_band": 1,
+                "frac": 0.03515625
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.03515625,
+            "sec2_ceiling_pos": 127,
+            "sec2_ceiling_pos_frac": 0.4980392156862745,
+            "side_c_gate": "PASS (N_band=9 >= K=4)",
+            "z_C": 2.3311406840058955,
+            "z_F": 4.615139534672522
+          },
+          {
+            "D": 1.0581742394363554,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-json",
+            "half": "loop-fixture",
+            "maxPRsig": 3.1444565246459844,
+            "minS": 0.3417719006538391,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 63,
+            "sec2_ceiling_pos_frac": 0.24705882352941178,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": 5.280035736439302,
+            "z_F": 1.0581742394363554
+          },
+          {
+            "D": 2.720675170082386,
+            "c_gate_on": true,
+            "doc_id": "mask-reserved-stubborn",
+            "half": "loop-fixture",
+            "maxPRsig": 1.6787900233869262,
+            "minS": 0.5428982973098755,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 14,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.85": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.0546875
+              },
+              "0.90": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.0546875
+              },
+              "0.95": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.04296875
+              }
+            },
+            "sec1_frac": 0.0546875,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "PASS (N_band=14 >= K=4)",
+            "z_C": -0.12479794184749743,
+            "z_F": 2.720675170082386
+          }
+        ],
+        "summaries_at_0.90": {
+          "calibration_half_clean": {
+            "max_D": 1.9483690397689708,
+            "mean_D": 0.023150605139391395,
+            "mean_N_band": 1.9,
+            "mean_R_band": 1.034,
+            "mean_ceiling_pos_frac": 0.5668152597335897,
+            "n": 500
+          },
+          "held_out_clean_fired": {
+            "max_D": 2.2343819428078313,
+            "mean_D": 1.3383269949473573,
+            "mean_N_band": 1.736842105263158,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.5780874339935231,
+            "n": 19
+          },
+          "held_out_clean_nonfired": {
+            "max_D": 1.192060523572824,
+            "mean_D": -0.020689016110042733,
+            "mean_N_band": 1.844074844074844,
+            "mean_R_band": 1.0145530145530146,
+            "mean_ceiling_pos_frac": 0.5761765202366268,
+            "n": 481
+          },
+          "loops_live": {
+            "max_D": 4.615139534672522,
+            "mean_D": 2.3710362465212467,
+            "mean_N_band": 7.25,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.42512254901960783,
+            "n": 8
+          }
+        }
+      },
+      "separation_context": {
+        "auc_on_D": 0.79475,
+        "note": "the BAR's statistic under the ARMED construction (the live fixtures vs the held-out clean docs)",
+        "sigma_gap_on_D": 1.3165742636353681
+      },
+      "thresholds": {
+        "t_esc": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "th_C_coelev": 2.0107898339336194,
+        "th_F_coelev": 1.2781259877464335
+      },
+      "verdict": {
+        "auc": 0.7947,
+        "basis": "held-out 2-sigma bar not met on this leg (gap 1.317 < 2.0, outside the jitter band)",
+        "over_budget": false,
+        "sigma_gap": 1.317,
+        "typing_presented": "FAIL"
+      },
+      "z_baselines": {
+        "mu_C": 1.7126323529902918,
+        "mu_F": 0.21375586896995083,
+        "sd_C": 0.2711769849916341,
+        "sd_F": 0.12097821598083602
+      }
+    },
+    "mbpprw17": {
+      "armed_sides": [
+        "F"
+      ],
+      "calibration_escalation_fires": 2,
+      "census": {
+        "corpus_docs": 400,
+        "expected_of_record": 0,
+        "measured_eos_step0": 0,
+        "receipts": []
+      },
+      "forensics": {
+        "how": {
+          "clean_D_max": 6.1388,
+          "loop_D_range": [
+            0.5233,
+            12.5326
+          ],
+          "loop_carried_via_zC": 0,
+          "loop_carried_via_zF": 8,
+          "loop_docs": 8
+        },
+        "what_next": [
+          "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+          "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there; the sheet SS3.6); nothing wires here",
+          "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+          "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+        ],
+        "where": {
+          "clean_overlap_at_loop_floor": 62,
+          "leg": "mbpprw17",
+          "threshold_t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+          "top_fired_clean_docs": [
+            {
+              "D": 6.1388,
+              "doc_id": 343,
+              "max_side": "F",
+              "z_C": -1.7043,
+              "z_F": 6.1388
+            },
+            {
+              "D": 5.6117,
+              "doc_id": 221,
+              "max_side": "F",
+              "z_C": 0.4477,
+              "z_F": 5.6117
+            },
+            {
+              "D": 4.3375,
+              "doc_id": 369,
+              "max_side": "F",
+              "z_C": -1.4581,
+              "z_F": 4.3375
+            }
+          ]
+        },
+        "why": "the clean D tail overlaps the loop floor (62 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 8/8 docs"
+      },
+      "gate_census": {
+        "calibration_gated": 126,
+        "fired_gated": 7,
+        "held_out_gated": 125,
+        "k_gate": 4,
+        "law": "gated-off Side C docs censused NAMED-GATED, never silent (the stamped refinement sheet); the gate NEVER applies on the F-only code leg (Side C unarmed); a gated-off doc can still fire through Side F on C+F legs -- typed in fired_gated, never hidden",
+        "loop_live_gated": 4,
+        "side_c_armed": false
+      },
+      "held_out": {
+        "count_ceil": 10,
+        "escalation_fires": 7,
+        "fired_docs": [
+          {
+            "D": 6.138757541901195,
+            "c_gate_on": false,
+            "co_elevated": true,
+            "doc_id": 343,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.5813907203814654,
+            "minS": 0.4022483229637146,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.029296875
+              },
+              "0.85": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.005859375,
+            "sec2_ceiling_pos": 4,
+            "sec2_ceiling_pos_frac": 0.007827788649706457,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -1.704267866586453,
+            "z_F": 6.138757541901195
+          },
+          {
+            "D": 5.611716711594774,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 221,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.0668344941473746,
+            "minS": 0.37176281213760376,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 127,
+            "sec2_ceiling_pos_frac": 0.24853228962818003,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.4476753000614966,
+            "z_F": 5.611716711594774
+          },
+          {
+            "D": 4.337495946493187,
+            "c_gate_on": false,
+            "co_elevated": true,
+            "doc_id": 369,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.6369150020748,
+            "minS": 0.29805833101272583,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.001953125,
+            "sec2_ceiling_pos": 148,
+            "sec2_ceiling_pos_frac": 0.2896281800391389,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -1.4581320522446972,
+            "z_F": 4.337495946493187
+          },
+          {
+            "D": 2.976913924002516,
+            "c_gate_on": false,
+            "co_elevated": true,
+            "doc_id": 269,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.176976337071968,
+            "minS": 0.21935847401618958,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.001953125,
+            "sec2_ceiling_pos": 143,
+            "sec2_ceiling_pos_frac": 0.27984344422700586,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.9359274912573521,
+            "z_F": 2.976913924002516
+          },
+          {
+            "D": 2.8011510387377445,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 313,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.3061987023373476,
+            "minS": 0.20919185876846313,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 7,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.021484375
+              },
+              "0.85": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.90": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.013671875
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.013671875,
+            "sec2_ceiling_pos": 63,
+            "sec2_ceiling_pos_frac": 0.1232876712328767,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 1.5087624948946932,
+            "z_F": 2.8011510387377445
+          },
+          {
+            "D": 2.6184459484337435,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 259,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.1878106975543776,
+            "minS": 0.1986236870288849,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 8,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.021484375
+              },
+              "0.85": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.021484375
+              },
+              "0.90": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.015625,
+            "sec2_ceiling_pos": 31,
+            "sec2_ceiling_pos_frac": 0.060665362035225046,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.9839555622000543,
+            "z_F": 2.6184459484337435
+          },
+          {
+            "D": 2.549413411698096,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 385,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.7634348098646573,
+            "minS": 0.19463065266609192,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 10,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 22,
+                "R_band": 2,
+                "frac": 0.04296875
+              },
+              "0.85": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.029296875
+              },
+              "0.90": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.01953125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              }
+            },
+            "sec1_frac": 0.01953125,
+            "sec2_ceiling_pos": 117,
+            "sec2_ceiling_pos_frac": 0.22896281800391388,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -0.8972773239888017,
+            "z_F": 2.549413411698096
+          },
+          {
+            "D": 2.408324970320448,
+            "c_gate_on": false,
+            "co_elevated": true,
+            "doc_id": 83,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.9854106622818115,
+            "minS": 0.18646970391273499,
+            "n_prsig_steps": 129,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 6,
+                "R_band": 2,
+                "frac": 0.046511627906976744
+              },
+              "0.85": {
+                "N_band": 4,
+                "R_band": 2,
+                "frac": 0.031007751937984496
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.007751937984496124
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.007751937984496124
+              }
+            },
+            "sec1_frac": 0.007751937984496124,
+            "sec2_ceiling_pos": 7,
+            "sec2_ceiling_pos_frac": 0.0546875,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.08672833142268467,
+            "z_F": 2.408324970320448
+          },
+          {
+            "D": 2.39362701253849,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 203,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.783869536418598,
+            "minS": 0.1856195330619812,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 18,
+                "R_band": 1,
+                "frac": 0.03515625
+              },
+              "0.85": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 133,
+            "sec2_ceiling_pos_frac": 0.2602739726027397,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -0.8066914053994384,
+            "z_F": 2.39362701253849
+          },
+          {
+            "D": 2.378430054787667,
+            "c_gate_on": false,
+            "co_elevated": true,
+            "doc_id": 11,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.0675632839345943,
+            "minS": 0.18474049866199493,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              }
+            },
+            "sec1_frac": 0.00390625,
+            "sec2_ceiling_pos": 159,
+            "sec2_ceiling_pos_frac": 0.3111545988258317,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.45090598152716616,
+            "z_F": 2.378430054787667
+          },
+          {
+            "D": 2.3084708774283698,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 141,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.9298462545277053,
+            "minS": 0.1806938648223877,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 5,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 12,
+                "R_band": 1,
+                "frac": 0.0234375
+              },
+              "0.85": {
+                "N_band": 9,
+                "R_band": 1,
+                "frac": 0.017578125
+              },
+              "0.90": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.009765625,
+            "sec2_ceiling_pos": 15,
+            "sec2_ceiling_pos_frac": 0.029354207436399216,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -0.15958535934255927,
+            "z_F": 2.3084708774283698
+          },
+          {
+            "D": 2.167195407667967,
+            "c_gate_on": true,
+            "co_elevated": true,
+            "doc_id": 335,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.1812557786246938,
+            "minS": 0.17252209782600403,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 223,
+            "sec2_ceiling_pos_frac": 0.436399217221135,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.9548979992834753,
+            "z_F": 2.167195407667967
+          },
+          {
+            "D": 2.100976540348917,
+            "c_gate_on": false,
+            "co_elevated": true,
+            "doc_id": 73,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.7795570305121007,
+            "minS": 0.16869181394577026,
+            "n_prsig_steps": 44,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.09090909090909091
+              },
+              "0.85": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.09090909090909091
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.06818181818181818
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.045454545454545456
+              }
+            },
+            "sec1_frac": 0.06818181818181818,
+            "sec2_ceiling_pos": 39,
+            "sec2_ceiling_pos_frac": 0.9069767441860465,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -0.8258084857249773,
+            "z_F": 2.100976540348917
+          },
+          {
+            "D": 1.999374788298974,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 193,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.0884120705446136,
+            "minS": 0.1628148853778839,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.01953125
+              },
+              "0.85": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              }
+            },
+            "sec1_frac": 0.005859375,
+            "sec2_ceiling_pos": 367,
+            "sec2_ceiling_pos_frac": 0.7181996086105675,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.5433274035391978,
+            "z_F": 1.999374788298974
+          }
+        ],
+        "fires": 14,
+        "n": 200,
+        "rate": 0.07,
+        "wilson_upper_95": 0.10577366237628216
+      },
+      "level_set_receipt": {
+        "alpha": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "ceiling": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "n_calib": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "note": "the level-set rule controls the calibration half's own combined count BY CONSTRUCTION; a violation is ties at t_leg, reported honestly, never adjudicated",
+        "ok": true
+      },
+      "loop_catches": {
+        "at_t_esc": 6,
+        "at_t_leg": 6,
+        "n_live": 8
+      },
+      "loop_floor_overlap_line": {
+        "easiest_loop_D": 0.5233099526729817,
+        "n_clean_at_or_above": 62,
+        "note": "the standing loop-floor overlap count (the item-232 decomposition): held-out clean docs at/above the easiest live loop's D -- phenomenon beta always visible, never silent, never adjudicated away",
+        "rate": 0.31
+      },
+      "loop_population": {
+        "inert": [
+          "loop-seeded-affirm",
+          "loop-seeded-chant"
+        ],
+        "n_inert": 2,
+        "n_live": 8
+      },
+      "parity": {
+        "n_even_calibration": 200,
+        "n_odd_held_out": 200
+      },
+      "populations": {
+        "loops_live": [
+          {
+            "D": 0.5233099526729817,
+            "c_gate_on": false,
+            "doc_id": "loop-injection-code",
+            "half": "loop-fixture",
+            "maxPRsig": 2.0533138576536514,
+            "minS": 0.07743518054485321,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 111,
+            "sec2_ceiling_pos_frac": 0.43529411764705883,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 0.38773912849278025,
+            "z_F": 0.5233099526729817
+          },
+          {
+            "D": 10.798227070487405,
+            "c_gate_on": true,
+            "doc_id": "loop-injection-prose",
+            "half": "loop-fixture",
+            "maxPRsig": 1.7081239409320745,
+            "minS": 0.6717650294303894,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 11,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 43,
+                "R_band": 3,
+                "frac": 0.16796875
+              },
+              "0.85": {
+                "N_band": 29,
+                "R_band": 2,
+                "frac": 0.11328125
+              },
+              "0.90": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.04296875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.04296875,
+            "sec2_ceiling_pos": 31,
+            "sec2_ceiling_pos_frac": 0.12156862745098039,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -1.1424670923474922,
+            "z_F": 10.798227070487405
+          },
+          {
+            "D": 1.5767341801828079,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-code-line",
+            "half": "loop-fixture",
+            "maxPRsig": 1.6652119700004007,
+            "minS": 0.1383681744337082,
+            "n_prsig_steps": 37,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 2,
+                "frac": 0.08108108108108109
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.05405405405405406
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.05405405405405406
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.05405405405405406
+              }
+            },
+            "sec1_frac": 0.05405405405405406,
+            "sec2_ceiling_pos": 24,
+            "sec2_ceiling_pos_frac": 0.6666666666666666,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -1.332693288673869,
+            "z_F": 1.5767341801828079
+          },
+          {
+            "D": 12.141715317069918,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-countdown",
+            "half": "loop-fixture",
+            "maxPRsig": 1.9649638884783351,
+            "minS": 0.7494761347770691,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 13,
+                "R_band": 1,
+                "frac": 0.05078125
+              },
+              "0.85": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.02734375
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -0.003910991902131754,
+            "z_F": 12.141715317069918
+          },
+          {
+            "D": 11.476442478867924,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-counter",
+            "half": "loop-fixture",
+            "maxPRsig": 1.7310657067541255,
+            "minS": 0.7109948992729187,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 15,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 21,
+                "R_band": 1,
+                "frac": 0.08203125
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.05859375,
+            "sec2_ceiling_pos": 79,
+            "sec2_ceiling_pos_frac": 0.30980392156862746,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -1.0407676188768384,
+            "z_F": 11.476442478867924
+          },
+          {
+            "D": 12.532621124378322,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-cycle",
+            "half": "loop-fixture",
+            "maxPRsig": 1.6368266816066213,
+            "minS": 0.7720872163772583,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 23,
+            "sec1_R_band": 2,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 51,
+                "R_band": 4,
+                "frac": 0.19921875
+              },
+              "0.85": {
+                "N_band": 42,
+                "R_band": 4,
+                "frac": 0.1640625
+              },
+              "0.90": {
+                "N_band": 23,
+                "R_band": 2,
+                "frac": 0.08984375
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.08984375,
+            "sec2_ceiling_pos": 127,
+            "sec2_ceiling_pos_frac": 0.4980392156862745,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -1.4585235715889417,
+            "z_F": 12.532621124378322
+          },
+          {
+            "D": 5.093226633465214,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-json",
+            "half": "loop-fixture",
+            "maxPRsig": 2.247226268207228,
+            "minS": 0.3417719006538391,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 63,
+            "sec2_ceiling_pos_frac": 0.24705882352941178,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": 1.247341227376071,
+            "z_F": 5.093226633465214
+          },
+          {
+            "D": 8.57034806648859,
+            "c_gate_on": true,
+            "doc_id": "mask-reserved-stubborn",
+            "half": "loop-fixture",
+            "maxPRsig": 1.4073702692664751,
+            "minS": 0.5428982973098755,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 8,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 17,
+                "R_band": 1,
+                "frac": 0.06640625
+              },
+              "0.85": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.90": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.03125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.03125,
+            "sec2_ceiling_pos": 2,
+            "sec2_ceiling_pos_frac": 0.00784313725490196,
+            "side_c_gate": "N/A (Side C unarmed on this leg)",
+            "z_C": -2.4756901009861054,
+            "z_F": 8.57034806648859
+          }
+        ],
+        "summaries_at_0.90": {
+          "calibration_half_clean": {
+            "max_D": 3.084579414445415,
+            "mean_D": -2.923442737889914e-17,
+            "mean_N_band": 4.535,
+            "mean_R_band": 1.045,
+            "mean_ceiling_pos_frac": 0.3866843580172892,
+            "n": 200
+          },
+          "held_out_clean_fired": {
+            "max_D": 6.138757541901195,
+            "mean_D": 3.0564495838751493,
+            "mean_N_band": 4.0,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.28255667162134046,
+            "n": 14
+          },
+          "held_out_clean_nonfired": {
+            "max_D": 1.9984839561397916,
+            "mean_D": -0.013995871556471372,
+            "mean_N_band": 4.553763440860215,
+            "mean_R_band": 1.096774193548387,
+            "mean_ceiling_pos_frac": 0.40870281989377083,
+            "n": 186
+          },
+          "loops_live": {
+            "max_D": 12.532621124378322,
+            "mean_D": 7.839078102951645,
+            "mean_N_band": 8.375,
+            "mean_R_band": 1.125,
+            "mean_ceiling_pos_frac": 0.3715686274509804,
+            "n": 8
+          }
+        }
+      },
+      "separation_context": {
+        "auc_on_D": 0.949375,
+        "note": "the BAR's statistic under the ARMED construction (the live fixtures vs the held-out clean docs)",
+        "sigma_gap_on_D": 2.1753647983363384
+      },
+      "thresholds": {
+        "t_esc": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "th_C_coelev": 1.4814870489121996,
+        "th_F_coelev": 2.088525711840796
+      },
+      "verdict": {
+        "auc": 0.9494,
+        "basis": "the coarse-guard falsifier fired: the held-out half's clean fire count 14/200 > ceil(0.05 * 200) = 10 (rate 7.0000%) -- the candidate dies EVEN IF the sigma-gap passes (the pinned sheet SS1.5, the R16-D2 falsifier)",
+        "over_budget": true,
+        "sigma_gap": 2.175,
+        "typing_presented": "CANDIDATE-KILLED-FALSE-ALARM-BUDGET"
+      },
+      "z_baselines": {
+        "mu_C": 1.9658461453601914,
+        "mu_F": 0.04716547408141196,
+        "sd_C": 0.2255839193569772,
+        "sd_F": 0.05784278764206286
+      }
+    },
+    "p2corpus-rw17": {
+      "armed_sides": [
+        "C",
+        "F"
+      ],
+      "calibration_escalation_fires": 4,
+      "census": {
+        "corpus_docs": 750,
+        "expected_of_record": 92,
+        "measured_eos_step0": 92,
+        "receipts": [
+          {
+            "doc_id": 2,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 7,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 8,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 9,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 11,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 22,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 23,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 30,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 32,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 37,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 39,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 48,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 49,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 51,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 53,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 54,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 63,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 64,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 71,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 72,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 80,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 82,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 85,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 87,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 93,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 96,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 97,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 99,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 102,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 105,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 114,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 117,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 125,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 126,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 127,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 129,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 132,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 153,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 164,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 166,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 173,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 174,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 176,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 179,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 180,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 181,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 183,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 184,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 201,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 202,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 203,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 204,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 209,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 216,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 223,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 240,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 245,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 249,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 254,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 270,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 279,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 280,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 281,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 285,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 306,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 307,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 312,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 317,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 326,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 329,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 334,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 345,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 346,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 351,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 354,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 355,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 368,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 371,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 384,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 414,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 435,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 439,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 452,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 455,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 459,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 467,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 471,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 486,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 509,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 517,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 598,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 663,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          }
+        ]
+      },
+      "forensics": {
+        "how": {
+          "clean_D_max": 3.1347,
+          "loop_D_range": [
+            -0.3238,
+            3.4539
+          ],
+          "loop_carried_via_zC": 3,
+          "loop_carried_via_zF": 5,
+          "loop_docs": 8
+        },
+        "what_next": [
+          "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+          "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there; the sheet SS3.6); nothing wires here",
+          "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+          "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+        ],
+        "where": {
+          "clean_overlap_at_loop_floor": 171,
+          "leg": "p2corpus-rw17",
+          "threshold_t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+          "top_fired_clean_docs": [
+            {
+              "D": 3.1347,
+              "doc_id": 699,
+              "max_side": "F",
+              "z_C": -1.5604,
+              "z_F": 3.1347
+            },
+            {
+              "D": 3.0896,
+              "doc_id": 747,
+              "max_side": "F",
+              "z_C": -1.5747,
+              "z_F": 3.0896
+            },
+            {
+              "D": 3.0767,
+              "doc_id": 391,
+              "max_side": "F",
+              "z_C": -1.5761,
+              "z_F": 3.0767
+            }
+          ]
+        },
+        "why": "the clean D tail overlaps the loop floor (171 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 5/8 docs"
+      },
+      "gate_census": {
+        "calibration_gated": 261,
+        "fired_gated": 21,
+        "held_out_gated": 251,
+        "k_gate": 4,
+        "law": "gated-off Side C docs censused NAMED-GATED, never silent (the stamped refinement sheet); the gate NEVER applies on the F-only code leg (Side C unarmed); a gated-off doc can still fire through Side F on C+F legs -- typed in fired_gated, never hidden",
+        "loop_live_gated": 3,
+        "side_c_armed": true
+      },
+      "held_out": {
+        "count_ceil": 17,
+        "escalation_fires": 6,
+        "fired_docs": [
+          {
+            "D": 3.1346872086672137,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 699,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2223730319230302,
+            "minS": 0.7133938074111938,
+            "n_prsig_steps": 10,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.2
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.2
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.2
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              }
+            },
+            "sec1_frac": 0.2,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.560390561677248,
+            "z_F": 3.1346872086672137
+          },
+          {
+            "D": 3.0896423179739614,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 747,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2177717420395404,
+            "minS": 0.7051107883453369,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5747341393172574,
+            "z_F": 3.0896423179739614
+          },
+          {
+            "D": 3.0767433615367947,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 391,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2173248751374988,
+            "minS": 0.702738881111145,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5761271552468088,
+            "z_F": 3.0767433615367947
+          },
+          {
+            "D": 3.060647056094848,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 529,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2227997974564682,
+            "minS": 0.6997790336608887,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.559060207642195,
+            "z_F": 3.060647056094848
+          },
+          {
+            "D": 3.0491354327619455,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 651,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2263651516339262,
+            "minS": 0.6976622343063354,
+            "n_prsig_steps": 14,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.07142857142857142
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.547945947129724,
+            "z_F": 3.0491354327619455
+          },
+          {
+            "D": 3.0341045861783438,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 593,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2248630195914287,
+            "minS": 0.6948983073234558,
+            "n_prsig_steps": 8,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.125
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.125
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.125
+              }
+            },
+            "sec1_frac": 0.125,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5526285357348064,
+            "z_F": 3.0341045861783438
+          },
+          {
+            "D": 2.9967914843953727,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 575,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.218196552836508,
+            "minS": 0.6880370378494263,
+            "n_prsig_steps": 13,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.15384615384615385
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.15384615384615385
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.15384615384615385
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.07692307692307693
+              }
+            },
+            "sec1_frac": 0.15384615384615385,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.5734098787722997,
+            "z_F": 2.9967914843953727
+          },
+          {
+            "D": 2.9918839556106636,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 389,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2212624400758496,
+            "minS": 0.6871346235275269,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5638526040153224,
+            "z_F": 2.9918839556106636
+          },
+          {
+            "D": 2.9723358487137395,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 671,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2185990042276273,
+            "minS": 0.6835400462150574,
+            "n_prsig_steps": 9,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              }
+            },
+            "sec1_frac": 0.1111111111111111,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.572155319089902,
+            "z_F": 2.9723358487137395
+          },
+          {
+            "D": 2.952951758300637,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 429,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.225687188994954,
+            "minS": 0.6799756288528442,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.550059356629094,
+            "z_F": 2.952951758300637
+          },
+          {
+            "D": 2.9434349125199866,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 731,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2337391848137713,
+            "minS": 0.6782256364822388,
+            "n_prsig_steps": 10,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              }
+            },
+            "sec1_frac": 0.1,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5249589108609083,
+            "z_F": 2.9434349125199866
+          },
+          {
+            "D": 2.9287201056038277,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 553,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2165577087406871,
+            "minS": 0.6755198240280151,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5785186391685146,
+            "z_F": 2.9287201056038277
+          },
+          {
+            "D": 2.919256743459206,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 749,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.213296221109033,
+            "minS": 0.6737796664237976,
+            "n_prsig_steps": 9,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              }
+            },
+            "sec1_frac": 0.1111111111111111,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5886856580373805,
+            "z_F": 2.919256743459206
+          },
+          {
+            "D": 2.913719080199103,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 549,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2125048920134822,
+            "minS": 0.6727613806724548,
+            "n_prsig_steps": 10,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              }
+            },
+            "sec1_frac": 0.1,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5911524642174386,
+            "z_F": 2.913719080199103
+          },
+          {
+            "D": 2.8790970156665048,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 457,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2212087885383414,
+            "minS": 0.6663949489593506,
+            "n_prsig_steps": 11,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.09090909090909091
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.09090909090909091
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.09090909090909091
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.09090909090909091
+              }
+            },
+            "sec1_frac": 0.09090909090909091,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5640198516813555,
+            "z_F": 2.8790970156665048
+          },
+          {
+            "D": 2.8778801819110362,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 741,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2164788354264395,
+            "minS": 0.6661711931228638,
+            "n_prsig_steps": 7,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.14285714285714285
+              }
+            },
+            "sec1_frac": 0.14285714285714285,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.578764510551384,
+            "z_F": 2.8778801819110362
+          },
+          {
+            "D": 2.8712806253683234,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 737,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2083320376441262,
+            "minS": 0.6649576425552368,
+            "n_prsig_steps": 9,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1111111111111111
+              }
+            },
+            "sec1_frac": 0.1111111111111111,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.604160482000034,
+            "z_F": 2.8712806253683234
+          },
+          {
+            "D": 2.842860393612333,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 489,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2236927094935213,
+            "minS": 0.6597316265106201,
+            "n_prsig_steps": 10,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              }
+            },
+            "sec1_frac": 0.1,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5562767374732918,
+            "z_F": 2.842860393612333
+          },
+          {
+            "D": 2.8291368167505757,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 495,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2306209715987702,
+            "minS": 0.6572080850601196,
+            "n_prsig_steps": 10,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.1
+              }
+            },
+            "sec1_frac": 0.1,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.534679301116684,
+            "z_F": 2.8291368167505757
+          },
+          {
+            "D": 2.8113005103498234,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 599,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2263415032066052,
+            "minS": 0.653928279876709,
+            "n_prsig_steps": 23,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.08695652173913043
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.08695652173913043
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.08695652173913043
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.043478260869565216
+              }
+            },
+            "sec1_frac": 0.08695652173913043,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.5480196662523904,
+            "z_F": 2.8113005103498234
+          },
+          {
+            "D": 2.8101815678554503,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 515,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2187099852926695,
+            "minS": 0.6537225246429443,
+            "n_prsig_steps": 15,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.06666666666666667
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.06666666666666667
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.06666666666666667
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.06666666666666667
+              }
+            },
+            "sec1_frac": 0.06666666666666667,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.5718093583781645,
+            "z_F": 2.8101815678554503
+          }
+        ],
+        "fires": 21,
+        "n": 324,
+        "rate": 0.06481481481481481,
+        "wilson_upper_95": 0.09111388638660636
+      },
+      "level_set_receipt": {
+        "alpha": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "ceiling": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "n_calib": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "note": "the level-set rule controls the calibration half's own combined count BY CONSTRUCTION; a violation is ties at t_leg, reported honestly, never adjudicated",
+        "ok": true
+      },
+      "loop_catches": {
+        "at_t_esc": 3,
+        "at_t_leg": 4,
+        "n_live": 8
+      },
+      "loop_floor_overlap_line": {
+        "easiest_loop_D": -0.3237965404175265,
+        "n_clean_at_or_above": 171,
+        "note": "the standing loop-floor overlap count (the item-232 decomposition): held-out clean docs at/above the easiest live loop's D -- phenomenon beta always visible, never silent, never adjudicated away",
+        "rate": 0.5277777777777778
+      },
+      "loop_population": {
+        "inert": [
+          "loop-seeded-affirm",
+          "loop-seeded-chant"
+        ],
+        "n_inert": 2,
+        "n_live": 8
+      },
+      "parity": {
+        "n_even_calibration": 334,
+        "n_odd_held_out": 324
+      },
+      "populations": {
+        "loops_live": [
+          {
+            "D": -0.3237965404175265,
+            "c_gate_on": false,
+            "doc_id": "loop-injection-code",
+            "half": "loop-fixture",
+            "maxPRsig": 2.862991571439617,
+            "minS": 0.07743518054485321,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 111,
+            "sec2_ceiling_pos_frac": 0.43529411764705883,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": 3.553901298879818,
+            "z_F": -0.3237965404175265
+          },
+          {
+            "D": 2.908300701654506,
+            "c_gate_on": true,
+            "doc_id": "loop-injection-prose",
+            "half": "loop-fixture",
+            "maxPRsig": 2.474444178199894,
+            "minS": 0.6717650294303894,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 15,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.05859375,
+            "sec2_ceiling_pos": 31,
+            "sec2_ceiling_pos_frac": 0.12156862745098039,
+            "side_c_gate": "PASS (N_band=15 >= K=4)",
+            "z_C": 2.342684478623661,
+            "z_F": 2.908300701654506
+          },
+          {
+            "D": 0.007570564681867119,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-code-line",
+            "half": "loop-fixture",
+            "maxPRsig": 2.4054512539163606,
+            "minS": 0.1383681744337082,
+            "n_prsig_steps": 37,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              }
+            },
+            "sec1_frac": 0.02702702702702703,
+            "sec2_ceiling_pos": 15,
+            "sec2_ceiling_pos_frac": 0.4166666666666667,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 2.1276131853276135,
+            "z_F": 0.007570564681867119
+          },
+          {
+            "D": 3.330910889819136,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-countdown",
+            "half": "loop-fixture",
+            "maxPRsig": 2.7635444307412196,
+            "minS": 0.7494761347770691,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 5,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.85": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.02734375
+              },
+              "0.90": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.01953125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01953125,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "PASS (N_band=5 >= K=4)",
+            "z_C": 3.2438952310589895,
+            "z_F": 3.330910889819136
+          },
+          {
+            "D": 3.1216414153384044,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-counter",
+            "half": "loop-fixture",
+            "maxPRsig": 2.5002675376743935,
+            "minS": 0.7109948992729187,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 16,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.95": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.0234375
+              }
+            },
+            "sec1_frac": 0.0625,
+            "sec2_ceiling_pos": 79,
+            "sec2_ceiling_pos_frac": 0.30980392156862746,
+            "side_c_gate": "PASS (N_band=16 >= K=4)",
+            "z_C": 2.4231835062718465,
+            "z_F": 3.1216414153384044
+          },
+          {
+            "D": 3.4538749553414654,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-cycle",
+            "half": "loop-fixture",
+            "maxPRsig": 2.394191647885152,
+            "minS": 0.7720872163772583,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 10,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.85": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.90": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.95": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.01953125
+              }
+            },
+            "sec1_frac": 0.0390625,
+            "sec2_ceiling_pos": 127,
+            "sec2_ceiling_pos_frac": 0.4980392156862745,
+            "side_c_gate": "PASS (N_band=10 >= K=4)",
+            "z_C": 2.092513672496643,
+            "z_F": 3.4538749553414654
+          },
+          {
+            "D": 1.1137250406450532,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-json",
+            "half": "loop-fixture",
+            "maxPRsig": 3.0812602924758536,
+            "minS": 0.3417719006538391,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 63,
+            "sec2_ceiling_pos_frac": 0.24705882352941178,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": 4.234309277043191,
+            "z_F": 1.1137250406450532
+          },
+          {
+            "D": 2.2074948944708837,
+            "c_gate_on": true,
+            "doc_id": "mask-reserved-stubborn",
+            "half": "loop-fixture",
+            "maxPRsig": 1.821977854969527,
+            "minS": 0.5428982973098755,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 14,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.85": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.90": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.0546875
+              },
+              "0.95": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.04296875
+              }
+            },
+            "sec1_frac": 0.0546875,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "PASS (N_band=14 >= K=4)",
+            "z_C": 0.3087545151308122,
+            "z_F": 2.2074948944708837
+          }
+        ],
+        "summaries_at_0.90": {
+          "calibration_half_clean": {
+            "max_D": 5.048994884038604,
+            "mean_D": 0.07995883309800397,
+            "mean_N_band": 2.6467065868263475,
+            "mean_R_band": 1.0688622754491017,
+            "mean_ceiling_pos_frac": 0.41725060211505016,
+            "n": 334
+          },
+          "held_out_clean_fired": {
+            "max_D": 3.1346872086672137,
+            "mean_D": 2.951704331596652,
+            "mean_N_band": 1.1904761904761905,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.0,
+            "n": 21
+          },
+          "held_out_clean_nonfired": {
+            "max_D": 2.7104929543877723,
+            "mean_D": -0.025700304863707335,
+            "mean_N_band": 2.6468646864686467,
+            "mean_R_band": 1.118811881188119,
+            "mean_ceiling_pos_frac": 0.44361120754161476,
+            "n": 303
+          },
+          "loops_live": {
+            "max_D": 3.4538749553414654,
+            "mean_D": 1.9774652401917236,
+            "mean_N_band": 8.375,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.42512254901960783,
+            "n": 8
+          }
+        }
+      },
+      "separation_context": {
+        "auc_on_D": 0.8483796296296297,
+        "note": "the BAR's statistic under the ARMED construction (the live fixtures vs the held-out clean docs)",
+        "sigma_gap_on_D": 1.3630589888867675
+      },
+      "thresholds": {
+        "t_esc": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "th_C_coelev": 2.4995386210859043,
+        "th_F_coelev": 2.9174658114924545
+      },
+      "verdict": {
+        "auc": 0.8484,
+        "basis": "the coarse-guard falsifier fired: the held-out half's clean fire count 21/324 > ceil(0.05 * 324) = 17 (rate 6.4815%) -- the candidate dies EVEN IF the sigma-gap passes (the pinned sheet SS1.5, the R16-D2 falsifier)",
+        "over_budget": true,
+        "sigma_gap": 1.363,
+        "typing_presented": "CANDIDATE-KILLED-FALSE-ALARM-BUDGET"
+      },
+      "z_baselines": {
+        "mu_C": 1.722932201046309,
+        "mu_F": 0.13697607134201167,
+        "sd_C": 0.32079094902063043,
+        "sd_F": 0.18388365335955156
+      }
+    },
+    "prose17p-rw17": {
+      "armed_sides": [
+        "C",
+        "F"
+      ],
+      "calibration_escalation_fires": 4,
+      "census": {
+        "corpus_docs": 620,
+        "expected_of_record": 5,
+        "measured_eos_step0": 5,
+        "receipts": [
+          {
+            "doc_id": 313,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 347,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 362,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 374,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          },
+          {
+            "doc_id": 387,
+            "n_commits": 0,
+            "n_content_steps": 0,
+            "n_gen_steps": 0,
+            "premise": "verified: empty generation (EOS@step0)",
+            "present": true,
+            "stop_reason": "eos"
+          }
+        ]
+      },
+      "forensics": {
+        "how": {
+          "clean_D_max": 3.5559,
+          "loop_D_range": [
+            -0.1186,
+            4.3816
+          ],
+          "loop_carried_via_zC": 3,
+          "loop_carried_via_zF": 5,
+          "loop_docs": 8
+        },
+        "what_next": [
+          "this block is the item-220 failure-forensics directive: presented, never adjudicated; no re-scoring follows from it",
+          "any threshold re-calibration is the theta-wiring pre-registration's own step (R16-D2's binding operating alpha decides there; the sheet SS3.6); nothing wires here",
+          "a per-leg scoping claim (if any) is the owner's to stamp under the D-FW3 environment-scoped adoption clause",
+          "the jitter clause reads only below-bar near-misses INCONCLUSIVE-FROM-JITTER; above-bar margins inside the band's width are flagged, not re-typed"
+        ],
+        "where": {
+          "clean_overlap_at_loop_floor": 112,
+          "leg": "prose17p-rw17",
+          "threshold_t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+          "top_fired_clean_docs": [
+            {
+              "D": 3.5559,
+              "doc_id": 109,
+              "max_side": "C",
+              "z_C": 3.5559,
+              "z_F": -0.884
+            },
+            {
+              "D": 3.3027,
+              "doc_id": 337,
+              "max_side": "F",
+              "z_C": -1.6267,
+              "z_F": 3.3027
+            },
+            {
+              "D": 3.1836,
+              "doc_id": 391,
+              "max_side": "F",
+              "z_C": -1.6354,
+              "z_F": 3.1836
+            }
+          ]
+        },
+        "why": "the clean D tail overlaps the loop floor (112 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 5/8 docs"
+      },
+      "gate_census": {
+        "calibration_gated": 217,
+        "fired_gated": 13,
+        "held_out_gated": 206,
+        "k_gate": 4,
+        "law": "gated-off Side C docs censused NAMED-GATED, never silent (the stamped refinement sheet); the gate NEVER applies on the F-only code leg (Side C unarmed); a gated-off doc can still fire through Side F on C+F legs -- typed in fired_gated, never hidden",
+        "loop_live_gated": 3,
+        "side_c_armed": true
+      },
+      "held_out": {
+        "count_ceil": 16,
+        "escalation_fires": 7,
+        "fired_docs": [
+          {
+            "D": 3.555922122357279,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 109,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 3.170955411933735,
+            "minS": -0.040704838931560516,
+            "n_prsig_steps": 342,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.023391812865497075
+              },
+              "0.85": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.014619883040935672
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.011695906432748537
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.0029239766081871343
+              }
+            },
+            "sec1_frac": 0.011695906432748537,
+            "sec2_ceiling_pos": 63,
+            "sec2_ceiling_pos_frac": 0.18475073313782991,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": 3.555922122357279,
+            "z_F": -0.8840011051208974
+          },
+          {
+            "D": 3.3027417790672864,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 337,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2061325158737084,
+            "minS": 0.605561375617981,
+            "n_prsig_steps": 30,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 4,
+                "R_band": 2,
+                "frac": 0.13333333333333333
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.1
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.06666666666666667
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.06666666666666667
+              }
+            },
+            "sec1_frac": 0.06666666666666667,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.62670957178096,
+            "z_F": 3.3027417790672864
+          },
+          {
+            "D": 3.1836395578628762,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 391,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.2028400700569666,
+            "minS": 0.5871767401695251,
+            "n_prsig_steps": 6,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              }
+            },
+            "sec1_frac": 0.16666666666666666,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.6353940868460561,
+            "z_F": 3.1836395578628762
+          },
+          {
+            "D": 3.1295231765699487,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 403,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.452920160607066,
+            "minS": 0.5788233280181885,
+            "n_prsig_steps": 26,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.07692307692307693
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.038461538461538464
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.038461538461538464
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.038461538461538464
+              }
+            },
+            "sec1_frac": 0.038461538461538464,
+            "sec2_ceiling_pos": 10,
+            "sec2_ceiling_pos_frac": 0.4,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.9757554975580014,
+            "z_F": 3.1295231765699487
+          },
+          {
+            "D": 3.127908338531553,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 393,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 2.0687268534774264,
+            "minS": 0.5785740613937378,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.001953125,
+            "sec2_ceiling_pos": 447,
+            "sec2_ceiling_pos_frac": 0.8747553816046967,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 0.6485635646496691,
+            "z_F": 3.127908338531553
+          },
+          {
+            "D": 3.1092492749994274,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 419,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.780757873327269,
+            "minS": 0.5756938457489014,
+            "n_prsig_steps": 30,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03333333333333333
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03333333333333333
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03333333333333333
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03333333333333333
+              }
+            },
+            "sec1_frac": 0.03333333333333333,
+            "sec2_ceiling_pos": 23,
+            "sec2_ceiling_pos_frac": 0.7931034482758621,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.1110149024211236,
+            "z_F": 3.1092492749994274
+          },
+          {
+            "D": 3.0814525913476,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 385,
+            "escalation": true,
+            "half": "held-out",
+            "maxPRsig": 1.3518065612788424,
+            "minS": 0.5714031457901001,
+            "n_prsig_steps": 34,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.08823529411764706
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.08823529411764706
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.029411764705882353
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.029411764705882353
+              }
+            },
+            "sec1_frac": 0.029411764705882353,
+            "sec2_ceiling_pos": 21,
+            "sec2_ceiling_pos_frac": 0.6363636363636364,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.24246378237984,
+            "z_F": 3.0814525913476
+          },
+          {
+            "D": 3.077021247175283,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 389,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.428914479992982,
+            "minS": 0.5707191228866577,
+            "n_prsig_steps": 31,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.06451612903225806
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.03225806451612903
+              }
+            },
+            "sec1_frac": 0.03225806451612903,
+            "sec2_ceiling_pos": 22,
+            "sec2_ceiling_pos_frac": 0.7333333333333333,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.0390755054016554,
+            "z_F": 3.077021247175283
+          },
+          {
+            "D": 3.0450828244512818,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 373,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.4637051971206398,
+            "minS": 0.5657891035079956,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 2,
+                "frac": 0.005859375
+              },
+              "0.85": {
+                "N_band": 2,
+                "R_band": 2,
+                "frac": 0.00390625
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.001953125,
+            "sec2_ceiling_pos": 6,
+            "sec2_ceiling_pos_frac": 0.011741682974559686,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -0.947307706070143,
+            "z_F": 3.0450828244512818
+          },
+          {
+            "D": 3.025350677488094,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 361,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2021929284731792,
+            "minS": 0.5627432465553284,
+            "n_prsig_steps": 6,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.3333333333333333
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.16666666666666666
+              }
+            },
+            "sec1_frac": 0.16666666666666666,
+            "sec2_ceiling_pos": 0,
+            "sec2_ceiling_pos_frac": 0.0,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.6371010582425403,
+            "z_F": 3.025350677488094
+          },
+          {
+            "D": 2.812505216068167,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 417,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.992315016874446,
+            "minS": 0.529888391494751,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              }
+            },
+            "sec1_frac": 0.00390625,
+            "sec2_ceiling_pos": 351,
+            "sec2_ceiling_pos_frac": 0.6868884540117417,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": 0.4470113499538666,
+            "z_F": 2.812505216068167
+          },
+          {
+            "D": 2.767775515281064,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 377,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.4391158209704578,
+            "minS": 0.5229839086532593,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.01953125
+              },
+              "0.85": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.001953125,
+            "sec2_ceiling_pos": 21,
+            "sec2_ceiling_pos_frac": 0.0410958904109589,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": -1.0121673330780356,
+            "z_F": 2.767775515281064
+          },
+          {
+            "D": 2.7477564661986684,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 223,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.024633878171879,
+            "minS": 0.5198937654495239,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.85": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.001953125,
+            "sec2_ceiling_pos": 47,
+            "sec2_ceiling_pos_frac": 0.09197651663405088,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 0.5322591120877505,
+            "z_F": 2.7477564661986684
+          },
+          {
+            "D": 2.7275395064589003,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 309,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.856901621027439,
+            "minS": -0.11114230751991272,
+            "n_prsig_steps": 313,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.01597444089456869
+              },
+              "0.85": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.01597444089456869
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.012779552715654952
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.009584664536741214
+              }
+            },
+            "sec1_frac": 0.012779552715654952,
+            "sec2_ceiling_pos": 287,
+            "sec2_ceiling_pos_frac": 0.9198717948717948,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": 2.7275395064589003,
+            "z_F": -1.3403201324091567
+          },
+          {
+            "D": 2.664700812598817,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 405,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.3036985036417832,
+            "minS": 0.5070732831954956,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.85": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.013671875
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 37,
+            "sec2_ceiling_pos_frac": 0.07240704500978473,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": -1.3693588550875202,
+            "z_F": 2.664700812598817
+          },
+          {
+            "D": 2.6208700460425565,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 235,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.0927513319014572,
+            "minS": 0.500307559967041,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.85": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 447,
+            "sec2_ceiling_pos_frac": 0.8747553816046967,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": 0.7119331556520935,
+            "z_F": 2.6208700460425565
+          },
+          {
+            "D": 2.5619923638332165,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 399,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.4135599763131452,
+            "minS": 0.4912191927433014,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.02734375
+              },
+              "0.85": {
+                "N_band": 8,
+                "R_band": 1,
+                "frac": 0.015625
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 319,
+            "sec2_ceiling_pos_frac": 0.62426614481409,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": 1.5581331116967547,
+            "z_F": 2.5619923638332165
+          },
+          {
+            "D": 2.556054687000025,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 301,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 2.0826004492324452,
+            "minS": 0.4903026521205902,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 4,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.85": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.90": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.005859375
+              }
+            },
+            "sec1_frac": 0.0078125,
+            "sec2_ceiling_pos": 447,
+            "sec2_ceiling_pos_frac": 0.8747553816046967,
+            "side_c_gate": "PASS (N_band=4 >= K=4)",
+            "z_C": 0.6851580776797259,
+            "z_F": 2.556054687000025
+          },
+          {
+            "D": 2.54789149150727,
+            "c_gate_on": true,
+            "co_elevated": false,
+            "doc_id": 335,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.2998516329482621,
+            "minS": 0.48904258012771606,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 11,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.03125
+              },
+              "0.85": {
+                "N_band": 13,
+                "R_band": 1,
+                "frac": 0.025390625
+              },
+              "0.90": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.021484375
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.021484375,
+            "sec2_ceiling_pos": 495,
+            "sec2_ceiling_pos_frac": 0.9686888454011742,
+            "side_c_gate": "PASS (N_band=11 >= K=4)",
+            "z_C": -1.3795057818255343,
+            "z_F": 2.54789149150727
+          },
+          {
+            "D": 2.5404082887896497,
+            "c_gate_on": false,
+            "co_elevated": false,
+            "doc_id": 351,
+            "escalation": false,
+            "half": "held-out",
+            "maxPRsig": 1.3603756488084038,
+            "minS": 0.4878874719142914,
+            "n_prsig_steps": 512,
+            "sec1_N_band": 2,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.009765625
+              },
+              "0.85": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.0078125
+              },
+              "0.90": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.00390625
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.001953125
+              }
+            },
+            "sec1_frac": 0.00390625,
+            "sec2_ceiling_pos": 21,
+            "sec2_ceiling_pos_frac": 0.0410958904109589,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=2 < K=4)",
+            "z_C": -1.21986102021252,
+            "z_F": 2.5404082887896497
+          }
+        ],
+        "fires": 20,
+        "n": 307,
+        "rate": 0.06514657980456026,
+        "wilson_upper_95": 0.09232480895417305
+      },
+      "level_set_receipt": {
+        "alpha": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "calib_fires": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "ceiling": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "n_calib": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "note": "the level-set rule controls the calibration half's own combined count BY CONSTRUCTION; a violation is ties at t_leg, reported honestly, never adjudicated",
+        "ok": true
+      },
+      "loop_catches": {
+        "at_t_esc": 4,
+        "at_t_leg": 5,
+        "n_live": 8
+      },
+      "loop_floor_overlap_line": {
+        "easiest_loop_D": -0.11864795073158974,
+        "n_clean_at_or_above": 112,
+        "note": "the standing loop-floor overlap count (the item-232 decomposition): held-out clean docs at/above the easiest live loop's D -- phenomenon beta always visible, never silent, never adjudicated away",
+        "rate": 0.36482084690553745
+      },
+      "loop_population": {
+        "inert": [
+          "loop-seeded-affirm",
+          "loop-seeded-chant"
+        ],
+        "n_inert": 2,
+        "n_live": 8
+      },
+      "parity": {
+        "n_even_calibration": 308,
+        "n_odd_held_out": 307
+      },
+      "populations": {
+        "loops_live": [
+          {
+            "D": -0.11864795073158974,
+            "c_gate_on": false,
+            "doc_id": "loop-injection-code",
+            "half": "loop-fixture",
+            "maxPRsig": 3.1327502320920213,
+            "minS": 0.07743518054485321,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 2,
+                "R_band": 1,
+                "frac": 0.0078125
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 111,
+            "sec2_ceiling_pos_frac": 0.43529411764705883,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": 3.4551479628516235,
+            "z_F": -0.11864795073158974
+          },
+          {
+            "D": 3.73163264519365,
+            "c_gate_on": true,
+            "doc_id": "loop-injection-prose",
+            "half": "loop-fixture",
+            "maxPRsig": 2.7007330176094726,
+            "minS": 0.6717650294303894,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 14,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.0546875
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.0546875,
+            "sec2_ceiling_pos": 31,
+            "sec2_ceiling_pos_frac": 0.12156862745098039,
+            "side_c_gate": "PASS (N_band=14 >= K=4)",
+            "z_C": 2.3156121234228815,
+            "z_F": 3.73163264519365
+          },
+          {
+            "D": 0.276097701807685,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-code-line",
+            "half": "loop-fixture",
+            "maxPRsig": 2.62402131786172,
+            "minS": 0.1383681744337082,
+            "n_prsig_steps": 37,
+            "sec1_N_band": 1,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.85": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.90": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              },
+              "0.95": {
+                "N_band": 1,
+                "R_band": 1,
+                "frac": 0.02702702702702703
+              }
+            },
+            "sec1_frac": 0.02702702702702703,
+            "sec2_ceiling_pos": 15,
+            "sec2_ceiling_pos_frac": 0.4166666666666667,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=1 < K=4)",
+            "z_C": 2.1132689569109555,
+            "z_F": 0.276097701807685
+          },
+          {
+            "D": 4.235072883918474,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-countdown",
+            "half": "loop-fixture",
+            "maxPRsig": 3.0221771656906498,
+            "minS": 0.7494761347770691,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 5,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.0546875
+              },
+              "0.85": {
+                "N_band": 7,
+                "R_band": 1,
+                "frac": 0.02734375
+              },
+              "0.90": {
+                "N_band": 5,
+                "R_band": 1,
+                "frac": 0.01953125
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01953125,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "PASS (N_band=5 >= K=4)",
+            "z_C": 3.163488353428845,
+            "z_F": 4.235072883918474
+          },
+          {
+            "D": 3.98577772459459,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-counter",
+            "half": "loop-fixture",
+            "maxPRsig": 2.7294454373113126,
+            "minS": 0.7109948992729187,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 16,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.85": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.90": {
+                "N_band": 16,
+                "R_band": 1,
+                "frac": 0.0625
+              },
+              "0.95": {
+                "N_band": 6,
+                "R_band": 1,
+                "frac": 0.0234375
+              }
+            },
+            "sec1_frac": 0.0625,
+            "sec2_ceiling_pos": 79,
+            "sec2_ceiling_pos_frac": 0.30980392156862746,
+            "side_c_gate": "PASS (N_band=16 >= K=4)",
+            "z_C": 2.3913471408947102,
+            "z_F": 3.98577772459459
+          },
+          {
+            "D": 4.381555529710773,
+            "c_gate_on": true,
+            "doc_id": "loop-seeded-cycle",
+            "half": "loop-fixture",
+            "maxPRsig": 2.6115020120616874,
+            "minS": 0.7720872163772583,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 10,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.85": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.90": {
+                "N_band": 10,
+                "R_band": 1,
+                "frac": 0.0390625
+              },
+              "0.95": {
+                "N_band": 4,
+                "R_band": 1,
+                "frac": 0.015625
+              }
+            },
+            "sec1_frac": 0.0390625,
+            "sec2_ceiling_pos": 127,
+            "sec2_ceiling_pos_frac": 0.4980392156862745,
+            "side_c_gate": "PASS (N_band=10 >= K=4)",
+            "z_C": 2.0802466671371724,
+            "z_F": 4.381555529710773
+          },
+          {
+            "D": 1.593819538718305,
+            "c_gate_on": false,
+            "doc_id": "loop-seeded-json",
+            "half": "loop-fixture",
+            "maxPRsig": 3.3754383739027305,
+            "minS": 0.3417719006538391,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 3,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.85": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.90": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              },
+              "0.95": {
+                "N_band": 3,
+                "R_band": 1,
+                "frac": 0.01171875
+              }
+            },
+            "sec1_frac": 0.01171875,
+            "sec2_ceiling_pos": 63,
+            "sec2_ceiling_pos_frac": 0.24705882352941178,
+            "side_c_gate": "NAMED-GATED-OFF (N_band=3 < K=4)",
+            "z_C": 4.095288739947531,
+            "z_F": 1.593819538718305
+          },
+          {
+            "D": 2.8967880230123564,
+            "c_gate_on": true,
+            "doc_id": "mask-reserved-stubborn",
+            "half": "loop-fixture",
+            "maxPRsig": 1.975270208155638,
+            "minS": 0.5428982973098755,
+            "n_prsig_steps": 256,
+            "sec1_N_band": 14,
+            "sec1_R_band": 1,
+            "sec1_band_sweep": {
+              "0.80": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.85": {
+                "N_band": 15,
+                "R_band": 1,
+                "frac": 0.05859375
+              },
+              "0.90": {
+                "N_band": 14,
+                "R_band": 1,
+                "frac": 0.0546875
+              },
+              "0.95": {
+                "N_band": 11,
+                "R_band": 1,
+                "frac": 0.04296875
+              }
+            },
+            "sec1_frac": 0.0546875,
+            "sec2_ceiling_pos": 175,
+            "sec2_ceiling_pos_frac": 0.6862745098039216,
+            "side_c_gate": "PASS (N_band=14 >= K=4)",
+            "z_C": 0.40205209888662985,
+            "z_F": 2.8967880230123564
+          }
+        ],
+        "summaries_at_0.90": {
+          "calibration_half_clean": {
+            "max_D": 3.3555611156517084,
+            "mean_D": 0.044304743655320965,
+            "mean_N_band": 2.957792207792208,
+            "mean_R_band": 1.146103896103896,
+            "mean_ceiling_pos_frac": 0.4883903121500323,
+            "n": 308
+          },
+          "held_out_clean_fired": {
+            "max_D": 3.555922122357279,
+            "mean_D": 2.909269299181448,
+            "mean_N_band": 2.55,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.44149247802319325,
+            "n": 20
+          },
+          "held_out_clean_nonfired": {
+            "max_D": 2.347643851943549,
+            "mean_D": -0.1804168469639972,
+            "mean_N_band": 2.902439024390244,
+            "mean_R_band": 1.146341463414634,
+            "mean_ceiling_pos_frac": 0.4677267398661667,
+            "n": 287
+          },
+          "loops_live": {
+            "max_D": 4.381555529710773,
+            "mean_D": 2.6227620120280304,
+            "mean_N_band": 8.25,
+            "mean_R_band": 1.0,
+            "mean_ceiling_pos_frac": 0.42512254901960783,
+            "n": 8
+          }
+        }
+      },
+      "separation_context": {
+        "auc_on_D": 0.9108306188925082,
+        "note": "the BAR's statistic under the ARMED construction (the live fixtures vs the held-out clean docs)",
+        "sigma_gap_on_D": 1.7841793585534118
+      },
+      "thresholds": {
+        "t_esc": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "t_leg": "[REDACTED_PER_PUBLICATION_POLICY]",
+        "th_C_coelev": 2.7945934125159813,
+        "th_F_coelev": 3.0109046151897836
+      },
+      "verdict": {
+        "auc": 0.9108,
+        "basis": "the coarse-guard falsifier fired: the held-out half's clean fire count 20/307 > ceil(0.05 * 307) = 16 (rate 6.5147%) -- the candidate dies EVEN IF the sigma-gap passes (the pinned sheet SS1.5, the R16-D2 falsifier)",
+        "over_budget": true,
+        "sigma_gap": 1.784,
+        "typing_presented": "CANDIDATE-KILLED-FALSE-ALARM-BUDGET"
+      },
+      "z_baselines": {
+        "mu_C": 1.8228454911542509,
+        "mu_F": 0.09574969473987358,
+        "sd_C": 0.37911682944445363,
+        "sd_F": 0.15436013923622002
+      }
+    }
+  },
+  "mode": "ADJUDICATION READOUT AMENDMENT V2 OF RECORD (THE SPECIFICITY REFINEMENT, OWNER-STAMPED OPTION A: THE PERSISTENCE-GATED SIDE C, K=4) -- PRESENTED, NEVER ADJUDICATED; THE OWNER'S STAMPS DECIDE",
+  "old_corpus_anchor_reference": "the fresh SEC readings get read against the banked old-corpus baseline table of record (ledger item 243, triadic_rw17_sec_baseline_rw17-sec-baseline.json) -- the delta reading + the beta-recurrence attribution (recurred / deepened / vanished) happen at the reading, never inside this tool",
+  "prereg": "rw17-fresh-corpus-preregistration.md (owner-pinned, ledger item 241; sheet SHA-256 64f87bc01906ee6f5a50d38c2b09c09aa9f089f14803cfae9e8a07dd0af74075; the five element stamps ledger item 237) + THE REFINEMENT SHEET rw17-specificity-refinement-preregistration.md (owner-stamped OPTION A at ledger item 260; sheet SHA-256 c03dffed4ca13210ee5df7c7c27f9b065abfd128be7311b4fb6948e413d36c29)",
+  "presented_candidate_verdict": {
+    "basis": "at least one leg's held-out-half clean fire count exceeded the coarse-guard budget ceiling (the pinned sheet SS1.5 falsifier) -- the candidate dies even if gaps passed; KILLED dominates a guard typing (SS1.8)",
+    "caveats": {
+      "development_data_disclosure": "the candidate pair (item-215) and the SEC features (items 231-232 forensics) were developed against the BANKED walks; the fresh corpora are the DISJOINT adjudication (the design intent of S-A); the disclosure rides every verdict -- the record never claims amnesia",
+      "fixed_fixtures_line": "the same 10 loop fixtures ride every leg (instrument built-ins): the fresh test is of the negative population + the operating point; the positives are FIXED -- loop-catch coverage is measured, never guaranteed (the sheet SS3.4)",
+      "fresh_census_line": "the fresh corpora carry their OWN censuses (the sheet SS1.8): EOS@step0 docs censused AT READOUT, measured never named, every receipt carried; the 35-doc named class is banked history",
+      "refinement_disclosure": "the refinement (the owner-stamped Option A: the persistence-gated Side C, K=4) pins from PRIOR data only (the item-243/257 anchors); the fresh corpora thereby become DEVELOPMENT DATA for the refinement; its own adjudication is the fresh3 generation (new prompts, never re-walks -- the refinement sheet SS6, the item-228 determinism law); this v2 amendment NEVER re-scores the standing item-256 verdict"
+    },
+    "failed_legs": [
+      "gsmrw17"
+    ],
+    "jitter_legs": [],
+    "near_bar_legs": [],
+    "note": "presented, never adjudicated; the owner's stamps decide; theta wiring is its own pre-registration (theta [REDACTED_PER_PUBLICATION_POLICY] unmoved, D-theta); the D-FW6 second stage follows per its own sequencing",
+    "over_budget_legs": [
+      "mbpprw17",
+      "prose17p-rw17",
+      "p2corpus-rw17"
+    ],
+    "population_guard_legs": [],
+    "verdict_presented": "CANDIDATE-KILLED-FALSE-ALARM-BUDGET"
+  },
+  "rw14_rider": "ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.",
+  "sec_definition": {
+    "PR_sig": "the step-level PR signature, z-scored against the calibration half's per-layer PR baselines ((bP_mean - PR)/bP_sd) -- the same series maxPRsig is the max of",
+    "SEC-1": "[REDACTED_PER_PUBLICATION_POLICY]",
+    "SEC-2": "ceiling_pos = the step index of the first PR_sig maximum, as a fraction of (n_gen_steps - 1)",
+    "SEC-3": "[REDACTED_PER_PUBLICATION_POLICY]; the escalation counts at both tiers reported per leg",
+    "SEC-4": "per fired doc: whether EVERY ARMED side's z exceeds its own calibration-half [REDACTED_PER_PUBLICATION_POLICY] z-quantile (conjunction as severity annotation, NEVER the firing rule)",
+    "none_handling": "steps with PR = None are skipped in the band/argmax computations; n_prsig_steps = the count of non-None PR_sig steps"
+  },
+  "tag": "rw17-fresh3-adjudication",
+  "theta_note": "theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no threshold set, moved, or adjudicated; t_leg/t_esc are calibration artifacts measured per run, never a theta move; the binding operating alpha stays deferred to the theta-wiring pre-registration (R16-D2)",
+  "tool": "triadic_rw17_readout_v2.py",
+  "tool_sha256": "b6238a828daafd285df4537c5100ae1f61d3ef5fe3a53692b511c18624da9af0"
+}
