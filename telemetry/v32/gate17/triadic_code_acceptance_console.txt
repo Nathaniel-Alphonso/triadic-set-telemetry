@@ -1,0 +1,163 @@
+TRIADIC CODE-* FIXTURE-SUITE ACCEPTANCE RUN (v1)
+built under stamp: ledger item 166 -- sizing code-M; meter budget
+  p99x1.5 = 3,910,116; RW-5 OFF; P6 branch (a) as-is census
+
+pins OK: suite 779e92b11cef3745...
+        instrument 439c892a5b1a27a7...
+        (the banked 17-C offline pass, imported verbatim)
+
+[ 1/96] code-N1-001   N1 m1=RUNNABLE             verdict=PASS
+[ 2/96] code-N1-002   N1 m1=RUNNABLE             verdict=PASS
+[ 3/96] code-N1-003   N1 m1=RUNNABLE             verdict=PASS
+[ 4/96] code-N1-004   N1 m1=RUNNABLE             verdict=PASS
+[ 5/96] code-N1-005   N1 m1=RUNNABLE             verdict=PASS
+[ 6/96] code-N1-006   N1 m1=RUNNABLE             verdict=PASS
+[ 7/96] code-N2-001   N2 m1=RUNNABLE             verdict=PASS
+[ 8/96] code-N2-002   N2 m1=RUNNABLE             verdict=PASS
+[ 9/96] code-N2-003   N2 m1=RUNNABLE             verdict=PASS
+[10/96] code-N2-004   N2 m1=RUNNABLE             verdict=PASS
+[11/96] code-N2-005   N2 m1=RUNNABLE             verdict=PASS
+[12/96] code-N2-006   N2 m1=RUNNABLE             verdict=PASS
+[13/96] code-N3-001   N3 m1=RUNNABLE             verdict=PASS
+[14/96] code-N3-002   N3 m1=RUNNABLE             verdict=PASS
+[15/96] code-N3-003   N3 m1=RUNNABLE             verdict=PASS
+[16/96] code-N3-004   N3 m1=RUNNABLE             verdict=PASS
+[17/96] code-N3-005   N3 m1=RUNNABLE             verdict=PASS
+[18/96] code-N3-006   N3 m1=RUNNABLE             verdict=PASS
+[19/96] code-N4-001   N4 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[20/96] code-N4-002   N4 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[21/96] code-N4-003   N4 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[22/96] code-N4-004   N4 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[23/96] code-N4-005   N4 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[24/96] code-N4-006   N4 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[25/96] code-N5-001   N5 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[26/96] code-N5-002   N5 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[27/96] code-N5-003   N5 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[28/96] code-N5-004   N5 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[29/96] code-N5-005   N5 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[30/96] code-N5-006   N5 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[31/96] code-N6-001   N6 m1=NO-EXTRACTABLE-BLOCK verdict=UNVERIFIED-NO-EXTRACTABLE-BLOCK
+[32/96] code-N6-002   N6 m1=NO-EXTRACTABLE-BLOCK verdict=UNVERIFIED-NO-EXTRACTABLE-BLOCK
+[33/96] code-N6-003   N6 m1=NO-EXTRACTABLE-BLOCK verdict=UNVERIFIED-NO-EXTRACTABLE-BLOCK
+[34/96] code-N6-004   N6 m1=NO-EXTRACTABLE-BLOCK verdict=UNVERIFIED-NO-EXTRACTABLE-BLOCK
+[35/96] code-N6-005   N6 m1=NO-EXTRACTABLE-BLOCK verdict=UNVERIFIED-NO-EXTRACTABLE-BLOCK
+[36/96] code-N6-006   N6 m1=NO-EXTRACTABLE-BLOCK verdict=UNVERIFIED-NO-EXTRACTABLE-BLOCK
+[37/96] code-N7-001   N7 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[38/96] code-N7-002   N7 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[39/96] code-N7-003   N7 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[40/96] code-N7-004   N7 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[41/96] code-N7-005   N7 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[42/96] code-N7-006   N7 m1=UNCOMPILABLE         verdict=UNVERIFIED-UNCOMPILABLE
+[43/96] code-N8-001   N8 m1=MULTI-BLOCK          verdict=UNVERIFIED-MULTI-BLOCK
+[44/96] code-N8-002   N8 m1=MULTI-BLOCK          verdict=UNVERIFIED-MULTI-BLOCK
+[45/96] code-N8-003   N8 m1=MULTI-BLOCK          verdict=UNVERIFIED-MULTI-BLOCK
+[46/96] code-N8-004   N8 m1=MULTI-BLOCK          verdict=UNVERIFIED-MULTI-BLOCK
+[47/96] code-N8-005   N8 m1=MULTI-BLOCK          verdict=UNVERIFIED-MULTI-BLOCK
+[48/96] code-N8-006   N8 m1=MULTI-BLOCK          verdict=UNVERIFIED-MULTI-BLOCK
+[49/96] code-P1-001   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[50/96] code-P1-002   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[51/96] code-P1-003   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[52/96] code-P1-004   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[53/96] code-P1-005   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[54/96] code-P1-006   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[55/96] code-P1-007   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[56/96] code-P1-008   P1 m1=RUNNABLE             verdict=FAIL-TESTS
+[57/96] code-P2-001   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[58/96] code-P2-002   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[59/96] code-P2-003   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[60/96] code-P2-004   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[61/96] code-P2-005   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[62/96] code-P2-006   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[63/96] code-P2-007   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[64/96] code-P2-008   P2 m1=RUNNABLE             verdict=FAIL-TESTS
+[65/96] code-P3-001   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[66/96] code-P3-002   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[67/96] code-P3-003   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[68/96] code-P3-004   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[69/96] code-P3-005   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[70/96] code-P3-006   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[71/96] code-P3-007   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[72/96] code-P3-008   P3 m1=RUNNABLE             verdict=FAIL-TESTS
+[73/96] code-P4-001   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[74/96] code-P4-002   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[75/96] code-P4-003   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[76/96] code-P4-004   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[77/96] code-P4-005   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[78/96] code-P4-006   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[79/96] code-P4-007   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[80/96] code-P4-008   P4 m1=RUNNABLE             verdict=FAIL-TESTS
+[81/96] code-P5-001   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[82/96] code-P5-002   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[83/96] code-P5-003   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[84/96] code-P5-004   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[85/96] code-P5-005   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[86/96] code-P5-006   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[87/96] code-P5-007   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[88/96] code-P5-008   P5 m1=RUNNABLE             verdict=FAIL-TESTS
+[89/96] code-P6-001   P6 m1=RUNNABLE             verdict=PASS
+[90/96] code-P6-002   P6 m1=RUNNABLE             verdict=PASS
+[91/96] code-P6-003   P6 m1=RUNNABLE             verdict=PASS
+[92/96] code-P6-004   P6 m1=RUNNABLE             verdict=PASS
+[93/96] code-P6-005   P6 m1=RUNNABLE             verdict=PASS
+[94/96] code-P6-006   P6 m1=RUNNABLE             verdict=PASS
+[95/96] code-P6-007   P6 m1=RUNNABLE             verdict=PASS
+[96/96] code-P6-008   P6 m1=RUNNABLE             verdict=PASS
+
+M-K1 verdict census / R-K1 runs-clean
+  N1  n=6  verdicts={'PASS': 6}
+  N2  n=6  verdicts={'PASS': 6}
+  N3  n=6  verdicts={'PASS': 6}
+  N4  n=6  verdicts={'UNVERIFIED-UNCOMPILABLE': 6}
+  N5  n=6  verdicts={'UNVERIFIED-UNCOMPILABLE': 6}
+  N6  n=6  verdicts={'UNVERIFIED-NO-EXTRACTABLE-BLOCK': 6}
+  N7  n=6  verdicts={'UNVERIFIED-UNCOMPILABLE': 6}
+  N8  n=6  verdicts={'UNVERIFIED-MULTI-BLOCK': 6}
+  P1  n=8  verdicts={'FAIL-TESTS': 8}
+  P2  n=8  verdicts={'FAIL-TESTS': 8}
+  P3  n=8  verdicts={'FAIL-TESTS': 8}
+  P4  n=8  verdicts={'FAIL-TESTS': 8}
+  P5  n=8  verdicts={'FAIL-TESTS': 8}
+  P6  n=8  verdicts={'PASS': 8}
+  expected-vs-actual mismatches: 0 (CLEAN)
+  census reconciliation: 96 typed, consumed exactly once, zero orphans
+
+R-K2 negative-control gate
+  N1/N2/N3 non-PASS verdicts: 0 (ALL SILENT -- zero false fires)
+  N4-N8 fails-open rows UNVERIFIED exactly as typed: ALL OK
+  (the fails-open floor's first engineered exercise)
+
+R-K3 trigger precision (charged under designed conventions)
+  FAIL-TESTS fires: 40 (P1-P5 rows: 40, other rows: 0)
+  trigger precision: 40/40 = 1.000
+R-K4 damage accounting (recorded, never adjudicated)
+  vs the unguided natural-leg baseline 17/23 = 0.739
+
+R-K5 smoothing census (RW-9 loud/subtle)
+  P1 loud fires 4/4, subtle fires 4/4
+  P2 loud fires 4/4, subtle fires 4/4
+  P3 loud fires 4/4, subtle fires 4/4
+  P4 loud fires 4/4, subtle fires 4/4
+  P5 loud fires 4/4, subtle fires 4/4
+  TOTAL loud 20/20, subtle 20/20 -- asymmetry preserved or collapsed: a measured fact about the execution oracle
+
+M-K3 meter-determinism census (3 metered reps identical)
+  deterministic 66/66 RUNNABLE rows (seeded harnesses only by construction; the R-C2 carve-out excluded by design)
+M-K4/R-K6 meter-band + budget census (ceiling p99x1.5 = 3910116 STAMPED)
+  RUNNABLE meters: min 27, max 2571289 (rows under the stamped ceiling: 66/66; over: none)
+  N3 heavy controls (in-band by design):
+    code-N3-001   meter 2571289
+    code-N3-002   meter 2418889
+    code-N3-003   meter 2467085
+    code-N3-004   meter 2471085
+    code-N3-005   meter 2567152
+    code-N3-006   meter 2531185
+  natural census of record: p95 2,344,000 / p99 2,606,744 / max 3,357,063 (doc 147); x1.25 = 3,258,430 would NOT cover the natural max; the stamped x1.5 covers it with ~16% headroom
+
+R-K7 honest miss record
+  P1-P5 detector misses: 0 (NONE -- 40/40 fired)
+  P6 boundary read (branch a -- as-is census): PASS 8/8, prose flags censused 8/8 (the oracle measured as-is; correct code with contradictory prose PASSES -- the coverage boundary on engineered record)
+  prose-flag census across the suite: 13 rows flagged ['code-N5-001', 'code-N5-002', 'code-N5-003', 'code-N5-004', 'code-N5-005', 'code-P6-001', 'code-P6-002', 'code-P6-003', 'code-P6-004', 'code-P6-005', 'code-P6-006', 'code-P6-007', 'code-P6-008']
+
+EXPORT: triadic_code_acceptance_run_v1.json (39183 bytes)
+EXPORT sha256 818c59453425e3dd737b1cbd83213da7c9ca248de8599cefd8504c8cb089de80
+ACCEPTANCE RUN COMPLETE

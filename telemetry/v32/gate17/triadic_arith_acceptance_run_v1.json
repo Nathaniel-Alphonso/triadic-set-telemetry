@@ -1,0 +1,3728 @@
+{
+ "run": "triadic_arith_acceptance_run_v1",
+ "instrument": "triadic_gate17a_runtime.py (the banked 17-A runtime build of record, ledger item 127)",
+ "instrument_sha256": "9098320210f75634130c5a75c54ec73fa17faa04345ae455c445bb431629fd6a",
+ "suite_sha256": "fe0f3b7516915730eea7c65420bbaf96d447193bc53f07ec273baf39217524fc",
+ "suite_pin": "fe0f3b7516915730eea7c65420bbaf96d447193bc53f07ec273baf39217524fc",
+ "pin_match": true,
+ "per_fixture": [
+  {
+   "fixture_id": "arith-P1-001",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-001",
+    "key": "arith-P1-001",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "570 + 50 ",
+     "stated": "675",
+     "raw": "570 + 50  = 675",
+     "V_ltr": "620",
+     "V_prec": "620",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 138,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-002",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-002",
+    "key": "arith-P1-002",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "1765 + 300 ",
+     "stated": "2100",
+     "raw": "1765 + 300  = 2100",
+     "V_ltr": "2065",
+     "V_prec": "2065",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 148,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-003",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-003",
+    "key": "arith-P1-003",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "570 + 50 ",
+     "stated": "625",
+     "raw": "570 + 50  = 625",
+     "V_ltr": "620",
+     "V_prec": "620",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 138,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-004",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-004",
+    "key": "arith-P1-004",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "1190 + 90 ",
+     "stated": "1284",
+     "raw": "1190 + 90  = 1284",
+     "V_ltr": "1280",
+     "V_prec": "1280",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 145,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-005",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-005",
+    "key": "arith-P1-005",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "1600",
+     "raw": "<<1190 + 90 = 1600>>",
+     "V_ltr": "1280",
+     "V_prec": "1280",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 157,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-006",
+   "class": "P1",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-006",
+    "key": "arith-P1-006",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "500",
+     "raw": "<<300 + 40 = 500>>",
+     "V_ltr": "340",
+     "V_prec": "340",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 148,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-007",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-007",
+    "key": "arith-P1-007",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "343",
+     "raw": "<<300 + 40 = 343>>",
+     "V_ltr": "340",
+     "V_prec": "340",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 148,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P1-008",
+   "class": "P1",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P1-008",
+    "key": "arith-P1-008",
+    "n_candidates": 4,
+    "n_wellformed": 4,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "2070",
+     "raw": "<<1765 + 300 = 2070>>",
+     "V_ltr": "2065",
+     "V_prec": "2065",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 4,
+   "chars": 160,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-001",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-001",
+    "key": "arith-P2-001",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "36 x 68 ",
+     "stated": "2460",
+     "raw": "36 x 68  = 2460",
+     "V_ltr": "2448",
+     "V_prec": "2448",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 101,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-002",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-002",
+    "key": "arith-P2-002",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "150 x 44 ",
+     "stated": "6660",
+     "raw": "150 x 44  = 6660",
+     "V_ltr": "6600",
+     "V_prec": "6600",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 101,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-003",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-003",
+    "key": "arith-P2-003",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "36 x 68 ",
+     "stated": "2449",
+     "raw": "36 x 68  = 2449",
+     "V_ltr": "2448",
+     "V_prec": "2448",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 101,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-004",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-004",
+    "key": "arith-P2-004",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "150 x 44 ",
+     "stated": "6602",
+     "raw": "150 x 44  = 6602",
+     "V_ltr": "6600",
+     "V_prec": "6600",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 101,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-005",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-005",
+    "key": "arith-P2-005",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "4034",
+     "raw": "<<52 x 77 = 4034>>",
+     "V_ltr": "4004",
+     "V_prec": "4004",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 110,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-006",
+   "class": "P2",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-006",
+    "key": "arith-P2-006",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "8000",
+     "raw": "<<310 x 25 = 8000>>",
+     "V_ltr": "7750",
+     "V_prec": "7750",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 111,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-007",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-007",
+    "key": "arith-P2-007",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "4007",
+     "raw": "<<52 x 77 = 4007>>",
+     "V_ltr": "4004",
+     "V_prec": "4004",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 110,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P2-008",
+   "class": "P2",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P2-008",
+    "key": "arith-P2-008",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "7751",
+     "raw": "<<310 x 25 = 7751>>",
+     "V_ltr": "7750",
+     "V_prec": "7750",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 111,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-001",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-001",
+    "key": "arith-P3-001",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "20 - 22 ",
+     "stated": "2",
+     "raw": "20 - 22  = 2",
+     "V_ltr": "-2",
+     "V_prec": "-2",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 34,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-002",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-002",
+    "key": "arith-P3-002",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "75 - 90 ",
+     "stated": "15",
+     "raw": "75 - 90  = 15",
+     "V_ltr": "-15",
+     "V_prec": "-15",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 35,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-003",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-003",
+    "key": "arith-P3-003",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "12.8 - 12.5 ",
+     "stated": "4/5",
+     "raw": "12.8 - 12.5  = 0.8",
+     "V_ltr": "3/10",
+     "V_prec": "3/10",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 1,
+   "chars": 40,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-004",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-004",
+    "key": "arith-P3-004",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "44.6 - 44.1 ",
+     "stated": "9/10",
+     "raw": "44.6 - 44.1  = 0.9",
+     "V_ltr": "1/2",
+     "V_prec": "1/2",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 1,
+   "chars": 40,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-005",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-005",
+    "key": "arith-P3-005",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "35",
+     "raw": "<<140 - 175 = 35>>",
+     "V_ltr": "-35",
+     "V_prec": "-35",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 45,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-006",
+   "class": "P3",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-006",
+    "key": "arith-P3-006",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "150",
+     "raw": "<<500 - 650 = 150>>",
+     "V_ltr": "-150",
+     "V_prec": "-150",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 46,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-007",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-007",
+    "key": "arith-P3-007",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "2/5",
+     "raw": "<<9.15 - 8.95 = 0.4>>",
+     "V_ltr": "1/5",
+     "V_prec": "1/5",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 1,
+   "chars": 48,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P3-008",
+   "class": "P3",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P3-008",
+    "key": "arith-P3-008",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "7/10",
+     "raw": "<<30.25 - 29.75 = 0.7>>",
+     "V_ltr": "1/2",
+     "V_prec": "1/2",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 1,
+   "chars": 50,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-001",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-001",
+    "key": "arith-P4-001",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "495 x 1.1 ",
+     "stated": "540",
+     "raw": "495 x 1.1  = 540",
+     "V_ltr": "1089/2",
+     "V_prec": "1089/2",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 111,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-002",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-002",
+    "key": "arith-P4-002",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "880 x 1.1 ",
+     "stated": "950",
+     "raw": "880 x 1.1  = 950",
+     "V_ltr": "968",
+     "V_prec": "968",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 112,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-003",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-003",
+    "key": "arith-P4-003",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "495 x 1.1 ",
+     "stated": "5449/10",
+     "raw": "495 x 1.1  = 544.9",
+     "V_ltr": "1089/2",
+     "V_prec": "1089/2",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 3,
+   "chars": 118,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-004",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-004",
+    "key": "arith-P4-004",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "682 x 1.1 ",
+     "stated": "3753/5",
+     "raw": "682 x 1.1  = 750.6",
+     "V_ltr": "3751/5",
+     "V_prec": "3751/5",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 3,
+   "chars": 118,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-005",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-005",
+    "key": "arith-P4-005",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "730",
+     "raw": "<<682 x 1.1 = 730>>",
+     "V_ltr": "3751/5",
+     "V_prec": "3751/5",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 121,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-006",
+   "class": "P4",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-006",
+    "key": "arith-P4-006",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "1120",
+     "raw": "<<1034 x 1.1 = 1120>>",
+     "V_ltr": "5687/5",
+     "V_prec": "5687/5",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 3,
+   "chars": 126,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-007",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-007",
+    "key": "arith-P4-007",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "11379/10",
+     "raw": "<<1034 x 1.1 = 1137.9>>",
+     "V_ltr": "5687/5",
+     "V_prec": "5687/5",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 3,
+   "chars": 133,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P4-008",
+   "class": "P4",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P4-008",
+    "key": "arith-P4-008",
+    "n_candidates": 3,
+    "n_wellformed": 3,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "1937/2",
+     "raw": "<<880 x 1.1 = 968.5>>",
+     "V_ltr": "968",
+     "V_prec": "968",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 3,
+   "chars": 129,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-001",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-001",
+    "key": "arith-P5-001",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "0.2607 x 220 ",
+     "stated": "50",
+     "raw": "0.2607 x 220  = 50",
+     "V_ltr": "28677/500",
+     "V_prec": "28677/500",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 87,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-002",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-002",
+    "key": "arith-P5-002",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "0.75 x 320 ",
+     "stated": "200",
+     "raw": "0.75 x 320  = 200",
+     "V_ltr": "240",
+     "V_prec": "240",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 85,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-003",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-003",
+    "key": "arith-P5-003",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "0.2607 x 220 ",
+     "stated": "57",
+     "raw": "0.2607 x 220  = 57.0",
+     "V_ltr": "28677/500",
+     "V_prec": "28677/500",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 2,
+   "chars": 91,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-004",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-004",
+    "key": "arith-P5-004",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "0.75 x 320 ",
+     "stated": "479/2",
+     "raw": "0.75 x 320  = 239.5",
+     "V_ltr": "240",
+     "V_prec": "240",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 2,
+   "chars": 89,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-005",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-005",
+    "key": "arith-P5-005",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "18",
+     "raw": "<<0.043 x 500 = 18>>",
+     "V_ltr": "43/2",
+     "V_prec": "43/2",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 92,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-006",
+   "class": "P5",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-006",
+    "key": "arith-P5-006",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "360",
+     "raw": "<<0.525 x 800 = 360>>",
+     "V_ltr": "420",
+     "V_prec": "420",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 93,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-007",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-007",
+    "key": "arith-P5-007",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "106/5",
+     "raw": "<<0.043 x 500 = 21.2>>",
+     "V_ltr": "43/2",
+     "V_prec": "43/2",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 2,
+   "chars": 97,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P5-008",
+   "class": "P5",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P5-008",
+    "key": "arith-P5-008",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "2098/5",
+     "raw": "<<0.525 x 800 = 419.6>>",
+     "V_ltr": "420",
+     "V_prec": "420",
+     "eps(p)": "50000001/1000000000",
+     "sd": 1
+    }
+   ],
+   "n_events": 2,
+   "chars": 99,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-001",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-001",
+    "key": "arith-P6-001",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "120 + 130 ",
+     "stated": "240",
+     "raw": "120 + 130  = 240",
+     "V_ltr": "250",
+     "V_prec": "250",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 115,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-002",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-002",
+    "key": "arith-P6-002",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "450 + 380 ",
+     "stated": "800",
+     "raw": "450 + 380  = 800",
+     "V_ltr": "830",
+     "V_prec": "830",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 115,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-003",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-003",
+    "key": "arith-P6-003",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "120 + 130 ",
+     "stated": "251",
+     "raw": "120 + 130  = 251",
+     "V_ltr": "250",
+     "V_prec": "250",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 115,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-004",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-004",
+    "key": "arith-P6-004",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "96 + 88 ",
+     "stated": "185",
+     "raw": "96 + 88  = 185",
+     "V_ltr": "184",
+     "V_prec": "184",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 111,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-005",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-005",
+    "key": "arith-P6-005",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "200",
+     "raw": "<<96 + 88 = 200>>",
+     "V_ltr": "184",
+     "V_prec": "184",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 119,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-006",
+   "class": "P6",
+   "magnitude": "loud",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-006",
+    "key": "arith-P6-006",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "1500",
+     "raw": "<<1200 + 340 = 1500>>",
+     "V_ltr": "1540",
+     "V_prec": "1540",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 127,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-007",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-007",
+    "key": "arith-P6-007",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "831",
+     "raw": "<<450 + 380 = 831>>",
+     "V_ltr": "830",
+     "V_prec": "830",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 123,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-P6-008",
+   "class": "P6",
+   "magnitude": "subtle",
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-P6-008",
+    "key": "arith-P6-008",
+    "n_candidates": 2,
+    "n_wellformed": 2,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "1541",
+     "raw": "<<1200 + 340 = 1541>>",
+     "V_ltr": "1540",
+     "V_prec": "1540",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 2,
+   "chars": 127,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N1-001",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N1-001",
+    "key": "arith-N1-001",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 1,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 1,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 34,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N1-002",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N1-002",
+    "key": "arith-N1-002",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 1,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 1,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 36,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N1-003",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N1-003",
+    "key": "arith-N1-003",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 1,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 1,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 42,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N1-004",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N1-004",
+    "key": "arith-N1-004",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 1,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 1,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 39,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N1-005",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N1-005",
+    "key": "arith-N1-005",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 1,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 1,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 44,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N1-006",
+   "class": "N1",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N1-006",
+    "key": "arith-N1-006",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 1,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 1,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 44,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N2-001",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N2-001",
+    "key": "arith-N2-001",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 49,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N2-002",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N2-002",
+    "key": "arith-N2-002",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 43,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N2-003",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N2-003",
+    "key": "arith-N2-003",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 47,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N2-004",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N2-004",
+    "key": "arith-N2-004",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 47,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N2-005",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N2-005",
+    "key": "arith-N2-005",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 49,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N2-006",
+   "class": "N2",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N2-006",
+    "key": "arith-N2-006",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 46,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N3-001",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N3-001",
+    "key": "arith-N3-001",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "40/100 ",
+     "stated": "40",
+     "raw": "40/100  = 40",
+     "V_ltr": "2/5",
+     "V_prec": "4000",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 43,
+   "pending_ruling": "gate5-compression"
+  },
+  {
+   "fixture_id": "arith-N3-002",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N3-002",
+    "key": "arith-N3-002",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "25/100 ",
+     "stated": "25",
+     "raw": "25/100  = 25",
+     "V_ltr": "1/4",
+     "V_prec": "2500",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 39,
+   "pending_ruling": "gate5-compression"
+  },
+  {
+   "fixture_id": "arith-N3-003",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N3-003",
+    "key": "arith-N3-003",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "60/100 ",
+     "stated": "60",
+     "raw": "60/100  = 60",
+     "V_ltr": "3/5",
+     "V_prec": "6000",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 41,
+   "pending_ruling": "gate5-compression"
+  },
+  {
+   "fixture_id": "arith-N3-004",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N3-004",
+    "key": "arith-N3-004",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "75",
+     "raw": "<<75/100 = 75>>",
+     "V_ltr": "3/4",
+     "V_prec": "7500",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 40,
+   "pending_ruling": "gate5-compression"
+  },
+  {
+   "fixture_id": "arith-N3-005",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N3-005",
+    "key": "arith-N3-005",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "30",
+     "raw": "<<30/100 = 30>>",
+     "V_ltr": "3/10",
+     "V_prec": "3000",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 43,
+   "pending_ruling": "gate5-compression"
+  },
+  {
+   "fixture_id": "arith-N3-006",
+   "class": "N3",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N3-006",
+    "key": "arith-N3-006",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "90",
+     "raw": "<<90/100 = 90>>",
+     "V_ltr": "9/10",
+     "V_prec": "9000",
+     "eps(p)": "500000001/1000000000",
+     "sd": 0
+    }
+   ],
+   "n_events": 1,
+   "chars": 44,
+   "pending_ruling": "gate5-compression"
+  },
+  {
+   "fixture_id": "arith-N4-001",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N4-001",
+    "key": "arith-N4-001",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 50,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N4-002",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N4-002",
+    "key": "arith-N4-002",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 53,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N4-003",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N4-003",
+    "key": "arith-N4-003",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 53,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N4-004",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N4-004",
+    "key": "arith-N4-004",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 53,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N4-005",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N4-005",
+    "key": "arith-N4-005",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 49,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N4-006",
+   "class": "N4",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N4-006",
+    "key": "arith-N4-006",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 48,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N5-001",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N5-001",
+    "key": "arith-N5-001",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 37,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N5-002",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N5-002",
+    "key": "arith-N5-002",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 35,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N5-003",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N5-003",
+    "key": "arith-N5-003",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 40,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N5-004",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N5-004",
+    "key": "arith-N5-004",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 52,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N5-005",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N5-005",
+    "key": "arith-N5-005",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 42,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N5-006",
+   "class": "N5",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N5-006",
+    "key": "arith-N5-006",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 47,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N6-001",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "actual_verdict": "PASS",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N6-001",
+    "key": "arith-N6-001",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 40,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N6-002",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "actual_verdict": "PASS",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N6-002",
+    "key": "arith-N6-002",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 52,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N6-003",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "actual_verdict": "PASS",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N6-003",
+    "key": "arith-N6-003",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 37,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N6-004",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "actual_verdict": "PASS",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N6-004",
+    "key": "arith-N6-004",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 46,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N6-005",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "actual_verdict": "PASS",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N6-005",
+    "key": "arith-N6-005",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 38,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N6-006",
+   "class": "N6",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "PASS",
+   "expected_slips": 0,
+   "actual_verdict": "PASS",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N6-006",
+    "key": "arith-N6-006",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 44,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N7-001",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N7-001",
+    "key": "arith-N7-001",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "80/75 ",
+     "stated": "533/500",
+     "raw": "80/75  = 1.066",
+     "V_ltr": "16/15",
+     "V_prec": "6000",
+     "eps(p)": "500001/1000000000",
+     "sd": 3
+    }
+   ],
+   "n_events": 1,
+   "chars": 40,
+   "pending_ruling": "gate5-truncation"
+  },
+  {
+   "fixture_id": "arith-N7-002",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N7-002",
+    "key": "arith-N7-002",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "4100/3 ",
+     "stated": "68333/50",
+     "raw": "4100/3  = 1366.66",
+     "V_ltr": "4100/3",
+     "V_prec": "12300",
+     "eps(p)": "5000001/1000000000",
+     "sd": 2
+    }
+   ],
+   "n_events": 1,
+   "chars": 43,
+   "pending_ruling": "gate5-truncation"
+  },
+  {
+   "fixture_id": "arith-N7-003",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N7-003",
+    "key": "arith-N7-003",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "inline",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": "22/7 ",
+     "stated": "1571/500",
+     "raw": "22/7  = 3.142",
+     "V_ltr": "22/7",
+     "V_prec": "154",
+     "eps(p)": "500001/1000000000",
+     "sd": 3
+    }
+   ],
+   "n_events": 1,
+   "chars": 39,
+   "pending_ruling": "gate5-truncation"
+  },
+  {
+   "fixture_id": "arith-N7-004",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N7-004",
+    "key": "arith-N7-004",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "833/50",
+     "raw": "<<100/6 = 16.66>>",
+     "V_ltr": "50/3",
+     "V_prec": "600",
+     "eps(p)": "5000001/1000000000",
+     "sd": 2
+    }
+   ],
+   "n_events": 1,
+   "chars": 39,
+   "pending_ruling": "gate5-truncation"
+  },
+  {
+   "fixture_id": "arith-N7-005",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N7-005",
+    "key": "arith-N7-005",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "2857/20",
+     "raw": "<<1000/7 = 142.85>>",
+     "V_ltr": "1000/7",
+     "V_prec": "7000",
+     "eps(p)": "5000001/1000000000",
+     "sd": 2
+    }
+   ],
+   "n_events": 1,
+   "chars": 41,
+   "pending_ruling": "gate5-truncation"
+  },
+  {
+   "fixture_id": "arith-N7-006",
+   "class": "N7",
+   "magnitude": null,
+   "anchor_family": "scratchpad",
+   "expected_verdict": "SLIP-FLAG",
+   "expected_slips": 1,
+   "actual_verdict": "SLIP-FLAG",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N7-006",
+    "key": "arith-N7-006",
+    "n_candidates": 1,
+    "n_wellformed": 1,
+    "n_slips": 1,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [
+    {
+     "family": "scratchpad",
+     "verdict": "SLIP-FLAG",
+     "class": "SLIP",
+     "guards": [],
+     "lhs": null,
+     "stated": "3571/50",
+     "raw": "<<500/7 = 71.42>>",
+     "V_ltr": "500/7",
+     "V_prec": "3500",
+     "eps(p)": "5000001/1000000000",
+     "sd": 2
+    }
+   ],
+   "n_events": 1,
+   "chars": 39,
+   "pending_ruling": "gate5-truncation"
+  },
+  {
+   "fixture_id": "arith-N8-001",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N8-001",
+    "key": "arith-N8-001",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 35,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N8-002",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N8-002",
+    "key": "arith-N8-002",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 37,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N8-003",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N8-003",
+    "key": "arith-N8-003",
+    "n_candidates": 1,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 1,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 32,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N8-004",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "UNVERIFIED",
+   "expected_slips": 0,
+   "actual_verdict": "UNVERIFIED",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N8-004",
+    "key": "arith-N8-004",
+    "n_candidates": 1,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 1,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 1,
+   "chars": 32,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N8-005",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N8-005",
+    "key": "arith-N8-005",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 17,
+   "pending_ruling": null
+  },
+  {
+   "fixture_id": "arith-N8-006",
+   "class": "N8",
+   "magnitude": null,
+   "anchor_family": "inline",
+   "expected_verdict": "SILENT",
+   "expected_slips": 0,
+   "actual_verdict": "SILENT",
+   "match": true,
+   "mismatch_note": "",
+   "chunk_boundary_independent": true,
+   "census": {
+    "doc_id": "arith-N8-006",
+    "key": "arith-N8-006",
+    "n_candidates": 0,
+    "n_wellformed": 0,
+    "n_slips": 0,
+    "n_unverified_guard": 0,
+    "n_false_parses": 0,
+    "guard_census": {
+     "G1": 0,
+     "G2": 0
+    }
+   },
+   "ledger_lines": [],
+   "n_events": 0,
+   "chars": 24,
+   "pending_ruling": null
+  }
+ ],
+ "readings": {
+  "R-F1_runs_clean": {
+   "fixtures_consumed": 96,
+   "expected_total": 96,
+   "row_matches": 96,
+   "chunk_boundary_independence_all": true,
+   "orphans": 0
+  },
+  "M-F1_guard_census": {
+   "G1_events": 6,
+   "G2_events": 0,
+   "note": "G1 expected only on N1 (the doc-38 fragment class); G2 not authored on this suite"
+  },
+  "M-F2_trigger_precision_vs_genuine": {
+   "positive_fires_genuine": 48,
+   "negative_fires_non_genuine_as_is": 12,
+   "zero_fire_control_classes": {
+    "N1": {
+     "rows": 6,
+     "fires": 0
+    },
+    "N2": {
+     "rows": 6,
+     "fires": 0
+    },
+    "N4": {
+     "rows": 6,
+     "fires": 0
+    },
+    "N5": {
+     "rows": 6,
+     "fires": 0
+    },
+    "N6": {
+     "rows": 6,
+     "fires": 0
+    },
+    "N8": {
+     "rows": 6,
+     "fires": 0
+    }
+   },
+   "pending_ruling_classes": {
+    "N3": {
+     "rows": 6,
+     "fires": 6,
+     "pending_ruling": "gate5-compression",
+     "expected_verdicts": [
+      "SLIP-FLAG"
+     ]
+    },
+    "N7": {
+     "rows": 6,
+     "fires": 6,
+     "pending_ruling": "gate5-truncation",
+     "expected_verdicts": [
+      "SLIP-FLAG"
+     ]
+    }
+   },
+   "convention_I_as_is_charged": 0.8,
+   "convention_II_truncation_genuine_banked_natural_analog": 0.9,
+   "convention_III_gate5_branchA_both_legal": 1.0,
+   "as_is_bounds_of_record": {
+    "raw": 0.902,
+    "chat": 0.947
+   },
+   "note": "the suite deliberately concentrates the two display-convention classes (12/60 fires vs the natural ~10%); the gate-3 comparison is decided by the owner's Gate-5 stamps"
+  },
+  "M-F3_rw9_loud_subtle_parity": {
+   "loud_rows": 24,
+   "loud_fires": 24,
+   "subtle_rows": 24,
+   "subtle_fires": 24,
+   "note": "measures smoothing, never correctness; parity is the engineered-asymmetry preservation"
+  },
+  "M-F4_cost_census": {
+   "total_chars": 7023,
+   "mean_chars_per_fixture": 73.15625,
+   "total_events": 146,
+   "total_ledger_lines": 60,
+   "note": "the O(chars) meter census; the runtime instrument has no per-fixture wall-clock dependence by construction (all-Q arithmetic)"
+  },
+  "M-F5_rw12_contradiction_census": {
+   "P6_rows": 8,
+   "P6_flags": 8,
+   "note": "verified impossibilities flagged, never smoothed"
+  },
+  "R-F7_miss_record": {
+   "positive_classes_with_zero_flags": [],
+   "note": "a zero-flag positive class would be a detector miss, recorded as coverage cost"
+  }
+ },
+ "all_rows_match_expected": true
+}

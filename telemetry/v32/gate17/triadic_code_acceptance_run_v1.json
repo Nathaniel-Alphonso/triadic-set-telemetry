@@ -1,0 +1,1594 @@
+{
+ "run": "triadic_code_acceptance_run_v1",
+ "family": "code-* (Gate 17-C)",
+ "built_under_stamp": "ledger item 166 (Oct 9 2026): sizing code-M; meter budget p99x1.5 = 3910116; RW-5 OFF; P6 branch (a) as-is boundary census",
+ "pins": {
+  "suite_sha256": "779e92b11cef374534eb9475eb07cc9835724389ed51154417e97edf7b5c348b",
+  "instrument_sha256": "439c892a5b1a27a7ed1b5f7dd2d9a4e99c9c57d072e1b14fc0a18f3ecd8efc5e"
+ },
+ "sandbox_law": "fresh subprocess per rep, own temp dir, no shared state, no disk residue; 10s untraced + 60s metered failsafes = SAFETY ONLY -> resource-class UNVERIFIED never semantic",
+ "meter_budget_stamped": 3910116,
+ "rows": [
+  {
+   "fixture_id": "code-N1-001",
+   "class": "N1",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 1481
+  },
+  {
+   "fixture_id": "code-N1-002",
+   "class": "N1",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 64
+  },
+  {
+   "fixture_id": "code-N1-003",
+   "class": "N1",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 249
+  },
+  {
+   "fixture_id": "code-N1-004",
+   "class": "N1",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 98
+  },
+  {
+   "fixture_id": "code-N1-005",
+   "class": "N1",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 56
+  },
+  {
+   "fixture_id": "code-N1-006",
+   "class": "N1",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 182
+  },
+  {
+   "fixture_id": "code-N2-001",
+   "class": "N2",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 289728
+  },
+  {
+   "fixture_id": "code-N2-002",
+   "class": "N2",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 668938
+  },
+  {
+   "fixture_id": "code-N2-003",
+   "class": "N2",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 24222
+  },
+  {
+   "fixture_id": "code-N2-004",
+   "class": "N2",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 32408
+  },
+  {
+   "fixture_id": "code-N2-005",
+   "class": "N2",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 32023
+  },
+  {
+   "fixture_id": "code-N2-006",
+   "class": "N2",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2092
+  },
+  {
+   "fixture_id": "code-N3-001",
+   "class": "N3",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2571289
+  },
+  {
+   "fixture_id": "code-N3-002",
+   "class": "N3",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2418889
+  },
+  {
+   "fixture_id": "code-N3-003",
+   "class": "N3",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2467085
+  },
+  {
+   "fixture_id": "code-N3-004",
+   "class": "N3",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2471085
+  },
+  {
+   "fixture_id": "code-N3-005",
+   "class": "N3",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2567152
+  },
+  {
+   "fixture_id": "code-N3-006",
+   "class": "N3",
+   "loudness": null,
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2531185
+  },
+  {
+   "fixture_id": "code-N4-001",
+   "class": "N4",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N4-002",
+   "class": "N4",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N4-003",
+   "class": "N4",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N4-004",
+   "class": "N4",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N4-005",
+   "class": "N4",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N4-006",
+   "class": "N4",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N5-001",
+   "class": "N5",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N5-002",
+   "class": "N5",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N5-003",
+   "class": "N5",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N5-004",
+   "class": "N5",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N5-005",
+   "class": "N5",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N5-006",
+   "class": "N5",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N6-001",
+   "class": "N6",
+   "loudness": null,
+   "expected_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "actual_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "expected_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "actual_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N6-002",
+   "class": "N6",
+   "loudness": null,
+   "expected_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "actual_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "expected_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "actual_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N6-003",
+   "class": "N6",
+   "loudness": null,
+   "expected_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "actual_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "expected_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "actual_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N6-004",
+   "class": "N6",
+   "loudness": null,
+   "expected_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "actual_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "expected_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "actual_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N6-005",
+   "class": "N6",
+   "loudness": null,
+   "expected_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "actual_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "expected_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "actual_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N6-006",
+   "class": "N6",
+   "loudness": null,
+   "expected_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "actual_m1_class": "NO-EXTRACTABLE-BLOCK",
+   "expected_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "actual_verdict": "UNVERIFIED-NO-EXTRACTABLE-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N7-001",
+   "class": "N7",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N7-002",
+   "class": "N7",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N7-003",
+   "class": "N7",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N7-004",
+   "class": "N7",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N7-005",
+   "class": "N7",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N7-006",
+   "class": "N7",
+   "loudness": null,
+   "expected_m1_class": "UNCOMPILABLE",
+   "actual_m1_class": "UNCOMPILABLE",
+   "expected_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "actual_verdict": "UNVERIFIED-UNCOMPILABLE",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N8-001",
+   "class": "N8",
+   "loudness": null,
+   "expected_m1_class": "MULTI-BLOCK",
+   "actual_m1_class": "MULTI-BLOCK",
+   "expected_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "actual_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N8-002",
+   "class": "N8",
+   "loudness": null,
+   "expected_m1_class": "MULTI-BLOCK",
+   "actual_m1_class": "MULTI-BLOCK",
+   "expected_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "actual_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N8-003",
+   "class": "N8",
+   "loudness": null,
+   "expected_m1_class": "MULTI-BLOCK",
+   "actual_m1_class": "MULTI-BLOCK",
+   "expected_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "actual_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N8-004",
+   "class": "N8",
+   "loudness": null,
+   "expected_m1_class": "MULTI-BLOCK",
+   "actual_m1_class": "MULTI-BLOCK",
+   "expected_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "actual_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N8-005",
+   "class": "N8",
+   "loudness": null,
+   "expected_m1_class": "MULTI-BLOCK",
+   "actual_m1_class": "MULTI-BLOCK",
+   "expected_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "actual_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-N8-006",
+   "class": "N8",
+   "loudness": null,
+   "expected_m1_class": "MULTI-BLOCK",
+   "actual_m1_class": "MULTI-BLOCK",
+   "expected_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "actual_verdict": "UNVERIFIED-MULTI-BLOCK",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": null,
+    "label_agrees": null
+   },
+   "meter": null
+  },
+  {
+   "fixture_id": "code-P1-001",
+   "class": "P1",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 117
+  },
+  {
+   "fixture_id": "code-P1-002",
+   "class": "P1",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 38
+  },
+  {
+   "fixture_id": "code-P1-003",
+   "class": "P1",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 58
+  },
+  {
+   "fixture_id": "code-P1-004",
+   "class": "P1",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 1063
+  },
+  {
+   "fixture_id": "code-P1-005",
+   "class": "P1",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 48
+  },
+  {
+   "fixture_id": "code-P1-006",
+   "class": "P1",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 118
+  },
+  {
+   "fixture_id": "code-P1-007",
+   "class": "P1",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 39
+  },
+  {
+   "fixture_id": "code-P1-008",
+   "class": "P1",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 227
+  },
+  {
+   "fixture_id": "code-P2-001",
+   "class": "P2",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 209
+  },
+  {
+   "fixture_id": "code-P2-002",
+   "class": "P2",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 1298
+  },
+  {
+   "fixture_id": "code-P2-003",
+   "class": "P2",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 37
+  },
+  {
+   "fixture_id": "code-P2-004",
+   "class": "P2",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 244
+  },
+  {
+   "fixture_id": "code-P2-005",
+   "class": "P2",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 144
+  },
+  {
+   "fixture_id": "code-P2-006",
+   "class": "P2",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 56
+  },
+  {
+   "fixture_id": "code-P2-007",
+   "class": "P2",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 1251
+  },
+  {
+   "fixture_id": "code-P2-008",
+   "class": "P2",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 208
+  },
+  {
+   "fixture_id": "code-P3-001",
+   "class": "P3",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 28
+  },
+  {
+   "fixture_id": "code-P3-002",
+   "class": "P3",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 33
+  },
+  {
+   "fixture_id": "code-P3-003",
+   "class": "P3",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 187
+  },
+  {
+   "fixture_id": "code-P3-004",
+   "class": "P3",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 125
+  },
+  {
+   "fixture_id": "code-P3-005",
+   "class": "P3",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 28
+  },
+  {
+   "fixture_id": "code-P3-006",
+   "class": "P3",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 662
+  },
+  {
+   "fixture_id": "code-P3-007",
+   "class": "P3",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 288
+  },
+  {
+   "fixture_id": "code-P3-008",
+   "class": "P3",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 831
+  },
+  {
+   "fixture_id": "code-P4-001",
+   "class": "P4",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 58
+  },
+  {
+   "fixture_id": "code-P4-002",
+   "class": "P4",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 27
+  },
+  {
+   "fixture_id": "code-P4-003",
+   "class": "P4",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 125
+  },
+  {
+   "fixture_id": "code-P4-004",
+   "class": "P4",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 456
+  },
+  {
+   "fixture_id": "code-P4-005",
+   "class": "P4",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 56
+  },
+  {
+   "fixture_id": "code-P4-006",
+   "class": "P4",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 61
+  },
+  {
+   "fixture_id": "code-P4-007",
+   "class": "P4",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 1131
+  },
+  {
+   "fixture_id": "code-P4-008",
+   "class": "P4",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 212
+  },
+  {
+   "fixture_id": "code-P5-001",
+   "class": "P5",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 552
+  },
+  {
+   "fixture_id": "code-P5-002",
+   "class": "P5",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 452
+  },
+  {
+   "fixture_id": "code-P5-003",
+   "class": "P5",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 58
+  },
+  {
+   "fixture_id": "code-P5-004",
+   "class": "P5",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 125
+  },
+  {
+   "fixture_id": "code-P5-005",
+   "class": "P5",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 209
+  },
+  {
+   "fixture_id": "code-P5-006",
+   "class": "P5",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 2089
+  },
+  {
+   "fixture_id": "code-P5-007",
+   "class": "P5",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 485
+  },
+  {
+   "fixture_id": "code-P5-008",
+   "class": "P5",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "FAIL-TESTS",
+   "actual_verdict": "FAIL-TESTS",
+   "expected_prose_flag": false,
+   "actual_prose_flag": false,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 89
+  },
+  {
+   "fixture_id": "code-P6-001",
+   "class": "P6",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 486
+  },
+  {
+   "fixture_id": "code-P6-002",
+   "class": "P6",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 486
+  },
+  {
+   "fixture_id": "code-P6-003",
+   "class": "P6",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 57
+  },
+  {
+   "fixture_id": "code-P6-004",
+   "class": "P6",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 57
+  },
+  {
+   "fixture_id": "code-P6-005",
+   "class": "P6",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 182
+  },
+  {
+   "fixture_id": "code-P6-006",
+   "class": "P6",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 182
+  },
+  {
+   "fixture_id": "code-P6-007",
+   "class": "P6",
+   "loudness": "subtle",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 56
+  },
+  {
+   "fixture_id": "code-P6-008",
+   "class": "P6",
+   "loudness": "loud",
+   "expected_m1_class": "RUNNABLE",
+   "actual_m1_class": "RUNNABLE",
+   "expected_verdict": "PASS",
+   "actual_verdict": "PASS",
+   "expected_prose_flag": true,
+   "actual_prose_flag": true,
+   "guards": {
+    "meter_deterministic": true,
+    "label_agrees": true
+   },
+   "meter": 98
+  }
+ ],
+ "readings": {
+  "M_K1_verdict_census": {
+   "mismatches": 0,
+   "clean": true
+  },
+  "R_K1_runs_clean": {
+   "consumed": 96,
+   "orphans": 0,
+   "clean": true
+  },
+  "R_K2_negative_control_gate": {
+   "n1_n2_n3_fail_verdicts": 0,
+   "n4_n8_as_typed": true
+  },
+  "R_K3_trigger_precision": {
+   "fires": 40,
+   "fires_on_positives": 40,
+   "precision": 1.0
+  },
+  "R_K4_damage_accounting": {
+   "fires_on_positives": 40,
+   "fires": 40,
+   "baseline": "17/23 = 0.739 (recorded, never adjudicated)"
+  },
+  "R_K5_smoothing_census": {
+   "loud_fires": 20,
+   "subtle_fires": 20
+  },
+  "M_K3_meter_determinism": {
+   "deterministic": 66,
+   "runnable": 66
+  },
+  "M_K4_R_K6_meter_budget": {
+   "min_meter": 27,
+   "max_meter": 2571289,
+   "under_ceiling": 66,
+   "over_ceiling": [],
+   "ceiling": 3910116
+  },
+  "R_K7_honest_miss_record": {
+   "p1_p5_misses": [],
+   "p6_pass": 8,
+   "p6_prose_flagged": 8
+  }
+ }
+}

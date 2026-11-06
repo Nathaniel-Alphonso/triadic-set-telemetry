@@ -1,0 +1,2432 @@
+{
+ "run": "triadic_prose_acceptance_run_v1",
+ "family": "prose-* (17-P)",
+ "built_under_stamp": "ledger item 172 (Oct 9 2026): scope (a) the P2 catch-class census; sizing prose-M (96 rows: 12 per positive class, 6 per control class); PP5 branch (a) as-is boundary census; register balanced raw/chat; the RW-9 loud/subtle rider pre-registered (item-160b law); RW-5 perturbation axis OFF (item 170 hold)",
+ "pins": {
+  "suite_sha256": "e9188195c4d491854ac0ff90a2c99cf59216f925219c62aea5cace0856e0bcfc",
+  "instrument_sha256": "4fa0628679cf7727310d0b683d104a57b574a1fc8e6d5e38bf052c80f729404f"
+ },
+ "wrapper_law": "p2_oracle imported VERBATIM from the banked item-158 instrument; additive fixture-mode wrapper; zero oracle-logic change; no subprocess execution -- the prose oracle is a pure mechanical text scan",
+ "rows": [
+  {
+   "fixture_id": "prose-PN1-001",
+   "class": "PN1",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN1-002",
+   "class": "PN1",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN1-003",
+   "class": "PN1",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN1-004",
+   "class": "PN1",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN1-005",
+   "class": "PN1",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN1-006",
+   "class": "PN1",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN2-001",
+   "class": "PN2",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN2-002",
+   "class": "PN2",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN2-003",
+   "class": "PN2",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN2-004",
+   "class": "PN2",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN2-005",
+   "class": "PN2",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN2-006",
+   "class": "PN2",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 1,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN3-001",
+   "class": "PN3",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN3-002",
+   "class": "PN3",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN3-003",
+   "class": "PN3",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN3-004",
+   "class": "PN3",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN3-005",
+   "class": "PN3",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN3-006",
+   "class": "PN3",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN4-001",
+   "class": "PN4",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN4-002",
+   "class": "PN4",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN4-003",
+   "class": "PN4",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN4-004",
+   "class": "PN4",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN4-005",
+   "class": "PN4",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN4-006",
+   "class": "PN4",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "SILENT",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "ENGAGED-NOT-PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 1,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN5-001",
+   "class": "PN5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN5-002",
+   "class": "PN5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN5-003",
+   "class": "PN5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN5-004",
+   "class": "PN5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN5-005",
+   "class": "PN5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN5-006",
+   "class": "PN5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN6-001",
+   "class": "PN6",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 1,
+    "engagement_class": "SILENT",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "SILENCE-BLANK-ANSWER",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN6-002",
+   "class": "PN6",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 1,
+    "engagement_class": "SILENT",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "SILENCE-BLANK-ANSWER",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN6-003",
+   "class": "PN6",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 1,
+    "engagement_class": "SILENT",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "SILENCE-BLANK-ANSWER",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN6-004",
+   "class": "PN6",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 1,
+    "engagement_class": "SILENT",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "SILENCE-BLANK-ANSWER",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN6-005",
+   "class": "PN6",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 1,
+    "engagement_class": "SILENT",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "SILENCE-BLANK-ANSWER",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PN6-006",
+   "class": "PN6",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "FAILS-OPEN-CENSUSED",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 1,
+    "engagement_class": "SILENT",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "SILENCE-BLANK-ANSWER",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-001",
+   "class": "PP1",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "boxed"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-002",
+   "class": "PP1",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "final-answer-following"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-003",
+   "class": "PP1",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "boxed"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-004",
+   "class": "PP1",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "final-answer-following"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-005",
+   "class": "PP1",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "boxed"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-006",
+   "class": "PP1",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "final-answer-following"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-007",
+   "class": "PP1",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-008",
+   "class": "PP1",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-009",
+   "class": "PP1",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-010",
+   "class": "PP1",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-011",
+   "class": "PP1",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP1-012",
+   "class": "PP1",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-001",
+   "class": "PP2",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "boxed"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-002",
+   "class": "PP2",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "final-answer-following"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-003",
+   "class": "PP2",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "boxed"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-004",
+   "class": "PP2",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "final-answer-following"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-005",
+   "class": "PP2",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "boxed"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-006",
+   "class": "PP2",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "final-answer-following"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-007",
+   "class": "PP2",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-008",
+   "class": "PP2",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-009",
+   "class": "PP2",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-010",
+   "class": "PP2",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-011",
+   "class": "PP2",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP2-012",
+   "class": "PP2",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-A",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-A"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-A",
+      "slot_kind": "concluding-committed-claim"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-001",
+   "class": "PP3",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-002",
+   "class": "PP3",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-003",
+   "class": "PP3",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-004",
+   "class": "PP3",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-005",
+   "class": "PP3",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-006",
+   "class": "PP3",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-007",
+   "class": "PP3",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-008",
+   "class": "PP3",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-009",
+   "class": "PP3",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-010",
+   "class": "PP3",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-011",
+   "class": "PP3",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP3-012",
+   "class": "PP3",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-PROMOTION-B",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-001",
+   "class": "PP4",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-002",
+   "class": "PP4",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-003",
+   "class": "PP4",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-004",
+   "class": "PP4",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-005",
+   "class": "PP4",
+   "register": "raw",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-006",
+   "class": "PP4",
+   "register": "chat",
+   "loudness": "loud",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-007",
+   "class": "PP4",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-008",
+   "class": "PP4",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-009",
+   "class": "PP4",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-010",
+   "class": "PP4",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-011",
+   "class": "PP4",
+   "register": "raw",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP4-012",
+   "class": "PP4",
+   "register": "chat",
+   "loudness": "subtle",
+   "expected_verdict": "FIRE-CONFLICT",
+   "actual": {
+    "promotions": 1,
+    "promotion_shapes": [
+     "PROMOTION-B"
+    ],
+    "conflicts": 1,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "PROMOTED",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": [
+     {
+      "type": "PROMOTION",
+      "shape": "PROMOTION-B",
+      "slot_kind": "authored-body"
+     },
+     {
+      "type": "CONFLICT",
+      "shape": null,
+      "slot_kind": null
+     }
+    ]
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-001",
+   "class": "PP5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-002",
+   "class": "PP5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-003",
+   "class": "PP5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-004",
+   "class": "PP5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-005",
+   "class": "PP5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-006",
+   "class": "PP5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-007",
+   "class": "PP5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-008",
+   "class": "PP5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-009",
+   "class": "PP5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-010",
+   "class": "PP5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-011",
+   "class": "PP5",
+   "register": "raw",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  },
+  {
+   "fixture_id": "prose-PP5-012",
+   "class": "PP5",
+   "register": "chat",
+   "loudness": null,
+   "expected_verdict": "BOUNDARY-MISS",
+   "actual": {
+    "promotions": 0,
+    "promotion_shapes": [],
+    "conflicts": 0,
+    "control_firings": 0,
+    "silence_events": 0,
+    "engagement_class": "UNENGAGED-DESIRE",
+    "immune_occurrences": 0,
+    "established_occurrences": 0,
+    "events": []
+   },
+   "problems": []
+  }
+ ],
+ "readings": {
+  "M_PF1_event_census": {
+   "mismatches": 0,
+   "clean": true
+  },
+  "R_PF1_runs_clean": {
+   "consumed": 96,
+   "orphans": 0,
+   "clean": true
+  },
+  "R_PF2_negative_control_gate": {
+   "pn_flags": 0,
+   "fails_open_censused": 12
+  },
+  "M_PF3_immunity_establishment_census": {
+   "immune_PN1_PN2": 12,
+   "established_PN3_PN4": 12
+  },
+  "R_PF3_trigger_precision": {
+   "rows_firing": 48,
+   "fires_on_positives": 48,
+   "precision": 1.0,
+   "natural_color": "P2 record raw A 6 / B 22, chat A 4 / B 14 (elicitation-conditioned, item 158)"
+  },
+  "R_PF4_damage_accounting": {
+   "fires_on_positives": 48,
+   "baseline": "17/23 = 0.739 (recorded, never adjudicated)"
+  },
+  "R_PF5_smoothing_census": {
+   "loud_fires": 24,
+   "subtle_fires": 24
+  },
+  "M_PF5_shape_register_matrix": {
+   "PROMOTION-A x chat": 12,
+   "PROMOTION-A x raw": 12,
+   "PROMOTION-B x chat": 12,
+   "PROMOTION-B x raw": 12
+  },
+  "R_PF6_register_reading": {
+   "conflict_rows_by_register": {
+    "raw": 12,
+    "chat": 12
+   },
+   "note": "the locus rule measured in both registers on authored ground"
+  },
+  "M_PF6_cost_census": {
+   "min_meter": 74,
+   "max_meter": 232,
+   "total": 15083,
+   "per_doc_avg": 157.11458333333334
+  },
+  "R_PF7_honest_miss_record": {
+   "pp1_pp4_misses": [],
+   "pp5_boundary_misses": 12
+  }
+ }
+}

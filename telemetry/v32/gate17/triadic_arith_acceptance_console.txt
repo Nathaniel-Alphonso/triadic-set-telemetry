@@ -1,0 +1,27 @@
+=== arith-* fixture acceptance run (v1) ===
+instrument: triadic_gate17a_runtime.py  SHA-256 9098320210f75634130c5a75c54ec73fa17faa04345ae455c445bb431629fd6a
+suite:     triadic_arith_fixture_suite_v1.json  SHA-256 fe0f3b7516915730eea7c65420bbaf96d447193bc53f07ec273baf39217524fc
+pin check: PASS (suite checksum = the item-162 PIN)
+
+--- summary ---
+rows: 96 consumed, 96 match expected, 0 mismatch
+chunk-boundary independence: ALL OK
+positive fires: 48/48 (engineered positives flagged)
+zero-fire control classes: N1 6/6, N2 6/6, N4 6/6, N5 6/6, N6 6/6, N8 6/6
+pending-ruling classes (as-is fires): N3 6/6, N7 6/6
+trigger precision vs genuine:
+  convention I   (as-is, both classes charged):   0.8
+  convention II  (truncation genuine, natural analog): 0.9
+  convention III (Gate-5 branch A, both legal):  1.0
+  as-is bounds of record: raw 0.902 / chat 0.947
+RW-9 loud/subtle parity: loud 24/24, subtle 24/24
+RW-12 contradiction flags: 8/8
+G1 events: 6 (expected: 6, all on N1); G2 events: 0
+cost census: 7023 chars, 73.2 per fixture, 146 events, 60 ledger lines
+ALL ROWS MATCH EXPECTED: True
+
+export: triadic_arith_acceptance_run_v1.json  80022 bytes
+SHA-256 e70907c3f124b645f5460e294e2e1ae36029e02811759a8ac68121b7ef6a90a4
+console: triadic_arith_acceptance_console.txt  1092 bytes
+SHA-256 3064daa81f24ff8edfbac5f8a5a29bea1da414b865543a0cc8dd055430956569
+READINGS PRESENTED, NEVER ADJUDICATED — the owner's stamps decide (R-F1..R-F7).
