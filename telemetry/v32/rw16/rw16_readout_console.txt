@@ -1,0 +1,111 @@
+==============================================================================
+=== RW-16 DUAL-SIDED ENSEMBLE ADJUDICATION READOUT -- DOC-SPLIT AMENDMENT (offline read-only zero-GPU) ===
+  Amendment: ledger item 229, the owner-stamped Option B doc-split amendment;
+  the pinned sheet stands UNTOUCHED; the item-222 two-set build is preserved as v1.
+  THE SPLIT: each leg's census-applied clean corpus docs split by DOC_ID PARITY --
+    EVEN doc_id = calibration half | ODD doc_id = held-out test half.
+  Baselines (mu/sigma AND the step-level depth baselines) from the CALIBRATION half
+  ONLY -- held-out docs never touch any baseline; thresholds = the calibration
+  half's clean z-population (1 - 0.025) quantiles; the sigma-gap bar, AUC,
+  fire falsifier, jitter clause, PER-HALF population guards, and forensics all
+  measured on the HELD-OUT half + the leg's own 8 live fixtures (fixtures never
+  participate in any calibration). The four --calib-cache files ARE the walks (passed ONCE;
+  no test caches in this mode).
+  HONEST BOUNDARY (pinned at the stamp): the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)
+  NOT an instrument: the banked v32.2.1 is UNTOUCHED; this tool runs zero walks.
+  (the coarse guard alpha = 5% splits 0.025 per side for THIS adjudication; the binding operating
+  alpha is the theta-wiring pre-reg's own step; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved, D-theta).
+  Candidate (the table is CLOSED at this one ensemble): D = max(z_C, z_F);
+    Side C = maxPRsig | Side F = minS (a loop RE-READS its anchor: the floor stays high).
+  CENSUS (rides every readout): named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165
+  Monitors READ ONLY. Presented verdict typings + failure forensics:
+  NO verdict, NO threshold, NO wired theta -- presented, never adjudicated.
+  [walks] loading triadic_t2_cache_t2-gsm-fresh3_bfloat16_bos.jsonl (sha256 6049a2d3c64d503f...): 1329 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_t2-he-fresh3_bfloat16_bos.jsonl (sha256 4708bc67fbb0ec2a...): 174 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_t2-prose17p-fresh2_bfloat16_bos.jsonl (sha256 586048c6d1be3d58...): 190 records (+0 empty-form)
+  [walks] loading triadic_t2_cache_t2-p2corpus-fresh2_bfloat16_bos.jsonl (sha256 b9d0219576b05190...): 190 records (+0 empty-form)
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [gsm8k, from cache triadic_t2_cache_t2-gsm-fresh3_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [gsm8k, from cache triadic_t2_cache_t2-gsm-fresh3_bfloat16_bos.jsonl].
+
+  --- CALIBRATION HALF [gsm8k] (even doc_ids; 1319 census-clean docs -> 660 even / 659 odd) ---
+    thresholds (the 0.975 clean z-quantiles of the CALIBRATION half): z_C >= 2.2114 | z_F >= 1.2317
+    in-sample clean fires (calibration half): z_C 17 / z_F 17 / combined 33 (5.0000%) -- ~alpha by construction; the falsifier's teeth are the held-out half
+    in-sample loop catch (context): 8/8 live fixtures
+
+  --- HELD-OUT HALF [gsm8k] (odd doc_ids; 1319 corpus docs | 0 census-excluded | 659 clean held-out | 8 live / 2 inert positives) ---
+    ENSEMBLE D = max(z_C, z_F): sigma-gap=3.553 AUC=0.9928 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+    (the coarse guard falsifier fired: the held-out half's combined clean fire-rate 7.4355% > 5% budget (49/659 docs) -- the candidate dies EVEN IF the sigma-gap passes (R16-D2, ledger item 221))
+    sides context (RAW, the item-215 quantities on the held-out half): Side C maxPRsig gap=2.026 | Side F minS gap=1.294 (context only)
+    fire accounting @ coarse guard: 49/659 held-out clean docs fired (7.4355%, Wilson95 upper 9.2963%)
+      budget 5% (ceil 33 docs) -> OVER BUDGET -- THE CANDIDATE DIES (R16-D2 falsifier)
+    loop catches @ thresholds: 8/8 (via z_C 6, via z_F 5)
+    forensics: the clean D tail overlaps the loop floor (23 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 5/8 docs
+      how: loop D range [2.2304, 5.0895], clean D max 4.0468, carried z_C 3 / z_F 5
+      where: top fired clean docs [{'doc_id': 613, 'z_C': 4.0468, 'z_F': 0.0835, 'fired_via': 'C'}, {'doc_id': 657, 'z_C': 4.0054, 'z_F': 0.8703, 'fired_via': 'C'}, {'doc_id': 1097, 'z_C': 3.703, 'z_F': -0.07, 'fired_via': 'C'}] | clean overlap at loop floor: 23
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [humaneval, from cache triadic_t2_cache_t2-he-fresh3_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [humaneval, from cache triadic_t2_cache_t2-he-fresh3_bfloat16_bos.jsonl].
+
+  --- CALIBRATION HALF [humaneval] (even doc_ids; 164 census-clean docs -> 82 even / 82 odd) ---
+    thresholds (the 0.975 clean z-quantiles of the CALIBRATION half): z_C >= 1.9421 | z_F >= 1.7853
+    in-sample clean fires (calibration half): z_C 3 / z_F 3 / combined 6 (7.3171%) -- ~alpha by construction; the falsifier's teeth are the held-out half
+    in-sample loop catch (context): 7/8 live fixtures
+
+  --- HELD-OUT HALF [humaneval] (odd doc_ids; 164 corpus docs | 0 census-excluded | 82 clean held-out | 8 live / 2 inert positives) ---
+    ENSEMBLE D = max(z_C, z_F): sigma-gap=2.246 AUC=0.9695 -> PASS_2SIGMA
+    (held-out 2-sigma verdict statistic met on this leg (gap 2.246 >= 2.0))
+    sides context (RAW, the item-215 quantities on the held-out half): Side C maxPRsig gap=-1.285 | Side F minS gap=2.417 (context only)
+    fire accounting @ coarse guard: 4/82 held-out clean docs fired (4.8780%, Wilson95 upper 10.4306%)
+      budget 5% (ceil 5 docs) -> within budget
+    loop catches @ thresholds: 7/8 (via z_C 0, via z_F 7)
+    forensics: the loop population's D rides Side F on 8/8 docs; the clean overlap at the loop floor is 19 doc(s)
+      how: loop D range [1.1878, 17.3417], clean D max 3.7366, carried z_C 0 / z_F 8
+      where: top fired clean docs [{'doc_id': 45, 'z_C': 1.3181, 'z_F': 3.7366, 'fired_via': 'F'}, {'doc_id': 47, 'z_C': 2.1094, 'z_F': 0.5506, 'fired_via': 'C'}, {'doc_id': 139, 'z_C': 2.0532, 'z_F': -1.4463, 'fired_via': 'C'}] | clean overlap at loop floor: 19
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p, from cache triadic_t2_cache_t2-prose17p-fresh2_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p, from cache triadic_t2_cache_t2-prose17p-fresh2_bfloat16_bos.jsonl].
+
+  --- CALIBRATION HALF [prose17p] (even doc_ids; 178 census-clean docs -> 89 even / 89 odd) ---
+    thresholds (the 0.975 clean z-quantiles of the CALIBRATION half): z_C >= 2.6213 | z_F >= 3.1889
+    in-sample clean fires (calibration half): z_C 3 / z_F 3 / combined 6 (6.7416%) -- ~alpha by construction; the falsifier's teeth are the held-out half
+    in-sample loop catch (context): 8/8 live fixtures
+
+  --- HELD-OUT HALF [prose17p] (odd doc_ids; 180 corpus docs | 2 census-excluded | 89 clean held-out | 8 live / 2 inert positives) ---
+    ENSEMBLE D = max(z_C, z_F): sigma-gap=3.838 AUC=0.9888 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+    (the coarse guard falsifier fired: the held-out half's combined clean fire-rate 8.9888% > 5% budget (8/89 docs) -- the candidate dies EVEN IF the sigma-gap passes (R16-D2, ledger item 221))
+    sides context (RAW, the item-215 quantities on the held-out half): Side C maxPRsig gap=2.602 | Side F minS gap=2.077 (context only)
+    fire accounting @ coarse guard: 8/89 held-out clean docs fired (8.9888%, Wilson95 upper 15.2589%)
+      budget 5% (ceil 5 docs) -> OVER BUDGET -- THE CANDIDATE DIES (R16-D2 falsifier)
+    loop catches @ thresholds: 8/8 (via z_C 7, via z_F 5)
+    forensics: the clean D tail overlaps the loop floor (7 clean doc(s) at/above the lowest loop D); the loop signal rides Side F on 5/8 docs
+      how: loop D range [2.7985, 5.2673], clean D max 4.3439, carried z_C 3 / z_F 5
+      where: top fired clean docs [{'doc_id': 95, 'z_C': 4.3439, 'z_F': -0.4262, 'fired_via': 'C'}, {'doc_id': 119, 'z_C': -1.1452, 'z_F': 3.4769, 'fired_via': 'F'}, {'doc_id': 33, 'z_C': 3.3835, 'z_F': -0.1478, 'fired_via': 'C'}] | clean overlap at loop floor: 7
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [p2corpus, from cache triadic_t2_cache_t2-p2corpus-fresh2_bfloat16_bos.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [p2corpus, from cache triadic_t2_cache_t2-p2corpus-fresh2_bfloat16_bos.jsonl].
+
+  --- CALIBRATION HALF [p2corpus] (even doc_ids; 147 census-clean docs -> 74 even / 73 odd) ---
+    thresholds (the 0.975 clean z-quantiles of the CALIBRATION half): z_C >= 3.2352 | z_F >= 2.9137
+    in-sample clean fires (calibration half): z_C 2 / z_F 2 / combined 4 (5.4054%) -- ~alpha by construction; the falsifier's teeth are the held-out half
+    in-sample loop catch (context): 6/8 live fixtures
+
+  --- HELD-OUT HALF [p2corpus] (odd doc_ids; 180 corpus docs | 33 census-excluded | 73 clean held-out | 8 live / 2 inert positives) ---
+    ENSEMBLE D = max(z_C, z_F): sigma-gap=2.459 AUC=0.9469 -> CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+    (the coarse guard falsifier fired: the held-out half's combined clean fire-rate 8.2192% > 5% budget (6/73 docs) -- the candidate dies EVEN IF the sigma-gap passes (R16-D2, ledger item 221))
+    sides context (RAW, the item-215 quantities on the held-out half): Side C maxPRsig gap=2.63 | Side F minS gap=1.373 (context only)
+    fire accounting @ coarse guard: 6/73 held-out clean docs fired (8.2192%, Wilson95 upper 15.1157%)
+      budget 5% (ceil 4 docs) -> OVER BUDGET -- THE CANDIDATE DIES (R16-D2 falsifier)
+    loop catches @ thresholds: 6/8 (via z_C 5, via z_F 4)
+    forensics: the clean D tail overlaps the loop floor (14 clean doc(s) at/above the lowest loop D); the loop signal rides Side C on 4/8 docs
+      how: loop D range [2.5621, 5.1503], clean D max 5.1325, carried z_C 4 / z_F 4
+      where: top fired clean docs [{'doc_id': 91, 'z_C': 5.1325, 'z_F': -0.4692, 'fired_via': 'C'}, {'doc_id': 137, 'z_C': 4.3091, 'z_F': -0.7907, 'fired_via': 'C'}, {'doc_id': 175, 'z_C': -1.4148, 'z_F': 3.3643, 'fired_via': 'F'}] | clean overlap at loop floor: 14
+
+  --- PRESENTED CANDIDATE VERDICT (the owner's stamps decide) ---
+    RW-16 ensemble D: CANDIDATE-KILLED-FALSE-ALARM-BUDGET -- at least one leg's held-out-half combined clean fire-rate exceeded the coarse-guard budget -- the R16-D2 falsifier; the candidate dies even if gaps passed
+    CAVEAT (item 229, pinned): the candidate-selection caveat (the ceiling+floor pair was assembled from the item-215 readings on these same walks) cannot be removed by any split of the same corpus; the split restores the out-of-sample property at the operating-statistic level only; the honest remedies remain fresh corpora or the permutation null (Option C, standing)
+
+  Exported: triadic_rw16_readout_rw16-adjudication.json
+  CENSUS (rides every readout): named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165
+  RW-14 RIDER: ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders and backlog table (C) adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.
+  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no threshold set, moved, or adjudicated; the thresholds in this export are calibration presentations only; any wiring is the theta-wiring pre-registration's own step.
+  DOC-SPLIT AMENDMENT (ledger item 229): presented readings only;
+  nothing here is a verdict, a threshold, or a wired theta; theta [REDACTED_PER_PUBLICATION_POLICY]
+  unmoved (D-theta); the owner's stamps decide.
+==============================================================================

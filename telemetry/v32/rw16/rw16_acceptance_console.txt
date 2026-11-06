@@ -1,0 +1,205 @@
+==============================================================================
+=== RW-16 ENSEMBLE READOUT TOOL ACCEPTANCE RUN (zero-GPU; the sec. 5 pre-registered acceptance) ===
+  fixtures built deterministically under rw16_readout_fixtures
+
+--- F1: clean four-leg run; hand-checked z/threshold/D math ---
+  PASS F1 exit 0
+  PASS F1 banner prints
+  PASS F1 fixture-mode banner prints
+  PASS F1 census line: the item-213 35-doc class (2 + 33)
+  PASS F1 export carries the tool's own SHA-256 + fixture_mode
+  PASS F1 the R16-D2 two-stage alpha pins (5% coarse / 2.5% per side)
+  PASS F1 theta note + the RW-14 rider typed
+  PASS F1 calibration inputs receipt (record counts + SHAs + the fixture-mode pin echo on the two prose legs)
+  PASS F1 within-set fixture identity receipts (10 fixtures, byte-identical, both sets)
+  PASS F1 cross-set report: 10/10 byte-identical calibration-vs-test
+  PASS F1 cross-set console line prints
+  PASS F1 [gsm8k] calibration census-clean population 41
+  PASS F1 [gsm8k] calibration mu/sd EXACT (independent recomputation)
+  PASS F1 [gsm8k] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F1 [gsm8k] in-sample fire accounting EXACT
+  PASS F1 [gsm8k] in-sample loop catch EXACT
+  PASS F1 [gsm8k] calibration positives 8 live / 2 inert
+  PASS F1 [gsm8k] test populations (41 corpus / 0 census / 41 clean)
+  PASS F1 [gsm8k] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F1 [gsm8k] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F1 [gsm8k] ensemble AUC EXACT
+  PASS F1 [gsm8k] verdict typing PASS_2SIGMA
+  PASS F1 [gsm8k] raw side gaps (context) EXACT
+  PASS F1 [gsm8k] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F1 [gsm8k] loop catches @ thresholds EXACT
+  PASS F1 [gsm8k] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F1 [humaneval] calibration census-clean population 41
+  PASS F1 [humaneval] calibration mu/sd EXACT (independent recomputation)
+  PASS F1 [humaneval] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F1 [humaneval] in-sample fire accounting EXACT
+  PASS F1 [humaneval] in-sample loop catch EXACT
+  PASS F1 [humaneval] calibration positives 8 live / 2 inert
+  PASS F1 [humaneval] test populations (41 corpus / 0 census / 41 clean)
+  PASS F1 [humaneval] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F1 [humaneval] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F1 [humaneval] ensemble AUC EXACT
+  PASS F1 [humaneval] verdict typing PASS_2SIGMA
+  PASS F1 [humaneval] raw side gaps (context) EXACT
+  PASS F1 [humaneval] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F1 [humaneval] loop catches @ thresholds EXACT
+  PASS F1 [humaneval] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F1 [prose17p] calibration census-clean population 41
+  PASS F1 [prose17p] calibration mu/sd EXACT (independent recomputation)
+  PASS F1 [prose17p] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F1 [prose17p] in-sample fire accounting EXACT
+  PASS F1 [prose17p] in-sample loop catch EXACT
+  PASS F1 [prose17p] calibration positives 8 live / 2 inert
+  PASS F1 [prose17p] test populations (42 corpus / 1 census / 41 clean)
+  PASS F1 [prose17p] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F1 [prose17p] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F1 [prose17p] ensemble AUC EXACT
+  PASS F1 [prose17p] verdict typing PASS_2SIGMA
+  PASS F1 [prose17p] raw side gaps (context) EXACT
+  PASS F1 [prose17p] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F1 [prose17p] loop catches @ thresholds EXACT
+  PASS F1 [prose17p] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F1 [p2corpus] calibration census-clean population 41
+  PASS F1 [p2corpus] calibration mu/sd EXACT (independent recomputation)
+  PASS F1 [p2corpus] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F1 [p2corpus] in-sample fire accounting EXACT
+  PASS F1 [p2corpus] in-sample loop catch EXACT
+  PASS F1 [p2corpus] calibration positives 8 live / 2 inert
+  PASS F1 [p2corpus] test populations (42 corpus / 1 census / 41 clean)
+  PASS F1 [p2corpus] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F1 [p2corpus] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F1 [p2corpus] ensemble AUC EXACT
+  PASS F1 [p2corpus] verdict typing PASS_2SIGMA
+  PASS F1 [p2corpus] raw side gaps (context) EXACT
+  PASS F1 [p2corpus] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F1 [p2corpus] loop catches @ thresholds EXACT
+  PASS F1 [p2corpus] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F1 prose17p census: doc 91 verified present, doc 108 reported not-present-in-cache
+  PASS F1 p2corpus census: 33 named, doc 3 verified premise, 32 not-present
+  PASS F1 all four legs clear the held-out 2-sigma bar on D (by construction)
+  PASS F1 AUC exactly 1.0 on all four legs (non-overlap by construction)
+  PASS F1 presented candidate verdict PASS_2SIGMA-ALL-FOUR-LEGS
+  PASS F1 console: the calibration/test blocks + presented verdict print
+
+--- F7: determinism (fresh re-run byte-identical) ---
+  PASS F7 fresh re-run export byte-identical
+
+--- F2: fire-rate falsifier -> CANDIDATE-KILLED ---
+  PASS F2 exit 0
+  PASS F2 the hot leg's clean population 46 (41 + 5 hot)
+  PASS F2 the hot leg fires over the 5% coarse guard (EXACT count)
+  PASS F2 the leg typed CANDIDATE-KILLED-FALSE-ALARM-BUDGET
+  PASS F2 the sigma-gap STILL passes (killed even so -- the R16-D2 falsifier's teeth)
+  PASS F2 the candidate-level verdict KILLED
+  PASS F2 [humaneval] unaffected legs still PASS
+  PASS F2 [prose17p] unaffected legs still PASS
+  PASS F2 [p2corpus] unaffected legs still PASS
+
+--- F3a: negative-population guard (4 clean docs) ---
+  PASS F3a exit 0 (typed, not crashed)
+  PASS F3a the 4-clean-doc leg typed INCONCLUSIVE-POPULATION-GUARD
+  PASS F3a candidate-level INCONCLUSIVE-POPULATION-GUARD
+  PASS F3a the other legs still compute + PASS
+
+--- F3b: positive-population guard (3 live / 7 inert) ---
+  PASS F3b exit 0
+  PASS F3b all four legs: 3 live / 7 inert census + INCONCLUSIVE-POPULATION-GUARD typing
+  PASS F3b candidate-level INCONCLUSIVE-POPULATION-GUARD
+
+--- F4: unit checks via import (the pinned typings + helpers + constants) ---
+  PASS F4 the pinned constants (R16-D2 two-stage alpha; the inherited guards)
+  PASS F4 the 35-doc census dict verbatim (p2corpus:3 first)
+  PASS F4 jitter-band typings: 1.99 INCONCLUSIVE-FROM-JITTER / 1.97 FAIL
+  PASS F4 the above-bar near-bar flag: 2.005 flagged / 2.03 not
+  PASS F4 the population guards + the empty-population typing
+  PASS F4 the pinned _quantile (linear interpolation, hand values)
+  PASS F4 sigma_gap hand value (9/sqrt(0.5))
+  PASS F4 the one-sided 95% Wilson upper bound (independent formula)
+
+--- F5: the inherited hard exits (fail-loud) ---
+  PASS F5a census premise violated -> HARD EXIT naming doc 3
+  PASS F5b out-of-census absent minS -> HARD EXIT naming doc 190
+  PASS F5c key != leg:doc_id -> HARD EXIT
+  PASS F5d truncated JSON record -> HARD EXIT
+  PASS F5e unrecognized leg -> HARD EXIT
+  PASS F5f duplicate leg across calib caches -> HARD EXIT
+  PASS F5g within-set fixture copy divergence -> HARD EXIT naming the fixture
+  PASS F5h missing leg in the CALIBRATION set -> HARD EXIT
+  PASS F5h missing leg in the TEST set -> HARD EXIT
+  PASS F5i the item-199 pin law enforced outside fixture-mode -> HARD EXIT
+
+--- F6: cross-set fixture divergence REPORTED (the virgin-record law) ---
+  PASS F6 exit 0 (reported, not an exit)
+  PASS F6 the export reports the divergent fixture (9/10 identical)
+  PASS F6 the console reports the divergence
+  PASS F6 [gsm8k] calibration census-clean population 41
+  PASS F6 [gsm8k] calibration mu/sd EXACT (independent recomputation)
+  PASS F6 [gsm8k] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F6 [gsm8k] in-sample fire accounting EXACT
+  PASS F6 [gsm8k] in-sample loop catch EXACT
+  PASS F6 [gsm8k] calibration positives 8 live / 2 inert
+  PASS F6 [gsm8k] test populations (41 corpus / 0 census / 41 clean)
+  PASS F6 [gsm8k] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F6 [gsm8k] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F6 [gsm8k] ensemble AUC EXACT
+  PASS F6 [gsm8k] verdict typing PASS_2SIGMA
+  PASS F6 [gsm8k] raw side gaps (context) EXACT
+  PASS F6 [gsm8k] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F6 [gsm8k] loop catches @ thresholds EXACT
+  PASS F6 [gsm8k] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F6 [humaneval] calibration census-clean population 41
+  PASS F6 [humaneval] calibration mu/sd EXACT (independent recomputation)
+  PASS F6 [humaneval] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F6 [humaneval] in-sample fire accounting EXACT
+  PASS F6 [humaneval] in-sample loop catch EXACT
+  PASS F6 [humaneval] calibration positives 8 live / 2 inert
+  PASS F6 [humaneval] test populations (41 corpus / 0 census / 41 clean)
+  PASS F6 [humaneval] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F6 [humaneval] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F6 [humaneval] ensemble AUC EXACT
+  PASS F6 [humaneval] verdict typing PASS_2SIGMA
+  PASS F6 [humaneval] raw side gaps (context) EXACT
+  PASS F6 [humaneval] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F6 [humaneval] loop catches @ thresholds EXACT
+  PASS F6 [humaneval] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F6 [prose17p] calibration census-clean population 41
+  PASS F6 [prose17p] calibration mu/sd EXACT (independent recomputation)
+  PASS F6 [prose17p] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F6 [prose17p] in-sample fire accounting EXACT
+  PASS F6 [prose17p] in-sample loop catch EXACT
+  PASS F6 [prose17p] calibration positives 8 live / 2 inert
+  PASS F6 [prose17p] test populations (42 corpus / 1 census / 41 clean)
+  PASS F6 [prose17p] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F6 [prose17p] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F6 [prose17p] ensemble AUC EXACT
+  PASS F6 [prose17p] verdict typing PASS_2SIGMA
+  PASS F6 [prose17p] raw side gaps (context) EXACT
+  PASS F6 [prose17p] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F6 [prose17p] loop catches @ thresholds EXACT
+  PASS F6 [prose17p] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F6 [p2corpus] calibration census-clean population 41
+  PASS F6 [p2corpus] calibration mu/sd EXACT (independent recomputation)
+  PASS F6 [p2corpus] thresholds = the pinned 0.975 z-quantiles (independent recomputation)
+  PASS F6 [p2corpus] in-sample fire accounting EXACT
+  PASS F6 [p2corpus] in-sample loop catch EXACT
+  PASS F6 [p2corpus] calibration positives 8 live / 2 inert
+  PASS F6 [p2corpus] test populations (42 corpus / 1 census / 41 clean)
+  PASS F6 [p2corpus] positives from the leg's OWN cache (8 live / 2 inert)
+  PASS F6 [p2corpus] ensemble D sigma-gap EXACT (independent recomputation)
+  PASS F6 [p2corpus] ensemble AUC EXACT
+  PASS F6 [p2corpus] verdict typing PASS_2SIGMA
+  PASS F6 [p2corpus] raw side gaps (context) EXACT
+  PASS F6 [p2corpus] fire accounting EXACT (count-based honesty + Wilson upper)
+  PASS F6 [p2corpus] loop catches @ thresholds EXACT
+  PASS F6 [p2corpus] the item-220 forensics block rides the leg (HOW/WHERE/WHY/WHAT-NEXT)
+  PASS F6 the readout is undisturbed (the 63-step copy scores identically; candidate PASS)
+
+--- F8: tuned legs -- gap 2.01 (PASS + near-bar) / gap 1.99 (INCONCLUSIVE-FROM-JITTER) ---
+  PASS F8 exit 0
+  PASS F8 gsm8k tuned to gap 2.01: PASS_2SIGMA + the near-bar flag (hand-solved intercept)
+  PASS F8 humaneval tuned to gap 1.99: INCONCLUSIVE-FROM-JITTER
+  PASS F8 candidate-level INCONCLUSIVE-FROM-JITTER with the near-bar leg flagged
+
+  === ACCEPTANCE CENSUS: 180 PASS / 0 FAIL ===
+  Fix-the-fixture-or-the-builder, never the tool.
+==============================================================================
