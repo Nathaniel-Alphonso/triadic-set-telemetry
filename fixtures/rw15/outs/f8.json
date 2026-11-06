@@ -1,0 +1,418 @@
+{
+  "census_line": "named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165",
+  "census_ruling": "ledger item 205 (Option A), amended by ledger item 213 (the verified 35-doc empty-generation class): named-record exclusion for the loop-side/adjudication NEGATIVE population; D-FW3 'corpus WHOLE' clause amended by the owner's stamp",
+  "direction_consistency_presented": {
+    "G1_rev_minRho": {
+      "note": "a task-general adoption claim requires same-sign on both task legs (gsm8k + humaneval); leg-mismatched candidates adopt per-leg only; the prose lanes are recorded under the D-FW1(b) full-coverage ruling -- presented, never adjudicated.",
+      "per_leg_sign": {
+        "p2corpus": "+"
+      },
+      "task_pair_present": false,
+      "task_pair_same_sign": null
+    },
+    "G4_rev_minS": {
+      "note": "a task-general adoption claim requires same-sign on both task legs (gsm8k + humaneval); leg-mismatched candidates adopt per-leg only; the prose lanes are recorded under the D-FW1(b) full-coverage ruling -- presented, never adjudicated.",
+      "per_leg_sign": {
+        "p2corpus": "+"
+      },
+      "task_pair_present": false,
+      "task_pair_same_sign": null
+    },
+    "G5_rev_minEbar": {
+      "note": "a task-general adoption claim requires same-sign on both task legs (gsm8k + humaneval); leg-mismatched candidates adopt per-leg only; the prose lanes are recorded under the D-FW1(b) full-coverage ruling -- presented, never adjudicated.",
+      "per_leg_sign": {
+        "p2corpus": "-"
+      },
+      "task_pair_present": false,
+      "task_pair_same_sign": null
+    }
+  },
+  "empty_form_records_excluded": [
+    {
+      "cache": "f8_empty_form.jsonl",
+      "doc_id": "12",
+      "leg": "p2corpus"
+    }
+  ],
+  "fixture_identity_receipt": {
+    "copies_byte_identical": true,
+    "n_caches_carrying_fixtures": 1,
+    "n_loop_fixtures": 10,
+    "rule": "each leg's positives come from THAT leg's own cache's live loop fixtures (the instrument's loop_views[leg] semantics); cross-cache copies asserted byte-identical, never pooled (item-213 Stamp 2)"
+  },
+  "fixture_mode": true,
+  "inputs": [
+    {
+      "n_empty_form": 1,
+      "n_records": 71,
+      "path": "f8_empty_form.jsonl",
+      "pin": {
+        "leg": "p2corpus",
+        "match": false,
+        "pinned_file": "triadic_t2_cache_t2-p2corpus-fresh_bfloat16_bos.jsonl",
+        "pinned_sha256": "b9d0219576b0519018ec1343371209f93919b078ea7aa482a7d8f6346eba78a8"
+      },
+      "sha256": "f1c1c7f770759e3838de2d2a81a78cfd593b63de21c7b70817517b9030d0523f"
+    }
+  ],
+  "legs": {
+    "p2corpus": {
+      "census_docs": [
+        {
+          "doc_id": 7,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 8,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 13,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 16,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 17,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 18,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 23,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 27,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 28,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 33,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 37,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 38,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 43,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 48,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 52,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 53,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 58,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 62,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 63,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 66,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 74,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 75,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 76,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 78,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 85,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 86,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 93,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 113,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 118,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 128,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 133,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 165,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 3,
+          "n_commits": 0,
+          "n_content_steps": 0,
+          "n_gen_steps": 0,
+          "premise": "verified: empty generation (EOS@step0)",
+          "present": true,
+          "stop_reason": "eos"
+        }
+      ],
+      "direction_candidates": {
+        "G1_rev_minRho": {
+          "auc": 0.0,
+          "doc_score": "minRho",
+          "note": "adoption candidate",
+          "sigma_gap": 0.0,
+          "theta": 0.05,
+          "youden_J": null
+        },
+        "G4_rev_minS": {
+          "auc": 1.0,
+          "doc_score": "minS",
+          "note": "adoption candidate -- the lead",
+          "sigma_gap": 63.48,
+          "theta": 0.163796875,
+          "youden_J": 1.0
+        },
+        "G5_rev_minEbar": {
+          "auc": 0.0,
+          "doc_score": "minEbar",
+          "note": "MEASURED-NOT-ADOPTED (D-FW5(c) ruling -- per-leg adoption only under its own future stamp)",
+          "sigma_gap": -120.856,
+          "theta": 1.2,
+          "youden_J": null
+        }
+      },
+      "doc_separations_census_applied": {
+        "G1_drift": {
+          "auc": 1.0,
+          "desc": "attention anchor-mass drift vs depth baseline",
+          "doc_score": "maxD",
+          "separates_2sigma": false,
+          "sigma_gap": 0.0,
+          "theta": 0.05205847255369934,
+          "youden_J": 1.0
+        },
+        "G2_entropy": {
+          "auc": 1.0,
+          "desc": "spatial hidden-entropy excursion, |dH|/sigma per layer",
+          "doc_score": "maxAbsHsig",
+          "separates_2sigma": false,
+          "sigma_gap": 0.0,
+          "theta": 1.6669156232339597,
+          "youden_J": 1.0
+        },
+        "G3_pr": {
+          "auc": 1.0,
+          "desc": "participation-ratio collapse, (PIbar-PR)/sigma per layer",
+          "doc_score": "maxPRsig",
+          "separates_2sigma": false,
+          "sigma_gap": 0.0,
+          "theta": 1.7973542175170363,
+          "youden_J": 1.0
+        },
+        "G4_topic": {
+          "auc": 0.0,
+          "desc": "prompt-anchorage excursion vs depth baseline",
+          "doc_score": "maxSexc",
+          "separates_2sigma": false,
+          "sigma_gap": -63.477,
+          "theta": -45.19702881928857,
+          "youden_J": null
+        },
+        "G5_collapse": {
+          "auc": 1.0,
+          "desc": "windowed output-entropy collapse vs depth baseline",
+          "doc_score": "maxC",
+          "separates_2sigma": true,
+          "sigma_gap": 121.809,
+          "theta": 0.01781101433543994,
+          "youden_J": 1.0
+        },
+        "f8_mirror": {
+          "auc": 1.0,
+          "desc": "8-gram repetition mirror of the fuzzy primary lane",
+          "doc_score": "maxf",
+          "separates_2sigma": false,
+          "sigma_gap": 0.0,
+          "theta": 0.0078125,
+          "youden_J": 1.0
+        }
+      },
+      "f8_map": {
+        "J_at_banked_theta": 1.0,
+        "J_curve": [
+          {
+            "J_at_value": 0.0,
+            "clean_n": 59,
+            "loop_n": 0,
+            "value": 0.0
+          },
+          {
+            "J_at_value": 1.0,
+            "clean_n": 0,
+            "loop_n": 8,
+            "value": 1.0
+          }
+        ],
+        "banked_theta": 0.0078125,
+        "best_J": 1.0,
+        "best_value": 1.0,
+        "clean_hist": {
+          "0.0": 59
+        },
+        "clean_share_at_1.0": 0.0,
+        "doc_score": "maxf",
+        "loop_hist": {
+          "1.0": 8
+        },
+        "n_clean": 59,
+        "n_loop": 8,
+        "note": "quantized statistic: sweep theta at/just above each distinct value; the grid must straddle the full-scale Youden against a 1.0 mass point."
+      },
+      "g3_theta_curve": {
+        "J_at_banked_theta": 1.0,
+        "J_curve": {
+          "1.5548": 0.0,
+          "32.6023": 1.0
+        },
+        "J_max": 1.0,
+        "banked_theta": 1.7973542175170363,
+        "doc_score": "maxPRsig",
+        "flat_region_0.9Jmax": {
+          "hi": 32.6023,
+          "lo": 32.6023
+        },
+        "n_grid": 2,
+        "note": "sweep points inside the flat region; the curve is reported so Gate-12 starts from an examined optimum.",
+        "theta_at_J_max": 32.6023
+      },
+      "loop_population": {
+        "inert": [
+          "inert-loop-seeded-chant",
+          "inert-loop-seeded-code-line"
+        ],
+        "n_inert": 2,
+        "n_live": 8,
+        "source_cache": "f8_empty_form.jsonl"
+      },
+      "n_census_excluded": 1,
+      "n_clean_negative_population": 59,
+      "n_corpus_all": 60,
+      "rw15_verdict_typings_presented": {
+        "G1_rev_minRho": {
+          "auc": 0.0,
+          "doc_score": "minRho",
+          "leg": "p2corpus",
+          "n_neg": 59,
+          "n_pos": 8,
+          "sigma_gap": 0.0,
+          "theta": 0.05,
+          "verdict_basis": "held-out 2-sigma verdict statistic not met on this leg (gap 0.0 < 2.0, outside the jitter band)",
+          "verdict_presented": "FAIL",
+          "youden_J": null
+        },
+        "G4_rev_minS": {
+          "auc": 1.0,
+          "doc_score": "minS",
+          "leg": "p2corpus",
+          "n_neg": 59,
+          "n_pos": 8,
+          "sigma_gap": 63.48,
+          "theta": 0.163796875,
+          "verdict_basis": "held-out 2-sigma verdict statistic met on this leg (gap 63.48 >= 2.0)",
+          "verdict_presented": "PASS_2SIGMA",
+          "youden_J": 1.0
+        },
+        "G5_rev_minEbar": {
+          "auc": 0.0,
+          "doc_score": "minEbar",
+          "leg": "p2corpus",
+          "n_neg": 59,
+          "n_pos": 8,
+          "sigma_gap": -120.856,
+          "theta": 1.2,
+          "verdict_basis": "held-out 2-sigma verdict statistic not met on this leg (gap -120.856 < 2.0, outside the jitter band)",
+          "verdict_presented": "FAIL",
+          "youden_J": null
+        }
+      }
+    }
+  },
+  "mode": "RW-15 D-FW3 adjudication readout (offline read-only; census-applied; proposal tables + presented verdict typings -- NO adjudication, NO threshold, NO wired theta)",
+  "prereg": "rw15-adjudication-readout-preregistration.md (owner-stamped, ledger item 208)",
+  "rw14_rider": "ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders (tail_meanP gsm-only; meanP both legs) and backlog table (C) adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.",
+  "tool": "triadic_rw15_readout.py",
+  "tool_sha256": "cc3b80cb46fe665bd519c09aa9317631a64b33c5bb826bf84249d9263434aec1"
+}
