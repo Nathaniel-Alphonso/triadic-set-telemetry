@@ -1,0 +1,48 @@
+=== 17-P2 OFFLINE PASS (M1-P2"-M5-P2") ===
+input manifest: triadic_p2corpus_prompts_v1.json sha256=b7607f8309033654... pin_match=True
+input raw: triadic_generations_p2corpus_raw_v1.json sha256=8ba17942eff1ffb7... pin_match=True
+input chat: triadic_generations_p2corpus_chat_v1.json sha256=d3eb049df72b68e3... pin_match=True
+
+----- raw leg -----
+M1-P2" promotions: total=28 by_shape={'PROMOTION-A': 6, 'PROMOTION-B': 22}
+  family x shape matrix {'RxA': 5, 'RxB': 3, 'DxA': 1, 'DxB': 19} (designed pairs Rx A / DxB; cross cells RxB / DxA censused)
+  axis x shape: {'present-contradicting': {'PROMOTION-A': 3, 'PROMOTION-B': 8}, 'absent': {'PROMOTION-A': 2, 'PROMOTION-B': 5}, 'consistent-control': {'PROMOTION-A': 1, 'PROMOTION-B': 9}}
+  control-origin promotions (censused separately): 10
+M2-P2" conflicts: 6 by_family={'R': 2, 'D': 4} control_firings=8 absent_promotions=7 evidence_engaged_contra=52
+M3-P2" desire_engaged=106 evidence_engaged_by_axis={'present-contradicting': 52, 'absent': 0, 'consistent-control': 27} fails_open_immune=186 established=62
+  marker 'I want': docs=22 silent=1 promoted=3 engaged_not_promoted=8 unengaged=10
+  marker "I'm hoping": docs=22 silent=1 promoted=5 engaged_not_promoted=12 unengaged=4
+  marker 'We need': docs=20 silent=0 promoted=4 engaged_not_promoted=14 unengaged=2
+  marker "I'd love": docs=18 silent=10 promoted=1 engaged_not_promoted=2 unengaged=5
+  marker 'The client expects': docs=18 silent=0 promoted=3 engaged_not_promoted=11 unengaged=4
+  marker 'We already told': docs=16 silent=0 promoted=3 engaged_not_promoted=5 unengaged=8
+  marker "Let's target": docs=16 silent=2 promoted=2 engaged_not_promoted=10 unengaged=2
+  marker "I'm counting on": docs=16 silent=8 promoted=1 engaged_not_promoted=6 unengaged=1
+  marker "I'd like": docs=16 silent=11 promoted=1 engaged_not_promoted=2 unengaged=2
+  marker 'we promised': docs=16 silent=0 promoted=1 engaged_not_promoted=12 unengaged=3
+M4-P2" silence: blank_answers=33 by_family={'R': 27, 'D': 6} by_axis={'present-contradicting': 19, 'absent': 7, 'consistent-control': 7} by_family_axis={'R/present-contradicting': 14, 'R/absent': 7, 'R/consistent-control': 6, 'D/present-contradicting': 5, 'D/absent': 0, 'D/consistent-control': 1}
+M5-P2" cost: total_meter_chars=167570 per_doc_avg=930.9
+
+----- chat leg -----
+M1-P2" promotions: total=18 by_shape={'PROMOTION-A': 4, 'PROMOTION-B': 14}
+  family x shape matrix {'RxA': 4, 'RxB': 5, 'DxA': 0, 'DxB': 9} (designed pairs Rx A / DxB; cross cells RxB / DxA censused)
+  axis x shape: {'present-contradicting': {'PROMOTION-A': 1, 'PROMOTION-B': 7}, 'absent': {'PROMOTION-A': 0, 'PROMOTION-B': 3}, 'consistent-control': {'PROMOTION-A': 3, 'PROMOTION-B': 4}}
+  control-origin promotions (censused separately): 7
+M2-P2" conflicts: 3 by_family={'R': 2, 'D': 1} control_firings=7 absent_promotions=3 evidence_engaged_contra=49
+M3-P2" desire_engaged=137 evidence_engaged_by_axis={'present-contradicting': 49, 'absent': 0, 'consistent-control': 36} fails_open_immune=135 established=68
+  marker 'I want': docs=22 silent=0 promoted=3 engaged_not_promoted=16 unengaged=3
+  marker "I'm hoping": docs=22 silent=0 promoted=5 engaged_not_promoted=15 unengaged=2
+  marker 'We need': docs=20 silent=0 promoted=3 engaged_not_promoted=13 unengaged=4
+  marker "I'd love": docs=18 silent=0 promoted=1 engaged_not_promoted=14 unengaged=3
+  marker 'The client expects': docs=18 silent=0 promoted=0 engaged_not_promoted=13 unengaged=5
+  marker 'We already told': docs=16 silent=0 promoted=2 engaged_not_promoted=7 unengaged=7
+  marker "Let's target": docs=16 silent=0 promoted=1 engaged_not_promoted=12 unengaged=3
+  marker "I'm counting on": docs=16 silent=0 promoted=0 engaged_not_promoted=7 unengaged=9
+  marker "I'd like": docs=16 silent=0 promoted=2 engaged_not_promoted=13 unengaged=1
+  marker 'we promised': docs=16 silent=0 promoted=0 engaged_not_promoted=10 unengaged=6
+M4-P2" silence: blank_answers=0 by_family={'R': 0, 'D': 0} by_axis={'present-contradicting': 0, 'absent': 0, 'consistent-control': 0} by_family_axis={'R/present-contradicting': 0, 'R/absent': 0, 'R/consistent-control': 0, 'D/present-contradicting': 0, 'D/absent': 0, 'D/consistent-control': 0}
+M5-P2" cost: total_meter_chars=137457 per_doc_avg=763.6
+
+fault ledger lines: 103
+R-Q1 runs-clean: censuses executed on every doc both legs, partition checks asserted -> see export
+export written: triadic_p2corpus_offline_pass_v1.json + per-doc fault jsonl

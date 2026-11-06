@@ -1,0 +1,13 @@
+=== ARITHMETIC CHECKER OFFLINE PASS 8B (raw leg; chat leg = the sibling fork) ===
+M1 candidates=7094 wellformed=6805 false_parses=289 precision=0.9593
+M1 census: {'equivalence-chain': 142, 'malformed-expr-or-result': 36, 'no-parseable-result': 9, 'lhs-not-arith': 89, 'malformed-result': 9, 'malformed-number': 3}
+M2 statements=6805 slips=94 rate=0.01381 docs_with_slip=57/1319
+M2 families: {'inline': {'docs': 316, 'statements': 925, 'slips': 21, 'slip_rate': 0.022702702702702703, 'docs_with_slip': 17}, 'scratchpad': {'docs': 1, 'statements': 2, 'slips': 0, 'slip_rate': 0.0, 'docs_with_slip': 0}, 'mixed': {'docs': 965, 'statements': 5878, 'slips': 73, 'slip_rate': 0.012419190200748553, 'docs_with_slip': 40}}
+M2 position: {'early': 29, 'late': 65}
+M2 label join: wrong_with_slip=0.1233 correct_with_slip=0.0116 finish_wrong_given_slip=0.8070 base=0.2828 no_slip_wrong_rate=0.2498
+M3 answers=1318 violations=128 rate=0.0971 no_chain=47 methods={'hash': 1225, 'answer-is': 73, 'last-number': 20}
+M3 wrong viol=0.2440 correct viol=0.0391
+M4 slip-score sigma_gap=0.425 auc=0.5560
+M4 slip-flag: wrong 46/373 correct 11/946 sigma_gap=0.457 auc=0.5558
+M4 content-flag: wrong 107/373 correct 45/946 sigma_gap=0.677 auc=0.6196
+loop leg color: [{'doc_id': 'loop-injection-prose', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-injection-code', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'mask-reserved-stubborn', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-counter', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-cycle', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-affirm', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-json', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-countdown', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-chant', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-code-line', 'n_wf': 0, 'n_slips': 0}]

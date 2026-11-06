@@ -1,0 +1,23 @@
+=== BUILD: evaluate_triadic_v32_3b.py (the 3B Tier C vehicle) ===
+governing sheet: phase4-3b-tierc-remeasurement-amendment-spec.md
+  sheet SHA-256 (pinned, ledger item 306): 65cd3fb14aec6bff07a01c249ee6a0568c999f6e3f185a63f02afc5bfec8d059
+base: evaluate_triadic_v32p.py 277522 B
+  base SHA-256: da62fb18b280a98b68cdb1f12dedd2bbf766ee49eb30b709d99dba4b004bfad1
+instrument line: evaluate_triadic_v32.py 261957 B SHA-256 fc8531d3051260a7731c4582df3716bb24292b08370092a8ee16291ae76fe4a0
+  both anchors EXACT MATCH — building.
+[V0+V1+V2+V3] 21 anchored edits applied, each exactly-once (V0 the provenance header; V1a/V1b the model-id swap; V2 the ruling-(A) tiers=("c",) injection; V3 the 10 output-path templates + 7 help/docstring restatements).
+[ROUND-TRIP] INVERSE EXACT: fork - edits == base, byte for byte.
+[BYTE-IDENTITY] R1-FIXTURE-CONTRACT: 4329 B EXACT (25 lines).
+[BYTE-IDENTITY] R2-EXIT-POLICY-CONSTANTS: 3924 B EXACT (54 lines).
+[BYTE-IDENTITY] R3-EXIT-DECISION-BLOCK: 11074 B EXACT (189 lines).
+[BYTE-IDENTITY] R4-HARNESS-COMPARISON-LAW: 2219 B EXACT (49 lines).
+[BYTE-IDENTITY] R5-INJECT-REMOVE-MACHINERY: 6803 B EXACT (121 lines).
+[BYTE-IDENTITY] R6-DIVERGENCE-HARNESS: 11064 B EXACT MODULO THE ONE V2 LINE (the ruling-(A) injection site) — the harness's only delta.
+[LAWS] the model-id: 3B at both V1 sites; the single remaining 1B mention is the frozen v29.2 historical comment (carried).
+[LAWS] no full-default inject_triadic_governor call remains (the V2 site was the only one).
+[PY_COMPILE] clean.
+[WRITE] evaluate_triadic_v32_3b.py: 282190 B
+  fork SHA-256: cba2f07550efa4d16df58defc2a4140c5cc92cb76e4dbdfe524c34ef4e603974
+[UNMOVED] base + frozen 1B instrument line re-hashed after the build: EXACT MATCH both.
+=== BUILD VERDICT: PASS — the fork is the base plus the 21 enumerated anchored edits, ZERO detector bytes changed. ===
+REAL MODE NOT RUN — zero decodes assistant-side (the B6-class law); the real receipt is the owner-side W7 harness run, AFTER the W1 smoke banks the memory line (the ladder never waited on this build).

@@ -1,0 +1,13 @@
+=== ARITHMETIC CHECKER OFFLINE PASS 8B (chat leg; raw leg = the sibling fork) ===
+M1 candidates=352 wellformed=310 false_parses=42 precision=0.8807
+M1 census: {'lhs-not-arith': 16, 'equivalence-chain': 15, 'no-parseable-result': 6, 'malformed-expr-or-result': 1, 'malformed-result': 1}
+M2 statements=310 slips=2 rate=0.00645 docs_with_slip=1/100
+M2 families: {'inline': {'docs': 73, 'statements': 217, 'slips': 2, 'slip_rate': 0.009216589861751152, 'docs_with_slip': 1}, 'scratchpad': {'docs': 1, 'statements': 1, 'slips': 0, 'slip_rate': 0.0, 'docs_with_slip': 0}, 'mixed': {'docs': 18, 'statements': 92, 'slips': 0, 'slip_rate': 0.0, 'docs_with_slip': 0}}
+M2 position: {'early': 1, 'late': 1}
+M2 label join: wrong_with_slip=0.0000 correct_with_slip=0.0130 finish_wrong_given_slip=0.0000 base=0.2300 no_slip_wrong_rate=0.2308
+M3 answers=100 violations=18 rate=0.1800 no_chain=9 methods={'hash': 90, 'last-number': 10}
+M3 wrong viol=0.2609 correct viol=0.1558
+M4 slip-score sigma_gap=-0.162 auc=0.4935
+M4 slip-flag: wrong 0/23 correct 1/77 sigma_gap=-0.162 auc=0.4935
+M4 content-flag: wrong 6/23 correct 12/77 sigma_gap=0.261 auc=0.5525
+loop leg color: [{'doc_id': 'loop-injection-prose', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-injection-code', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'mask-reserved-stubborn', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-counter', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-cycle', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-affirm', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-json', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-countdown', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-chant', 'n_wf': 0, 'n_slips': 0}, {'doc_id': 'loop-seeded-code-line', 'n_wf': 0, 'n_slips': 0}]

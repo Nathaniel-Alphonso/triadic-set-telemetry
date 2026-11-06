@@ -1,0 +1,58 @@
+=== CHECKER PASSES 3B BUILD (the four forks; the item-298/301 anchored-edit pattern) ===
+base triadic_checker_offline_pass.py: SHA-256 verified == banked pin EXACT (unmoved before build)
+base triadic_checker_offline_pass_chat.py: SHA-256 verified == banked pin EXACT (unmoved before build)
+base triadic_prose17p_offline_pass.py: SHA-256 verified == banked pin EXACT (unmoved before build)
+base triadic_p2corpus_offline_pass.py: SHA-256 verified == banked pin EXACT (unmoved before build)
+17-C triadic_code17c_offline_pass.py: verified UNMOVED == banked pin (NO fork, zero tool-byte changes, the sheet S4)
+  triadic_checker_offline_pass_3b.py E1 docstring/input block: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E2 hashlib import: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E3 labels source: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E4 glob + rejoin provenance: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E5 export pass string: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E6 export tool string: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E7 export inputs block: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E8 output filename: applied (exactly-once)
+  triadic_checker_offline_pass_3b.py E9 console banner: applied (exactly-once)
+triadic_checker_offline_pass_3b.py: INVERSE ROUND-TRIP EXACT (the stripped fork reproduces the frozen 1B bytes)
+triadic_checker_offline_pass_3b.py: written + py_compile clean; 23442 B; SHA-256 fa1219d0eaad03f3004af017c730f127f221631954332130148fc200a60c1859
+  triadic_checker_offline_pass_chat_3b.py C1 docstring/input block: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C2 hashlib import: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C3 labels source: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C4 dump source: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C5 assert re-pin + dump provenance: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C6 export pass string: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C7 export tool string: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C8 export inputs block: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C9 output filename: applied (exactly-once)
+  triadic_checker_offline_pass_chat_3b.py C10 console banner: applied (exactly-once)
+triadic_checker_offline_pass_chat_3b.py: INVERSE ROUND-TRIP EXACT (the stripped fork reproduces the frozen 1B bytes)
+triadic_checker_offline_pass_chat_3b.py: written + py_compile clean; 23922 B; SHA-256 d21b35f6f71080f72dc0a74d1187d14822db6fa1bdda569986f6823ee9736042
+  triadic_prose17p_offline_pass_3b.py P1 docstring inputs/outputs block: applied (exactly-once)
+  triadic_prose17p_offline_pass_3b.py P2 output paths: applied (exactly-once)
+  triadic_prose17p_offline_pass_3b.py P3 pins block (manifest carries; dumps -> SLOTS): applied (exactly-once)
+  triadic_prose17p_offline_pass_3b.py P4 dump filenames: applied (exactly-once)
+  triadic_prose17p_offline_pass_3b.py P5 pin-slot guard: applied (exactly-once)
+  triadic_prose17p_offline_pass_3b.py P6 banner instrument string: applied (exactly-once)
+  triadic_prose17p_offline_pass_3b.py P7 console export line: applied (exactly-once)
+triadic_prose17p_offline_pass_3b.py: INVERSE ROUND-TRIP EXACT (the stripped fork reproduces the frozen 1B bytes)
+triadic_prose17p_offline_pass_3b.py: written + py_compile clean; 34803 B; SHA-256 61058e60d9466cd7fdc2815f84a74879be05934541dd4547df2f4f871476c524
+  triadic_p2corpus_offline_pass_3b.py Q1 docstring inputs/outputs block: applied (exactly-once)
+  triadic_p2corpus_offline_pass_3b.py Q2 output paths: applied (exactly-once)
+  triadic_p2corpus_offline_pass_3b.py Q3 pins block (manifest carries; dumps -> SLOTS): applied (exactly-once)
+  triadic_p2corpus_offline_pass_3b.py Q4 dump filenames: applied (exactly-once)
+  triadic_p2corpus_offline_pass_3b.py Q5 pin-slot guard: applied (exactly-once)
+  triadic_p2corpus_offline_pass_3b.py Q6 banner instrument string: applied (exactly-once)
+  triadic_p2corpus_offline_pass_3b.py Q7 console export line: applied (exactly-once)
+triadic_p2corpus_offline_pass_3b.py: INVERSE ROUND-TRIP EXACT (the stripped fork reproduces the frozen 1B bytes)
+triadic_p2corpus_offline_pass_3b.py: written + py_compile clean; 27126 B; SHA-256 e71f8ce87e63a63db3c9517a0ec4a5076731cb903d1a9c29b8393230b370e5b3
+all four frozen 1B bases re-verified UNMOVED after the build
+
+--- the forks of record (SHAs for the ledger) ---
+triadic_checker_offline_pass_3b.py  SHA-256 fa1219d0eaad03f3004af017c730f127f221631954332130148fc200a60c1859
+triadic_checker_offline_pass_chat_3b.py  SHA-256 d21b35f6f71080f72dc0a74d1187d14822db6fa1bdda569986f6823ee9736042
+triadic_prose17p_offline_pass_3b.py  SHA-256 61058e60d9466cd7fdc2815f84a74879be05934541dd4547df2f4f871476c524
+triadic_p2corpus_offline_pass_3b.py  SHA-256 e71f8ce87e63a63db3c9517a0ec4a5076731cb903d1a9c29b8393230b370e5b3
+
+theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated;
+pi = FLAG_ONLY; zero-GPU, zero real bytes, zero decodes; findings presented,
+never adjudicated -- the owner's stamps decide.

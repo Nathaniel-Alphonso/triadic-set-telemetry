@@ -1,0 +1,123 @@
+{
+ "compliance": "theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; descriptive only",
+ "cost_census": {
+  "count_at_kill": {
+   "bound_law": "count_at_kill is a DETERMINISTIC LOWER BOUND within CADENCE of the killed run's true count; the true count is unknown by construction (the run never completed)",
+   "cadence": 4194304,
+   "cadence_law": "progress line every CADENCE instructions (an instruction-count interval, never wall-clock)",
+   "determinism_claim": "the cadence-line VALUES are deterministic; which line was LAST may differ per rep (the wall-clock kill lands at a different instruction position); per-rep last lines are recorded as a RANGE, never forced to agree",
+   "killed_meter_reps": 0,
+   "per_doc": {}
+  },
+  "meter": {
+   "definition": "instruction-count via sys.monitoring (PEP 669) INSTRUCTION events, program code objects only (item 67 deterministic-meter law); deterministic per program, version-pinned; v1.0.1 fix note: settrace f_trace_opcodes is non-functional on CPython 3.12, replaced pre-run",
+   "max": 3357063,
+   "meter_budget_recommendation": {
+    "p99": 2606744,
+    "p99_x1.25": 3258430,
+    "p99_x1.5": 3910116,
+    "rule": "P99-plus-margin (owner fixture-time stamp)"
+   },
+   "n_runs": 492,
+   "p50": 152,
+   "p95": 2344,
+   "p99": 2606744
+  },
+  "meter_determinism": {
+   "docs_checked": 164,
+   "flips": [
+    38,
+    50
+   ],
+   "law": "identical across reps for every deterministic program; any flip = VOID-class instrument bug (R-C2)"
+  },
+  "post_block_commitment_volume": {
+   "tier2_read": "post-block commitments = 0 on this corpus -> Tier 2 (in-loop blocking execution) NOT PROPOSED (R-C3)",
+   "total_chars": 207
+  },
+  "wallclock_untraced_s": {
+   "max": 0.3975,
+   "note": "measured under parallel load; failsafe/census only, never a semantic input",
+   "p50": 0.175,
+   "p99": 0.385
+  }
+ },
+ "e_prime_contract": {
+  "fields": [
+   "doc",
+   "m1_class",
+   "verdict",
+   "reps[rc,wallclock_s,timeout,traceback_head] (null for non-RUNNABLE)",
+   "meter_reps[meter,rc] (null for non-RUNNABLE)",
+   "label",
+   "agreement",
+   "rejudge_pass",
+   "block_chars",
+   "block_lines",
+   "fences",
+   "post_block_chars",
+   "stated_answer_prose",
+   "guards[meter_deterministic,label_agrees]",
+   "pass@1_dump",
+   "generated_len_tokens"
+  ],
+  "note": "append-only, fixed-size records; the schema every future 17-C consumer is written against"
+ },
+ "execution_host": "assistant-side sandbox (the 17-A pattern)",
+ "honesty_clause": "the banked rejudge labels are an INPUT (the agreement join); this pass never re-derives pass@1",
+ "inputs": {
+  "dump": "triadic_generations_humaneval_he-base164-v31.json",
+  "dump_sha256_note": "all three manifest checksums banked and matched (ledger items 130-132, 137)",
+  "labels": "triadic_generations_humaneval_he-base164-v31.rejudged.json",
+  "prompts": "triadic_canonical_prompts_he164.json"
+ },
+ "instrument": "triadic_code17c_offline_pass_kc v1.0.0-kc (Oct 24 2026) -- the count-at-kill fork of record (item 761)",
+ "kc_amendment": {
+  "cadence": 4194304,
+  "pre_registration": "code17c-count-at-kill-preregistration.md (owner-stamped Oct 24 2026, ledger item 761)",
+  "provenance": "anchored-edit fork of the frozen base triadic_code17c_offline_pass.py (SHA-256 439c892a5b1a27a7ed1b5f7dd2d9a4e99c9c57d072e1b14fc0a18f3ecd8efc5e, verified unmoved before and after the build)",
+  "supersession": "this fork is the 8B pass's instrument of record per his item-761 stamp (the pinned sheet's S7); the frozen base and the banked 1B record stand unmoved"
+ },
+ "m1_extraction_census": {
+  "block_chars": {
+   "max": 4545,
+   "min": 17,
+   "p50": 179.0
+  },
+  "cap_note": "no stop_reason in-dump; generated_len_tokens has no cap mass point (p99=245, max=1025) -- EOT-stopped corpus; CAP-TRUNCATED count is 0 by census",
+  "class_counts": {
+   "MULTI-BLOCK": 0,
+   "NO-EXTRACTABLE-BLOCK": 0,
+   "RUNNABLE": 164,
+   "UNCOMPILABLE": 0
+  },
+  "fenced_docs": 0
+ },
+ "m2_verdict_census": {
+  "agreement_join": {
+   "agree": 164,
+   "disagree": 0,
+   "disagree_docs": [],
+   "docs_joined": 164,
+   "instrument_pass": 58,
+   "label_true": 58
+  },
+  "rep_flake_docs": [],
+  "verdict_counts": {
+   "FAIL-TESTS": 106,
+   "PASS": 58
+  }
+ },
+ "m3_fail_trace": {
+  "stated_answer_prose_docs": [],
+  "status": "NOT-MEASURED-ON-THIS-CORPUS"
+ },
+ "python_pin": "3.12.14",
+ "readings": {
+  "R-C1_instrument_validation": "PENDING ADJUDICATION: agreement join holds modulo censused flake AND meter determinism holds",
+  "R-C2": "meter determinism: see meter_determinism.flips",
+  "R-C3": "see cost_census.post_block_commitment_volume.tier2_read",
+  "R-C4_coverage": "UNVERIFIED-class census sizes the oracle's coverage cost; recorded above"
+ },
+ "sandbox_law": "fresh subprocess per doc-rep, own temp dir, no shared state, no disk residue; wall-clock kill = resource class UNVERIFIED, never semantic (item 67)"
+}

@@ -1,0 +1,19 @@
+=== STATIC ACCEPTANCE: evaluate_triadic_v32_3b.py (the 3B Tier C vehicle) ===
+governing sheet SHA-256 (pinned, ledger item 306): 65cd3fb14aec6bff07a01c249ee6a0568c999f6e3f185a63f02afc5bfec8d059
+ZERO DECODES EXECUTED (the B6-class law; the static battery per the sheet S4).
+[PASS] F1 fork/base/instrument anchors: base 277522 B SHA da62fb18b280… == pinned; instrument 261957 B SHA fc8531d30512… == pinned; fork 282190 B SHA cba2f07550ef…
+[PASS] F2 frozen 1B lines unmoved (pre-battery hash): base + instrument re-hashed EXACT MATCH at battery open
+[PASS] F3 anchored edits exactly-once (20 sites + the V0 header insert): every old form ABSENT in the fork; every new form exactly-once
+[PASS] F4 inverse round-trip + line-diff audit: forward rebuild == fork EXACT; fork-minus-edits == base EXACT; the line diff = exactly 20 named 1:1 replaces + the 1 header insert block (72 lines)
+[PASS] F5 py_compile: the fork compiles clean
+[PASS] F6 detector-block byte-identity: R1-FIXTURE-CONTRACT 4329B; R2-EXIT-POLICY-CONSTANTS 3924B; R3-EXIT-DECISION-BLOCK 11074B; R4-HARNESS-COMPARISON-LAW 2219B; R5-INJECT-REMOVE-MACHINERY 6803B; R6 11064B modulo the one V2 line — ZERO Tier C detector code changes of any class, proven on the bytes
+[PASS] F7 model-id lanes: pretrained 3B exactly-once; the banner record field 3B; zero 1B model-id sites; the single remaining 1B mention (1) is the frozen v29.2 historical comment (carried untouched)
+[PASS] F8 -3b naming lanes: all 17 V3 sites marked (10 output-path templates + 7 help/docstring restatements); zero unmarked triadic_ output templates; the 2 frozen historical 1B artifact citations (the g3-diag run file; the gsm-chat-cap100 example) present and untouched
+[PASS] F9 injection-configuration (the ruling-(A) tier set at the site): the harness armed-pass site reads tiers=("c",) exactly-once (the ONE full-default call, edited); zero full-default calls remain; the instrument's own tier-set definitions + call sites unchanged (4 in both)
+[PASS] F10 governor-init config requirement named: the fork header names the banked triadic_layer_config.json (hard-required at governor init, owner-side, read-only; its A/D values READ but UNUSED under the adopted ruling (A) C-only injection — named in this runner's header and the vehicle's provenance header); the two governor-init call sites byte-unchanged
+[PASS] F11 determinism: two independent static rebuilds byte-identical to the on-disk fork; this console carries no timestamps — re-runs byte-identical
+[PASS] F2b frozen 1B lines unmoved (post-battery hash): base + instrument re-hashed EXACT MATCH at battery close — never moved by the build or this battery
+========================================================================
+ACCEPTANCE TALLY: 12 PASS / 0 FAIL
+REAL MODE NOT RUN — THE HONEST BOUNDARY: zero decodes assistant-side; the vehicle's real receipt is the owner-side W7 harness run (20 prompts x 96 tokens x 2 passes, the S5 form), AFTER the W1 smoke banks the memory line; the ladder never waited on this build.
+theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated — the owner's stamps decide.

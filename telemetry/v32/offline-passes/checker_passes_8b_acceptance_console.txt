@@ -1,0 +1,53 @@
+=== CHECKER PASSES 8B ACCEPTANCE (the new lane; the 8B sheet S5; zero-GPU, zero real bytes) ===
+PASS F1 fork bytes: triadic_checker_offline_pass_8b.py
+PASS F1 fork bytes: triadic_checker_offline_pass_chat_8b.py
+PASS F1 fork bytes: triadic_prose17p_offline_pass_8b.py
+PASS F1 fork bytes: triadic_p2corpus_offline_pass_8b.py
+PASS F1 base unmoved: triadic_checker_offline_pass.py
+PASS F1 base unmoved: triadic_checker_offline_pass_chat.py
+PASS F1 base unmoved: triadic_prose17p_offline_pass.py
+PASS F1 base unmoved: triadic_p2corpus_offline_pass.py
+PASS F1 base unmoved: triadic_code17c_offline_pass.py
+PASS F2 raw-fork 8B dump glob present exactly-once
+PASS F2 raw-fork 8B labels source present exactly-once
+PASS F2 raw-fork 1B input names GONE
+PASS F2 raw-fork population assert carried
+PASS F2 chat-fork 8B dump name present exactly-once
+PASS F2 chat-fork 8B labels source present exactly-once
+PASS F2 chat-fork 1B input names GONE
+PASS F2 chat-fork 1B measured-value assert (== 32) RE-PINNED OUT
+PASS F2 triadic_prose17p_offline_pass_8b.py: manifest pin CARRIES
+PASS F2 triadic_prose17p_offline_pass_8b.py: 1B dump pins GONE (slots)
+PASS F2 triadic_prose17p_offline_pass_8b.py: slot guard + never-guess law present
+PASS F2 triadic_prose17p_offline_pass_8b.py: _slot_guard() wired at the top of main()
+PASS F2 triadic_p2corpus_offline_pass_8b.py: manifest pin CARRIES
+PASS F2 triadic_p2corpus_offline_pass_8b.py: 1B dump pins GONE (slots)
+PASS F2 triadic_p2corpus_offline_pass_8b.py: slot guard + never-guess law present
+PASS F2 triadic_p2corpus_offline_pass_8b.py: _slot_guard() wired at the top of main()
+PASS F3 py_compile clean: triadic_checker_offline_pass_8b.py
+PASS F3 py_compile clean: triadic_checker_offline_pass_chat_8b.py
+PASS F3 py_compile clean: triadic_prose17p_offline_pass_8b.py
+PASS F3 py_compile clean: triadic_p2corpus_offline_pass_8b.py
+PASS F4 17-P 1B-input identity: every measured leaf EXACT (only banner.instrument differs) — diff paths: ['$.banner.instrument']
+PASS F4 17-P 1B-input identity: per-doc fault ledger parsed-EXACT
+PASS F5 P2 1B-input identity: every measured leaf EXACT (only banner.instrument differs) — diff paths: ['$.banner.instrument']
+PASS F5 P2 1B-input identity: per-doc fault ledger parsed-EXACT
+PASS F11 17-P determinism: same-path re-run byte-identical (export + per-doc)
+PASS F11 P2 determinism: same-path re-run byte-identical (export + per-doc)
+PASS F6 raw identity: fork == the banked 1B tool on identical inputs (pass/tool + the pinned 8B input-provenance echoes differ by design; every measured leaf EXACT) — diff paths: ['$.inputs.chat_leg.detail', '$.inputs.chat_leg.status', '$.inputs.raw_leg_generations', '$.inputs.raw_leg_labels', '$.pass', '$.tool']
+PASS F6 raw identity: the fork's recomputed rejoin SHA == independent recomputation
+PASS F6 raw identity: the carried population asserts live (1,319 + 10)
+PASS F7 chat identity: fork == the banked 1B chat twin on identical inputs (pass/tool + the pinned 8B input-provenance echoes differ by design; every measured leaf EXACT) — diff paths: ['$.inputs.chat_leg_generations', '$.inputs.chat_leg_labels', '$.inputs.raw_leg.detail', '$.inputs.raw_leg.status', '$.pass', '$.tool']
+PASS F8 the re-pin proof: the 1B tool REFUSES the 40-correct world (its carried 1B expected value == 32)
+PASS F8 the re-pin proof: the fork runs the 40-correct world clean and RECORDS the measurement — triadic_t2_t2-gsm-chat100-8b.json per_doc label_correct (100 docs: 40 correct / 60 incorre
+PASS F9 17-P slot refusal (None slot): PIN SLOT EMPTY fires BEFORE any byte read (INPUT_DIR nonexistent) — PIN SLOT EMPTY: raw pin unfilled; never guess a pin; aborting.
+PASS F9 17-P slot refusal (empty-string slot): the named refusal fires — PIN SLOT EMPTY: raw pin unfilled; never guess a pin; aborting.
+PASS F9 17-P carried VOID law: a filled-but-drifted dump pin refuses with the named mismatch exit — VOID: raw pin mismatch: 25bfb67206b83f860a8f121958ef7cedfedc4beb6d8fb4bcd10fa914
+PASS F10 P2 slot refusal (None slot): PIN SLOT EMPTY fires BEFORE any byte read (INPUT_DIR nonexistent) — PIN SLOT EMPTY: raw pin unfilled; never guess a pin; aborting.
+PASS F10 P2 slot refusal (empty-string slot): the named refusal fires — PIN SLOT EMPTY: raw pin unfilled; never guess a pin; aborting.
+PASS F10 P2 carried VOID law: a filled-but-drifted dump pin refuses with the named mismatch exit — VOID: raw pin mismatch: 25bfb67206b83f860a8f121958ef7cedfedc4beb6d8fb4bcd10fa914
+PASS F12 carried-asserts census: 1,319+10 / 100+10 / 180-partitions all proven live in F4-F8
+
+=== CHECKER PASSES 8B ACCEPTANCE: 48 PASS / 0 FAIL ===
+theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated;
+pi = FLAG_ONLY; findings presented, never adjudicated -- the owner's stamps decide.

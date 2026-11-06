@@ -1,0 +1,7717 @@
+{
+ "pass": "arithmetic_checker_offline_pass_chat_leg_8b",
+ "tool": "triadic_checker_offline_pass_chat_8b.py (the 1B chat-twin logic verbatim, 8B chat-leg input block; standalone, no version stamp; the statement-rows emission per his item-1128 ruling 2)",
+ "adjudicated_per": "checker-offline-pass-preregistration.md (owner-stamped Oct 6 2026)",
+ "rules": {
+  "candidate": "a '='/'equals' anchor whose lhs window (90 chars) shows NUM-op-NUM (the in-line detector's trigger gate), plus every '<<expr=result>>' scratchpad annotation",
+  "wellformed": "lhs parses as 2+ numbers joined by arithmetic ops ('x' and 'N% of M' included; % operands valued at n/100); result token parses; comma/decimal grouping valid",
+  "slip": "stated result differs from the exact recomputation (Fraction arithmetic) by more than half a display unit at the stated precision, under EITHER standard precedence or left-to-right evaluation",
+  "provenance": "final answer must equal a verified chain value (stated results of passing statements or their exact recomputed values); '####' first, then 'answer is', then last number",
+  "known_limitations_censused_not_hidden": "dimensional forms ('12 miles / 12 hours'), fraction operands ('20/3'), parenthesized rhs \u2014 counted as false parses; they are missed-statement classes, never false fires",
+  "inputs_read_only": true,
+  "model_involvement": "none",
+  "statement_rows": "per_doc.statements amendment (Oct 30 2026, his item-1128 ruling 2): every well-formed statement in document order, fields raw/nums/ops/stated/family/verdict/pos/posfrac/ann; verdict True = exact-recomputation clean (the A2 negatives class), verdict False = slip (the A2 positives class); pos = char anchor in gen_text (scratchpad: the '<<' open; inline: the '=' anchor); emission of already-computed extraction data, zero extraction-logic changes"
+ },
+ "inputs": {
+  "chat_leg_generations": "t2chat_gsm-chat100-8b_thin.jsonl (151780 bytes, SHA-256 cabbce54eb4e63e4ea6b4cc934527bc111b6e9f9c43e2238fe02bee9c2a173b9 \u2014 the 8B re-walk's chat-leg thin generations at tag gsm-chat100-8b; the receipt verification rides the rung's console lines)",
+  "chat_leg_labels": "triadic_t2_gsm-chat100-8b.json per_doc label_correct (100 docs: 77 correct / 23 incorrect \u2014 the 8B walk's OWN exact-match measurement vs the same gold)",
+  "raw_leg": {
+   "status": "SEPARATE FORK",
+   "detail": "the 8B raw leg runs triadic_checker_offline_pass_8b.py; the 1B raw record stays frozen at its banked export"
+  }
+ },
+ "corpus": {
+  "chat_leg_docs": 100,
+  "loop_leg_docs_excluded_from_rates": 10
+ },
+ "M1_extraction_precision": {
+  "candidates": 352,
+  "wellformed": 310,
+  "false_parses": 42,
+  "precision": 0.8806818181818182,
+  "false_parse_census": {
+   "lhs-not-arith": 16,
+   "equivalence-chain": 15,
+   "no-parseable-result": 6,
+   "malformed-expr-or-result": 1,
+   "malformed-result": 1
+  },
+  "worked_examples": [
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "rla downloads 40% of the 200 GB file, which is 0.4 * 200 GB ",
+    "rhs": "80"
+   },
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "ich is 0.4 * 200 GB = 80 GB.\nThis takes 80 GB / 2 GB/minute ",
+    "rhs": "40"
+   },
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "rs at 80 mph, so he covers a distance of 1.5 hours * 80 mph ",
+    "rhs": "120"
+   },
+   {
+    "family": "inline",
+    "reason": "equivalence-chain",
+    "window": "f downloads was reduced by 30%, so it was 180 - (180 * 0.3) ",
+    "rhs": "180 - 54 = 126 downloads.\nThe total numb"
+   },
+   {
+    "family": "inline",
+    "reason": "no-parseable-result",
+    "window": "fourth year, the tree will start earning money: $10.5 - $93 ",
+    "rhs": "-$82.5 (loss) is incorrect, the correct "
+   },
+   {
+    "family": "inline",
+    "reason": "no-parseable-result",
+    "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+    "rhs": "-$72 (loss) is incorrect, the correct ca"
+   },
+   {
+    "family": "inline",
+    "reason": "no-parseable-result",
+    "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+    "rhs": "-$72 (loss) is incorrect, the correct ca"
+   },
+   {
+    "family": "inline",
+    "reason": "no-parseable-result",
+    "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+    "rhs": "-$72 (loss) is incorrect, the correct ca"
+   },
+   {
+    "family": "inline",
+    "reason": "no-parseable-result",
+    "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+    "rhs": "-$72 (loss) is incorrect, the correct ca"
+   },
+   {
+    "family": "inline",
+    "reason": "no-parseable-result",
+    "window": "what was left at the orange house, so she sold (2x/3 - 2)/2 ",
+    "rhs": "x/3 - 1 vacuum cleaners.\n\nShe had 5 vacu"
+   },
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "s left, so we can set up the equation: 2x/3 - 2 - (x/3 - 1) ",
+    "rhs": "5"
+   },
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "5\nCombine like terms: x/3 - 1 = 5\n\nAdd 1 to both sides: x/3 ",
+    "rhs": "6"
+   },
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "\n\nAdd 1 to both sides: x/3 = 6\n\nMultiply both sides by 3: x ",
+    "rhs": "18"
+   },
+   {
+    "family": "inline",
+    "reason": "lhs-not-arith",
+    "window": "r.\nHer speed for the remaining distance is 6 miles / 1 hour ",
+    "rhs": "6"
+   },
+   {
+    "family": "inline",
+    "reason": "equivalence-chain",
+    "window": "mount of water in the 10 liters of orange drink is 2/3 * 10 ",
+    "rhs": "20/3 = 6.67 liters.\nThe pineapple drink "
+   },
+   {
+    "family": "scratchpad",
+    "reason": "malformed-expr-or-result",
+    "span": "<<19.50*.25=4.875>>"
+   },
+   {
+    "family": "inline",
+    "reason": "equivalence-chain",
+    "window": "es by 18, we get x = 162 / 18 = 9.\n\nSo, Darrell's age is 7x ",
+    "rhs": "7 * 9 = 63 and Allen's age is 11x = 11 *"
+   },
+   {
+    "family": "inline",
+    "reason": "equivalence-chain",
+    "window": "So, Darrell's age is 7x = 7 * 9 = 63 and Allen's age is 11x ",
+    "rhs": "11 * 9 = 99.\n\n10 years from now, Allen's"
+   },
+   {
+    "family": "inline",
+    "reason": "equivalence-chain",
+    "window": "riend guesses 20 more than half of 80, which is 20 + (80/2) ",
+    "rhs": "20 + 40 = 60 jelly beans.\n\nThe third fri"
+   },
+   {
+    "family": "inline",
+    "reason": "equivalence-chain",
+    "window": " friend guesses 25% more than 80, which is 80 + (80 * 0.25) ",
+    "rhs": "80 + 20 = 100 jelly beans.\n\nTo find the "
+   }
+  ]
+ },
+ "M2_slip_rate": {
+  "statements": 310,
+  "slips": 2,
+  "slip_rate": 0.0064516129032258064,
+  "docs_with_any_statement": 92,
+  "docs_with_slip": 1,
+  "position": {
+   "early": 1,
+   "late": 1
+  },
+  "slip_examples": [
+   {
+    "doc": 13,
+    "label": true,
+    "raw": "3 - 2 + 1  = 5",
+    "nums": [
+     "3",
+     "2",
+     "1"
+    ],
+    "ops": [
+     "-",
+     "+"
+    ],
+    "stated": "5",
+    "family": "inline",
+    "posfrac": 0.0
+   },
+   {
+    "doc": 13,
+    "label": true,
+    "raw": "3 - 1  = 5",
+    "nums": [
+     "3",
+     "1"
+    ],
+    "ops": [
+     "-"
+    ],
+    "stated": "5",
+    "family": "inline",
+    "posfrac": 1.0
+   }
+  ],
+  "by_family": {
+   "inline": {
+    "docs": 73,
+    "statements": 217,
+    "slips": 2,
+    "slip_rate": 0.009216589861751152,
+    "docs_with_slip": 1
+   },
+   "scratchpad": {
+    "docs": 1,
+    "statements": 1,
+    "slips": 0,
+    "slip_rate": 0.0,
+    "docs_with_slip": 0
+   },
+   "mixed": {
+    "docs": 18,
+    "statements": 92,
+    "slips": 0,
+    "slip_rate": 0.0,
+    "docs_with_slip": 0
+   }
+  },
+  "label_join": {
+   "wrong_docs_with_slip": 0.0,
+   "correct_docs_with_slip": 0.012987012987012988,
+   "finish_wrong_given_slip": 0.0,
+   "finish_wrong_corpus_base": 0.23,
+   "wrong_rate_docs_no_slip": 0.23076923076923078
+  }
+ },
+ "M3_answer_provenance": {
+  "docs_with_extracted_answer": 100,
+  "answer_method_census": {
+   "hash": 90,
+   "last-number": 10
+  },
+  "violations": 18,
+  "violation_rate": 0.18,
+  "violations_no_chain_at_all": 9,
+  "label_join": {
+   "wrong_violation_rate": 0.2608695652173913,
+   "correct_violation_rate": 0.15584415584415584
+  },
+  "examples": [
+   {
+    "doc": 3,
+    "label": true,
+    "answer": "540",
+    "n_verified": 0,
+    "method": "hash"
+   },
+   {
+    "doc": 7,
+    "label": false,
+    "answer": "120",
+    "n_verified": 0,
+    "method": "hash"
+   },
+   {
+    "doc": 12,
+    "label": false,
+    "answer": "72",
+    "n_verified": 3,
+    "method": "last-number"
+   },
+   {
+    "doc": 13,
+    "label": true,
+    "answer": "18",
+    "n_verified": 0,
+    "method": "hash"
+   },
+   {
+    "doc": 14,
+    "label": true,
+    "answer": "60",
+    "n_verified": 5,
+    "method": "hash"
+   },
+   {
+    "doc": 17,
+    "label": true,
+    "answer": "57500",
+    "n_verified": 0,
+    "method": "hash"
+   },
+   {
+    "doc": 24,
+    "label": false,
+    "answer": "1219/50",
+    "n_verified": 1,
+    "method": "hash"
+   },
+   {
+    "doc": 32,
+    "label": false,
+    "answer": "35",
+    "n_verified": 1,
+    "method": "last-number"
+   },
+   {
+    "doc": 37,
+    "label": false,
+    "answer": "13",
+    "n_verified": 2,
+    "method": "hash"
+   },
+   {
+    "doc": 38,
+    "label": true,
+    "answer": "10",
+    "n_verified": 2,
+    "method": "hash"
+   },
+   {
+    "doc": 43,
+    "label": true,
+    "answer": "48",
+    "n_verified": 0,
+    "method": "hash"
+   },
+   {
+    "doc": 50,
+    "label": true,
+    "answer": "294",
+    "n_verified": 0,
+    "method": "hash"
+   }
+  ]
+ },
+ "M4_retroactive_separation": {
+  "population": {
+   "labeled_docs": 100,
+   "wrong": 23,
+   "correct": 77
+  },
+  "n_slips_docscore": {
+   "sigma_gap": -0.16222142113076254,
+   "auc": 0.4935064935064935,
+   "mean_wrong": 0,
+   "mean_correct": 0.025974025974025976,
+   "meets_2sigma": false
+  },
+  "has_slip_flag": {
+   "sigma_gap": -0.16222142113076254,
+   "auc": 0.4935064935064935,
+   "mean_wrong": 0.0,
+   "mean_correct": 0.012987012987012988,
+   "meets_2sigma": false,
+   "wrong_docs_flagged": 0,
+   "correct_docs_flagged": 1
+  },
+  "content_flag_slip_or_provenance": {
+   "sigma_gap": 0.26078749995415845,
+   "auc": 0.5525127046866177,
+   "mean_wrong": 0.2608695652173913,
+   "mean_correct": 0.15584415584415584,
+   "meets_2sigma": false,
+   "wrong_docs_flagged": 6,
+   "correct_docs_flagged": 12
+  },
+  "note": "checker authority is oracle-based; M4 describes corpus coverage only (R-P4)"
+ },
+ "loop_leg_color": [
+  {
+   "doc_id": "loop-injection-prose",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-injection-code",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "mask-reserved-stubborn",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-counter",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-cycle",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-affirm",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-json",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-countdown",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-chant",
+   "n_wf": 0,
+   "n_slips": 0
+  },
+  {
+   "doc_id": "loop-seeded-code-line",
+   "n_wf": 0,
+   "n_slips": 0
+  }
+ ],
+ "per_doc": [
+  {
+   "doc_id": 0,
+   "key": "gsm8k-chat:0",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3 + 4  = 7",
+     "nums": [
+      "3",
+      "4"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "7",
+     "family": "inline",
+     "verdict": true,
+     "pos": 54,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "16 - 7  = 9",
+     "nums": [
+      "16",
+      "7"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 108,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "9 * 2  = 18",
+     "nums": [
+      "9",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "inline",
+     "verdict": true,
+     "pos": 171,
+     "posfrac": 0.667,
+     "ann": true
+    },
+    {
+     "raw": "<<9*2=18>>",
+     "nums": [
+      "9",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 174,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "18",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 1,
+   "key": "gsm8k-chat:1",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2/2  = 1",
+     "nums": [
+      "2",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "1",
+     "family": "inline",
+     "verdict": true,
+     "pos": 83,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "2 + 1  = 3",
+     "nums": [
+      "2",
+      "1"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "3",
+     "family": "inline",
+     "verdict": true,
+     "pos": 137,
+     "posfrac": 0.5,
+     "ann": true
+    },
+    {
+     "raw": "<<2+1=3>>",
+     "nums": [
+      "2",
+      "1"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "3",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 139,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "3",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 2,
+   "key": "gsm8k-chat:2",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "$80,000 * 1.5  = 120,000",
+     "nums": [
+      "$80,000",
+      "1.5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "120000",
+     "family": "inline",
+     "verdict": true,
+     "pos": 250,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$80,000 + $120,000  = 200,000",
+     "nums": [
+      "$80,000",
+      "$120,000"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "200000",
+     "family": "inline",
+     "verdict": true,
+     "pos": 315,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "$80,000 + $50,000  = 130,000",
+     "nums": [
+      "$80,000",
+      "$50,000"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "130000",
+     "family": "inline",
+     "verdict": true,
+     "pos": 434,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "$200,000 - $130,000  = 70,000",
+     "nums": [
+      "$200,000",
+      "$130,000"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "70000",
+     "family": "inline",
+     "verdict": true,
+     "pos": 537,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "70000",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 3,
+   "key": "gsm8k-chat:3",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 0,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [],
+   "answer": "540",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 4,
+   "key": "gsm8k-chat:4",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "15 + 25  = 40",
+     "nums": [
+      "15",
+      "25"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 101,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "3 * 20  = 60",
+     "nums": [
+      "3",
+      "20"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 239,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "60 - 40  = 20",
+     "nums": [
+      "60",
+      "40"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "20",
+     "family": "inline",
+     "verdict": true,
+     "pos": 333,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "20",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 5,
+   "key": "gsm8k-chat:5",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "$5 * 0.6  = 3",
+     "nums": [
+      "$5",
+      "0.6"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "3",
+     "family": "inline",
+     "verdict": true,
+     "pos": 86,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "8 * $5  = 40",
+     "nums": [
+      "8",
+      "$5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 158,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "8 * $3  = 24",
+     "nums": [
+      "8",
+      "$3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "24",
+     "family": "inline",
+     "verdict": true,
+     "pos": 193,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "$40 + $24  = 64",
+     "nums": [
+      "$40",
+      "$24"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "64",
+     "family": "inline",
+     "verdict": true,
+     "pos": 221,
+     "posfrac": 0.75,
+     "ann": true
+    },
+    {
+     "raw": "<<40+24=64>>",
+     "nums": [
+      "40",
+      "24"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "64",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 224,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "64",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 6,
+   "key": "gsm8k-chat:6",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 * 20  = 80",
+     "nums": [
+      "4",
+      "20"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "80",
+     "family": "inline",
+     "verdict": true,
+     "pos": 74,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "2 * 80  = 160",
+     "nums": [
+      "2",
+      "80"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "160",
+     "family": "inline",
+     "verdict": true,
+     "pos": 157,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "160 + 80 + 20  = 260",
+     "nums": [
+      "160",
+      "80",
+      "20"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "260",
+     "family": "inline",
+     "verdict": true,
+     "pos": 233,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "260",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 7,
+   "key": "gsm8k-chat:7",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 2,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "rla downloads 40% of the 200 GB file, which is 0.4 * 200 GB ",
+     "rhs": "80"
+    },
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "ich is 0.4 * 200 GB = 80 GB.\nThis takes 80 GB / 2 GB/minute ",
+     "rhs": "40"
+    }
+   ],
+   "answer": "120",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 8,
+   "key": "gsm8k-chat:8",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 3,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 - 2 - 0.5  = 1.5",
+     "nums": [
+      "4",
+      "2",
+      "0.5"
+     ],
+     "ops": [
+      "-",
+      "-"
+     ],
+     "stated": "3/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 304,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "180 + 15 + 120  = 315",
+     "nums": [
+      "180",
+      "15",
+      "120"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "315",
+     "family": "inline",
+     "verdict": true,
+     "pos": 438,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "rs at 80 mph, so he covers a distance of 1.5 hours * 80 mph ",
+     "rhs": "120"
+    }
+   ],
+   "answer": "315",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 9,
+   "key": "gsm8k-chat:9",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 7,
+   "n_wellformed": 7,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 3,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "40 * 10  = 400",
+     "nums": [
+      "40",
+      "10"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "400",
+     "family": "inline",
+     "verdict": true,
+     "pos": 70,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<40*10=400>>",
+     "nums": [
+      "40",
+      "10"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "400",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 73,
+     "posfrac": 0.167,
+     "ann": null
+    },
+    {
+     "raw": "1.2 * 10  = 12",
+     "nums": [
+      "1.2",
+      "10"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "12",
+     "family": "inline",
+     "verdict": true,
+     "pos": 205,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "5 * 12  = 60",
+     "nums": [
+      "5",
+      "12"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 270,
+     "posfrac": 0.5,
+     "ann": true
+    },
+    {
+     "raw": "<<5*12=60>>",
+     "nums": [
+      "5",
+      "12"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "60",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 273,
+     "posfrac": 0.667,
+     "ann": null
+    },
+    {
+     "raw": "$400 + $60  = 460",
+     "nums": [
+      "$400",
+      "$60"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "460",
+     "family": "inline",
+     "verdict": true,
+     "pos": 336,
+     "posfrac": 0.833,
+     "ann": true
+    },
+    {
+     "raw": "<<400+60=460>>",
+     "nums": [
+      "400",
+      "60"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "460",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 339,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "460",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 10,
+   "key": "gsm8k-chat:10",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "60 * 3  = 180",
+     "nums": [
+      "60",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "180",
+     "family": "inline",
+     "verdict": true,
+     "pos": 156,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "180 - 54  = 126",
+     "nums": [
+      "180",
+      "54"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "126",
+     "family": "inline",
+     "verdict": true,
+     "pos": 276,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "60 + 180 + 126  = 366",
+     "nums": [
+      "60",
+      "180",
+      "126"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "366",
+     "family": "inline",
+     "verdict": true,
+     "pos": 363,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "f downloads was reduced by 30%, so it was 180 - (180 * 0.3) ",
+     "rhs": "180 - 54 = 126 downloads.\nThe total numb"
+    }
+   ],
+   "answer": "366",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 11,
+   "key": "gsm8k-chat:11",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 8,
+   "n_wellformed": 8,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 4,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3*68  = 204",
+     "nums": [
+      "3",
+      "68"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "204",
+     "family": "inline",
+     "verdict": true,
+     "pos": 60,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<3*68=204>>",
+     "nums": [
+      "3",
+      "68"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "204",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 63,
+     "posfrac": 0.143,
+     "ann": null
+    },
+    {
+     "raw": "2*80  = 160",
+     "nums": [
+      "2",
+      "80"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "160",
+     "family": "inline",
+     "verdict": true,
+     "pos": 146,
+     "posfrac": 0.286,
+     "ann": true
+    },
+    {
+     "raw": "<<2*80=160>>",
+     "nums": [
+      "2",
+      "80"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "160",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 149,
+     "posfrac": 0.429,
+     "ann": null
+    },
+    {
+     "raw": "6*55  = 330",
+     "nums": [
+      "6",
+      "55"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "330",
+     "family": "inline",
+     "verdict": true,
+     "pos": 235,
+     "posfrac": 0.571,
+     "ann": true
+    },
+    {
+     "raw": "<<6*55=330>>",
+     "nums": [
+      "6",
+      "55"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "330",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 238,
+     "posfrac": 0.714,
+     "ann": null
+    },
+    {
+     "raw": "204 + 160 + 330  = 694",
+     "nums": [
+      "204",
+      "160",
+      "330"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "694",
+     "family": "inline",
+     "verdict": true,
+     "pos": 288,
+     "posfrac": 0.857,
+     "ann": true
+    },
+    {
+     "raw": "<<204+160+330=694>>",
+     "nums": [
+      "204",
+      "160",
+      "330"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "694",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 291,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "694",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 12,
+   "key": "gsm8k-chat:12",
+   "stop_reason": "cap",
+   "label_correct": false,
+   "n_candidates": 20,
+   "n_wellformed": 12,
+   "n_slips": 0,
+   "n_false_parses": 8,
+   "n_inline": 12,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "7 * $1.5  = 10.5",
+     "nums": [
+      "7",
+      "$1.5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "21/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 116,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$90 + $3  = 93",
+     "nums": [
+      "$90",
+      "$3"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "93",
+     "family": "inline",
+     "verdict": true,
+     "pos": 252,
+     "posfrac": 0.091,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $10.5  = 82.5",
+     "nums": [
+      "$93",
+      "$10.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "165/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 380,
+     "posfrac": 0.182,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $10.5  = 82.5",
+     "nums": [
+      "$93",
+      "$10.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "165/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 452,
+     "posfrac": 0.273,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $10.5  = 82.5",
+     "nums": [
+      "$93",
+      "$10.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "165/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 523,
+     "posfrac": 0.364,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $10.5  = 82.5",
+     "nums": [
+      "$93",
+      "$10.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "165/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 667,
+     "posfrac": 0.455,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $82.5  = 10.5",
+     "nums": [
+      "$93",
+      "$82.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "21/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 804,
+     "posfrac": 0.545,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $10.5  = 82.5",
+     "nums": [
+      "$93",
+      "$10.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "165/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 941,
+     "posfrac": 0.636,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $82.5  = 10.5",
+     "nums": [
+      "$93",
+      "$82.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "21/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 1078,
+     "posfrac": 0.727,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $82.5  = 10.5",
+     "nums": [
+      "$93",
+      "$82.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "21/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 1215,
+     "posfrac": 0.818,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $82.5  = 10.5",
+     "nums": [
+      "$93",
+      "$82.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "21/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 1352,
+     "posfrac": 0.909,
+     "ann": false
+    },
+    {
+     "raw": "$93 - $82.5  = 10.5",
+     "nums": [
+      "$93",
+      "$82.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "21/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 1489,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "no-parseable-result",
+     "window": "fourth year, the tree will start earning money: $10.5 - $93 ",
+     "rhs": "-$82.5 (loss) is incorrect, the correct "
+    },
+    {
+     "family": "inline",
+     "reason": "no-parseable-result",
+     "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+     "rhs": "-$72 (loss) is incorrect, the correct ca"
+    },
+    {
+     "family": "inline",
+     "reason": "no-parseable-result",
+     "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+     "rhs": "-$72 (loss) is incorrect, the correct ca"
+    },
+    {
+     "family": "inline",
+     "reason": "no-parseable-result",
+     "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+     "rhs": "-$72 (loss) is incorrect, the correct ca"
+    },
+    {
+     "family": "inline",
+     "reason": "no-parseable-result",
+     "window": "oss) is incorrect, the correct calculation is $10.5 - $82.5 ",
+     "rhs": "-$72 (loss) is incorrect, the correct ca"
+    }
+   ],
+   "answer": "72",
+   "answer_method": "last-number",
+   "provenance_traced": false,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 13,
+   "key": "gsm8k-chat:13",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 6,
+   "n_wellformed": 2,
+   "n_slips": 2,
+   "n_false_parses": 4,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [
+    {
+     "raw": "3 - 2 + 1  = 5",
+     "nums": [
+      "3",
+      "2",
+      "1"
+     ],
+     "ops": [
+      "-",
+      "+"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "posfrac": 0.0
+    },
+    {
+     "raw": "3 - 1  = 5",
+     "nums": [
+      "3",
+      "1"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "posfrac": 1.0
+    }
+   ],
+   "statements": [
+    {
+     "raw": "3 - 2 + 1  = 5",
+     "nums": [
+      "3",
+      "2",
+      "1"
+     ],
+     "ops": [
+      "-",
+      "+"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": false,
+     "pos": 516,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "3 - 1  = 5",
+     "nums": [
+      "3",
+      "1"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": false,
+     "pos": 548,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "no-parseable-result",
+     "window": "what was left at the orange house, so she sold (2x/3 - 2)/2 ",
+     "rhs": "x/3 - 1 vacuum cleaners.\n\nShe had 5 vacu"
+    },
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "s left, so we can set up the equation: 2x/3 - 2 - (x/3 - 1) ",
+     "rhs": "5"
+    },
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "5\nCombine like terms: x/3 - 1 = 5\n\nAdd 1 to both sides: x/3 ",
+     "rhs": "6"
+    },
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "\n\nAdd 1 to both sides: x/3 = 6\n\nMultiply both sides by 3: x ",
+     "rhs": "18"
+    }
+   ],
+   "answer": "18",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 14,
+   "key": "gsm8k-chat:14",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "0.2*20  = 4",
+     "nums": [
+      "0.2",
+      "20"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 67,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "20 - 4  = 16",
+     "nums": [
+      "20",
+      "4"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "16",
+     "family": "inline",
+     "verdict": true,
+     "pos": 115,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "0.25*16  = 4",
+     "nums": [
+      "0.25",
+      "16"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 201,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "16 - 4  = 12",
+     "nums": [
+      "16",
+      "4"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "12",
+     "family": "inline",
+     "verdict": true,
+     "pos": 257,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "12/20  = 0.6",
+     "nums": [
+      "12",
+      "20"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "3/5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 365,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "60",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 15,
+   "key": "gsm8k-chat:15",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "0.025 * $5,000  = 125",
+     "nums": [
+      "0.025",
+      "$5,000"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "125",
+     "family": "inline",
+     "verdict": true,
+     "pos": 82,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "0.012 * $8,000  = 96",
+     "nums": [
+      "0.012",
+      "$8,000"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "96",
+     "family": "inline",
+     "verdict": true,
+     "pos": 183,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "$5,000 + $125  = 5,125",
+     "nums": [
+      "$5,000",
+      "$125"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "5125",
+     "family": "inline",
+     "verdict": true,
+     "pos": 247,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "$8,000 + $96  = 8,096",
+     "nums": [
+      "$8,000",
+      "$96"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "8096",
+     "family": "inline",
+     "verdict": true,
+     "pos": 324,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "$8,096 - $5,000  = 3,096",
+     "nums": [
+      "$8,096",
+      "$5,000"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "3096",
+     "family": "inline",
+     "verdict": true,
+     "pos": 431,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "3096",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 16,
+   "key": "gsm8k-chat:16",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "80 + 150  = 230",
+     "nums": [
+      "80",
+      "150"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "230",
+     "family": "inline",
+     "verdict": true,
+     "pos": 299,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "230",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 17,
+   "key": "gsm8k-chat:17",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 0,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [],
+   "answer": "57500",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 18,
+   "key": "gsm8k-chat:18",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4*7  = 28",
+     "nums": [
+      "4",
+      "7"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "28",
+     "family": "inline",
+     "verdict": true,
+     "pos": 56,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "28*3  = 84",
+     "nums": [
+      "28",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "84",
+     "family": "inline",
+     "verdict": true,
+     "pos": 142,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "84/12  = 7",
+     "nums": [
+      "84",
+      "12"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "7",
+     "family": "inline",
+     "verdict": true,
+     "pos": 208,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "7",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 19,
+   "key": "gsm8k-chat:19",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 + 2  = 6",
+     "nums": [
+      "4",
+      "2"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 29,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "12 / 4  = 3",
+     "nums": [
+      "12",
+      "4"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "3",
+     "family": "inline",
+     "verdict": true,
+     "pos": 99,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "12 - 6  = 6",
+     "nums": [
+      "12",
+      "6"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 138,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "3 - 2  = 1",
+     "nums": [
+      "3",
+      "2"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "1",
+     "family": "inline",
+     "verdict": true,
+     "pos": 157,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "r.\nHer speed for the remaining distance is 6 miles / 1 hour ",
+     "rhs": "6"
+    }
+   ],
+   "answer": "6",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 20,
+   "key": "gsm8k-chat:20",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 6,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "20/3  = 6.67",
+     "nums": [
+      "20",
+      "3"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "667/100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 106,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "3/5 * 15  = 9",
+     "nums": [
+      "3",
+      "5",
+      "15"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 226,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "6.67 + 9  = 15.67",
+     "nums": [
+      "6.67",
+      "9"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1567/100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 346,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "6.67 - 1  = 5.67",
+     "nums": [
+      "6.67",
+      "1"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "567/100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 433,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "9 + 5.67  = 14.67",
+     "nums": [
+      "9",
+      "5.67"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1467/100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 556,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "mount of water in the 10 liters of orange drink is 2/3 * 10 ",
+     "rhs": "20/3 = 6.67 liters.\nThe pineapple drink "
+    }
+   ],
+   "answer": "1467/100",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 8
+  },
+  {
+   "doc_id": 21,
+   "key": "gsm8k-chat:21",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "31 - 6  = 25",
+     "nums": [
+      "31",
+      "6"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "25",
+     "family": "inline",
+     "verdict": true,
+     "pos": 85,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "25 - 23  = 2",
+     "nums": [
+      "25",
+      "23"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 163,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "2",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 22,
+   "key": "gsm8k-chat:22",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 * 2  = 4",
+     "nums": [
+      "2",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 71,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "3 + 4  = 7",
+     "nums": [
+      "3",
+      "4"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "7",
+     "family": "inline",
+     "verdict": true,
+     "pos": 111,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "7",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 23,
+   "key": "gsm8k-chat:23",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 x 4  = 8",
+     "nums": [
+      "2",
+      "4"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 129,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "8",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 24,
+   "key": "gsm8k-chat:24",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 3,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 1,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "19.50+4.875  = 24.375",
+     "nums": [
+      "19.50",
+      "4.875"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "195/8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 190,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<19.50+4.875=24.375>>",
+     "nums": [
+      "19.50",
+      "4.875"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "195/8",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 193,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "scratchpad",
+     "reason": "malformed-expr-or-result",
+     "span": "<<19.50*.25=4.875>>"
+    }
+   ],
+   "answer": "1219/50",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 25,
+   "key": "gsm8k-chat:25",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5 x $3  = 15",
+     "nums": [
+      "5",
+      "$3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "15",
+     "family": "inline",
+     "verdict": true,
+     "pos": 79,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "4 x $1.50  = 6",
+     "nums": [
+      "4",
+      "$1.50"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 124,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "$12 + $15 + $6  = 33",
+     "nums": [
+      "$12",
+      "$15",
+      "$6"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "33",
+     "family": "inline",
+     "verdict": true,
+     "pos": 201,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "$50 - $33  = 17",
+     "nums": [
+      "$50",
+      "$33"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "17",
+     "family": "inline",
+     "verdict": true,
+     "pos": 279,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "$17 / $8.50  = 2",
+     "nums": [
+      "$17",
+      "$8.50"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 330,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "2",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 6
+  },
+  {
+   "doc_id": 26,
+   "key": "gsm8k-chat:26",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 8,
+   "n_wellformed": 8,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 4,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3 * $16.50  = 49.50",
+     "nums": [
+      "3",
+      "$16.50"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "99/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 37,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<3*16.5=49.50>>",
+     "nums": [
+      "3",
+      "16.5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "99/2",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 40,
+     "posfrac": 0.143,
+     "ann": null
+    },
+    {
+     "raw": "3 * $22.50  = 67.50",
+     "nums": [
+      "3",
+      "$22.50"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "135/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 98,
+     "posfrac": 0.286,
+     "ann": true
+    },
+    {
+     "raw": "<<3*22.5=67.50>>",
+     "nums": [
+      "3",
+      "22.5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "135/2",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 101,
+     "posfrac": 0.429,
+     "ann": null
+    },
+    {
+     "raw": "3 * $42  = 126",
+     "nums": [
+      "3",
+      "$42"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "126",
+     "family": "inline",
+     "verdict": true,
+     "pos": 156,
+     "posfrac": 0.571,
+     "ann": true
+    },
+    {
+     "raw": "<<3*42=126>>",
+     "nums": [
+      "3",
+      "42"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "126",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 159,
+     "posfrac": 0.714,
+     "ann": null
+    },
+    {
+     "raw": "$49.50 + $67.50 + $126  = 243",
+     "nums": [
+      "$49.50",
+      "$67.50",
+      "$126"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "243",
+     "family": "inline",
+     "verdict": true,
+     "pos": 238,
+     "posfrac": 0.857,
+     "ann": true
+    },
+    {
+     "raw": "<<49.5+67.5+126=243>>",
+     "nums": [
+      "49.5",
+      "67.5",
+      "126"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "243",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 241,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "243",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 27,
+   "key": "gsm8k-chat:27",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 0,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "<<4*4=16>>",
+     "nums": [
+      "4",
+      "4"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "16",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 266,
+     "posfrac": 0.5,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "16",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 28,
+   "key": "gsm8k-chat:28",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "60 - 20  = 40",
+     "nums": [
+      "60",
+      "20"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 215,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "40 - 15  = 25",
+     "nums": [
+      "40",
+      "15"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "25",
+     "family": "inline",
+     "verdict": true,
+     "pos": 349,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "25",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 29,
+   "key": "gsm8k-chat:29",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2*33  = 66",
+     "nums": [
+      "2",
+      "33"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "66",
+     "family": "inline",
+     "verdict": true,
+     "pos": 92,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "33 + 66  = 99",
+     "nums": [
+      "33",
+      "66"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "99",
+     "family": "inline",
+     "verdict": true,
+     "pos": 144,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "99 + 5  = 104",
+     "nums": [
+      "99",
+      "5"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "104",
+     "family": "inline",
+     "verdict": true,
+     "pos": 235,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "104",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 30,
+   "key": "gsm8k-chat:30",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 6,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 2,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "162 / 18  = 9",
+     "nums": [
+      "162",
+      "18"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 196,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "7 * 9  = 63",
+     "nums": [
+      "7",
+      "9"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "63",
+     "family": "inline",
+     "verdict": true,
+     "pos": 234,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "11 * 9  = 99",
+     "nums": [
+      "11",
+      "9"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "99",
+     "family": "inline",
+     "verdict": true,
+     "pos": 271,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "99 + 10  = 109",
+     "nums": [
+      "99",
+      "10"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "109",
+     "family": "inline",
+     "verdict": true,
+     "pos": 325,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "es by 18, we get x = 162 / 18 = 9.\n\nSo, Darrell's age is 7x ",
+     "rhs": "7 * 9 = 63 and Allen's age is 11x = 11 *"
+    },
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "So, Darrell's age is 7x = 7 * 9 = 63 and Allen's age is 11x ",
+     "rhs": "11 * 9 = 99.\n\n10 years from now, Allen's"
+    }
+   ],
+   "answer": "109",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 31,
+   "key": "gsm8k-chat:31",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 6,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 3,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "20 + 40  = 60",
+     "nums": [
+      "20",
+      "40"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 124,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "80 + 20  = 100",
+     "nums": [
+      "80",
+      "20"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 222,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "240 / 3  = 80",
+     "nums": [
+      "240",
+      "3"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "80",
+     "family": "inline",
+     "verdict": true,
+     "pos": 338,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "riend guesses 20 more than half of 80, which is 20 + (80/2) ",
+     "rhs": "20 + 40 = 60 jelly beans.\n\nThe third fri"
+    },
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": " friend guesses 25% more than 80, which is 80 + (80 * 0.25) ",
+     "rhs": "80 + 20 = 100 jelly beans.\n\nTo find the "
+    },
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "d the guesses together and divide by 3: (80 + 60 + 100) / 3 ",
+     "rhs": "240 / 3 = 80.\n\nSo, the average guess is "
+    }
+   ],
+   "answer": "80",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 32,
+   "key": "gsm8k-chat:32",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "10 * 0.5  = 5",
+     "nums": [
+      "10",
+      "0.5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 129,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "35",
+   "answer_method": "last-number",
+   "provenance_traced": false,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 33,
+   "key": "gsm8k-chat:33",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "40 + 30  = 70",
+     "nums": [
+      "40",
+      "30"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "70",
+     "family": "inline",
+     "verdict": true,
+     "pos": 369,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "70",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 34,
+   "key": "gsm8k-chat:34",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "40 / 2  = 20",
+     "nums": [
+      "40",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "20",
+     "family": "inline",
+     "verdict": true,
+     "pos": 58,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "20 + 5  = 25",
+     "nums": [
+      "20",
+      "5"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "25",
+     "family": "inline",
+     "verdict": true,
+     "pos": 139,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "25 - 2  = 23",
+     "nums": [
+      "25",
+      "2"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "23",
+     "family": "inline",
+     "verdict": true,
+     "pos": 213,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "23",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 35,
+   "key": "gsm8k-chat:35",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 * 0.25  = 1",
+     "nums": [
+      "4",
+      "0.25"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "1",
+     "family": "inline",
+     "verdict": true,
+     "pos": 151,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "4 + 1  = 5",
+     "nums": [
+      "4",
+      "1"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 204,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "4 + 5  = 9",
+     "nums": [
+      "4",
+      "5"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 264,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "9",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 36,
+   "key": "gsm8k-chat:36",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 * 30  = 60",
+     "nums": [
+      "2",
+      "30"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 58,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "15 * $5  = 75",
+     "nums": [
+      "15",
+      "$5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "75",
+     "family": "inline",
+     "verdict": true,
+     "pos": 260,
+     "posfrac": 0.5,
+     "ann": true
+    },
+    {
+     "raw": "<<15*5=75>>",
+     "nums": [
+      "15",
+      "5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "75",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 263,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "75",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 37,
+   "key": "gsm8k-chat:37",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "$195 - $5  = 190",
+     "nums": [
+      "$195",
+      "$5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "190",
+     "family": "inline",
+     "verdict": true,
+     "pos": 354,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$190 + $5  = 195",
+     "nums": [
+      "$190",
+      "$5"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "195",
+     "family": "inline",
+     "verdict": true,
+     "pos": 502,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "13",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 38,
+   "key": "gsm8k-chat:38",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3/2  = 1.5",
+     "nums": [
+      "3",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "3/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 91,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "10",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 39,
+   "key": "gsm8k-chat:39",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 6,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 2,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3 * 2  = 6",
+     "nums": [
+      "3",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 139,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "2 * 6  = 12",
+     "nums": [
+      "2",
+      "6"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "12",
+     "family": "inline",
+     "verdict": true,
+     "pos": 757,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "4 * 1.5  = 6",
+     "nums": [
+      "4",
+      "1.5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 794,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "12 + 6  = 18",
+     "nums": [
+      "12",
+      "6"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "18",
+     "family": "inline",
+     "verdict": true,
+     "pos": 852,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": " at 1.5 miles per hour, so her average speed is (6 + 1.5)/2 ",
+     "rhs": "3.75"
+    },
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": " at 1.5 miles per hour, so her average speed is (6 + 1.5)/2 ",
+     "rhs": "3.75"
+    }
+   ],
+   "answer": "18",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 40,
+   "key": "gsm8k-chat:40",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 * 1  = 2",
+     "nums": [
+      "2",
+      "1"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 81,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "4 * 2  = 8",
+     "nums": [
+      "4",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 163,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "8",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 41,
+   "key": "gsm8k-chat:41",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3 * 400  = 1200",
+     "nums": [
+      "3",
+      "400"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "1200",
+     "family": "inline",
+     "verdict": true,
+     "pos": 157,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "1200 - 1000  = 200",
+     "nums": [
+      "1200",
+      "1000"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "200",
+     "family": "inline",
+     "verdict": true,
+     "pos": 241,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "200",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 42,
+   "key": "gsm8k-chat:42",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5 x 8  = 40",
+     "nums": [
+      "5",
+      "8"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 51,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "40 - 14  = 26",
+     "nums": [
+      "40",
+      "14"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "26",
+     "family": "inline",
+     "verdict": true,
+     "pos": 94,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "26",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 43,
+   "key": "gsm8k-chat:43",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "ips you can eat: 0.8 servings * 300g/5 servings = 0.8 * 60g ",
+     "rhs": "48"
+    }
+   ],
+   "answer": "48",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 44,
+   "key": "gsm8k-chat:44",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "20/10 = 2",
+     "nums": [
+      "20",
+      "10"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 113,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "20 * $2.00  = 40.00",
+     "nums": [
+      "20",
+      "$2.00"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 239,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "$40.00 - $10.00  = 30.00",
+     "nums": [
+      "$40.00",
+      "$10.00"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "30",
+     "family": "inline",
+     "verdict": true,
+     "pos": 307,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "30",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 45,
+   "key": "gsm8k-chat:45",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5 + 2  = 7",
+     "nums": [
+      "5",
+      "2"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "7",
+     "family": "inline",
+     "verdict": true,
+     "pos": 128,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "7 * 2  = 14",
+     "nums": [
+      "7",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "14",
+     "family": "inline",
+     "verdict": true,
+     "pos": 232,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "5 + 7 + 14  = 26",
+     "nums": [
+      "5",
+      "7",
+      "14"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "26",
+     "family": "inline",
+     "verdict": true,
+     "pos": 278,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "26 * 4  = 104",
+     "nums": [
+      "26",
+      "4"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "104",
+     "family": "inline",
+     "verdict": true,
+     "pos": 350,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "/5 times more articles than on Monday, which is 5 + (2/5)*5 ",
+     "rhs": "5 + 2 = 7 articles.\nOn Wednesday, she wr"
+    }
+   ],
+   "answer": "104",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 46,
+   "key": "gsm8k-chat:46",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "80 - 220  = -140",
+     "nums": [
+      "80",
+      "220"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "-140",
+     "family": "inline",
+     "verdict": true,
+     "pos": 85,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "140 + 23  = 163",
+     "nums": [
+      "140",
+      "23"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "163",
+     "family": "inline",
+     "verdict": true,
+     "pos": 258,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "163",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 47,
+   "key": "gsm8k-chat:47",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 6,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "200 / 40  = 5",
+     "nums": [
+      "200",
+      "40"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 21,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "5 * 2  = 10",
+     "nums": [
+      "5",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "10",
+     "family": "inline",
+     "verdict": true,
+     "pos": 105,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "5 * 40  = 200",
+     "nums": [
+      "5",
+      "40"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "200",
+     "family": "inline",
+     "verdict": true,
+     "pos": 168,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "10 * 60  = 600",
+     "nums": [
+      "10",
+      "60"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "600",
+     "family": "inline",
+     "verdict": true,
+     "pos": 327,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "$200 + $600  = 800",
+     "nums": [
+      "$200",
+      "$600"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "800",
+     "family": "inline",
+     "verdict": true,
+     "pos": 378,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "t 50% more than the blue ties, so they cost 40 + (40 * 0.5) ",
+     "rhs": "60"
+    }
+   ],
+   "answer": "800",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 6
+  },
+  {
+   "doc_id": 48,
+   "key": "gsm8k-chat:48",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 x 12  = 48",
+     "nums": [
+      "4",
+      "12"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "48",
+     "family": "inline",
+     "verdict": true,
+     "pos": 121,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "48 / 6  = 8",
+     "nums": [
+      "48",
+      "6"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 316,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "8",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 49,
+   "key": "gsm8k-chat:49",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3/4 * 120  = 90",
+     "nums": [
+      "3",
+      "4",
+      "120"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "90",
+     "family": "inline",
+     "verdict": true,
+     "pos": 147,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "120 - 90  = 30",
+     "nums": [
+      "120",
+      "90"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "30",
+     "family": "inline",
+     "verdict": true,
+     "pos": 202,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "30",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 50,
+   "key": "gsm8k-chat:50",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 0,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [],
+   "answer": "294",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 51,
+   "key": "gsm8k-chat:51",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "10 * 3  = 30",
+     "nums": [
+      "10",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "30",
+     "family": "inline",
+     "verdict": true,
+     "pos": 90,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "30 / 6  = 5",
+     "nums": [
+      "30",
+      "6"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 221,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "5",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 52,
+   "key": "gsm8k-chat:52",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "30/4  = 7.5",
+     "nums": [
+      "30",
+      "4"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "15/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 121,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "15 - 7.5  = 7.5",
+     "nums": [
+      "15",
+      "7.5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "15/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 205,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "7.5 / 0.5  = 15",
+     "nums": [
+      "7.5",
+      "0.5"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "15",
+     "family": "inline",
+     "verdict": true,
+     "pos": 289,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": " so the total weight of the comic books removed is 30 * 1/4 ",
+     "rhs": "30/4 = 7.5 pounds.\nHe needs to remove 15"
+    }
+   ],
+   "answer": "15",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 53,
+   "key": "gsm8k-chat:53",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "6 * $60  = 360",
+     "nums": [
+      "6",
+      "$60"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "360",
+     "family": "inline",
+     "verdict": true,
+     "pos": 40,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "4 * $40  = 160",
+     "nums": [
+      "4",
+      "$40"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "160",
+     "family": "inline",
+     "verdict": true,
+     "pos": 76,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "$360 + $160  = 520",
+     "nums": [
+      "$360",
+      "$160"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "520",
+     "family": "inline",
+     "verdict": true,
+     "pos": 148,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "12 * $40  = 480",
+     "nums": [
+      "12",
+      "$40"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "480",
+     "family": "inline",
+     "verdict": true,
+     "pos": 196,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "$520 - $480  = 40",
+     "nums": [
+      "$520",
+      "$480"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 438,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "40",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 54,
+   "key": "gsm8k-chat:54",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3*7 = 21",
+     "nums": [
+      "3",
+      "7"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "21",
+     "family": "inline",
+     "verdict": true,
+     "pos": 66,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "7 + 21 + 12  = 40",
+     "nums": [
+      "7",
+      "21",
+      "12"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 144,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "40",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 55,
+   "key": "gsm8k-chat:55",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "30 - 2  = 28",
+     "nums": [
+      "30",
+      "2"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "28",
+     "family": "inline",
+     "verdict": true,
+     "pos": 16,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "28 / 2  = 14",
+     "nums": [
+      "28",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "14",
+     "family": "inline",
+     "verdict": true,
+     "pos": 58,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "14",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 56,
+   "key": "gsm8k-chat:56",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "42 / 14  = 3",
+     "nums": [
+      "42",
+      "14"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "3",
+     "family": "inline",
+     "verdict": true,
+     "pos": 236,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "3",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 57,
+   "key": "gsm8k-chat:57",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5000 - 3755  = 1245",
+     "nums": [
+      "5000",
+      "3755"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "1245",
+     "family": "inline",
+     "verdict": true,
+     "pos": 398,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "1245 / 15  = 83",
+     "nums": [
+      "1245",
+      "15"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "83",
+     "family": "inline",
+     "verdict": true,
+     "pos": 612,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "83",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 58,
+   "key": "gsm8k-chat:58",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "25/100 * $40  = 10",
+     "nums": [
+      "25",
+      "100",
+      "$40"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "10",
+     "family": "inline",
+     "verdict": true,
+     "pos": 28,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$10 + $3 + $4  = 17",
+     "nums": [
+      "$10",
+      "$3",
+      "$4"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "17",
+     "family": "inline",
+     "verdict": true,
+     "pos": 79,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "$40 + $17  = 57",
+     "nums": [
+      "$40",
+      "$17"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "57",
+     "family": "inline",
+     "verdict": true,
+     "pos": 138,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "57",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 59,
+   "key": "gsm8k-chat:59",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 0,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [],
+   "answer": "187",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 60,
+   "key": "gsm8k-chat:60",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "0.2 * 25  = 5",
+     "nums": [
+      "0.2",
+      "25"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 71,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "First, find the number of unripe oranges: 20% of 25 oranges ",
+     "rhs": "0.2 * 25 = 5 oranges.\nThen, find the num"
+    }
+   ],
+   "answer": "17",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 61,
+   "key": "gsm8k-chat:61",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 6,
+   "n_wellformed": 6,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 3,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "500+800  = 1300",
+     "nums": [
+      "500",
+      "800"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1300",
+     "family": "inline",
+     "verdict": true,
+     "pos": 80,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<500+800=1300>>",
+     "nums": [
+      "500",
+      "800"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1300",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 83,
+     "posfrac": 0.2,
+     "ann": null
+    },
+    {
+     "raw": "0.1*1300  = 130",
+     "nums": [
+      "0.1",
+      "1300"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "130",
+     "family": "inline",
+     "verdict": true,
+     "pos": 174,
+     "posfrac": 0.4,
+     "ann": true
+    },
+    {
+     "raw": "<<0.1*1300=130>>",
+     "nums": [
+      "0.1",
+      "1300"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "130",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 177,
+     "posfrac": 0.6,
+     "ann": null
+    },
+    {
+     "raw": "1300+130  = 1430",
+     "nums": [
+      "1300",
+      "130"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1430",
+     "family": "inline",
+     "verdict": true,
+     "pos": 229,
+     "posfrac": 0.8,
+     "ann": true
+    },
+    {
+     "raw": "<<1300+130=1430>>",
+     "nums": [
+      "1300",
+      "130"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1430",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 232,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "1430",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 62,
+   "key": "gsm8k-chat:62",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "$50,000 * 20  = 1,000,000",
+     "nums": [
+      "$50,000",
+      "20"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "1000000",
+     "family": "inline",
+     "verdict": true,
+     "pos": 176,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$50,000 + $50,000  = 100,000",
+     "nums": [
+      "$50,000",
+      "$50,000"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "100000",
+     "family": "inline",
+     "verdict": true,
+     "pos": 492,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "100000",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 63,
+   "key": "gsm8k-chat:63",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 2,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "0.9 * $140  = 126",
+     "nums": [
+      "0.9",
+      "$140"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "126",
+     "family": "inline",
+     "verdict": true,
+     "pos": 228,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$840 + $756  = 1596",
+     "nums": [
+      "$840",
+      "$756"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "1596",
+     "family": "inline",
+     "verdict": true,
+     "pos": 354,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": " 10% less, which is 90% of the original price. \n90% of $140 ",
+     "rhs": "0.9 * $140 = $126\n6 months * $126/month "
+    },
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "ice. \n90% of $140 = 0.9 * $140 = $126\n6 months * $126/month ",
+     "rhs": "756"
+    }
+   ],
+   "answer": "1596",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 64,
+   "key": "gsm8k-chat:64",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "12 - 4  = 8",
+     "nums": [
+      "12",
+      "4"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 109,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "100 * 2  = 200",
+     "nums": [
+      "100",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "200",
+     "family": "inline",
+     "verdict": true,
+     "pos": 224,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "200",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 65,
+   "key": "gsm8k-chat:65",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 / 2  = 1",
+     "nums": [
+      "2",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "1",
+     "family": "inline",
+     "verdict": true,
+     "pos": 79,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "2 + 1  = 3",
+     "nums": [
+      "2",
+      "1"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "3",
+     "family": "inline",
+     "verdict": true,
+     "pos": 109,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "3 * 3  = 9",
+     "nums": [
+      "3",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 194,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "9 * 4  = 36",
+     "nums": [
+      "9",
+      "4"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "36",
+     "family": "inline",
+     "verdict": true,
+     "pos": 260,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "36",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 66,
+   "key": "gsm8k-chat:66",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 x 5  = 10",
+     "nums": [
+      "2",
+      "5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "10",
+     "family": "inline",
+     "verdict": true,
+     "pos": 78,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "2 x 1  = 2",
+     "nums": [
+      "2",
+      "1"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 151,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "4 x 12  = 48",
+     "nums": [
+      "4",
+      "12"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "48",
+     "family": "inline",
+     "verdict": true,
+     "pos": 308,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "er school.\nIn total, each school has 10 players + 2 coaches ",
+     "rhs": "12"
+    }
+   ],
+   "answer": "48",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 67,
+   "key": "gsm8k-chat:67",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "175 - 35  = 140",
+     "nums": [
+      "175",
+      "35"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "140",
+     "family": "inline",
+     "verdict": true,
+     "pos": 20,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "140 * 2  = 280",
+     "nums": [
+      "140",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "280",
+     "family": "inline",
+     "verdict": true,
+     "pos": 53,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "175 + 140 + 280  = 595",
+     "nums": [
+      "175",
+      "140",
+      "280"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "595",
+     "family": "inline",
+     "verdict": true,
+     "pos": 113,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "595",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 68,
+   "key": "gsm8k-chat:68",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "60 * 2  = 120",
+     "nums": [
+      "60",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "120",
+     "family": "inline",
+     "verdict": true,
+     "pos": 59,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "60 + 120  = 180",
+     "nums": [
+      "60",
+      "120"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "180",
+     "family": "inline",
+     "verdict": true,
+     "pos": 112,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "180 / 5  = 36",
+     "nums": [
+      "180",
+      "5"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "36",
+     "family": "inline",
+     "verdict": true,
+     "pos": 193,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "36",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 69,
+   "key": "gsm8k-chat:69",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 2,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5*8  = 40",
+     "nums": [
+      "5",
+      "8"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 70,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<5*8=40>>",
+     "nums": [
+      "5",
+      "8"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 73,
+     "posfrac": 0.333,
+     "ann": null
+    },
+    {
+     "raw": "100-40  = 60",
+     "nums": [
+      "100",
+      "40"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 186,
+     "posfrac": 0.667,
+     "ann": true
+    },
+    {
+     "raw": "<<100-40=60>>",
+     "nums": [
+      "100",
+      "40"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "60",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 189,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "60",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 70,
+   "key": "gsm8k-chat:70",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5*5 = 25",
+     "nums": [
+      "5",
+      "5"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "25",
+     "family": "inline",
+     "verdict": true,
+     "pos": 40,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "25+8 = 33",
+     "nums": [
+      "25",
+      "8"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "33",
+     "family": "inline",
+     "verdict": true,
+     "pos": 119,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "33*15 = 495",
+     "nums": [
+      "33",
+      "15"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "495",
+     "family": "inline",
+     "verdict": true,
+     "pos": 186,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "495*15 = 7425",
+     "nums": [
+      "495",
+      "15"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "7425",
+     "family": "inline",
+     "verdict": true,
+     "pos": 259,
+     "posfrac": 0.75,
+     "ann": true
+    },
+    {
+     "raw": "<<495*15=7425>>",
+     "nums": [
+      "495",
+      "15"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "7425",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 261,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "7425",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 71,
+   "key": "gsm8k-chat:71",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 2,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "20 x 2  = 40",
+     "nums": [
+      "20",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 29,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<20*2=40>>",
+     "nums": [
+      "20",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "40",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 31,
+     "posfrac": 0.333,
+     "ann": null
+    },
+    {
+     "raw": "20 + 40  = 60",
+     "nums": [
+      "20",
+      "40"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 86,
+     "posfrac": 0.667,
+     "ann": true
+    },
+    {
+     "raw": "<<20+40=60>>",
+     "nums": [
+      "20",
+      "40"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "60",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 88,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "60",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 72,
+   "key": "gsm8k-chat:72",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 6,
+   "n_wellformed": 6,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 3,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "$3*43  = 129",
+     "nums": [
+      "$3",
+      "43"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "129",
+     "family": "inline",
+     "verdict": true,
+     "pos": 18,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<3*43=129>>",
+     "nums": [
+      "3",
+      "43"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "129",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 21,
+     "posfrac": 0.2,
+     "ann": null
+    },
+    {
+     "raw": "$4*23  = 92",
+     "nums": [
+      "$4",
+      "23"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "92",
+     "family": "inline",
+     "verdict": true,
+     "pos": 78,
+     "posfrac": 0.4,
+     "ann": true
+    },
+    {
+     "raw": "<<4*23=92>>",
+     "nums": [
+      "4",
+      "23"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "92",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 81,
+     "posfrac": 0.6,
+     "ann": null
+    },
+    {
+     "raw": "$129 + $92  = 221",
+     "nums": [
+      "$129",
+      "$92"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "221",
+     "family": "inline",
+     "verdict": true,
+     "pos": 155,
+     "posfrac": 0.8,
+     "ann": true
+    },
+    {
+     "raw": "<<129+92=221>>",
+     "nums": [
+      "129",
+      "92"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "221",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 158,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "221",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 73,
+   "key": "gsm8k-chat:73",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "5 * 150  = 750",
+     "nums": [
+      "5",
+      "150"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "750",
+     "family": "inline",
+     "verdict": true,
+     "pos": 45,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "750 * 0.02 * 3  = 45",
+     "nums": [
+      "750",
+      "0.02",
+      "3"
+     ],
+     "ops": [
+      "*",
+      "*"
+     ],
+     "stated": "45",
+     "family": "inline",
+     "verdict": true,
+     "pos": 104,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "750 + 45  = 795",
+     "nums": [
+      "750",
+      "45"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "795",
+     "family": "inline",
+     "verdict": true,
+     "pos": 163,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "795 / 3  = 265",
+     "nums": [
+      "795",
+      "3"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "265",
+     "family": "inline",
+     "verdict": true,
+     "pos": 239,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "265",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 74,
+   "key": "gsm8k-chat:74",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 8,
+   "n_wellformed": 8,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 4,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "12*3  = 36",
+     "nums": [
+      "12",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "36",
+     "family": "inline",
+     "verdict": true,
+     "pos": 287,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<12*3=36>>",
+     "nums": [
+      "12",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "36",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 290,
+     "posfrac": 0.143,
+     "ann": null
+    },
+    {
+     "raw": "9*2  = 18",
+     "nums": [
+      "9",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "inline",
+     "verdict": true,
+     "pos": 367,
+     "posfrac": 0.286,
+     "ann": true
+    },
+    {
+     "raw": "<<9*2=18>>",
+     "nums": [
+      "9",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 370,
+     "posfrac": 0.429,
+     "ann": null
+    },
+    {
+     "raw": "17*2  = 34",
+     "nums": [
+      "17",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "34",
+     "family": "inline",
+     "verdict": true,
+     "pos": 448,
+     "posfrac": 0.571,
+     "ann": true
+    },
+    {
+     "raw": "<<17*2=34>>",
+     "nums": [
+      "17",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "34",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 451,
+     "posfrac": 0.714,
+     "ann": null
+    },
+    {
+     "raw": "36+18+34  = 88",
+     "nums": [
+      "36",
+      "18",
+      "34"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "88",
+     "family": "inline",
+     "verdict": true,
+     "pos": 501,
+     "posfrac": 0.857,
+     "ann": true
+    },
+    {
+     "raw": "<<36+18+34=88>>",
+     "nums": [
+      "36",
+      "18",
+      "34"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "88",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 504,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "88",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 75,
+   "key": "gsm8k-chat:75",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 5,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "16/2  = 8",
+     "nums": [
+      "16",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 58,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "8/2  = 4",
+     "nums": [
+      "8",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 98,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "4/2  = 2",
+     "nums": [
+      "4",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 144,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "16 + 8 + 4 + 2  = 30",
+     "nums": [
+      "16",
+      "8",
+      "4",
+      "2"
+     ],
+     "ops": [
+      "+",
+      "+",
+      "+"
+     ],
+     "stated": "30",
+     "family": "inline",
+     "verdict": true,
+     "pos": 222,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "30/4  = 7.5",
+     "nums": [
+      "30",
+      "4"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "15/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 352,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "15/2",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 8
+  },
+  {
+   "doc_id": 76,
+   "key": "gsm8k-chat:76",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 9,
+   "n_wellformed": 9,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 5,
+   "n_scratchpad": 4,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "180 x 1  = 180",
+     "nums": [
+      "180",
+      "1"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "180",
+     "family": "inline",
+     "verdict": true,
+     "pos": 48,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<180*1=180>>",
+     "nums": [
+      "180",
+      "1"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "180",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 50,
+     "posfrac": 0.125,
+     "ann": null
+    },
+    {
+     "raw": "365 - 180  = 185",
+     "nums": [
+      "365",
+      "180"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "185",
+     "family": "inline",
+     "verdict": true,
+     "pos": 130,
+     "posfrac": 0.25,
+     "ann": true
+    },
+    {
+     "raw": "<<365-180=185>>",
+     "nums": [
+      "365",
+      "180"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "185",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 132,
+     "posfrac": 0.375,
+     "ann": null
+    },
+    {
+     "raw": "185 x 2  = 370",
+     "nums": [
+      "185",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "370",
+     "family": "inline",
+     "verdict": true,
+     "pos": 211,
+     "posfrac": 0.5,
+     "ann": true
+    },
+    {
+     "raw": "<<185*2=370>>",
+     "nums": [
+      "185",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "370",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 213,
+     "posfrac": 0.625,
+     "ann": null
+    },
+    {
+     "raw": "180 + 370  = 550",
+     "nums": [
+      "180",
+      "370"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "550",
+     "family": "inline",
+     "verdict": true,
+     "pos": 294,
+     "posfrac": 0.75,
+     "ann": true
+    },
+    {
+     "raw": "<<180+370=550>>",
+     "nums": [
+      "180",
+      "370"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "550",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 296,
+     "posfrac": 0.875,
+     "ann": null
+    },
+    {
+     "raw": "550 / 110  = 5",
+     "nums": [
+      "550",
+      "110"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 406,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "5",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 6
+  },
+  {
+   "doc_id": 77,
+   "key": "gsm8k-chat:77",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "400 / 4  = 100",
+     "nums": [
+      "400",
+      "4"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 105,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "400 / 2  = 200",
+     "nums": [
+      "400",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "200",
+     "family": "inline",
+     "verdict": true,
+     "pos": 198,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "200 - 100  = 100",
+     "nums": [
+      "200",
+      "100"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 277,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "100",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 78,
+   "key": "gsm8k-chat:78",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 7,
+   "n_wellformed": 6,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 6,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "$2.50 / 3  = 0.83",
+     "nums": [
+      "$2.50",
+      "3"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "83/100",
+     "family": "inline",
+     "verdict": true,
+     "pos": 130,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$1 / 2  = 0.50",
+     "nums": [
+      "$1",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "1/2",
+     "family": "inline",
+     "verdict": true,
+     "pos": 210,
+     "posfrac": 0.2,
+     "ann": false
+    },
+    {
+     "raw": "18 * $0.50  = 9",
+     "nums": [
+      "18",
+      "$0.50"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 337,
+     "posfrac": 0.4,
+     "ann": false
+    },
+    {
+     "raw": "18 / 3  = 6",
+     "nums": [
+      "18",
+      "3"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 448,
+     "posfrac": 0.6,
+     "ann": false
+    },
+    {
+     "raw": "6 * $2.50  = 15",
+     "nums": [
+      "6",
+      "$2.50"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "15",
+     "family": "inline",
+     "verdict": true,
+     "pos": 632,
+     "posfrac": 0.8,
+     "ann": false
+    },
+    {
+     "raw": "$15 - $9  = 6",
+     "nums": [
+      "$15",
+      "$9"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 663,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "malformed-result",
+     "lhs": "18 / 2 ",
+     "rhs": "9,"
+    }
+   ],
+   "answer": "6",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 9
+  },
+  {
+   "doc_id": 79,
+   "key": "gsm8k-chat:79",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "100 * 0.30  = 30",
+     "nums": [
+      "100",
+      "0.30"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "30",
+     "family": "inline",
+     "verdict": true,
+     "pos": 73,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "100 - 30  = 70",
+     "nums": [
+      "100",
+      "30"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "70",
+     "family": "inline",
+     "verdict": true,
+     "pos": 144,
+     "posfrac": 0.5,
+     "ann": true
+    },
+    {
+     "raw": "<<100-30=70>>",
+     "nums": [
+      "100",
+      "30"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "70",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 147,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "70",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 80,
+   "key": "gsm8k-chat:80",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "1/6 * 24  = 4",
+     "nums": [
+      "1",
+      "6",
+      "24"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 28,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "4 + 4  = 8",
+     "nums": [
+      "4",
+      "4"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 77,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "8 + 6  = 14",
+     "nums": [
+      "8",
+      "6"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "14",
+     "family": "inline",
+     "verdict": true,
+     "pos": 145,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "24 - 14  = 10",
+     "nums": [
+      "24",
+      "14"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "10",
+     "family": "inline",
+     "verdict": true,
+     "pos": 190,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "10",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 81,
+   "key": "gsm8k-chat:81",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "10 + 21  = 31",
+     "nums": [
+      "10",
+      "21"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "31",
+     "family": "inline",
+     "verdict": true,
+     "pos": 72,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "31 + 23  = 54",
+     "nums": [
+      "31",
+      "23"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "54",
+     "family": "inline",
+     "verdict": true,
+     "pos": 138,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "54 - 9  = 45",
+     "nums": [
+      "54",
+      "9"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "45",
+     "family": "inline",
+     "verdict": true,
+     "pos": 195,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "45 - 28  = 17",
+     "nums": [
+      "45",
+      "28"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "17",
+     "family": "inline",
+     "verdict": true,
+     "pos": 259,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "17",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 82,
+   "key": "gsm8k-chat:82",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 * 125  = 500",
+     "nums": [
+      "4",
+      "125"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "500",
+     "family": "inline",
+     "verdict": true,
+     "pos": 37,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "500 - 2  = 498",
+     "nums": [
+      "500",
+      "2"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "498",
+     "family": "inline",
+     "verdict": true,
+     "pos": 99,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "125 + 498  = 623",
+     "nums": [
+      "125",
+      "498"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "623",
+     "family": "inline",
+     "verdict": true,
+     "pos": 150,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "623",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 83,
+   "key": "gsm8k-chat:83",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "3 * 25  = 75",
+     "nums": [
+      "3",
+      "25"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "75",
+     "family": "inline",
+     "verdict": true,
+     "pos": 68,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "75 * 8  = 600",
+     "nums": [
+      "75",
+      "8"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "600",
+     "family": "inline",
+     "verdict": true,
+     "pos": 124,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "600",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 84,
+   "key": "gsm8k-chat:84",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 1,
+   "n_wellformed": 1,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 1,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "7 + 8  = 15",
+     "nums": [
+      "7",
+      "8"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "15",
+     "family": "inline",
+     "verdict": true,
+     "pos": 284,
+     "posfrac": 0.5,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "15",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 1
+  },
+  {
+   "doc_id": 85,
+   "key": "gsm8k-chat:85",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "34 - 23  = 11",
+     "nums": [
+      "34",
+      "23"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "11",
+     "family": "inline",
+     "verdict": true,
+     "pos": 38,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "11 * 4  = 44",
+     "nums": [
+      "11",
+      "4"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "44",
+     "family": "inline",
+     "verdict": true,
+     "pos": 101,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "44",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 86,
+   "key": "gsm8k-chat:86",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 * 3  = 12",
+     "nums": [
+      "4",
+      "3"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "12",
+     "family": "inline",
+     "verdict": true,
+     "pos": 125,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "12 / 2  = 6",
+     "nums": [
+      "12",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 216,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "4 + 12 + 6  = 22",
+     "nums": [
+      "4",
+      "12",
+      "6"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "22",
+     "family": "inline",
+     "verdict": true,
+     "pos": 285,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "22",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 87,
+   "key": "gsm8k-chat:87",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 8,
+   "n_wellformed": 5,
+   "n_slips": 0,
+   "n_false_parses": 3,
+   "n_inline": 5,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "0.1 * 600  = 60",
+     "nums": [
+      "0.1",
+      "600"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "60",
+     "family": "inline",
+     "verdict": true,
+     "pos": 107,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "$600 + $60  = 660",
+     "nums": [
+      "$600",
+      "$60"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "660",
+     "family": "inline",
+     "verdict": true,
+     "pos": 156,
+     "posfrac": 0.25,
+     "ann": false
+    },
+    {
+     "raw": "$660 + $66  = 726",
+     "nums": [
+      "$660",
+      "$66"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "726",
+     "family": "inline",
+     "verdict": true,
+     "pos": 312,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "$726 + $72.60  = 798.60",
+     "nums": [
+      "$726",
+      "$72.60"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "3993/5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 363,
+     "posfrac": 0.75,
+     "ann": false
+    },
+    {
+     "raw": "$798.60 + $79.86  = 878.46",
+     "nums": [
+      "$798.60",
+      "$79.86"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "43923/50",
+     "family": "inline",
+     "verdict": true,
+     "pos": 426,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "alary by 10% for 3 more years.\n\nYear 6: $660 + (0.1 * $660) ",
+     "rhs": "660 + $66 = $726\nYear 7: $726 + (0.1 * $"
+    },
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "0.1 * $660) = $660 + $66 = $726\nYear 7: $726 + (0.1 * $726) ",
+     "rhs": "726 + $72.60 = $798.60\nYear 8: $798.60 +"
+    },
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "= $726 + $72.60 = $798.60\nYear 8: $798.60 + (0.1 * $798.60) ",
+     "rhs": "798.60 + $79.86 = $878.46\n\nSo, after 3 m"
+    }
+   ],
+   "answer": "43923/50",
+   "answer_method": "last-number",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 88,
+   "key": "gsm8k-chat:88",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 1,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": " like terms: 11x = 88,000 \nDivide by 11: x = 88,000 / 11 \nx ",
+     "rhs": "8000"
+    }
+   ],
+   "answer": "8000",
+   "answer_method": "last-number",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 89,
+   "key": "gsm8k-chat:89",
+   "stop_reason": "eos",
+   "label_correct": false,
+   "n_candidates": 4,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 2,
+   "n_scratchpad": 1,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "0.75*12  = 9",
+     "nums": [
+      "0.75",
+      "12"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 156,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "9*2  = 18",
+     "nums": [
+      "9",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "inline",
+     "verdict": true,
+     "pos": 217,
+     "posfrac": 0.5,
+     "ann": true
+    },
+    {
+     "raw": "<<9*2=18>>",
+     "nums": [
+      "9",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 220,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "w up, 3/4 of the guests will show up. 3/4 of 16 is (3/4)*16 ",
+     "rhs": "12"
+    }
+   ],
+   "answer": "18",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 90,
+   "key": "gsm8k-chat:90",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 0,
+   "n_wellformed": 0,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 0,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [],
+   "false_parse_examples": [],
+   "answer": "225",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 0
+  },
+  {
+   "doc_id": 91,
+   "key": "gsm8k-chat:91",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "4 + 2  = 6",
+     "nums": [
+      "4",
+      "2"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 35,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "3 * 6  = 18",
+     "nums": [
+      "3",
+      "6"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "18",
+     "family": "inline",
+     "verdict": true,
+     "pos": 59,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "4 + 6 + 18  = 28",
+     "nums": [
+      "4",
+      "6",
+      "18"
+     ],
+     "ops": [
+      "+",
+      "+"
+     ],
+     "stated": "28",
+     "family": "inline",
+     "verdict": true,
+     "pos": 112,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "28",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 92,
+   "key": "gsm8k-chat:92",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "10 + 1  = 11",
+     "nums": [
+      "10",
+      "1"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "11",
+     "family": "inline",
+     "verdict": true,
+     "pos": 65,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "11 - 2  = 9",
+     "nums": [
+      "11",
+      "2"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "9",
+     "family": "inline",
+     "verdict": true,
+     "pos": 133,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "9 - 5  = 4",
+     "nums": [
+      "9",
+      "5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 203,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "4",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 93,
+   "key": "gsm8k-chat:93",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "38 + 2  = 40",
+     "nums": [
+      "38",
+      "2"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 64,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "40 - 4  = 36",
+     "nums": [
+      "40",
+      "4"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "36",
+     "family": "inline",
+     "verdict": true,
+     "pos": 157,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "equivalence-chain",
+     "window": "peed improved by 10%, so his new time is 40 - (40 * 10/100) ",
+     "rhs": "40 - 4 = 36 seconds.\n#### 36"
+    }
+   ],
+   "answer": "36",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 94,
+   "key": "gsm8k-chat:94",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 1,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "60 * 2  = 120",
+     "nums": [
+      "60",
+      "2"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "120",
+     "family": "inline",
+     "verdict": true,
+     "pos": 76,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "60 + 120  = 180",
+     "nums": [
+      "60",
+      "120"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "180",
+     "family": "inline",
+     "verdict": true,
+     "pos": 129,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "180 - 12  = 168",
+     "nums": [
+      "180",
+      "12"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "168",
+     "family": "inline",
+     "verdict": true,
+     "pos": 249,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [
+    {
+     "family": "inline",
+     "reason": "lhs-not-arith",
+     "window": "total number of pets is 180 (dogs and cats) + 168 (rabbits) ",
+     "rhs": "348"
+    }
+   ],
+   "answer": "348",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 95,
+   "key": "gsm8k-chat:95",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 4,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2/5 * 200  = 80",
+     "nums": [
+      "2",
+      "5",
+      "200"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "80",
+     "family": "inline",
+     "verdict": true,
+     "pos": 69,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "200 - 80  = 120",
+     "nums": [
+      "200",
+      "80"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "120",
+     "family": "inline",
+     "verdict": true,
+     "pos": 107,
+     "posfrac": 0.333,
+     "ann": false
+    },
+    {
+     "raw": "2/3 * 120  = 80",
+     "nums": [
+      "2",
+      "3",
+      "120"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "80",
+     "family": "inline",
+     "verdict": true,
+     "pos": 208,
+     "posfrac": 0.667,
+     "ann": false
+    },
+    {
+     "raw": "120 - 80  = 40",
+     "nums": [
+      "120",
+      "80"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "40",
+     "family": "inline",
+     "verdict": true,
+     "pos": 268,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "40",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 5
+  },
+  {
+   "doc_id": 96,
+   "key": "gsm8k-chat:96",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2/3 * 9  = 6",
+     "nums": [
+      "2",
+      "3",
+      "9"
+     ],
+     "ops": [
+      "/",
+      "*"
+     ],
+     "stated": "6",
+     "family": "inline",
+     "verdict": true,
+     "pos": 60,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "9 - 6  = 3",
+     "nums": [
+      "9",
+      "6"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "3",
+     "family": "inline",
+     "verdict": true,
+     "pos": 119,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "3",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  },
+  {
+   "doc_id": 97,
+   "key": "gsm8k-chat:97",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 2,
+   "n_wellformed": 2,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "16/2  = 8",
+     "nums": [
+      "16",
+      "2"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "8",
+     "family": "inline",
+     "verdict": true,
+     "pos": 107,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "32/8  = 4",
+     "nums": [
+      "32",
+      "8"
+     ],
+     "ops": [
+      "/"
+     ],
+     "stated": "4",
+     "family": "inline",
+     "verdict": true,
+     "pos": 278,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "12",
+   "answer_method": "hash",
+   "provenance_traced": false,
+   "n_verified_values": 4
+  },
+  {
+   "doc_id": 98,
+   "key": "gsm8k-chat:98",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 4,
+   "n_wellformed": 4,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 2,
+   "n_scratchpad": 2,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "30-5 = 25",
+     "nums": [
+      "30",
+      "5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "25",
+     "family": "inline",
+     "verdict": true,
+     "pos": 58,
+     "posfrac": 0.0,
+     "ann": true
+    },
+    {
+     "raw": "<<30-5=25>>",
+     "nums": [
+      "30",
+      "5"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "25",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 59,
+     "posfrac": 0.333,
+     "ann": null
+    },
+    {
+     "raw": "25-20 = 5",
+     "nums": [
+      "25",
+      "20"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "5",
+     "family": "inline",
+     "verdict": true,
+     "pos": 163,
+     "posfrac": 0.667,
+     "ann": true
+    },
+    {
+     "raw": "<<25-20=5>>",
+     "nums": [
+      "25",
+      "20"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "5",
+     "family": "scratchpad",
+     "verdict": true,
+     "pos": 164,
+     "posfrac": 1.0,
+     "ann": null
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "5",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 2
+  },
+  {
+   "doc_id": 99,
+   "key": "gsm8k-chat:99",
+   "stop_reason": "eos",
+   "label_correct": true,
+   "n_candidates": 3,
+   "n_wellformed": 3,
+   "n_slips": 0,
+   "n_false_parses": 0,
+   "n_inline": 3,
+   "n_scratchpad": 0,
+   "slips": [],
+   "statements": [
+    {
+     "raw": "2 * 40  = 80",
+     "nums": [
+      "2",
+      "40"
+     ],
+     "ops": [
+      "*"
+     ],
+     "stated": "80",
+     "family": "inline",
+     "verdict": true,
+     "pos": 84,
+     "posfrac": 0.0,
+     "ann": false
+    },
+    {
+     "raw": "80 + 18  = 98",
+     "nums": [
+      "80",
+      "18"
+     ],
+     "ops": [
+      "+"
+     ],
+     "stated": "98",
+     "family": "inline",
+     "verdict": true,
+     "pos": 162,
+     "posfrac": 0.5,
+     "ann": false
+    },
+    {
+     "raw": "98 - 40  = 58",
+     "nums": [
+      "98",
+      "40"
+     ],
+     "ops": [
+      "-"
+     ],
+     "stated": "58",
+     "family": "inline",
+     "verdict": true,
+     "pos": 337,
+     "posfrac": 1.0,
+     "ann": false
+    }
+   ],
+   "false_parse_examples": [],
+   "answer": "58",
+   "answer_method": "hash",
+   "provenance_traced": true,
+   "n_verified_values": 3
+  }
+ ]
+}
