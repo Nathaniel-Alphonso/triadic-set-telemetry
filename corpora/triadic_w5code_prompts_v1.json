@@ -1,0 +1,383 @@
+{
+  "schema": "w5code-v1",
+  "dump_basename": "triadic_w5code",
+  "design": {
+    "corpus": "triadic_code_fixture_suite_v1.json",
+    "suite_sha256": "779e92b11cef374534eb9475eb07cc9835724389ed51154417e97edf7b5c348b",
+    "build_spec": "phase4-8b-w5-suite-walks-preregistration.md -- OWNER-PINNED Oct 25 2026",
+    "spec_sha256": "6b978dbf5c95e0d7389d98d9675c421b8f9be3d1838fbdc6d759295936693ddb",
+    "dedupe_law": "the walk unit is the unique prompt (D-W5-3); duplicates reported in the build receipt, never silently dropped",
+    "class_set_law": "the suite classes live in the crafted emissions, never the prompts; each doc carries the full class set its prompt spans, a receipt mapping for the offline census join -- never a verdict"
+  },
+  "docs": {
+    "0": {
+      "doc_id": 0,
+      "prompt": "from typing import List\n\n\ndef has_close_elements(numbers: List[float], threshold: float) -> bool:\n    \"\"\" Check if in given list of numbers, are any two numbers closer to each other than\n    given threshold.\n    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)\n    False\n    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)\n    True\n    \"\"\"\n",
+      "suite_class_set": [
+        "N1",
+        "N4",
+        "N5",
+        "N6",
+        "N7",
+        "N8",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "fixture_ids": [
+        "code-N1-001",
+        "code-N4-001",
+        "code-N5-001",
+        "code-N6-001",
+        "code-N7-001",
+        "code-N8-001",
+        "code-P1-004",
+        "code-P2-001",
+        "code-P2-002",
+        "code-P3-008"
+      ]
+    },
+    "1": {
+      "doc_id": 1,
+      "prompt": "\n\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncate_number(3.5)\n    0.5\n    \"\"\"\n",
+      "suite_class_set": [
+        "N1",
+        "N5",
+        "N6",
+        "P3"
+      ],
+      "fixture_ids": [
+        "code-N1-002",
+        "code-N5-002",
+        "code-N6-002",
+        "code-P3-002"
+      ]
+    },
+    "2": {
+      "doc_id": 2,
+      "prompt": "from typing import List\n\n\ndef filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\" Filter an input list of strings only for ones that contain given substring\n    >>> filter_by_substring([], 'a')\n    []\n    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')\n    ['abc', 'bacd', 'array']\n    \"\"\"\n",
+      "suite_class_set": [
+        "N1",
+        "N4",
+        "N6",
+        "N7",
+        "N8",
+        "P4"
+      ],
+      "fixture_ids": [
+        "code-N1-003",
+        "code-N4-002",
+        "code-N6-003",
+        "code-N7-002",
+        "code-N8-002",
+        "code-P4-001",
+        "code-P4-005"
+      ]
+    },
+    "3": {
+      "doc_id": 3,
+      "prompt": "\n\ndef count_distinct_characters(string: str) -> int:\n    \"\"\" Given a string, find out how many distinct characters (regardless of case) does it consist of\n    >>> count_distinct_characters('xyzXYZ')\n    3\n    >>> count_distinct_characters('Jerry')\n    4\n    \"\"\"\n",
+      "suite_class_set": [
+        "N1",
+        "N4",
+        "N6",
+        "N7",
+        "N8",
+        "P1",
+        "P6"
+      ],
+      "fixture_ids": [
+        "code-N1-004",
+        "code-N4-003",
+        "code-N6-004",
+        "code-N7-003",
+        "code-N8-003",
+        "code-P1-003",
+        "code-P1-007",
+        "code-P6-008"
+      ]
+    },
+    "4": {
+      "doc_id": 4,
+      "prompt": "\n\ndef strlen(string: str) -> int:\n    \"\"\" Return length of given string\n    >>> strlen('')\n    0\n    >>> strlen('abc')\n    3\n    \"\"\"\n",
+      "suite_class_set": [
+        "N1",
+        "N6",
+        "P1",
+        "P4",
+        "P6"
+      ],
+      "fixture_ids": [
+        "code-N1-005",
+        "code-N6-005",
+        "code-P1-002",
+        "code-P4-006",
+        "code-P6-007"
+      ]
+    },
+    "5": {
+      "doc_id": 5,
+      "prompt": "\n\ndef median(l: list):\n    \"\"\"Return median of elements in the list l.\n    >>> median([3, 1, 2, 4, 5])\n    3\n    >>> median([-10, 4, 6, 1000, 10, 20])\n    15.0\n    \"\"\"\n",
+      "suite_class_set": [
+        "N1",
+        "N5",
+        "N8",
+        "P1",
+        "P2",
+        "P5",
+        "P6"
+      ],
+      "fixture_ids": [
+        "code-N1-006",
+        "code-N5-005",
+        "code-N8-005",
+        "code-P1-005",
+        "code-P2-006",
+        "code-P5-003",
+        "code-P5-008",
+        "code-P6-005",
+        "code-P6-006"
+      ]
+    },
+    "6": {
+      "doc_id": 6,
+      "prompt": "import math\n\n\ndef poly(xs: list, x: float):\n    \"\"\"\n    Evaluates polynomial with coefficients xs at point x.\n    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n\n    \"\"\"\n    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])\n\n\ndef find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find x such that poly(x) = 0.\n    find_zero returns only only zero point, even if there are many.\n    Moreover, find_zero only takes list xs having even number of coefficients\n    and largest non zero coefficient as it guarantees\n    a solution.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n",
+      "suite_class_set": [
+        "N2"
+      ],
+      "fixture_ids": [
+        "code-N2-001",
+        "code-N2-002"
+      ]
+    },
+    "7": {
+      "doc_id": 7,
+      "prompt": "\n\ndef weighted_sum(xs: list, w: list):\n    \"\"\"Return the dot product: sum(x * wi for x, wi in zip(xs, w)).\"\"\"\n",
+      "suite_class_set": [
+        "N2"
+      ],
+      "fixture_ids": [
+        "code-N2-003"
+      ]
+    },
+    "8": {
+      "doc_id": 8,
+      "prompt": "\n\ndef max_gap(a: list):\n    \"\"\"Return the maximum absolute difference between adjacent elements of a.\n    Lists with fewer than two elements return 0.\n    \"\"\"\n",
+      "suite_class_set": [
+        "N2"
+      ],
+      "fixture_ids": [
+        "code-N2-004"
+      ]
+    },
+    "9": {
+      "doc_id": 9,
+      "prompt": "\n\ndef count_neg(xs: list):\n    \"\"\"Return how many elements of xs are negative.\"\"\"\n",
+      "suite_class_set": [
+        "N2"
+      ],
+      "fixture_ids": [
+        "code-N2-005"
+      ]
+    },
+    "10": {
+      "doc_id": 10,
+      "prompt": "\n\ndef range_sum(lo: int, hi: int):\n    \"\"\"Return the sum of the integers lo..hi inclusive; lo > hi returns 0.\"\"\"\n",
+      "suite_class_set": [
+        "N2"
+      ],
+      "fixture_ids": [
+        "code-N2-006"
+      ]
+    },
+    "11": {
+      "doc_id": 11,
+      "prompt": "\n\ndef digit_scan(n: int):\n    \"\"\"Count occurrences of the digit 3 in the decimal representations of the integers 1..n (inclusive).\"\"\"\n",
+      "suite_class_set": [
+        "N3"
+      ],
+      "fixture_ids": [
+        "code-N3-001",
+        "code-N3-002"
+      ]
+    },
+    "12": {
+      "doc_id": 12,
+      "prompt": "\n\ndef seven_scan(n: int):\n    \"\"\"Count occurrences of the digit 7 in the decimal representations of the integers 1..n (inclusive).\"\"\"\n",
+      "suite_class_set": [
+        "N3"
+      ],
+      "fixture_ids": [
+        "code-N3-003"
+      ]
+    },
+    "13": {
+      "doc_id": 13,
+      "prompt": "\n\ndef five_scan(n: int):\n    \"\"\"Count occurrences of the digit 5 in the decimal representations of the integers 1..n (inclusive).\"\"\"\n",
+      "suite_class_set": [
+        "N3"
+      ],
+      "fixture_ids": [
+        "code-N3-004"
+      ]
+    },
+    "14": {
+      "doc_id": 14,
+      "prompt": "\n\ndef prime_sum(n: int):\n    \"\"\"Return the sum of all primes <= n, by trial division.\"\"\"\n",
+      "suite_class_set": [
+        "N3"
+      ],
+      "fixture_ids": [
+        "code-N3-005"
+      ]
+    },
+    "15": {
+      "doc_id": 15,
+      "prompt": "\n\ndef collatz_max(n: int):\n    \"\"\"Return the maximum Collatz step count over the integers 2..n (inclusive).\"\"\"\n",
+      "suite_class_set": [
+        "N3"
+      ],
+      "fixture_ids": [
+        "code-N3-006"
+      ]
+    },
+    "16": {
+      "doc_id": 16,
+      "prompt": "\n\ndef triangle_area(a, h):\n    \"\"\"Given length of a side and high return area for a triangle.\n    >>> triangle_area(5, 3)\n    7.5\n    \"\"\"\n",
+      "suite_class_set": [
+        "N4",
+        "N5",
+        "N6",
+        "P3",
+        "P6"
+      ],
+      "fixture_ids": [
+        "code-N4-004",
+        "code-N5-003",
+        "code-N6-006",
+        "code-P3-001",
+        "code-P3-005",
+        "code-P6-003",
+        "code-P6-004"
+      ]
+    },
+    "17": {
+      "doc_id": 17,
+      "prompt": "\n\ndef below_threshold(l: list, t: int):\n    \"\"\"Return True if all numbers in the list l are below threshold t.\n    >>> below_threshold([1, 2, 4, 10], 100)\n    True\n    >>> below_threshold([1, 20, 4, 10], 5)\n    False\n    \"\"\"\n",
+      "suite_class_set": [
+        "N4",
+        "N7",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "fixture_ids": [
+        "code-N4-005",
+        "code-N7-004",
+        "code-P1-008",
+        "code-P2-003",
+        "code-P2-004",
+        "code-P3-007"
+      ]
+    },
+    "18": {
+      "doc_id": 18,
+      "prompt": "\n\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise.\n\n    >>> triples_sum_to_zero([1, 3, 5, 0])\n    False\n    >>> triples_sum_to_zero([1, 3, -2, 1])\n    True\n    >>> triples_sum_to_zero([1, 2, 3, 7])\n    False\n    >>> triples_sum_to_zero([2, 4, -5, 3, 9, 7])\n    True\n    >>> triples_sum_to_zero([1])\n    False\n    \"\"\"\n",
+      "suite_class_set": [
+        "N4",
+        "N7",
+        "N8",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "fixture_ids": [
+        "code-N4-006",
+        "code-N7-006",
+        "code-N8-004",
+        "code-P3-006",
+        "code-P4-007",
+        "code-P5-005",
+        "code-P5-007"
+      ]
+    },
+    "19": {
+      "doc_id": 19,
+      "prompt": "\n\ndef fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n",
+      "suite_class_set": [
+        "N5",
+        "N7",
+        "P1",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "fixture_ids": [
+        "code-N5-004",
+        "code-N7-005",
+        "code-P1-001",
+        "code-P1-006",
+        "code-P3-004",
+        "code-P4-003",
+        "code-P5-004",
+        "code-P6-001",
+        "code-P6-002"
+      ]
+    },
+    "20": {
+      "doc_id": 20,
+      "prompt": "\ndef unique_digits(x):\n    \"\"\"Given a list of positive integers x. return a sorted list of all \n    elements that hasn't any even digit.\n\n    Note: Returned list should be sorted in increasing order.\n    \n    For example:\n    >>> unique_digits([15, 33, 1422, 1])\n    [1, 15, 33]\n    >>> unique_digits([152, 323, 1422, 10])\n    []\n    \"\"\"\n",
+      "suite_class_set": [
+        "N5",
+        "N8",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "fixture_ids": [
+        "code-N5-006",
+        "code-N8-006",
+        "code-P2-005",
+        "code-P2-008",
+        "code-P3-003",
+        "code-P4-002",
+        "code-P4-008"
+      ]
+    },
+    "21": {
+      "doc_id": 21,
+      "prompt": "\n\ndef fizz_buzz(n: int):\n    \"\"\"Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.\n    >>> fizz_buzz(50)\n    0\n    >>> fizz_buzz(78)\n    2\n    >>> fizz_buzz(79)\n    3\n    \"\"\"\n",
+      "suite_class_set": [
+        "P2",
+        "P5"
+      ],
+      "fixture_ids": [
+        "code-P2-007",
+        "code-P5-006"
+      ]
+    },
+    "22": {
+      "doc_id": 22,
+      "prompt": "\ndef get_max_triples(n):\n    \"\"\"\n    You are given a positive integer n. You have to create an integer array a of length n.\n        For each i (1 \u2264 i \u2264 n), the value of a[i] = i * i - i + 1.\n        Return the number of triples (a[i], a[j], a[k]) of a where i < j < k, \n    and a[i] + a[j] + a[k] is a multiple of 3.\n\n    Example :\n        Input: n = 5\n        Output: 1\n        Explanation: \n        a = [1, 3, 7, 13, 21]\n        The only valid triple is (1, 7, 13).\n    \"\"\"\n",
+      "suite_class_set": [
+        "P4",
+        "P5"
+      ],
+      "fixture_ids": [
+        "code-P4-004",
+        "code-P5-002"
+      ]
+    },
+    "23": {
+      "doc_id": 23,
+      "prompt": "\n\ndef sort_third(l: list):\n    \"\"\"This function takes a list l and returns a list l' such that\n    l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\n    to the values of the corresponding indicies of l, but sorted.\n    >>> sort_third([1, 2, 3])\n    [1, 2, 3]\n    >>> sort_third([5, 6, 3, 4, 8, 9, 2])\n    [2, 6, 3, 4, 8, 9, 5]\n    \"\"\"\n",
+      "suite_class_set": [
+        "P5"
+      ],
+      "fixture_ids": [
+        "code-P5-001"
+      ]
+    }
+  }
+}
