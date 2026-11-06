@@ -1,0 +1,80 @@
+=== RW-15 READOUT TOOL v2 (THE ITEM-213 FIX) — REAL-CACHE CONTROL RE-RUN (the item-198 real-manifest-control precedent; the banked v2.0 control of item 209 stands as-is — this is the fixed tool's control, additive record) ===
+Control input: triadic_t2_cache_t2-prose17p-smoke_bfloat16_bos.jsonl (library sha256 a2f57964232d981db586b007ddbf642b7d6fe7224f65f3499ce9ecacb2e763e1, 24,122,943 B, 30 records: 20 prose docs + 10 loop fixtures; pulled from the Triadic Library, doc 3330d9ad-9799-4643-8f37-7056e3b266e8, byte-verified)
+Cross-check authority: triadic_t2_t2-prose17p-smoke.json (the owner's R-BC1 smoke export of record, instrument v32.2.1; library doc 08fecfc6-4fd5-40a4-9b43-c275d5c847d5)
+
+==============================================================================
+=== RW-15 D-FW3 ADJUDICATION READOUT (offline read-only zero-GPU standalone tool) ===
+  NOT an instrument: the banked v32.2.1 is UNTOUCHED; zero new walks;
+  the banked walks + their withheld exports STAND as the honest record.
+  Pre-reg: rw15-adjudication-readout-preregistration.md (owner-stamped, ledger item 208);
+  census: the item-205 Option-A ruling, amended by the item-213 census amendment (the verified 35-doc class).
+  CENSUS (rides every readout): named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165
+  !! FIXTURE-MODE: PIN CHECKS ECHOED, NOT ENFORCED -- ACCEPTANCE ONLY, NEVER A REAL RUN.
+  Monitors READ ONLY. Proposal tables + presented verdict typings:
+  NO verdict, NO threshold, NO wired theta -- presented, never adjudicated.
+
+  loading smoke_cache.jsonl (sha256 a2f57964232d...): 30 records (+0 empty-form)
+
+  --- LEG prose17p: 20 corpus docs | 0 census-excluded | 20 clean negative-population docs ---
+    census: prose17p:91 not in this cache (nothing to exclude)
+    census: prose17p:108 not in this cache (nothing to exclude)
+  !! INERT loop fixture loop-seeded-affirm: EOS at 11 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p, from cache smoke_cache.jsonl].
+  !! INERT loop fixture loop-seeded-chant: EOS at 1 steps (< 32) -- the pathology never materialized; excluded from positives (Phase-0 precedent) [prose17p, from cache smoke_cache.jsonl].
+
+  --- T2 SEPARATION (loop monitors, [prose17p], doc-level, known-loop vs clean, CENSUS-APPLIED) ---
+    G5_collapse  [maxC] sigma-gap=1.517 AUC=0.8187 theta=0.8221 -> FAIL
+    G1_drift     [maxD] sigma-gap=-0.942 AUC=0.2812 theta=0.2101 -> FAIL
+    G4_topic     [maxSexc] sigma-gap=-2.33 AUC=0.0437 theta=-1.6262 -> FAIL
+    G2_entropy   [maxAbsHsig] sigma-gap=0.549 AUC=0.7 theta=2.9657 -> FAIL
+    G3_pr        [maxPRsig] sigma-gap=3.18 AUC=0.95 theta=2.9847 -> PASS
+    f8_mirror    [maxf] sigma-gap=1.762 AUC=0.8375 theta=0.8789 -> FAIL
+
+  --- BACKLOG (D) direction-reversed anchorage candidates [prose17p] (PROPOSALS; census-applied) ---
+    G4_rev_minS     [minS] sigma-gap=2.309 AUC=0.9625 theta=0.0501776403398253 J=0.8
+    G1_rev_minRho   [minRho] sigma-gap=0.832 AUC=0.7312 theta=0.5567355290986598 J=0.475
+    G5_rev_minEbar  [minEbar] sigma-gap=-1.584 AUC=0.1875 theta=0.013466461965123244 J=0.075
+    RW-15 [G4_rev_minS] [prose17p]: gap 2.309 -> PASS_2SIGMA (held-out 2-sigma verdict statistic met on this leg (gap 2.309 >= 2.0))
+    RW-15 [G1_rev_minRho] [prose17p]: gap 0.832 -> FAIL (held-out 2-sigma verdict statistic not met on this leg (gap 0.832 < 2.0, outside the jitter band))
+    RW-15 [G5_rev_minEbar] [prose17p]: gap -1.584 -> FAIL (held-out 2-sigma verdict statistic not met on this leg (gap -1.584 < 2.0, outside the jitter band))
+
+  --- DIRECTION-CONSISTENCY (same-sign both task legs for task-general claims; per-leg adoption where leg-mismatched) ---
+    G4_rev_minS: signs prose17p=+ | task pair incomplete in this run
+    G1_rev_minRho: signs prose17p=+ | task pair incomplete in this run
+    G5_rev_minEbar: signs prose17p=- | task pair incomplete in this run
+
+  Exported: /tmp/rw15ctl/control_export_new.json
+  CENSUS (rides every readout): named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3 p2corpus:7 p2corpus:8 p2corpus:13 p2corpus:16 p2corpus:17 p2corpus:18 p2corpus:23 p2corpus:27 p2corpus:28 p2corpus:33 p2corpus:37 p2corpus:38 p2corpus:43 p2corpus:48 p2corpus:52 p2corpus:53 p2corpus:58 p2corpus:62 p2corpus:63 p2corpus:66 p2corpus:74 p2corpus:75 p2corpus:76 p2corpus:78 p2corpus:85 p2corpus:86 p2corpus:93 p2corpus:113 p2corpus:118 p2corpus:128 p2corpus:133 p2corpus:165
+  RW-14 RIDER: ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders (tail_meanP gsm-only; meanP both legs) and backlog table (C) adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.
+  READOUT COMPLETE -- proposal tables + presented verdict typings only:
+  nothing here is a verdict, a threshold, or a wired theta; theta [REDACTED_PER_PUBLICATION_POLICY]
+  unmoved (D-theta); the owner's stamps decide.
+==============================================================================
+
+--- CONTROL 1: per-doc score-cell comparison (tool derive/baselines port vs the export's own score dicts) ---
+score cells compared: 252
+cells differing > 1e-9: 0
+max abs diff: 0.000e+00
+RESULT: derive_doc_stats + compute_baselines port reproduces the instrument's own export value-for-value (0.0 max diff).
+
+--- CONTROL 2: doc-level separation table (tool vs the export's loop_separation) ---
+  G5_collapse  gap 1.517==1.517 auc 0.8187==0.8187 2sig False==False -> EXACT
+               theta export 0.8220645189285278 / tool 0.8220644929247283 | J export 0.75 / tool 0.75
+  G1_drift     gap -0.942==-0.942 auc 0.2812==0.2812 2sig False==False -> EXACT
+               theta export 0.21014542877674103 / tool 0.210145434448112 | J export 0.025 / tool 0.025
+  G4_topic     gap -2.33==-2.33 auc 0.0437==0.0437 2sig False==False -> EXACT
+               theta export 2.878676414489746 / tool -1.6262023659710034 | J export -0.05 / tool None
+  G2_entropy   gap 0.549==0.549 auc 0.7==0.7 2sig False==False -> EXACT
+               theta export 2.9657058715820312 / tool 2.965705915420237 | J export 0.5 / tool 0.5
+  G3_pr        gap 3.18==3.18 auc 0.95==0.95 2sig True==True -> EXACT
+               theta export 2.984668254852295 / tool 2.984668209159546 | J export 0.9 / tool 0.9
+  f8_mirror    gap 1.762==1.762 auc 0.8375==0.8375 2sig False==False -> EXACT
+               theta export 0.87890625 / tool 0.87890625 | J export 0.675 / tool 0.675
+
+RESULT: 6/6 sigma-gap/AUC/separates_2sigma EXACT.
+
+--- CONTROL 3: the item-213 fix path on a real single-cache run ---
+  loop_population: source_cache=smoke_cache.jsonl n_live=8 n_inert=2 inert=['loop-seeded-affirm', 'loop-seeded-chant']
+  fixture_identity_receipt: 10 fixture(s) / 1 cache(s), copies_byte_identical=True
+RESULT: per-leg positives from the leg's own cache (8 live / 2 inert); the receipt block present and honest.
+
+OVERALL: ALL CONTROLS PASS

@@ -1,0 +1,287 @@
+{
+  "census_line": "named-excluded (empty generation, EOS@step0): prose17p:91 prose17p:108 p2corpus:3",
+  "census_ruling": "ledger item 205 (Option A): named-record exclusion class for the loop-side/adjudication NEGATIVE population; D-FW3 'corpus WHOLE' clause amended by the owner's stamp",
+  "direction_consistency_presented": {
+    "G1_rev_minRho": {
+      "note": "a task-general adoption claim requires same-sign on both task legs (gsm8k + humaneval); leg-mismatched candidates adopt per-leg only; the prose lanes are recorded under the D-FW1(b) full-coverage ruling -- presented, never adjudicated.",
+      "per_leg_sign": {
+        "prose17p": "+"
+      },
+      "task_pair_present": false,
+      "task_pair_same_sign": null
+    },
+    "G4_rev_minS": {
+      "note": "a task-general adoption claim requires same-sign on both task legs (gsm8k + humaneval); leg-mismatched candidates adopt per-leg only; the prose lanes are recorded under the D-FW1(b) full-coverage ruling -- presented, never adjudicated.",
+      "per_leg_sign": {
+        "prose17p": "+"
+      },
+      "task_pair_present": false,
+      "task_pair_same_sign": null
+    },
+    "G5_rev_minEbar": {
+      "note": "a task-general adoption claim requires same-sign on both task legs (gsm8k + humaneval); leg-mismatched candidates adopt per-leg only; the prose lanes are recorded under the D-FW1(b) full-coverage ruling -- presented, never adjudicated.",
+      "per_leg_sign": {
+        "prose17p": "-"
+      },
+      "task_pair_present": false,
+      "task_pair_same_sign": null
+    }
+  },
+  "empty_form_records_excluded": [],
+  "fixture_mode": true,
+  "inputs": [
+    {
+      "n_empty_form": 0,
+      "n_records": 30,
+      "path": "smoke_cache.jsonl",
+      "pin": {
+        "leg": "prose17p",
+        "match": false,
+        "pinned_file": "triadic_t2_cache_t2-prose17p-fresh_bfloat16_bos.jsonl",
+        "pinned_sha256": "586048c6d1be3d58c2d4ff6555a377a57d385b1173b2737ee6fb4771452b9138"
+      },
+      "sha256": "a2f57964232d981db586b007ddbf642b7d6fe7224f65f3499ce9ecacb2e763e1"
+    }
+  ],
+  "legs": {
+    "prose17p": {
+      "census_docs": [
+        {
+          "doc_id": 91,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        },
+        {
+          "doc_id": 108,
+          "note": "not in this run's cache (nothing to exclude)",
+          "present": false
+        }
+      ],
+      "direction_candidates": {
+        "G1_rev_minRho": {
+          "auc": 0.7312,
+          "doc_score": "minRho",
+          "note": "adoption candidate",
+          "sigma_gap": 0.832,
+          "theta": 0.5567355290986598,
+          "youden_J": 0.475
+        },
+        "G4_rev_minS": {
+          "auc": 0.9625,
+          "doc_score": "minS",
+          "note": "adoption candidate -- the lead",
+          "sigma_gap": 2.309,
+          "theta": 0.0501776403398253,
+          "youden_J": 0.8
+        },
+        "G5_rev_minEbar": {
+          "auc": 0.1875,
+          "doc_score": "minEbar",
+          "note": "MEASURED-NOT-ADOPTED (D-FW5(c) ruling -- per-leg adoption only under its own future stamp)",
+          "sigma_gap": -1.584,
+          "theta": 0.013466461965123244,
+          "youden_J": 0.075
+        }
+      },
+      "doc_separations_census_applied": {
+        "G1_drift": {
+          "auc": 0.2812,
+          "desc": "attention anchor-mass drift vs depth baseline",
+          "doc_score": "maxD",
+          "separates_2sigma": false,
+          "sigma_gap": -0.942,
+          "theta": 0.210145434448112,
+          "youden_J": 0.025
+        },
+        "G2_entropy": {
+          "auc": 0.7,
+          "desc": "spatial hidden-entropy excursion, |dH|/sigma per layer",
+          "doc_score": "maxAbsHsig",
+          "separates_2sigma": false,
+          "sigma_gap": 0.549,
+          "theta": 2.965705915420237,
+          "youden_J": 0.5
+        },
+        "G3_pr": {
+          "auc": 0.95,
+          "desc": "participation-ratio collapse, (PIbar-PR)/sigma per layer",
+          "doc_score": "maxPRsig",
+          "separates_2sigma": true,
+          "sigma_gap": 3.18,
+          "theta": 2.984668209159546,
+          "youden_J": 0.9
+        },
+        "G4_topic": {
+          "auc": 0.0437,
+          "desc": "prompt-anchorage excursion vs depth baseline",
+          "doc_score": "maxSexc",
+          "separates_2sigma": false,
+          "sigma_gap": -2.33,
+          "theta": -1.6262023659710034,
+          "youden_J": null
+        },
+        "G5_collapse": {
+          "auc": 0.8187,
+          "desc": "windowed output-entropy collapse vs depth baseline",
+          "doc_score": "maxC",
+          "separates_2sigma": false,
+          "sigma_gap": 1.517,
+          "theta": 0.8220644929247283,
+          "youden_J": 0.75
+        },
+        "f8_mirror": {
+          "auc": 0.8375,
+          "desc": "8-gram repetition mirror of the fuzzy primary lane",
+          "doc_score": "maxf",
+          "separates_2sigma": false,
+          "sigma_gap": 1.762,
+          "theta": 0.87890625,
+          "youden_J": 0.675
+        }
+      },
+      "f8_map": {
+        "J_at_banked_theta": 0.675,
+        "J_curve": [
+          {
+            "J_at_value": 0.0,
+            "clean_n": 16,
+            "loop_n": 1,
+            "value": 0.875
+          },
+          {
+            "J_at_value": 0.675,
+            "clean_n": 4,
+            "loop_n": 7,
+            "value": 1.0
+          }
+        ],
+        "banked_theta": 0.87890625,
+        "best_J": 0.675,
+        "best_value": 1.0,
+        "clean_hist": {
+          "0.875": 16,
+          "1.0": 4
+        },
+        "clean_share_at_1.0": 0.2,
+        "doc_score": "maxf",
+        "loop_hist": {
+          "0.875": 1,
+          "1.0": 7
+        },
+        "n_clean": 20,
+        "n_loop": 8,
+        "note": "quantized statistic: sweep theta at/just above each distinct value; the grid must straddle the full-scale Youden against a 1.0 mass point."
+      },
+      "g3_theta_curve": {
+        "J_at_banked_theta": 0.9,
+        "J_curve": {
+          "1.2827": 0.0,
+          "1.3054": 0.05,
+          "1.3294": 0.1,
+          "1.3549": 0.15,
+          "1.3939": 0.15,
+          "1.4143": 0.2,
+          "1.4213": 0.25,
+          "1.4467": 0.25,
+          "1.4735": 0.3,
+          "1.4992": 0.35,
+          "1.5087": 0.35,
+          "1.5176": 0.4,
+          "1.5253": 0.45,
+          "1.5278": 0.45,
+          "1.5492": 0.5,
+          "1.5776": 0.55,
+          "1.595": 0.55,
+          "1.6226": 0.6,
+          "1.6495": 0.65,
+          "1.6595": 0.65,
+          "1.73": 0.7,
+          "1.8028": 0.75,
+          "1.822": 0.75,
+          "2.2108": 0.8,
+          "2.6407": 0.85,
+          "2.9177": 0.85,
+          "3.0691": 0.9,
+          "3.3186": 0.775,
+          "3.8212": 0.775,
+          "3.9041": 0.65,
+          "3.918": 0.525,
+          "3.9388": 0.525,
+          "3.9765": 0.575,
+          "4.0094": 0.45,
+          "4.0321": 0.45,
+          "4.086": 0.325,
+          "4.1951": 0.375,
+          "4.3699": 0.375,
+          "4.4605": 0.25,
+          "4.5981": 0.125,
+          "4.7898": 0.125
+        },
+        "J_max": 0.9,
+        "banked_theta": 2.984668209159546,
+        "doc_score": "maxPRsig",
+        "flat_region_0.9Jmax": {
+          "hi": 3.0691,
+          "lo": 2.6407
+        },
+        "n_grid": 41,
+        "note": "sweep points inside the flat region; the curve is reported so Gate-12 starts from an examined optimum.",
+        "theta_at_J_max": 3.0691
+      },
+      "n_census_excluded": 0,
+      "n_clean_negative_population": 20,
+      "n_corpus_all": 20,
+      "rw15_verdict_typings_presented": {
+        "G1_rev_minRho": {
+          "auc": 0.7312,
+          "doc_score": "minRho",
+          "leg": "prose17p",
+          "n_neg": 20,
+          "n_pos": 8,
+          "sigma_gap": 0.832,
+          "theta": 0.5567355290986598,
+          "verdict_basis": "held-out 2-sigma verdict statistic not met on this leg (gap 0.832 < 2.0, outside the jitter band)",
+          "verdict_presented": "FAIL",
+          "youden_J": 0.475
+        },
+        "G4_rev_minS": {
+          "auc": 0.9625,
+          "doc_score": "minS",
+          "leg": "prose17p",
+          "n_neg": 20,
+          "n_pos": 8,
+          "sigma_gap": 2.309,
+          "theta": 0.0501776403398253,
+          "verdict_basis": "held-out 2-sigma verdict statistic met on this leg (gap 2.309 >= 2.0)",
+          "verdict_presented": "PASS_2SIGMA",
+          "youden_J": 0.8
+        },
+        "G5_rev_minEbar": {
+          "auc": 0.1875,
+          "doc_score": "minEbar",
+          "leg": "prose17p",
+          "n_neg": 20,
+          "n_pos": 8,
+          "sigma_gap": -1.584,
+          "theta": 0.013466461965123244,
+          "verdict_basis": "held-out 2-sigma verdict statistic not met on this leg (gap -1.584 < 2.0, outside the jitter band)",
+          "verdict_presented": "FAIL",
+          "youden_J": 0.075
+        }
+      }
+    }
+  },
+  "loop_population": {
+    "inert": [
+      "loop-seeded-affirm",
+      "loop-seeded-chant"
+    ],
+    "n_inert": 2,
+    "n_live": 8
+  },
+  "mode": "RW-15 D-FW3 adjudication readout (offline read-only; census-applied; proposal tables + presented verdict typings -- NO adjudication, NO threshold, NO wired theta)",
+  "prereg": "rw15-adjudication-readout-preregistration.md (owner-stamped, ledger item 208)",
+  "rw14_rider": "ROUTED-TO-OWN-PRE-REG: the cache schema carries no label joins (gold/label_correct ride the run-time doc, never the cache record) -- the RW-14 riders (tail_meanP gsm-only; meanP both legs) and backlog table (C) adjudicate under their own pre-registered readout (the G-FW3 no-silent-multiplexing law); nothing fabricated here.",
+  "tool": "triadic_rw15_readout.py",
+  "tool_sha256": "d2542e1264055fb5067e848a7d9c702b131175acb28fb4278e7e5d6b4f20a819"
+}

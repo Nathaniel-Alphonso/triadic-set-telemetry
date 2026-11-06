@@ -1,0 +1,68 @@
+==============================================================================
+=== RW-15 READOUT TOOL ACCEPTANCE RUN (zero-GPU; the §6 pre-registered acceptance) ===
+  fixtures built deterministically under rw15_readout_fixtures
+
+--- F1: clean-column readout + census line + determinism ---
+  PASS F1 exit 0
+  PASS F1 census line prints on console (the item-213 35-doc class)
+  PASS F1 census line rides the export header
+  PASS F1 census line carries exactly 35 named docs (2 + 33, the item-213 amendment)
+  PASS F1 census arithmetic (60 records incl. zero-step doc 3, 1 named-excluded, 59 clean)
+  PASS F1 census premise verified for p2corpus:3
+  PASS F1 the 33-doc p2corpus census: 1 verified present, 32 reported not-present-in-cache
+  PASS F1 all six monitors' doc-level separations COMPUTE (the withheld columns, census-opened)
+  PASS F1 table (D) G4_rev_minS computes a positive gap
+  PASS F1 hand-check: G4_rev_minS AUC exactly 1.0 (non-overlap by construction)
+  PASS F1 table (A) populations (8 loop vs 59 census-clean)
+  PASS F1 table (B) G3_pr Youden curve computes
+  PASS F1 verdict typing present for the lead candidate
+  PASS F1 D-FW5 rider: G5_rev_minEbar typed measured-not-adopted
+  PASS F1 inert-fixture guard: 8 live / 2 inert, positives from the leg's own cache
+  PASS F1 determinism: fresh re-run export byte-identical
+
+--- F2: out-of-census absent statistic -> HARD EXIT ---
+  PASS F2 exit 1 (fail-loud)
+  PASS F2 hard exit names p2corpus:190 (out-of-census)
+
+--- F3: census premise violated -> HARD EXIT ---
+  PASS F3 exit 1 (fail-loud)
+  PASS F3 names the premise violation (p2corpus:3)
+
+--- F4a: synthetic cache vs the pinned SHA (no fixture-mode) -> HARD EXIT ---
+  PASS F4a exit 1 (fail-loud)
+  PASS F4a pin law enforced outside fixture-mode
+  PASS F4b missing schema field -> hard exit
+  PASS F4c truncated JSON record -> hard exit
+  PASS F4d key != leg:doc_id -> hard exit
+  PASS F4e unrecognized leg -> hard exit
+
+--- F5: negative population < 5 -> typed INCONCLUSIVE ---
+  PASS F5 exit 0 (typed, not crashed)
+  PASS F5 all candidates typed INCONCLUSIVE-POPULATION-GUARD
+  PASS F6 exit 0 (typed, not crashed)
+  PASS F6 inert census: 3 live / 7 inert
+  PASS F6 all candidates typed INCONCLUSIVE-POPULATION-GUARD
+  PASS F8 exit 0
+  PASS F8 empty-form record reported in the excluded census
+  PASS F8 populations: 60 corpus records (doc 12 empty-form is loader-excluded, never a population member) - 1 census = 59 clean
+
+--- F9: MULTI-CACHE byte-identical copies; per-leg positives from each leg's OWN cache (the run-1 pooling regression) ---
+  PASS F9 exit 0 (two caches, receipt passes)
+  PASS F9 the identity receipt prints on console
+  PASS F9 receipt: 10 fixtures across 2 caches, copies byte-identical
+  PASS F9 pooling regression: the shared leg's tables EXACTLY equal its single-cache run (item-212 defect fixed)
+  PASS F9 p2corpus positives from its OWN cache (8 live / 2 inert)
+  PASS F9 prose17p leg: 30 clean, positives from ITS cache (8 live / 2 inert)
+  PASS F9 prose17p separations compute (no census members on this leg)
+
+--- F10: MULTI-CACHE copy divergence (loop-seeded-counter 63 vs 64 steps) -> HARD EXIT ---
+  PASS F10 exit 1 (fail-loud)
+  PASS F10 hard exit names the divergent fixture (loop-seeded-counter)
+
+--- F11: duplicate leg across caches -> HARD EXIT ---
+  PASS F11 exit 1 (fail-loud)
+  PASS F11 hard exit: leg appears in more than one cache (never silently double the population)
+
+  === ACCEPTANCE CENSUS: 45 PASS / 0 FAIL ===
+  Fix-the-fixture-or-the-builder, never the tool.
+==============================================================================
