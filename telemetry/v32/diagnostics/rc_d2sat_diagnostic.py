@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """THE SATURATED D2 DIAGNOSTIC -- the rc-d2sat-conversion-prereg.md S6 act.
 
-At his word ("lets have the diagnostic") the sheet's diagnostic runs:
+At my word ("lets have the diagnostic") the sheet's diagnostic runs:
 the saturation re-form of the d2 zero-run-mass face (psi(s) = s/(s+kappa),
-KAPPA = 1 pinned by the sheet at his stamp, never tuned to the answer),
+KAPPA = 1 pinned by the sheet at my stamp, never tuned to the answer),
 read EXACTLY as sheeted -- the census parity gate first (the re-derived
-per-doc masses must reproduce his banked console census at gate 8, a
+per-doc masses must reproduce my banked console census at gate 8, a
 mismatch a HARD EXIT), then the saturated census on the ACTUAL masses,
 the cliff read, the honest both-sides gap, the off-leg reads, the
 three-miss read, the sweep receipts, and the kill-switch verdicts,
@@ -15,15 +15,15 @@ TWO MODES (the codev7 genre):
   --parity-only : the receipt-side gates alone, NO caches needed (the
                   desk's half, runnable anywhere beside the receipt +
                   tool + the pinned sheet);
-  (default)     : the full diagnostic -- HIS MAC, read-only, zero GPU,
+  (default)     : the full diagnostic -- MY MAC, read-only, zero GPU,
                   zero decodes, the script beside triadic_rw17_codev5.py
-                  + rc_codev5_receipt.json + the pinned sheet + his
+                  + rc_codev5_receipt.json + the pinned sheet + my
                   three pinned walk caches; emits
-                  rc_d2sat_diagnostic_console.txt for his shasum +
+                  rc_d2sat_diagnostic_console.txt for my shasum +
                   upload.
 
 usage: python3 rc_d2sat_diagnostic.py --parity-only   (the desk half)
-       python3 rc_d2sat_diagnostic.py                 (his Mac, full)
+       python3 rc_d2sat_diagnostic.py                 (my Mac, full)
 """
 
 import json
@@ -62,7 +62,7 @@ D_COUNTDOWN_REFINED = 1.434110
 D_INJ_D2Z = 15.326556
 PB4_HONEST = 1.792063                 # the standing best banked honest read
 CAPS = {6: 1.6432, 7: 2.0494, 8: 2.6833}
-# the banked d2 census, HIS consoles (items 490/493), the parity anchors:
+# the banked d2 census, MY consoles (items 490/493), the parity anchors:
 # AMEND v2 -- PER-LEG anchors (the item-493 bank: the gate-8 census
 # moments reproduce on all three legs; the item-490 bank: the n_pos
 # counts).  The v1 gate wired every leg against the CODE anchor alone
@@ -84,7 +84,7 @@ CEN_SD = CEN_ANCHORS["mbpprw17"]["sd"]
 CEN_N_POS = CEN_ANCHORS["mbpprw17"]["n_pos"]
 CEN_N = CEN_ANCHORS["mbpprw17"]["n"]
 HELD_N_POS = CEN_ANCHORS["mbpprw17"]["held_n_pos"]
-# the fixture m_d2 bank (his gate-8 reads):
+# the fixture m_d2 bank (my gate-8 reads):
 BANKED_MD2 = {"loop-sejection-placeholder": None}  # replaced at load
 BANKED_MD2 = {"loop-seeded-json": 8, "loop-seeded-countdown": 0,
               "loop-seeded-code-line": 0, "loop-injection-code": 21,
@@ -270,12 +270,12 @@ def parity_only(K, r):
       "8f864c81bfa51c3ca73d4284591504ff preserved never edited): "
       "the census parity gate now anchors PER LEG (every anchor "
       "banked at items 490/493); the v1 gate wired every leg against "
-      "the CODE anchor alone and hard-exited on his Mac at prose "
+      "the CODE anchor alone and hard-exited on my Mac at prose "
       "whose own re-derived census was EXACT against the banked prose "
       "refs -- a desk-side wiring error, never a data verdict; THE "
       "FORM NEVER TOUCHED (psi, kappa=1 pinned, the run law, the "
       "refined tail, the spine, the sweep byte-identical)")
-    p("the sheet rc-d2sat-conversion-prereg.md pinned at his stamp (sha "
+    p("the sheet rc-d2sat-conversion-prereg.md pinned at my stamp (sha "
       "%s...), the receipt %s verified byte-exact at open, the tool %s "
       "verified inside it -- the form read EXACTLY as sheeted: "
       "psi(s) = s/(s+kappa), kappa = 1 pinned by convention, the "
@@ -364,7 +364,7 @@ def parity_only(K, r):
                 "aborting.")
     p("  D3 PASSED (the law byte-carried; the gate sweep preview banked "
       "-- the masses shrink or hold as the support floor rises, the "
-      "sheet pins ONE gate at his stamp)")
+      "sheet pins ONE gate at my stamp)")
     p("")
 
     # [D4] the P-B4 refined fixture table reproduced
@@ -388,7 +388,7 @@ def parity_only(K, r):
     # receipts the audit banked; never the diagnostic's answer)
     p("[D5] THE OFFLINE SATURATED IDEALIZATION RECOMPUTED (the "
       "equal-mass census model, the audit's receipts -- the "
-      "idealization only, the ACTUAL masses answer on his Mac)")
+      "idealization only, the ACTUAL masses answer on my Mac)")
     n_zero = CEN_N - CEN_N_POS
     mean_mass = CEN_MEAN * CEN_N / CEN_N_POS
     z_inv = ((n_zero / CEN_N)
@@ -440,17 +440,17 @@ def parity_only(K, r):
     p("    loop moments %.6f / %.6f (vs the raw combined %.6f / %.6f -- "
       "the drag halved on paper); the fixture-side bound %.6f; the "
       "lower bracket %.6f -- the honest read lives INSIDE, every "
-      "binding question his-Mac-only"
+      "binding question my-Mac-only"
       % (mu_s, sd_s, LOOP_COMB_MU, LOOP_COMB_SD, g_a, g_c))
     p("  D5 PASSED (the idealization receipts reproduced; the census "
-      "half NEVER runs on this mode -- the masses answer only on his "
+      "half NEVER runs on this mode -- the masses answer only on my "
       "Mac)")
     p("")
-    p("THE FULL MODE (his Mac, read-only, zero GPU, zero decodes): the "
-      "script beside this tool + receipt + the pinned sheet + his "
+    p("THE FULL MODE (my Mac, read-only, zero GPU, zero decodes): the "
+      "script beside this tool + receipt + the pinned sheet + my "
       "three pinned walk caches, then")
     p("    python3 rc_d2sat_diagnostic.py")
-    p("  which emits %s for his shasum + upload; the census parity "
+    p("  which emits %s for my shasum + upload; the census parity "
       "gate first (PER-LEG anchors, amend v2: CODE mean 0.275000 sd "
       "1.352227 n_pos 11 held 15, prose 1.548387/3.896216 n_pos 72, "
       "p2 1.154667/3.072663 n_pos 62 -- a mismatch a HARD EXIT), then "
@@ -461,13 +461,13 @@ def parity_only(K, r):
     p("(offline read of the run-of-record receipt bytes only, zero "
       "GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] "
       "unmoved (D-theta); no thresholds set, moved, or adjudicated; "
-      "findings presented, never adjudicated -- the owner's stamps "
+      "findings presented, never adjudicated -- my stamps "
       "decide)")
 
 
-# ---- the full diagnostic (his Mac, read-only, zero GPU, zero decodes) ----
+# ---- the full diagnostic (my Mac, read-only, zero GPU, zero decodes) ----
 def full_mode(K, r):
-    p("=== THE SATURATED D2 DIAGNOSTIC, FULL MODE (his pinned caches, "
+    p("=== THE SATURATED D2 DIAGNOSTIC, FULL MODE (my pinned caches, "
       "read-only, zero GPU, zero decodes) ===")
     p("AMEND v2 (the v1 sha 216b5860da0e2371d5827b5efcbb4fdf"
       "8f864c81bfa51c3ca73d4284591504ff preserved never edited): "
@@ -488,8 +488,8 @@ def full_mode(K, r):
       "item-488 form byte-carried) and the SATURATED d2 zero-run-mass "
       "cell (the item-475 law mirrored onto d2, support = triples >= "
       "the swept gate, psi(s) = s/(s+kappa) applied to the mass BEFORE "
-      "the census z, kappa = 1 PINNED by the sheet at his stamp); the "
-      "gate swept 8/12/16 with the sheet pinning ONE at his word; the "
+      "the census z, kappa = 1 PINNED by the sheet at my stamp); the "
+      "gate swept 8/12/16 with the sheet pinning ONE at my word; the "
       "kappa sweep printed as receipts, only the pinned kappa=1 ever "
       "carried; the census parity gate FIRST (a mismatch a HARD "
       "EXIT)")
@@ -568,7 +568,7 @@ def full_mode(K, r):
                  abs(sd8 - anc["sd"]), n_pos8, anc["n_pos"],
                  n_zero8, len(masses8), hpos8))
         else:
-            p("  THE CENSUS PARITY GATE (gate %d, vs his banked console "
+            p("  THE CENSUS PARITY GATE (gate %d, vs my banked console "
               "census): mean %.6f vs %.6f (delta %.2e) | sd %.6f vs %.6f "
               "(delta %.2e) | n_pos %d vs %d | n_at_zero %d/%d | held "
               "n_pos %d vs %d"
@@ -803,7 +803,7 @@ def full_mode(K, r):
 
     # the kill-switch verdicts, presented never adjudicated
     p("THE KILL-SWITCH VERDICTS (the pre-reg's S6 law, presented for "
-      "his stamps):")
+      "my stamps):")
     if ks_notes:
         jk = ks_notes[0]
         eaten = (jk["cliff"] and not jk["flip"])
@@ -825,16 +825,16 @@ def full_mode(K, r):
              else "AT OR ABOVE the standing best banked CODE read"))
     p("  KS1 THE CENSUS PARITY: PASSED at open (a fail is a HARD "
       "EXIT, never a verdict)")
-    p("  THE STANDING: the console presented for his read -- a "
+    p("  THE STANDING: the console presented for my read -- a "
       "negative kill-switch read closes the sheet on paper zero "
       "build hours (the B1/B2 pre-reg then writes against the "
       "standing banked world per the item-498 branch law); a live "
-      "read opens the build question at his word only, its own stamp, "
+      "read opens the build question at my word only, its own stamp, "
       "never pre-promised")
-    p("(offline read of his pinned cache bytes only, zero GPU, zero "
+    p("(offline read of my pinned cache bytes only, zero GPU, zero "
       "decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); "
       "no thresholds set, moved, or adjudicated; findings presented, "
-      "never adjudicated -- the owner's stamps decide)")
+      "never adjudicated -- my stamps decide)")
 
 
 def main():

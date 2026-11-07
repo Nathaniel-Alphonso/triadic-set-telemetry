@@ -1,7 +1,7 @@
 """
 THE STAGE-1 LOADERS KNOWN-ANSWER SMOKE v1.1  --  build message 2 of 3
 
-PART A: synthetic fixture worlds, ZERO real rows (the owner's-hardware law):
+PART A: synthetic fixture worlds, ZERO real rows (my-hardware law):
 the pin machinery probed by tampering, the thin-parse laws exercised on
 hand-authored records with every negative dying its named loud line (the
 amendment sheet's own list: tampered rows, ragged rows, missing lanes, the
@@ -12,8 +12,8 @@ byte-identical. PART B: THE REAL-BYTES CONTROL (the amendment sheet's
 section-5 build law) -- the four local files of record loaded through the
 re-exported v1.0 loaders with every pin exact, and THE THREE REAL THINS
 PARSED under the fail-loud gates for STRUCTURAL RECEIPTS ONLY, every value
-DISCARDED, zero readouts computed (the readout itself runs owner-side at
-his single run).
+DISCARDED, zero readouts computed (the readout itself runs on my side at
+my single run).
 """
 
 import os
@@ -162,10 +162,10 @@ except A.LoudFail as e:
        False, str(e)[:100])
 try:
     out3 = A.load_thin_parsed(good, 'the synthetic thin', name_printed='the named lane')
-    ok('Pb7 the name_printed lane carries (the owner-side print genre, the builder bytes clean)',
+    ok('Pb7 the name_printed lane carries (my-side print genre, the builder bytes clean)',
        out3['records'] == 3)
 except A.LoudFail as e:
-    ok('Pb7 the name_printed lane carries (the owner-side print genre, the builder bytes clean)',
+    ok('Pb7 the name_printed lane carries (my-side print genre, the builder bytes clean)',
        False, str(e)[:100])
 
 # the parse negatives, each dying its named loud line
@@ -362,7 +362,7 @@ else:
     ok('B20 the math thin leg census structural (the corpus leg + the loop leg, names in the receipt)', False)
 
 print('  [real control] ZERO READOUTS COMPUTED -- every parsed value discarded, '
-      'receipts carry counts only; the readout itself runs owner-side at his single run')
+      'receipts carry counts only; the readout itself runs on my side at my single run')
 
 
 # ============================================== the totals

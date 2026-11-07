@@ -10,9 +10,9 @@ load_prose_corpus` source slice from the BUILT file (anchored between
 "def _sha256_file" and "def load_humaneval") and executes it with
 stdlib-only names (hashlib/json/os/sys). This proves the loader's
 hard-exit paths AS BUILT -- no copy, no paraphrase. The chat register's
-tokenizer path (apply_chat_template) is owner-side by construction
+tokenizer path (apply_chat_template) is on my side by construction
 (needs transformers); case n12 proves its tok-None hard exit, and the
-real chat walk rides the owner's smoke.
+real chat walk rides my smoke.
 
 The two REAL pinned manifests are added here as read-only positive
 controls (validation of the loader against the corpora it will walk;
@@ -147,7 +147,7 @@ def main():
                   f"record; it is NOT modified -- sha256 {before[:12]}"
                   f"... unchanged before/after, "
                   f"{'PIN MATCHES' if untouched else 'PIN MISMATCH'}; "
-                  f"presented for the owner's ruling, never adjudicated)")
+                  f"presented for my ruling, never adjudicated)")
             findings += 1
 
     print(f"\nRESULT: {passed} PASS / {failed} FAIL / {findings} "
@@ -157,7 +157,7 @@ def main():
     print("every hard-exit path proved with the named error; positive "
           "controls load clean; pinned manifests untouched.")
     print("NOT RUN-VALIDATED: no model load, no walk -- first execution "
-          "is the owner's smoke (R-BC1), as at v33.0.1 B6.")
+          "is my smoke (R-BC1), as at v33.0.1 B6.")
 
 
 if __name__ == "__main__":

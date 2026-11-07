@@ -2,7 +2,7 @@
 """build_arith_fixtures.py — the arith-* fixture-suite builder (v1).
 
 Deterministic (fixed parameter tables, zero randomness, zero model).
-Implements the OWNER-STAMPED arith-* fixture-family pre-registration
+Implements my STAMPED arith-* fixture-family pre-registration
 (arith-fixture-family-preregistration.md; ruled options: sizing arith-M,
 RW-5 paraphrase axis OFF — ledger items 161-162).
 
@@ -388,7 +388,7 @@ suite = {
     "family": "arith-* (17-A; the GROUP-3 label retired, item 128)",
     "pre_registration": "arith-fixture-family-preregistration.md",
     "option": "arith-M (96 rows: 48 positives, 48 controls)",
-    "rw5_paraphrase_axis": "OFF (owner ruling, item 162)",
+    "rw5_paraphrase_axis": "OFF (my ruling, item 162)",
     "typed_row_schema": ["fixture_id", "class", "magnitude", "anchor_family",
                          "statement_text", "ground_truth", "expected_verdict",
                          "expected_slips", "expected_guard", "expected_event_class",
@@ -408,7 +408,7 @@ suite = {
     "pending_ruling_rows": {
         "gate5-compression": "N3 (6 rows)",
         "gate5-truncation": "N7 (6 rows)",
-        "branches": "both pre-registered; the owner's Gate-5 stamp decides "
+        "branches": "both pre-registered; my Gate-5 stamp decides "
                     "(tolerance-legal display vs charged damage)",
     },
     "counts": {

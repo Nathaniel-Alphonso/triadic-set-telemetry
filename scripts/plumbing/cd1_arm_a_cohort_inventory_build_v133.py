@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # cd1_arm_a_cohort_inventory_build_v1.py -- the CD-1 Arm A B0 builder.
-# The cohort inventory + certification build per the OWNER-PINNED B0
+# The cohort inventory + certification build per my PINNED B0
 # pre-registration of record (cd1-arm-a-b0-cohort-inventory-preregistration.md,
 # 8730 B, SHA-256 c641bee2...), under the pinned ladder: 0a the 17-C
 # adjudication; 0b the Arm A sheet (14dbedda...); 0c the Phase-1 build
 # spec (0c886741...). ZERO GPU, ZERO DECODES: reads banked caches + label
 # exports + the tokenizer file only; never a forward pass, never a model
 # load. The tool prints no verdicts -- the inventory is a receipt;
-# findings presented, never adjudicated; the owner's stamps decide.
-# Modes: --census (Pass 1, read-only) / --run (Pass 2, after his map
+# findings presented, never adjudicated; my stamps decide.
+# Modes: --census (Pass 1, read-only) / --run (Pass 2, after my map
 # stamp) / --selfcheck (the synthetic battery). Build parts: 1 of 3 =
 # the pin engine + the cache reader + the export loaders + the census
 # pass. 2 of 3 = the field map + the reconciliation gate + the t_0 and
@@ -29,9 +29,9 @@ TOOL = "cd1_arm_a_cohort_inventory_build_v1.py"
 VERSION = "1.3.3"
 BUILD_PART = "3 of 3"
 
-# v1.3.3 -- THE SPAN-EXTENT SINGULAR RANGE, AT HIS STAMP (his words
+# v1.3.3 -- THE SPAN-EXTENT SINGULAR RANGE, AT MY STAMP (my words
 # verbatim: "begin the fourth fucking build act"; the item-1172
-# finding): his v1.3.2 BLOCK-1 run of record exited honestly at doc
+# finding): my v1.3.2 BLOCK-1 run of record exited honestly at doc
 # 213 -- the singular `step` is the SPAN-HEAD step (the exporter's
 # own construction, measured: step = the walk step covering the
 # value's FIRST char, tid = the token at that step, span = the
@@ -70,9 +70,9 @@ BUILD_PART = "3 of 3"
 # assertions unchanged; 14 checks expected. The v1/v2 exports +
 # readings STAND banked, never retro-edited.
 #
-# v1.3.2 -- THE SINGULAR-FORM INDEX LAW, AT HIS STAMP (his words
+# v1.3.2 -- THE SINGULAR-FORM INDEX LAW, AT MY STAMP (my words
 # verbatim: "okay yea do such, continue on to the buil act"; the
-# item-1170 binding discovery): his v1.3.1 BLOCK-1 run of record
+# item-1170 binding discovery): my v1.3.1 BLOCK-1 run of record
 # caught the third field shape -- EVERY node row of every class
 # carries [i, step, tid, occ_i] together, so the v1.3.1 both-forms
 # guard (which read `i` as a range-form marker) tripped on the first
@@ -100,9 +100,9 @@ BUILD_PART = "3 of 3"
 # gap-row shape, the doc-id-in-message law. ZERO law changes
 # elsewhere; the v1.2.7/v1.3.0/v1.3.1 laws stand as stamped/owned.
 
-# v1.3.1 -- THE S3 SINGULAR OWN-STEP FORM, AT HIS STAMP (his words
+# v1.3.1 -- THE S3 SINGULAR OWN-STEP FORM, AT MY STAMP (my words
 # verbatim: "okay continue lets have 3 messages for the build act";
-# the item-1168 binding discovery): his BLOCK-1 run of record
+# the item-1168 binding discovery): my BLOCK-1 run of record
 # hard-exited at doc 12 -- the stamped S3 extension named three
 # field forms (step_start/step_end/i) and the aligned bytes' A1
 # node_rows lane carries the occurrence's own step under the
@@ -122,16 +122,16 @@ BUILD_PART = "3 of 3"
 # The battery gains the node-row-form fixtures carrying the bytes'
 # own field forms (the v1.3.0 battery authored the range form for
 # every lane -- a fixture and a builder sharing one assumption can
-# never see the field-form gap; his run of record caught it) + the
+# never see the field-form gap; my run of record caught it) + the
 # doc-12 known-answer (three same-value occurrences at steps
 # 35/62/93: the same-step candidate excluded by the different-step
 # law, the nearest picked -- the pair law picks 35). ZERO law
 # changes elsewhere; the v1.2.7/v1.3.0 laws stand as stamped.
 
-# v1.3.0 -- THE POSITION-AWARE RESOLUTION, AT HIS STAMP (his words
+# v1.3.0 -- THE POSITION-AWARE RESOLUTION, AT MY STAMP (my words
 # verbatim: "okay you have my stamps lets ove on to the build act lets
 # split it up into three message4s"; the amendment act of items
-# 1162/1163, the sheet amendment v3 pinned at his stamp): the recorded
+# 1162/1163, the sheet amendment v3 pinned at my stamp): the recorded
 # rule resolved each span to the FIRST commit row float-equal to the
 # span's first numeric value -- POSITION-BLIND, so every same-doc
 # same-value occurrence collapsed onto one row (the item-1161
@@ -157,11 +157,11 @@ BUILD_PART = "3 of 3"
 # closing the item-1161(e) hole (float-equal "5" vs "5.0" could pair
 # the same row under the old law). The v1/v2 exports STAND as bytes
 # of record; this build emits the v3 inventory under its own name at
-# his run. The selfcheck battery gains the position-aware known-answer
+# my run. The selfcheck battery gains the position-aware known-answer
 # lanes (the synthetic commit-t layout now load-bearing, the doc-0
 # repeated-value pattern the named case).
 
-# v1.2.7 -- THE A1 RE-BIND, AT HIS STAMP (his words verbatim: "okay
+# v1.2.7 -- THE A1 RE-BIND, AT MY STAMP (my words verbatim: "okay
 # lets gowith the recs and do the rerun"; the item-1158 rec 1 taken):
 # the v1.2.6 A1 pairing landed every pair on the SAME t_0 (141 pairs,
 # 140 of 141 the same commit row -- no actuator BY CONSTRUCTION), so
@@ -179,7 +179,7 @@ BUILD_PART = "3 of 3"
 # DIFFERENT-STEP candidate; ZERO stuck at the same step only; 194 sit
 # in docs with zero DERIVED-VERIFIED rows. The v1 export STANDS as
 # the bytes of record; this build emits the v2 inventory under its
-# own name at his run.
+# own name at my run.
 
 # ---------------------------------------------------------------------------
 # Section 1. The pinned inputs (the B0 pre-reg of record section 2; the
@@ -188,10 +188,10 @@ BUILD_PART = "3 of 3"
 # RE-PINNED at the stamped Arm A sheet amendment (cd1-arm-a-sheet-
 # amendment-v1.md, 9297 B, e7a4fc6a...): the seven inputs of record at
 # the 8B receipts; every move OLD-to-NEW named in the sheet's S2.
-# RE-PINNED again at the checker re-emission (his item-1128 ruling 2:
+# RE-PINNED again at the checker re-emission (my item-1128 ruling 2:
 # statement-rows forks; text-only reruns; receipts crossed exact): the
 # two 17a label pins move to the re-emission exports, shas below.
-# AMENDED at the aligned-spans act (his item-1128 ruling 1: the
+# AMENDED at the aligned-spans act (my item-1128 ruling 1: the
 # byte-pinned derived export first, the id-identity receipts presented
 # before the map stamps): the aligned_spans pin joins the exports of
 # record (items 1130/1131), and its banked receipts join the gate.
@@ -226,17 +226,17 @@ PINS = OrderedDict([
         "file": "triadic_t2_cache_t2-gsm-full-8b_bfloat16_bos.jsonl",
         "sha": "a427adee8489bf96f36057592f7c5a571eca4fa5261bb3b99251c2d646d391ac",
         "records": 1329,
-        "desc": "the true-8B raw math-corpus re-walk cache of record (A2 states; his paste receipt Oct 30 2026)"}),
+        "desc": "the true-8B raw math-corpus re-walk cache of record (A2 states; my paste receipt Oct 30 2026)"}),
     ("a2_chat_cache", {
         "file": "triadic_t2_cache_gsm-chat100-8b_bfloat16_bos.jsonl",
         "sha": "4953da290e049d7dba7b740f2697c4662f57d51932d28dbab5298253d297e2df",
         "records": 110,
-        "desc": "the true-8B chat-cap re-walk cache of record (A2 states; his paste receipt Oct 30 2026)"}),
+        "desc": "the true-8B chat-cap re-walk cache of record (A2 states; my paste receipt Oct 30 2026)"}),
     ("p2_cache_r2", {
         "file": "triadic_t2_cache_rw17-p2-r2_bfloat16_bos.jsonl",
         "sha": "426459930ad726d77fcea8e30639d32dff71164bc9ebdf36970765bb2df500a4",
         "records": 760,
-        "desc": "the ruled A1 state cache of record (the p2-r2 walk; his thin-run console crossed by paste at item 1122)"}),
+        "desc": "the ruled A1 state cache of record (the p2-r2 walk; my thin-run console crossed by paste at item 1122)"}),
 ])
 
 
@@ -454,7 +454,7 @@ def read_cache_records(name, path, expect_records=None, full=True):
 
 # ---------------------------------------------------------------------------
 # Section 3. The export loaders (generic, zero concept mapping: Pass 1
-# reads structure only; the field map rides his stamp, never a guess).
+# reads structure only; the field map rides my stamp, never a guess).
 # ---------------------------------------------------------------------------
 def load_json_file(name, path):
     try:
@@ -561,8 +561,8 @@ def census_object(container_name, obj, lines, depth=0):
 
 # ---------------------------------------------------------------------------
 # Section 4. The census pass (Pass 1: read-only on inputs, zero writes
-# to them, zero concept mapping; the candidate map is derived AFTER his
-# reading of the census, pinned by HIS STAMP -- never by this tool).
+# to them, zero concept mapping; the candidate map is derived AFTER my
+# reading of the census, pinned by MY STAMP -- never by this tool).
 # ---------------------------------------------------------------------------
 def run_census(args):
     pins = assert_all_pins(args.inputs_dir)
@@ -597,7 +597,7 @@ def run_census(args):
                   (len(lines) - 40))
     print("census export: %s" % outpath)
     print("NEXT: the candidate field map derives FROM THIS CENSUS at the "
-          "owner's door; HIS STAMP pins the map; only then --run.")
+          "my door; MY STAMP pins the map; only then --run.")
     return 0
 
 
@@ -844,7 +844,7 @@ def run_selfcheck():
 # 0.013813372520205732 raw / 0.0064516129032258064 chat); the ruled
 # 750-doc rw17-P2 class-level receipts promotions 371 (A97/B274; RxA87
 # RxB137 DxA10 DxB137), conflicts 42 (R14/D28), control 39, established
-# 630, immune 1808, desire engaged 682, silence 0 -- item 1123, his
+# 630, immune 1808, desire engaged 682, silence 0 -- item 1123, my
 # readings presented; the 1B-era constants STRUCK by the stamped Arm A
 # sheet amendment, the moves named in its S4).
 # ---------------------------------------------------------------------------
@@ -878,7 +878,7 @@ BANKED_RECEIPTS = OrderedDict([
     ("aligned_a2_raw_slips", {"export": "aligned_spans", "banked": 94,
      "desc": "the aligned-spans raw-leg slip rows (statement verdict False -- the A2 positives, spanned to token ids)"}),
     ("aligned_a2_raw_clean", {"export": "aligned_spans", "banked": 6711,
-     "desc": "the aligned-spans raw-leg clean rows (statement verdict True -- the A2 negatives, enumerated and spanned per his item-1128 ruling 2)"}),
+     "desc": "the aligned-spans raw-leg clean rows (statement verdict True -- the A2 negatives, enumerated and spanned per my item-1128 ruling 2)"}),
     ("aligned_a2_chat_statements", {"export": "aligned_spans", "banked": 310,
      "desc": "the aligned-spans chat-leg statement census (zero gaps)"}),
     ("aligned_a2_chat_slips", {"export": "aligned_spans", "banked": 2,
@@ -911,7 +911,7 @@ BANKED_RECEIPTS = OrderedDict([
 # ---------------------------------------------------------------------------
 # Section 7. The field map (the candidate map of the B0 pre-reg section 3:
 # the record's concepts bound to the census's own field names, frozen at
-# HIS STAMP via the map file -- never guessed by this tool; the map's sha
+# MY STAMP via the map file -- never guessed by this tool; the map's sha
 # recorded in every export; the stamp block recorded verbatim, never
 # written by the tool).
 # ---------------------------------------------------------------------------
@@ -921,17 +921,17 @@ DEFAULT_MAP_PATH = "cd1_arm_a_field_map_v1.json"
 
 class MapBindingError(Exception):
     """A binding the loaded bytes do not carry -- the coverage-discovery
-    path of the B0 pre-reg section 3 (presented at the owner's door,
+    path of the B0 pre-reg section 3 (presented at my door,
     never a crash, never a silent drop)."""
 
 
 def load_field_map(path):
     """Load the candidate field map; the structure asserted, the sha
-    observed for the receipts. The map pins only at HIS STAMP."""
+    observed for the receipts. The map pins only at MY STAMP."""
     if not path or not os.path.isfile(path):
         fail_loud("the field map %r is absent -- the candidate map "
-                  "derives FROM THE CENSUS at the owner's door and pins "
-                  "only at HIS STAMP; never guessed here" % (path,))
+                  "derives FROM THE CENSUS at my door and pins "
+                  "only at MY STAMP; never guessed here" % (path,))
     try:
         with open(path) as f:
             fmap = json.load(f)
@@ -1085,7 +1085,7 @@ def derive_value(spec, loads, ctx):
 # derived count beside the banked count -- a WRONG BINDING, never a
 # discarded concept; the exit is a data-integrity stop only. A binding
 # the bytes cannot carry is a COVERAGE DISCOVERY -- presented at the
-# owner's door per the item-52/53 precedent, his stamps decide.
+# my door per the item-52/53 precedent, my stamps decide.
 # ---------------------------------------------------------------------------
 def reconcile(targets, bindings, loads, map_name):
     """Run the gate over the target list; return the three row classes."""
@@ -1096,7 +1096,7 @@ def reconcile(targets, bindings, loads, map_name):
         b = bindings.get(name)
         if b is None:
             fail_loud("%s: the map carries no binding -- every banked "
-                      "receipt needs one (the map is incomplete at his "
+                      "receipt needs one (the map is incomplete at my "
                       "door)" % ctx)
         try:
             derived = derive_value(b, loads, ctx)
@@ -1106,7 +1106,7 @@ def reconcile(targets, bindings, loads, map_name):
                 ("finding",
                  "COVERAGE DISCOVERY -- %s; the record concept named, the "
                  "census's own fields the authority; presented at the "
-                 "owner's door per the item-52/53 precedent, his stamps "
+                 "my door per the item-52/53 precedent, my stamps "
                  "decide, nothing silently dropped" % e)]))
             continue
         banked = t["banked"]
@@ -1122,7 +1122,7 @@ def reconcile(targets, bindings, loads, map_name):
                  "MISMATCH RECEIPT -- the binding derives %r beside the "
                  "banked %r: a WRONG BINDING, never a discarded concept; "
                  "the map revised from the census's own evidence, "
-                 "re-presented for his stamp, the gate re-runs; the exit "
+                 "re-presented for my stamp, the gate re-runs; the exit "
                  "is a data-integrity stop only" % (derived, banked))]))
     return receipts, mismatches, discoveries
 
@@ -1130,7 +1130,7 @@ def reconcile(targets, bindings, loads, map_name):
 def run_reconcile(args):
     """--reconcile: the gate on the candidate map, pre-stamp. The pins
     assert first; the map loads; the exports load; the gate runs; the
-    receipt table prints at his door; the export records everything."""
+    receipt table prints at my door; the export records everything."""
     pins = assert_all_pins(args.inputs_dir)
     fmap, map_sha = load_field_map(args.map)
     loads = OrderedDict()
@@ -1171,13 +1171,13 @@ def run_reconcile(args):
               "the census's own evidence, re-presented, the gate re-runs"
               % (mm["target"], mm["derived"], mm["banked"]))
     for dd in discoveries:
-        print("[COVERAGE DISCOVERY] %s -- presented at the owner's door "
-              "per the item-52/53 precedent; his stamps decide, nothing "
+        print("[COVERAGE DISCOVERY] %s -- presented at my door "
+              "per the item-52/53 precedent; my stamps decide, nothing "
               "silently dropped" % dd["target"])
     print("reconciliation export: %s" % outpath)
     if discoveries:
         fail_loud("the gate stops: %d coverage discover(y/ies) presented "
-                  "at his door; the map binding rides his stamps"
+                  "at my door; the map binding rides my stamps"
                   % len(discoveries))
     if mismatches:
         fail_loud("the gate stops: %d mismatch receipt(s); a "
@@ -1185,8 +1185,8 @@ def run_reconcile(args):
                   "a concept discard" % len(mismatches))
     print("ALL %d BANKED RECEIPTS RECONCILED -- the map is the ACCEPTED "
           "CANDIDATE" % len(receipts))
-    print("NEXT: HIS STAMP PINS THE MAP (the map sha above freezes at "
-          "his pin); only then --run (the inventory layer lands in build "
+    print("NEXT: MY STAMP PINS THE MAP (the map sha above freezes at "
+          "my pin); only then --run (the inventory layer lands in build "
           "part 3 of 3)")
     return 0
 
@@ -1235,12 +1235,12 @@ def resolve_t0(doc_id, leg, span, token_of, vnum):
 # derivation-path evidence only -- the circularity guard: never a
 # candidate statistic; none exist at B0 by construction).
 #
-# THE v1.2.7 A1 AMENDMENT (his stamp, the item-1158 rec 1): the v1.2.6
+# THE v1.2.7 A1 AMENDMENT (my stamp, the item-1158 rec 1): the v1.2.6
 # law paired each promotion with the FIRST unused same-doc
 # DERIVED-VERIFIED row in span order -- on this corpus that landed
 # 140 of 141 pairs on the SAME t_0 (the same quantity's two
 # provenance typings), the row-level contrast reading NO ACTUATOR BY
-# CONSTRUCTION (the item-1157 R-AA1 finding, at his door). The amended
+# CONSTRUCTION (the item-1157 R-AA1 finding, at my door). The amended
 # law pairs each promotion's t_0 against the same-doc SAME-VALUE
 # DERIVED-VERIFIED occurrence at a DIFFERENT t_0 (two different
 # hidden rows -- the regime-I question in its cleanest form): the
@@ -1277,7 +1277,7 @@ def bind_cohort(positives, negatives, cohort):
             unpaired.append(OrderedDict([
                 ("cohort", cohort), ("positive", p),
                 ("finding", "UNPAIRED -- no same-doc negative; presented "
-                 "in the honest-population receipt, his stamps decide, "
+                 "in the honest-population receipt, my stamps decide, "
                  "never silently dropped")]))
             continue
         used.add(id(pick))
@@ -1295,7 +1295,7 @@ def bind_cohort(positives, negatives, cohort):
 
 
 A1_BIND_RULE_TEXT = (
-    "the v1.3.0 A1 bind (his stamp, the sheet amendment v3): each "
+    "the v1.3.0 A1 bind (my stamp, the sheet amendment v3): each "
     "promotion's occurrence paired against the same-doc SAME-VALUE "
     "DERIVED-VERIFIED occurrence at a DIFFERENT occurrence step -- "
     "the position-aware measure (each occurrence's own step, the "
@@ -1363,7 +1363,7 @@ def _assert_pair_hidden_rows(p, n, cohort):
     """The sheet's S4 pair-law extension: the two rows of each pair
     ride DIFFERENT hidden rows -- distinct (doc, occurrence, step)
     bindings, asserted per pair, fail-loud with its own NAMED class
-    PAIR-LAW-HIDDEN-ROW-EQUALITY (a true data finding at his door,
+    PAIR-LAW-HIDDEN-ROW-EQUALITY (a true data finding at my door,
     presented never smoothed; closes the item-1161(e) hole: float-
     equal values like "5" vs "5.0" could pair the same row under
     the old law)."""
@@ -1379,7 +1379,7 @@ def _assert_pair_hidden_rows(p, n, cohort):
         fail_loud("%s PAIR-LAW-HIDDEN-ROW-EQUALITY -- doc %r: the "
                   "pair's two rows ride the SAME hidden row %d (the "
                   "sheet amendment v3 S4 law; a true data finding at "
-                  "his door, presented never smoothed)"
+                  "my door, presented never smoothed)"
                   % (cohort, p.get("doc_id"), p_hr))
 
 
@@ -1462,13 +1462,13 @@ def bind_cohort_a1(positives, negatives, cohort):
         unpaired.append(OrderedDict([
             ("cohort", cohort), ("positive", p),
             ("finding", "UNPAIRED -- %s; presented in the "
-             "honest-population receipt, his stamps decide, never "
+             "honest-population receipt, my stamps decide, never "
              "silently dropped" % reason)]))
     return pairs, unpaired
 
 
-# THE v1.3.0 S3 MAP-BINDING EXTENSION (his stamp, the sheet amendment
-# v3) + THE v1.3.1/v1.3.2/v1.3.3 SINGULAR OWN-STEP FORMS (his
+# THE v1.3.0 S3 MAP-BINDING EXTENSION (my stamp, the sheet amendment
+# v3) + THE v1.3.1/v1.3.2/v1.3.3 SINGULAR OWN-STEP FORMS (my
 # stamps, the item-1168/1170/1172 binding discoveries): the
 # occurrence's own step
 # fields ride the extraction rows. The v1.3.0 extension reads the
@@ -2157,7 +2157,7 @@ def certify_layer(cache_reads):
 
 # ---------------------------------------------------------------------------
 # Section 15. The V_num pin (the numeric-token set, first-pass convention).
-# The tokenizer sha arrives from HIS CONSOLE LINE via --tokenizer-sha,
+# The tokenizer sha arrives from MY CONSOLE LINE via --tokenizer-sha,
 # never hand-typed here; the observed sha must equal it exactly. The rule
 # (recorded verbatim in the export, never re-derived): a tokenizer entry
 # whose string, whitespace-stripped, matches the plain decimal/scientific
@@ -2176,14 +2176,14 @@ VNUM_RULE_TEXT = (
 
 
 def pin_vnum(tokenizer_path, expect_sha):
-    """Pin the tokenizer file against HIS console sha; derive the
+    """Pin the tokenizer file against MY console sha; derive the
     numeric token id set by the recorded rule. Returns the receipt and
     the id->string map (the span-to-commit resolution's own need)."""
     if (not expect_sha or not isinstance(expect_sha, str)
             or len(expect_sha) != 64
             or any(ch not in "0123456789abcdef" for ch in expect_sha)):
         fail_loud("--run needs --tokenizer-sha: the 64-hex sha of "
-                  "tokenizer.json FROM HIS CONSOLE LINE, never "
+                  "tokenizer.json FROM MY CONSOLE LINE, never "
                   "hand-typed by the tool")
     if not tokenizer_path or not os.path.isfile(tokenizer_path):
         fail_loud("the tokenizer file %r is absent (--tokenizer; the "
@@ -2191,7 +2191,7 @@ def pin_vnum(tokenizer_path, expect_sha):
                   % (tokenizer_path,))
     obs = sha256_file(tokenizer_path)
     if obs != expect_sha:
-        fail_loud("tokenizer pin: observed sha %s != his console sha "
+        fail_loud("tokenizer pin: observed sha %s != my console sha "
                   "%s -- the file at the door is not the pinned file"
                   % (obs, expect_sha))
     try:
@@ -2244,7 +2244,7 @@ def name_joins(rows, cache_bindings, cache_reads):
         if b is None:
             fail_loud("join naming: the map's cache_bindings carry no "
                       "binding for leg %r -- every leg of the extracted "
-                      "rows needs one (the map is incomplete at his "
+                      "rows needs one (the map is incomplete at my "
                       "door)" % (leg,))
         pins = b.get("pins") or ([b["pin"]] if b.get("pin") else None)
         if not pins:
@@ -2295,7 +2295,7 @@ def name_joins(rows, cache_bindings, cache_reads):
                  "this doc in the bound caches; the join receipt "
                  "measures the corpus boundary (the label corpus and "
                  "the cache corpus are named, never conflated); the "
-                 "row rides the honest-population receipt at his door"),
+                 "row rides the honest-population receipt at my door"),
             ])))
         else:
             out.append((r, OrderedDict([
@@ -2304,7 +2304,7 @@ def name_joins(rows, cache_bindings, cache_reads):
                                 for pn, rec, _ in cands]),
                 ("finding", "AMBIGUOUS -- %d candidate records; never "
                  "guessed; the row rides the honest-population receipt "
-                 "at his door" % len(cands)),
+                 "at my door" % len(cands)),
             ])))
     return out
 
@@ -2313,7 +2313,7 @@ def name_joins(rows, cache_bindings, cache_reads):
 # Section 17. The span-to-commit resolution + the inventory run. Per
 # JOINED row: t_0 by the t_0 law (the FIRST numeric token of the span;
 # never the equality sign -- it is not numeric; never the span mean).
-# THE v1.3.0 POSITION-AWARE RULE (his stamp, the sheet amendment v3,
+# THE v1.3.0 POSITION-AWARE RULE (my stamp, the sheet amendment v3,
 # items 1162/1163): the commit row = the commit AT-OR-COVERING THE
 # OCCURRENCE'S OWN STEP (the t_0 step, in the walk's own t column)
 # whose stripped token is numeric and float-equals the span's first
@@ -2327,7 +2327,7 @@ def name_joins(rows, cache_bindings, cache_reads):
 # exists at the occurrence's own step but every covered commit's
 # token float-differs) -- both ride the honest-population receipt,
 # counted + named per row, never an exit, never a skip, the shift
-# itself a finding at his door; the span whose value matches NO commit
+# itself a finding at my door; the span whose value matches NO commit
 # row of the whole record keeps the standing data-integrity hard exit
 # (a different class, NAMED, unchanged); UNRESOLVABLE-NON-NUMERIC
 # stands as amended at items 1136/1137.
@@ -2341,7 +2341,7 @@ COHORT_BINDINGS_REQUIRED = [
     ("A2", "cohort_A2_positives", "cohort_A2_negatives"),
 ]
 COMMIT_MATCH_RULE_TEXT = (
-    "the v1.3.0 position-aware rule (his stamp, the sheet amendment "
+    "the v1.3.0 position-aware rule (my stamp, the sheet amendment "
     "v3): the span's first numeric token (by the t_0 law) resolves to "
     "the commit AT-OR-COVERING THE OCCURRENCE'S OWN STEP -- the t_0 "
     "step in the walk's own t column -- whose stripped token is "
@@ -2368,7 +2368,7 @@ def resolve_span_commit(row, rec, id_to_str, vnum_ids):
     else:
         fail_loud("span resolution: doc %r -- the map's cohort binding "
                   "carries no span_units (token_ids or steps_t); the "
-                  "span-to-step mapping is HIS MAP's binding, never a "
+                  "span-to-step mapping is MY MAP's binding, never a "
                   "guess" % (row.get("doc_id"),))
     span = row.get("span")
     for entry in span:
@@ -2377,7 +2377,7 @@ def resolve_span_commit(row, rec, id_to_str, vnum_ids):
                       "neither the walk's token ids nor its t values "
                       "(the span resolved against the wrong walk -- "
                       "NAMED, never skipped)" % (row.get("doc_id"), entry))
-    # THE RECEIPT AMENDMENT (his stamp, items 1136/1137): a span with
+    # THE RECEIPT AMENDMENT (my stamp, items 1136/1137): a span with
     # ZERO numeric tokens is the UNRESOLVABLE-NON-NUMERIC class (the
     # phrase-quantity class of the item-1136 census: spelled
     # quantities, quality grades); counted + named per row, it rides
@@ -2394,7 +2394,7 @@ def resolve_span_commit(row, rec, id_to_str, vnum_ids):
              "carries ZERO numeric tokens (the phrase-quantity class "
              "of the item-1136 census: spelled quantities, quality "
              "grades); the t_0 law unresolvable by nature; the row "
-             "rides the honest-population receipt at his door, never "
+             "rides the honest-population receipt at my door, never "
              "an exit, never a skip, never averaged"),
         ])
     t0 = resolve_t0(row.get("doc_id"), row.get("leg"), span,
@@ -2408,9 +2408,9 @@ def resolve_span_commit(row, rec, id_to_str, vnum_ids):
     if first_num_text is None:
         fail_loud("span resolution: doc %r -- t_0 resolved but the "
                   "numeric token carries no string in the pinned "
-                  "tokenizer (a NAMED gap at his door)" % row.get("doc_id"))
+                  "tokenizer (a NAMED gap at my door)" % row.get("doc_id"))
     want_val = float(str(first_num_text).strip())
-    # THE v1.3.0 POSITION-AWARE RULE (his stamp, the sheet amendment
+    # THE v1.3.0 POSITION-AWARE RULE (my stamp, the sheet amendment
     # v3): the occurrence's OWN step = the t_0 step expressed in the
     # walk's own t column (token_ids units map the id back to its t;
     # steps_t units are t already); the candidate commit set = the
@@ -2521,7 +2521,7 @@ def resolve_span_commit(row, rec, id_to_str, vnum_ids):
              "doc at other steps; the v1.2.7 position-blind rule would "
              "have resolved it there -- the misattribution exposure "
              "AMENDED at the sheet v3); the row rides the honest-"
-             "population receipt at his door, never an exit, never a "
+             "population receipt at my door, never an exit, never a "
              "skip, never averaged"
              % (occ_t, len(own_step), want_val)),
         ])
@@ -2533,7 +2533,7 @@ def resolve_span_commit(row, rec, id_to_str, vnum_ids):
          "carries no commit row of the doc (the caches bank the "
          "generation-side content steps; a prompt-side or unbanked "
          "step resolves to no hidden row); the row rides the honest-"
-         "population receipt at his door, never an exit, never a skip, "
+         "population receipt at my door, never an exit, never a skip, "
          "never averaged" % (occ_t,)),
     ])
 
@@ -2568,7 +2568,7 @@ COVERAGE_NAMED_GAP_TEXT = (
     "caches bank generation-side operand states only (the item-1104/"
     "1110 position-coverage boundary: the per-commit operand positions "
     "are not in the cache bytes); the coverage-boundary exclusion count "
-    "is presented at the owner's door when his map binds an operand-"
+    "is presented at my door when my map binds an operand-"
     "bearing export; nothing guessed, nothing silently dropped")
 
 
@@ -2582,9 +2582,9 @@ def assemble_inventory(fmap, map_sha, pins, loads, cache_reads,
     cache_bindings = fmap.get("cache_bindings")
     if not isinstance(cache_bindings, dict) or not cache_bindings:
         fail_loud("--run needs the map's cache_bindings block (leg -> "
-                  "cache pin): the label-to-cache join is HIS MAP's "
+                  "cache pin): the label-to-cache join is MY MAP's "
                   "binding, never a guess; the map is incomplete at "
-                  "his door")
+                  "my door")
     honest = []
     cohorts_out = OrderedDict()
     join_receipt = []
@@ -2599,7 +2599,7 @@ def assemble_inventory(fmap, map_sha, pins, loads, cache_reads,
             if bindings.get(key) is None:
                 fail_loud("--run needs the map's %r binding (the cohort "
                           "extraction spec); the map is incomplete at "
-                          "his door" % (key,))
+                          "my door" % (key,))
         ctx = "cohort %s (map %s)" % (cohort, fmap.get("map_name"))
         unresolved_count = 0
         class_counts = OrderedDict([
@@ -2692,7 +2692,7 @@ def assemble_inventory(fmap, map_sha, pins, loads, cache_reads,
         except MapBindingError as e:
             coverage = OrderedDict([
                 ("finding", "COVERAGE DISCOVERY -- %s; presented at the "
-                 "owner's door per the item-52/53 precedent, his stamps "
+                 "my door per the item-52/53 precedent, my stamps "
                  "decide, nothing silently dropped" % e)])
         else:
             covered, excluded = split_coverage(crows)
@@ -2723,25 +2723,25 @@ def assemble_inventory(fmap, map_sha, pins, loads, cache_reads,
             for k in BANKED_RECEIPTS)),
         ("finding", "the honest population: every extracted row is "
          "counted here -- joined and paired, or named in this receipt; "
-         "nothing silently dropped, the owner's stamps decide"),
+         "nothing silently dropped, my stamps decide"),
     ])
     return out
 
 
 def run_inventory(args):
-    """--run: the inventory, after HIS STAMP. The pins assert first; the
-    map sha must equal HIS CONSOLE --map-sha; the reconciliation gate
+    """--run: the inventory, after MY STAMP. The pins assert first; the
+    map sha must equal MY CONSOLE --map-sha; the reconciliation gate
     RE-RUNS on the stamped map and must reconcile (a data-integrity
     stop otherwise); the caches read through the amended reader; the
     layer certifies; V_num pins; the cohorts extract + join + resolve;
     the export writes deterministic; the console prints the census."""
     if not args.map_sha:
         fail_loud("--run needs --map-sha: the 64-hex sha of the STAMPED "
-                  "map file from HIS CONSOLE LINE, never hand-typed")
+                  "map file from MY CONSOLE LINE, never hand-typed")
     pins = assert_all_pins(args.inputs_dir)
     fmap, map_sha = load_field_map(args.map)
     if map_sha != args.map_sha:
-        fail_loud("map pin: observed sha %s != his console --map-sha "
+        fail_loud("map pin: observed sha %s != my console --map-sha "
                   "%s -- the file at the door is not the stamped map"
                   % (map_sha, args.map_sha))
     loads = OrderedDict()
@@ -2760,12 +2760,12 @@ def run_inventory(args):
         fail_loud("the gate RE-RUN on the STAMPED map diverges: %d "
                   "mismatch receipt(s), %d coverage discover(y/ies) -- "
                   "a data-integrity stop; the map revised from the "
-                  "census's own evidence, re-presented, his stamps "
+                  "census's own evidence, re-presented, my stamps "
                   "decide" % (len(mismatches), len(discoveries)))
     cache_bindings = fmap.get("cache_bindings")
     if not isinstance(cache_bindings, dict) or not cache_bindings:
         fail_loud("--run needs the map's cache_bindings block; the map "
-                  "is incomplete at his door")
+                  "is incomplete at my door")
     cache_reads = OrderedDict()
     for leg, b in cache_bindings.items():
         leg_pins = b.get("pins") or ([b["pin"]] if b.get("pin") else [])
@@ -2836,7 +2836,7 @@ def run_inventory(args):
                                 cov["commit_rows"]))
     else:
         print("coverage boundary: the NAMED GAP receipt (the map binds "
-              "no operand-bearing export; presented at his door)")
+              "no operand-bearing export; presented at my door)")
     print("honest-population receipt: %d entries (unjoined / ambiguous "
           "/ unpaired -- each named, none silently dropped)"
           % out["honest_population_receipt"][
@@ -2845,7 +2845,7 @@ def run_inventory(args):
     print("sha256: %s" % sha256_file(outpath))
     print("bytes: %d" % os.path.getsize(outpath))
     print("NEXT: the cohort tables + the honest-population receipt "
-          "present at the owner's door; HIS STAMPS decide the "
+          "present at my door; MY STAMPS decide the "
           "measurement phase")
     return 0
 
@@ -2895,7 +2895,7 @@ def check_vnum_pin():
         assert receipt["vocab_entries"] == len(vocab)
         assert id_to_str[54] == " 9 " and id_to_str[51] == "3"
         assert "never re-derived" in receipt["rule_verbatim"]
-        # his console sha asserted exactly; a wrong sha is a hard exit
+        # my console sha asserted exactly; a wrong sha is a hard exit
         try:
             pin_vnum(p, "0" * 64)
             raise AssertionError("a wrong tokenizer sha was accepted")
@@ -2941,7 +2941,7 @@ def check_join_naming():
                       binds, reads)
     assert out2[0][1]["status"] == "AMBIGUOUS"
     assert len(out2[0][1]["candidates"]) == 2
-    # a leg with no cache binding: the map is incomplete at his door
+    # a leg with no cache binding: the map is incomplete at my door
     try:
         name_joins([{"leg": "chat", "doc_id": 7, "span": [1]}],
                    binds, reads)
@@ -3027,7 +3027,7 @@ def check_span_commit():
     # value-mismatch-at-own-step: coverage exists at the occurrence's
     # own step but the covered commit's token float-differs (the
     # value exists elsewhere in the doc -- the misattribution exposure
-    # the position-blind rule carried, now NAMED at his door)
+    # the position-blind rule carried, now NAMED at my door)
     rec_mm = synth_cache_record(7, n_steps=3, n_commits=2,
                                 ids=[50, 51, 52],
                                 commit_tokens=["7", "3"],
@@ -3082,7 +3082,7 @@ def check_singular_own_step_form():
             assert "BOTH step field forms" in str(e)
             assert "doc 1" in str(e)
         # (b) THE v1.3.1-EXIT REGRESSION ROW -- the REAL byte shape
-        # that tripped his run of record (the group ordinal i beside
+        # that tripped my run of record (the group ordinal i beside
         # the singular): ACCEPTED, the group ordinal never bound, the
         # occurrence index from occ_i
         loads_real = OrderedDict([("17p2", {"docs": [
@@ -3098,7 +3098,7 @@ def check_singular_own_step_form():
         assert rr["occ_tid"] == 51
         assert rr["occ_index"] == 0   # occ_i, NEVER the ordinal 5
         # (b2) THE v1.3.2-EXIT REGRESSION ROW -- the REAL byte shape
-        # that tripped his v1.3.2 run of record (doc 213: the head
+        # that tripped my v1.3.2 run of record (doc 213: the head
         # token NOT the numeric, the numeric DEEPER in the span):
         # ACCEPTED, the SPAN-EXTENT range bound, the occurrence
         # index from occ_i (the item-1172 law)
@@ -3273,7 +3273,7 @@ def check_singular_own_step_form():
             "unjoined_or_ambiguous_or_unpaired_count"] == 0
         # THE DOC-213 SPAN-EXTENT PIPELINE REGRESSION (the item-1172
         # law): the head token NOT numeric, the numeric DEEPER in
-        # the span -- his v1.3.2 run of record exited NAMED on this
+        # the span -- my v1.3.2 run of record exited NAMED on this
         # shape; the resolve walk over the SPAN-EXTENT range picks
         # the numeric's OWN step, BOTH rows RESOLVED-OWN-STEP, the
         # pair carrying the span-extent receipt
@@ -3508,28 +3508,28 @@ def main():
         description="CD-1 Arm A B0 cohort inventory + certification build")
     ap.add_argument("--census", action="store_true",
                     help="Pass 1: read-only structure census of the four "
-                         "label exports (his map stamp follows)")
+                         "label exports (my map stamp follows)")
     ap.add_argument("--reconcile", action="store_true",
                     help="the reconciliation gate: the candidate map's "
                          "bindings derived against the banked receipts "
                          "(exact-or-exit; a mismatch is a WRONG BINDING, "
                          "never a discarded concept; a binding the bytes "
-                         "cannot carry is a coverage discovery at his door)")
+                         "cannot carry is a coverage discovery at my door)")
     ap.add_argument("--map", default=DEFAULT_MAP_PATH,
-                    help="the candidate field map path (pins at his stamp)")
+                    help="the candidate field map path (pins at my stamp)")
     ap.add_argument("--map-sha", default=None,
-                    help="HIS CONSOLE sha256 of the stamped map file; "
+                    help="MY CONSOLE sha256 of the stamped map file; "
                          "--run asserts the observed sha equals it "
                          "exactly (never hand-typed by the tool)")
     ap.add_argument("--run", action="store_true",
-                    help="Pass 2: the inventory run (after his map "
+                    help="Pass 2: the inventory run (after my map "
                          "stamp; needs --map-sha + --tokenizer + "
                          "--tokenizer-sha)")
     ap.add_argument("--tokenizer", default=None,
                     help="the tokenizer.json path (the V_num pin reads "
                          "it; zero decodes, zero GPU)")
     ap.add_argument("--tokenizer-sha", default=None,
-                    help="HIS CONSOLE sha256 of tokenizer.json; the "
+                    help="MY CONSOLE sha256 of tokenizer.json; the "
                          "V_num pin asserts it exactly")
     ap.add_argument("--selfcheck", action="store_true",
                     help="the synthetic known-answer battery")

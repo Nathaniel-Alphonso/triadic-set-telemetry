@@ -11,7 +11,7 @@ REPORT line) is captured via redirect around each call. The pinned
 manifests are read-only positive controls: the 17-P manifest must now
 LOAD and REPORT its two exact-duplicate pairs (the item-197 amendment),
 with its SHA-256 re-pinned before/after (the R-BC3 no-touch evidence).
-No model, no walk -- first execution is the owner's smoke (R-BC1).
+No model, no walk -- first execution is my smoke (R-BC1).
 """
 import contextlib
 import hashlib
@@ -175,7 +175,7 @@ def main():
           "corpus; the real 17-P manifest loads and names its two "
           "pairs; pinned manifests untouched.")
     print("NOT RUN-VALIDATED: no model load, no walk -- first execution "
-          "is the owner's smoke (R-BC1).")
+          "is my smoke (R-BC1).")
 
 
 if __name__ == "__main__":

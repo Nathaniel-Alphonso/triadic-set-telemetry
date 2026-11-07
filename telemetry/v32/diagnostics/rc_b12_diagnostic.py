@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """THE B1/B2 PHASE-LANE DIAGNOSTIC -- the rc-b12-phaselane-prereg.md S6 act.
 
-At his word ("okay continue wuth the next step") the pinned sheet's
+At my word ("okay continue wuth the next step") the pinned sheet's
 diagnostic runs: the phase-band pooling (B1, the PRIMARY read) and the
 line-synced anchor (B2, the SECONDARY read), each form carried to ITS
 OWN pre-registered verdict, never a post-read selection -- the fixture
@@ -19,19 +19,19 @@ TWO MODES (the codev7 genre):
   --parity-only : the receipt-side gates alone, NO caches needed (the
                   desk's half, runnable anywhere beside the receipt +
                   tool + the pinned sheet);
-  (default)     : the full diagnostic -- HIS MAC, read-only, zero GPU,
+  (default)     : the full diagnostic -- MY MAC, read-only, zero GPU,
                   zero model decodes, the script beside
                   triadic_rw17_codev5.py + rc_codev5_receipt.json +
-                  the pinned sheet + his three pinned walk caches,
+                  the pinned sheet + my three pinned walk caches,
                   and the newline token id(s) either passed as
                   --newline-ids ID[,ID] or resolvable from a
                   tokenizer.json / vocab.json beside the script (a
                   static vocabulary table read, zero model decodes,
                   zero GPU); emits rc_b12_diagnostic_console.txt for
-                  his shasum + upload.
+                  my shasum + upload.
 
 usage: python3 rc_b12_diagnostic.py --parity-only   (the desk half)
-       python3 rc_b12_diagnostic.py --newline-ids 198   (his Mac, full)
+       python3 rc_b12_diagnostic.py --newline-ids 198   (my Mac, full)
 """
 
 import json
@@ -56,7 +56,7 @@ JUDGED_LEG = "mbpprw17"              # the gate read's leg, never the off-legs
 CLUB = ("loop-injection-code", "loop-seeded-json",
         "loop-seeded-chant", "loop-seeded-countdown")
 CODE_LINE = "loop-seeded-code-line"
-CODE_LINE_MIN_BANK = 0.0454          # his banked raw minimum (item 497)
+CODE_LINE_MIN_BANK = 0.0454          # my banked raw minimum (item 497)
 PARITY_TOL = 1e-12
 LEVEL_BANK = 3.7618410048243147       # the standing V5 level
 GAP_BANK = 1.6862617412521999        # the standing V5 honest gap
@@ -65,7 +65,7 @@ CAPS = {6: 1.6432, 7: 2.0494, 8: 2.6833}
 D_MISSES = {"loop-seeded-json": 3.492749,
             "loop-seeded-countdown": 0.459473,
             "loop-seeded-code-line": 1.381425}
-# the banked raw d2 census, HIS consoles (items 490/493), the lineage
+# the banked raw d2 census, MY consoles (items 490/493), the lineage
 # anchors for the corpus half's raw census parity gate:
 CEN_ANCHORS = {
     "mbpprw17": {"mean": 0.275000, "sd": 1.352227, "n_pos": 11, "n": 200,
@@ -75,7 +75,7 @@ CEN_ANCHORS = {
     "p2corpus-rw17": {"mean": 1.154667, "sd": 3.072663, "n_pos": 62,
                       "n": 375, "held_n_pos": None},
 }
-# the fixture m_d2 bank (his gate-8 reads, the judged leg):
+# the fixture m_d2 bank (my gate-8 reads, the judged leg):
 BANKED_MD2 = {"loop-seeded-json": 8, "loop-seeded-countdown": 0,
               "loop-seeded-code-line": 0, "loop-injection-code": 21,
               "loop-seeded-chant": 0}
@@ -348,7 +348,7 @@ NEWLINE_KEYS = ("\n", _bytes_to_unicode()[0x0A])
 
 
 def resolve_newline_ids(args):
-    """the newline token id(s): --newline-ids ID[,ID] at his word, else
+    """the newline token id(s): --newline-ids ID[,ID] at my word, else
     a static vocabulary table read (tokenizer.json / vocab.json beside
     this script, the entries whose token string is exactly one newline
     byte in EITHER representation -- the raw "\\n" string or the GPT-2
@@ -366,12 +366,12 @@ def resolve_newline_ids(args):
     for i, a in enumerate(args):
         if a.startswith("--newline-ids="):
             return _parse_ids(a.split("=", 1)[1]), \
-                "his --newline-ids word"
+                "my --newline-ids word"
         if a == "--newline-ids":
             if i + 1 >= len(args):
                 die("--newline-ids given without a value -- pass the "
                     "id(s): --newline-ids ID[,ID]; aborting.")
-            return _parse_ids(args[i + 1]), "his --newline-ids word"
+            return _parse_ids(args[i + 1]), "my --newline-ids word"
     for fname in ("tokenizer.json", "vocab.json"):
         if os.path.exists(fname):
             try:
@@ -403,13 +403,13 @@ def resolve_newline_ids(args):
             die("vocabulary file %s carries no newline entry in either "
                 "representation (the raw %r string or the GPT-2 "
                 "byte-level remapping of byte 0x0A, %r) -- pass "
-                "--newline-ids ID[,ID] from his tokenizer; the anchor "
+                "--newline-ids ID[,ID] from my tokenizer; the anchor "
                 "law never guesses; aborting."
                 % (fname, "\n", _bytes_to_unicode()[0x0A]))
     die("no --newline-ids given and no tokenizer.json / vocab.json "
         "beside this script -- the B2 anchor law needs the newline "
         "token id(s): pass --newline-ids ID[,ID] (the ids whose token "
-        "string is a newline, a static vocabulary fact of his "
+        "string is a newline, a static vocabulary fact of my "
         "tokenizer); the lookup named in this console either way; "
         "aborting.")
 
@@ -565,7 +565,7 @@ def _zeros_disp(zeros):
 def parity_only(K, r):
     p("=== THE B1/B2 PHASE-LANE DIAGNOSTIC, PARITY-ONLY MODE (the "
       "receipt-side gates; no caches read) ===")
-    p("the sheet rc-b12-phaselane-prereg.md pinned at his stamp (sha "
+    p("the sheet rc-b12-phaselane-prereg.md pinned at my stamp (sha "
       "%s...), the receipt %s verified byte-exact at open, the tool %s "
       "verified inside it -- the forms read EXACTLY as sheeted (S4): "
       "B1 the phase-band pooling (the min over delta in {-1,0,+1} "
@@ -699,15 +699,15 @@ def parity_only(K, r):
     p("")
 
     # [D5] the full-mode instructions
-    p("[D5] THE FULL MODE (his Mac, read-only, zero GPU, zero model "
+    p("[D5] THE FULL MODE (my Mac, read-only, zero GPU, zero model "
       "decodes): the script beside this tool + receipt + the pinned "
-      "sheet + his three pinned walk caches (%s; %s; %s), the newline "
+      "sheet + my three pinned walk caches (%s; %s; %s), the newline "
       "token id(s) either --newline-ids ID[,ID] or a tokenizer.json / "
       "vocab.json beside the script (the static vocabulary lookup, "
       "named in the console), then"
       % tuple(K.CACHE_FILES[leg] for leg in K.LEGS))
     p("    python3 rc_b12_diagnostic.py --newline-ids ID[,ID]")
-    p("  which emits %s for his shasum + upload; the order: the "
+    p("  which emits %s for my shasum + upload; the order: the "
       "fixture census FIRST on the judged leg (a both-forms "
       "re-formation miss closes the sheet ON PAPER at the first gate, "
       "zero corpus reads), the B1 counter-receipt gated (a club "
@@ -724,15 +724,15 @@ def parity_only(K, r):
     p("(offline read of the run-of-record receipt bytes only, zero "
       "GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] "
       "unmoved (D-theta); no thresholds set, moved, or adjudicated; "
-      "findings presented, never adjudicated -- the owner's stamps "
+      "findings presented, never adjudicated -- my stamps "
       "decide)")
 
 
-# ---- the full diagnostic (his Mac, read-only, zero GPU, zero decodes) ----
+# ---- the full diagnostic (my Mac, read-only, zero GPU, zero decodes) ----
 def full_mode(K, r, newline_ids, ids_source):
-    p("=== THE B1/B2 PHASE-LANE DIAGNOSTIC, FULL MODE (his pinned "
+    p("=== THE B1/B2 PHASE-LANE DIAGNOSTIC, FULL MODE (my pinned "
       "caches, read-only, zero GPU, zero decodes) ===")
-    p("the sheet %s... pinned at his stamp; the forms read EXACTLY as "
+    p("the sheet %s... pinned at my stamp; the forms read EXACTLY as "
       "sheeted (S4), never tuned after any read; the newline token "
       "id(s) %s resolved from %s -- the lookup NAMED per the sheet's "
       "R2 (a static vocabulary fact, zero model decodes, zero GPU)"
@@ -749,7 +749,7 @@ def full_mode(K, r, newline_ids, ids_source):
       "B1 occurrences ARE the exact-lag construction's own (the "
       "delta=0 occurrence gates the member, a masked-out occurrence "
       "never re-admitted at a shifted offset -- the item-510 builder "
-      "amend, his live catch banked), the min over delta includes "
+      "amend, my live catch banked), the min over delta includes "
       "delta=0, so a club exact zero can only "
       "hold or fall, a club member above zero names a bug, a HARD "
       "EXIT; the B2 club minima PRINTED AS FINDINGS ONLY, the "
@@ -943,17 +943,17 @@ def full_mode(K, r, newline_ids, ids_source):
                   "PAPER, ZERO CORPUS READS (the phase hypothesis "
                   "dead on the fixtures, banked as mechanism "
                   "knowledge; the off-leg caches never opened)")
-                p("  THE STANDING: the console presented for his "
+                p("  THE STANDING: the console presented for my "
                   "read -- the close a clean one (the S6 law); the "
-                  "program turns to route C or the next sheet at his "
+                  "program turns to route C or the next sheet at my "
                   "word; the P-B4 honest %.6f stands as the best "
                   "banked CODE read; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved"
                   % PB4_HONEST)
-                p("(offline read of his pinned cache bytes only, zero "
+                p("(offline read of my pinned cache bytes only, zero "
                   "GPU, zero decodes, read-only; Oct 21 2026; theta "
                   "[REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, "
                   "moved, or adjudicated; findings presented, never "
-                  "adjudicated -- the owner's stamps decide)")
+                  "adjudicated -- my stamps decide)")
                 return
             p("  THE FIXTURE GATE: code-line re-forms on %s -- the "
               "ordering survives, the corpus half opens under the "
@@ -1013,7 +1013,7 @@ def full_mode(K, r, newline_ids, ids_source):
                  abs(sd8 - anc["sd"]), n_pos8, anc["n_pos"],
                  n_zero8, len(masses8), hpos8))
         else:
-            p("  THE RAW CENSUS PARITY GATE (gate %d, vs his banked "
+            p("  THE RAW CENSUS PARITY GATE (gate %d, vs my banked "
               "console census): mean %.6f vs %.6f (delta %.2e) | sd "
               "%.6f vs %.6f (delta %.2e) | n_pos %d vs %d | n_at_zero "
               "%d/%d | held n_pos %d vs %d"
@@ -1225,7 +1225,7 @@ def full_mode(K, r, newline_ids, ids_source):
             p("  (the off-leg read presented never adjudicating the "
               "judged leg; the banked bounds the context)")
     # the kill-switch verdicts, presented never adjudicated
-    p("THE KILL-SWITCH VERDICTS (the S6 law, presented for his "
+    p("THE KILL-SWITCH VERDICTS (the S6 law, presented for my "
       "stamps -- each form its own verdict, never a post-read "
       "selection):")
     for form in ("B1", "B2"):
@@ -1239,7 +1239,7 @@ def full_mode(K, r, newline_ids, ids_source):
         fl = receipts["flood"].get(form)
         if fl is None:
             p("  FORM %s: the flood census VACUOUS (named above) -- "
-              "no A2 kill read; the gate receipts below his"
+              "no A2 kill read; the gate receipts below my"
               % form)
         else:
             ftr = receipts["flood_trough"].get(form)
@@ -1263,20 +1263,20 @@ def full_mode(K, r, newline_ids, ids_source):
                  gr["k_new"],
                  "CROSSED" if gr["crossed"] else "below"))
         p("  FORM %s: the census parity PASSED at open (a fail a "
-          "HARD EXIT, never a verdict); the verdict question his -- "
+          "HARD EXIT, never a verdict); the verdict question my -- "
           "the sheet's S4/S6 laws the binding frame" % form)
-    p("  THE STANDING: the console presented for his read -- a "
+    p("  THE STANDING: the console presented for my read -- a "
       "negative kill-switch read closes the sheet on paper zero "
       "build hours (banked as mechanism knowledge; route C or the "
-      "next sheet at his word); a live read opens the build question "
-      "at his word only, its own stamp, never pre-promised; the "
-      "gates 8/12/16 carried as receipts, ONE gate pinned at his "
+      "next sheet at my word); a live read opens the build question "
+      "at my word only, its own stamp, never pre-promised; the "
+      "gates 8/12/16 carried as receipts, ONE gate pinned at my "
       "stamp, only the pinned gate's read ever carried to a verdict "
       "question")
-    p("(offline read of his pinned cache bytes only, zero GPU, zero "
+    p("(offline read of my pinned cache bytes only, zero GPU, zero "
       "decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); "
       "no thresholds set, moved, or adjudicated; findings presented, "
-      "never adjudicated -- the owner's stamps decide)")
+      "never adjudicated -- my stamps decide)")
 
 
 def main():

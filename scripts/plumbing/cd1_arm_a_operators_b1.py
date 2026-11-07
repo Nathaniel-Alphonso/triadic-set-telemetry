@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # cd1_arm_a_operators_b1.py -- the CD-1 Arm A B1 operator module of record.
-# Per the OWNER-PINNED Arm A sheet of record
+# Per my PINNED Arm A sheet of record
 # (cd1-arm-a-fabrication-separation-preregistration.md, 14022 B, 14dbedda...)
 # section 6 line B1, under the stamped Phase-1 build spec
 # (cd1-arm-a-phase1-build-spec.md, 8241 B, 0c886741...) section 3, at
-# the B0 acceptance (his stamp opening the measurement phase; B0 closed
+# the B0 acceptance (my stamp opening the measurement phase; B0 closed
 # at the item-1139 readout). ZERO GPU, ZERO DECODES: this module
 # computes on constructed and passed-in arrays only; the model-file
 # touch class (the W_U numeric-subspace rows) arrives as ARGUMENTS at
-# B2, owner-side, matrix multiplication only, never a forward pass,
+# B2, my-side, matrix multiplication only, never a forward pass,
 # never a decode, never a model load here. The module prints no
-# verdicts; findings presented, never adjudicated; the owner's stamps
+# verdicts; findings presented, never adjudicated; my stamps
 # decide.
 #
 # Modes: import (B2 imports the pure functions) / --battery (the
@@ -145,7 +145,7 @@ def num_logits(h, w_num):
     """h (d,) x W_U[V_num] rows (n_num, d) -> the numeric logits (n_num,).
 
     The ONLY model-file-touch class of function in the module: B2 feeds
-    the W_U rows restricted to the leg's pinned V_num, owner-side;
+    the W_U rows restricted to the leg's pinned V_num, my-side;
     matrix multiplication only, never a forward pass, never a decode.
     """
     return [dot(h, w) for w in w_num]

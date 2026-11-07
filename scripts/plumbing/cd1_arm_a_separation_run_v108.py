@@ -1,31 +1,31 @@
 #!/usr/bin/env python3
 # cd1_arm_a_separation_run_v104.py -- the CD-1 Arm A B2 separation
 # run, the ASSEMBLED TOOL OF RECORD (parts 1+2+3 in one file). Per
-# the OWNER-PINNED Arm A sheet (14dbedda... section 6 line B2) under
-# the stamped Phase-1 build spec (0c886741... section 4), at his B1
+# my PINNED Arm A sheet (14dbedda... section 6 line B2) under
+# the stamped Phase-1 build spec (0c886741... section 4), at my B1
 # acceptance stamp. ZERO GPU, ZERO DECODES, ZERO BUILD HOURS: the
 # caches + the B0 inventory + the label exports + the B1 module
 # (imported, its sha asserted) + the model file's unembedding rows
-# are read OWNER-SIDE (matrix multiplication only, never a forward
-# pass, never a decode, the files never leaving his Mac). The tool
+# are read MY-SIDE (matrix multiplication only, never a forward
+# pass, never a decode, the files never leaving my Mac). The tool
 # prints no verdicts; findings presented, never adjudicated; the
-# owner's stamps decide.
+# my stamps decide.
 #
 # v1.0.1 -- THE DEFECT FIX, NAMED AT THE TOP OF THE FILE (never
 # buried): the v1.0.0 assembly carried a transcription defect in
 # the checker_17p2_ledger pin (an extra '6' at the string-literal
-# split, 65 chars; the owner's first run hard-exited on an
+# split, 65 chars; my first run hard-exited on an
 # identical-looking tail pair). The fix: the pin re-split at a
 # clean boundary and verified byte-exact against the local file;
 # EVERY sha256 pin now carries the PIN-SHAPE LAW (verify_pin_shape:
 # 64 lowercase hex, malformed pins a hard exit at load, never at
-# the owner's console); every pin mismatch now prints the FULL
+# my console); every pin mismatch now prints the FULL
 # observed sha (diagnosability at the console). The pins were
 # re-derived programmatically, never hand-transcribed (the
 # hand-transcription of hex literals is the defect class itself).
 #
 # v1.0.2 -- THE NON-FINITE CLASS, NAMED NEVER A CRASH (the item-1155
-# fix): the first owner-side run tripped the operators on a
+# fix): the first my-side run tripped the operators on a
 # non-finite measured input (a NaN reaching the ulp law). The fix,
 # two laws: (1) THE W_U FINITE LAW AT LOAD -- every unembedding row
 # of the model of record must be finite; a non-finite row a
@@ -43,7 +43,7 @@
 # at v1.0.3 (39 checks expected).
 #
 # v1.0.3 -- THE ENDIANNESS DECODE FIX, OWNED (the item-1156 class,
-# caught by HIS run): the v1.0.2 W_U finite law hard-exited at his
+# caught by MY run): the v1.0.2 W_U finite law hard-exited at my
 # console naming 1,110 non-finite rows -- on sha-verified shard
 # bytes, so the load law caught a wrong READ, never wrong model
 # bytes. The defect: BOTH byte-decode paths were authored
@@ -51,14 +51,14 @@
 # aness: Little-endian") for the W_U tensor bytes, and the
 # instrument of record's OWN writer bytes for the cache payload
 # (triadic_telemetry_t2_v32.3.0.py: rec["hidden"].half().numpy()
-# .tobytes() -- float16, native order = little-endian on his Mac --
+# .tobytes() -- float16, native order = little-endian on my Mac --
 # read back by the instrument's own np.frombuffer dtype float16).
 # The earlier citation "the B0 builder's own reader law" named a
 # receipt that never existed (the builder length-checks the
 # payload, never value-decodes) -- a citation defect of the
 # item-1146 family, owned here. The retrodiction: an all-finite
 # spec-order matrix through the old decode yields non-finite rows
-# 1,110 of 1,110 (his receipt class exactly); through the fixed
+# 1,110 of 1,110 (my receipt class exactly); through the fixed
 # decode, zero. The battery: every decode + fixture now spec
 # order, and P1-C12/C12b/C12c pin the direction on HAND spec-
 # order bytes (the mirror-defect law: a fixture writer and a
@@ -67,7 +67,7 @@
 # NAMED-NON-FINITE class) stand UNCHANGED -- they caught this.
 #
 # v1.0.4 -- THE INSTRUMENT-FORM RAW-GAP RECOGNITION + THE A1
-# RE-BIND LANE (the item-1158 recs, HIS RULING TAKEN: "okay lets
+# RE-BIND LANE (the item-1158 recs, MY RULING TAKEN: "okay lets
 # gowith the recs and do the rerun"). (1) The v1.0.3 raw_gap
 # discovery vocabulary carried ONLY logit-domain names, so the
 # caches' own banked probability-domain features never matched --
@@ -85,16 +85,16 @@
 # round-trip tolerance named); the logit-domain branch stands
 # unchanged for a cache that banks logits. An EMITTED-NOT-TOP1-
 # CONSISTENT case on the real bytes is a TRUE DATA FINDING at
-# the owner's door, presented never smoothed. (2) The A1 lane
+# my door, presented never smoothed. (2) The A1 lane
 # re-bound per the v1.2.7 builder (same-doc, SAME value,
 # DIFFERENT t0 from span_resolution, nearest |t0 diff|, the
 # deterministic span-order tie-break, the signed step_distance
 # receipt per pair; the item-1158 pool census 177 candidates),
 # the run reading the v2 inventory; the A2 lane byte-unchanged
-# (the banked 73/23). (3) THE INVENTORY PIN AT HIS CONSOLE
-# LINE: the v2 inventory sha exists only after his v1.2.7
-# builder run, so it pins at his --inventory-sha flag (the
-# item-1134 stamp-act precedent, his own --map-sha ruling),
+# (the banked 73/23). (3) THE INVENTORY PIN AT MY CONSOLE
+# LINE: the v2 inventory sha exists only after my v1.2.7
+# builder run, so it pins at my --inventory-sha flag (the
+# item-1134 stamp-act precedent, my own --map-sha ruling),
 # asserted byte-exact at load, the pin-shape law enforced --
 # never a banked constant this side. The v1 export + the v1
 # readings STAND banked, never retro-edited. The battery: P1 16
@@ -103,8 +103,8 @@
 # raw-gap census lane).
 #
 # v1.0.8 -- THE INVENTORY BUILD-RECEIPT PIN MOVES v1.3.2 -> v1.3.3
-# (his stamp, the item-1172 act; his words verbatim: "begin the
-# fourth fucking build act"): his BLOCK-1 run of record exited
+# (my stamp, the item-1172 act; my words verbatim: "begin the
+# fourth fucking build act"): my BLOCK-1 run of record exited
 # honestly at doc 213 -- the singular `step` is the SPAN-HEAD
 # step (the exporter's own construction: step = the step covering
 # the value's FIRST char, span = the CONTIGUOUS run covering the
@@ -133,8 +133,8 @@
 # readings STAND banked, never retro-edited.
 #
 # v1.0.7 -- THE INVENTORY BUILD-RECEIPT PIN MOVES v1.3.1 -> v1.3.2
-# (his stamp, the item-1170 act; his words verbatim: "okay yea
-# do such, continue on to the buil act"): his BLOCK-1 run of
+# (my stamp, the item-1170 act; my words verbatim: "okay yea
+# do such, continue on to the buil act"): my BLOCK-1 run of
 # record exited honestly at doc 12 -- the first DERIVED-VERIFIED
 # row carried the SINGULAR own-step form with `i` the value-group
 # ordinal, never the occurrence ordinal (i == occ_i on only 352
@@ -158,8 +158,8 @@
 # exports + readings STAND banked, never retro-edited.
 #
 # v1.0.6 -- THE INVENTORY BUILD-RECEIPT PIN MOVES v1.3.0 -> v1.3.1
-# (his stamp, the item-1168 act; his words verbatim: "okay continue
-# lets have 3 messages for the build act"): his BLOCK-1 run of
+# (my stamp, the item-1168 act; my words verbatim: "okay continue
+# lets have 3 messages for the build act"): my BLOCK-1 run of
 # record caught the aligned bytes' SINGULAR own-step form -- the
 # builder v1.3.1 (banked beside) binds it; the run tool's ONLY
 # change is the inventory build-receipt pin: the read_inventory
@@ -180,7 +180,7 @@
 # The battery: P1 18 + P2 19 + P3 10 = 47 checks expected. The
 # v1/v2 exports + readings STAND banked, never retro-edited.
 
-# v1.0.5 -- THE SHEET AMENDMENT v3 LOAD LAWS (his stamps, items
+# v1.0.5 -- THE SHEET AMENDMENT v3 LOAD LAWS (my stamps, items
 # 1162/1163/1164: the prereg accepted, the builder v1.3.0 banked):
 # the run tool reads the INVENTORY v3 AT THE OCCURRENCE LEVEL.
 # (1) THE OCCURRENCE-LEVEL ROW LAW: every pair row carries its
@@ -227,12 +227,12 @@
 # P3-C10 the honest-population arithmetic). The v1/v2 exports +
 # readings STAND banked, never retro-edited.
 #
-# THE RUN COMMAND OF RECORD (owner-side, the flags pinned):
+# THE RUN COMMAND OF RECORD (my-side, the flags pinned):
 #   python3 cd1_arm_a_separation_run_v108.py \
 #       --inputs <dir: the three caches + the label exports + the
 #                aligned export + the B1 module + the tokenizer> \
 #       --inventory cd1_arm_a_cohort_inventory_v3.json \
-#       --inventory-sha <his line: the v1.3.3 builder's own export
+#       --inventory-sha <my line: the v1.3.3 builder's own export
 #                        print (the console pin, the item-1134
 #                        law; the 64-hex shape law at load)> \
 #       --model-dir <dir: the 4-shard model of record + its
@@ -251,7 +251,7 @@
 # promotions with the standing 21 unresolved inside the class
 # rows; the A2 lane RE-RESOLVED under the one rule -- the pair
 # count MOVES by design, the v2 73/23 landing never asserted this
-# side, the movement itself a finding at his door; the
+# side, the movement itself a finding at my door; the
 # UNRESOLVABLE-NON-NUMERIC + step-outside-cache-coverage +
 # value-mismatch-at-own-step rows ride the honest-population
 # receipt NAMED, never computed); per row the
@@ -261,10 +261,10 @@
 # row, the operand rows, the derivation-window rows), and the W_U
 # answer column; the arithmetic is pure Python (no GPU, no vector
 # libraries, the pinned instrument); the honest expectation is
-# TENS OF MINUTES to a few hours owner-side, the cache read (the
+# TENS OF MINUTES to a few hours my-side, the cache read (the
 # 3.6 GB p2 file) and the per-row projections dominating; the
 # memory expectation: the cache records are held in memory per the
-# B0 builder's own reader law (his Mac carried the B0 pass on the
+# B0 builder's own reader law (my Mac carried the B0 pass on the
 # same bytes); progress is printed every 50 rows, every NAMED class
 # counted and carried beside the paired statistic.
 #
@@ -281,7 +281,7 @@
 #   the emitted_p/second_p pair, the emitted-vs-top1 case named
 #   per row); a NAMED-ABSENT raw_gap or an EMITTED-NOT-TOP1-
 #   CONSISTENT case on the real bytes is a TRUE DATA FINDING at
-#   the owner's door, presented never smoothed.
+#   my door, presented never smoothed.
 
 TOOL = "cd1_arm_a_separation_run_v108.py"
 VERSION = "1.0.8"
@@ -309,16 +309,16 @@ import sys
 
 PINS = {
     "inventory": {
-        # v1.0.5: the v3 inventory pin rides HIS CONSOLE LINE (the
-        # item-1134 stamp-act law, his own ruling for the map: "the
-        # map pins at his --map-sha console line -- the load-bearing
+        # v1.0.5: the v3 inventory pin rides MY CONSOLE LINE (the
+        # item-1134 stamp-act law, my own ruling for the map: "the
+        # map pins at my --map-sha console line -- the load-bearing
         # pin"); the v1.3.3 builder's own export print is the source
-        # (the v3 sha exists only after his builder run of record,
+        # (the v3 sha exists only after my builder run of record,
         # never a banked constant this side); the pin-shape law
         # enforced at load, the sha asserted byte-exact
         "file": "cd1_arm_a_cohort_inventory_v3.json",
         "sha256": None,
-        "source": "his --inventory-sha console line (the v1.3.3 "
+        "source": "my --inventory-sha console line (the v1.3.3 "
                   "builder's own export print)",
     },
     "b1_module": {
@@ -424,7 +424,7 @@ def verify_pin_shape():
     banked sha256 pin must be 64 lowercase hex characters, every
     shard prefix 8; a malformed pin a hard exit at load, before
     any file is touched -- a transcription defect must die here,
-    never at his console."""
+    never at my console."""
     import string
     hexs = set(string.hexdigits.lower())
     for name, pin in sorted(PINS.items()):
@@ -459,7 +459,7 @@ def assert_pin(name, path, pin, bytes_needed=True):
     if got != pin["sha256"]:
         tail = got[:8]
         fail_loud("pin %s: sha tail %s != the banked tail %s (the "
-                  "pin-tail law); the FULL observed sha: %s (his "
+                  "pin-tail law); the FULL observed sha: %s (my "
                   "console may verify the bytes against the banked "
                   "receipts)" % (name, tail, pin["sha256"][:8],
                                  got))
@@ -482,7 +482,7 @@ def fp16_decode_b64(b64s):
     convention: HIDDEN_BYTES_PER_VALUE 2, float16, the instrument
     of record's own writer form -- triadic_telemetry_t2_v32.3.0.py
     writes rec["hidden"].half().numpy().tobytes() (float16, native
-    order = little-endian on his Mac) and reads it back with
+    order = little-endian on my Mac) and reads it back with
     np.frombuffer dtype float16; the chain's first value-decode of
     hidden_b64 agrees (pure bit arithmetic on the little-endian
     bytes))."""
@@ -511,7 +511,7 @@ def bf16_decode_bytes(raw):
 
 def verify_console_pin_sha(sha):
     """The console-line pin shape law (the item-1146 defect-class
-    guard applied to HIS line): 64 lowercase hex characters, a
+    guard applied to MY line): 64 lowercase hex characters, a
     malformed pin a hard exit at load before any file is touched."""
     import string
     hexs = set(string.hexdigits.lower())
@@ -570,7 +570,7 @@ def assert_pair_s4(p, cohort):
                   "EQUALITY -- the pair's two rows ride the SAME "
                   "hidden row %r (the sheet amendment v3 S4 law; "
                   "the v1.0.4 t_0 proxy retired; a true "
-                  "data-integrity finding at his door, presented "
+                  "data-integrity finding at my door, presented "
                   "never smoothed)" % (cohort, p.get("pair_id"),
                                        p_hr))
     return True
@@ -733,8 +733,8 @@ def assert_population_arithmetic(coh, blk, n_pairs, n_unpaired,
 
 def read_inventory(path, inventory_sha):
     """The B0 cohort inventory of record (the v3 build, the v1.3.0
-    position-aware rule, his stamps items 1162/1163/1164): the pin
-    HIS console line asserted byte-exact; the v1.3.3 build receipt
+    position-aware rule, my stamps items 1162/1163/1164): the pin
+    MY console line asserted byte-exact; the v1.3.3 build receipt
     pinned in the tool line; the row tables read AT THE OCCURRENCE
     LEVEL (A1/A2 matched pairs, the unpaired positives, the
     standing unresolved, the NAMED class rows beside); the counts
@@ -756,7 +756,7 @@ def read_inventory(path, inventory_sha):
         fail_loud("inventory: tool line %r carries no v1.3.3 build "
                   "receipt (the sheet v3 one-rule law: the "
                   "inventory of record is the position-aware "
-                  "build; a v2 inventory at his door a NAMED "
+                  "build; a v2 inventory at my door a NAMED "
                   "refusal, never a position-blind read)"
                   % tool_line)
     if d.get("map_file_sha256") != ("61a56000458e028071a93cf0ad12a221"
@@ -1002,7 +1002,7 @@ def read_w_u_rows(model_dir, vnum_ids, dim_expect=4096):
                        if "head" in k.lower()
                        or "embed" in k.lower())
         fail_loud("the index carries no %r; the discovered head/"
-                  "embed candidates: %r (a coverage discovery at his "
+                  "embed candidates: %r (a coverage discovery at my "
                   "door, never a guess)" % (pref, cands))
     shard_name = wmap[pref]
     shard_path = os.path.join(model_dir, shard_name)
@@ -1058,7 +1058,7 @@ def read_w_u_rows(model_dir, vnum_ids, dim_expect=4096):
     # the finite law at load (the item-1155 class): the model of
     # record's unembedding rows must all be finite; a non-finite
     # row is a data-integrity hard exit at load (a wrong shard or
-    # a wrong read), never a NaN reaching the operators at his
+    # a wrong read), never a NaN reaching the operators at my
     # console
     n_bad = 0
     first_bad = None
@@ -1388,7 +1388,7 @@ def _selfcheck_body(td, checks, check):
               str(e)[:80])
 
     # P1-C13: the v1.0.4 console-line pin shape law (the item-1146
-    # class guard applied to his --inventory-sha line)
+    # class guard applied to my --inventory-sha line)
     ok = True
     for bad in ("", "0" * 63, "0" * 65, "z" * 64, None, 123):
         try:
@@ -1616,7 +1616,7 @@ RAW_GAP_FIELD_PAIRS = (
     ("top1_logit", "top2_logit"),
 )
 # v1.0.4 -- the instrument of record's own banked form (the
-# item-1158 rec 2, his stamp): the commit rows bank the
+# item-1158 rec 2, my stamp): the commit rows bank the
 # PROBABILITY-domain raw features per content step -- emitted_p =
 # probs[emitted_id], margin = float(top_p[0] - top_p[1]) the top-2
 # probability margin, second_p = the first content alternative's
@@ -2289,7 +2289,7 @@ def compute_row(b1, p1, ctx, row, record, w_num_rows, answer_row,
                             "quantities enter via the prompt); no "
                             "generation-side operand evidence "
                             "exists for the projector; the coverage "
-                            "boundary class, counted, his stamps "
+                            "boundary class, counted, my stamps "
                             "decide")}))
     out.append(("bhob", {"status": "NAMED-OUT-OF-COVERAGE",
                          "bhob": None}))
@@ -2773,7 +2773,7 @@ def part2_selfcheck(p1, b1):
 # ---------------------------------------------------------------------------
 
 # The tokenizer pin rides the aligned export's own receipt (the B0
-# V_num pin's file + sha, the owner's console line of record).
+# V_num pin's file + sha, my console line of record).
 PINS["tokenizer"] = {
     "file": "tokenizer.json",
     "sha256": ("79e3e522635f3171300913bb421464a87de6222182a0570"
@@ -2962,7 +2962,7 @@ def collect_named_census(receipts):
 def write_export(out_path, payload):
     """The export writer: deterministic (sort_keys, fixed indent),
     one trailing newline; the sha + byte-count receipt returned for
-    his console line."""
+    my console line."""
     body = json.dumps(payload, sort_keys=True, indent=1,
                       ensure_ascii=True)
     data = body + "\n"
@@ -2975,19 +2975,19 @@ def write_export(out_path, payload):
 
 def run_separation(inputs_dir, inventory_path, inventory_sha,
                    model_dir, tokenizer_path, b1_path, out_path):
-    """The owner-side separation run (v1.0.8, the v3 inventory at
-    his --inventory-sha console line): every input pinned +
+    """My-side separation run (v1.0.8, the v3 inventory at
+    my --inventory-sha console line): every input pinned +
     asserted at load; the discoveries (gen phases, commit fields
     incl. the instrument's own probability-domain form, statement
     bindings) from the bytes; the v2 population computed (the A1
     re-bind pairs + the A2 lane unchanged + the unpaired beside);
     the census + the receipts carried in the export; the runtime
-    receipt printed at his console."""
+    receipt printed at my console."""
     print("CD-1 ARM A B2 SEPARATION RUN -- the tool of record; "
-          "findings presented, never adjudicated; the owner's "
+          "findings presented, never adjudicated; my "
           "stamps decide")
     verify_pin_shape()  # the pin-shape law: malformed pins die at
-    # load, never at his console (the item-1146 defect class guard)
+    # load, never at my console (the item-1146 defect class guard)
     b1 = import_b1(b1_path)
 
     def ip(name):
@@ -3003,7 +3003,7 @@ def run_separation(inputs_dir, inventory_path, inventory_sha,
     receipts["inventory"] = assert_pin(
         "inventory", inventory_path,
         {"sha256": inventory_sha}, bytes_needed=False)
-    receipts["inventory_source"] = ("his --inventory-sha console "
+    receipts["inventory_source"] = ("my --inventory-sha console "
                                     "line (the v1.3.3 builder's "
                                     "own export print; the item-"
                                     "1134 console-pin law)")
@@ -3022,7 +3022,7 @@ def run_separation(inputs_dir, inventory_path, inventory_sha,
         PINS["checker_17p2_ledger"])
     receipts["tokenizer"] = assert_pin(
         "tokenizer", tokenizer_path, PINS["tokenizer"])
-    print("INPUT PINS: 8/8 asserted (the inventory at HIS "
+    print("INPUT PINS: 8/8 asserted (the inventory at MY "
           "console line, the aligned export, the two 17a "
           "re-emissions, the 17p2 pair, the tokenizer, the B1 "
           "module)")
@@ -3070,7 +3070,7 @@ def run_separation(inputs_dir, inventory_path, inventory_sha,
         s = id_to_str.get(i)
         if s is None:
             fail_loud("V_num id %d carries no string in the pinned "
-                      "tokenizer (a NAMED gap at his door)" % i)
+                      "tokenizer (a NAMED gap at my door)" % i)
         vnum_strs.append(s)
 
     # the statement indexes (the two A2 legs; the p2 lane carries
@@ -3172,7 +3172,7 @@ def run_separation(inputs_dir, inventory_path, inventory_sha,
     named = collect_named_census(row_receipts)
     payload = {
         "tool": TOOL + " " + VERSION,
-        "run_class": ("CD-1 Arm A B2 separation run, owner-side "
+        "run_class": ("CD-1 Arm A B2 separation run, my-side "
                       "(offline paper act; zero GPU, zero decodes, "
                       "zero build hours)"),
         "input_receipts": receipts,
@@ -3199,7 +3199,7 @@ def run_separation(inputs_dir, inventory_path, inventory_sha,
         "named_census": named,
         "rows": row_receipts,
         "the_law": ("findings presented, never adjudicated; the "
-                    "owner's stamps decide; the paired statistic "
+                    "my stamps decide; the paired statistic "
                     "and the unpaired beside-log never conflated; "
                     "every NAMED class counted, never skipped, "
                     "never averaged around"),
@@ -3208,7 +3208,7 @@ def run_separation(inputs_dir, inventory_path, inventory_sha,
     print("EXPORT: %s %d bytes sha %s"
           % (exp["file"], exp["bytes"], exp["sha256"]))
     print("NAMED CENSUS: %r" % named)
-    print("THE RUN COMPLETE: findings at his door; the owner's "
+    print("THE RUN COMPLETE: findings at my door; my "
           "stamps decide")
     return exp
 
@@ -3620,7 +3620,7 @@ def parse_run_args(argv):
         fail_loud("run CLI: the flags of record missing: %r (the "
                   "run needs --inputs (the caches + label exports "
                   "+ aligned + B1 + tokenizer), --inventory, "
-                  "--inventory-sha (the v3 pin at HIS console "
+                  "--inventory-sha (the v3 pin at MY console "
                   "line, the item-1134 law), --model-dir, "
                   "--tokenizer, --b1, --out)"
                   % missing)
@@ -3676,7 +3676,7 @@ def main():
         print("the run needs the flags of record: %r"
               % list(RUN_FLAGS))
         print("the full acceptance battery: --selfcheck")
-        print("findings presented, never adjudicated; the owner's "
+        print("findings presented, never adjudicated; my "
               "stamps decide")
         return 0
     (inputs_dir, inventory_path, inventory_sha, model_dir,

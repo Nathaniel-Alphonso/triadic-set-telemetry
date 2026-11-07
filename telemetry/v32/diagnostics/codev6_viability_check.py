@@ -1,5 +1,5 @@
-"""THE VIABILITY CHECK AT HIS WORD ("okay check these out for viability") --
-every numeric claim in his pasted audit re-derived from the run-of-record
+"""THE VIABILITY CHECK AT MY WORD ("okay check these out for viability") --
+every numeric claim in my pasted audit re-derived from the run-of-record
 receipt's own bytes (the battery genre, findings presented, never
 adjudicated), plus the within-loop tables the audit did not compute."""
 import json, importlib.util, math
@@ -24,7 +24,7 @@ def med(v):
 
 OK, BAD, PART = "  VERIFIED", "  MISMATCH", "  PARTIAL"
 
-p("=== THE VIABILITY CHECK, HIS PASTED AUDIT vs THE RECEIPT BYTES ===")
+p("=== THE VIABILITY CHECK, MY PASTED AUDIT vs THE RECEIPT BYTES ===")
 p("source: rc_codev5_receipt.json sha fc8b70b5435cefbc419b3b10dd0aeae6b579"
   "dcad1b7bfcaac5d11660b6e6cc42, leg mbpprw17, the run of record")
 p("")

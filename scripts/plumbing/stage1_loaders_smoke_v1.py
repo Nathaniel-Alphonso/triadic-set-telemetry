@@ -5,11 +5,11 @@ Two parts. PART A: synthetic fixture worlds (zero real rows), every expected
 value recomputed in this file's own arithmetic, the fail-loud gates probed by
 deliberate tampering (a tampered cache must die with the named line, never
 pass). PART B: THE REAL-BYTES CONTROL (the build law: the readout tool's own
-acceptance and a real-bytes control before his single run) -- the four local
+acceptance and a real-bytes control before my single run) -- the four local
 pinned files of record loaded through the loaders with the REAL pins, every
 population pin COUNTED from the bytes, STRUCTURAL RECEIPTS ONLY, every value
-discarded, zero readouts computed (the owner's-hardware law: the readout
-itself runs owner-side at his single run).
+discarded, zero readouts computed (my-hardware law: the readout
+itself runs on my side at my single run).
 """
 
 import json
@@ -345,8 +345,8 @@ else:
        and cc_real['odd'] == (186, 124) and cc_real['even'] == (220, 86)
        and cc_real['arm'] == (65, 23))
     print('  [real-bytes control] every pin exact, every count from the bytes, '
-          'ZERO READOUTS COMPUTED, every value discarded -- the owner\'s run proves the same '
-          'gates on his machine')
+          'ZERO READOUTS COMPUTED, every value discarded -- my run proves the same '
+          'gates on my machine')
 
 # ---------------------------------------------------------------- the totals
 print()

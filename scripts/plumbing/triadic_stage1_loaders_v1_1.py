@@ -10,8 +10,8 @@ byte-pinned, standing unedited; it imports the v1.0 engines, byte-pinned in turn
 and re-exported UNCHANGED: one source, every definition exercised twice. This
 module adds ONLY the amendment's thin-parse layer (section 4a): the three -r2
 thins ride the portability law verbatim -- the sha PRINTED at load, never
-asserted (owner-side files; his machine's print is the receipt, the banked
-receipt printed BESIDE for his eyeball) -- AND are now PARSED: the per-step
+asserted (my-side files; my machine's print is the receipt, the banked
+receipt printed BESIDE for my eyeball) -- AND are now PARSED: the per-step
 walk lanes (s and PR per step, E and H, the step-index t lane that carries the
 bucket law, the id / layer / rho / rsize lanes) and the per-commit emission
 fields (t / token / phase minimum) enter the readout. The parse negatives die
@@ -23,8 +23,8 @@ law).
 
 House laws riding this module: findings presented never adjudicated; nothing
 wires, nothing actuates; the disarmament law rides. The real-bytes control
-is STRUCTURAL ONLY, values discarded, zero readouts (the owner's-hardware
-law: the readout itself runs owner-side at his single run).
+is STRUCTURAL ONLY, values discarded, zero readouts (my-hardware
+law: the readout itself runs on my side at my single run).
 """
 
 import os
@@ -96,7 +96,7 @@ THIN_OPTIONAL_LANES = ('a', 'f', 'dead3', 'dead4', 'dead5', 'dead_share')
 THIN_COMMIT_MIN_FIELDS = ('t', 'token', 'phase')
 
 # the banked thin receipts, PRINTED BESIDE at load for the eyeball, never
-# asserted (the portability law verbatim: owner-side files; his machine's
+# asserted (the portability law verbatim: my-side files; my machine's
 # sha print is the receipt)
 BANKED_THIN_RECEIPTS = {
     'code': ('77dd63c7d21c630336e0afb074fbf15515b72c7da80831e9969314529a79a9b4', 410),
@@ -116,7 +116,7 @@ def parse_thin_record(rec, label, lineno):
     is a corpus walk doc, a non-int id a named fixture record (the banked
     law: the walk thins carry the corpus under int ids, the fixtures at the
     tail under string ids). Returns the parsed record dict (the lanes and the
-    commit rows for the owner-side readout; the builder-side control discards
+    commit rows for the readout on my side; the builder-side control discards
     them)."""
     if not isinstance(rec, dict):
         loud('thin parse', f'{label} record {lineno}: not a JSON object (tampered row)')
@@ -169,16 +169,16 @@ def parse_thin_record(rec, label, lineno):
 
 def load_thin_parsed(path, label='the -r2 thin of record', banked=None, name_printed=None):
     """Section 4a: THE THIN JOIN DELIVERED AT THE LOADER LAYER. The portability
-    law verbatim -- the sha PRINTED at load, never asserted (owner-side files;
-    his machine's print is the receipt), the record census loud, the banked
+    law verbatim -- the sha PRINTED at load, never asserted (my-side files;
+    my machine's print is the receipt), the record census loud, the banked
     receipt (sha, records) printed BESIDE for the eyeball when given -- AND
     every record PARSED under the fail-loud gates (parse_thin_record). The
-    name_printed lane carries the v1.0 owner-side print genre (his machine
-    prints his basename, the item-1317 precedent); the builder-side control
+    name_printed lane carries the v1.0 my-side print genre (my machine
+    prints my basename, the item-1317 precedent); the builder-side control
     passes the label alone so the builder console carries no banned-token
     bytes. Returns {'sha_printed', 'records', 'corpus', 'fixtures', 'parsed'};
     the corpus doc census asserts the doc-key uniqueness law. The parsed
-    values are for the owner-side readout; the builder-side control discards
+    values are for the readout on my side; the builder-side control discards
     them."""
     if not os.path.exists(path):
         loud(label, f'absent file at {path}')

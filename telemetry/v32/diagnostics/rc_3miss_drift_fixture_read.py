@@ -3,7 +3,7 @@
 drift-run census on the run-of-record receipt's own fixture curves.
 
 The sheet rc-3miss-conversion-prereg.md (sha b5efca3949fcdb50b2f24e1d4bceb9
-d7c9b9308c9451a73572ba74f0c4ddd7a8, pinned at his stamp "lets go head
+d7c9b9308c9451a73572ba74f0c4ddd7a8, pinned at my stamp "lets go head
 with the diagnostic") pins the drift-run face (D_R): the longest run of
 consecutive supported in-window lags {2..36} with STRICTLY increasing
 curve values, over the four-curve set C_DR = {E lane-B, E unmasked,
@@ -127,7 +127,7 @@ def main():
     p("=== THE THREE-MISS CONVERSION DIAGNOSTIC, THE FIXTURE HALF (the "
       "drift-run census on the run-of-record receipt's own fixture "
       "curves, offline, zero GPU, zero decodes, read-only) ===")
-    p("the sheet rc-3miss-conversion-prereg.md pinned at his stamp (sha "
+    p("the sheet rc-3miss-conversion-prereg.md pinned at my stamp (sha "
       "b5efca39...), the receipt %s verified byte-exact at open, the "
       "tool %s verified inside it -- the form read EXACTLY as pinned, "
       "never tuned after the read" % (RECEIPT_SHA_BANK[:16],
@@ -232,14 +232,14 @@ def main():
       "isolate it; (5) THE KILL-SWITCH HONORED: the sheet closes on "
       "paper, zero build hours, the finding banked as mechanism "
       "knowledge (the second drift-shaped family dead after the "
-      "ramp; the remaining routes at his word only: a genuinely new "
+      "ramp; the remaining routes at my word only: a genuinely new "
       "countdown-and-code-line direction, the P-B4 single-face "
       "honest read 1.792063 standing as the best banked CODE number, "
       "the 8B record lane, or close development)")
     p("(offline read of the run-of-record receipt bytes only, zero "
       "GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] "
       "unmoved (D-theta); no thresholds set, moved, or adjudicated; "
-      "findings presented, never adjudicated -- the owner's stamps "
+      "findings presented, never adjudicated -- my stamps "
       "decide)")
 
     with open("rc_3miss_drift_fixture_console.txt", "w") as f:

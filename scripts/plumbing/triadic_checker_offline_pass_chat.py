@@ -5,7 +5,7 @@ Standalone analysis tool, no version stamp (the triadic_f2_join.py pattern).
 Zero model involvement: reads banked artifacts only, pure text analysis.
 CHAT-LEG RUN of the banked v2 tool logic. Inputs: t2chat_gsm-chat100-a1_thin.jsonl
 (the thin generations, chat leg — thin extraction from the RB-1 session cache per
-the owner-stamped manifest amendment) + labels inside
+my stamped manifest amendment) + labels inside
 triadic_t2_t2-gsm-chat100-a1.json (exact-match label_correct per doc).
 Output: single export JSON (the record of authority) + console summary.
 Read-only on inputs. No thresholds set, moved, or adjudicated.
@@ -447,7 +447,7 @@ for r in loop_recs:
 out = {
     "pass": "arithmetic_checker_offline_pass_chat_leg",
     "tool": "triadic_checker_offline_pass_chat.py (the banked v2 tool logic verbatim, chat-leg input block; standalone, no version stamp)",
-    "adjudicated_per": "checker-offline-pass-preregistration.md (owner-stamped Oct 6 2026)",
+    "adjudicated_per": "checker-offline-pass-preregistration.md (stamped by me Oct 6 2026)",
     "rules": {
         "candidate": "a '='/'equals' anchor whose lhs window (90 chars) shows NUM-op-NUM (the in-line detector's trigger gate), plus every '<<expr=result>>' scratchpad annotation",
         "wellformed": "lhs parses as 2+ numbers joined by arithmetic ops ('x' and 'N% of M' included; % operands valued at n/100); result token parses; comma/decimal grouping valid",
@@ -457,7 +457,7 @@ out = {
         "inputs_read_only": True, "model_involvement": "none",
     },
     "inputs": {
-        "chat_leg_generations": "t2chat_gsm-chat100-a1_thin.jsonl (126,381 bytes, SHA-256 415e23ada0462caedfd2a492a815807a570ce6c7ec3dc5bfe5daf172e12c578b — the thin extraction from the RB-1 session cache per the owner-stamped manifest amendment; integrity gates i-iii PASS: checksum owner-console-matched, census 100 gsm8k-chat + 10 loop (inert pair eos@11/eos@1 as banked), doc_id join to the export zero-mismatch on stop_reason and n_gen_steps)",
+        "chat_leg_generations": "t2chat_gsm-chat100-a1_thin.jsonl (126,381 bytes, SHA-256 415e23ada0462caedfd2a492a815807a570ce6c7ec3dc5bfe5daf172e12c578b — the thin extraction from the RB-1 session cache per my stamped manifest amendment; integrity gates i-iii PASS: checksum console-line-matched, census 100 gsm8k-chat + 10 loop (inert pair eos@11/eos@1 as banked), doc_id join to the export zero-mismatch on stop_reason and n_gen_steps)",
         "chat_leg_labels": "triadic_t2_t2-gsm-chat100-a1.json per_doc label_correct (100 docs: 32 correct / 68 incorrect)",
         "raw_leg": {"status": "BANKED (ledger item 51)", "detail": "raw-leg results of record live in triadic_checker_offline_pass_v1.json; not re-derived here"},
     },

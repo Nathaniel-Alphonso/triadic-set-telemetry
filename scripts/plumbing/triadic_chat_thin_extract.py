@@ -7,7 +7,7 @@ Protocol: identical to the raw-leg thin extraction (ledger item 48).
   Runs in seconds on CPU. Nothing it touches is in use by RB-2
   (the RB-1 cache file is closed; RB-2 writes its own new cache).
 
-  Input : triadic_t2_cache_t2-gsm-chat100-a1_bfloat16_bos.jsonl  (owner-local)
+  Input : triadic_t2_cache_t2-gsm-chat100-a1_bfloat16_bos.jsonl  (local)
   Output: t2chat_gsm-chat100-a1_thin.jsonl  (~80 KB, single upload, no split)
 
 Run AFTER RB-2 finishes (one-run-at-a-time machine protocol) -- or any time

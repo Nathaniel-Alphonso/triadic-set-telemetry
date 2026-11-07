@@ -1,6 +1,6 @@
-"""THE PATHWAY LEDGER AT HIS WORD ("okay there were proposed pathways, about
+"""THE PATHWAY LEDGER AT MY WORD ("okay there were proposed pathways, about
 6 stated in the response yet some are breezed over or not even mentioned") --
-EVERY pathway named in his pasted audit gets its own verdict this act; the
+EVERY pathway named in my pasted audit gets its own verdict this act; the
 two the desk never computed (the kappa late-window refinement and the d2/d
 collinearity ratio the audit itself prescribed) are computed NOW on the
 run-of-record receipt's own fixture bytes; findings presented, never
@@ -26,7 +26,7 @@ def med(v):
     s = sorted(v); n = len(s)
     return (s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2)
 
-p("=== THE PATHWAY LEDGER, EVERY PATHWAY IN HIS PASTED AUDIT, ONE VERDICT "
+p("=== THE PATHWAY LEDGER, EVERY PATHWAY IN MY PASTED AUDIT, ONE VERDICT "
   "EACH ===")
 p("source: rc_codev5_receipt.json sha fc8b70b5435cefbc419b3b10dd0aeae6b579"
   "dcad1b7bfcaac5d11660b6e6cc42, leg mbpprw17, the run of record")
@@ -72,7 +72,7 @@ p("P-B4  THE KAPPA LATE-WINDOW REFINEMENT (the audit's 'replacing the "
   "COMPUTED THIS ACT on the masked curves lane A reads, refined tail = "
   "1 - min(d over supported lags 19..36) / med(d over supported lags "
   "28..36), read as a DIAGNOSTIC never a pinned form (a pinned window "
-  "waits for a fresh sheet at his word)")
+  "waits for a fresh sheet at my word)")
 p("      the sanity gate first: the tool's own kappa_from_curve re-run on "
   "the masked E curves must reproduce the banked kappa_cells EXACT -- "
   "10/10 OK below")
@@ -126,7 +126,7 @@ p("      VERDICT: THE ONE LIVE countdown-TARGETING CANDIDATE ON PAPER -- "
   "or naturally decaying with lag -> the audit's own R1 flood -- UNKNOWN "
   "OFFLINE, the corpus half), the level-vs-fixture race rides (the S "
   "lesson), the demotion cliff rides (the level 3.7618 sits 0.4157 below "
-  "mask-stub's 4.1775), and a pinned form waits for his stamp, never the "
+  "mask-stub's 4.1775), and a pinned form waits for my stamp, never the "
   "desk's hand")
 p("")
 
@@ -171,7 +171,7 @@ p("      THE ORDERING, ANSWERED: the ratio does NOT order the drift misses "
   "surrounding d2 fabric is ordinary")
 p("")
 p("P-C   close development on the current monitor set (the audit's row 3): "
-  "the standing option, always his call, the 8B record lane beside it")
+  "the standing option, always my call, the 8B record lane beside it")
 p("")
 p("THE CROSS-CUTTING LAW every viable pathway rides: the level-vs-fixture "
   "race (the S lesson receipted) and THE DEMOTION CLIFF priced at item 487 "
@@ -184,8 +184,8 @@ p("THE CORPUS HALF, STATUS PER PATHWAY: the receipt carries d2/triples "
   "curves for the TEN FIXTURES ONLY, so every flood question (clean-doc d2 "
   "zeros, clean-doc ramps, clean-doc refined-tail reference moments) is NOT "
   "answerable from any banked byte -- the audit's own 'required paper "
-  "diagnostic' column names the fix: a read-only tabulation on his pinned "
-  "caches, runnable on his Mac at his word, zero build hours, the "
+  "diagnostic' column names the fix: a read-only tabulation on my pinned "
+  "caches, runnable on my Mac at my word, zero build hours, the "
   "kill-switch genre the house already stamped")
 
 open("/home/user/build6/codev6_pathway_ledger_console.txt", "w").write(

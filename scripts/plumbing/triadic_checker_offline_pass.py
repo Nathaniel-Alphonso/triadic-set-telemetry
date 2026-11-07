@@ -447,7 +447,7 @@ for r in loop_recs:
 out = {
     "pass": "arithmetic_checker_offline_pass",
     "tool": "triadic_checker_offline_pass.py v2 (standalone, no version stamp)",
-    "adjudicated_per": "checker-offline-pass-preregistration.md (owner-stamped Oct 6 2026)",
+    "adjudicated_per": "checker-offline-pass-preregistration.md (stamped by me Oct 6 2026)",
     "rules": {
         "candidate": "a '='/'equals' anchor whose lhs window (90 chars) shows NUM-op-NUM (the in-line detector's trigger gate), plus every '<<expr=result>>' scratchpad annotation",
         "wellformed": "lhs parses as 2+ numbers joined by arithmetic ops ('x' and 'N% of M' included; % operands valued at n/100); result token parses; comma/decimal grouping valid",

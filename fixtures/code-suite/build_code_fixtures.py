@@ -2,7 +2,7 @@
 """build_code_fixtures.py -- Gate 17-C code-* fixture family builder (v1.0).
 
 Builds triadic_code_fixture_suite_v1.json per code-fixture-family-preregistration.md
-(OWNER-STAMPED Oct 9 2026, ledger item 166): sizing code-M (96 rows: 48 positives,
+(MY STAMP Oct 9 2026, ledger item 166): sizing code-M (96 rows: 48 positives,
 8 per class with loud/subtle balanced 4+4; 48 controls, 6 per class); meter budget
 p99x1.5 = 3,910,116 STAMPED (R-K6); RW-5 paraphrase axis OFF; P6 branch (a)
 as-is boundary census.
@@ -45,7 +45,7 @@ import triadic_code17c_offline_pass as instr  # the banked instrument of record
 
 METER_BAND_LO = 2344000   # the natural p95 (measured census of record)
 METER_BAND_HI = 2606744   # the natural p99 (measured census of record)
-BUDGET_STAMPED = 3910116  # p99 x 1.5 -- the owner's R-K6 stamp (item 166)
+BUDGET_STAMPED = 3910116  # p99 x 1.5 -- my R-K6 stamp (item 166)
 
 
 def sha256_file(path):

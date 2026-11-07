@@ -29,7 +29,7 @@ Usage:
     [--diag-dump-armed triadic_diag_logitdump_f2_armed.json]
 
 Exit code 0 always (adjudication is recorded, not pass/fail);
-stamping is the owner's call.
+stamping is my call.
 """
 
 import argparse
@@ -209,7 +209,7 @@ def main():
 
     print("\nAdjudication recorded. Readings are binding per "
           "f2-preregistration.md §5; disposition routing per §7. "
-          "Stamps: owner's call, bankable numbers only.")
+          "Stamps: my call, bankable numbers only.")
 
 
 if __name__ == "__main__":

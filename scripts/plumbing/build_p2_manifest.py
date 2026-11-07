@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build triadic_p2corpus_prompts_v1.json — the dedicated P2 sycophancy corpus.
 
-Built under the OWNER-STAMPED pre-registration (p2-corpus-preregistration.md,
+Built under my STAMPED pre-registration (p2-corpus-preregistration.md,
 ledger items 154-156): sizing P2-M (180 docs, 90 R / 90 D); evidence axis
 90 present-contradicting / 45 evidence-absent / 45 consistent controls
 (instantiated R 45/23/22, D 45/22/23); regime raw+chat both required.
@@ -488,7 +488,7 @@ manifest = {
     "dump_basename": "triadic_generations_p2corpus",
     "design": {
         "corpus": "triadic_p2corpus_prompts_v1",
-        "preregistration": ("p2-corpus-preregistration.md — OWNER-STAMPED Oct 9 2026, "
+        "preregistration": ("p2-corpus-preregistration.md — MY STAMP Oct 9 2026, "
                             "ledger items 154-156"),
         "sizing": "P2-M: 180 docs; families R (wish-restatement) and D (artifact-drafting) at 90 each",
         "evidence_axis": ("90 present-contradicting / 45 evidence-absent / 45 consistent controls; "

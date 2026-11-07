@@ -1,27 +1,27 @@
-"""THE CORPUS-SIDE DIAGNOSTIC AT HIS STAMP ("okay youve got my stamp") --
+"""THE CORPUS-SIDE DIAGNOSTIC AT MY STAMP ("okay youve got my stamp") --
 read-only, zero GPU, zero decodes, the kill-switch genre: the P-B4
 refined-tail reference + the full level/coverage/gap projection + the P-A1
-d2 zero-run mass census, computed on his pinned cache bytes beside the
+d2 zero-run mass census, computed on my pinned cache bytes beside the
 run-of-record receipt. The form is read EXACTLY as the item-488 ledger
 computed it (refined tail = 1 - min(d over supported lags 19..36) /
 med(d over supported lags 28..36), the masked E curve, the tool's own
 support law) -- a DIAGNOSTIC read, never a pinned form; a pinned window
-waits for a fresh sheet at his word. Findings presented, never
+waits for a fresh sheet at my word. Findings presented, never
 adjudicated.
 
-RUN (his Mac, one working dir): the script beside triadic_rw17_codev5.py,
+RUN (my Mac, one working dir): the script beside triadic_rw17_codev5.py,
 the three pinned caches, and rc_codev5_receipt.json; then
     python3 codev7_corpus_diagnostic.py            (the single-face read)
     python3 codev7_corpus_diagnostic.py --combined (the two-face read)
-which emits codev7_corpus_diagnostic_console.txt for his shasum + upload.
+which emits codev7_corpus_diagnostic_console.txt for my shasum + upload.
 --parity-only runs the receipt-side gates alone (no caches needed).
 
-THE --combined MODE (his stamp, the 8B record lane discussion): the two
+THE --combined MODE (my stamp, the 8B record lane discussion): the two
 faces under the tool's OWN max-spine conjunction -- D_new = max(D,
 z_refined, z_d2mass) per doc, the refined-tail cell (P-B4) and the d2
 zero-run-mass cell (P-A1, the pinned S face's law mirrored onto d2), each
 z against its own cal reference, the triples gate swept (8/12/16, the
-sheet pins one at his word never tuned to the answer); the level
+sheet pins one at my word never tuned to the answer); the level
 re-derives, the gap re-derives, the demotion cliff read beside them.
 THE CORRECTION NAMED BEFORE THE DRAFT: the item-491 optimistic bound
 1.980063 UNDERSTATED the fixture side -- under the combined species the
@@ -68,7 +68,7 @@ BANKED_MD2 = {"loop-seeded-json": 8, "loop-seeded-countdown": 0,
               "loop-seeded-code-line": 0, "loop-injection-code": 21,
               "loop-seeded-chant": 0}
 D2_GATES = (8, 12, 16)
-# his uploaded console (ITEM 490): the per-leg cal references, the
+# my uploaded console (ITEM 490): the per-leg cal references, the
 # parity anchors for the combined fixture-side gate
 BANKED_CONSOLE_REFS = {
     "mbpprw17": ((0.195457, 0.120401), (0.275000, 1.352227)),
@@ -77,7 +77,7 @@ BANKED_CONSOLE_REFS = {
 }
 # the CORRECTED combined fixture-side bounds (level-fixed, held fixed
 # at the receipt's own moments -- the optimistic world, computed this
-# act on the receipt curves + his console references; the item-491
+# act on the receipt curves + my console references; the item-491
 # 1.980063 omitted injection-code's own d2 lift, named above)
 BANKED_COMBINED_BOUND = {"mbpprw17": 1.606504, "prose17p-rw17": 1.753702,
                          "p2corpus-rw17": 1.772590}
@@ -257,7 +257,7 @@ def parity_only(K, r):
                 "aborting.")
     # gate 5: the combined fixture-side bound (the corrected anchors)
     p("[G5] the combined fixture side (D_new = max(D, z_refined, z_d2), "
-      "gate 8, his console's banked references, held fixed at the "
+      "gate 8, my console's banked references, held fixed at the "
       "receipt's own moments -- the level-fixed optimistic world)")
     for leg in K.LEGS:
         lgc = r["legs"][leg]
@@ -291,13 +291,13 @@ def parity_only(K, r):
         if not ok:
             die("the combined fixture-side machinery does not reproduce "
                 "the corrected bank -- aborting.")
-    p("PARITY-ONLY MODE COMPLETE: the five gates hold; the full mode (his "
+    p("PARITY-ONLY MODE COMPLETE: the five gates hold; the full mode (my "
       "Mac, the pinned caches) runs the corpus half on the same bytes.")
     return OUT
 
-# ---- the full mode: the corpus half on his pinned caches ----------------
+# ---- the full mode: the corpus half on my pinned caches ----------------
 def full_mode(K, r):
-    p("=== THE CORPUS-SIDE DIAGNOSTIC, FULL MODE (his pinned caches, "
+    p("=== THE CORPUS-SIDE DIAGNOSTIC, FULL MODE (my pinned caches, "
       "read-only, zero GPU, zero decodes) ===")
     p("the form, read EXACTLY as the item-488 ledger computed it, never "
       "tuned: refined tail = 1 - min(d, supported lags 19..36) / med(d, "
@@ -508,10 +508,10 @@ def full_mode(K, r):
       "mask-reserved-stubborn's read (the ITEM-487 demotion cliff); (3) "
       "does the projected gap clear the 2.0 bar on these dev bytes; the "
       "P-A1 census beside them prices the json flip's own flood question")
-    p("(offline read of his pinned cache bytes only, zero GPU, zero "
+    p("(offline read of my pinned cache bytes only, zero GPU, zero "
       "decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no "
       "thresholds set, moved, or adjudicated; findings presented, never "
-      "adjudicated -- the owner's stamps decide)")
+      "adjudicated -- my stamps decide)")
 
 # ---- the combined mode: the two faces under the max-spine -------------
 def zmax(a, b):
@@ -522,7 +522,7 @@ def zmax(a, b):
     return a if a >= b else b
 
 def combined_mode(K, r):
-    p("=== THE COMBINED-SIDE DIAGNOSTIC, --combined MODE (his pinned "
+    p("=== THE COMBINED-SIDE DIAGNOSTIC, --combined MODE (my pinned "
       "caches, read-only, zero GPU, zero decodes) ===")
     p("the two faces under the tool's OWN max-spine conjunction: D_new = "
       "max(D, z_refined, z_d2mass) per doc, cal and held and fixtures "
@@ -531,7 +531,7 @@ def combined_mode(K, r):
       "tuned) and the d2 zero-run-mass cell (P-A1, the pinned S face's "
       "run law mirrored onto d2, support = triples >= the swept gate); "
       "each z against its own cal reference; the triples gate swept "
-      "8/12/16 -- the sheet pins ONE at his word, never tuned to the "
+      "8/12/16 -- the sheet pins ONE at my word, never tuned to the "
       "answer")
     p("the correction on the record before the read: the item-491 "
       "optimistic bound 1.980063 UNDERSTATED the fixture side -- under "
@@ -749,12 +749,12 @@ def combined_mode(K, r):
       "the combined sheet per leg per gate -- the honest gap with both "
       "sides re-scored, the level move and the mask-stub demotion "
       "cliff, the k flip, and the gate sweep the sheet pins ONE of at "
-      "his word; the 3B dev bytes are the paper read -- the 8B record "
+      "my word; the 3B dev bytes are the paper read -- the 8B record "
       "lane re-derives every reference on its own bytes")
-    p("(offline read of his pinned cache bytes only, zero GPU, zero "
+    p("(offline read of my pinned cache bytes only, zero GPU, zero "
       "decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); "
       "no thresholds set, moved, or adjudicated; findings presented, "
-      "never adjudicated -- the owner's stamps decide)")
+      "never adjudicated -- my stamps decide)")
 
 def main():
     args = sys.argv[1:]

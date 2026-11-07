@@ -26,7 +26,7 @@ character class (v1 operators never matched inline); evaluator no longer
 mutates operator lists; trailing sentence period on results; '$'-operands
 after 'x'; '%'-operands (value = n/100); 'N% of M' statements.
 
-Statement-rows amendment (Oct 30 2026, per his item-1128 ruling 2): the
+Statement-rows amendment (Oct 30 2026, per my item-1128 ruling 2): the
 per_doc.statements list now carries EVERY well-formed statement in document
 order with its verdict (True clean / False slip) + pos (the char anchor in
 gen_text: scratchpad = the '<<' open, inline = the '=' anchor) -- the EMISSION
@@ -470,8 +470,8 @@ for r in loop_recs:
 
 out = {
     "pass": "arithmetic_checker_offline_pass_chat_leg_8b",
-    "tool": "triadic_checker_offline_pass_chat_8b.py (the 1B chat-twin logic verbatim, 8B chat-leg input block; standalone, no version stamp; the statement-rows emission per his item-1128 ruling 2)",
-    "adjudicated_per": "checker-offline-pass-preregistration.md (owner-stamped Oct 6 2026)",
+    "tool": "triadic_checker_offline_pass_chat_8b.py (the 1B chat-twin logic verbatim, 8B chat-leg input block; standalone, no version stamp; the statement-rows emission per my item-1128 ruling 2)",
+    "adjudicated_per": "checker-offline-pass-preregistration.md (stamped by me Oct 6 2026)",
     "rules": {
         "candidate": "a '='/'equals' anchor whose lhs window (90 chars) shows NUM-op-NUM (the in-line detector's trigger gate), plus every '<<expr=result>>' scratchpad annotation",
         "wellformed": "lhs parses as 2+ numbers joined by arithmetic ops ('x' and 'N% of M' included; % operands valued at n/100); result token parses; comma/decimal grouping valid",
@@ -479,7 +479,7 @@ out = {
         "provenance": "final answer must equal a verified chain value (stated results of passing statements or their exact recomputed values); '####' first, then 'answer is', then last number",
         "known_limitations_censused_not_hidden": "dimensional forms ('12 miles / 12 hours'), fraction operands ('20/3'), parenthesized rhs — counted as false parses; they are missed-statement classes, never false fires",
         "inputs_read_only": True, "model_involvement": "none",
-        "statement_rows": "per_doc.statements amendment (Oct 30 2026, his item-1128 ruling 2): every well-formed statement in document order, fields raw/nums/ops/stated/family/verdict/pos/posfrac/ann; verdict True = exact-recomputation clean (the A2 negatives class), verdict False = slip (the A2 positives class); pos = char anchor in gen_text (scratchpad: the '<<' open; inline: the '=' anchor); emission of already-computed extraction data, zero extraction-logic changes",
+        "statement_rows": "per_doc.statements amendment (Oct 30 2026, my item-1128 ruling 2): every well-formed statement in document order, fields raw/nums/ops/stated/family/verdict/pos/posfrac/ann; verdict True = exact-recomputation clean (the A2 negatives class), verdict False = slip (the A2 positives class); pos = char anchor in gen_text (scratchpad: the '<<' open; inline: the '=' anchor); emission of already-computed extraction data, zero extraction-logic changes",
     },
     "inputs": {
         "chat_leg_generations": f"t2chat_gsm-chat100-8b_thin.jsonl ({len(_dump_bytes)} bytes, SHA-256 {_dump_sha} — the 8B re-walk's chat-leg thin generations at tag gsm-chat100-8b; the receipt verification rides the rung's console lines)",

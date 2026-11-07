@@ -2,7 +2,7 @@
 """THE A-LANE VIABILITY AUDIT — the external analysis's five routes read
 against the run-of-record receipt's own bytes, offline.
 
-At his word ("okay any viablitity in this, if so lets discuss all
+At my word ("okay any viablitity in this, if so lets discuss all
 possible viable integratios or upgrades to the mechanism for
 refinement") an external analysis was placed on the desk proposing five
 routes: A1 a saturation-bounded d2 face, A2 a cross-lane mask-excision
@@ -53,22 +53,22 @@ HELD_V5_MU, HELD_V5_SD = 1.583084, 1.308408   # item 493 console
 HELD_PB4_MU, HELD_PB4_SD = 1.633566, 1.332503 # item 493 console
 HELD_COMB_MU, HELD_COMB_SD = 1.787326, 2.174735  # item 493 console
 LOOP_COMB_MU, LOOP_COMB_SD = 6.338041, 3.976063  # item 493 console
-GAP_COMB_BANK = 1.420070                 # his gate-8 run, item 493
+GAP_COMB_BANK = 1.420070                 # my gate-8 run, item 493
 D_INJ_CODE = 7.989752                    # V5 loop census
-D_JSON_LIFTED = 5.712799                 # his gate-8 json read
+D_JSON_LIFTED = 5.712799                 # my gate-8 json read
 D_COUNTDOWN_REFINED = 1.434110           # the P-B4 countdown lift
-D_INJ_CODE_D2Z = 15.326556               # his gate-8 d2 z, the drag
+D_INJ_CODE_D2Z = 15.326556               # my gate-8 d2 z, the drag
 PB4_HONEST = 1.792063                    # the P-B4 single-face read
 RAW_FIXTURE_SIDE_HONEST = 1.606504       # item 492 correction
 CAP_K7, CAP_K8 = 2.0494, 2.6833          # coverage caps, item 484
-JSON_RAW_D2Z = 5.7128                    # his gate-8 json d2 z
-# the d2-face gate-8 census, HIS console (item 490), cited not
+JSON_RAW_D2Z = 5.7128                    # my gate-8 json d2 z
+# the d2-face gate-8 census, MY console (item 490), cited not
 # recomputed -- the receipt banks fixture curves only, never doc-level
 # d2 masses:
 D2_CAL_MEAN, D2_CAL_SD = 0.275000, 1.352227
 D2_CAL_N_POS, D2_CAL_N = 11, 200          # 189/200 at exact zero
 D2_HELD_N_POS = 15                        # item 493 held decomposition
-M_D2_INJ_CODE, M_D2_JSON = 21.0, 8.0      # his gate-8 fixture masses
+M_D2_INJ_CODE, M_D2_JSON = 21.0, 8.0      # my gate-8 fixture masses
 # the drift-run banked cells (item 496 console, sha above):
 DRIFT_BANKED = {
     ("mbpprw17", "loop-seeded-affirm", "E", "laneB"): 33,
@@ -211,7 +211,7 @@ def main():
     p("=== THE A-LANE VIABILITY AUDIT (the external analysis's five "
       "routes read against the run-of-record receipt's own bytes, "
       "offline, zero GPU, zero decodes, read-only) ===")
-    p("at his word (\"okay any viablitity in this, if so lets discuss "
+    p("at my word (\"okay any viablitity in this, if so lets discuss "
       "all possible viable integratios or upgrades to the mechanism "
       "for refinement\"): the receipt %s verified byte-exact at open, "
       "the tool %s verified inside it, the instrument %s verified for "
@@ -271,7 +271,7 @@ def main():
     cv = [comb[n] for n in sorted(comb)]
     g2 = gap_of(cv, HELD_COMB_MU, HELD_COMB_SD)
     p("  loop vector = the V5 D's with injection-code %s, json %s, "
-      "countdown %s (his gate-8 reads, banked)"
+      "countdown %s (my gate-8 reads, banked)"
       % (D_INJ_CODE_D2Z, D_JSON_LIFTED, D_COUNTDOWN_REFINED))
     p("  loop moments %.6f / %.6f (banked %.6f / %.6f, delta "
       "%.2e / %.2e)" % (mean(cv), sd1(cv), LOOP_COMB_MU,
@@ -305,9 +305,9 @@ def main():
       "affirm-over-misses ordering and the 35-saturation stand)")
     p("")
 
-    # ============ G4: the census conventions + his-console cites ====
+    # ============ G4: the census conventions + my-console cites ====
     p("--- G4 THE CENSUS CONVENTIONS (the offline-verifiable half "
-      "computed, the d2-face half cited at his console) ---")
+      "computed, the d2-face half cited at my console) ---")
     fz = [d["f_zero_run_mass"] for d in leg["doc_rows"]
           if d["half"] == "cal"]
     n_pos_s = sum(1 for x in fz if x is not None and x > 0)
@@ -315,7 +315,7 @@ def main():
       "mean %.6f -- the receipt's own doc-level census, a DIFFERENT "
       "channel from the d2 face" % (len(fz), n_pos_s,
                                     sum(x or 0 for x in fz) / len(fz)))
-    p("  the d2-face gate-8 census (HIS console, item 490, cited "
+    p("  the d2-face gate-8 census (MY console, item 490, cited "
       "never recomputed -- the receipt banks fixture curves only, "
       "never doc-level d2 masses):")
     p("    cal n %d, mean %.6f, sd %.6f, n_pos %d (%d/%d at exact "
@@ -325,7 +325,7 @@ def main():
          D2_CAL_N - D2_CAL_N_POS, D2_CAL_N, D2_HELD_N_POS,
          D2_CAL_MEAN * D2_CAL_N / D2_CAL_N_POS, D2_CAL_MEAN,
          D2_CAL_N, D2_CAL_N_POS))
-    p("    fixture d2 masses (his gate-8 read): injection-code %g, "
+    p("    fixture d2 masses (my gate-8 read): injection-code %g, "
       "json %g, all eight others 0" % (M_D2_INJ_CODE, M_D2_JSON))
     if (len(fz) != 200 or n_pos_s != 7
             or abs(D2_CAL_MEAN * D2_CAL_N / D2_CAL_N_POS - 5.0)
@@ -721,12 +721,12 @@ def main():
       "saturated face TRIGGERS the demotion is decided by the "
       "ACTUAL per-doc masses (unknown offline): the demotion needs "
       "4 of the 11 positives above ~5.30 when the mean positive "
-      "mass is 5.0 -- a live coin-flip question, HIS bytes only"
+      "mass is 5.0 -- a live coin-flip question, MY bytes only"
       % (LEVEL_BANK, z_inv, MASK_STUB_D - z_inv))
     p("")
     p("--- 4.4 THE SATURATED LOOP VECTOR AND THE GAP BRACKET (the "
       "kappa=1 equal-mass idealization; only the banked countdown "
-      "P-B4 lift enters, the other refined-tail reads are his "
+      "P-B4 lift enters, the other refined-tail reads are my "
       "console's, not banked offline -- a projection, never a "
       "receipt) ---")
     kappa = 1.0
@@ -738,7 +738,7 @@ def main():
         V5["loop-seeded-countdown"], D_COUNTDOWN_REFINED)
     sv = [sat[nm] for nm in sorted(sat)]
     p("  the vector: json -> %.6f (the saturated flip, raw z %.4f "
-      "in his console), countdown -> %.6f (its P-B4 lift), "
+      "in my console), countdown -> %.6f (its P-B4 lift), "
       "injection-code HELD at %.6f (the saturated z %.4f loses the "
       "max-pool -- the drag killed), the other seven at their V5 "
       "D's" % (sat["loop-seeded-json"], JSON_RAW_D2Z,
@@ -767,7 +767,7 @@ def main():
     p("    VERDICT: A1 VIABLE-AS-DIAGNOSTIC -- the sd drag killed "
       "on paper (the central claim verified), the json flip "
       "preserved (k 7 -> 8, the cap %s), the gap bracket %.4f-"
-      "%.4f -- but every binding question is HIS-MAC-ONLY: the "
+      "%.4f -- but every binding question is MY-MAC-ONLY: the "
       "actual per-doc masses cal + held under psi, the re-derived "
       "level (the cliff at margin %+.6f), the off-leg floods (the "
       "banked d2 refs prose 1.548387/3.896216, p2 "
@@ -834,15 +834,15 @@ def main():
       "the receipt's 1D marginals average over position BEFORE the "
       "curves are banked, so NO function of the banked bytes can "
       "test it (the smearing, if real, already happened upstream); "
-      "the claim is verifiable ONLY on his bytes")
-    p("  THE RECONSTRUCTION CLASSES (his Mac, offline, zero GPU, "
-      "read-only on his pinned caches): B1 the phase-band pooling "
+      "the claim is verifiable ONLY on my bytes")
+    p("  THE RECONSTRUCTION CLASSES (my Mac, offline, zero GPU, "
+      "read-only on my pinned caches): B1 the phase-band pooling "
       "(min over |delta| <= 1 token phase offsets before the "
       "position average) and B2 the line-synced anchor (recurrence "
       "across statement/newline anchors rather than fixed token "
       "offsets) are computable from the cached token ids + hidden "
       "bytes WITHOUT a single decode -- diagnostic candidates at "
-      "his word, never build promises; both target the hard miss "
+      "my word, never build promises; both target the hard miss "
       "code-line, both answer the item-494 gleaning (a "
       "countdown-and-code-line direction the corpus's periodic "
       "fabric does not carry)")
@@ -854,8 +854,8 @@ def main():
       "one live offline route; the sd drag killed on paper, the "
       "json flip preserved, the fixture-side bound %.6f vs the "
       "P-B4 single-face %.6f, the bracket [%.6f, %.6f], the cliff "
-      "live at margin %+.6f; every binding question his-Mac-only; "
-      "a fresh pre-reg at his word (kappa pinned by convention "
+      "live at margin %+.6f; every binding question my-Mac-only; "
+      "a fresh pre-reg at my word (kappa pinned by convention "
       "never tuned, the sweep carried as receipts, the "
       "anti-shopping rider, the item-449 disclosure law)"
       % (g_a, PB4_HONEST, g_c, g_a, MASK_STUB_D - z_inv))
@@ -868,26 +868,26 @@ def main():
       "family answered a third time on the detrended residual "
       "(code-line negative on all three legs); the f-clock claim "
       "itself verified as a channel fact")
-    p("  B1 + B2 (the upstream phase-tolerant forms): HIS-MAC "
+    p("  B1 + B2 (the upstream phase-tolerant forms): MY-MAC "
       "candidates -- the phase-jitter hypothesis consistent with "
       "every receipted fact, unprovable on the banked 1D bytes, "
-      "reconstructible offline zero GPU on his caches at his word")
+      "reconstructible offline zero GPU on my caches at my word")
     p("  THE D* FACT: the sign-flip peak mechanism verified, the "
       "claimed constant 7.628 world-dependent (7.5526 / 7.6055 / "
       "8.3134 / 7.3484 across the four worlds) -- the sd-drag "
       "correction of item 492 now derived, not just observed")
-    p("  C (close / the 8B record lane): HIS -- the P-B4 honest "
+    p("  C (close / the 8B record lane): MY -- the P-B4 honest "
       "1.792063 stands as the best banked CODE read without a "
-      "demotion; the state matrix row 3 always his call")
+      "demotion; the state matrix row 3 always my call")
     p("  THE STANDING: the audit read-only on the receipt's own "
       "bytes, the instrument quoted byte-exact, the pinned sheets "
       "never opened, zero builds, zero GPU, zero decodes, no "
       "constant tuned to any answer, the kappa sweep printed in "
-      "full as receipts -- the next act at his word only")
+      "full as receipts -- the next act at my word only")
     p("(offline read of the run-of-record receipt bytes only, zero "
       "GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] "
       "unmoved (D-theta); no thresholds set, moved, or adjudicated; "
-      "findings presented, never adjudicated -- the owner's stamps "
+      "findings presented, never adjudicated -- my stamps "
       "decide)")
 
     with open("rc_alane_viability_console.txt", "w") as f:

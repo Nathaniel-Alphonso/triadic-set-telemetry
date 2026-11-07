@@ -11,12 +11,12 @@ halving (the item-1306 correction, the law of the sheet). The census
 guards print the survival cohorts at every grid horizon with the
 at-most-49 law asserted. The extraction control touches real bytes for
 STRUCTURAL RECEIPTS ONLY: counts and lengths, every value DISCARDED,
-never printed, never read out (the owner's-hardware law; the readout
-itself runs owner-side at his single run).
+never printed, never read out (my-hardware law; the readout
+itself runs on my side at my single run).
 
 The -r2 thins ride the portability law verbatim (the Track C form):
 their sha PRINTED at load, riding beside the asserted pins -- they are
-owner-side files; the instrument prints what it loads on his machine.
+my-side files; the instrument prints what it loads on my machine.
 
 House laws riding this module: findings presented never adjudicated;
 nothing wires, nothing actuates; the disarmament law rides.
@@ -230,7 +230,7 @@ def load_code_export(path, pins=None):
 
 
 def extraction_control_code(export, pins_rows=None):
-    """THE REAL-BYTES EXTRACTION CONTROL (the owner's-hardware law): iterates every doc and
+    """THE REAL-BYTES EXTRACTION CONTROL (my-hardware law): iterates every doc and
     row for STRUCTURAL RECEIPTS ONLY -- per-doc commit counts, length-vs-walk-table checks,
     the horizon reach census -- then DISCARDS every value. Nothing value-bearing is returned
     or printed: the returned receipt carries ints and counts only, and the row references
