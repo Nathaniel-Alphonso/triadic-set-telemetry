@@ -8,11 +8,27 @@
 
 ---
 
+The **Triadic Set** governs the forward pass of a language model directly: measured constraints, enforced inside the execution path at calibrated moments, that steer a model away from trajectories destined for discard and restore output that would otherwise be lost. The payoff is the one inference treats as a trade-off: compute falls and accuracy rises, at the same time, on the same model. This repository is my proof that the payoff is real: every claim pre-registered, every run checksummed, every adjudication replayable by anyone, on zero GPUs.
+
+---
+
+## The Case for In-Band Governance
+
+**The problem.** Inference today is governed after the fact, and it pays for that every time it runs. A model wanders into a degenerate loop, so the stack reruns it. An answer might be wrong, so the stack re-checks it. Output comes back unusable, so it is discarded and regenerated. Correction loops, re-verification passes, self-consistency votes: every fix the industry has for a wasteful forward pass spends additional compute to compensate for a pass that was never governed in the first place. The industry treats that waste as a universal truth of the medium: priced in, budgeted, and accepted as the cost of doing business. The Triadic Set treats it as an engineering target, the same waste accounted for sooner, cheaper, and more reliably, inside the forward path itself.
+
+**The thesis.** The Triadic Set's position is that the waste is governable at the source. The forward pass can be constrained inside its own execution graph, at calibrated moments, before the waste is ever emitted. Constraint is only half of the mechanism. The other half is restoration: trajectories that would have been thrown away are recovered to usable form. Compute drops because less of it is wasted. Accuracy rises because what survives governance is better output from the same model. The field reads governance as a purchase, accuracy bought with compute or compute saved at the price of accuracy. The Triadic Set breaks that frame: the two directions move together, compute falling and accuracy rising on the same pass.
+
+**The founding result.** From Phase 2 below: across all 57 MMLU tasks plus GSM8K (10,219 evaluated questions, 1,131,648 processed tokens), the governed system removed 50.43% of the attention paths and accuracy rose 11.53% over the stock baseline, at the same time, on the same model. On the hardware side of the same record, time-to-first-token dropped 61.22%, swap churn went to exactly zero, and the prefill context footprint compressed 88.41%. Every number above points at the log that produced it.
+
+**The agnostic principle.** The mechanism is derived, not trained in, and it is agnostic to everything about a model except the one thing every model shares. The governance map is extracted from the measured execution of a model's own unmodified weights and calibrated layer by layer, so the mathematics re-derives to fit the model, never the other way around: the math bends to the measured data, the data is never reshaped to fit the instrument. Model-agnostic, parameter-agnostic, weight-agnostic: the map re-derives from whatever model sits in front of it. Change the parameter count and the map re-derives. Retrain the weights and the map re-derives. Swap in the next model and the map re-derives. No model, scale, or checkpoint owns it, because governance touches only the forward pass, the one structure every autoregressive model has in common. That universality is the design intent: upgrade the model, retrain the weights, change the parameter count, and the deployment never waits on a redesign. The model ladder is the principle's receipt in the record below: the 1B system's map re-derived and re-validated at 3B, the 8B transfer the open front.
+
+**What the rigor buys.** The utility of this record extends past its headline numbers: every claim in it can be checked, replayed, and reused by anyone. Every instrument was pre-registered before it was built. Every run of record carries SHA-256 receipts for its inputs and outputs. Every adjudication replays banked bytes mechanically, with zero GPU contact. The program runs deeper than benchmarking: it works step by step through the precise mechanics of the governed pass, defining what the mechanism does, what it costs, and what it restores, until every component of the claim carries its own measurement and its own receipt. A score tells the field what happened once; a specification tells a deployer what happens every time, and a specification is what the Triadic Set is building. The full set of commitments lives in [Methodology Commitments](#methodology-commitments), and the mathematical core stays protected ([What Is Withheld](#what-is-withheld)) while everything around it is open.
+
+---
+
 ## What This Repository Is
 
-This is the public empirical record of the **Triadic Set**, a runtime governance architecture for autoregressive language models. It holds the hardware telemetry, evaluation programs, engineered validation fixtures, calibration tooling, and integrity receipts of an ongoing program built on one conviction: **the forward pass of a language model deserves active governance, enforced inside the execution path itself.**
-
-Modern inference stacks already accept this premise implicitly: they burn compute on correction loops, re-verification passes, and discardable output after the fact. The Triadic Set brings that governance *in-band*: structural constraints enforced inside the model's own execution graph, at calibrated moments, before waste is ever emitted. Everything in this repository is measured, pre-registered, and checksummed. The underlying mathematical core of the architecture stays protected (see [What Is Withheld](#what-is-withheld)).
+The repository itself is the evidence: the hardware telemetry, evaluation programs, engineered validation fixtures, calibration tooling, and integrity receipts behind the case above, produced under one conviction: **the forward pass of a language model deserves active governance, enforced inside the execution path itself.** Every artifact in it is measured, pre-registered, and checksummed. The underlying mathematical core of the architecture stays protected (see [What Is Withheld](#what-is-withheld)).
 
 ---
 
@@ -37,9 +53,7 @@ Above the tiers sits the **posture and orchestration layer**: every governed wal
 
 ## The Hypothesis
 
-The program exists to answer a single question: **can a language model's forward pass be governed at runtime, constrained at calibrated moments, so that compute falls and accuracy rises at the same time?**
-
-The Triadic Set's position is that it can, with one essential correction: accuracy gained this way comes from **constraint and restoration**. The system keeps the model's existing competence pointed at usable output: it steers the model away from trajectories that were destined to be discarded, and it restores otherwise-lost output to usable form. Compute drops because less of it is wasted; accuracy rises because what survives governance is better output from the same model.
+The program exists to answer a single question: **can a language model's forward pass be governed at runtime, constrained at calibrated moments, so that compute falls and accuracy rises at the same time?** The case above states my answer in plain terms; this section decomposes it so every part can be tested.
 
 Three framings govern how every cost and savings number in this program is read:
 
