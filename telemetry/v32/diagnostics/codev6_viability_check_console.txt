@@ -1,0 +1,81 @@
+=== THE VIABILITY CHECK, HIS PASTED AUDIT vs THE RECEIPT BYTES ===
+source: rc_codev5_receipt.json sha fc8b70b5435cefbc419b3b10dd0aeae6b579dcad1b7bfcaac5d11660b6e6cc42, leg mbpprw17, the run of record
+
+--- [S2] THE MOMENT RECONSTRUCTION ---
+detected D set: 4.177527, 5.730605, 6.352898, 6.843795, 7.913068, 7.989752, 8.507609  (k=7)
+  audit claims 7.989752/8.507609/6.843795/7.913068/6.352898/5.730605/4.177527, mu 6.787893 -> receipt mu_det 6.787893   VERIFIED
+missed D set: 0.459473, 1.381425, 3.492749
+  audit claims 1.381425/0.459473/3.492749, mu 1.777882 -> receipt mu_miss 1.777882   VERIFIED
+mu_loop receipt 5.284890 (audit 5.284890)   VERIFIED; s_loop receipt 2.815408 (audit 2.815408)   VERIFIED; SS 71.338711 (audit 71.338711)   VERIFIED
+z+ receipt 3.97797182 (audit 3.97797182)   VERIFIED; z- receipt 0.14888215 (audit 0.14888215)   VERIFIED
+sigma_held receipt 1.308408 (audit 1.308408)   VERIFIED; mu_held receipt 1.583084 (audit 1.583084)   VERIFIED
+RMS receipt 2.195274 (audit 2.195274)   VERIFIED; gap receipt 1.686262 (audit 1.686262)   VERIFIED
+sup receipt 2.049390 (audit 2.049390)   VERIFIED; sup corrected receipt 2.060178 (audit 2.060178)   VERIFIED
+doc_rows half census: {'cal': 200, 'held': 200} -- the audit's 'N_held = 189' named here for what it is: the receipt carries no 189 anywhere; the held-side moments were derived from z+/z- ratios, never a count, and the 189 figure is UNSUPPORTED (peripheral to every other number)
+
+--- [S3] THE DRIFT CLAIMS (fixture_curves, laneB unless named) ---
+countdown E.laneB: d(2)=0.3253 d(3)=0.4082 d(4)=0.4936 d(33)=1.3490; audit claims 0.3253/0.4082/0.4936/1.3490   VERIFIED
+  monotone across all supported lags: NO (audit says 'climbs monotonically'; expansion d(33)/d(2) = 4.15x vs audit 4.15x)
+countdown f.unmasked: d(2)=0.1242 d(36)=0.7257; audit claims 0.1242/0.7257   VERIFIED; STRICTLY monotone at every lag: YES (audit: yes); 5.84x vs audit 5.84x
+code-line E.laneB: d(2)=0.2950 d(3)=0.3560 d(36)=0.9025; audit claims 0.2950/0.3560/0.9025   VERIFIED; 3.06x vs audit 3.06x
+code-line f.laneB: d(2)=0.1614 d(36)=1.0060; audit claims 0.1614/1.0060   VERIFIED; 6.23x vs audit 6.23x
+
+--- [S4A] THE d2 CLAIMS (f.laneB unless named) ---
+countdown f.laneB: min first-order d = 0.0914 (audit 0.0914)   VERIFIED
+  exact d2 zeros at lags: [26, 33]  (audit: P=26, 33)
+    P=25: d2=0.0558 triples=22 d=0.2109 pairs=64
+    P=26: d2=0.0000 triples=20 d=0.2287 pairs=59
+    P=27: d2=0.0682 triples=18 d=0.2191 pairs=56
+    P=33: d2=0.0000 triples=12 d=0.1115 pairs=44
+    P=35: d2=0.0722 triples=17 d=0.3067 pairs=44
+  the audit's countdown d2 table (zeros 26/33, triples 20/12, d 0.2287/0.1115, near-zeros 0.0558/0.0682/0.0722 at 25/27/35, triples 22/18/17):   VERIFIED
+json f.laneB: exact d2 zeros at 11 supported lags [11, 14, 15, 20, 22, 25, 26, 27, 28, 29, 30]
+  zero runs: [[11], [14, 15], [20], [22], [25, 26, 27, 28, 29, 30]]  (audit: 11 zeros, 6-lag run 25..30, 2-lag run 14,15)
+  triples over the runs span 16..36 (audit: 16..35 / 23..25)   PARTIAL
+code-line f.laneB d2: min 0.0454 at P=2 (audit 0.0454 at P=2)   VERIFIED; max 2.0446 at P=32 (audit 2.0446 at P=32)   VERIFIED
+
+--- [NEW] THE d2 ZERO CENSUS, ALL 10 FIXTURES, f.laneB (the within-loop structure the audit left unread) ---
+loop-injection-code         d2 zeros 23 (supported 23) lags [2, 4, 5, 6, 8, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 25, 26, 32, 33, 34, 35, 36]  triples [46, 42, 36, 41, 49, 40, 38, 33, 34, 35, 40, 42, 44, 40, 37, 32, 28, 33, 28, 30, 29, 27, 33]
+loop-injection-prose        d2 zeros  0 (supported  0) lags []  triples []
+loop-seeded-affirm          d2 zeros  0 (supported  0) lags []  triples []
+loop-seeded-chant           d2 zeros  1 (supported  1) lags [19]  triples [22]
+loop-seeded-code-line       d2 zeros  0 (supported  0) lags []  triples []
+loop-seeded-countdown       d2 zeros  2 (supported  2) lags [26, 33]  triples [20, 12]
+loop-seeded-counter         d2 zeros  0 (supported  0) lags []  triples []
+loop-seeded-cycle           d2 zeros  0 (supported  0) lags []  triples []
+loop-seeded-json            d2 zeros 11 (supported 11) lags [11, 14, 15, 20, 22, 25, 26, 27, 28, 29, 30]  triples [36, 25, 23, 29, 26, 16, 19, 30, 24, 35, 34]
+mask-reserved-stubborn      d2 zeros  0 (supported  0) lags []  triples []
+
+--- [S4B] THE RAMP CLAIMS (R = 1 - med_early/med_late, early {2,3,4}, late {28..36}) ---
+loop-seeded-countdown       E.laneB: R receipt 0.6736 (audit 0.6758)   MISMATCH
+loop-seeded-countdown       E.unmasked: R receipt 0.6964 (audit 0.7023)   MISMATCH
+loop-seeded-code-line       f.laneB: R receipt 0.8067 (audit 0.8067)   VERIFIED
+loop-seeded-code-line       E.laneB: R receipt 0.5814 (audit 0.5814)   VERIFIED
+
+--- [NEW] THE RAMP, ALL 10 FIXTURES, E.laneB and f.laneB (the within-loop ordering the flood question rides on) ---
+loop-injection-code         R(E.laneB) 0.5169  R(f.laneB) 1.0000  D_joint 7.9898 <== REGIME-C
+loop-injection-prose        R(E.laneB) 0.6725  R(f.laneB) -0.4769 D_joint 8.5076 
+loop-seeded-affirm          R(E.laneB) 0.7302  R(f.laneB) 0.5003  D_joint 6.8438 
+loop-seeded-chant           R(E.laneB) 0.6216  R(f.laneB) 0.3085  D_joint 7.9131 
+loop-seeded-code-line       R(E.laneB) 0.5814  R(f.laneB) 0.8067  D_joint 1.3814 <== REGIME-C
+loop-seeded-countdown       R(E.laneB) 0.6736  R(f.laneB) 0.5449  D_joint 0.4595 <== REGIME-C
+loop-seeded-counter         R(E.laneB) 0.5949  R(f.laneB) 0.2648  D_joint 6.3529 
+loop-seeded-cycle           R(E.laneB) 0.5838  R(f.laneB) 0.5211  D_joint 5.7306 
+loop-seeded-json            R(E.laneB) 0.4805  R(f.laneB) -1.5424 D_joint 3.4927 <== REGIME-C
+mask-reserved-stubborn      R(E.laneB) 0.8623  R(f.laneB) 0.6836  D_joint 4.1775 
+
+--- [S4B] THE KAPPA CLAIMS (lane A reference) ---
+cal reference A.E: mean 0.4522 sd 0.1005 n 186 (audit 0.4522 +/- 0.1005)   VERIFIED
+loop-seeded-countdown       kappa_E 0.4849 (audit 0.4849)   VERIFIED -> z_A-E 0.3258 (audit 0.3258)   VERIFIED
+loop-seeded-code-line       kappa_E 0.5910 (audit 0.5910)   VERIFIED -> z_A-E 1.3814 (audit 1.3814)   VERIFIED
+
+--- [S1] THE COUPLED-OPERATOR FLAG, ANSWERED FROM THE BANK ---
+the audit's flag is LEGITIMATE and already half-receipted in the house's own bytes:
+  the item-484 projection family held the held side untouched AND the level fixed at its run value (countdown lifted to just-clear AT t_joint 3.7618) -- a conditional projection, named as a projection, never a receipt;
+  the CODE-V5 run receipts the coupling empirically: t_joint 3.4693 -> 3.7618 (+0.2926) while json lifted only +0.1534 -- the clean tail rode 1.91x faster than the fixture, and the raw gap MOVED DOWN 1.7108 -> 1.6863 even as a loop fixture lifted;
+  so the honest bound is: 2.1269 is the FIXED-LEVEL value of converting countdown; any conversion delivered by a new face rides the same level-vs-fixture race the S face lost, and the realized post-conversion gap is BELOW 2.1269 by the size of the level move -- the V6 sheet's own level-vs-fixture ledger existed to receipt exactly this, and any fresh sheet carries it;
+  one correction to the audit's framing: the assumption was never unstated -- item 484 pinned the projections as projections and the sheet pinned the ledger -- but the flag's arithmetic is right and the bound binds.
+
+--- THE CORPUS HALF, NAMED HONESTLY ---
+the receipt carries d2/triples curves for THE TEN FIXTURES ONLY (the tool's doc_d2_census runs on fixtures; doc_rows carry composite reads, never per-doc curves) -- so BOTH candidate families' flood questions (clean-doc d2 zeros; clean-doc ramp) are NOT answerable from any banked bytes;
+the within-loop tables above answer what CAN be answered offline: the ordering question -- whether the candidate statistic even separates the misses from the detected inside the loop population before the corpus is ever consulted.

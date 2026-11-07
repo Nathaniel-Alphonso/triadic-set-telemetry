@@ -1,0 +1,24 @@
+=== PARITY-ONLY MODE (the receipt-side gates; no caches read) ===
+[G1] the P-B4 fixture table (the item-488 bank) reproduced from the receipt's own fixture curves
+  loop-seeded-countdown       refined 0.368124 vs banked 0.368124 OK OK
+  loop-injection-code         refined 0.321772 vs banked 0.321772 OK OK
+  mask-reserved-stubborn      refined 0.299363 vs banked 0.299363 OK OK
+  loop-seeded-chant           refined 0.258515 vs banked 0.258515 OK OK
+  loop-injection-prose        refined 0.252647 vs banked 0.252647 OK OK
+  loop-seeded-cycle           refined 0.212269 vs banked 0.212269 OK OK
+  loop-seeded-counter         refined 0.141779 vs banked 0.141779 OK OK
+  loop-seeded-affirm          refined 0.127843 vs banked 0.127843 OK OK
+  loop-seeded-json            refined 0.057367 vs banked 0.057367 OK OK
+  loop-seeded-code-line       refined 0.036616 vs banked 0.036616 OK OK
+[G2] the gap and the level re-derived from doc_rows + loop_census (the dropped rows excluded, the receipt's own convention)
+  gap recomputed 1.6862617412521999 vs the receipt's raw gap 1.6862617412521999  OK
+  t_joint recomputed 3.7618410048243147 vs the receipt's t_joint 3.7618410048243147  OK
+[G3] the null projection: zero lift -> k 7, lifted [], demoted [] (must be empty)
+  OK (zero lift preserves the run-of-record exactly)
+[G4] the P-A1 fixture d2 zero-run census (support: triples >= 8, runs >= 2, isolated never count; the draft constant's injection-code 20 corrected against the receipt bytes -- 21 in runs, 23 supported zeros, the item-470 off-by-one genre named before publish)
+  loop-injection-code         m_d2 21 vs banked 21 OK (supported zero lags [2, 4, 5, 6, 8, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 25, 26, 32, 33, 34, 35, 36])
+  loop-seeded-chant           m_d2 0 vs banked 0 OK (supported zero lags [19])
+  loop-seeded-code-line       m_d2 0 vs banked 0 OK (supported zero lags [])
+  loop-seeded-countdown       m_d2 0 vs banked 0 OK (supported zero lags [26, 33])
+  loop-seeded-json            m_d2 8 vs banked 8 OK (supported zero lags [11, 14, 15, 20, 22, 25, 26, 27, 28, 29, 30])
+PARITY-ONLY MODE COMPLETE: the four gates hold; the full mode (his Mac, the pinned caches) runs the corpus half on the same bytes.
