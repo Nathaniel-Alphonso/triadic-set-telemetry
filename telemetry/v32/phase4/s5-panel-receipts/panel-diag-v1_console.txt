@@ -1,0 +1,52 @@
+TRIADIC PANEL DIAGNOSTIC OF RECORD (read-only, zero GPU, zero decodes)
+  governing sheet: theta8b-panel-diagnostic-preregistration.md (sha256 ba8b98baf4ef4556...)
+  lineage: the initial diagnostic of record -- tool (sha256 2907b3d55c324b63...), its run export (sha256 f8a852df6a606839...); the restoration-hook diagnostic of record -- tool (sha256 976702913e5d2843...), its run export (sha256 107ca8014b3bfc58...)
+  law: measure, never fit -- no level-set, no entry named, no verdict label; the three verdict-shaped constructions ride as inputs, constructible only at S8; GATE B applied at the reading, never here; findings presented, never adjudicated; the owner's stamps decide.
+  [load] triadic_t2_cache_rw17-math-fresh-8b_bfloat16_bos.jsonl (sha256 11004cd11cd70b1b...): 1010 records (+0 empty-form)
+  [load] triadic_t2_cache_rw17-code-fresh-8b_bfloat16_bos.jsonl (sha256 69eadf05da47fe22...): 410 records (+0 empty-form)
+  [load] triadic_t2_cache_rw17-prose-fresh-8b_bfloat16_bos.jsonl (sha256 10791704bb8fe077...): 630 records (+0 empty-form)
+  [load] triadic_t2_cache_rw17-p2-fresh-8b_bfloat16_bos.jsonl (sha256 426459930ad726d7...): 760 records (+0 empty-form)
+
+  [gsmrw17]
+    R12 trip classer_onset: cal 3/500 / held 0/500 / fixtures 8/10
+    R12 trip band_first8: cal 0/500 / held 0/500 / fixtures 0/10
+    R12 trip z_first_window: cal 45/500 / held 61/500 / fixtures 5/10
+    R13 prefix_window_mean: corpus exits 945
+    R13 early_surface_onset: corpus exits 1
+    R13 early_window_z: corpus exits 892
+    R14 concordance (both/state-only/surface-only/neither): cal 0/0/3/497, held 0/0/0/500
+    R5 anchor: 10/10 exact matches this leg
+
+  [mbpprw17]
+    R12 trip classer_onset: cal 76/200 / held 61/200 / fixtures 8/10
+    R12 trip band_first8: cal 1/200 / held 2/200 / fixtures 0/10
+    R12 trip z_first_window: cal 2/200 / held 2/200 / fixtures 1/10
+    R13 prefix_window_mean: corpus exits 328
+    R13 early_surface_onset: corpus exits 19
+    R13 early_window_z: corpus exits 277
+    R14 concordance (both/state-only/surface-only/neither): cal 40/0/36/124, held 21/0/40/139
+    R5 anchor: 10/10 exact matches this leg
+
+  [prose17p-rw17]
+    R12 trip classer_onset: cal 28/310 / held 24/310 / fixtures 8/10
+    R12 trip band_first8: cal 28/310 / held 22/310 / fixtures 0/10
+    R12 trip z_first_window: cal 0/310 / held 0/310 / fixtures 0/10
+    R13 prefix_window_mean: corpus exits 220
+    R13 early_surface_onset: corpus exits 0
+    R13 early_window_z: corpus exits 271
+    R14 concordance (both/state-only/surface-only/neither): cal 26/0/2/282, held 21/0/3/286
+    R5 anchor: 10/10 exact matches this leg
+
+  [p2corpus-rw17]
+    R12 trip classer_onset: cal 13/375 / held 26/375 / fixtures 8/10
+    R12 trip band_first8: cal 59/375 / held 58/375 / fixtures 0/10
+    R12 trip z_first_window: cal 1/375 / held 1/375 / fixtures 0/10
+    R13 prefix_window_mean: corpus exits 250
+    R13 early_surface_onset: corpus exits 3
+    R13 early_window_z: corpus exits 236
+    R14 concordance (both/state-only/surface-only/neither): cal 7/0/6/362, held 20/0/6/349
+    R5 anchor: 10/10 exact matches this leg
+
+  export written: panel-diag-v1_export.json
+  anchor: 40/40 exact matches (R5)
+  read-only law honored: caches opened 'r' only; the single write is this export.
