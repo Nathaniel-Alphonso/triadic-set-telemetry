@@ -7,7 +7,7 @@ via an additive fixture-mode wrapper: p2_oracle is imported VERBATIM and
 called per fixture -- ZERO oracle-logic change (the v33.0.1/parity
 precedent).
 
-Executes the OWNER-STAMPED prose-* fixture-family pre-registration
+Executes my STAMPED prose-* fixture-family pre-registration
 (ledger item 172: scope (a) the P2 catch-class census; sizing prose-M 96;
 PP5 branch (a) as-is boundary census; register balanced raw/chat; the RW-9
 loud/subtle rider pre-registered; RW-5 perturbations OFF per item 170).

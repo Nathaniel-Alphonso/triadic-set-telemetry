@@ -11,7 +11,7 @@ fail-loud hard exit is fired loudly in a fixture and named.
 The honest boundary (B6-class): no decode executes here; the decode
 path (the drain call site, the EOS@step-0 law, the frame-count
 assertion, the eager-memory line) is NOT run-validated until the
-owner's smoke run.
+my smoke run.
 
 theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or
 adjudicated; the instrument prints no verdicts.
@@ -697,7 +697,7 @@ def main():
     print("  honest boundary (B6-class): the decode path (drain "
           "call site, EOS@step-0 at decode, frame-count assertion, "
           "eager-memory line) is NOT run-validated here -- "
-          "nothing executes until the owner's smoke run.")
+          "nothing executes until my smoke run.")
     return 1 if FAIL else 0
 
 

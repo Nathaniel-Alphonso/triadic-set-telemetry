@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """rw17_math_builder_fresh3_acceptance_run.py -- the acceptance suite for
-build_rw17_math_corpus_fresh3.py (the OWNER-STAMPED fresh3 math build spec,
+build_rw17_math_corpus_fresh3.py (my STAMPED fresh3 math build spec,
 ledger item 263(e)(1), stamped at item 266). Every check is an INDEPENDENT
 recomputation or a hard-exit probe -- never a call into the builder's own
 selection code (except the builder runs themselves, whose outputs are then
@@ -201,7 +201,7 @@ def main():
     shutil.rmtree(tmp, ignore_errors=True)
     print()
     print("MATH FRESH3 BUILDER ACCEPTANCE: %d PASS / %d FAIL" % (PASS, FAIL))
-    print("(fixture-mode lane; the REAL build runs owner-side per the stamped "
+    print("(fixture-mode lane; the REAL build runs on my side per the stamped "
           "spec; its console + manifest get receipt-verified on upload)")
     print("(fixture manifest sha256: %s)" % sha_a)
     sys.exit(0 if FAIL == 0 else 1)

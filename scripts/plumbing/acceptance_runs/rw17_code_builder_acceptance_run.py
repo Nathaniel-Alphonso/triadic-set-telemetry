@@ -164,7 +164,7 @@ def main():
     shutil.rmtree(tmp, ignore_errors=True)
     print()
     print("CODE BUILDER ACCEPTANCE: %d PASS / %d FAIL" % (PASS, FAIL))
-    print("(fixture-mode lane; the REAL build runs owner-side per the "
+    print("(fixture-mode lane; the REAL build runs on my side per the "
           "pinned spec; its console + manifest get receipt-verified on "
           "upload)")
     print("(fixture manifest sha256: %s)" % sha1)

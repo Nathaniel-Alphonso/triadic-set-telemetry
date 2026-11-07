@@ -5,8 +5,8 @@ BANKED 17-A runtime instrument of record (triadic_gate17a_runtime.py,
 the item-127 build) offline: zero-GPU, zero model, char-by-char feed
 plus a chunk-boundary independence pass per fixture.
 
-Executes the OWNER-STAMPED arith-* fixture-family pre-registration
-(readings R-F1..R-F7 present; never adjudicated — the owner's stamps
+Executes my STAMPED arith-* fixture-family pre-registration
+(readings R-F1..R-F7 present; never adjudicated — my stamps
 decide). Findings presented, not adjudicated. No thresholds.
 """
 import json
@@ -235,7 +235,7 @@ def main():
             "convention_II_truncation_genuine_banked_natural_analog": conv2,
             "convention_III_gate5_branchA_both_legal": conv3,
             "as_is_bounds_of_record": {"raw": 0.902, "chat": 0.947},
-            "note": "the suite deliberately concentrates the two display-convention classes (12/60 fires vs the natural ~10%); the gate-3 comparison is decided by the owner's Gate-5 stamps",
+            "note": "the suite deliberately concentrates the two display-convention classes (12/60 fires vs the natural ~10%); the gate-3 comparison is decided by my Gate-5 stamps",
         },
         "M-F3_rw9_loud_subtle_parity": {
             "loud_rows": len(loud),
@@ -314,7 +314,7 @@ def main():
     t.say("SHA-256 %s" % sha256_file(EXPORT_PATH))
     t.say("console: triadic_arith_acceptance_console.txt  %d bytes" % os.path.getsize(CONSOLE_PATH))
     t.say("SHA-256 %s" % sha256_file(CONSOLE_PATH))
-    t.say("READINGS PRESENTED, NEVER ADJUDICATED — the owner's stamps decide (R-F1..R-F7).")
+    t.say("READINGS PRESENTED, NEVER ADJUDICATED — my stamps decide (R-F1..R-F7).")
     t.f.close()
 
 

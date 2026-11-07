@@ -19,7 +19,7 @@
 #
 # theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or
 # adjudicated; findings presented, never adjudicated -- the
-# owner's stamps decide.
+# my stamps decide.
 # ============================================================
 import hashlib
 import json
@@ -66,7 +66,7 @@ SCHEMA = {"gsmrw17": "gsm8k-rw17-v1", "mbpprw17": "mbpp-rw17-v1",
 N_LAYERS = 16
 
 # the loop fixtures riding EVERY control cache (the real-bytes law
-# the owner's first REAL run caught: the same loop fixtures ride
+# my first REAL run caught: the same loop fixtures ride
 # every fresh1 cache, byte-identical within the set -- the control
 # world carries its OWN fixture set, 3 fixtures, byte-identical
 # across all four of its caches)

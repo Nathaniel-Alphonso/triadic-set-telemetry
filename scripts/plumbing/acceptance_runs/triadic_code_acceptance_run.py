@@ -6,7 +6,7 @@ code-M) through the BANKED 17-C offline-pass instrument of record
 additive fixture-mode wrapper: process_doc is imported verbatim and called
 per fixture -- ZERO oracle-logic change (the v33.0.1/parity precedent).
 
-Executes the OWNER-STAMPED code-* fixture-family pre-registration
+Executes my STAMPED code-* fixture-family pre-registration
 (ledger item 166: sizing code-M; meter budget p99x1.5 = 3,910,116; RW-5
 paraphrase axis OFF; P6 branch (a) as-is boundary census). Offline,
 zero-GPU, zero model. Readings R-K1..R-K7 and meters M-K1..M-K6 are
@@ -36,7 +36,7 @@ PIN_SUITE_SHA256 = ("779e92b11cef374534eb9475eb07cc9835724389ed5115441"
                     "7e97edf7b5c348b")
 PIN_INSTRUMENT_SHA256 = ("439c892a5b1a27a7ed1b5f7dd2d9a4e99c9c57d072e"
                          "1b14fc0a18f3ecd8efc5e")
-BUDGET_STAMPED = 3910116   # p99 x 1.5 -- the owner's R-K6 stamp (item 166)
+BUDGET_STAMPED = 3910116   # p99 x 1.5 -- my R-K6 stamp (item 166)
 POSITIVE_CLASSES = ("P1", "P2", "P3", "P4", "P5")
 CONTROL_CLASSES = ("N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8")
 

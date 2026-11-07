@@ -373,7 +373,7 @@ def main():
 
         unfired = list(range(10, 25))
         expect_sample = sorted(random.Random(20261013).sample(unfired, 10))
-        check("F4a 15 unactuated degenerate -> exactly 10 owner-sample docs, seeded",
+        check("F4a 15 unactuated degenerate -> exactly 10 sampled docs, seeded",
               ml["detector_misses"]["n_unfired_degenerate"] == 15
               and ml["detector_misses"]["owner_confirmation_sample_ids"]
               == expect_sample)

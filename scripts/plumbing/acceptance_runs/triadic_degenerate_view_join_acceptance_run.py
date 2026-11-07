@@ -5,7 +5,7 @@
 # lane; ledger item 389's battery). THE KNOWN-ANSWER PATTERN
 # of record (the 255/319/326/334/339/345/349/354/362/368/375
 # battery law): a CRAFTED mini world shaped exactly like the
-# owner-side as-sized item-375 export, an INDEPENDENT
+# my-side as-sized item-375 export, an INDEPENDENT
 # world-builder that computes every aggregate from the
 # primitives its own way, the tool run in --fixture-mode (the
 # banked anchors ECHO, never enforce -- the structural
@@ -16,7 +16,7 @@
 # Zero GPU; zero decodes; DEVELOPMENT DATA ONLY; RECEIPTS
 # ONLY; no weighted sums; no new fit; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved
 # (D-theta); findings presented, never adjudicated -- the
-# owner's stamps decide.
+# my stamps decide.
 # ============================================================
 import copy
 import importlib.util
@@ -200,7 +200,7 @@ def doc_by(did):
 def build_world():
     """THE INDEPENDENT WORLD-BUILDER: computes every aggregate
     from the primitives its own way, then emits a crafted export
-    shaped exactly like the owner-side as-sized item-375 export.
+    shaped exactly like the my-side as-sized item-375 export.
     The tool's derivation must agree with THIS builder's
     numbers field-for-field -- two code paths."""
     per = {}
@@ -630,7 +630,7 @@ def main():
     print("  the CC fork of record pinned: " + TOOLMOD.CC_FORK_NAME)
     print("  RECEIPTS ONLY; no weighted sums; no new fit; theta")
     print("  [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); DEVELOPMENT DATA ONLY;")
-    print("  findings presented, never adjudicated -- the owner's")
+    print("  findings presented, never adjudicated -- my")
     print("  stamps decide.")
 
     # (0) the compile gates
@@ -996,8 +996,8 @@ def main():
           and all(a["status"].startswith("ECHO")
                   for a in j1["regression_anchors"]))
 
-    # (5b) THE BANKED PIN-TABLE STRUCTURAL LINT -- the owner-
-    # side dies of record (a None in a count position; a
+    # (5b) THE BANKED PIN-TABLE STRUCTURAL LINT -- my-side
+    # dies of record (a None in a count position; a
     # wrong-shape tuple) proved the pin table is the one
     # artifact fixture mode CANNOT value-test (it ECHOes,
     # never enforces); this lint enforces the table's own
@@ -1112,7 +1112,7 @@ def main():
                  "per_doc_annotations"),
              "MISSING-BLOCK")
     # the amend_development vehicle: the raw tiers A-H ride
-    # there (the owner-side Section H die of record is covered
+    # there (my-side Section H die of record is covered
     # by these two guards)
     negative("missing-amend-development-block",
              lambda w: w.pop("amend_development"),
@@ -1263,7 +1263,7 @@ def main():
     if FAIL:
         print("  THE BATTERY IS RED -- the build never ships "
               "on a red battery; every failure disclosed "
-              "honestly; the owner's stamps decide.")
+              "honestly; my stamps decide.")
         return 1
     print("  THE BATTERY IS GREEN -- every guard proven "
           "die-loud by name; the join reproduces the crafted")
@@ -1272,7 +1272,7 @@ def main():
           "byte-")
     print("  identical; DEVELOPMENT DATA ONLY; never a run of "
           "record; never adjudicated; findings presented,")
-    print("  never adjudicated -- the owner's stamps decide.")
+    print("  never adjudicated -- my stamps decide.")
     return 0
 
 

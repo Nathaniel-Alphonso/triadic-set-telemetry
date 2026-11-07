@@ -72,12 +72,12 @@ sits behind the SS4 SHA-pin enforcement (reaching it requires
 caches whose bytes hash to the pinned SHAs -- impossible
 synthetically); the fixture-mode ECHO path is what F5 tests, and
 the real-mode SHA-pin exit itself IS tested (F5). The real-mode
-census exit fires owner-side on any wrong-bytes cache that passes
+census exit fires my-side on any wrong-bytes cache that passes
 the SHA pins -- which is to say: it cannot fire, by design; the
 SHA pins are the outer wall.
 
 theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or
-adjudicated; findings presented, never adjudicated -- the owner's
+adjudicated; findings presented, never adjudicated -- my
 stamps decide.
 """
 
@@ -321,7 +321,7 @@ R_ARMED = {"gsmrw17": ("C", "F"), "mbpprw17": ("F",),
            "prose17p-rw17": ("C", "F"), "p2corpus-rw17": ("C", "F")}
 
 MODE_TYPE = ("ADJUDICATION READOUT OF RECORD -- PRESENTED, NEVER "
-             "ADJUDICATED; THE OWNER'S STAMPS DECIDE")
+             "ADJUDICATED; MY STAMPS DECIDE")
 CENSUS_REASON = "empty generation, EOS@step0 (measured at readout)"
 LEVEL_SET_NOTE = ("the level-set rule controls the calibration half's "
                   "own combined count BY CONSTRUCTION; a violation is "
@@ -574,7 +574,7 @@ def r_verdict_typing(gap, n_pos, n_neg):
         if gap < 2.0 + R_JITTER_BAND:
             why += (" -- NEAR-BAR: the margin sits inside the width "
                     "of the banked +/-0.01-0.02-sigma reproducibility "
-                    "floor; flagged for the owner's eyes")
+                    "floor; flagged for my eyes")
         return ("PASS_2SIGMA", why)
     if gap >= 2.0 - R_JITTER_BAND:
         return ("INCONCLUSIVE-FROM-JITTER",
@@ -640,7 +640,7 @@ def r_forensics(leg, pos_views, neg_views, typing, gap, fires, t_leg):
             "pre-registration's own step (R16-D2's binding operating "
             "alpha decides there; the sheet SS3.6); nothing wires "
             "here",
-            "a per-leg scoping claim (if any) is the owner's to stamp "
+            "a per-leg scoping claim (if any) is my to stamp "
             "under the D-FW3 environment-scoped adoption clause",
             "the jitter clause reads only below-bar near-misses "
             "INCONCLUSIVE-FROM-JITTER; above-bar margins inside the "
@@ -1047,7 +1047,7 @@ FIXED_TOP = {'census_law': {'expected_census_note': 'the item-254 receipt-verifi
                                 'beta-recurrence attribution (recurred / '
                                 'deepened / vanished) happen at the '
                                 'reading, never inside this tool',
- 'prereg': 'rw17-fresh-corpus-preregistration.md (owner-pinned, ledger '
+ 'prereg': 'rw17-fresh-corpus-preregistration.md (pinned by me, ledger '
            'item 241; sheet SHA-256 '
            '64f87bc01906ee6f5a50d38c2b09c09aa9f089f14803cfae9e8a07dd0af74075; '
            'the five element stamps ledger item 237)',
@@ -1103,7 +1103,7 @@ FIXED_CAVEATS = {'development_data_disclosure': 'the candidate pair (item-215) a
                       'sheet SS1.8): EOS@step0 docs censused AT READOUT, '
                       'measured never named, every receipt carried; the '
                       '35-doc named class is banked history'}
-FIXED_PCV_NOTE = ("presented, never adjudicated; the owner's stamps decide; theta wiring is "
+FIXED_PCV_NOTE = ("presented, never adjudicated; my stamps decide; theta wiring is "
  'its own pre-registration (theta [REDACTED_PER_PUBLICATION_POLICY] unmoved, D-theta); the D-FW6 '
  'second stage follows per its own sequencing')
 
@@ -1965,7 +1965,7 @@ def main():
     print("\n  Fix-the-fixture-or-the-builder, never the tool's record.")
     print("  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved,")
     print("  or adjudicated; findings presented, never adjudicated --")
-    print("  the owner's stamps decide.")
+    print("  my stamps decide.")
     sys.exit(0 if n_fail == 0 else 1)
 
 

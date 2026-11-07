@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # triadic_exitverdict_acceptance_run.py — the exit-verdict annotator's acceptance run driver.
-# Version 1.0.1 (the margins-join acceptance; ledger item 187, owner-stamped build).  Executes
+# Version 1.0.1 (the margins-join acceptance; ledger item 187, my stamped build).  Executes
 # the item-182-stamped acceptance design + the item-187 typed band bindings: the annotator
 # replays over the four lane families' banked exports + the item-186 band-input lane; the
 # HAND-AUTHORED fixtures (written BEFORE this run) must match the instrument's outputs exactly
@@ -180,7 +180,7 @@ def main(kdir, outdir):
     say("    R-EV2 determinism (two runs byte-identical):         {}".format("PASS" if determinism else "FAIL"))
     say("    R-EV3 no-touch (every input byte-unchanged):         {}".format("PASS" if untouched else "FAIL"))
     all_pass = v_runs_clean and determinism and untouched
-    say("    ACCEPTANCE: {}".format("ALL THREE PASS — the readings await the owner's stamps" if all_pass else "FAIL — adjudicate for cause"))
+    say("    ACCEPTANCE: {}".format("ALL THREE PASS — the readings await my stamps" if all_pass else "FAIL — adjudicate for cause"))
     say("    θ [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-θ); no thresholds set, moved, or adjudicated; the band is a")
     say("    banked cited census number; findings presented, never adjudicated.")
 

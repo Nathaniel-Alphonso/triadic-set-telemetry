@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """rw17_readout_v2_acceptance_run.py -- THE ACCEPTANCE RUN for
 triadic_rw17_readout_v2.py (THE READOUT AMENDMENT V2 OF RECORD: the
-owner-stamped specificity refinement OPTION A -- the persistence-
+my stamped specificity refinement OPTION A -- the persistence-
 gated Side C, K=4; the stamped refinement sheet
 rw17-specificity-refinement-preregistration.md, SHA-256
 c03dffed4ca13210ee5df7c7c27f9b065abfd128be7311b4fb6948e413d36c29,
-owner-stamped ledger item 260; the item-255 acceptance pattern).
+stamped by me at ledger item 260; the item-255 acceptance pattern).
 
 THE LAW THIS RUNNER ENFORCES (the item-255 pattern, unchanged): every
 family drives the REAL v2 TOOL through its own CLI and compares EXACT
@@ -55,7 +55,7 @@ THE FAMILIES:
 Zero-GPU; no label joins; the loop fixtures byte-identical within
 every world (the item-213 Stamp-2 law, inherited). theta [REDACTED_PER_PUBLICATION_POLICY]
 unmoved (D-theta); no thresholds set, moved, or adjudicated; findings
-presented, never adjudicated -- the owner's stamps decide.
+presented, never adjudicated -- my stamps decide.
 """
 
 import json
@@ -79,16 +79,16 @@ R_ARMED = A1.R_ARMED
 BAND_KEY = f"{A1.R_SEC_BAND_FACTOR:.2f}"
 
 V2_MODE_TYPE = ("ADJUDICATION READOUT AMENDMENT V2 OF RECORD (THE "
-                "SPECIFICITY REFINEMENT, OWNER-STAMPED OPTION A: THE "
+                "SPECIFICITY REFINEMENT, MY-STAMPED OPTION A: THE "
                 "PERSISTENCE-GATED SIDE C, K=4) -- PRESENTED, NEVER "
-                "ADJUDICATED; THE OWNER'S STAMPS DECIDE")
+                "ADJUDICATED; MY STAMPS DECIDE")
 
 # the v2-only fixed blocks (transcribed from the v2 tool's pinned
 # bytes; any divergence FAILS the tree compare loudly -- the runner
 # is fixed runner-side, never the tool)
 FIXED_REFINEMENT_V2 = {
     "option": ("OPTION A -- THE PERSISTENCE-GATED SIDE C (the "
-               "owner-stamped refinement sheet, ledger item 260)"),
+               "my stamped refinement sheet, ledger item 260)"),
     "refinement_sheet_sha256": REFINEMENT_SHA,
     "k_gate": K_GATE,
     "gate_law": ("Side C contributes to D only when N_band(0.90) >= "
@@ -126,7 +126,7 @@ FIXED_GATE_CENSUS_LAW = (
     "never hidden")
 V2_CAVEATS = dict(A1.FIXED_CAVEATS)
 V2_CAVEATS["refinement_disclosure"] = (
-    "the refinement (the owner-stamped Option A: the "
+    "the refinement (my stamped Option A: the "
     "persistence-gated Side C, K=4) pins from PRIOR data only (the "
     "item-243/257 anchors); the fresh corpora thereby become "
     "DEVELOPMENT DATA for the refinement; its own adjudication is "
@@ -136,7 +136,7 @@ V2_CAVEATS["refinement_disclosure"] = (
 V2_PREREG = (A1.FIXED_TOP["prereg"]
              + " + THE REFINEMENT SHEET "
                "rw17-specificity-refinement-preregistration.md "
-               "(owner-stamped OPTION A at ledger item 260; sheet "
+               "(stamped by me OPTION A at ledger item 260; sheet "
                f"SHA-256 {REFINEMENT_SHA})")
 
 
@@ -1092,7 +1092,7 @@ def main():
     print("=== THE RW-17 READOUT AMENDMENT V2 ACCEPTANCE RUN (the "
           "item-255 pattern) ===")
     print("  tool under test: triadic_rw17_readout_v2.py")
-    print("  (the owner-stamped specificity refinement OPTION A -- "
+    print("  (my stamped specificity refinement OPTION A -- "
           "the")
     print("   persistence-gated Side C, K=4; the stamped sheet")
     print(f"   rw17-specificity-refinement-preregistration.md, "
@@ -1148,7 +1148,7 @@ def main():
           "moved,")
     print("  or adjudicated; findings presented, never adjudicated "
           "--")
-    print("  the owner's stamps decide.")
+    print("  my stamps decide.")
     sys.exit(0 if n_fail == 0 else 1)
 
 

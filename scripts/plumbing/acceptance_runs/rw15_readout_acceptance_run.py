@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """rw15_readout_acceptance_run.py -- the zero-GPU acceptance run for
-triadic_rw15_readout.py (the owner-stamped one-sheet pre-reg's §6).
+triadic_rw15_readout.py (my stamped one-sheet pre-reg's §6).
 
 Builds the synthetic-cache fixtures DETERMINISTICALLY (hand-authored
 shapes, zero randomness -- every value an arithmetic sequence), then

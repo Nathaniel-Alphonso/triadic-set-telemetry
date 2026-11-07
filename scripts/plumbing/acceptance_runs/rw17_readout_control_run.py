@@ -16,7 +16,7 @@ THE CONTROL INPUTS (banked bytes, SHA-pinned below):
     INCONCLUSIVE-POPULATION-GUARD null leg (n_pos = 0). NO real p2
     smoke cache was uploaded to the library -- an OPEN RECEIPT named
     here and in the ledger: the p2 leg's real-bytes control rides the
-    OWNER-SIDE single adjudication command on the four full caches of
+    MY-SIDE single adjudication command on the four full caches of
     record (the SS4 pins enforce the real bytes there).
 
 THE RECEIPTS THIS CONTROL PINS:
@@ -48,7 +48,7 @@ THE RECEIPTS THIS CONTROL PINS:
 
 Zero-GPU, read-only, no label joins. Fix-the-fixture-or-the-builder,
 never the tool's record. theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings
-presented, never adjudicated -- the owner's stamps decide.
+presented, never adjudicated -- my stamps decide.
 """
 
 import hashlib
@@ -134,7 +134,7 @@ def main():
     print("  + one synthetic p2corpus-rw17 filler (no real p2 smoke "
           "uploaded --")
     print("    an OPEN RECEIPT; the p2 leg's real control rides the "
-          "owner-side")
+          "my-side")
     print("    single adjudication command on the full caches of "
           "record).")
     print("  LAW: every exported quantity EXACT vs the banked "
@@ -294,7 +294,7 @@ def finish():
           "record.")
     print("  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings presented, "
           "never")
-    print("  adjudicated -- the owner's stamps decide.")
+    print("  adjudicated -- my stamps decide.")
     sys.exit(0 if n_fail == 0 else 1)
 
 

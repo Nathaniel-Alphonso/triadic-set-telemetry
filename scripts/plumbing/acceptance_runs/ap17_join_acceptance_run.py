@@ -12,7 +12,7 @@
 # every population doc-for-doc from the raw inputs.
 #
 # The acceptance NEVER touches real bytes: the export, the
-# manifest and the caches of record live owner-side; every world
+# manifest and the caches of record live my-side; every world
 # here is synthetic, fixture mode (pins echoed, never enforced)
 # except the dedicated REAL-mode pin-guard lane (module-patched
 # pins -- the guards fire on mutated synthetic bytes, the real
@@ -20,7 +20,7 @@
 #
 # theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or
 # adjudicated; findings presented, never adjudicated -- the
-# owner's stamps decide.
+# my stamps decide.
 # ============================================================
 import hashlib
 import importlib.util
@@ -289,7 +289,7 @@ def build_world(d, mutate=None):
             clines.append(json.dumps({"empty": True,
                                       "key": "gsmrw17:999"},
                                      sort_keys=True))
-        # the loop-fixture records (the REAL-BYTES LAW the owner's
+        # the loop-fixture records (the REAL-BYTES LAW my
         # first REAL run caught: the same loop fixtures ride EVERY
         # fresh1 cache, byte-identical across the set -- the
         # item-213 receipt; streamed past, exempt by name)
@@ -1236,7 +1236,7 @@ def main():
           and ro["map1_parity"]["n_exempt_loop_fixtures"] == 2)
     check("F12e the laws block: the standing close line + both "
           "amendments of record carried",
-          "owner's stamps decide" in ro["laws"]["standing"]
+          "my stamps decide" in ro["laws"]["standing"]
           and len(ro["laws"]["amendments"]) == 2
           and "fresh1" in ro["laws"]["amendments"][1])
 

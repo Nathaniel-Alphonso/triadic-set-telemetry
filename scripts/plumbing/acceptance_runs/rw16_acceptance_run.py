@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """rw16_acceptance_run.py -- the zero-GPU acceptance run for
-triadic_rw16_ensemble_readout.py (the owner-stamped RW-16 one-sheet
+triadic_rw16_ensemble_readout.py (my stamped RW-16 one-sheet
 pre-reg's sec. 5 acceptance; sheet SHA-256 6f3af50ecc6dd8a5a7dac647bb
 954e5f471c55123c182208dfdf0d4c46ef4ef8, stamped ledger item 221;
 R16-D1(a) item 220; R16-D2 two-stage alpha item 221).
@@ -40,7 +40,7 @@ against each and asserts the pre-registered expectations:
       1.99 -> INCONCLUSIVE-FROM-JITTER; the candidate-level jitter
       typing.
 
-  DOC-SPLIT AMENDMENT FAMILIES (ledger item 229, the owner-stamped
+  DOC-SPLIT AMENDMENT FAMILIES (ledger item 229, my stamped
   Option B; additive --doc-split mode on the tool):
 
   F9  the clean four-leg SPLIT run: the four walk caches passed ONCE

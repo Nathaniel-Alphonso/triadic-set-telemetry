@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """rw17_degeneration_census_r2_acceptance_run.py -- the acceptance for the
-r2 census build (the no-thin lane: the owner-side r2 caches read directly;
+r2 census build (the no-thin lane: the r2 caches on my side read directly;
 both legs code+prose per the r2 sheet 5.1/5.2). The item-257 acceptance
 pattern carried: every family drives the tool via its CLI on synthetic
 fixture worlds and compiles an INDEPENDENT recompute, never the tool's own
@@ -228,10 +228,10 @@ def main():
         check("F3b the re-derived accounting line exact (2 - 1 = 1 vs ceil 1)",
               ov["re_derived_corpus_doc_fires"] == 1
               and "never a re-score" in ov["accounting_line"])
-        # F4 the owner-sample rule: 15 unfired degenerate -> exactly 10, seeded
+        # F4 the sample rule: 15 unfired degenerate -> exactly 10, seeded
         unfired = [i for i in range(10, 25)]
         expect_sample = sorted(random.Random(20261013).sample(unfired, 10))
-        check("F4a 15 unfired degenerate -> exactly 10 owner-sample docs, seeded",
+        check("F4a 15 unfired degenerate -> exactly 10 sampled docs, seeded",
               cl["detector_misses"]["n_unfired_degenerate"] == 15
               and cl["detector_misses"]["owner_confirmation_sample_ids"] == expect_sample)
         out2 = os.path.join(root, "census2.json")

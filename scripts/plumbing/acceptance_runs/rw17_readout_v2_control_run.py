@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """rw17_readout_v2_control_run.py -- THE REAL-CACHE CONTROL for
 triadic_rw17_readout_v2.py (the readout amendment v2 of record: the
-owner-stamped specificity refinement, OPTION A -- the persistence-
+my stamped specificity refinement, OPTION A -- the persistence-
 gated Side C, K = 4; the item-255 control precedent, ledger item 263).
 
 THE CONTROL INPUTS (banked bytes, SHA-pinned below):
@@ -11,7 +11,7 @@ THE CONTROL INPUTS (banked bytes, SHA-pinned below):
     p2corpus-rw17 filler (40 thin-style docs, NO loop fixtures --
     the honest INCONCLUSIVE-POPULATION-GUARD null leg; the open
     receipt of item 255 rides unchanged: the p2 leg's real-bytes
-    control is the OWNER-SIDE single adjudication command, where
+    control is my single adjudication command, where
     the SS4 pins enforce the real bytes);
   - the v1 tool triadic_rw17_readout.py (the item-255 build of
     record, NEVER edited -- the parity law) run on the SAME four
@@ -63,7 +63,7 @@ THE RECEIPTS THIS CONTROL PINS:
 Zero-GPU, read-only, no label joins, NEVER a re-score of the
 standing item-256 verdict. Fix-the-fixture-or-the-builder, never
 the tool's record. theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings
-presented, never adjudicated -- the owner's stamps decide.
+presented, never adjudicated -- my stamps decide.
 """
 
 import json
@@ -231,7 +231,7 @@ def main():
     print("    bytes; the item-255 control precedent + the V1<->V2")
     print("    DELTA OF RECORD) ===")
     print("  tool under test: triadic_rw17_readout_v2.py (the")
-    print("    persistence-gated Side C, K = 4 -- owner-stamped")
+    print("    persistence-gated Side C, K = 4 -- stamped by me")
     print("    Option A of the refinement sheet, item 260)")
     print("  contrast tool: triadic_rw17_readout.py (the item-255")
     print("    build of record, never edited -- the parity law)")
@@ -612,7 +612,7 @@ def finish():
           "record.")
     print("  theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); findings presented, "
           "never")
-    print("  adjudicated -- the owner's stamps decide.")
+    print("  adjudicated -- my stamps decide.")
     sys.exit(0 if n_fail == 0 else 1)
 
 
