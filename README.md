@@ -16,6 +16,25 @@ Modern inference stacks already accept this premise implicitly — they burn com
 
 ---
 
+## Current State
+
+**Where the testing stands (Nov 2026):** the five-phase empirical record below is complete and fully published. The program's live work front is Stage 1 of the **Master Validation Sequence** — the forward-pass pre-registrations — with the splitter build act in progress and the remaining pre-registrations standing at the owner's word. On the model ladder, the 3B transfer is complete and receipted; the 8B record lane is the open front. The full forward structure is mapped in [Where the Program Stands](#where-the-program-stands).
+
+---
+
+## The Triadic Set at a Glance
+
+The architecture is a four-tier governance loop spanning ingress to output — the full conceptual breakdown, hook placement, and evaluation rig live in the [Architecture Overview](docs/ARCHITECTURE_OVERVIEW.md):
+
+- **Tier A — Ingress:** evaluates incoming context at the embedding boundary before the compute budget is spent, stabilizing the input state.
+- **Tier B — Attention Interdiction:** intervenes in the attention core, excising structurally noisy pathways before they consume memory bandwidth — calibrated per layer depth, never uniformly.
+- **Tier C — The Exit Gate:** governs the egress head, breaking degenerate recursion and enforcing single-turn finality: a walk exits once, cleanly, with its output verdict.
+- **Tier D — The Drift Circuit:** tracks layer-to-layer trajectory health in real time and trips a fail-closed, non-destructive halt when the trajectory breaches calibrated bounds.
+
+Above the tiers sits the **posture and orchestration layer**: every governed walk exits with a measured confidence posture — clean, degraded, or calibrated-rejection — recorded from the walk's own telemetry, never self-reported. The same telemetry drives the detector and exit-gate evaluation programs documented in this repository.
+
+---
+
 ## The Hypothesis
 
 The program exists to answer a single question: **can a language model's forward pass be governed at runtime — constrained at calibrated moments — so that compute falls and accuracy rises at the same time?**
@@ -43,19 +62,6 @@ The hypothesis is decomposed into seven claim components. Every test, gate, and 
 | **C7** | Confabulated paths can be made **improbable by redistribution** | When the first-choice path is flagged, the model's own alternative path lands correct at a measured yield above first choice — with wrongful redirection bounded and counted. |
 
 **The universal fail rule:** a FAIL never relaxes a threshold or an acceptance criterion. A FAIL sends the gate back for redesign. Thresholds are calibrated against data; they are not negotiated against failures.
-
----
-
-## The Triadic Set at a Glance
-
-The architecture is a four-tier governance loop spanning ingress to output — the full conceptual breakdown, hook placement, and evaluation rig live in the [Architecture Overview](docs/ARCHITECTURE_OVERVIEW.md):
-
-- **Tier A — Ingress:** evaluates incoming context at the embedding boundary before the compute budget is spent, stabilizing the input state.
-- **Tier B — Attention Interdiction:** intervenes in the attention core, excising structurally noisy pathways before they consume memory bandwidth — calibrated per layer depth, never uniformly.
-- **Tier C — The Exit Gate:** governs the egress head, breaking degenerate recursion and enforcing single-turn finality: a walk exits once, cleanly, with its output verdict.
-- **Tier D — The Drift Circuit:** tracks layer-to-layer trajectory health in real time and trips a fail-closed, non-destructive halt when the trajectory breaches calibrated bounds.
-
-Above the tiers sits the **posture and orchestration layer**: every governed walk exits with a measured confidence posture — clean, degraded, or calibrated-rejection — recorded from the walk's own telemetry, never self-reported. The same telemetry drives the detector and exit-gate evaluation programs documented in this repository.
 
 ---
 
@@ -87,17 +93,67 @@ Full multi-batch evaluation across all 57 MMLU tasks and GSM8K (10,219 evaluated
 
 The Phase 2 table is the program's founding result: **governance raised accuracy while removing half of the attention paths** — constraint and restoration, demonstrated. *Raw logs and category JSON: `telemetry/multi_batch_eval/`.*
 
-### Phase 3 — The Test & Evaluation Program (Oct 2026 → present)
+### Phase 3 — The Test & Evaluation Program on 1B (Oct 2026)
 
-With the founding result established, the program moved from demonstrating the architecture to trying to *break* it, under a formal Test & Evaluation plan with two evaluation regimes: **single-pass generation** and **multi-turn deployment** (where interface gates govern turn-boundary behavior). The program record in this repository covers:
+With the founding result established, the program moved from demonstrating the architecture to trying to *break* it. A formal Test & Evaluation plan put the 1B-scale system under oracle verification, held-out adjudication, and pre-registered acceptance readings across two evaluation regimes: **single-pass generation** and **multi-turn deployment** (where interface gates govern turn-boundary behavior).
 
-- **Oracle-verification gates** — independent mechanical oracles verifying arithmetic, code, prose, and sycophancy-elicitation output, each pre-registered before build.
-- **Engineered fixture suites** — 288+ typed test rows across three families (arithmetic, code, prose) with engineered positive classes and negative controls, every row's ground truth verified at build.
-- **Fresh-walk adjudications** — detector candidates re-earning their harness on held-out fresh walks under pinned protocols, never on their development data.
-- **Exit-verdict instrumentation** — the posture annotator that grades every walk clean / degraded / calibrated-rejection from recorded telemetry alone.
-- **Model-scale transfer** — the governance map re-derived and re-validated as the program steps up the model ladder from 1B through 3B to 8B parameters.
+The phase runs as eight pre-registered lanes, each with its protocol summary in `docs/protocols/` and its results in this repository:
 
-Phase-3 artifacts publish here lane by lane as they land: results and receipts in `telemetry/v32/`, protocols in `docs/protocols/`, fixtures in `fixtures/`, and the prompt corpora behind them in `corpora/`.
+| # | Lane | Protocol | Results |
+| :--- | :--- | :--- | :--- |
+| 3.1 | The Test & Evaluation Plan | [01](docs/protocols/01-test-and-evaluation-plan.md) | governs every lane below |
+| 3.2 | Oracle-verification gates | [02](docs/protocols/02-oracle-verification-gates.md) | `telemetry/v32/gate17/` |
+| 3.3 | Offline checker passes | [03](docs/protocols/03-offline-checker-passes.md) | `telemetry/v32/offline-passes/` |
+| 3.4 | Fixture validation suites | [04](docs/protocols/04-fixture-validation-suite.md) | `fixtures/` |
+| 3.5 | Fresh-walk adjudication | [05](docs/protocols/05-fresh-walk-adjudication.md) | `telemetry/v32/rw15/` |
+| 3.6 | Dual-sided ensemble | [06](docs/protocols/06-dual-sided-ensemble.md) | `telemetry/v32/rw16/` |
+| 3.7 | Emission-degeneration program | [07](docs/protocols/07-emission-degeneration-program.md) | `telemetry/v32/rw17/` |
+| 3.8 | Exit-verdict & restoration | [08](docs/protocols/08-exit-verdict-and-restoration.md) | `telemetry/v32/exit-verdict/` |
+
+**The gates (3.2)** are independent mechanical oracles — arithmetic, code, prose, and sycophancy-elicitation output verified against engineered ground truth, each oracle pre-registered before its arm was built. **The checker passes (3.3)** replay banked telemetry mechanically, with zero GPU contact, so every adjudication is a deterministic replay rather than a fresh model judgment. **The fixture suites (3.4)** hold 288+ typed test rows across three families (arithmetic, code, prose) with engineered positive classes and negative controls, every row's ground truth verified at build.
+
+**The rework programs (3.5–3.7)** run the program's falsification discipline. Fresh-walk adjudication forces every detector candidate to re-earn its harness on held-out fresh walks under pinned protocols, never on its development data. The dual-sided ensemble and emission-degeneration lanes extend the same discipline to multi-sided adjudication and to degenerate-output emission. **The exit-verdict instrumentation (3.8)** grades every governed walk — clean, degraded, or calibrated-rejection — from recorded telemetry alone, and the restoration protocol defines what the system does with what it recovers.
+
+### Phase 4 — Model-Scale Transfer, 3B → 8B (Oct 2026 → present)
+
+The governance map is not a 1B artifact: it must re-derive and re-validate at every step of the model ladder. Phase 4 steps the architecture up from 1B through 3B to 8B parameters, re-running the checker passes and acceptance arms on each scale and recording the transfer honestly — including where the map re-derived cleanly and where the transfer surfaced real findings.
+
+**The 3B transfer is complete and receipted; the 8B record lane is the program's open scale-transfer front.** The receipts of record to date — checker-pass exports, the s5 panel and s8 rework receipts, and the ap17 join exports — publish in `telemetry/v32/phase4/`, with the protocol summary in [doc 09](docs/protocols/09-model-scale-transfer.md). Development batteries produced along the way are withheld as development-data-only, named and counted in that directory's record.
+
+### Phase 5 — Environment Drift, Baselining & Audits (Oct 2026 → present)
+
+A governed system that drifts silently is ungoverned. Phase 5 instruments the environment itself: corpus drift is measured against pinned baselines, re-baselining acts are pre-registered before they run, and the drift-diagnostic receipts — the 3-miss, alane, b12, codev6/7, and d2sat diagnostic panels, plus the Wu population-comparability read receipts — publish in `telemetry/v32/diagnostics/` under [doc 10](docs/protocols/10-environment-drift-and-baselining.md).
+
+The phase also carries the program's external accountability: audit engagements are pre-registered at the boundary and their outcomes are published at count level in [doc 11](docs/protocols/11-audit-engagements.md), and the species-development lane — the program's instrument-breeding line for new diagnostic species — is documented intent-only in [doc 12](docs/protocols/12-species-development.md), with its development data remaining internal.
+
+---
+
+Phase 3–5 artifacts publish here lane by lane as they land: results and receipts in `telemetry/v32/`, protocols in `docs/protocols/`, fixtures in `fixtures/`, and the prompt corpora behind them in `corpora/`.
+
+---
+
+## Where the Program Stands
+
+The record above is complete as far as it goes — but the program is not finished, and its forward structure is already named. Two structures of record govern what happens next, and they are **interlocked, not contained**:
+
+- the **ten-step refinement spine** — the mechanism-refinement program. Its first step (the operating-threshold re-derivation) is in progress; the refinement steps behind it are unopened; the reconciliation review comes last. This is how the mechanism itself gets refined.
+- the **Master Validation Sequence** — the staged remaining-test list, ordered to build on the refinement program's outputs. This is what remains to be tested, and in what order.
+
+The interlock is live, not nominal: the spine's first step is currently executing through the Sequence's Stage-1 acts, and both ladders close at the same table — after the Sequence's stages and the refinement steps, the reconciliation review reads all data gotten against the truth labels of record, the owner's stamps adjudicating.
+
+| Stage | What it is | Status |
+| :--- | :--- | :--- |
+| **Stage 0** | The paper closers (4 items) | Standing open |
+| **Stage 1** | The forward-pass pre-registrations (5 items) | The validation-phase readout instrument ran owner-side green end-to-end; the splitter pre-registration is stamped with its build act in progress; the remaining pre-registrations are drafted or standing at the owner's word |
+| **Stage 2** | The splitter's ground truth — the mixed-regime corpus/fixture build | Unopened |
+| **Stage 3** | The restoration ladder — one actuator per run pair, on GPU | Unopened |
+| **Stage 4** | The wiring phase — live actuation behind the acceptances | Unopened |
+| **Stage 5** | The model ladder — the scale transfers (the Phase 4 record above) | 3B complete and receipted; the 8B record lane ongoing |
+| **Stage 6** | Regime B — the multi-turn harness and the agentic-regime gates | Unopened |
+
+Nothing wires or actuates ahead of its acceptance — findings are presented, never adjudicated by the instruments themselves. The forward act for every finding in this repository remains the held-out measurement on a live environment.
+
+And the phase list itself stays open: Sequence stages land as new record chapters. Stage 5's landing completes Phase 4; the agentic regime (Stage 6) will open the next chapter when it lands.
 
 ---
 
@@ -130,7 +186,10 @@ triadic-set-telemetry/
     ├── single_stream_archive/    (Phase 1)
     ├── single_stream_eval/       (Phase 1)
     ├── multi_batch_eval/         (Phase 2)
-    └── v32/                      (Phase 3, by program lane)
+    └── v32/                      (Phases 3–5, by program lane)
+        ├── gate17/  offline-passes/  rw15/  rw16/  rw17/  exit-verdict/   (Phase 3: T&E on 1B)
+        ├── phase4/                (Phase 4: scale transfer 3B → 8B)
+        └── diagnostics/          (Phase 5: drift, baselining, diagnostics)
 ```
 
 ---
