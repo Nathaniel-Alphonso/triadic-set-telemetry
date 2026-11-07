@@ -18,7 +18,7 @@ Modern inference stacks already accept this premise implicitly: they burn comput
 
 ## Current State
 
-**Where the testing stands (Nov 2026):** the five-phase empirical record below is complete and fully published. The program's live work front is Stage 1 of the **Master Validation Sequence** (the forward-pass pre-registrations), with the splitter build act in progress and the remaining pre-registrations standing at my word. On the model ladder, the 3B transfer is complete and receipted; the 8B record lane is the open front. The full forward structure is mapped in [Where the Program Stands](#where-the-program-stands).
+**Where the testing stands (Nov 2026):** the initial testing and validation, the five-phase empirical record below, is complete and fully published. The live work front is the **In-Band Qualification Testing**: the first refinement (the operating-threshold re-derivation) is in progress, the refinements and pre-registrations behind it standing at my word. On the model ladder, the 3B transfer is complete and receipted; the 8B record lane is the open front. The full forward structure is mapped in [In-Band Qualification Testing](#in-band-qualification-testing).
 
 ---
 
@@ -65,7 +65,9 @@ The hypothesis is decomposed into seven claim components. Every test, gate, and 
 
 ---
 
-## The Program Record
+## Initial Testing & Validation
+
+The program's initial testing and validation record, complete and fully published, runs in five phases:
 
 ### Phase 1: Single-Stream Silicon Telemetry (Aug–Sept 2026)
 
@@ -132,28 +134,38 @@ Phase 3–5 artifacts publish here lane by lane as they land: results and receip
 
 ---
 
-## Where the Program Stands
+## In-Band Qualification Testing
 
-The five phases above are fully published, and the program continues under two structures of record that interlock:
+Everything in the record above ran out of band: telemetry banked, passes replayed, adjudication with zero model contact. The In-Band Qualification Testing is the main test: the disparate pieces of the initial record pulled into one assembled system and qualified inside live forward passes, from the first refinement to the reconciliation. The refinements run on development data today; the actuated stages run live; both belong to the same qualification arc.
 
-- the **ten-step refinement spine**, the mechanism-refinement program. Its first step (the operating-threshold re-derivation) is in progress; the refinement steps behind it are unopened; the reconciliation review comes last. This is how the mechanism itself gets refined.
-- the **Master Validation Sequence**, the staged remaining-test list, ordered to build on the refinement program's outputs. This is what remains to be tested, and in what order.
+**The ten refinements.** The mechanism itself gets refined:
 
-The spine produces the mechanism; the Sequence tests it. The interlock is active today: the spine's first step is executing through the Sequence's Stage-1 acts, and both ladders close at the same table. After the Sequence's stages and the refinement steps, the reconciliation review reads all data gotten against the truth labels of record, my stamps adjudicating.
+| # | The refinement | Status |
+| :--- | :--- | :--- |
+| 1 | Re-deriving the live operating threshold and its look-window from the banked data; the head of everything | In progress |
+| 2 | A persistence-gated refinement sheet for the sycophancy-corpus leg | Pending |
+| 3 | The code arm's channel change: a parse-side magnitude read of the generated self-test tail | Pending |
+| 4 | An 8B-native fixture re-authoring of the W5 references: fixture re-authoring, hypothesis remaining unchanged | Pending |
+| 5 | A depth-native comparison form for the identity check | Pending |
+| 6 | A union-controlled re-test of the committed-direction construction | Pending |
+| 7 | An administrative meter-budget stamp | Pending |
+| 8 | Restricting the detector form to the measured near-tie band | Pending |
+| 9 | Receipts pinning the mechanism's sensitivity, sizing, coverage, and provenance | Pending |
+| 10 | Reconciliation, review and integration | Pending |
+
+**The staged order.** What remains to be tested, and in what order:
 
 | Stage | What it is | Status |
 | :--- | :--- | :--- |
-| **Stage 0** | The paper closers (4 items) | Standing open |
-| **Stage 1** | The forward-pass pre-registrations (5 items) | The validation-phase readout instrument ran green end-to-end on my machine; the splitter pre-registration is stamped with its build act in progress; the remaining pre-registrations are drafted or standing at my word |
-| **Stage 2** | The splitter's ground truth: the mixed-regime corpus/fixture build | Unopened |
-| **Stage 3** | The restoration ladder: one actuator per run pair, on GPU | Unopened |
-| **Stage 4** | The wiring phase: live actuation behind the acceptances | Unopened |
-| **Stage 5** | The model ladder: the scale transfers (the Phase 4 record above) | 3B complete and receipted; the 8B record lane ongoing |
-| **Stage 6** | Regime B: the multi-turn harness and the agentic-regime gates | Unopened |
+| **Stage 0** | The offline rulings that closed before the live work: a twice-run determinism receipt with the operating-form ruling on the amended grid, the amended grid's console acceptance, the protected-frame ruling and its replication candidate on the math leg, and the gates-3/5 numbering harmonization into the unified map | Complete (all four stamped and banked) |
+| **Stage 1** | The forward-pass pre-registrations (5 items) | In progress |
+| **Stage 2** | The splitter's ground truth: the mixed-regime corpus/fixture build | Pending |
+| **Stage 3** | The restoration ladder: one actuator per run pair, on GPU | Pending |
+| **Stage 4** | The wiring phase: live actuation behind the acceptances | Pending |
+| **Stage 5** | The model ladder, riding the Phase 4 record lane | In progress (3B complete and receipted; the 8B record lane ongoing) |
+| **Stage 6** | Regime B: the multi-turn harness and the agentic-regime gates | Pending |
 
-Actuation follows acceptance: instruments present findings, and my stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
-
-The phase list itself stays open: Sequence stages land as new record chapters. Stage 5's landing completes Phase 4, and the agentic regime (Stage 6) opens the next chapter when it lands.
+The ten refinements produce the mechanism; the staged order tests it. Both close at the same table: the tenth refinement, reconciliation, review and integration, where all data gotten is read against the truth labels of record. A landed stage migrates into the record above as a new chapter, so the phase list stays open. Actuation follows acceptance: instruments present findings, and my stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
 
 ---
 
