@@ -1,3 +1,4 @@
+
 # Triadic Set Telemetry: Runtime Governance of the Transformer Forward Pass
 
 **Author:** Nathaniel Alphonso Nibbs Jr.  
@@ -8,7 +9,7 @@
 
 ---
 
-The **Triadic Set** governs the forward pass of a language model directly: measured constraints, enforced inside the execution path at calibrated moments, that steer a model away from trajectories destined for discard and restore output that would otherwise be lost. The payoff is the one inference treats as a trade-off: compute falls and accuracy rises, at the same time, on the same model. This repository is my proof that the payoff is real: every claim pre-registered, every run checksummed, every adjudication replayable by anyone, on zero GPUs.
+The **Triadic Set** governs the forward pass of a language model directly: measured constraints, enforced inside the execution path at calibrated moments, that steer a model away from trajectories destined for discard and restore output that would otherwise be lost. The payoff is the one inference treats as a trade-off: compute falls and accuracy rises, at the same time, on the same model. This repository is my proof at the development-bench level: every claim pre-registered, every run checksummed, every adjudication replayable by anyone, on zero GPUs. The held-out measurement on a live environment stays the forward act for every claim, and the record below states where each claim stands.
 
 ---
 
@@ -18,7 +19,7 @@ The **Triadic Set** governs the forward pass of a language model directly: measu
 
 **The thesis.** The Triadic Set's position is that the waste is governable at the source. The forward pass can be constrained inside its own execution graph, at calibrated moments, before the waste is ever emitted. Constraint is only half of the mechanism. The other half is restoration: trajectories that would have been thrown away are recovered to usable form. Compute drops because less of it is wasted. Accuracy rises because what survives governance is better output from the same model. The field reads governance as a purchase, accuracy bought with compute or compute saved at the price of accuracy. The Triadic Set breaks that frame: the two directions move together, compute falling and accuracy rising on the same pass.
 
-**The founding result.** From Phase 2 below: across all 57 MMLU tasks plus GSM8K (10,219 evaluated questions, 1,131,648 processed tokens), the governed system removed 50.43% of the attention paths and accuracy rose 11.53% over the stock baseline, at the same time, on the same model. On the hardware side of the same record, time-to-first-token dropped 61.22%, swap churn went to exactly zero, and the prefill context footprint compressed 88.41%. Every number above points at the log that produced it.
+**The founding result.** From Phase 2 below: across the 57 MMLU tasks (10,219 evaluated questions, 1,131,648 processed tokens), the governed system removed 50.43% of the attention paths and accuracy rose 11.53 points over the same-harness stock control, at the same time, on the same model, under one pinned evaluation configuration. On the hardware side of the same record, time-to-first-token dropped 61.22%, swap churn went to exactly zero, and the prefill context footprint compressed 88.41%. The lift is a paired reading: the stock control is the same model through the same harness, and the model card's published MMLU figure is a different harness configuration, so the control of record is the stock leg, never the card. Every number above points at the log that produced it.
 
 **The agnostic principle.** The mechanism is derived, not trained in, and it is agnostic to everything about a model except the one thing every model shares. The governance map is extracted from the measured execution of a model's own unmodified weights and calibrated layer by layer, so the mathematics re-derives to fit the model, never the other way around: the math bends to the measured data, the data is never reshaped to fit the instrument. Model-agnostic, parameter-agnostic, weight-agnostic: the map re-derives from whatever model sits in front of it. Change the parameter count and the map re-derives. Retrain the weights and the map re-derives. Swap in the next model and the map re-derives. No model, scale, or checkpoint owns it, because governance touches only the forward pass, the one structure every autoregressive model has in common. That universality is the design intent: upgrade the model, retrain the weights, change the parameter count, and the deployment never waits on a redesign. The model ladder is the principle's receipt in the record below: the 1B system's map re-derived and re-validated at 3B, the 8B transfer the open front.
 
@@ -63,27 +64,41 @@ Three framings govern how every cost and savings number in this program is read:
 
 ### The Claims Spine (C1–C7)
 
-The hypothesis is decomposed into seven claim components. Every test, gate, and acceptance criterion in the program is labeled with the component it discharges:
+The hypothesis is decomposed into seven claim components. Every test, gate, and acceptance criterion in the program is labeled with the component it discharges, and each component carries its measured status:
 
-| # | Claim | In words |
-| :--- | :--- | :--- |
-| **C1** | Constraint **prevents** undesirable output | Interventions must never wrongfully terminate or redirect a healthy trajectory; wrongful terminations stay at zero as intervention counts grow. |
-| **C2** | Constraint **restores** otherwise-discarded output | Trajectories that would have been thrown away are recovered to usable form more often than healthy output is worsened. |
-| **C3** | Cost per usable output **drops** | Under governance, fewer tokens and fewer seconds are spent per correct, usable answer, with usable accuracy never below baseline. |
-| **C4** | Measured overhead is an **upper bound** | The instrumentation fraction of bench-measured cost is itemized; production governance cost sits strictly below it. |
-| **C5** | Savings **scale** with degenerate-output prevalence | In multi-turn deployment, the waste ratio under governance beats baseline, which is the industry cost being targeted. |
-| **C6** | Confabulation is **detectable** at the commitment point | On populations where the model commits to known-wrong answers, the detectors separate flagged from clean trajectories with measured, reported confidence. |
-| **C7** | Confabulated paths can be made **improbable by redistribution** | When the first-choice path is flagged, the model's own alternative path lands correct at a measured yield above first choice, with wrongful redirection bounded and counted. |
+| # | Claim | In words | Status |
+| :--- | :--- | :--- | :--- |
+| **C1** | Constraint **prevents** undesirable output | Interventions must never wrongfully terminate or redirect a healthy trajectory; wrongful terminations stay at zero as intervention counts grow. | Measured (Phases 1–3: wrongful terminations at zero across the founding run and the oracle-gate arms) |
+| **C2** | Constraint **restores** otherwise-discarded output | Trajectories that would have been thrown away are recovered to usable form more often than healthy output is worsened. | Partially tested; the restoration ladder (Stage 3) is the open front |
+| **C3** | Cost per usable output **drops** | Under governance, fewer tokens and fewer seconds are spent per correct, usable answer, with usable accuracy never below baseline. | Measured on the single-turn bench (Phases 1–2); the multi-turn regime is open |
+| **C4** | Measured overhead is an **upper bound** | The instrumentation fraction of bench-measured cost is itemized; production governance cost sits strictly below it. | Framing law of record; the bench telemetry it reads publishes in Phase 1 |
+| **C5** | Savings **scale** with degenerate-output prevalence | In multi-turn deployment, the waste ratio under governance beats baseline, which is the industry cost being targeted. | Pending (the multi-turn regime, Stage 6) |
+| **C6** | Confabulation is **detectable** at the commitment point | On populations where the model commits to known-wrong answers, the detectors separate flagged from clean trajectories with measured, reported confidence. | In progress; the 1B detector lane read negative, and the qualification refinements re-earn the detector before any detection claim rides it |
+| **C7** | Confabulated paths can be made **improbable by redistribution** | When the first-choice path is flagged, the model's own alternative path lands correct at a measured yield above first choice, with wrongful redirection bounded and counted. | Pending (the restoration ladder and the near-tie band restriction) |
 
 **The universal fail rule:** a FAIL sends the gate back for redesign; thresholds and acceptance criteria hold fixed. Thresholds are calibrated against data alone.
 
 ---
 
+## Related Work
+
+The Triadic Set is a framework, and the framework itself is the novelty of this record. Four active fields each hold one piece of the problem this program works end to end: attention and cache selection, early exit, degenerate-output detection, and test-time intervention. Each cited line below solves its piece under its own assumptions, and each carries a cost its own measurements report. What no cited line does is combine the four under one governed ledger: selection, detection, and restoration priced separately, pre-registered before each arm, thresholds calibrated once and never moved, every reading paired with a same-harness control. The comparisons below state the design differences and the documented costs, and this record is tested for results rather than benchmarked for them, so it claims superiority over none of the cited work ahead of the queued comparison lanes. Where the architecture answers a documented cost by design, that is stated; where the answer is untested, the stage that will test it is named.
+
+**Dynamic sparse attention and KV-cache selection.** StreamingLLM (Xiao et al., 2023), H2O (Zhang et al., 2023), and SnapKV (Li et al., 2024) cut attention and cache cost by score and position heuristics over hand-set budgets, and their own evaluations report the accuracy cost as the budget tightens. The 2026 line pushes the same target further: RRAttention (arXiv:2602.05853) reports over 99% of full-attention performance while computing roughly half the attention blocks at 128K context, and DHSA (arXiv:2510.24606) predicts variable block sparsity online over a frozen backbone. The shared design cost is that the budget is fixed ahead of the walk, tuned to a length regime, with dense accuracy as the standing ceiling and speed as the headline. The Triadic constraint is governed in the opposite direction: selection follows a measured per-walk verdict under a calibration fixed for the program's life, and the founding result of this record shows accuracy rising alongside the removal at a short-context, 0-shot, 1B operating point. Whether the gain reflects noise suppression at small scale is an open question, and the queued equal-sparsity lanes (random masking, magnitude selection, and the published KV methods above) exist to price that contrast on equal terms.
+
+**Early exit.** CALM (Schuster et al., 2022) and LayerSkip (Elhoushi et al., 2024) cut compute by exiting easy tokens early, with their own papers carrying the exit risk and the verification machinery needed to bound it; River-LLM (arXiv:2604.18396) extends the line with token-level exits and KV-cache sharing on GSM8K, and a 2026 measurement study (arXiv:2603.23701) reports the line's effectiveness declining across newer model generations. The shared design cost is that early exit spends accuracy risk to buy compute. The exit gate in this record faces the other direction: it reads the full depth of the model on every pass, and its object is degenerate recursion at the egress head rather than compute savings, governed per walk with a measured verdict and a restoration path behind it. The compute question that field optimizes is priced here instead as compute per correct answer in the queued lanes.
+
+**Hallucination and confabulation detection.** SelfCheckGPT (Manakul et al., 2023) and semantic-entropy methods (Farquhar et al., 2024) detect confabulation from sampled consistency, and their own methods carry the price: several sampled passes per query before a verdict exists. The 2026 probing line reads internal states directly, at the cost of post-hoc labeled training and per-token probe compute: linear probes on mid-layer hidden states (arXiv:2606.02628), multilingual probing over full hidden-state trajectories (MultiHaluDet, arXiv:2605.24919), and prompt-embedding probes (PEP, arXiv:2608.08024), with published results at 7B-8B scale. The detector lane in this record reads low-dimensional statistics calibrated on the model's own clean walks, pre-registered before each arm and replayable offline with zero model contact. The 1B lane read negative in its current form, a read consistent with a field whose published results sit at 7B-8B scale, and the qualification refinements re-earn the detector before any detection claim rides it. The queued head-to-head reads wrongful-flip rate, recovery rate, and compute per correct answer on both sides, against probe and consistency baselines over the same fixtures.
+
+**Gated test-time intervention.** Trajectory-based steering (Sun et al., arXiv:2604.05655, ACL 2026) reads chain-of-thought as trajectories through representation space, predicts final-answer correctness mid-reasoning, and steers from derived ideal trajectories, reporting collateral flips on answers that started correct; MAGS (arXiv:2605.21770) gates per-head steering on distance from a learned correctness manifold; threshold-gated trait steering (arXiv:2604.08169), SAE-feature steering (CorrSteer, arXiv:2508.12535), and calibration steering (CORAL, arXiv:2602.06022) intervene on internal activations or option probabilities, alongside the older steering line (ITI, Li et al., 2023; representation engineering, Zou et al., 2023). The field's own audit reports the design cost of the class: benign activation steering measurably increases jailbreak success across its tested configurations (arXiv:2602.04896). The restoration design in this record differs at the point that cost attaches: it fires only on a detector trip and draws on the model's own computation rather than adding vectors to activations. Whether that difference avoids the audited externalities, and at what compute cost, is untested; Stage 3 and Stage 4 exist to measure it, and this record claims nothing ahead of those runs.
+
+---
+
 ## Initial Testing & Validation
 
-The program's initial testing and validation record, complete and fully published, runs in five phases:
+The program's initial testing and validation record, complete and fully published, runs in five phases. Every phase below was tested for results rather than benchmarked for them: each reading comes from a pre-registered run against a same-harness control, and no number in this record was tuned toward a leaderboard.
 
-### Phase 1: Single-Stream Silicon Telemetry (Aug–Sept 2026)
+### Phase 1: Single-Stream Silicon Telemetry (Jul–Sept 2026)
 
 Bare-metal execution traces on Apple Silicon unified memory, establishing the hardware-level effect of in-band interdiction at batch size 1:
 
@@ -96,18 +111,37 @@ Bare-metal execution traces on Apple Silicon unified memory, establishing the ha
 
 *Raw logs: `telemetry/single_stream_archive/`, `telemetry/single_stream_eval/`.*
 
+The test that produced this archive was captured on video: the release asset `triadic_silicon_hardware_execution_trace.mov` under `v1.0.0-telemetry-proof` is the unedited screen recording of the full 12-lift orchestration running in sequence, with the Activity Monitor panel on screen confirming the 0 B swap reading live. The dump this record's Phase 1 table reads from is the dump visible being produced in that recording.
+
 ### Phase 2: Multi-Batch Benchmark Validation (Sept 2026)
 
-Full multi-batch evaluation across all 57 MMLU tasks and GSM8K (10,219 evaluated questions, 1,131,648 processed tokens) on the calibrated architecture:
+Full multi-batch evaluation across all 57 MMLU tasks (10,219 evaluated questions, 1,131,648 processed tokens) on the calibrated architecture, under one pinned evaluation configuration:
 
-| Benchmark Evaluation State | Attention Sparsity | MMLU Scaled Accuracy | Architectural Delta |
+- **Model:** Llama-3.2-1B (the pretrained base model, unmodified weights)
+- **Harness:** lm-evaluation-harness, pinned at commit `d6de8164` (v0.4.14.dev0)
+- **Decode:** batch size 2 on the same Apple Silicon bench as Phase 1; the MMLU leg is loglikelihood scoring, and the GSM8K generation leg sampled at temperature 0.8 with a 256-new-token cap
+- **Shot count:** 0-shot (`num_fewshot=0`, pinned in the era evaluation driver)
+- **Subset rule:** every MMLU subtask capped at 250 questions, hardcoded in the driver; subtasks smaller than 250 ran at full size, so the evaluation covers 10,219 of the benchmark's 14,042 test questions. GSM8K ran 250 of its 1,319.
+
+**MMLU accuracy** in the table is the harness's native multiple-choice accuracy: the share of evaluated questions where the correct choice scored highest. The run summarizer's label for the same quantity, "Scaled Integrity Accuracy", appears in the raw summary files.
+
+| Benchmark Evaluation State | Attention Sparsity | MMLU Accuracy | Architectural Delta |
 | :--- | :--- | :--- | :--- |
 | Unhooked stock control | 0.00% (dense) | 37.89% | Unmodified baseline |
-| Degraded sampling run | 0.00% (dense) | 22.71% | Failure mode of uncalibrated thresholding |
+| Degraded sampling run | 0.00% (dense) | 22.71% (±0.41) | Failure mode of uncalibrated thresholding |
 | Naive hook interception | ~50.00% | 34.56% | Uniform static boundaries; over-clamps early layers |
-| **Triadic (calibrated)** | **50.43%** | **49.42%** | **+11.53% accuracy lift over stock baseline** |
+| **Triadic (calibrated)** | **50.43%** | **49.42% (±0.48)** | **+11.53 points over the same-harness stock control** |
 
-The Phase 2 table is the program's founding result: **governance raised accuracy while removing half of the attention paths**, demonstrating constraint and restoration together. *Raw logs and category JSON: `telemetry/multi_batch_eval/`.*
+The Phase 2 table is the program's founding result: **governance raised accuracy while removing half of the attention paths**, demonstrating constraint and restoration together.
+
+Readings on the table, stated for rigor:
+
+- **The lift is a paired, same-harness delta.** All four states ran the same base model through the lm-evaluation-harness family on the same bench. The degraded and calibrated legs publish full raw JSONs with per-task sample counts (the 250-cap subset rule above); the stock and naive logs carry the same 57-task set with their per-task counts unrecorded in the logs, and that gap is stated here rather than smoothed over. The +11.53 points reads against the stock control of record.
+- **Aggregation is stated per leg.** The stock and naive aggregates are the mean over the 57 subtasks; the degraded and calibrated aggregates are sample-weighted with native standard errors (shown in the table). Recomputed under either convention the lift reads between 11.0 and 11.4 points, so the mixed conventions cost under half a point of the headline.
+- **The model card is a cross-harness reference.** Meta's card reads 32.2 for the base Llama-3.2-1B at 5-shot under its internal scoring library, and the 49.3 figure quoted at this model size belongs to the Instruct variant. This record's legs are the base model at 0-shot through one harness, so the card numbers answer different questions. The control of record is the stock leg of this harness, and the lift reads only within that pairing.
+- **GSM8K is scoped out of the accuracy claims.** The GSM8K legs read 0.00 on strict and flexible extract on every state that ran them: the base model never emits the benchmark's `####` answer format under the runs' raw completion prompting, so the leg measures format compliance rather than reasoning and stays out of the headline. The multi-batch GSM8K leg additionally sampled at temperature 0.8 under a 256-token cap, per the configuration block above.
+
+*Artifacts: the degraded and calibrated raw JSONs and summaries in `telemetry/multi_batch_eval/`; the stock and naive state logs in `telemetry/single_stream_eval/` (`unhooked_baseline_triadic_evaluation_run.log`, `triadic_evaluation_run_hooked.log`).*
 
 ### Phase 3: The Test & Evaluation Program on 1B (Oct 2026)
 
@@ -179,7 +213,7 @@ Everything in the record above ran out of band: telemetry banked, passes replaye
 | **Stage 5** | The model ladder, riding the Phase 4 record lane | In progress (3B complete and receipted; the 8B record lane ongoing) |
 | **Stage 6** | Regime B: the multi-turn harness and the agentic-regime gates | Pending |
 
-The ten refinements produce the mechanism; the staged order tests it. Both close at the same table: the tenth refinement, reconciliation, review and integration, where all data gotten is read against the truth labels of record. A landed stage migrates into the record above as a new chapter, so the phase list stays open. Actuation follows acceptance: instruments present findings, and my stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
+The ten refinements produce the mechanism; the staged order tests it. Both close at the same table: the tenth refinement, reconciliation, review and integration, where all data gotten is read against the truth labels of record. A landed stage migrates into the record above as a new chapter, so the phase list stays open. The restoration term is priced on its own: Stage 3 and Stage 4 readings report the full system against both the stock baseline and the constraint-only control, so the net value of the detector and the actuator is measured separately from the constraint layer beneath them. Actuation follows acceptance: instruments present findings, and my stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
 
 ---
 
@@ -190,9 +224,10 @@ Every artifact in this record is produced under the same house discipline:
 1. **Pre-registration before everything.** Every instrument is built and every run is executed only after its protocol and acceptance readings are written down and pinned.
 2. **Determinism and receipts.** Instruments rebuild byte-identically; every run of record carries SHA-256 integrity receipts for its inputs and outputs.
 3. **Fail-loud instruments.** Missing data, census violations, and out-of-band conditions hard-exit. The instruments fail loudly by construction.
-4. **Fix the fixture or the builder, never the instrument.** When a discrepancy appears, the banked instrument is presumed correct; the discrepancy is resolved upstream and the fix is recorded honestly.
-5. **Zero-GPU adjudication.** Offline passes replay banked telemetry and exports mechanically, with no model contact and no adjudication drift.
-6. **Held-out honesty.** Findings are stated as valid per the development data, with the held-out measurement always named as the forward act.
+4. **Fix the fixture or the builder, never the instrument.** When a discrepancy appears, the banked instrument is presumed correct; the discrepancy is resolved upstream and the fix is recorded honestly. The instrument's version lineage (v32.x) and each version's acceptance run publish with it, so the number of design iterations behind a passing result is countable from the record, never hidden.
+5. **No threshold has ever moved.** An operating threshold, once calibrated against data, holds fixed for the life of the program: across every version and every rework lane, no threshold has been moved, re-tuned, or re-adjudicated after the fact. Rework lands upstream in fixtures and builders, each change carrying its own ledger entry and acceptance run.
+6. **Zero-GPU adjudication.** Offline passes replay banked telemetry and exports mechanically, with no model contact and no adjudication drift.
+7. **Held-out honesty.** Findings are stated as valid per the development data, with the held-out measurement always named as the forward act.
 
 ---
 
@@ -222,7 +257,7 @@ triadic-set-telemetry/
 
 ## What Is Withheld
 
-The exact dynamic threshold calculus and the closed-form mathematical transformations of the Triadic Set remain a protected black box. What publishes here is everything around the core: the conceptual mechanics, calibration outputs, hardware telemetry, evaluation results, fixtures, and receipts. This split is deliberate and stable; the record is fully auditable at the empirical level while the derivations that make the architecture work stay protected.
+The exact dynamic threshold calculus and the closed-form mathematical transformations of the Triadic Set remain a protected black box. The split is precise. A third party with this repository can: re-derive the calibration perimeters from unmodified base weights with the published calibration scripts; rebuild every fixture suite byte-identically from its published builder; replay every adjudication mechanically over the published exports on zero GPUs; and verify every SHA-256 receipt in the record. What stays protected is the threshold calculus itself: the closed-form transformations that turn calibration outputs into operating thresholds. The record is fully auditable at the empirical level while the derivations that make the architecture work stay protected, and that split is deliberate and stable.
 
 ---
 
