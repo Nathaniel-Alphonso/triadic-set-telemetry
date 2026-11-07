@@ -1,0 +1,154 @@
+{
+  "map_name": "cd1_arm_a_field_map_v1",
+  "map_version": "1",
+  "stamp": {
+    "status": "CANDIDATE DRAFT -- pre-stamp; the map pins only at the owner's stamp (his item-1128 ladder, rung 7); the stamp block is his, never written by the tool"
+  },
+  "notes": [
+    "the candidate map of the B0 pre-reg section 3: every banked receipt bound to the census's own field names; the reconciliation gate ran 28/28 exact against the pinned bytes before this draft reached his door (the item-1132 rehearsal; zero mismatches, zero discoveries)",
+    "A1 negatives bind the aligned export's DERIVED-VERIFIED occurrence rows (4,062 rows, every one spanned; the 630 distinct nodes by (doc_id, i) reconcile exactly with the banked 17p2_derived_verified census -- both classes named, never conflated; his stamps decide the pairing pool)",
+    "A2 positives/negatives bind the raw + chat legs as one leg-union (the item-1132 map-schema amendment; verdict False = the A2 positives, verdict True = the A2 negatives, per his item-1128 ruling 2)",
+    "cache_bindings: raw -> a2_raw_cache, chat -> a2_chat_cache, p2 -> p2_cache_r2; the join rides doc_id within each bound cache, the join receipt names every row",
+    "the map binds no commit_coverage block: the --run coverage boundary rides the NAMED GAP receipt (the item-1104/1110 law: the caches bank generation-side operand states only), presented at his door, never guessed"
+  ],
+  "cache_bindings": {
+    "raw": {"pin": "a2_raw_cache"},
+    "chat": {"pin": "a2_chat_cache"},
+    "p2": {"pin": "p2_cache_r2"}
+  },
+  "bindings": {
+    "17a_raw_genuine_slips": {
+      "kind": "count_nested", "export": "17a_raw",
+      "docs_path": "per_doc", "list_field": "slips"},
+    "17a_raw_slip_rate_print": {
+      "kind": "rate_print", "decimals": 2,
+      "num": {"kind": "count_nested", "export": "17a_raw",
+              "docs_path": "per_doc", "list_field": "slips"},
+      "den": {"kind": "count_nested", "export": "17a_raw",
+              "docs_path": "per_doc", "list_field": "statements"}},
+    "17a_chat_genuine_slips": {
+      "kind": "count_nested", "export": "17a_chat",
+      "docs_path": "per_doc", "list_field": "slips"},
+    "17a_chat_slip_rate_print": {
+      "kind": "rate_print", "decimals": 2,
+      "num": {"kind": "count_nested", "export": "17a_chat",
+              "docs_path": "per_doc", "list_field": "slips"},
+      "den": {"kind": "count_nested", "export": "17a_chat",
+              "docs_path": "per_doc", "list_field": "statements"}},
+    "17p2_promotions": {
+      "kind": "count_nested", "export": "17p2",
+      "docs_path": "legs.raw.docs", "list_field": "p2.events",
+      "filter": {"match": {"type": "PROMOTION"}}},
+    "17p2_conflicts": {
+      "kind": "count_nested", "export": "17p2",
+      "docs_path": "legs.raw.docs", "list_field": "p2.events",
+      "filter": {"match": {"type": "CONFLICT"}}},
+    "17p2_control": {
+      "kind": "count_nested", "export": "17p2",
+      "docs_path": "legs.raw.docs", "list_field": "p2.events",
+      "filter": {"match": {"type": "CONTROL-FIRING"}}},
+    "17p2_established": {
+      "kind": "read_value", "export": "17p2",
+      "path": "legs.raw.m3.established"},
+    "17p2_immune": {
+      "kind": "read_value", "export": "17p2",
+      "path": "legs.raw.m3.fails_open_immune"},
+    "17p2_desire_engaged": {
+      "kind": "read_value", "export": "17p2",
+      "path": "legs.raw.m3.desire_engaged"},
+    "17p2_silence": {
+      "kind": "read_value", "export": "17p2",
+      "path": "legs.raw.m4.blank_answers"},
+    "17p2_derived_verified": {
+      "kind": "count_nested", "export": "17p2",
+      "docs_path": "legs.raw.docs", "list_field": "p2.nodes",
+      "filter": {"match": {"node": "DERIVED-VERIFIED"}}},
+    "aligned_a2_raw_statements": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.a2_raw.per_doc", "list_field": "statements"},
+    "aligned_a2_raw_slips": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.a2_raw.per_doc", "list_field": "statements",
+      "filter": {"match": {"verdict": false}}},
+    "aligned_a2_raw_clean": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.a2_raw.per_doc", "list_field": "statements",
+      "filter": {"match": {"verdict": true}}},
+    "aligned_a2_chat_statements": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.a2_chat.per_doc", "list_field": "statements"},
+    "aligned_a2_chat_slips": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.a2_chat.per_doc", "list_field": "statements",
+      "filter": {"match": {"verdict": false}}},
+    "aligned_a2_chat_clean": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.a2_chat.per_doc", "list_field": "statements",
+      "filter": {"match": {"verdict": true}}},
+    "aligned_a2_raw_spanned": {
+      "kind": "read_value", "export": "aligned_spans",
+      "path": "legs.a2_raw.statements_spanned"},
+    "aligned_a2_chat_spanned": {
+      "kind": "read_value", "export": "aligned_spans",
+      "path": "legs.a2_chat.statements_spanned"},
+    "aligned_p2_promotion_spans": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.p2.per_doc", "list_field": "promotions",
+      "filter": {"match": {"type": "PROMOTION"}}},
+    "aligned_p2_node_rows": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.p2.per_doc", "list_field": "node_rows"},
+    "aligned_p2_node_unique": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.p2.per_doc", "list_field": "node_rows",
+      "filter": {"match": {"locator": "unique"}}},
+    "aligned_p2_node_absent": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.p2.per_doc", "list_field": "node_rows",
+      "filter": {"match": {"locator": "value-absent"}}},
+    "aligned_p2_derived_verified_occurrences": {
+      "kind": "count_nested", "export": "aligned_spans",
+      "docs_path": "legs.p2.per_doc", "list_field": "node_rows",
+      "filter": {"match": {"node": "DERIVED-VERIFIED"}}},
+    "aligned_a2_raw_decode_exact_docs": {
+      "kind": "count_rows", "export": "aligned_spans",
+      "path": "legs.a2_raw.per_doc",
+      "filter": {"match": {"decode_exact": true}}},
+    "aligned_a2_chat_decode_exact_docs": {
+      "kind": "count_rows", "export": "aligned_spans",
+      "path": "legs.a2_chat.per_doc",
+      "filter": {"match": {"decode_exact": true}}},
+    "aligned_p2_decode_exact_docs": {
+      "kind": "count_rows", "export": "aligned_spans",
+      "path": "legs.p2.per_doc",
+      "filter": {"match": {"decode_exact": true}}},
+    "cohort_A1_positives": {
+      "export": "aligned_spans", "docs_path": "legs.p2.per_doc",
+      "doc_id_field": "doc_id", "records_field": "promotions",
+      "class_field": "type", "class_values": ["PROMOTION"],
+      "leg": "p2", "span_field": "span", "value_field": "value",
+      "evidence_field": "span_text", "span_units": "token_ids"},
+    "cohort_A1_negatives": {
+      "export": "aligned_spans", "docs_path": "legs.p2.per_doc",
+      "doc_id_field": "doc_id", "records_field": "node_rows",
+      "class_field": "node", "class_values": ["DERIVED-VERIFIED"],
+      "leg": "p2", "span_field": "span", "value_field": "value",
+      "evidence_field": "marker", "span_units": "token_ids"},
+    "cohort_A2_positives": {
+      "export": "aligned_spans",
+      "docs_path": [{"path": "legs.a2_raw.per_doc", "leg": "raw"},
+                    {"path": "legs.a2_chat.per_doc", "leg": "chat"}],
+      "doc_id_field": "doc_id", "records_field": "statements",
+      "class_field": "verdict", "class_values": [false],
+      "span_field": "span", "value_field": "stated",
+      "span_units": "token_ids"},
+    "cohort_A2_negatives": {
+      "export": "aligned_spans",
+      "docs_path": [{"path": "legs.a2_raw.per_doc", "leg": "raw"},
+                    {"path": "legs.a2_chat.per_doc", "leg": "chat"}],
+      "doc_id_field": "doc_id", "records_field": "statements",
+      "class_field": "verdict", "class_values": [true],
+      "span_field": "span", "value_field": "stated",
+      "span_units": "token_ids"}
+  }
+}

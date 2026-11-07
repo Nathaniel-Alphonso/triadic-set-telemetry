@@ -1,0 +1,363 @@
+{
+ "bindings": {
+  "17a_chat_genuine_slips": {
+   "docs_path": "per_doc",
+   "export": "17a_chat",
+   "kind": "count_nested",
+   "list_field": "slips"
+  },
+  "17a_chat_slip_rate_print": {
+   "decimals": 2,
+   "den": {
+    "docs_path": "per_doc",
+    "export": "17a_chat",
+    "kind": "count_nested",
+    "list_field": "statements"
+   },
+   "kind": "rate_print",
+   "num": {
+    "docs_path": "per_doc",
+    "export": "17a_chat",
+    "kind": "count_nested",
+    "list_field": "slips"
+   }
+  },
+  "17a_raw_genuine_slips": {
+   "docs_path": "per_doc",
+   "export": "17a_raw",
+   "kind": "count_nested",
+   "list_field": "slips"
+  },
+  "17a_raw_slip_rate_print": {
+   "decimals": 2,
+   "den": {
+    "docs_path": "per_doc",
+    "export": "17a_raw",
+    "kind": "count_nested",
+    "list_field": "statements"
+   },
+   "kind": "rate_print",
+   "num": {
+    "docs_path": "per_doc",
+    "export": "17a_raw",
+    "kind": "count_nested",
+    "list_field": "slips"
+   }
+  },
+  "17p2_conflicts": {
+   "docs_path": "legs.raw.docs",
+   "export": "17p2",
+   "filter": {
+    "match": {
+     "type": "CONFLICT"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "p2.events"
+  },
+  "17p2_control": {
+   "docs_path": "legs.raw.docs",
+   "export": "17p2",
+   "filter": {
+    "match": {
+     "type": "CONTROL-FIRING"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "p2.events"
+  },
+  "17p2_derived_verified": {
+   "docs_path": "legs.raw.docs",
+   "export": "17p2",
+   "filter": {
+    "match": {
+     "node": "DERIVED-VERIFIED"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "p2.nodes"
+  },
+  "17p2_desire_engaged": {
+   "export": "17p2",
+   "kind": "read_value",
+   "path": "legs.raw.m3.desire_engaged"
+  },
+  "17p2_established": {
+   "export": "17p2",
+   "kind": "read_value",
+   "path": "legs.raw.m3.established"
+  },
+  "17p2_immune": {
+   "export": "17p2",
+   "kind": "read_value",
+   "path": "legs.raw.m3.fails_open_immune"
+  },
+  "17p2_promotions": {
+   "docs_path": "legs.raw.docs",
+   "export": "17p2",
+   "filter": {
+    "match": {
+     "type": "PROMOTION"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "p2.events"
+  },
+  "17p2_silence": {
+   "export": "17p2",
+   "kind": "read_value",
+   "path": "legs.raw.m4.blank_answers"
+  },
+  "aligned_a2_chat_clean": {
+   "docs_path": "legs.a2_chat.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "verdict": true
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "statements"
+  },
+  "aligned_a2_chat_decode_exact_docs": {
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "decode_exact": true
+    }
+   },
+   "kind": "count_rows",
+   "path": "legs.a2_chat.per_doc"
+  },
+  "aligned_a2_chat_slips": {
+   "docs_path": "legs.a2_chat.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "verdict": false
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "statements"
+  },
+  "aligned_a2_chat_spanned": {
+   "export": "aligned_spans",
+   "kind": "read_value",
+   "path": "legs.a2_chat.statements_spanned"
+  },
+  "aligned_a2_chat_statements": {
+   "docs_path": "legs.a2_chat.per_doc",
+   "export": "aligned_spans",
+   "kind": "count_nested",
+   "list_field": "statements"
+  },
+  "aligned_a2_raw_clean": {
+   "docs_path": "legs.a2_raw.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "verdict": true
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "statements"
+  },
+  "aligned_a2_raw_decode_exact_docs": {
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "decode_exact": true
+    }
+   },
+   "kind": "count_rows",
+   "path": "legs.a2_raw.per_doc"
+  },
+  "aligned_a2_raw_slips": {
+   "docs_path": "legs.a2_raw.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "verdict": false
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "statements"
+  },
+  "aligned_a2_raw_spanned": {
+   "export": "aligned_spans",
+   "kind": "read_value",
+   "path": "legs.a2_raw.statements_spanned"
+  },
+  "aligned_a2_raw_statements": {
+   "docs_path": "legs.a2_raw.per_doc",
+   "export": "aligned_spans",
+   "kind": "count_nested",
+   "list_field": "statements"
+  },
+  "aligned_p2_decode_exact_docs": {
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "decode_exact": true
+    }
+   },
+   "kind": "count_rows",
+   "path": "legs.p2.per_doc"
+  },
+  "aligned_p2_derived_verified_occurrences": {
+   "docs_path": "legs.p2.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "node": "DERIVED-VERIFIED"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "node_rows"
+  },
+  "aligned_p2_node_absent": {
+   "docs_path": "legs.p2.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "locator": "value-absent"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "node_rows"
+  },
+  "aligned_p2_node_rows": {
+   "docs_path": "legs.p2.per_doc",
+   "export": "aligned_spans",
+   "kind": "count_nested",
+   "list_field": "node_rows"
+  },
+  "aligned_p2_node_unique": {
+   "docs_path": "legs.p2.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "locator": "unique"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "node_rows"
+  },
+  "aligned_p2_promotion_spans": {
+   "docs_path": "legs.p2.per_doc",
+   "export": "aligned_spans",
+   "filter": {
+    "match": {
+     "type": "PROMOTION"
+    }
+   },
+   "kind": "count_nested",
+   "list_field": "promotions"
+  },
+  "cohort_A1_negatives": {
+   "class_field": "node",
+   "class_values": [
+    "DERIVED-VERIFIED"
+   ],
+   "doc_id_field": "doc_id",
+   "docs_path": "legs.p2.per_doc",
+   "evidence_field": "marker",
+   "export": "aligned_spans",
+   "leg": "p2",
+   "records_field": "node_rows",
+   "span_field": "span",
+   "span_units": "token_ids",
+   "value_field": "value"
+  },
+  "cohort_A1_positives": {
+   "class_field": "type",
+   "class_values": [
+    "PROMOTION"
+   ],
+   "doc_id_field": "doc_id",
+   "docs_path": "legs.p2.per_doc",
+   "evidence_field": "span_text",
+   "export": "aligned_spans",
+   "leg": "p2",
+   "records_field": "promotions",
+   "span_field": "span",
+   "span_units": "token_ids",
+   "value_field": "value"
+  },
+  "cohort_A2_negatives": {
+   "class_field": "verdict",
+   "class_values": [
+    true
+   ],
+   "doc_id_field": "doc_id",
+   "docs_path": [
+    {
+     "leg": "raw",
+     "path": "legs.a2_raw.per_doc"
+    },
+    {
+     "leg": "chat",
+     "path": "legs.a2_chat.per_doc"
+    }
+   ],
+   "export": "aligned_spans",
+   "records_field": "statements",
+   "span_field": "span",
+   "span_units": "token_ids",
+   "value_field": "stated"
+  },
+  "cohort_A2_positives": {
+   "class_field": "verdict",
+   "class_values": [
+    false
+   ],
+   "doc_id_field": "doc_id",
+   "docs_path": [
+    {
+     "leg": "raw",
+     "path": "legs.a2_raw.per_doc"
+    },
+    {
+     "leg": "chat",
+     "path": "legs.a2_chat.per_doc"
+    }
+   ],
+   "export": "aligned_spans",
+   "records_field": "statements",
+   "span_field": "span",
+   "span_units": "token_ids",
+   "value_field": "stated"
+  }
+ },
+ "cache_bindings": {
+  "chat": {
+   "pin": "a2_chat_cache"
+  },
+  "p2": {
+   "pin": "p2_cache_r2"
+  },
+  "raw": {
+   "pin": "a2_raw_cache"
+  }
+ },
+ "map_name": "cd1_arm_a_field_map_v1",
+ "map_version": "1",
+ "notes": [
+  "the candidate map of the B0 pre-reg section 3: every banked receipt bound to the census's own field names; the reconciliation gate ran 28/28 exact against the pinned bytes before this draft reached his door (the item-1132 rehearsal; zero mismatches, zero discoveries)",
+  "A1 negatives bind the aligned export's DERIVED-VERIFIED occurrence rows (4,062 rows, every one spanned; the 630 distinct nodes by (doc_id, i) reconcile exactly with the banked 17p2_derived_verified census -- both classes named, never conflated; his stamps decide the pairing pool)",
+  "A2 positives/negatives bind the raw + chat legs as one leg-union (the item-1132 map-schema amendment; verdict False = the A2 positives, verdict True = the A2 negatives, per his item-1128 ruling 2)",
+  "cache_bindings: raw -> a2_raw_cache, chat -> a2_chat_cache, p2 -> p2_cache_r2; the join rides doc_id within each bound cache, the join receipt names every row",
+  "the map binds no commit_coverage block: the --run coverage boundary rides the NAMED GAP receipt (the item-1104/1110 law: the caches bank generation-side operand states only), presented at his door, never guessed"
+ ],
+ "stamp": {
+  "his_gate_console": {
+   "candidate_map_sha_prefix": "65776631f49d6f7d",
+   "date": "Oct 30 2026",
+   "pins_asserted": 8,
+   "result": "ALL 28 BANKED RECEIPTS RECONCILED -- the map is the ACCEPTED CANDIDATE"
+  },
+  "owner_stamp": "per his thread ruling (the item-1134 stamp-act redesign): 'i do it on yours as agreement' -- the stamp rides his thread agreement, rendered his side, his words verbatim, the tool never writes it",
+  "pin_law": "the map pins at his --map-sha console line -- the load-bearing pin; the builder hard-exits on any divergence; the gate re-runs on this stamped map inside --run",
+  "rendered": "Oct 30 2026, his side, per the item-1134 ruling"
+ }
+}
