@@ -35,4 +35,4 @@ The rework under adjudication is a direction reversal, and it is grounded in a b
 
 ## 6. What this phase does not do
 
-No actuation. No wiring. No threshold set, moved, or adjudicated. No re-adjudication of banked dispositions. No retro-fitting of margins to banked walks. Nothing built or run before its pre-registration carries the author's stamp.
+No actuation. No wiring. No threshold set, moved, or adjudicated. No re-adjudication of banked dispositions. No retro-fitting of margins to banked walks. Nothing built or run before its pre-registration carries my stamp.

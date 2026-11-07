@@ -1,6 +1,6 @@
 # Sanitization receipts — scripts/plumbing/
 
-Content-check disposition record for the §3B plumbing tier (author-approved verdict list, Nov 6–7, 2026).
+Content-check disposition record for the §3B plumbing tier (my approved verdict list, Nov 6–7, 2026).
 Marker: `[REDACTED_PER_PUBLICATION_POLICY]`. The marker replaces only the threshold-constant literal; all
 redactions sit in compliance/theta-note banner strings (verified per line). Dropped-lines: 0 (no rule-prose
 lines in this tier). Path-trims: none needed (working-root constants are generic sandbox paths, not machine

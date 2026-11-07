@@ -1,10 +1,10 @@
 # Audit Engagements — the External-Review Boundary Protocol (Public Protocol Summary)
 
-External analyses arrive at the author's hand — audit documents from other models proposing joins, diagnoses, aggregations, and verdicts against the banked record. This document is the protocol record of how each engagement is received: critical, never blind; corrections kept, never flattered; premises tested, never assumed. Findings are presented; the author's stamps decide.
+External analyses arrive at my hand — audit documents from other models proposing joins, diagnoses, aggregations, and verdicts against the banked record. This document is the protocol record of how each engagement is received: critical, never blind; corrections kept, never flattered; premises tested, never assumed. Findings are presented; my stamps decide.
 
 ## 1. The charge and the posture
 
-Each audit arrives with the author's charge: engage with the content — not blind acceptance, but never discard valid corrections. The act is a **boundary check**: verify the audit's arithmetic against the banked constants, test its factual premises against the caches and consoles of record, sort the viable from the broken, and present recommendations at the author's stamps. Presented, never adjudicated — an audit's findings carry no program authority of their own.
+Each audit arrives with my charge: engage with the content — not blind acceptance, but never discard valid corrections. The act is a **boundary check**: verify the audit's arithmetic against the banked constants, test its factual premises against the caches and consoles of record, sort the viable from the broken, and present recommendations at my stamps. Presented, never adjudicated — an audit's findings carry no program authority of their own.
 
 ## 2. The pattern — offline, pure, fail-loud
 
@@ -18,7 +18,7 @@ Document-checking necessarily precedes pre-registration. The law: whatever the c
 
 ## 4. The bar law — projections may be presented, verdicts may not
 
-The separation bar's interpretation on a joined composite is the one question the boundary check holds open. A boundary check bounds, never reads, the bar: an audit may project, and a projection is presented as a projection — but an audit that renders a bar verdict on the joined composite has adjudicated a question that belongs to the join act at the author's stamps, and the verdict is struck from the corrected directive. Doors are presented, never opened without stamps.
+The separation bar's interpretation on a joined composite is the one question the boundary check holds open. A boundary check bounds, never reads, the bar: an audit may project, and a projection is presented as a projection — but an audit that renders a bar verdict on the joined composite has adjudicated a question that belongs to the join act at my stamps, and the verdict is struck from the corrected directive. Doors are presented, never opened without stamps.
 
 ## 5. Provenance and population discipline
 
@@ -32,4 +32,4 @@ The engagement keeps valid corrections: where an audit's reasoning repaired a st
 
 ## 7. What these engagements never do
 
-No join performed, no bar read, no outcome read beyond the banked receipts. No composite reweighted, no feature dropped, no threshold set, moved, or adjudicated. Nothing armed, nothing wired. The audits sort viable from broken at the author's stamps — and the stamps, only the stamps, decide.
+No join performed, no bar read, no outcome read beyond the banked receipts. No composite reweighted, no feature dropped, no threshold set, moved, or adjudicated. Nothing armed, nothing wired. The audits sort viable from broken at my stamps — and the stamps, only the stamps, decide.

@@ -18,7 +18,7 @@ Modern inference stacks already accept this premise implicitly: they burn comput
 
 ## Current State
 
-**Where the testing stands (Nov 2026):** the five-phase empirical record below is complete and fully published. The program's live work front is Stage 1 of the **Master Validation Sequence** (the forward-pass pre-registrations), with the splitter build act in progress and the remaining pre-registrations standing at the author's word. On the model ladder, the 3B transfer is complete and receipted; the 8B record lane is the open front. The full forward structure is mapped in [Where the Program Stands](#where-the-program-stands).
+**Where the testing stands (Nov 2026):** the five-phase empirical record below is complete and fully published. The program's live work front is Stage 1 of the **Master Validation Sequence** (the forward-pass pre-registrations), with the splitter build act in progress and the remaining pre-registrations standing at my word. On the model ladder, the 3B transfer is complete and receipted; the 8B record lane is the open front. The full forward structure is mapped in [Where the Program Stands](#where-the-program-stands).
 
 ---
 
@@ -139,19 +139,19 @@ The five phases above are fully published, and the program continues under two s
 - the **ten-step refinement spine**, the mechanism-refinement program. Its first step (the operating-threshold re-derivation) is in progress; the refinement steps behind it are unopened; the reconciliation review comes last. This is how the mechanism itself gets refined.
 - the **Master Validation Sequence**, the staged remaining-test list, ordered to build on the refinement program's outputs. This is what remains to be tested, and in what order.
 
-The spine produces the mechanism; the Sequence tests it. The interlock is active today: the spine's first step is executing through the Sequence's Stage-1 acts, and both ladders close at the same table. After the Sequence's stages and the refinement steps, the reconciliation review reads all data gotten against the truth labels of record, the author's stamps adjudicating.
+The spine produces the mechanism; the Sequence tests it. The interlock is active today: the spine's first step is executing through the Sequence's Stage-1 acts, and both ladders close at the same table. After the Sequence's stages and the refinement steps, the reconciliation review reads all data gotten against the truth labels of record, my stamps adjudicating.
 
 | Stage | What it is | Status |
 | :--- | :--- | :--- |
 | **Stage 0** | The paper closers (4 items) | Standing open |
-| **Stage 1** | The forward-pass pre-registrations (5 items) | The validation-phase readout instrument ran author-side green end-to-end; the splitter pre-registration is stamped with its build act in progress; the remaining pre-registrations are drafted or standing at the author's word |
+| **Stage 1** | The forward-pass pre-registrations (5 items) | The validation-phase readout instrument ran green end-to-end on my machine; the splitter pre-registration is stamped with its build act in progress; the remaining pre-registrations are drafted or standing at my word |
 | **Stage 2** | The splitter's ground truth: the mixed-regime corpus/fixture build | Unopened |
 | **Stage 3** | The restoration ladder: one actuator per run pair, on GPU | Unopened |
 | **Stage 4** | The wiring phase: live actuation behind the acceptances | Unopened |
 | **Stage 5** | The model ladder: the scale transfers (the Phase 4 record above) | 3B complete and receipted; the 8B record lane ongoing |
 | **Stage 6** | Regime B: the multi-turn harness and the agentic-regime gates | Unopened |
 
-Actuation follows acceptance: instruments present findings, and the author's stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
+Actuation follows acceptance: instruments present findings, and my stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
 
 The phase list itself stays open: Sequence stages land as new record chapters. Stage 5's landing completes Phase 4, and the agentic regime (Stage 6) opens the next chapter when it lands.
 

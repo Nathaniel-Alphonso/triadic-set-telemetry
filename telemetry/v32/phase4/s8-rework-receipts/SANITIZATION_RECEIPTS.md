@@ -1,6 +1,6 @@
 # Sanitization receipts — telemetry/v32/phase4/ (Lane J)
 
-Disposition record for the phase-4 receipts lane (author-approved verdicts, Nov 7, 2026).
+Disposition record for the phase-4 receipts lane (my approved verdicts, Nov 7, 2026).
 Marker: `[REDACTED_PER_PUBLICATION_POLICY]`.
 
 Redaction class applied (the entry-level-set class, per the results-lane standing ruling):

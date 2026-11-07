@@ -1,6 +1,6 @@
 # Fixture Validation Suites (Public Protocol Summary)
 
-An offline pass measures an oracle against *natural* generations. A fixture suite measures it against **authored truth**: documents we write with the fault — or the harmlessness — engineered in, every row's ground truth verified before the oracle ever reads it. The suite measures the oracle, never the model; engineered fixtures complement the natural corpora and never re-read or re-adjudicate them. The suites of record are published in `fixtures/` (arith, code, prose); this document is the protocol record of how they were built and what accepting an oracle on them means.
+An offline pass measures an oracle against *natural* generations. A fixture suite measures it against **authored truth**: documents I write with the fault — or the harmlessness — engineered in, every row's ground truth verified before the oracle ever reads it. The suite measures the oracle, never the model; engineered fixtures complement the natural corpora and never re-read or re-adjudicate them. The suites of record are published in `fixtures/` (arith, code, prose); this document is the protocol record of how they were built and what accepting an oracle on them means.
 
 ## 1. The fixture law (shared by every suite)
 
@@ -20,8 +20,8 @@ An offline pass measures an oracle against *natural* generations. A fixture suit
 
 ## 3. Per-arm notes
 
-- **Arith.** Both anchor families (inline and scratchpad) instantiated per class where the class permits. The display conventions the oracle left open are author-stamped at fixture time: truncation displays ruled legal by convention (a genuine slip never equals its own truncation); compression notations carried as a censused note-class, not charged damage, with any future guard named a wiring-phase design candidate. The tolerance form itself is banked and unchanged.
-- **Code.** Every runnable row asserts meter determinism at build. Randomized harnesses appear only in their seeded form (fixed seed, deterministic by law) and carry their own recorded rule fixed at fixture time. The meter budget is pinned from the measured cost distribution at fixture time, author-stamped, and rides to wiring as the enforcement ceiling; its value lives in the results record.
+- **Arith.** Both anchor families (inline and scratchpad) instantiated per class where the class permits. The display conventions the oracle left open are stamped by me at fixture time: truncation displays ruled legal by convention (a genuine slip never equals its own truncation); compression notations carried as a censused note-class, not charged damage, with any future guard named a wiring-phase design candidate. The tolerance form itself is banked and unchanged.
+- **Code.** Every runnable row asserts meter determinism at build. Randomized harnesses appear only in their seeded form (fixed seed, deterministic by law) and carry their own recorded rule fixed at fixture time. The meter budget is pinned from the measured cost distribution at fixture time, stamped by me, and rides to wiring as the enforcement ceiling; its value lives in the results record.
 - **Prose.** Firing classes are typed across the full loud/subtle × raw/chat sub-matrix, so the register question — does the authored record preserve or collapse the register asymmetry the natural record showed — is itself a measured reading. Every rate the prose record banked is elicitation-conditioned and carries that term with it into the suite.
 
 ## 4. Acceptance — the replay contract
@@ -38,4 +38,4 @@ Acceptance outcomes for each arm live in the results record; the suites, builder
 
 ## 5. What the suites do not do
 
-No model. No generation. No natural-corpus re-read; nothing re-derived from a banked artifact. No threshold adjudication — the conventions named here are fixture-time author stamps. No actuation, no wiring, no trigger decisions. The suites emit the fault-ledger lines a future localization pass may consume; they consume nothing. The author's stamps adjudicate every reading — these suites present, never adjudicate.
+No model. No generation. No natural-corpus re-read; nothing re-derived from a banked artifact. No threshold adjudication — the conventions named here are my fixture-time stamps. No actuation, no wiring, no trigger decisions. The suites emit the fault-ledger lines a future localization pass may consume; they consume nothing. My stamps adjudicate every reading — these suites present, never adjudicate.

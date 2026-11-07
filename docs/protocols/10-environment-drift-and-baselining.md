@@ -36,8 +36,8 @@ The decisive guard is a bit-identity join: the held sweep's control points must 
 
 ## 8. No re-derivations
 
-Every number consumed at adjudication comes from the uploaded exports — export-to-export joins only. If a needed number is not in an artifact, the file is named and the author is asked; nothing is recomputed. The child-of-the-environment labeling (doc 05 §2) and the drift-equals-new-bank-line law (doc 09 §2) are this protocol's standing downstream consumers.
+Every number consumed at adjudication comes from the uploaded exports — export-to-export joins only. If a needed number is not in an artifact, the file is named and I am asked; nothing is recomputed. The child-of-the-environment labeling (doc 05 §2) and the drift-equals-new-bank-line law (doc 09 §2) are this protocol's standing downstream consumers.
 
 ## 9. What this protocol does not do
 
-No threshold moves in any branch. No acceptance criterion loosened. No banked number edited, re-derived, or re-stamped by the adjudication. No cause-hunting. Nothing runs before its pre-registration carries the author's stamp.
+No threshold moves in any branch. No acceptance criterion loosened. No banked number edited, re-derived, or re-stamped by the adjudication. No cause-hunting. Nothing runs before its pre-registration carries my stamp.
