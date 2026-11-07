@@ -8,7 +8,7 @@ The development lane exists to exhaust every candidate mechanic on development b
 
 ## 2. Paper before build — the pinning stamp
 
-Every sheet is drafted on paper before any build, before any read, and presented for the owner's pinning stamp. At the stamp the bytes freeze: the sheet is never edited after, its checksum is re-verified at every subsequent act, and amendments ride the ledger, never the file. Nothing builds, reads, or runs until its sheet carries the stamp. Zero GPU at draft; zero decodes at the probe stage; the caches never leave the owner's machine; every run is owner-side.
+Every sheet is drafted on paper before any build, before any read, and presented for the author's pinning stamp. At the stamp the bytes freeze: the sheet is never edited after, its checksum is re-verified at every subsequent act, and amendments ride the ledger, never the file. Nothing builds, reads, or runs until its sheet carries the stamp. Zero GPU at draft; zero decodes at the probe stage; the caches never leave the author's machine; every run is author-side.
 
 ## 3. Probes decide nothing
 
@@ -31,4 +31,4 @@ The record lane's acceptance bar is computed on record-lane bytes at the record 
 
 ## 7. What this lane does not do
 
-No threshold set, moved, or adjudicated on development data. No candidate promoted without the record lane's own stamped acts. No verdict rendered — findings are presented, and the owner's stamps decide. Nothing runs before its sheet carries the pinning stamp.
+No threshold set, moved, or adjudicated on development data. No candidate promoted without the record lane's own stamped acts. No verdict rendered — findings are presented, and the author's stamps decide. Nothing runs before its sheet carries the pinning stamp.

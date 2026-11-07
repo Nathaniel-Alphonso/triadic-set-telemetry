@@ -6,11 +6,11 @@ Before any Gate 17 arm reaches fixture design, it banks its natural censuses: wh
 
 1. **Offline by law.** A pass reads banked artifacts only — saved generations, rejudged label files, prompt manifests, census records. It never loads the model, never touches the compute environment, and never interacts with any held or in-flight program.
 2. **Never re-derive what is banked.** A number that exists in a dumped artifact is quoted, not recomputed. A pass creates new numbers; it never adjudicates old ones.
-3. **Pre-register before run.** Each pass executes per its pre-registered document only, and only after the owner's stamp. Nothing is built or run unless it was pre-registered first.
+3. **Pre-register before run.** Each pass executes per its pre-registered document only, and only after the author's stamp. Nothing is built or run unless it was pre-registered first.
 4. **The manifest and the VOID rule.** Every input is named in a pinned artifact manifest. If any input cannot be satisfied from banked files, the pass **VOIDs** — no substitute input is used, and nothing is re-run to fill a gap.
-5. **Integrity gates on receipt, before execution.** Checksums computed on received files must match the owner's own console line; record counts reconcile against the banked census; document-id joins must match exactly; pinned manifests must match their pre-generation checksums. Any mismatch is a void-class failure.
+5. **Integrity gates on receipt, before execution.** Checksums computed on received files must match the author's own console line; record counts reconcile against the banked census; document-id joins must match exactly; pinned manifests must match their pre-generation checksums. Any mismatch is a void-class failure.
 6. **One record of authority.** Each pass writes a single export JSON (console tee'd, checksummed); it is read-only on its inputs.
-7. **Descriptive only.** No pass sets, moves, or adjudicates any threshold. Its pre-registered readings are presented to the owner; governance consequences flow only through owner stamps.
+7. **Descriptive only.** No pass sets, moves, or adjudicates any threshold. Its pre-registered readings are presented to the author; governance consequences flow only through author stamps.
 
 ## 2. The arithmetic checker pass — the content channel's first rung
 
@@ -31,7 +31,7 @@ What the pass produces that no banked artifact contained:
 
 - **The extraction census** — block yield and failure classes on the corpus's actual generations, with every unverified class censused, never hidden (the fails-open law).
 - **The deterministic-meter census** — the first empirical test of the deterministic-meter law: identical code must produce identical meter counts across repetitions. Any meter flip voids the cost numbers and sends the meter implementation back to rework.
-- **The cost census** — the measured distribution from which the arm banks its execution ceiling and pins its meter budget (a fixture-time decision, owner-stamped; the ceiling does not inherit from any other arm).
+- **The cost census** — the measured distribution from which the arm banks its execution ceiling and pins its meter budget (a fixture-time decision, author-stamped; the ceiling does not inherit from any other arm).
 - **Post-block-commitment volume** — the evidence gate for in-loop blocking execution (Tier 2): it is proposed with costed numbers or not proposed, on this measurement, not on argument.
 - **The fault-ledger contract** — the event schema every future consumer of this arm is written against.
 
@@ -49,4 +49,4 @@ The prose oracles had no banked corpus, so the pass designed one: a purpose-buil
 
 ## 5. What these passes do not do
 
-No actuation. No wiring. No trigger decisions. No re-derivations of banked numbers. No interaction with held or in-flight programs. Each pass feeds fixture design and the acceptance drafts — nothing else — and the owner's stamps adjudicate every reading.
+No actuation. No wiring. No trigger decisions. No re-derivations of banked numbers. No interaction with held or in-flight programs. Each pass feeds fixture design and the acceptance drafts — nothing else — and the author's stamps adjudicate every reading.

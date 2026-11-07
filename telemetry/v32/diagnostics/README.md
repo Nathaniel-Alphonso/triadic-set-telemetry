@@ -62,5 +62,5 @@ Files:
 ## Route note
 
 `triadic_wu_code_read_v1.json` (26,209,382 B) exceeds the API push ceiling
-and is pushed by the repo owner via git; its integrity pointer (sha256) is in
+and is pushed directly via git; its integrity pointer (sha256) is in
 `wu-read-receipts/SANITIZATION_RECEIPTS.md`.

@@ -12,5 +12,5 @@ staged 60,000-character wrapped copies, joined exactly at push time.
 
 `triadic_wu_code_read_v1.json` — 26,209,382 B, sha256
 `610d48c9689c07c7859fd84fadfe14fdb7259bb8eb572da4e0b9d1ef025db689` —
-exceeds the API push ceiling; published by the repo owner via git push
+exceeds the API push ceiling; published directly via git push
 (the Lane F big-cache route). This row is the integrity pointer for that push.

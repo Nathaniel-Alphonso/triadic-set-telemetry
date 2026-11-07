@@ -43,19 +43,19 @@ Eight rungs, ordered so the cheapest honest kill comes first and the integrated 
 - **The cleanliness receipt.** The working directory is listed for strays from aborted attempts and cleaned before record walks — a stray cache carried into a record walk is a contaminated line by construction.
 - **The banner-first law.** The layer line is read by the operator's own eyes before every launch, and a mismatch kills on sight: the wrong model at the wrong rung is a session-ending event, not a note.
 - **Shared legs run once, serving every consumer.** A record walk that several downstream rungs consume is never re-walked for convenience; downstream rungs wait on it and read its receipts.
-- **Offline acts never block the session.** Passes, joins, and adjudications run CPU-local on banked bytes at zero rental cost, interleaved at the owner's word — the GPU legs are the session; everything mechanical happens after them.
+- **Offline acts never block the session.** Passes, joins, and adjudications run CPU-local on banked bytes at zero rental cost, interleaved at the author's word — the GPU legs are the session; everything mechanical happens after them.
 - **Host honesty.** The record host is named with the model change, never hidden: the hardware rides with the scale as a named bundle, and every cross-scale comparison says which host it ran on.
 
 ## 7. The 3B rung — an honest skip
 
-The 3B rung was closed as skipped by owner ruling on the evidence then in hand. Its development receipts remain in the record as a caution, never as a comparison basis: no 3B number is read against either neighbor rung, and the ladder's question passes to 8B unanswered at 3B — stated plainly rather than papered over.
+The 3B rung was closed as skipped by the author's ruling on the evidence then in hand. Its development receipts remain in the record as a caution, never as a comparison basis: no 3B number is read against either neighbor rung, and the ladder's question passes to 8B unanswered at 3B — stated plainly rather than papered over.
 
 ## 8. Ownership and receipts
 
-- **Owner-side runs only.** Every GPU leg runs at the owner's single-session word, on the owner's side of the interface; the assistant side executes zero decodes. The ladder's evidence is the owner's runs, or it does not exist.
+- **Author-side runs only.** Every GPU leg runs at the author's single-session word, on the author's side of the interface; the assistant side executes zero decodes. The ladder's evidence is the author's runs, or it does not exist.
 - **Namespace law.** Every artifact at a new rung carries the rung's own tag namespace — a scale's artifacts are collision-guarded by construction, and walk-identity receipts confirm zero prior-scale text in the new artifacts.
 - **Checksummed inputs.** Model shards are checksummed at download and the checksums banked; a drifted shard is a hard exit, never a warning.
 
 ## 9. What this ladder does not do
 
-No rescue: a sub-bar read is banked, never re-worked into a pass. No silent basis change. No threshold set, moved, or adjudicated at any rung. No calibration carried between scales. No comparison against a skipped rung's receipts. Nothing runs before its pre-registration carries the owner's stamp.
+No rescue: a sub-bar read is banked, never re-worked into a pass. No silent basis change. No threshold set, moved, or adjudicated at any rung. No calibration carried between scales. No comparison against a skipped rung's receipts. Nothing runs before its pre-registration carries the author's stamp.

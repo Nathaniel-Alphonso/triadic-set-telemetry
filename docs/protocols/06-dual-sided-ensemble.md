@@ -16,7 +16,7 @@ A clean fire-rate budget is pinned per leg and split across the armed sides. Thr
 
 ## 4. Failure forensics — the standing directive
 
-Every failing or near-bar leg readout carries the interpretive block: **how** it failed (which population, which tail, the mechanism shape), **where** (the leg, document, and step localization the telemetry allows), **why** (the story the numbers tell, honestly separated from the verdict statistic), and **what next** (the educated options). Presented for the owner's stamps — never cherry-picked, never silently skipped.
+Every failing or near-bar leg readout carries the interpretive block: **how** it failed (which population, which tail, the mechanism shape), **where** (the leg, document, and step localization the telemetry allows), **why** (the story the numbers tell, honestly separated from the verdict statistic), and **what next** (the educated options). Presented for the author's stamps — never cherry-picked, never silently skipped.
 
 ## 5. No fallback
 

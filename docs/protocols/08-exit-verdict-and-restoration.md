@@ -46,4 +46,4 @@ The restoration layer cannot deploy before the telemetry proves detector separat
 
 ## 9. What this layer does not do
 
-No threshold set, moved, or adjudicated. No actuator fires in evaluation — every evaluation walk runs under the monitor-walk law (doc 05 §2). No verdict re-scores a banked disposition. No grade is computed from anything the model said about itself. Nothing deploys before its pre-registration carries the owner's stamp.
+No threshold set, moved, or adjudicated. No actuator fires in evaluation — every evaluation walk runs under the monitor-walk law (doc 05 §2). No verdict re-scores a banked disposition. No grade is computed from anything the model said about itself. Nothing deploys before its pre-registration carries the author's stamp.
