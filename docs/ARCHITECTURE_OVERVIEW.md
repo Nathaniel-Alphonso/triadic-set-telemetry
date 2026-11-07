@@ -121,7 +121,7 @@ The oracles are exercised by engineered fixture suites — hundreds of typed pos
 
 ## The Interface Gates — Multi-Turn Deployment (AG-1–3)
 
-The forward-pass gates bound degenerate trajectories; they do not floor per-turn success. Any workflow-level lift in multi-turn deployment must come from the interface gates — and that lift is *measured, never assumed*. All three await the conversational harness (Phase 5); no multi-turn number is claimed before it exists.
+The forward-pass gates bound degenerate trajectories; they do not floor per-turn success. Any workflow-level lift in multi-turn deployment must come from the interface gates — and that lift is *measured, never assumed*. All three await the conversational harness (Stage 6); no multi-turn number is claimed before it exists.
 
 | Gate | Function |
 | :--- | :--- |
@@ -135,10 +135,10 @@ The forward-pass gates bound degenerate trajectories; they do not floor per-turn
 
 | Parameter / Dimension | Configuration Specification |
 | :--- | :--- |
-| **Target Architectures** | Llama family, walked up the model ladder: 1B → 3B → 8B parameters |
+| **Target Architectures** | Llama family, walked up the model ladder: 1B → 3B → 8B parameters; the published benchmark record rides the base Llama-3.2-1B, unmodified weights |
 | **Attention Backend** | Standard eager execution (fault-capture instrumentation) |
 | **Evaluation Benchmarks** | MMLU, GSM8K, HumanEval/MBPP, plus dedicated prose and sycophancy corpora (published in `corpora/`) |
-| **Sampling Strategy** | Deterministic greedy decoding |
+| **Sampling Strategy** | Deterministic greedy decoding for the program's generation legs; the founding Phase 2 evaluation scored MMLU by loglikelihood and sampled its GSM8K generation leg at temperature 0.8 under a 256-new-token cap |
 | **Governance Modes** | Per-gate toggles: every gate individually switchable, dormant-by-default verified |
 | **Regimes** | **A** — single-pass generation (all runtime gates); **B** — multi-turn deployment (interface gates) |
 
