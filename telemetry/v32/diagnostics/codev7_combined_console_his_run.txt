@@ -1,0 +1,204 @@
+=== THE COMBINED-SIDE DIAGNOSTIC, --combined MODE (his pinned caches, read-only, zero GPU, zero decodes) ===
+the two faces under the tool's OWN max-spine conjunction: D_new = max(D, z_refined, z_d2mass) per doc, cal and held and fixtures re-scored identically -- the refined-tail cell (P-B4, the masked E tail form read EXACTLY as the item-488 ledger computed it, never tuned) and the d2 zero-run-mass cell (P-A1, the pinned S face's run law mirrored onto d2, support = triples >= the swept gate); each z against its own cal reference; the triples gate swept 8/12/16 -- the sheet pins ONE at his word, never tuned to the answer
+the correction on the record before the read: the item-491 optimistic bound 1.980063 UNDERSTATED the fixture side -- under the combined species the d2 cell's biggest read belongs to loop-injection-code (already detected, m_d2 21, z 15.3266), its D lifting 7.989752 -> 15.326556 and WIDENING the loop sd 2.815408 -> 3.976060 -- the sd drag beats the mean lift, the honest fixture-side bound 1.606504 DOWN 0.0798 from the receipt with the k 7 -> 8 json flip live beside it (the level-fixed world)
+
+--- LEG mbpprw17 (cache pin MATCH, sha256 01708e89080d6f16...) ---
+  population parity: 200 cal + 200 held, exact match against the receipt's doc_rows
+  P-B4 CAL REFERENCE (the refined tail over 184 cal docs, 16 EMPTY named): mean 0.195457 sd 0.120401
+  fixture d2 mass across the gate sweep (the sheet pins ONE gate; the target's read named at every gate):
+    loop-injection-code         m_d2 at gates 8/12/16: 21 / 21 / 21
+    loop-seeded-chant           m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-code-line       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-countdown       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-json            m_d2 at gates 8/12/16: 8 / 8 / 8
+  --- GATE triples >= 8: the d2 cal reference mean 0.275000 sd 1.352227 (n_at_zero 189/200, n_pos 11) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 3.761841 -> 4.190546 (+0.428705)  |  k 7 -> 7
+      held mean/sd 1.583084/1.308408 -> 1.787326/2.174735  |  loop mean/sd 5.284890/2.815408 -> 6.338041/3.976063
+      THE GAP: 1.686262 -> 1.420070 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 7.931361 (doc 296) vs mask-stub's 4.177527 -- DEMOTED, the k flip eaten
+      the held-side lift (the S-lesson census): refined-only 15, d2-only 9, both 0
+      fixture lifts: ['loop-injection-code', 'loop-seeded-countdown', 'loop-seeded-json']  |  demotions: ['mask-reserved-stubborn']
+      loop-injection-code         D 7.989752 -> 15.326570  z_combined 15.3266
+      loop-injection-prose        D 8.507609 -> 8.507609  z_combined 0.4750
+      loop-seeded-affirm          D 6.843795 -> 6.843795  z_combined -0.2034
+      loop-seeded-chant           D 7.913068 -> 7.913068  z_combined 0.5237
+      loop-seeded-code-line       D 1.381425 -> 1.381425  z_combined -0.2034
+      loop-seeded-countdown       D 0.459473 -> 1.434110  z_combined 1.4341
+      loop-seeded-counter         D 6.352898 -> 6.352898  z_combined -0.2034
+      loop-seeded-cycle           D 5.730605 -> 5.730605  z_combined 0.1396
+      loop-seeded-json            D 3.492749 -> 5.712799  z_combined 5.7128
+      mask-reserved-stubborn      D 4.177527 -> 4.177527  z_combined 0.8630
+
+  --- GATE triples >= 12: the d2 cal reference mean 0.185000 sd 1.051811 (n_at_zero 191/200, n_pos 9) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 3.761841 -> 3.985311 (+0.223470)  |  k 7 -> 8
+      held mean/sd 1.583084/1.308408 -> 1.841890/2.516994  |  loop mean/sd 5.284890/2.815408 -> 6.956075/5.157695
+      THE GAP: 1.686262 -> 1.260228 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 8.380783 (doc 296) vs mask-stub's 4.177527 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 15, d2-only 10, both 0
+      fixture lifts: ['loop-injection-code', 'loop-seeded-countdown', 'loop-seeded-json']  |  demotions: []
+      loop-injection-code         D 7.989752 -> 19.789676  z_combined 19.7897
+      loop-injection-prose        D 8.507609 -> 8.507609  z_combined 0.4750
+      loop-seeded-affirm          D 6.843795 -> 6.843795  z_combined -0.1759
+      loop-seeded-chant           D 7.913068 -> 7.913068  z_combined 0.5237
+      loop-seeded-code-line       D 1.381425 -> 1.381425  z_combined -0.1759
+      loop-seeded-countdown       D 0.459473 -> 1.434110  z_combined 1.4341
+      loop-seeded-counter         D 6.352898 -> 6.352898  z_combined -0.1759
+      loop-seeded-cycle           D 5.730605 -> 5.730605  z_combined 0.1396
+      loop-seeded-json            D 3.492749 -> 7.430042  z_combined 7.4300
+      mask-reserved-stubborn      D 4.177527 -> 4.177527  z_combined 0.8630
+
+  --- GATE triples >= 16: the d2 cal reference mean 0.125000 sd 0.890697 (n_at_zero 195/200, n_pos 5) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 3.761841 -> 3.985311 (+0.223470)  |  k 7 -> 8
+      held mean/sd 1.583084/1.308408 -> 1.877826/2.558932  |  loop mean/sd 5.284890/2.815408 -> 7.461912/6.210179
+      THE GAP: 1.686262 -> 1.175734 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 9.964103 (doc 38) vs mask-stub's 4.177527 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 15, d2-only 12, both 0
+      fixture lifts: ['loop-injection-code', 'loop-seeded-countdown', 'loop-seeded-json']  |  demotions: []
+      loop-injection-code         D 7.989752 -> 23.436694  z_combined 23.4367
+      loop-injection-prose        D 8.507609 -> 8.507609  z_combined 0.4750
+      loop-seeded-affirm          D 6.843795 -> 6.843795  z_combined -0.1403
+      loop-seeded-chant           D 7.913068 -> 7.913068  z_combined 0.5237
+      loop-seeded-code-line       D 1.381425 -> 1.381425  z_combined -0.1403
+      loop-seeded-countdown       D 0.459473 -> 1.434110  z_combined 1.4341
+      loop-seeded-counter         D 6.352898 -> 6.352898  z_combined -0.1403
+      loop-seeded-cycle           D 5.730605 -> 5.730605  z_combined 0.1396
+      loop-seeded-json            D 3.492749 -> 8.841387  z_combined 8.8414
+      mask-reserved-stubborn      D 4.177527 -> 4.177527  z_combined 0.8630
+
+--- LEG prose17p-rw17 (cache pin MATCH, sha256 44ce73a97a7d2cdf...) ---
+  population parity: 310 cal + 310 held, exact match against the receipt's doc_rows
+  P-B4 CAL REFERENCE (the refined tail over 305 cal docs, 5 EMPTY named): mean 0.188923 sd 0.126210
+  fixture d2 mass across the gate sweep (the sheet pins ONE gate; the target's read named at every gate):
+    loop-injection-code         m_d2 at gates 8/12/16: 21 / 21 / 21
+    loop-seeded-chant           m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-code-line       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-countdown       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-json            m_d2 at gates 8/12/16: 8 / 8 / 8
+  --- GATE triples >= 8: the d2 cal reference mean 1.548387 sd 3.896216 (n_at_zero 238/310, n_pos 72) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 3.661808 -> 3.856420 (+0.194611)  |  k 7 -> 7
+      held mean/sd 1.564857/1.291498 -> 1.597450/1.311786  |  loop mean/sd 5.046200/2.865391 -> 5.190856/2.623393
+      THE GAP: 1.566454 -> 1.732595 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 8.585667 (doc 452) vs mask-stub's 5.395730 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 15, d2-only 6, both 0
+      fixture lifts: ['loop-seeded-countdown']  |  demotions: []
+      loop-injection-code         D 6.747266 -> 6.747266  z_combined 4.9924
+      loop-injection-prose        D 7.343166 -> 7.343166  z_combined -0.3974
+      loop-seeded-affirm          D 5.346657 -> 5.346657  z_combined -0.3974
+      loop-seeded-chant           D 8.745606 -> 8.745606  z_combined 0.0718
+      loop-seeded-code-line       D 1.395714 -> 1.395714  z_combined 0.1503
+      loop-seeded-countdown       D 0.263197 -> 1.709756  z_combined 1.7098
+      loop-seeded-counter         D 5.836502 -> 5.836502  z_combined 0.5644
+      loop-seeded-cycle           D 7.409848 -> 7.409848  z_combined 0.3281
+      loop-seeded-json            D 1.978317 -> 1.978317  z_combined 1.6559
+      mask-reserved-stubborn      D 5.395730 -> 5.395730  z_combined 1.6840
+
+  --- GATE triples >= 12: the d2 cal reference mean 1.358065 sd 3.582253 (n_at_zero 244/310, n_pos 66) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 3.661808 -> 3.878941 (+0.217133)  |  k 7 -> 7
+      held mean/sd 1.564857/1.291498 -> 1.594537/1.310018  |  loop mean/sd 5.046200/2.865391 -> 5.190856/2.623393
+      THE GAP: 1.566454 -> 1.734467 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 7.995508 (doc 452) vs mask-stub's 5.395730 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 15, d2-only 5, both 0
+      fixture lifts: ['loop-seeded-countdown']  |  demotions: []
+      loop-injection-code         D 6.747266 -> 6.747266  z_combined 5.4831
+      loop-injection-prose        D 7.343166 -> 7.343166  z_combined -0.3791
+      loop-seeded-affirm          D 5.346657 -> 5.346657  z_combined -0.3791
+      loop-seeded-chant           D 8.745606 -> 8.745606  z_combined 0.0718
+      loop-seeded-code-line       D 1.395714 -> 1.395714  z_combined 0.1503
+      loop-seeded-countdown       D 0.263197 -> 1.709756  z_combined 1.7098
+      loop-seeded-counter         D 5.836502 -> 5.836502  z_combined 0.5644
+      loop-seeded-cycle           D 7.409848 -> 7.409848  z_combined 0.3281
+      loop-seeded-json            D 1.978317 -> 1.978317  z_combined 1.8541
+      mask-reserved-stubborn      D 5.395730 -> 5.395730  z_combined 1.6840
+
+  --- GATE triples >= 16: the d2 cal reference mean 1.087097 sd 3.165678 (n_at_zero 257/310, n_pos 53) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 3.661808 -> 4.052826 (+0.391018)  |  k 7 -> 7
+      held mean/sd 1.564857/1.291498 -> 1.600106/1.316120  |  loop mean/sd 5.046200/2.865391 -> 5.211395/2.596109
+      THE GAP: 1.566454 -> 1.754630 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 7.237914 (doc 452) vs mask-stub's 5.395730 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 14, d2-only 7, both 1
+      fixture lifts: ['loop-seeded-countdown', 'loop-seeded-json']  |  demotions: []
+      loop-injection-code         D 6.747266 -> 6.747266  z_combined 6.2902
+      loop-injection-prose        D 7.343166 -> 7.343166  z_combined -0.3434
+      loop-seeded-affirm          D 5.346657 -> 5.346657  z_combined -0.3434
+      loop-seeded-chant           D 8.745606 -> 8.745606  z_combined 0.0718
+      loop-seeded-code-line       D 1.395714 -> 1.395714  z_combined 0.1503
+      loop-seeded-countdown       D 0.263197 -> 1.709756  z_combined 1.7098
+      loop-seeded-counter         D 5.836502 -> 5.836502  z_combined 0.5644
+      loop-seeded-cycle           D 7.409848 -> 7.409848  z_combined 0.3281
+      loop-seeded-json            D 1.978317 -> 2.183704  z_combined 2.1837
+      mask-reserved-stubborn      D 5.395730 -> 5.395730  z_combined 1.6840
+
+--- LEG p2corpus-rw17 (cache pin MATCH, sha256 81233388fcb5e333...) ---
+  population parity: 375 cal + 375 held, exact match against the receipt's doc_rows
+  P-B4 CAL REFERENCE (the refined tail over 354 cal docs, 21 EMPTY named): mean 0.147374 sd 0.100288
+  fixture d2 mass across the gate sweep (the sheet pins ONE gate; the target's read named at every gate):
+    loop-injection-code         m_d2 at gates 8/12/16: 21 / 21 / 21
+    loop-seeded-chant           m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-code-line       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-countdown       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-json            m_d2 at gates 8/12/16: 8 / 8 / 8
+  --- GATE triples >= 8: the d2 cal reference mean 1.154667 sd 3.072663 (n_at_zero 313/375, n_pos 62) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 4.294685 -> 4.695611 (+0.400926)  |  k 6 -> 6
+      held mean/sd 1.598203/1.518686 -> 1.693204/1.550078  |  loop mean/sd 5.279514/2.972810 -> 5.467703/2.687800
+      THE GAP: 1.559541 -> 1.720397 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 5.576330 (doc 0) vs mask-stub's 3.767071 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 30, d2-only 11, both 1
+      fixture lifts: ['loop-seeded-countdown']  |  demotions: []
+      loop-injection-code         D 8.856825 -> 8.856825  z_combined 6.4587
+      loop-injection-prose        D 7.878839 -> 7.878839  z_combined 0.9853
+      loop-seeded-affirm          D 6.088779 -> 6.088779  z_combined -0.3758
+      loop-seeded-chant           D 8.525091 -> 8.525091  z_combined 1.5944
+      loop-seeded-code-line       D 1.587074 -> 1.587074  z_combined 0.8967
+      loop-seeded-countdown       D 0.574837 -> 2.456719  z_combined 2.4567
+      loop-seeded-counter         D 6.981961 -> 6.981961  z_combined 0.5402
+      loop-seeded-cycle           D 5.969263 -> 5.969263  z_combined 1.0687
+      loop-seeded-json            D 2.565404 -> 2.565404  z_combined 2.2278
+      mask-reserved-stubborn      D 3.767071 -> 3.767071  z_combined -0.3758
+
+  --- GATE triples >= 12: the d2 cal reference mean 0.850667 sd 2.592481 (n_at_zero 321/375, n_pos 54) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 4.294685 -> 4.864064 (+0.569379)  |  k 6 -> 6
+      held mean/sd 1.598203/1.518686 -> 1.705336/1.579930  |  loop mean/sd 5.279514/2.972810 -> 5.486934/2.665320
+      THE GAP: 1.559541 -> 1.726046 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 5.843567 (doc 148) vs mask-stub's 3.767071 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 30, d2-only 14, both 1
+      fixture lifts: ['loop-seeded-countdown', 'loop-seeded-json']  |  demotions: []
+      loop-injection-code         D 8.856825 -> 8.856825  z_combined 7.7722
+      loop-injection-prose        D 7.878839 -> 7.878839  z_combined 0.9853
+      loop-seeded-affirm          D 6.088779 -> 6.088779  z_combined -0.3281
+      loop-seeded-chant           D 8.525091 -> 8.525091  z_combined 1.5944
+      loop-seeded-code-line       D 1.587074 -> 1.587074  z_combined 0.8967
+      loop-seeded-countdown       D 0.574837 -> 2.456719  z_combined 2.4567
+      loop-seeded-counter         D 6.981961 -> 6.981961  z_combined 0.5402
+      loop-seeded-cycle           D 5.969263 -> 5.969263  z_combined 1.0687
+      loop-seeded-json            D 2.565404 -> 2.757719  z_combined 2.7577
+      mask-reserved-stubborn      D 3.767071 -> 3.767071  z_combined -0.3281
+
+  --- GATE triples >= 16: the d2 cal reference mean 0.610667 sd 2.225975 (n_at_zero 334/375, n_pos 41) ---
+    THE COMBINED PROJECTION (can-only-add, both faces, the level re-derives, both sides re-scored identically):
+      t_joint 4.294685 -> 5.133339 (+0.838654)  |  k 6 -> 6
+      held mean/sd 1.598203/1.518686 -> 1.715009/1.593632  |  loop mean/sd 5.279514/2.972810 -> 5.573412/2.650841
+      THE GAP: 1.559541 -> 1.764182 vs the 2.0 bar (the bar read presented, never adjudicated)
+      THE CLIFF READ: the top combined cal z 6.913524 (doc 148) vs mask-stub's 3.767071 -- mask-stub holds
+      the held-side lift (the S-lesson census): refined-only 30, d2-only 17, both 1
+      fixture lifts: ['loop-injection-code', 'loop-seeded-countdown', 'loop-seeded-json']  |  demotions: []
+      loop-injection-code         D 8.856825 -> 9.159730  z_combined 9.1597
+      loop-injection-prose        D 7.878839 -> 7.878839  z_combined 0.9853
+      loop-seeded-affirm          D 6.088779 -> 6.088779  z_combined -0.2743
+      loop-seeded-chant           D 8.525091 -> 8.525091  z_combined 1.5944
+      loop-seeded-code-line       D 1.587074 -> 1.587074  z_combined 0.8967
+      loop-seeded-countdown       D 0.574837 -> 2.456719  z_combined 2.4567
+      loop-seeded-counter         D 6.981961 -> 6.981961  z_combined 0.5402
+      loop-seeded-cycle           D 5.969263 -> 5.969263  z_combined 1.0687
+      loop-seeded-json            D 2.565404 -> 3.319594  z_combined 3.3196
+      mask-reserved-stubborn      D 3.767071 -> 3.767071  z_combined -0.2743
+
+THE READ, PRESENTED NEVER ADJUDICATED: the console above prices the combined sheet per leg per gate -- the honest gap with both sides re-scored, the level move and the mask-stub demotion cliff, the k flip, and the gate sweep the sheet pins ONE of at his word; the 3B dev bytes are the paper read -- the 8B record lane re-derives every reference on its own bytes
+(offline read of his pinned cache bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

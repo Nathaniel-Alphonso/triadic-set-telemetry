@@ -1,0 +1,62 @@
+=== THE THREE-MISS CONVERSION DIAGNOSTIC, THE FIXTURE HALF (the drift-run census on the run-of-record receipt's own fixture curves, offline, zero GPU, zero decodes, read-only) ===
+the sheet rc-3miss-conversion-prereg.md pinned at his stamp (sha b5efca39...), the receipt fc8b70b5435cefbc verified byte-exact at open, the tool 391ac7dfd91f4c45 verified inside it -- the form read EXACTLY as pinned, never tuned after the read
+the drift-run face (D_R): the longest strictly-rising run over consecutive supported in-window lags {2..36} (support = pairs >= 8, the tool's own law), per curve over the pinned four-curve set C_DR = {E lane-B, E unmasked, f lane-B, f unmasked}; R < 3 reads 0.0 a real value; the fixture half alone answers the within-loop ordering question the item-487 law requires BEFORE the corpus is ever consulted
+
+--- LEG mbpprw17 ---
+  fixture                     E.laneB      E.unmasked   f.laneB      f.unmasked 
+  loop-injection-code         8            18           4            35            max 35 via f.unmasked
+  loop-injection-prose        0            35           0            35            max 35 via E.unmasked
+  loop-seeded-affirm          33           31           35           35            max 35 via f.laneB
+  loop-seeded-chant           4            35           0            35            max 35 via E.unmasked
+  loop-seeded-code-line       13           27           6            29            max 29 via f.unmasked
+  loop-seeded-countdown       16           18           5            35            max 35 via f.unmasked
+  loop-seeded-counter         0            35           0            35            max 35 via E.unmasked
+  loop-seeded-cycle           3            9            4            35            max 35 via f.unmasked
+  loop-seeded-json            7            22           6            35            max 35 via f.unmasked
+  mask-reserved-stubborn      9            35           7            35            max 35 via E.unmasked
+  SATURATION E.laneB: 0/10 fixtures read the full-window bound R = 35
+  SATURATION E.unmasked: 4/10 fixtures read the full-window bound R = 35
+  SATURATION f.laneB: 1/10 fixtures read the full-window bound R = 35
+  SATURATION f.unmasked: 9/10 fixtures read the full-window bound R = 35
+
+--- LEG prose17p-rw17 ---
+  fixture                     E.laneB      E.unmasked   f.laneB      f.unmasked 
+  loop-injection-code         8            17           4            35            max 35 via f.unmasked
+  loop-injection-prose        0            35           0            35            max 35 via E.unmasked
+  loop-seeded-affirm          35           31           35           35            max 35 via E.laneB
+  loop-seeded-chant           4            35           0            35            max 35 via E.unmasked
+  loop-seeded-code-line       14           28           6            29            max 29 via f.unmasked
+  loop-seeded-countdown       11           18           5            35            max 35 via f.unmasked
+  loop-seeded-counter         0            35           0            35            max 35 via E.unmasked
+  loop-seeded-cycle           3            15           4            35            max 35 via f.unmasked
+  loop-seeded-json            7            21           6            35            max 35 via f.unmasked
+  mask-reserved-stubborn      7            35           7            35            max 35 via E.unmasked
+  SATURATION E.laneB: 1/10 fixtures read the full-window bound R = 35
+  SATURATION E.unmasked: 4/10 fixtures read the full-window bound R = 35
+  SATURATION f.laneB: 1/10 fixtures read the full-window bound R = 35
+  SATURATION f.unmasked: 9/10 fixtures read the full-window bound R = 35
+
+--- LEG p2corpus-rw17 ---
+  fixture                     E.laneB      E.unmasked   f.laneB      f.unmasked 
+  loop-injection-code         8            18           4            35            max 35 via f.unmasked
+  loop-injection-prose        0            21           0            35            max 35 via f.unmasked
+  loop-seeded-affirm          14           35           35           35            max 35 via E.unmasked
+  loop-seeded-chant           4            15           0            35            max 35 via f.unmasked
+  loop-seeded-code-line       11           27           6            29            max 29 via f.unmasked
+  loop-seeded-countdown       9            19           5            35            max 35 via f.unmasked
+  loop-seeded-counter         0            35           0            35            max 35 via E.unmasked
+  loop-seeded-cycle           3            7            4            35            max 35 via f.unmasked
+  loop-seeded-json            7            21           6            35            max 35 via f.unmasked
+  mask-reserved-stubborn      15           35           7            35            max 35 via E.unmasked
+  SATURATION E.laneB: 0/10 fixtures read the full-window bound R = 35
+  SATURATION E.unmasked: 3/10 fixtures read the full-window bound R = 35
+  SATURATION f.laneB: 1/10 fixtures read the full-window bound R = 35
+  SATURATION f.unmasked: 9/10 fixtures read the full-window bound R = 35
+
+THE WITHIN-LOOP ORDERING VERDICT (the item-487 law: answered BEFORE the corpus is ever consulted):
+  leg mbpprw17: affirm (a DETECTED PERIODIC CONTROL) reads >= code-line on every curve: True; >= countdown on every curve: True; the detected set's best f.unmasked R 35 vs code-line's 29 and countdown's 35 -- the target cannot out-read a detected control on the cell's own construction (the cell is a max over per-curve z's, monotone in R per curve)
+  leg prose17p-rw17: affirm (a DETECTED PERIODIC CONTROL) reads >= code-line on every curve: True; >= countdown on every curve: True; the detected set's best f.unmasked R 35 vs code-line's 29 and countdown's 35 -- the target cannot out-read a detected control on the cell's own construction (the cell is a max over per-curve z's, monotone in R per curve)
+  leg p2corpus-rw17: affirm (a DETECTED PERIODIC CONTROL) reads >= code-line on every curve: True; >= countdown on every curve: True; the detected set's best f.unmasked R 35 vs code-line's 29 and countdown's 35 -- the target cannot out-read a detected control on the cell's own construction (the cell is a max over per-curve z's, monotone in R per curve)
+
+THE READ, PRESENTED NEVER ADJUDICATED: the drift-run face dies on paper on the receipt's own fixture bytes, the corpus half never needed (the item-486 precedent honored exactly): (1) the unmasked half of the pinned set SATURATES at the statistic's own bound -- f.unmasked reads the full-window R = 35 for 9/10 fixtures on the judged leg, detected and missed alike, the item-487 Spearman lesson re-learned on the receipt's own curves (the unmasked f metric rises with lag on every doc); a curve every doc tops reads either EMPTY (sd == 0) or floods the cal tail into the level race -- separation ZERO either way; (2) the masked half FAILS THE ORDERING: affirm, a detected periodic control, reads at or above BOTH drift misses on every curve on every leg (E.laneB 33 vs countdown 16 on the judged leg) -- the P-B4 within-loop inversion (the detected reading LOW while countdown reads #1) does not exist on this form, it runs the OTHER WAY; (3) code-line, the hard miss, reads at or below EVERY detected fixture on its best curve (29 on f.unmasked vs the detected 35) -- R2 answered again: the hard miss stays hard; (4) the motivating cell was TRUE and the form still dies: countdown's f.unmasked is indeed strictly monotone at every supported lag (R = 35, the audit's 5.84x claim verified on the receipt's bytes) -- but the signature is NOT UNIQUE: the unmasked f fabric rises with lag on every doc, detected, missed, and corpus alike, so the drift the audit named is real but the run-form does not isolate it; (5) THE KILL-SWITCH HONORED: the sheet closes on paper, zero build hours, the finding banked as mechanism knowledge (the second drift-shaped family dead after the ramp; the remaining routes at his word only: a genuinely new countdown-and-code-line direction, the P-B4 single-face honest read 1.792063 standing as the best banked CODE number, the 8B record lane, or close development)
+(offline read of the run-of-record receipt bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

@@ -1,0 +1,80 @@
+=== THE CORPUS-SIDE DIAGNOSTIC, FULL MODE (his pinned caches, read-only, zero GPU, zero decodes) ===
+the form, read EXACTLY as the item-488 ledger computed it, never tuned: refined tail = 1 - min(d, supported lags 19..36) / med(d, supported lags 28..36), masked E curve, the tool's own support law
+
+--- LEG mbpprw17 (cache pin MATCH, sha256 01708e89080d6f16...) ---
+  population parity: 200 cal + 200 held, exact match against the receipt's doc_rows
+  P-B4 CAL REFERENCE (the refined tail over 184 cal docs, 16 EMPTY named): mean 0.195457 sd 0.120401 min 0.026800 max 0.566063
+  THE PROJECTION (can-only-add: D_new = max(D, z), the level re-derives, both sides re-scored identically):
+    t_joint 3.761841 -> 3.761841 (+0.000000)  |  k 7 -> 7
+    held mean/sd 1.583084/1.308408 -> 1.633566/1.332503  |  loop mean/sd 5.284890/2.815408 -> 5.382354/2.641287
+    THE GAP: 1.686262 -> 1.792063 vs the 2.0 bar (the bar read presented, never adjudicated)
+    fixture lifts: ['loop-seeded-countdown']
+    fixture demotions: [] 
+    loop-injection-code         D 7.989752 -> 7.989752  z_refined 1.0491  m_d2 21
+    loop-injection-prose        D 8.507609 -> 8.507609  z_refined 0.4750  m_d2 0
+    loop-seeded-affirm          D 6.843795 -> 6.843795  z_refined -0.5616  m_d2 0
+    loop-seeded-chant           D 7.913068 -> 7.913068  z_refined 0.5237  m_d2 0
+    loop-seeded-code-line       D 1.381425 -> 1.381425  z_refined -1.3193  m_d2 0
+    loop-seeded-countdown       D 0.459473 -> 1.434110  z_refined 1.4341  m_d2 0
+    loop-seeded-counter         D 6.352898 -> 6.352898  z_refined -0.4458  m_d2 0
+    loop-seeded-cycle           D 5.730605 -> 5.730605  z_refined 0.1396  m_d2 0
+    loop-seeded-json            D 3.492749 -> 3.492749  z_refined -1.1469  m_d2 8
+    mask-reserved-stubborn      D 4.177527 -> 4.177527  z_refined 0.8630  m_d2 0
+  THE LEVEL RACE (the S-lesson census): cal docs whose z ALONE exceeds the CURRENT level: 0; cal docs lifted: 21; held docs lifted: 15; top-5 cal z: 328 3.0781, 140 2.3805, 148 2.2068, 210 2.1713, 44 2.0267
+  THE P-A1 CENSUS (f.laneB d2 zero-run mass, support triples >= 8, runs >= 2): cal mean 0.275000 sd 1.352227, n_at_zero 189/200, n_pos 11; held n_pos 15/200; json m_d2 8 -> z 5.7128; triples at cal zeros: min 8 med 16 n 89
+    sensitivity (triples >= 8): cal docs with m_d2 > 0: 11
+    sensitivity (triples >= 12): cal docs with m_d2 > 0: 9
+    sensitivity (triples >= 16): cal docs with m_d2 > 0: 5
+
+--- LEG prose17p-rw17 (cache pin MATCH, sha256 44ce73a97a7d2cdf...) ---
+  population parity: 310 cal + 310 held, exact match against the receipt's doc_rows
+  P-B4 CAL REFERENCE (the refined tail over 305 cal docs, 5 EMPTY named): mean 0.188923 sd 0.126210 min 0.027390 max 0.622130
+  THE PROJECTION (can-only-add: D_new = max(D, z), the level re-derives, both sides re-scored identically):
+    t_joint 3.661808 -> 3.661808 (+0.000000)  |  k 7 -> 7
+    held mean/sd 1.564857/1.291498 -> 1.583653/1.296015  |  loop mean/sd 5.046200/2.865391 -> 5.190856/2.623393
+    THE GAP: 1.566454 -> 1.743420 vs the 2.0 bar (the bar read presented, never adjudicated)
+    fixture lifts: ['loop-seeded-countdown']
+    fixture demotions: [] 
+    loop-injection-code         D 6.747266 -> 6.747266  z_refined 1.1425  m_d2 21
+    loop-injection-prose        D 7.343166 -> 7.343166  z_refined -0.7102  m_d2 0
+    loop-seeded-affirm          D 5.346657 -> 5.346657  z_refined None  m_d2 0
+    loop-seeded-chant           D 8.745606 -> 8.745606  z_refined 0.0718  m_d2 0
+    loop-seeded-code-line       D 1.395714 -> 1.395714  z_refined 0.1503  m_d2 0
+    loop-seeded-countdown       D 0.263197 -> 1.709756  z_refined 1.7098  m_d2 0
+    loop-seeded-counter         D 5.836502 -> 5.836502  z_refined 0.5644  m_d2 0
+    loop-seeded-cycle           D 7.409848 -> 7.409848  z_refined 0.3281  m_d2 0
+    loop-seeded-json            D 1.978317 -> 1.978317  z_refined -1.1937  m_d2 8
+    mask-reserved-stubborn      D 5.395730 -> 5.395730  z_refined 1.6840  m_d2 0
+  THE LEVEL RACE (the S-lesson census): cal docs whose z ALONE exceeds the CURRENT level: 0; cal docs lifted: 21; held docs lifted: 15; top-5 cal z: 32 3.4324, 274 3.1266, 514 2.9217, 266 2.8526, 202 2.7524
+  THE P-A1 CENSUS (f.laneB d2 zero-run mass, support triples >= 8, runs >= 2): cal mean 1.548387 sd 3.896216, n_at_zero 238/310, n_pos 72; held n_pos 67/310; json m_d2 8 -> z 1.6559; triples at cal zeros: min 8 med 20 n 746
+    sensitivity (triples >= 8): cal docs with m_d2 > 0: 72
+    sensitivity (triples >= 12): cal docs with m_d2 > 0: 66
+    sensitivity (triples >= 16): cal docs with m_d2 > 0: 53
+
+--- LEG p2corpus-rw17 (cache pin MATCH, sha256 81233388fcb5e333...) ---
+  population parity: 375 cal + 375 held, exact match against the receipt's doc_rows
+  P-B4 CAL REFERENCE (the refined tail over 354 cal docs, 21 EMPTY named): mean 0.147374 sd 0.100288 min 0.014003 max 0.706616
+  THE PROJECTION (can-only-add: D_new = max(D, z), the level re-derives, both sides re-scored identically):
+    t_joint 4.294685 -> 4.695611 (+0.400926)  |  k 6 -> 6
+    held mean/sd 1.598203/1.518686 -> 1.647193/1.503560  |  loop mean/sd 5.279514/2.972810 -> 5.467703/2.687800
+    THE GAP: 1.559541 -> 1.754359 vs the 2.0 bar (the bar read presented, never adjudicated)
+    fixture lifts: ['loop-seeded-countdown']
+    fixture demotions: [] 
+    loop-injection-code         D 8.856825 -> 8.856825  z_refined 1.6609  m_d2 21
+    loop-injection-prose        D 7.878839 -> 7.878839  z_refined 0.9853  m_d2 0
+    loop-seeded-affirm          D 6.088779 -> 6.088779  z_refined None  m_d2 0
+    loop-seeded-chant           D 8.525091 -> 8.525091  z_refined 1.5944  m_d2 0
+    loop-seeded-code-line       D 1.587074 -> 1.587074  z_refined 0.8967  m_d2 0
+    loop-seeded-countdown       D 0.574837 -> 2.456719  z_refined 2.4567  m_d2 0
+    loop-seeded-counter         D 6.981961 -> 6.981961  z_refined 0.5402  m_d2 0
+    loop-seeded-cycle           D 5.969263 -> 5.969263  z_refined 1.0687  m_d2 0
+    loop-seeded-json            D 2.565404 -> 2.565404  z_refined -1.0635  m_d2 8
+    mask-reserved-stubborn      D 3.767071 -> 3.767071  z_refined None  m_d2 0
+  THE LEVEL RACE (the S-lesson census): cal docs whose z ALONE exceeds the CURRENT level: 1; cal docs lifted: 29; held docs lifted: 31; top-5 cal z: 0 5.5763, 544 3.9501, 254 3.3921, 640 3.3900, 532 3.2053
+  THE P-A1 CENSUS (f.laneB d2 zero-run mass, support triples >= 8, runs >= 2): cal mean 1.154667 sd 3.072663, n_at_zero 313/375, n_pos 62; held n_pos 83/375; json m_d2 8 -> z 2.2278; triples at cal zeros: min 8 med 18 n 662
+    sensitivity (triples >= 8): cal docs with m_d2 > 0: 62
+    sensitivity (triples >= 12): cal docs with m_d2 > 0: 54
+    sensitivity (triples >= 16): cal docs with m_d2 > 0: 41
+
+THE READ, PRESENTED NEVER ADJUDICATED: the console above answers the diagnostic's three questions per leg -- (1) does the P-B4 cal reference sit low with small sd (countdown clears) or does the clean corpus flood (the face dies on paper); (2) does the level move past mask-reserved-stubborn's read (the ITEM-487 demotion cliff); (3) does the projected gap clear the 2.0 bar on these dev bytes; the P-A1 census beside them prices the json flip's own flood question
+(offline read of his pinned cache bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

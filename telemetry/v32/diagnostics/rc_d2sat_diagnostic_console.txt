@@ -1,0 +1,190 @@
+=== THE SATURATED D2 DIAGNOSTIC, FULL MODE (his pinned caches, read-only, zero GPU, zero decodes) ===
+AMEND v2 (the v1 sha 216b5860da0e2371d5827b5efcbb4fdf8f864c81bfa51c3ca73d4284591504ff preserved never edited): the census parity gate now anchors PER LEG (every anchor banked at items 490/493: CODE 0.275000/1.352227 n_pos 11/200 held 15, prose 1.548387/3.896216 n_pos 72/310, p2 1.154667/3.072663 n_pos 62/375; the off-leg held counts never banked -- printed as findings, never gated); the v1 gate wired every leg against the CODE anchor alone and hard-exited on this machine at prose whose own re-derived census was EXACT against the banked prose refs -- a desk-side wiring error, never a data verdict; THE FORM NEVER TOUCHED (psi, kappa=1 pinned, the run law, the refined tail, the spine, the sweep byte-identical)
+the form read EXACTLY as sheeted, never tuned after any read: D_new = max(D, z_refined, z_d2sat) per doc, both sides re-scored identically -- the refined-tail cell (P-B4, the item-488 form byte-carried) and the SATURATED d2 zero-run-mass cell (the item-475 law mirrored onto d2, support = triples >= the swept gate, psi(s) = s/(s+kappa) applied to the mass BEFORE the census z, kappa = 1 PINNED by the sheet at his stamp); the gate swept 8/12/16 with the sheet pinning ONE at his word; the kappa sweep printed as receipts, only the pinned kappa=1 ever carried; the census parity gate FIRST (a mismatch a HARD EXIT)
+
+--- LEG mbpprw17 (cache pin MATCH, sha256 01708e89080d6f16...) ---
+  population parity: 200 cal + 200 held, exact match against the receipt's doc_rows
+  THE CENSUS PARITY GATE (gate 8, vs his banked console census): mean 0.275000 vs 0.275000 (delta 0.00e+00) | sd 1.352227 vs 1.352227 (delta 1.00e-07) | n_pos 11 vs 11 | n_at_zero 189/200 | held n_pos 15 vs 15
+  THE CENSUS PARITY GATE PASSED (the actual masses now in hand, the idealization retired)
+  the ACTUAL positive masses (cal, gate 8): [2, 2, 2, 2, 3, 4, 6, 6, 8, 9, 11] | the mean positive mass 5.000000
+  P-B4 CAL REFERENCE (the refined tail over 184 cal docs, 16 EMPTY named): mean 0.195457 sd 0.120401
+  fixture curve parity: all ten fixtures byte-close at 1e-12 on the masked E and laneB f d2 curves (the lineage proven); the fixture masses at the swept gates:
+    loop-injection-code         m_d2 at gates 8/12/16: 21 / 21 / 21
+    loop-seeded-chant           m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-code-line       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-countdown       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-json            m_d2 at gates 8/12/16: 8 / 8 / 8
+  --- GATE triples >= 8: the d2 cal census mean 0.275000 sd 1.352227 (n_pos 11/200) -> the SATURATED census mu_psi 0.043183 sd_psi 0.180968, the bound 5.287225, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.180968 bound 5.2872 z(json) 4.6732
+      kappa  2.0 RECEIPT: sd_psi 0.153574 bound 6.2761 z(json) 4.9738
+      kappa  4.0 RECEIPT: sd_psi 0.120830 bound 8.0462 z(json) 5.2876
+      kappa  8.0 RECEIPT: sd_psi 0.086917 bound 11.2825 z(json) 5.5299
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 3.761841 -> 4.236593 (+0.474752)  |  k 7 -> 7  | the cap at k_new 2.0494
+      held mean/sd 1.583084/1.308408 -> 1.746738/1.438868  |  loop mean/sd 5.284890/2.815408 -> 5.500403/2.572946
+      THE HONEST BOTH-SIDES GAP: 1.686262 -> 1.800740 vs the 2.0 bar (presented, never adjudicated)  | vs the P-B4 honest 1.792063 (the standing best banked CODE read)
+      THE CLIFF READ: mask-stub 4.177527 vs the re-derived level 4.236593 (margin -0.059066) -- DEMOTED, the demotion edge crossed; demoted: ['mask-reserved-stubborn']
+      THE FLIP READ: json 4.673242 vs the re-derived level 4.236593 (margin +0.436649) -- FLIPPED (above the level); lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 15, d2sat-only 12, both 0
+      THE THREE-MISS READ: loop-seeded-json         D 3.492749 -> 4.673242 (z_combined 4.6732) vs the level 4.236593 -- ABOVE
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.459473 -> 1.434110 (z_combined 1.4341) vs the level 4.236593 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.381425 -> 1.381425 (z_combined -0.2386) vs the level 4.236593 -- below
+
+  --- GATE triples >= 12: the d2 cal census mean 0.185000 sd 1.051811 (n_pos 9/200) -> the SATURATED census mu_psi 0.033702 sd_psi 0.157114, the bound 6.150315, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.157114 bound 6.1503 z(json) 5.4431
+      kappa  2.0 RECEIPT: sd_psi 0.129956 bound 7.4838 z(json) 5.9448
+      kappa  4.0 RECEIPT: sd_psi 0.099612 bound 9.8342 z(json) 6.4879
+      kappa  8.0 RECEIPT: sd_psi 0.070194 bound 14.0496 z(json) 6.9265
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 3.761841 -> 4.214062 (+0.452221)  |  k 7 -> 7  | the cap at k_new 2.0494
+      held mean/sd 1.583084/1.308408 -> 1.764327/1.488022  |  loop mean/sd 5.284890/2.815408 -> 5.577390/2.556914
+      THE HONEST BOTH-SIDES GAP: 1.686262 -> 1.822783 vs the 2.0 bar (presented, never adjudicated)  | vs the P-B4 honest 1.792063 (the standing best banked CODE read)
+      THE CLIFF READ: mask-stub 4.177527 vs the re-derived level 4.214062 (margin -0.036535) -- DEMOTED, the demotion edge crossed; demoted: ['mask-reserved-stubborn']
+      THE FLIP READ: json 5.443113 vs the re-derived level 4.214062 (margin +1.229051) -- FLIPPED (above the level); lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 15, d2sat-only 11, both 0
+      THE THREE-MISS READ: loop-seeded-json         D 3.492749 -> 5.443113 (z_combined 5.4431) vs the level 4.214062 -- ABOVE
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.459473 -> 1.434110 (z_combined 1.4341) vs the level 4.214062 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.381425 -> 1.381425 (z_combined -0.2145) vs the level 4.214062 -- below
+
+  --- GATE triples >= 16: the d2 cal census mean 0.125000 sd 0.890697 (n_pos 5/200) -> the SATURATED census mu_psi 0.019738 sd_psi 0.124617, the bound 7.866187, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.124617 bound 7.8662 z(json) 6.9746
+      kappa  2.0 RECEIPT: sd_psi 0.106081 bound 9.2704 z(json) 7.3850
+      kappa  4.0 RECEIPT: sd_psi 0.083539 bound 11.8173 z(json) 7.8272
+      kappa  8.0 RECEIPT: sd_psi 0.059801 bound 16.5726 z(json) 8.2116
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 3.761841 -> 4.333338 (+0.571497)  |  k 7 -> 7  | the cap at k_new 2.0494
+      held mean/sd 1.583084/1.308408 -> 1.843269/1.675979  |  loop mean/sd 5.284890/2.815408 -> 5.730536/2.593578
+      THE HONEST BOTH-SIDES GAP: 1.686262 -> 1.780273 vs the 2.0 bar (presented, never adjudicated)  | vs the P-B4 honest 1.792063 (the standing best banked CODE read)
+      THE CLIFF READ: mask-stub 4.177527 vs the re-derived level 4.333338 (margin -0.155810) -- DEMOTED, the demotion edge crossed; demoted: ['mask-reserved-stubborn']
+      THE FLIP READ: json 6.974567 vs the re-derived level 4.333338 (margin +2.641230) -- FLIPPED (above the level); lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 15, d2sat-only 11, both 0
+      THE THREE-MISS READ: loop-seeded-json         D 3.492749 -> 6.974567 (z_combined 6.9746) vs the level 4.333338 -- ABOVE
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.459473 -> 1.434110 (z_combined 1.4341) vs the level 4.333338 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.381425 -> 1.381425 (z_combined -0.1584) vs the level 4.333338 -- below
+
+--- LEG prose17p-rw17 (cache pin MATCH, sha256 44ce73a97a7d2cdf...) ---
+  population parity: 310 cal + 310 held, exact match against the receipt's doc_rows
+  THE CENSUS PARITY GATE (gate 8, vs the banked prose17p-rw17 census anchors, items 490/493): mean 1.548387 vs 1.548387 (delta 9.68e-08) | sd 3.896216 vs 3.896216 (delta 1.42e-08) | n_pos 72 vs 72 | n_at_zero 238/310 | held n_pos 67 (NEVER BANKED -- printed as a finding, never gated)
+  THE CENSUS PARITY GATE PASSED (the actual masses now in hand, the idealization retired)
+  the ACTUAL positive masses (cal, gate 8): [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 14, 14, 15, 16, 19, 19, 19, 35] | the mean positive mass 6.666667
+  P-B4 CAL REFERENCE (the refined tail over 305 cal docs, 5 EMPTY named): mean 0.188923 sd 0.126210
+  fixture curve parity: all ten fixtures byte-close at 1e-12 on the masked E and laneB f d2 curves (the lineage proven); the fixture masses at the swept gates:
+    loop-injection-code         m_d2 at gates 8/12/16: 21 / 21 / 21
+    loop-seeded-chant           m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-code-line       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-countdown       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-json            m_d2 at gates 8/12/16: 8 / 8 / 8
+  --- GATE triples >= 8: the d2 cal census mean 1.548387 sd 3.896216 (n_pos 72/310) -> the SATURATED census mu_psi 0.188396 sd_psi 0.346559, the bound 2.341895, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.346559 bound 2.3419 z(json) 2.0213
+      kappa  2.0 RECEIPT: sd_psi 0.301525 bound 2.7816 z(json) 2.1183
+      kappa  4.0 RECEIPT: sd_psi 0.246076 bound 3.5448 z(json) 2.1902
+      kappa  8.0 RECEIPT: sd_psi 0.186024 bound 4.8789 z(json) 2.1910
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 3.661808 -> 3.661808 (+0.000000)  |  k 7 -> 7  | the cap at k_new 2.0494
+      held mean/sd 1.564857/1.291498 -> 1.612750/1.289420  |  loop mean/sd 5.046200/2.865391 -> 5.195153/2.617575
+      THE HONEST BOTH-SIDES GAP: 1.566454 -> 1.736260 vs the 2.0 bar (presented, never adjudicated)  | vs the banked combined bound 1.753702
+      THE CLIFF READ: mask-stub 5.395730 vs the re-derived level 3.661808 (margin +1.733921) -- mask-stub holds; demoted: []
+      THE FLIP READ: json 2.021282 vs the re-derived level 3.661808 (margin -1.640526) -- below the level; lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 14, d2sat-only 24, both 1
+      THE THREE-MISS READ: loop-seeded-json         D 1.978317 -> 2.021282 (z_combined 2.0213) vs the level 3.661808 -- below
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.263197 -> 1.709756 (z_combined 1.7098) vs the level 3.661808 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.395714 -> 1.395714 (z_combined 0.1503) vs the level 3.661808 -- below
+
+  --- GATE triples >= 12: the d2 cal census mean 1.358065 sd 3.582253 (n_pos 66/310) -> the SATURATED census mu_psi 0.170456 sd_psi 0.332021, the bound 2.498469, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.332021 bound 2.4985 z(json) 2.1638
+      kappa  2.0 RECEIPT: sd_psi 0.287557 bound 2.9735 z(json) 2.2779
+      kappa  4.0 RECEIPT: sd_psi 0.233894 bound 3.7878 z(json) 2.3626
+      kappa  8.0 RECEIPT: sd_psi 0.176448 bound 5.2018 z(json) 2.3681
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 3.661808 -> 3.661808 (+0.000000)  |  k 7 -> 7  | the cap at k_new 2.0494
+      held mean/sd 1.564857/1.291498 -> 1.615746/1.291398  |  loop mean/sd 5.046200/2.865391 -> 5.209406/2.598692
+      THE HONEST BOTH-SIDES GAP: 1.566454 -> 1.751348 vs the 2.0 bar (presented, never adjudicated)  | vs the banked combined bound 1.753702
+      THE CLIFF READ: mask-stub 5.395730 vs the re-derived level 3.661808 (margin +1.733921) -- mask-stub holds; demoted: []
+      THE FLIP READ: json 2.163818 vs the re-derived level 3.661808 (margin -1.497991) -- below the level; lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 14, d2sat-only 22, both 1
+      THE THREE-MISS READ: loop-seeded-json         D 1.978317 -> 2.163818 (z_combined 2.1638) vs the level 3.661808 -- below
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.263197 -> 1.709756 (z_combined 1.7098) vs the level 3.661808 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.395714 -> 1.395714 (z_combined 0.1503) vs the level 3.661808 -- below
+
+  --- GATE triples >= 16: the d2 cal census mean 1.087097 sd 3.165678 (n_pos 53/310) -> the SATURATED census mu_psi 0.136701 sd_psi 0.304952, the bound 2.830935, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.304952 bound 2.8309 z(json) 2.4666
+      kappa  2.0 RECEIPT: sd_psi 0.264103 bound 3.3462 z(json) 2.5889
+      kappa  4.0 RECEIPT: sd_psi 0.214874 bound 4.2277 z(json) 2.6764
+      kappa  8.0 RECEIPT: sd_psi 0.162027 bound 5.7641 z(json) 2.6782
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 3.661808 -> 3.661808 (+0.000000)  |  k 7 -> 7  | the cap at k_new 2.0494
+      held mean/sd 1.564857/1.291498 -> 1.628688/1.297770  |  loop mean/sd 5.046200/2.865391 -> 5.239682/2.560754
+      THE HONEST BOTH-SIDES GAP: 1.566454 -> 1.778829 vs the 2.0 bar (presented, never adjudicated)  | vs the banked combined bound 1.753702
+      THE CLIFF READ: mask-stub 5.395730 vs the re-derived level 3.661808 (margin +1.733921) -- mask-stub holds; demoted: []
+      THE FLIP READ: json 2.466579 vs the re-derived level 3.661808 (margin -1.195230) -- below the level; lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 14, d2sat-only 24, both 1
+      THE THREE-MISS READ: loop-seeded-json         D 1.978317 -> 2.466579 (z_combined 2.4666) vs the level 3.661808 -- below
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.263197 -> 1.709756 (z_combined 1.7098) vs the level 3.661808 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.395714 -> 1.395714 (z_combined 0.1503) vs the level 3.661808 -- below
+
+--- LEG p2corpus-rw17 (cache pin MATCH, sha256 81233388fcb5e333...) ---
+  population parity: 375 cal + 375 held, exact match against the receipt's doc_rows
+  THE CENSUS PARITY GATE (gate 8, vs the banked p2corpus-rw17 census anchors, items 490/493): mean 1.154667 vs 1.154667 (delta 3.33e-07) | sd 3.072663 vs 3.072663 (delta 4.90e-07) | n_pos 62 vs 62 | n_at_zero 313/375 | held n_pos 83 (NEVER BANKED -- printed as a finding, never gated)
+  THE CENSUS PARITY GATE PASSED (the actual masses now in hand, the idealization retired)
+  the ACTUAL positive masses (cal, gate 8): [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 15, 15, 15, 16] | the mean positive mass 6.983871
+  P-B4 CAL REFERENCE (the refined tail over 354 cal docs, 21 EMPTY named): mean 0.147374 sd 0.100288
+  fixture curve parity: all ten fixtures byte-close at 1e-12 on the masked E and laneB f d2 curves (the lineage proven); the fixture masses at the swept gates:
+    loop-injection-code         m_d2 at gates 8/12/16: 21 / 21 / 21
+    loop-seeded-chant           m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-code-line       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-countdown       m_d2 at gates 8/12/16: 0 / 0 / 0
+    loop-seeded-json            m_d2 at gates 8/12/16: 8 / 8 / 8
+  --- GATE triples >= 8: the d2 cal census mean 1.154667 sd 3.072663 (n_pos 62/375) -> the SATURATED census mu_psi 0.137913 sd_psi 0.312482, the bound 2.758837, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.312482 bound 2.7588 z(json) 2.4033
+      kappa  2.0 RECEIPT: sd_psi 0.274743 bound 3.2032 z(json) 2.4753
+      kappa  4.0 RECEIPT: sd_psi 0.225645 bound 4.0038 z(json) 2.5266
+      kappa  8.0 RECEIPT: sd_psi 0.169988 bound 5.4666 z(json) 2.5252
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 4.294685 -> 4.695611 (+0.400926)  |  k 6 -> 6  | the cap at k_new 1.6432
+      held mean/sd 1.598203/1.518686 -> 1.700494/1.506111  |  loop mean/sd 5.279514/2.972810 -> 5.467703/2.687800
+      THE HONEST BOTH-SIDES GAP: 1.559541 -> 1.729184 vs the 2.0 bar (presented, never adjudicated)  | vs the banked combined bound 1.772590
+      THE CLIFF READ: mask-stub 3.767071 vs the re-derived level 4.695611 (margin -0.928540) -- mask-stub holds; demoted: []
+      THE FLIP READ: json 2.565404 vs the re-derived level 4.695611 (margin -2.130207) -- below the level; lifted: ['loop-seeded-countdown']
+      the held-side lift (the S-lesson census): refined-only 28, d2sat-only 39, both 3
+      THE THREE-MISS READ: loop-seeded-json         D 2.565404 -> 2.565404 (z_combined 2.4033) vs the level 4.695611 -- below
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.574837 -> 2.456719 (z_combined 2.4567) vs the level 4.695611 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.587074 -> 1.587074 (z_combined 0.8967) vs the level 4.695611 -- below
+
+  --- GATE triples >= 12: the d2 cal census mean 0.850667 sd 2.592481 (n_pos 54/375) -> the SATURATED census mu_psi 0.115543 sd_psi 0.284645, the bound 3.107230, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.284645 bound 3.1072 z(json) 2.7169
+      kappa  2.0 RECEIPT: sd_psi 0.245323 bound 3.6762 z(json) 2.8609
+      kappa  4.0 RECEIPT: sd_psi 0.197328 bound 4.6782 z(json) 2.9890
+      kappa  8.0 RECEIPT: sd_psi 0.146160 bound 6.4666 z(json) 3.0457
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 4.294685 -> 4.695611 (+0.400926)  |  k 6 -> 6  | the cap at k_new 1.6432
+      held mean/sd 1.598203/1.518686 -> 1.717944/1.516021  |  loop mean/sd 5.279514/2.972810 -> 5.482850/2.669994
+      THE HONEST BOTH-SIDES GAP: 1.559541 -> 1.734116 vs the 2.0 bar (presented, never adjudicated)  | vs the banked combined bound 1.772590
+      THE CLIFF READ: mask-stub 3.767071 vs the re-derived level 4.695611 (margin -0.928540) -- mask-stub holds; demoted: []
+      THE FLIP READ: json 2.716880 vs the re-derived level 4.695611 (margin -1.978730) -- below the level; lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 28, d2sat-only 36, both 3
+      THE THREE-MISS READ: loop-seeded-json         D 2.565404 -> 2.716880 (z_combined 2.7169) vs the level 4.695611 -- below
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.574837 -> 2.456719 (z_combined 2.4567) vs the level 4.695611 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.587074 -> 1.587074 (z_combined 0.8967) vs the level 4.695611 -- below
+
+  --- GATE triples >= 16: the d2 cal census mean 0.610667 sd 2.225975 (n_pos 41/375) -> the SATURATED census mu_psi 0.086199 sd_psi 0.248767, the bound 3.673325, the raw-mass z of the largest fixture mass vs its saturated z NAMED BELOW ---
+      kappa  1.0 RECEIPT: sd_psi 0.248767 bound 3.6733 z(json) 3.2267
+      kappa  2.0 RECEIPT: sd_psi 0.212605 bound 4.3626 z(json) 3.4219
+      kappa  4.0 RECEIPT: sd_psi 0.169750 bound 5.5601 z(json) 3.5964
+      kappa  8.0 RECEIPT: sd_psi 0.125234 bound 7.6677 z(json) 3.6752
+    THE SATURATED PROJECTION (kappa = 1 pinned, both faces, the level re-derives, both sides re-scored):
+      t_joint 4.294685 -> 4.695611 (+0.400926)  |  k 6 -> 6  | the cap at k_new 1.6432
+      held mean/sd 1.598203/1.518686 -> 1.749588/1.537143  |  loop mean/sd 5.279514/2.972810 -> 5.533830/2.615627
+      THE HONEST BOTH-SIDES GAP: 1.559541 -> 1.763998 vs the 2.0 bar (presented, never adjudicated)  | vs the banked combined bound 1.772590
+      THE CLIFF READ: mask-stub 3.767071 vs the re-derived level 4.695611 (margin -0.928540) -- mask-stub holds; demoted: []
+      THE FLIP READ: json 3.226677 vs the re-derived level 4.695611 (margin -1.468934) -- below the level; lifted: ['loop-seeded-countdown', 'loop-seeded-json']
+      the held-side lift (the S-lesson census): refined-only 29, d2sat-only 32, both 2
+      THE THREE-MISS READ: loop-seeded-json         D 2.565404 -> 3.226677 (z_combined 3.2267) vs the level 4.695611 -- below
+      THE THREE-MISS READ: loop-seeded-countdown    D 0.574837 -> 2.456719 (z_combined 2.4567) vs the level 4.695611 -- below
+      THE THREE-MISS READ: loop-seeded-code-line    D 1.587074 -> 1.587074 (z_combined 0.8967) vs the level 4.695611 -- below
+
+THE KILL-SWITCH VERDICTS (the pre-reg's S6 law, presented for his stamps):
+  KS2 THE CLIFF + THE FLIP: the demotion TRIPPED, the json flip stands -- the flip survives the cliff
+  KS3 THE HONEST GAP: 1.780273 vs the P-B4 honest 1.792063 -- BELOW the standing best banked CODE read -- the re-formation bought nothing, the sheet's kill-switch condition
+  KS1 THE CENSUS PARITY: PASSED at open (a fail is a HARD EXIT, never a verdict)
+  THE STANDING: the console presented for his read -- a negative kill-switch read closes the sheet on paper zero build hours (the B1/B2 pre-reg then writes against the standing banked world per the item-498 branch law); a live read opens the build question at his word only, its own stamp, never pre-promised
+(offline read of his pinned cache bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

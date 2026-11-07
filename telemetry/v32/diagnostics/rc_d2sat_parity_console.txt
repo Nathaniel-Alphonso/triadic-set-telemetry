@@ -1,0 +1,55 @@
+=== THE SATURATED D2 DIAGNOSTIC, PARITY-ONLY MODE (the receipt-side gates; no caches read) ===
+AMEND v2 (the v1 sha 216b5860da0e2371d5827b5efcbb4fdf8f864c81bfa51c3ca73d4284591504ff preserved never edited): the census parity gate now anchors PER LEG (every anchor banked at items 490/493); the v1 gate wired every leg against the CODE anchor alone and hard-exited on his Mac at prose whose own re-derived census was EXACT against the banked prose refs -- a desk-side wiring error, never a data verdict; THE FORM NEVER TOUCHED (psi, kappa=1 pinned, the run law, the refined tail, the spine, the sweep byte-identical)
+the sheet rc-d2sat-conversion-prereg.md pinned at his stamp (sha a40fd3b0916e0ebf...), the receipt fc8b70b5435cefbc verified byte-exact at open, the tool 391ac7dfd91f4c45 verified inside it -- the form read EXACTLY as sheeted: psi(s) = s/(s+kappa), kappa = 1 pinned by convention, the d2 zero-run mass under the item-475 law mirrored onto d2, support = triples >= the swept gate, isolated zeros never count
+
+[D1] THE V5 WORLD RE-DERIVED (doc_rows + loop_census alone, the before-column intact)
+  t_joint recomputed 3.7618410048243147 vs the receipt's 3.7618410048243147 OK | the banked 3.7618410048243147
+  gap recomputed 1.6862617412521999 vs the receipt's raw 1.6862617412521999 OK | the banked 1.6862617412521999
+  the null projection: k 7, lifted [], demoted [] (must be empty)
+  D1 PASSED (the world byte-identical to the bank)
+
+[D2] THE COMBINED GATE-8 WORLD RECONSTRUCTED (the world this sheet re-forms -- the raw d2 cell, the sd drag, receipted down at 1.420070)
+  loop moments 6.338039 / 3.976060 (banked 6.338041 / 3.976063, delta 1.78e-06 / 3.37e-06); gap 1.420070 (banked 1.420070, delta 3.71e-07)
+  D2 PASSED (the re-formation's before-world anchors exact)
+
+[D3] THE FIXTURE D2 ZERO-RUN CENSUS AT THE SWEPT GATES (the receipt's own fixture curves; the pinned law, isolated zeros never count)
+  fixture                     g8  g12  g16   the banked gate-8 read
+  loop-injection-code         21  21  21   21 OK
+  loop-injection-prose         0   0   0   - OK
+  loop-seeded-affirm           0   0   0   - OK
+  loop-seeded-chant            0   0   0   0 OK
+  loop-seeded-code-line        0   0   0   0 OK
+  loop-seeded-countdown        0   0   0   0 OK
+  loop-seeded-counter          0   0   0   - OK
+  loop-seeded-cycle            0   0   0   - OK
+  loop-seeded-json             8   8   8   8 OK
+  mask-reserved-stubborn       0   0   0   - OK
+  D3 PASSED (the law byte-carried; the gate sweep preview banked -- the masses shrink or hold as the support floor rises, the sheet pins ONE gate at his stamp)
+
+[D4] THE P-B4 REFINED FIXTURE TABLE (the item-488 bank, the masked E curves) REPRODUCED
+  loop-seeded-countdown       refined 0.368124 vs banked 0.368124 OK
+  loop-injection-code         refined 0.321772 vs banked 0.321772 OK
+  mask-reserved-stubborn      refined 0.299363 vs banked 0.299363 OK
+  loop-seeded-chant           refined 0.258515 vs banked 0.258515 OK
+  loop-injection-prose        refined 0.252647 vs banked 0.252647 OK
+  loop-seeded-cycle           refined 0.212269 vs banked 0.212269 OK
+  loop-seeded-counter         refined 0.141779 vs banked 0.141779 OK
+  loop-seeded-affirm          refined 0.127843 vs banked 0.127843 OK
+  loop-seeded-json            refined 0.057367 vs banked 0.057367 OK
+  loop-seeded-code-line       refined 0.036616 vs banked 0.036616 OK
+  D4 PASSED (the P-B4 form byte-carried)
+
+[D5] THE OFFLINE SATURATED IDEALIZATION RECOMPUTED (the equal-mass census model, the audit's receipts -- the idealization only, the ACTUAL masses answer on his Mac)
+  the two-point invariance on the banked census shape (189 zeros + 11 positives): z(any single-mass positive) = 4.134720 at EVERY kappa (kappa-robust, the deep bound)
+  kappa  1.0 EQUAL-MASS: sd_psi 0.190460 bound 5.0098 | z(json@8) 4.4264 ABOVE the level (the flip holds on paper) | z(inj-code@21) 4.7711 BELOW its own D 7.989752 (the max-pool invariant)
+  kappa  2.0 EQUAL-MASS: sd_psi 0.163252 bound 5.8849 | z(json@8) 4.6598 ABOVE the level (the flip holds on paper) | z(inj-code@21) 5.3522 BELOW its own D 7.989752 (the max-pool invariant)
+  kappa  4.0 EQUAL-MASS: sd_psi 0.126974 bound 7.6350 | z(json@8) 5.0098 ABOVE the level (the flip holds on paper) | z(inj-code@21) 6.3749 BELOW its own D 7.989752 (the max-pool invariant)
+  kappa  8.0 EQUAL-MASS: sd_psi 0.087905 bound 11.1353 | z(json@8) 5.4473 ABOVE the level (the flip holds on paper) | z(inj-code@21) 7.9971 ABOVE its D -- the invariance breaks, kappa too large
+  the offline gap bracket on the kappa=1 idealization (the audit's receipts): the saturated loop vector with json at its saturated z, countdown at its P-B4 lift, injection-code HELD (the saturated z loses the max-pool)
+    loop moments 5.475720 / 2.582927 (vs the raw combined 6.338041 / 3.976063 -- the drag halved on paper); the fixture-side bound 1.901286; the lower bracket 1.544831 -- the honest read lives INSIDE, every binding question his-Mac-only
+  D5 PASSED (the idealization receipts reproduced; the census half NEVER runs on this mode -- the masses answer only on his Mac)
+
+THE FULL MODE (his Mac, read-only, zero GPU, zero decodes): the script beside this tool + receipt + the pinned sheet + his three pinned walk caches, then
+    python3 rc_d2sat_diagnostic.py
+  which emits rc_d2sat_diagnostic_console.txt for his shasum + upload; the census parity gate first (PER-LEG anchors, amend v2: CODE mean 0.275000 sd 1.352227 n_pos 11 held 15, prose 1.548387/3.896216 n_pos 72, p2 1.154667/3.072663 n_pos 62 -- a mismatch a HARD EXIT), then the saturated census, the cliff read, the honest both-sides gap, the off-leg reads, the three-miss read, the sweep receipts, the kill-switch verdicts
+(offline read of the run-of-record receipt bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

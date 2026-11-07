@@ -1,0 +1,180 @@
+=== THE A-LANE VIABILITY AUDIT (the external analysis's five routes read against the run-of-record receipt's own bytes, offline, zero GPU, zero decodes, read-only) ===
+at his word ("okay any viablitity in this, if so lets discuss all possible viable integratios or upgrades to the mechanism for refinement"): the receipt fc8b70b5435cefbc verified byte-exact at open, the tool 391ac7dfd91f4c45 verified inside it, the instrument 8b4250f3ee0aa55b verified for the fixture prompts -- the pinned sheets stay pinned (V6 49bc88b92bd1b005, the closed 3-miss sheet b5efca3949fcdb50), no constant tuned to any answer, the kappa sweep printed in full as receipts
+
+--- G1 THE V5 WORLD RE-DERIVED (the parity gate: the level and the gap reproduced from doc_rows + loop_census alone) ---
+  cal non-None n 189 (D=None dropped 11), held non-None n 189 (D=None dropped 11) -- 11 per half, the banked convention
+  level q0.95 interp 3.761841004824315 (banked 3.761841004824315, delta 0.00e+00)
+  held moments 1.583084 / 1.308408 (banked 1.583084 / 1.308408)
+  gap 1.686261741252200 (banked 1.686261741252200, delta 0.00e+00)
+  G1 PASSED (the world byte-identical to the bank)
+
+--- G2 THE COMBINED GATE-8 WORLD RECONSTRUCTED (the parity gate on the item-493 banked moments) ---
+  loop vector = the V5 D's with injection-code 15.326556, json 5.712799, countdown 1.43411 (his gate-8 reads, banked)
+  loop moments 6.338039 / 3.976060 (banked 6.338041 / 3.976063, delta 1.78e-06 / 3.37e-06)
+  gap 1.420070 (banked 1.420070, delta 3.71e-07)
+  G2 PASSED (the reconstruction exact to 1e-4 -- the banked combined world is the V5 world with exactly three lifts)
+
+--- G3 THE DRIFT-RUN LINEAGE GATE (the item-496 table reproduced from the same bytes, console sha a263df0c1d9c6e76) ---
+  mbpprw17 loop-seeded-affirm E.laneB R = 33 (banked 33) OK
+  mbpprw17 loop-seeded-affirm f.laneB R = 35 (banked 35) OK
+  mbpprw17 loop-seeded-code-line E.laneB R = 13 (banked 13) OK
+  mbpprw17 loop-seeded-code-line f.laneB R = 6 (banked 6) OK
+  mbpprw17 loop-seeded-countdown E.laneB R = 16 (banked 16) OK
+  mbpprw17 loop-seeded-countdown f.laneB R = 5 (banked 5) OK
+  G3 PASSED (the item-496 cells reproduced exactly -- the affirm-over-misses ordering and the 35-saturation stand)
+
+--- G4 THE CENSUS CONVENTIONS (the offline-verifiable half computed, the d2-face half cited at his console) ---
+  the S-face channel (f_zero_run_mass, cal n 200): n_pos 7, mean 0.205000 -- the receipt's own doc-level census, a DIFFERENT channel from the d2 face
+  the d2-face gate-8 census (HIS console, item 490, cited never recomputed -- the receipt banks fixture curves only, never doc-level d2 masses):
+    cal n 200, mean 0.275000, sd 1.352227, n_pos 11 (189/200 at exact zero), held n_pos 15 (item 493); the mean positive mass 5.0 (= 0.275000 x 200 / 11)
+    fixture d2 masses (his gate-8 read): injection-code 21, json 8, all eight others 0
+  G4 PASSED (the offline half exact; the d2 half cited at the banked console values, never fabricated)
+
+--- G5 THE CENSUS CROSS-CONSISTENCY GATE (the census rows vs the fixture curves, the ordering and window invariants) ---
+  the census loop rows (whole-doc pair counts) vs the curve arrays (the windowed per-lag counts, a strict subset): the lane ordering laneB <= laneA <= unmasked holds on all ten fixtures and every curve-pair sum sits inside its census count -- the two censuses consistent, never equal (the curves are windowed, the census whole-doc)
+  the corpus cal drop distribution (laneB pairs vs unmasked, n 200): min 0.6262  q50 0.7248  q95 0.7682  q99 0.7918  max 0.8145
+  G5 PASSED (the censuses consistent; the corpus distribution banked below for the A2 read)
+
+=== SECTION 1 -- THE SIGN-FLIP PEAK AUDIT (the analysis's D_crit claim: the gap as ONE coordinate grows) ===
+the mechanism: hold nine loop D's fixed, grow the tenth -- the gap rises to a single peak D* then falls (the loop sd grows faster than the mean past the peak) -- the analysis claims a constant D_crit 7.628 past which a lift drags the gap down
+  V5 world, sd ddof=1 (the bank's own convention)            D* = 7.5526 peak 1.687818 | at the current 7.989752: 1.686262 (past the peak, falling)
+  V5 world, sd ddof=0                                        D* = 7.6055 peak 1.762324 | at the current 7.989752: 1.761094 (past the peak, falling)
+  combined gate-8 world (held at the banked combined moments) D* = 8.3134 peak 1.608913 | at the current 15.326556: 1.420070 (past the peak, falling)
+  json+countdown-lifted world (injection-code at its V5 D)   D* = 7.3484 peak 1.984766 | at the current 7.989752: 1.980063 (past the peak, falling)
+  VERDICT: the mechanism VERIFIES on the receipt's own bytes -- the single-coordinate sign-flip peak is real in every world; the claimed constant 7.628 is WORLD-DEPENDENT (the V5 ddof=0 peak 7.6055 and ddof=1 peak 7.5526 bracket it; the combined-world peak 8.3134; the lifted-world peak 7.3484) -- and the banked facts sit PAST the peak in every world: injection-code's V5 D 7.989752 already past the V5 peaks, its combined 15.326556 far past 8.3134 -- the item-492 correction (the sd drag) IS this peak, now derived rather than observed
+
+=== SECTION 2 -- THE CROSS-LANE MASK-EXCISION CONTRAST (route A2: the pair-drop fraction and the d-divergence, laneB vs unmasked, on the analysis's own Check-2) ===
+--- leg mbpprw17 ---
+  fixture                      dropB(E)  dropB(f)  dropA(f)   ddiv(E)   ddiv(f) censusDrop
+  loop-seeded-code-line          0.7545    0.7650    0.5261    0.0028   -0.0254    0.7500
+  loop-seeded-json               0.7421    0.7553    0.3983    0.0351    0.5887    0.7473
+  loop-injection-code            0.7191    0.7209    0.5398    0.1271   -0.9477    0.7201
+  loop-seeded-countdown          0.7017    0.7013    0.6009    0.2384   -0.5535    0.7100
+  mask-reserved-stubborn         0.6400    0.6583    0.3288    1.5218    1.8416    0.6306
+  loop-seeded-chant              0.6299    0.6356    0.4914    0.2817    0.4253    0.6747
+  loop-seeded-cycle              0.5878    0.6050    0.0000    0.8028    1.5319    0.5820
+  loop-injection-prose           0.5746    0.5792    0.0000    0.5201    1.2596    0.7305
+  loop-seeded-affirm             0.5401    0.5522    0.0000    0.6207    1.2330    0.5423
+  loop-seeded-counter            0.5045    0.5023    0.5022   -0.0224   -0.0629    0.7426
+--- leg prose17p-rw17 ---
+  fixture                      dropB(E)  dropB(f)  dropA(f)   ddiv(E)   ddiv(f) censusDrop
+  loop-seeded-code-line          0.7545    0.7650    0.7850   -0.0027   -0.0254    0.7500
+  loop-seeded-json               0.7421    0.7553    0.5426    0.0557    0.5887    0.7473
+  loop-injection-code            0.7191    0.7209    0.6712    0.1288   -0.9477    0.7201
+  loop-seeded-countdown          0.7017    0.7013    0.7304    0.2439   -0.5535    0.7100
+  mask-reserved-stubborn         0.6400    0.6583    0.9353    1.5020    1.8416    0.6306
+  loop-seeded-chant              0.6299    0.6356    0.5142    0.3614    0.4253    0.6747
+  loop-seeded-cycle              0.5878    0.6050    0.7769    0.8246    1.5319    0.5820
+  loop-injection-prose           0.5746    0.5792    0.5869    0.4781    1.2596    0.7305
+  loop-seeded-affirm             0.5401    0.5522    0.9826    0.7478    1.2330    0.5423
+  loop-seeded-counter            0.5045    0.5023    0.7812   -0.0321   -0.0629    0.7426
+--- leg p2corpus-rw17 ---
+  fixture                      dropB(E)  dropB(f)  dropA(f)   ddiv(E)   ddiv(f) censusDrop
+  loop-seeded-code-line          0.7545    0.7650    0.8233    0.0390   -0.0254    0.7500
+  loop-seeded-json               0.7421    0.7553    0.6009    0.0459    0.5887    0.7473
+  loop-injection-code            0.7191    0.7209    0.7042    0.1282   -0.9477    0.7201
+  loop-seeded-countdown          0.7017    0.7013    0.7522    0.2254   -0.5535    0.7100
+  mask-reserved-stubborn         0.6400    0.6583    0.9652    1.3632    1.8416    0.6306
+  loop-seeded-chant              0.6299    0.6356    0.7070    0.3514    0.4253    0.6747
+  loop-seeded-cycle              0.5878    0.6050    0.9286    0.4629    1.5319    0.5820
+  loop-injection-prose           0.5746    0.5792    0.8000    0.5231    1.2596    0.7305
+  loop-seeded-affirm             0.5401    0.5522    0.9665    0.4498    1.2330    0.5423
+  loop-seeded-counter            0.5045    0.5023    0.9160   -0.0011   -0.0629    0.7426
+  THE READ ON THE JUDGED LEG:
+    the pair-drop axis: code-line 0.7650 on f (E 0.7545) -- FIRST of all ten fixtures (json 0.7553, the detected maximum injection-code 0.7209)
+    the corpus flood: the cal drop distribution q95 0.7682 / max 0.8145 -- AT LEAST 5% OF THE CLEAN CORPUS outranks code-line's 0.7650 on its own best axis (q50 0.7248: the corpus MEDIAN sits beside json)
+    the d-divergence axis: code-line 0.0028 on E -- DEAD LAST of all ten (json 0.0351, countdown 0.2384 below five detected; the detected mask-stub 1.5218, cycle 0.8028, affirm 0.6207)
+    VERDICT: A2 DEAD -- the analysis's own Check-2 kill condition lands exactly: code-line mid-bulk in the corpus on the drop ratio, dead last within-loop on the divergence ratio -- a face on these ratios re-learns wall one (the corpus-against-form wall) on a new axis
+    THE GLEANING (banked as mechanism knowledge): the pair-drop fraction is the FIRST axis in the lineage's receipts on which code-line ranks FIRST within-loop -- the shared-syntax-template excision is REAL on the fixtures (code-line loses 0.7500 of its pairs under the lane-B mask, more than any detected fixture) -- the axis dies on the corpus flood, never on the fixture signal
+
+=== SECTION 3 -- THE F-DETRENDED RESIDUAL (route A3: E.laneB regressed on f.unmasked, the P-B4 form read on the residual) ===
+--- leg mbpprw17 ---
+  fixture                           R2  resPB4form  resMinDepth
+  loop-injection-code           0.6038      4.5625       0.1410
+  loop-injection-prose          0.1571     -0.0541       0.1409
+  loop-seeded-affirm            0.7014      0.7094       0.0262
+  loop-seeded-chant             0.5698      2.5031       0.0206
+  loop-seeded-code-line         0.6662     -6.3753       0.1744
+  loop-seeded-countdown         0.9275      1.9557       0.0849
+  loop-seeded-counter           0.7902      0.1604       0.0105
+  loop-seeded-cycle             0.6400      1.3003       0.0175
+  loop-seeded-json              0.5875     -2.2429       0.1492
+  mask-reserved-stubborn        0.9638      1.9088       0.0964
+--- leg prose17p-rw17 ---
+  fixture                           R2  resPB4form  resMinDepth
+  loop-injection-code           0.5256      3.5796       0.1443
+  loop-injection-prose          0.1526     -0.0915       0.1446
+  loop-seeded-affirm            0.7349      0.4069       0.0352
+  loop-seeded-chant             0.6229      1.0801       0.0315
+  loop-seeded-code-line         0.6560     -4.4838       0.1423
+  loop-seeded-countdown         0.9264      2.3077       0.0686
+  loop-seeded-counter           0.8021      0.9368       0.0068
+  loop-seeded-cycle             0.6735      1.1833       0.0313
+  loop-seeded-json              0.6105     -1.2878       0.0987
+  mask-reserved-stubborn        0.9667      2.3861       0.0735
+--- leg p2corpus-rw17 ---
+  fixture                           R2  resPB4form  resMinDepth
+  loop-injection-code           0.6097      3.0866       0.1249
+  loop-injection-prose          0.0444     -0.2316       0.0311
+  loop-seeded-affirm            0.8582      2.8063       0.0130
+  loop-seeded-chant             0.6190      3.2975       0.0134
+  loop-seeded-code-line         0.6516    -17.1221       0.1498
+  loop-seeded-countdown         0.9222      2.0147       0.0937
+  loop-seeded-counter           0.7069      0.8649       0.0185
+  loop-seeded-cycle             0.3710     -9.4884       0.0121
+  loop-seeded-json              0.6511     -1.2421       0.0826
+  mask-reserved-stubborn        0.9551      1.4581       0.0653
+  THE READ: code-line NEGATIVE on the residual form on all three legs (-6.3753 / -4.4838 / -17.1221) -- its detrended tail dips the WRONG way; json negative on the judged leg (-2.2429); countdown positive (1.9557 / 2.3077 / 2.0147) but BELOW the detected injection-code (4.5625) and chant (2.5031) on the judged leg
+    the f-clock claim VERIFIES as a channel fact (countdown's R2 0.9275 -- f.unmasked does carry the secular trend) -- and the detrend does not rescue the family: the trough-depth answer (item 486) holds on the detrended residual too
+    VERDICT: A3 DEAD -- the trough-depth family answered a third time, now with the drift regressed out
+
+=== SECTION 4 -- THE SATURATION-BOUNDED D2 FACE (route A1: psi_kappa(S) = S / (S + kappa) before the z, on the banked gate-8 census) ===
+the census (G4): 200 cal docs, 189 at exact zero, 11 positive (mean positive mass 5.0), sd 1.352227 -- the analysis's own host; the fixture masses: injection-code 21, json 8, the rest zero
+--- 4.1 THE TWO-POINT INVARIANCE (the paper theorem, computed live) ---
+  kappa  1.0 EQUAL-MASS: mu_psi 0.045833 sd_psi 0.190460 | z(a positive doc) 4.134720 -- the z of ANY single-mass positive doc is kappa-INDEPENDENT (4.134720), the two-point invariance
+  kappa  2.0 EQUAL-MASS: mu_psi 0.039286 sd_psi 0.163252 | z(a positive doc) 4.134720 -- the z of ANY single-mass positive doc is kappa-INDEPENDENT (4.134720), the two-point invariance
+  kappa  4.0 EQUAL-MASS: mu_psi 0.030556 sd_psi 0.126974 | z(a positive doc) 4.134720 -- the z of ANY single-mass positive doc is kappa-INDEPENDENT (4.134720), the two-point invariance
+  kappa  8.0 EQUAL-MASS: mu_psi 0.021154 sd_psi 0.087905 | z(a positive doc) 4.134720 -- the z of ANY single-mass positive doc is kappa-INDEPENDENT (4.134720), the two-point invariance
+  the deep bound: with the 11 positives driven to the asymptote, z_max = 4.134720 (kappa-robust) -- SLIGHTLY BELOW the analysis's claimed 4.3-5.2 band (their band matches the kappa=1 equal-mass z_max 5.0098, IN BAND) -- the honest bound is LOWER than their claim, the invariance STRONGER
+
+--- 4.2 THE KAPPA SWEEP (printed in full as receipts, never tuned: the equal-mass reference, the fixture z's) ---
+  kappa  1.0: sd_psi 0.190460 z_max 5.0098 | z(json@8) 4.4264 FLIPS (above the level 3.761841) | z(inj-code@21) 4.7711 BELOW its D 7.989752 (invariant)
+  kappa  2.0: sd_psi 0.163252 z_max 5.8849 | z(json@8) 4.6598 FLIPS (above the level 3.761841) | z(inj-code@21) 5.3522 BELOW its D 7.989752 (invariant)
+  kappa  4.0: sd_psi 0.126974 z_max 7.6350 | z(json@8) 5.0098 FLIPS (above the level 3.761841) | z(inj-code@21) 6.3749 BELOW its D 7.989752 (invariant)
+  kappa  8.0: sd_psi 0.087905 z_max 11.1353 | z(json@8) 5.4473 FLIPS (above the level 3.761841) | z(inj-code@21) 7.9971 ABOVE its D -- sd drag
+  THE INVARIANCE CLAIM, READ ON THE BANKED BYTES: at kappa=1 z_max 5.0098 sits BELOW the six detected D's in [5.730605, 8.507609] and z(inj-code@21) 4.7711 sits below its own D 7.989752 -- the saturated face CANNOT win the max-pool on any detected fixture, their scores invariant, the sd drag killed EXACTLY as the analysis claims; at kappa=8 the bound 11.1353 breaks the invariance -- kappa must pin SMALL, kappa=1 the convention-natural value
+
+--- 4.3 THE LEVEL RACE AND THE CLIFF (the equal-mass idealization, the bracket computed live) ---
+  kappa  1.0: level bracket [4.134720, 4.134720] (the equal-mass z 4.134720 pins BOTH brackets) vs the banked V5 level 3.761841; the margin under mask-stub 4.177527: +0.042807 (RAZOR-THIN); the cliff mass m* 5.3086 (a positive doc reads the mask-stub edge at this mass; the mean positive mass 5.0); docs already above mask-stub: 7, the demotion needs 4 of the 11 positives above m*
+  kappa  2.0: level bracket [4.134720, 4.134720] (the equal-mass z 4.134720 pins BOTH brackets) vs the banked V5 level 3.761841; the margin under mask-stub 4.177527: +0.042807 (RAZOR-THIN); the cliff mass m* 5.1755 (a positive doc reads the mask-stub edge at this mass; the mean positive mass 5.0); docs already above mask-stub: 7, the demotion needs 4 of the 11 positives above m*
+  kappa  4.0: level bracket [4.134720, 4.134720] (the equal-mass z 4.134720 pins BOTH brackets) vs the banked V5 level 3.761841; the margin under mask-stub 4.177527: +0.042807 (RAZOR-THIN); the cliff mass m* 5.1114 (a positive doc reads the mask-stub edge at this mass; the mean positive mass 5.0); docs already above mask-stub: 7, the demotion needs 4 of the 11 positives above m*
+  kappa  8.0: level bracket [4.134720, 4.134720] (the equal-mass z 4.134720 pins BOTH brackets) vs the banked V5 level 3.761841; the margin under mask-stub 4.177527: +0.042807 (RAZOR-THIN); the cliff mass m* 5.0800 (a positive doc reads the mask-stub edge at this mass; the mean positive mass 5.0); docs already above mask-stub: 7, the demotion needs 4 of the 11 positives above m*
+  THE CLIFF READ: under the equal-mass idealization the level re-derives 3.761841 -> 4.134720 (kappa-robust) and the margin under the demotion edge 4.177527 shrinks to +0.042807 -- whether the saturated face TRIGGERS the demotion is decided by the ACTUAL per-doc masses (unknown offline): the demotion needs 4 of the 11 positives above ~5.30 when the mean positive mass is 5.0 -- a live coin-flip question, HIS bytes only
+
+--- 4.4 THE SATURATED LOOP VECTOR AND THE GAP BRACKET (the kappa=1 equal-mass idealization; only the banked countdown P-B4 lift enters, the other refined-tail reads are his console's, not banked offline -- a projection, never a receipt) ---
+  the vector: json -> 4.426411 (the saturated flip, raw z 5.7128 in his console), countdown -> 1.434110 (its P-B4 lift), injection-code HELD at 7.989752 (the saturated z 4.7711 loses the max-pool -- the drag killed), the other seven at their V5 D's
+  loop moments 5.475720 / 2.582927 (vs the raw combined gate-8 moments 6.338041 / 3.976063 -- the sd drag HALVED on paper)
+  the gap reads, held side at three banked references:
+    at the V5 receipt moments 1.583084/1.308408: 1.901286 -- the fixture-side bound (ABOVE the P-B4 single-face 1.792063, SHORT of the 2.0 bar by 0.0987)
+    at the P-B4-only moments 1.633566/1.332503: 1.869548
+    at the raw-combined gate-8 moments 1.787326/2.174735: 1.544831
+    the honest read lives INSIDE the bracket [1.544831, 1.901286] -- the S lesson (both sides re-scored identically) says the held side lifts too; the raw fixture-side honest bound 1.606504 lifts to 1.901286 on paper, and NO offline read clears 2.0
+    VERDICT: A1 VIABLE-AS-DIAGNOSTIC -- the sd drag killed on paper (the central claim verified), the json flip preserved (k 7 -> 8, the cap 2.6833), the gap bracket 1.5448-1.9013 -- but every binding question is HIS-MAC-ONLY: the actual per-doc masses cal + held under psi, the re-derived level (the cliff at margin +0.042807), the off-leg floods (the banked d2 refs prose 1.548387/3.896216, p2 1.154667/3.072663), the honest both-sides gap
+
+=== SECTION 5 -- THE UPSTREAM ROUTES (B1 the phase-band pooling, B2 the line-synced anchor) AND THE BPE PHASE-JITTER HYPOTHESIS ===
+  the fixture seeds, quoted byte-exact from the instrument (sha 8b4250f3ee0aa55b, verified at open):
+    loop-seeded-code-line: 'def spin():\n    """Print \'tick\' forever without using a while True loop. Write the full function body.\n    """\n'
+    loop-seeded-countdown: 'Count down 5 4 3 2 1 and then start over, forever, never stopping: 5 4 3 2 1 5 4 3 2 1 5 4 3 2 1'
+  the receipt's own d2 facts (f.laneB, the supported window): code-line's minimum 0.0454 -- NO zero anywhere (its deepest lag-0 read 0.0454), while the periodic fixtures read exact zeros (injection-code 0.0@lag0, json 0.0@lag9, chant 0.0@lag17, countdown 0.0@lag24) -- the zero-collapse signature the d2 face reads is ABSENT on code-line, consistent with the phase-jitter reading
+  THE HYPOTHESIS, ITS STATUS: the BPE phase-jitter reading (a mutating code line varies its token count per iteration, desynchronizing every fixed integer lag before the 1D curve is written) is CONSISTENT with every receipted fact -- code-line's zero d2 collapse, its dead-last trough reads, its mid-bulk ramps, its sub-35 drift run -- but UNPROVEN: the receipt's 1D marginals average over position BEFORE the curves are banked, so NO function of the banked bytes can test it (the smearing, if real, already happened upstream); the claim is verifiable ONLY on his bytes
+  THE RECONSTRUCTION CLASSES (his Mac, offline, zero GPU, read-only on his pinned caches): B1 the phase-band pooling (min over |delta| <= 1 token phase offsets before the position average) and B2 the line-synced anchor (recurrence across statement/newline anchors rather than fixed token offsets) are computable from the cached token ids + hidden bytes WITHOUT a single decode -- diagnostic candidates at his word, never build promises; both target the hard miss code-line, both answer the item-494 gleaning (a countdown-and-code-line direction the corpus's periodic fabric does not carry)
+
+=== THE VERDICTS, PER ROUTE, PRESENTED NEVER ADJUDICATED ===
+  A1 (the saturated d2 face): VIABLE-AS-DIAGNOSTIC -- the one live offline route; the sd drag killed on paper, the json flip preserved, the fixture-side bound 1.901286 vs the P-B4 single-face 1.792063, the bracket [1.544831, 1.901286], the cliff live at margin +0.042807; every binding question his-Mac-only; a fresh pre-reg at his word (kappa pinned by convention never tuned, the sweep carried as receipts, the anti-shopping rider, the item-449 disclosure law)
+  A2 (the cross-lane contrast): DEAD -- the analysis's own Check-2 condition lands (code-line mid-bulk in the corpus on the drop ratio, dead last within-loop on the divergence ratio); the gleaning banked: the pair-drop fraction is the first code-line-first axis in the lineage's receipts
+  A3 (the f-detrended residual): DEAD -- the trough-depth family answered a third time on the detrended residual (code-line negative on all three legs); the f-clock claim itself verified as a channel fact
+  B1 + B2 (the upstream phase-tolerant forms): HIS-MAC candidates -- the phase-jitter hypothesis consistent with every receipted fact, unprovable on the banked 1D bytes, reconstructible offline zero GPU on his caches at his word
+  THE D* FACT: the sign-flip peak mechanism verified, the claimed constant 7.628 world-dependent (7.5526 / 7.6055 / 8.3134 / 7.3484 across the four worlds) -- the sd-drag correction of item 492 now derived, not just observed
+  C (close / the 8B record lane): HIS -- the P-B4 honest 1.792063 stands as the best banked CODE read without a demotion; the state matrix row 3 always his call
+  THE STANDING: the audit read-only on the receipt's own bytes, the instrument quoted byte-exact, the pinned sheets never opened, zero builds, zero GPU, zero decodes, no constant tuned to any answer, the kappa sweep printed in full as receipts -- the next act at his word only
+(offline read of the run-of-record receipt bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

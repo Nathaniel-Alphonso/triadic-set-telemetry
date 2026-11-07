@@ -1,0 +1,161 @@
+=== THE B1/B2 PHASE-LANE DIAGNOSTIC, FULL MODE (his pinned caches, read-only, zero GPU, zero decodes) ===
+the sheet 0eeb2991d47b3d8f... pinned at his stamp; the forms read EXACTLY as sheeted (S4), never tuned after any read; the newline token id(s) [198] resolved from the static vocabulary table tokenizer.json (the newline key(s) 'Ċ' matched -- the raw string or the byte-level remapped form of byte 0x0A; a table read, zero model decodes, zero GPU) -- the lookup NAMED per the sheet's R2 (a static vocabulary fact, zero model decodes, zero GPU)
+the verdict law (S5): each form its own pre-registered verdict -- B1 the PRIMARY (the motivating hypothesis), B2 the SECONDARY (the different-frame alternative); the sheet never selects between them after a read; a B1 negative closes nothing on B2
+the fixture census FIRST (the item-487 ordering law): the B faces read on the ten fixtures BEFORE any corpus doc's face is read (the baselines the standing shared machinery, the tool's own construction); the counter-receipt GATED ON B1 ONLY -- the B1 occurrences ARE the exact-lag construction's own (the delta=0 occurrence gates the member, a masked-out occurrence never re-admitted at a shifted offset -- the item-510 builder amend, his live catch banked), the min over delta includes delta=0, so a club exact zero can only hold or fall, a club member above zero names a bug, a HARD EXIT; the B2 club minima PRINTED AS FINDINGS ONLY, the anchor-index recurrence carries NO zero-survival guarantee (the token position re-anchored, a member may sit above zero honestly) -- the distinction named here once
+
+--- LEG mbpprw17 (cache pin MATCH, sha256 01708e89080d6f16...) ---
+  population parity: 200 cal + 200 held, exact match against the receipt's doc_rows
+  fixture curve parity: all ten fixtures byte-close at 1e-12 on the masked E and laneB f d2 curves (the lineage proven; the B forms never touch the standing channels)
+  THE FIXTURE CENSUS FIRST (the B faces on the ten fixtures, both forms; the minimum over SUPPORTED lags, the LOW_SUPPORT_PAIRS law; curve index i, the lag i+2):
+    fixture                     raw min   | B1 d2 min (argmin, exact zeros) | B2 d2 min (argmin, zeros, anchors)
+    loop-injection-code         raw 0.000000 | B1 0.000000 (arg 0,2,3,4,6,8,...(23), zeros 0,2,3,4,6,8,...(23)) | B2 EMPTY (arg none, zeros none, anchors 2)
+      masses 8/12/16 -- raw 21 / 21 / 21 | B1 21 / 21 / 21 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.000000 B2 EMPTY
+    loop-injection-prose        raw 0.064006 | B1 0.032003 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.083171 B2 EMPTY
+    loop-seeded-affirm          raw 0.052426 | B1 0.020971 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.082472 B2 EMPTY
+    loop-seeded-chant           raw 0.000000 | B1 0.000000 (arg 17, zeros 17) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.068154 B2 EMPTY
+    loop-seeded-code-line       raw 0.045436 | B1 0.045436 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 14)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.112993 B2 0.000000
+    loop-seeded-countdown       raw 0.000000 | B1 0.000000 (arg 24,31, zeros 24,31) | B2 EMPTY (arg none, zeros none, anchors 4)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.052203 B2 EMPTY
+    loop-seeded-counter         raw 0.030167 | B1 0.030167 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.069817 B2 EMPTY
+    loop-seeded-cycle           raw 0.108702 | B1 0.046586 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.098142 B2 EMPTY
+    loop-seeded-json            raw 0.000000 | B1 0.000000 (arg 9,12,13,18,20,23,...(11), zeros 9,12,13,18,20,23,...(11)) | B2 EMPTY (arg none, zeros none, anchors 2)
+      masses 8/12/16 -- raw 8 / 8 / 8 | B1 8 / 8 / 8 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.000000 B2 EMPTY
+    mask-reserved-stubborn      raw 0.096218 | B1 0.036082 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.088416 B2 EMPTY
+  THE B1 COUNTER-RECEIPT PASSED (the club's exact zeros SURVIVE the phase band -- the min law guarantees it, the guarantee now measured)
+  THE B2 CLUB FINDINGS (printed, never gated -- the anchor law carries no zero-survival guarantee): loop-injection-code B2 min EMPTY; loop-seeded-json B2 min EMPTY; loop-seeded-chant B2 min EMPTY; loop-seeded-countdown B2 min EMPTY
+  THE RE-FORMATION READ (code-line, the judged question): the raw minimum 0.045436 (banked 0.0454, NEVER zero) | B1 minimum 0.045436 (collapse YES, exact zeros none -- the club band not reached) | B2 minimum EMPTY (collapse no, exact zeros none -- the club band not reached)
+  THE FIXTURE GATE: code-line re-forms on ['B1'] -- the ordering survives, the corpus half opens under the surviving form(s); the dead form(s) ['B2'] closed at the first gate, their verdict already written (a clean close, banked as mechanism knowledge)
+  THE CORPUS HALF (under the surviving form(s) ['B1']):
+  THE RAW CENSUS PARITY GATE (gate 8, vs his banked console census): mean 0.275000 vs 0.275000 (delta 0.00e+00) | sd 1.352227 vs 1.352227 (delta 1.00e-07) | n_pos 11 vs 11 | n_at_zero 189/200 | held n_pos 15 vs 15
+  THE RAW CENSUS PARITY GATE PASSED (the before-column byte-identical, the A1 amend-v2 lesson carried)
+  P-B4 CAL REFERENCE (the refined tail over 184 cal docs, 16 EMPTY named): mean 0.195457 sd 0.120401
+  === FORM B1 (the phase-band pooling, PRIMARY) ===
+  the no-anchor census: 62 docs carry ZERO newline anchors (named per the sheet's EMPTY law, never zero-filled; their masses read the real count 0, the mass law verbatim)
+  THE FLOOD CENSUS (the A2 lesson): code-line's B1 trough 0.045436 vs the cal min-distribution (n 184, 16 EMPTY-named) q50 0.057061 q95 0.264907 max 0.817851 -- 78 cal docs DEEPER (42.3913%) -- THE A2 KILL CONDITION MET (>= 5% deeper), the flood re-learned
+  --- FORM B1, GATE triples >= 8: the B-face cal census mean 0.365000 sd 1.716539 (n_pos 13/200) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 3.761841 -> 4.256669 (+0.494828) | k 7 -> 7 (the cap at k_new 2.0494) | THE HONEST BOTH-SIDES GAP: 1.686262 -> 1.548453 vs the V5 1.686262 -- BELOW the P-B4 honest 1.792063 (the standing best banked CODE read)
+    THE LEVEL RACE: code-line D 1.381425 -> D_new 1.381425 (its B1 mass 0, z -0.2126) vs the re-derived level 4.256669 -- below; the k move 7 -> 7 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 15, B1-only 5, both 0
+  --- FORM B1, GATE triples >= 12: the B-face cal census mean 0.275000 sd 1.496856 (n_pos 11/200) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 3.761841 -> 4.189639 (+0.427798) | k 7 -> 7 (the cap at k_new 2.0494) | THE HONEST BOTH-SIDES GAP: 1.686262 -> 1.487562 vs the V5 1.686262 -- BELOW the P-B4 honest 1.792063 (the standing best banked CODE read)
+    THE LEVEL RACE: code-line D 1.381425 -> D_new 1.381425 (its B1 mass 0, z -0.1837) vs the re-derived level 4.189639 -- below; the k move 7 -> 7 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 15, B1-only 6, both 0
+  --- FORM B1, GATE triples >= 16: the B-face cal census mean 0.215000 sd 1.392289 (n_pos 7/200) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 3.761841 -> 4.143309 (+0.381468) | k 7 -> 8 (the cap at k_new 2.6833) | THE HONEST BOTH-SIDES GAP: 1.686262 -> 1.473494 vs the V5 1.686262 -- BELOW the P-B4 honest 1.792063 (the standing best banked CODE read)
+    THE LEVEL RACE: code-line D 1.381425 -> D_new 1.381425 (its B1 mass 0, z -0.1544) vs the re-derived level 4.143309 -- below; the k move 7 -> 8 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 15, B1-only 8, both 0
+
+--- LEG prose17p-rw17 (cache pin MATCH, sha256 44ce73a97a7d2cdf...) ---
+  population parity: 310 cal + 310 held, exact match against the receipt's doc_rows
+  fixture curve parity: all ten fixtures byte-close at 1e-12 on the masked E and laneB f d2 curves (the lineage proven; the B forms never touch the standing channels)
+  THE FIXTURE CENSUS FIRST (the B faces on the ten fixtures, both forms; the minimum over SUPPORTED lags, the LOW_SUPPORT_PAIRS law; curve index i, the lag i+2):
+    fixture                     raw min   | B1 d2 min (argmin, exact zeros) | B2 d2 min (argmin, zeros, anchors)
+    loop-injection-code         raw 0.000000 | B1 0.000000 (arg 0,2,3,4,6,8,...(23), zeros 0,2,3,4,6,8,...(23)) | B2 EMPTY (arg none, zeros none, anchors 2)
+      masses 8/12/16 -- raw 21 / 21 / 21 | B1 21 / 21 / 21 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.000000 B2 EMPTY
+    loop-injection-prose        raw 0.064553 | B1 0.032276 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.083882 B2 EMPTY
+    loop-seeded-affirm          raw 0.052875 | B1 0.021150 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.083177 B2 EMPTY
+    loop-seeded-chant           raw 0.000000 | B1 0.000000 (arg 17, zeros 17) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.068737 B2 EMPTY
+    loop-seeded-code-line       raw 0.045825 | B1 0.045825 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 14)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.113958 B2 0.000000
+    loop-seeded-countdown       raw 0.000000 | B1 0.000000 (arg 24,31, zeros 24,31) | B2 EMPTY (arg none, zeros none, anchors 4)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.052650 B2 EMPTY
+    loop-seeded-counter         raw 0.030425 | B1 0.030425 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.070413 B2 EMPTY
+    loop-seeded-cycle           raw 0.109631 | B1 0.046985 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.098981 B2 EMPTY
+    loop-seeded-json            raw 0.000000 | B1 0.000000 (arg 9,12,13,18,20,23,...(11), zeros 9,12,13,18,20,23,...(11)) | B2 EMPTY (arg none, zeros none, anchors 2)
+      masses 8/12/16 -- raw 8 / 8 / 8 | B1 8 / 8 / 8 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.000000 B2 EMPTY
+    mask-reserved-stubborn      raw 0.097040 | B1 0.036390 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.089172 B2 EMPTY
+  THE B1 COUNTER-RECEIPT PASSED (the club's exact zeros SURVIVE the phase band -- the min law guarantees it, the guarantee now measured)
+  THE B2 CLUB FINDINGS (printed, never gated -- the anchor law carries no zero-survival guarantee): loop-injection-code B2 min EMPTY; loop-seeded-json B2 min EMPTY; loop-seeded-chant B2 min EMPTY; loop-seeded-countdown B2 min EMPTY
+  THE RE-FORMATION READ (code-line, the judged question): the raw minimum 0.045825 (banked 0.0454, NEVER zero) | B1 minimum 0.045825 (collapse YES, exact zeros none -- the club band not reached) | B2 minimum EMPTY (collapse no, exact zeros none -- the club band not reached)
+  THE CORPUS HALF (under the surviving form(s) ['B1']):
+  THE RAW CENSUS PARITY GATE (gate 8, vs the banked prose17p-rw17 census anchors, items 490/493): mean 1.548387 vs 1.548387 (delta 9.68e-08) | sd 3.896216 vs 3.896216 (delta 1.42e-08) | n_pos 72 vs 72 | n_at_zero 238/310 | held n_pos 67 (NEVER BANKED -- printed as a finding, never gated)
+  THE RAW CENSUS PARITY GATE PASSED (the before-column byte-identical, the A1 amend-v2 lesson carried)
+  P-B4 CAL REFERENCE (the refined tail over 305 cal docs, 5 EMPTY named): mean 0.188923 sd 0.126210
+  === FORM B1 (the phase-band pooling, PRIMARY) ===
+  the no-anchor census: 406 docs carry ZERO newline anchors (named per the sheet's EMPTY law, never zero-filled; their masses read the real count 0, the mass law verbatim)
+  THE FLOOD CENSUS (the A2 lesson): code-line's B1 trough 0.045825 vs the cal min-distribution (n 301, 9 EMPTY-named) q50 0.012373 q95 0.141770 max 2.783843 -- 214 cal docs DEEPER (71.0963%) -- THE A2 KILL CONDITION MET (>= 5% deeper), the flood re-learned
+  --- FORM B1, GATE triples >= 8: the B-face cal census mean 1.600000 sd 3.963588 (n_pos 74/310) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 3.661808 -> 3.856420 (+0.194611) | k 7 -> 7 (the cap at k_new 2.0494) | THE HONEST BOTH-SIDES GAP: 1.566454 -> 1.733533 vs the V5 1.686262 -- vs the banked off-leg bound 1.753702
+    THE LEVEL RACE: code-line D 1.395714 -> D_new 1.395714 (its B1 mass 0, z -0.4037) vs the re-derived level 3.856420 -- below; the k move 7 -> 7 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 15, B1-only 5, both 0
+  --- FORM B1, GATE triples >= 12: the B-face cal census mean 1.400000 sd 3.627654 (n_pos 69/310) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 3.661808 -> 3.967961 (+0.306153) | k 7 -> 7 (the cap at k_new 2.0494) | THE HONEST BOTH-SIDES GAP: 1.566454 -> 1.734868 vs the V5 1.686262 -- vs the banked off-leg bound 1.753702
+    THE LEVEL RACE: code-line D 1.395714 -> D_new 1.395714 (its B1 mass 0, z -0.3859) vs the re-derived level 3.967961 -- below; the k move 7 -> 7 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 15, B1-only 6, both 0
+  --- FORM B1, GATE triples >= 16: the B-face cal census mean 1.122581 sd 3.212708 (n_pos 56/310) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 3.661808 -> 4.007622 (+0.345813) | k 7 -> 7 (the cap at k_new 2.0494) | THE HONEST BOTH-SIDES GAP: 1.566454 -> 1.748991 vs the V5 1.686262 -- vs the banked off-leg bound 1.753702
+    THE LEVEL RACE: code-line D 1.395714 -> D_new 1.395714 (its B1 mass 0, z -0.3494) vs the re-derived level 4.007622 -- below; the k move 7 -> 7 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 14, B1-only 8, both 1
+
+  (the off-leg read presented never adjudicating the judged leg; the banked bounds the context)
+--- LEG p2corpus-rw17 (cache pin MATCH, sha256 81233388fcb5e333...) ---
+  population parity: 375 cal + 375 held, exact match against the receipt's doc_rows
+  fixture curve parity: all ten fixtures byte-close at 1e-12 on the masked E and laneB f d2 curves (the lineage proven; the B forms never touch the standing channels)
+  THE FIXTURE CENSUS FIRST (the B faces on the ten fixtures, both forms; the minimum over SUPPORTED lags, the LOW_SUPPORT_PAIRS law; curve index i, the lag i+2):
+    fixture                     raw min   | B1 d2 min (argmin, exact zeros) | B2 d2 min (argmin, zeros, anchors)
+    loop-injection-code         raw 0.000000 | B1 0.000000 (arg 0,2,3,4,6,8,...(23), zeros 0,2,3,4,6,8,...(23)) | B2 EMPTY (arg none, zeros none, anchors 2)
+      masses 8/12/16 -- raw 21 / 21 / 21 | B1 21 / 21 / 21 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.000000 B2 EMPTY
+    loop-injection-prose        raw 0.066819 | B1 0.033410 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.086827 B2 EMPTY
+    loop-seeded-affirm          raw 0.054731 | B1 0.021892 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.086098 B2 EMPTY
+    loop-seeded-chant           raw 0.000000 | B1 0.000000 (arg 17, zeros 17) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.071150 B2 EMPTY
+    loop-seeded-code-line       raw 0.047433 | B1 0.047433 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 14)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.117959 B2 0.000000
+    loop-seeded-countdown       raw 0.000000 | B1 0.000000 (arg 24,31, zeros 24,31) | B2 EMPTY (arg none, zeros none, anchors 4)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.054498 B2 EMPTY
+    loop-seeded-counter         raw 0.031493 | B1 0.031493 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.072885 B2 EMPTY
+    loop-seeded-cycle           raw 0.113480 | B1 0.048634 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.102456 B2 EMPTY
+    loop-seeded-json            raw 0.000000 | B1 0.000000 (arg 9,12,13,18,20,23,...(11), zeros 9,12,13,18,20,23,...(11)) | B2 EMPTY (arg none, zeros none, anchors 2)
+      masses 8/12/16 -- raw 8 / 8 / 8 | B1 8 / 8 / 8 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.000000 B2 EMPTY
+    mask-reserved-stubborn      raw 0.100447 | B1 0.037668 (arg 0, zeros none) | B2 EMPTY (arg none, zeros none, anchors 0)
+      masses 8/12/16 -- raw 0 / 0 / 0 | B1 0 / 0 / 0 | B2 0 / 0 / 0 | pair faces (receipts): B1 0.092303 B2 EMPTY
+  THE B1 COUNTER-RECEIPT PASSED (the club's exact zeros SURVIVE the phase band -- the min law guarantees it, the guarantee now measured)
+  THE B2 CLUB FINDINGS (printed, never gated -- the anchor law carries no zero-survival guarantee): loop-injection-code B2 min EMPTY; loop-seeded-json B2 min EMPTY; loop-seeded-chant B2 min EMPTY; loop-seeded-countdown B2 min EMPTY
+  THE RE-FORMATION READ (code-line, the judged question): the raw minimum 0.047433 (banked 0.0454, NEVER zero) | B1 minimum 0.047433 (collapse no, exact zeros none -- the club band not reached) | B2 minimum EMPTY (collapse no, exact zeros none -- the club band not reached)
+  THE CORPUS HALF (under the surviving form(s) ['B1']):
+  THE RAW CENSUS PARITY GATE (gate 8, vs the banked p2corpus-rw17 census anchors, items 490/493): mean 1.154667 vs 1.154667 (delta 3.33e-07) | sd 3.072663 vs 3.072663 (delta 4.90e-07) | n_pos 62 vs 62 | n_at_zero 313/375 | held n_pos 83 (NEVER BANKED -- printed as a finding, never gated)
+  THE RAW CENSUS PARITY GATE PASSED (the before-column byte-identical, the A1 amend-v2 lesson carried)
+  P-B4 CAL REFERENCE (the refined tail over 354 cal docs, 21 EMPTY named): mean 0.147374 sd 0.100288
+  === FORM B1 (the phase-band pooling, PRIMARY) ===
+  the no-anchor census: 391 docs carry ZERO newline anchors (named per the sheet's EMPTY law, never zero-filled; their masses read the real count 0, the mass law verbatim)
+  THE FLOOD CENSUS (the A2 lesson): code-line's B1 trough 0.047433 vs the cal min-distribution (n 351, 24 EMPTY-named) q50 0.015067 q95 0.102050 max 0.228697 -- 272 cal docs DEEPER (77.4929%) -- THE A2 KILL CONDITION MET (>= 5% deeper), the flood re-learned
+  --- FORM B1, GATE triples >= 8: the B-face cal census mean 1.165333 sd 3.072106 (n_pos 64/375) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 4.294685 -> 4.695611 (+0.400926) | k 6 -> 6 (the cap at k_new 1.6432) | THE HONEST BOTH-SIDES GAP: 1.559541 -> 1.719159 vs the V5 1.686262 -- vs the banked off-leg bound 1.772590
+    THE LEVEL RACE: code-line D 1.587074 -> D_new 1.587074 (its B1 mass 0, z -0.3793) vs the re-derived level 4.695611 -- below; the k move 6 -> 6 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 30, B1-only 12, both 1
+  --- FORM B1, GATE triples >= 12: the B-face cal census mean 0.861333 sd 2.593075 (n_pos 56/375) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 4.294685 -> 4.864064 (+0.569379) | k 6 -> 6 (the cap at k_new 1.6432) | THE HONEST BOTH-SIDES GAP: 1.559541 -> 1.723360 vs the V5 1.686262 -- vs the banked off-leg bound 1.772590
+    THE LEVEL RACE: code-line D 1.587074 -> D_new 1.587074 (its B1 mass 0, z -0.3322) vs the re-derived level 4.864064 -- below; the k move 6 -> 6 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 30, B1-only 15, both 1
+  --- FORM B1, GATE triples >= 16: the B-face cal census mean 0.616000 sd 2.226904 (n_pos 42/375) | the fixture masses loop-injection-code:21 loop-injection-prose:0 loop-seeded-affirm:0 loop-seeded-chant:0 loop-seeded-code-line:0 loop-seeded-countdown:0 loop-seeded-counter:0 loop-seeded-cycle:0 loop-seeded-json:8 mask-reserved-stubborn:0 ---
+    t_joint 4.294685 -> 5.130169 (+0.835484) | k 6 -> 6 (the cap at k_new 1.6432) | THE HONEST BOTH-SIDES GAP: 1.559541 -> 1.760319 vs the V5 1.686262 -- vs the banked off-leg bound 1.772590
+    THE LEVEL RACE: code-line D 1.587074 -> D_new 1.587074 (its B1 mass 0, z -0.2766) vs the re-derived level 5.130169 -- below; the k move 6 -> 6 the coverage question's answer-to-date
+    the held-side lift (the S-lesson census): refined-only 30, B1-only 19, both 1
+
+  (the off-leg read presented never adjudicating the judged leg; the banked bounds the context)
+THE KILL-SWITCH VERDICTS (the S6 law, presented for his stamps -- each form its own verdict, never a post-read selection):
+  FORM B1: THE FLOOD: 42.3913% of the cal corpus deeper than code-line's 0.045436 trough -- ABOVE the 5% line -- THE A2 KILL CONDITION MET, the flood re-learned
+  FORM B1 GATE 8: the honest gap 1.548453 vs the P-B4 honest 1.792063 -- BELOW (the re-formation bought nothing at this gate) | k 7 | code-line below the level
+  FORM B1 GATE 12: the honest gap 1.487562 vs the P-B4 honest 1.792063 -- BELOW (the re-formation bought nothing at this gate) | k 7 | code-line below the level
+  FORM B1 GATE 16: the honest gap 1.473494 vs the P-B4 honest 1.792063 -- BELOW (the re-formation bought nothing at this gate) | k 8 | code-line below the level
+  FORM B1: the census parity PASSED at open (a fail a HARD EXIT, never a verdict); the verdict question his -- the sheet's S4/S6 laws the binding frame
+  FORM B2: CLOSED AT THE FIRST GATE (the fixture gate -- code-line failed to re-form; the phase hypothesis dead on the fixtures for this form, banked as mechanism knowledge; zero corpus reads spent on it)
+  THE STANDING: the console presented for his read -- a negative kill-switch read closes the sheet on paper zero build hours (banked as mechanism knowledge; route C or the next sheet at his word); a live read opens the build question at his word only, its own stamp, never pre-promised; the gates 8/12/16 carried as receipts, ONE gate pinned at his stamp, only the pinned gate's read ever carried to a verdict question
+(offline read of his pinned cache bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

@@ -1,0 +1,44 @@
+=== THE B1/B2 PHASE-LANE DIAGNOSTIC, PARITY-ONLY MODE (the receipt-side gates; no caches read) ===
+the sheet rc-b12-phaselane-prereg.md pinned at his stamp (sha 0eeb2991d47b3d8f...), the receipt fc8b70b5435cefbc verified byte-exact at open, the tool 391ac7dfd91f4c45 verified inside it -- the forms read EXACTLY as sheeted (S4): B1 the phase-band pooling (the min over delta in {-1,0,+1} BEFORE the position average, the band pinned by convention, never widened after any read), B2 the line-synced anchor (the newline anchor set, the token position never consulted for the lag, the id(s) named in the full-mode console per R2); the verdict law (S5): each form its own pre-registered verdict, B1 the PRIMARY, B2 the SECONDARY, never a post-read selection; the fixture census FIRST (S6, the item-487 ordering law)
+
+[D1] THE STANDING WORLD RE-DERIVED (doc_rows + loop_census alone, the before-column intact)
+  t_joint recomputed 3.7618410048243147 vs the receipt's 3.7618410048243147 OK | the banked 3.7618410048243147
+  gap recomputed 1.6862617412521999 vs the receipt's raw 1.6862617412521999 OK | the banked 1.6862617412521999
+  the null projection: k 7, lifted [], demoted [] (must be empty)
+  D1 PASSED (the world byte-identical to the bank)
+
+[D2] THE RAW FIXTURE RECEIPTS (the receipt's own f.laneB d2 curves; curve index i = the banked convention, the lag LAGS[i] = i+2) -- the before-column of the re-formation read
+  loop-injection-code         min 0.000000 zeros @idx 0,2,3,4,6,8,...(23) | m_d2 8/12/16: 21 / 21 / 21 | banked g8 21 OK
+  loop-injection-prose        min 0.064006 zeros @idx none | m_d2 8/12/16: 0 / 0 / 0 | banked g8 - OK
+  loop-seeded-affirm          min 0.052426 zeros @idx none | m_d2 8/12/16: 0 / 0 / 0 | banked g8 - OK
+  loop-seeded-chant           min 0.000000 zeros @idx 17 | m_d2 8/12/16: 0 / 0 / 0 | banked g8 0 OK
+  loop-seeded-code-line       min 0.045436 zeros @idx none | m_d2 8/12/16: 0 / 0 / 0 | banked g8 0 OK
+  loop-seeded-countdown       min 0.000000 zeros @idx 24,31 | m_d2 8/12/16: 0 / 0 / 0 | banked g8 0 OK
+  loop-seeded-counter         min 0.030167 zeros @idx none | m_d2 8/12/16: 0 / 0 / 0 | banked g8 - OK
+  loop-seeded-cycle           min 0.108702 zeros @idx none | m_d2 8/12/16: 0 / 0 / 0 | banked g8 - OK
+  loop-seeded-json            min 0.000000 zeros @idx 9,12,13,18,20,23,...(11) | m_d2 8/12/16: 8 / 8 / 8 | banked g8 8 OK
+  mask-reserved-stubborn      min 0.096218 zeros @idx none | m_d2 8/12/16: 0 / 0 / 0 | banked g8 - OK
+  code-line's raw minimum 0.045436147255156677 vs the banked 0.0454 (delta 3.61e-05) -- NEVER ZERO, the trough the B forms must collapse
+  the miss D receipts exact: json 3.492749 countdown 0.459473 code-line 1.381425 (the coverage question's targets, the k 7 -> 8 door)
+  the raw within-loop ordering (the before-column, ascending): loop-injection-code 0.0000 < loop-seeded-chant 0.0000 < loop-seeded-countdown 0.0000 < loop-seeded-json 0.0000 < loop-seeded-counter 0.0302 < loop-seeded-code-line 0.0454 < loop-seeded-affirm 0.0524 < loop-injection-prose 0.0640 < mask-reserved-stubborn 0.0962 < loop-seeded-cycle 0.1087
+  D2 PASSED (the raw before-column banked exact; the club's exact zeros the signature the B forms must SURVIVE, code-line's never-zero trough the target they must COLLAPSE)
+
+[D3] THE P-B4 REFINED FIXTURE TABLE (the item-488 bank, the masked E curves) REPRODUCED
+  loop-seeded-countdown       refined 0.368124 vs banked 0.368124 OK
+  loop-injection-code         refined 0.321772 vs banked 0.321772 OK
+  mask-reserved-stubborn      refined 0.299363 vs banked 0.299363 OK
+  loop-seeded-chant           refined 0.258515 vs banked 0.258515 OK
+  loop-injection-prose        refined 0.252647 vs banked 0.252647 OK
+  loop-seeded-cycle           refined 0.212269 vs banked 0.212269 OK
+  loop-seeded-counter         refined 0.141779 vs banked 0.141779 OK
+  loop-seeded-affirm          refined 0.127843 vs banked 0.127843 OK
+  loop-seeded-json            refined 0.057367 vs banked 0.057367 OK
+  loop-seeded-code-line       refined 0.036616 vs banked 0.036616 OK
+  D3 PASSED (the P-B4 form byte-carried; the spine's refined cell rides unchanged, can-only-add)
+
+[D4] THE STANDING REFS (the world the B faces write against): the V5 level 3.7618410048243147 | the V5 honest gap 1.6862617412521999 | the P-B4 honest 1.792063 (the standing best banked CODE read) | the caps k6 1.6432 / k7 2.0494 / k8 2.6833 | the off-leg bounds prose 1.753702 / p2 1.772590 | k = 7 of ten fixtures above the level (the coverage question: code-line the only live door, k 7 -> 8 the open question)
+
+[D5] THE FULL MODE (his Mac, read-only, zero GPU, zero model decodes): the script beside this tool + receipt + the pinned sheet + his three pinned walk caches (triadic_t2_cache_rw17-code-3b-scout-k400_float16_bos.jsonl; triadic_t2_cache_rw17-prose-3b-scout-k620_float16_bos.jsonl; triadic_t2_cache_rw17-p2-3b-scout-k750_float16_bos.jsonl), the newline token id(s) either --newline-ids ID[,ID] or a tokenizer.json / vocab.json beside the script (the static vocabulary lookup, named in the console), then
+    python3 rc_b12_diagnostic.py --newline-ids ID[,ID]
+  which emits rc_b12_diagnostic_console.txt for his shasum + upload; the order: the fixture census FIRST on the judged leg (a both-forms re-formation miss closes the sheet ON PAPER at the first gate, zero corpus reads), the B1 counter-receipt gated (a club member above zero a bug, a HARD EXIT; the B2 club minima findings only, the guarantee named), then the raw census parity gate per leg (per-leg anchors, the A1 lesson: CODE 0.275000/1.352227 n_pos 11/200 held 15, prose 1.548387/3.896216 n_pos 72/310, p2 1.154667/3.072663 n_pos 62/375 -- a mismatch a HARD EXIT), the B-face census, the flood census (the A2 kill), the level race, the spine read D_new = max(D, z_refined, z_Bface), the honest both-sides gap PER GATE PER FORM, the off-leg reads, the kill-switch verdicts per form
+(offline read of the run-of-record receipt bytes only, zero GPU, zero decodes, read-only; Oct 21 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved (D-theta); no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)
