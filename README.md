@@ -9,7 +9,7 @@
 
 ---
 
-The **Triadic Set** governs the forward pass of a language model directly: measured constraints, enforced inside the execution path at calibrated moments, that steer a model away from trajectories destined for discard and restore output that would otherwise be lost. The payoff is the one inference treats as a trade-off: compute falls and accuracy rises, at the same time, on the same model. This repository is my proof at the development-bench level: every claim pre-registered, every run checksummed, every adjudication replayable by anyone, on zero GPUs. The held-out measurement on a live environment stays the forward act for every claim, and the record below states where each claim stands.
+The **Triadic Set** governs the forward pass of a language model directly: measured constraints, enforced inside the execution path at calibrated moments, that steer a model away from trajectories destined for discard and restore output that would otherwise be lost. The payoff is the one inference treats as a trade-off: compute falls and accuracy rises, at the same time, on the same model. This repository is my proof at the development-bench level: every claim pre-registered, every run checksummed, every adjudication replayable by anyone, on zero GPUs. Zero GPUs is the replay's claim: the walks themselves were generated on named hardware at each rung, Apple Silicon at 1B, a rented T4 pair at 3B, a rented NVIDIA RTX 4090 at 8B, each stated with its precision at the phase that walked it. The held-out measurement on a live environment stays the forward act for every claim, and the record below states where each claim stands.
 
 ---
 
@@ -170,6 +170,8 @@ Readings on the receipt, stated for rigor:
 
 With the founding result established, the program moved from demonstrating the architecture to trying to *break* it. A formal Test & Evaluation plan put the 1B-scale system under oracle verification, held-out adjudication, and pre-registered acceptance readings across two evaluation regimes: **single-pass generation** and **multi-turn deployment** (where interface gates govern turn-boundary behavior).
 
+**Hardware of record.** The 1B rung walked on Apple Silicon: Llama-3.2-1B-Instruct on an M1 MacBook Pro with 8 GB of unified memory, through the MPS backend, at bfloat16, the same bench as the founding phases.
+
 The phase runs as eight pre-registered lanes, each with its protocol summary in `docs/protocols/` and its results in this repository:
 
 | # | Lane | Protocol | Results |
@@ -190,6 +192,8 @@ The phase runs as eight pre-registered lanes, each with its protocol summary in 
 ### Phase 4: Model-Scale Transfer, 3B → 8B (Oct 2026 → present)
 
 The governance map re-derives and re-validates at every step of the model ladder, from 1B through 3B to 8B parameters. Phase 4 re-runs the checker passes and acceptance arms at each scale and records the transfer honestly, including where the map re-derived cleanly and where the transfer surfaced real findings.
+
+**Hardware of record.** The 3B rung (Llama-3.2-3B-Instruct) walked on a rented pair of NVIDIA T4 GPUs on Kaggle at float16; the 8B rung (Llama-3.1-8B-Instruct) walked on a rented NVIDIA RTX 4090, 24 GB, at bfloat16, the host and the precision pinned in the run spec before the first walk.
 
 **The 3B transfer is complete and receipted; the 8B record lane is the program's open scale-transfer front.** The receipts of record to date (checker-pass exports, the s5 panel and s8 rework receipts, and the ap17 join exports) publish in `telemetry/v32/phase4/`, with the protocol summary in [doc 09](docs/protocols/09-model-scale-transfer.md). Development batteries produced along the way are withheld as development-data-only, named and counted in that directory's record.
 
