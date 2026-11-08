@@ -1,0 +1,32 @@
+{
+    "driver": "evaluate_triadic_v18_instruct_paired.py",
+    "mode": "gated",
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "device": "mps",
+    "attn_implementation": "eager",
+    "tasks": [
+        "mmlu",
+        "gsm8k"
+    ],
+    "num_fewshot": 0,
+    "batch_size": 1,
+    "limit": 250,
+    "gen_kwargs": {
+        "do_sample": false,
+        "max_new_tokens": 256
+    },
+    "config_file": "triadic_layer_config.json",
+    "library_versions": {
+        "python": "3.14.5",
+        "torch": "2.13.0",
+        "transformers": "5.13.1",
+        "lm_eval": "0.4.14.dev0",
+        "huggingface-hub": "1.33.0",
+        "tokenizers": "0.22.2"
+    },
+    "run_timestamp": "20261107_213819",
+    "governor_metrics": {
+        "sequence_token_reduction_pct": 0.0,
+        "attention_matrix_sparsity_pct": 51.0383580679609
+    }
+}

@@ -1,0 +1,223 @@
+{
+    "embed_tokens": {
+        "sigma_baseline": 0.01957732407997052,
+        "mu_baseline": -1.6798425470672858e-05,
+        "natural_density": 49.83578791220983,
+        "spatial_entropy": 10.555907853444417,
+        "tau_perimeter": 0.002936598611995578
+    },
+    "layer_0": {
+        "sigma_baseline": 0.01957732407997052,
+        "mu_baseline": -1.6798425470672858e-05,
+        "natural_density": 49.83578791220983,
+        "spatial_entropy": 10.555907853444417,
+        "tau_perimeter": 0.002936598611995578,
+        "envelope_ceiling": 0.508068,
+        "envelope_ratio": 0.038533,
+        "envelope_within": true
+    },
+    "layer_1": {
+        "sigma_baseline": 0.04947744719684124,
+        "mu_baseline": 0.0007268746655123929,
+        "natural_density": 50.16223748524984,
+        "spatial_entropy": 10.395250129699708,
+        "tau_perimeter": 0.007421617079526185,
+        "envelope_ceiling": 0.526785,
+        "envelope_ratio": 0.093923,
+        "envelope_within": true
+    },
+    "layer_2": {
+        "sigma_baseline": 0.38308123548825584,
+        "mu_baseline": -0.008049792827417452,
+        "natural_density": 50.46367943286896,
+        "spatial_entropy": 10.408984597524007,
+        "tau_perimeter": 0.05746218532323837,
+        "envelope_ceiling": 0.575782,
+        "envelope_ratio": 0.665323,
+        "envelope_within": true
+    },
+    "layer_3": {
+        "sigma_baseline": 0.3997725983460744,
+        "mu_baseline": -0.008173641609027981,
+        "natural_density": 50.215337574481964,
+        "spatial_entropy": 10.440147018432617,
+        "tau_perimeter": 0.05996588975191116,
+        "envelope_ceiling": 0.682703,
+        "envelope_ratio": 0.585574,
+        "envelope_within": true
+    },
+    "layer_4": {
+        "sigma_baseline": 0.4129356404145559,
+        "mu_baseline": -0.007918865761409204,
+        "natural_density": 50.33447672923406,
+        "spatial_entropy": 10.442171192169189,
+        "tau_perimeter": 0.06194034606218338,
+        "envelope_ceiling": 0.87535,
+        "envelope_ratio": 0.471738,
+        "envelope_within": true
+    },
+    "layer_5": {
+        "sigma_baseline": 0.4236075033744176,
+        "mu_baseline": -0.007656494815212985,
+        "natural_density": 50.471855998039246,
+        "spatial_entropy": 10.441741561889648,
+        "tau_perimeter": 0.06354112550616264,
+        "envelope_ceiling": 1.157116,
+        "envelope_ratio": 0.366089,
+        "envelope_within": true
+    },
+    "layer_6": {
+        "sigma_baseline": 0.43313174943129223,
+        "mu_baseline": -0.00776728632239004,
+        "natural_density": 50.43478111426035,
+        "spatial_entropy": 10.443453788757324,
+        "tau_perimeter": 0.06496976241469384,
+        "envelope_ceiling": 1.480301,
+        "envelope_ratio": 0.292597,
+        "envelope_within": true
+    },
+    "layer_7": {
+        "sigma_baseline": 0.4402521977821986,
+        "mu_baseline": -0.00842665961633126,
+        "natural_density": 50.19598335027695,
+        "spatial_entropy": 10.43330322901408,
+        "tau_perimeter": 0.06603782966732978,
+        "envelope_ceiling": 1.746207,
+        "envelope_ratio": 0.252119,
+        "envelope_within": true
+    },
+    "layer_8": {
+        "sigma_baseline": 0.44969470500946046,
+        "mu_baseline": -0.009015245999520024,
+        "natural_density": 50.008790493011475,
+        "spatial_entropy": 10.419062900543214,
+        "tau_perimeter": 0.06745420575141907,
+        "envelope_ceiling": 1.85,
+        "envelope_ratio": 0.243078,
+        "envelope_within": true
+    },
+    "layer_9": {
+        "sigma_baseline": 0.458961612979571,
+        "mu_baseline": -0.008411442022770643,
+        "natural_density": 50.24772355953852,
+        "spatial_entropy": 10.413046805063884,
+        "tau_perimeter": 0.06884424194693564,
+        "envelope_ceiling": 1.746207,
+        "envelope_ratio": 0.262833,
+        "envelope_within": true
+    },
+    "layer_10": {
+        "sigma_baseline": 0.4793726295232773,
+        "mu_baseline": -0.009279399861892064,
+        "natural_density": 49.99718338251114,
+        "spatial_entropy": 10.381734275817871,
+        "tau_perimeter": 0.07190589442849159,
+        "envelope_ceiling": 1.480301,
+        "envelope_ratio": 0.323835,
+        "envelope_within": true
+    },
+    "layer_11": {
+        "sigma_baseline": 0.4958049446344376,
+        "mu_baseline": -0.009826587994272511,
+        "natural_density": 49.85185702641805,
+        "spatial_entropy": 10.386906337738036,
+        "tau_perimeter": 0.07437074169516564,
+        "envelope_ceiling": 1.157116,
+        "envelope_ratio": 0.428484,
+        "envelope_within": true
+    },
+    "layer_12": {
+        "sigma_baseline": 0.526796547571818,
+        "mu_baseline": -0.010089250498761733,
+        "natural_density": 49.95114674170812,
+        "spatial_entropy": 10.377972888946534,
+        "tau_perimeter": 0.0790194821357727,
+        "envelope_ceiling": 0.87535,
+        "envelope_ratio": 0.601812,
+        "envelope_within": true
+    },
+    "layer_13": {
+        "sigma_baseline": 0.5604829887549082,
+        "mu_baseline": -0.011684850711996356,
+        "natural_density": 49.67576404412588,
+        "spatial_entropy": 10.397983042399089,
+        "tau_perimeter": 0.08407244831323622,
+        "envelope_ceiling": 0.682703,
+        "envelope_ratio": 0.820977,
+        "envelope_within": true
+    },
+    "layer_14": {
+        "sigma_baseline": 0.6016817361116409,
+        "mu_baseline": -0.011608268305038413,
+        "natural_density": 49.79361335436503,
+        "spatial_entropy": 10.41790771484375,
+        "tau_perimeter": 0.09025226041674612,
+        "envelope_ceiling": 0.575782,
+        "envelope_ratio": 1.044982,
+        "envelope_within": false
+    },
+    "layer_15": {
+        "sigma_baseline": 0.6639325598875682,
+        "mu_baseline": -0.011829293426126241,
+        "natural_density": 49.761269887288414,
+        "spatial_entropy": 10.444615523020426,
+        "tau_perimeter": 0.09958988398313522,
+        "envelope_ceiling": 0.526785,
+        "envelope_ratio": 1.260347,
+        "envelope_within": false
+    },
+    "lm_head": {
+        "sigma_baseline": 2.14112815062205,
+        "mu_baseline": 0.7942356795072556,
+        "natural_density": 59.94345804055532,
+        "spatial_entropy": 16.587559572855632,
+        "tau_perimeter": 0.3211692225933075
+    },
+    "gaussian_envelope": {
+        "sigma_min": 0.5,
+        "sigma_max": 1.85,
+        "mu": 8.0,
+        "omega": 2.5,
+        "num_layers": 16,
+        "layers_within_envelope": 14,
+        "layers_breaching": [
+            14,
+            15
+        ],
+        "verdict": "FLAGGED"
+    },
+    "runtime_constants": {
+        "source_driver": "evaluate_triadic_v18_instruct_paired.py",
+        "read_by_driver": false,
+        "tier_a": {
+            "entropy_spike_multiplier": 1.5,
+            "density_ceiling_pct": 95.0
+        },
+        "tier_b": {
+            "sparsity_rate_per_severity": 0.35,
+            "sparsity_cap": 0.4,
+            "nan_guard_floor": -50000.0,
+            "excision_fill_value": -10000.0
+        },
+        "tier_c": {
+            "confidence_latch": 0.15,
+            "min_steps_before_latch": 3,
+            "recent_token_window": 12,
+            "structural_repeat_span": 3,
+            "structural_repeat_lookback": 6,
+            "logit_band_factor": 4.0,
+            "lm_head_tau_fallback": 3.0,
+            "logit_fill_value": -10000.0,
+            "eos_forced_logit": 10000.0
+        },
+        "tier_d": {
+            "severity_ramp_multiplier": 1.5,
+            "synthesis_lock_multiplier": 3.0,
+            "gamma": 0.01
+        },
+        "model": {
+            "num_layers": 16,
+            "eos_token_id_fallback": 128009
+        }
+    }
+}
