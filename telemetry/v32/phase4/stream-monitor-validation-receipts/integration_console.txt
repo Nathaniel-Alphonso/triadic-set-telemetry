@@ -1,0 +1,33 @@
+=== TRIADIC INTEGRATION READOUT (B3 of the streaming-monitors act) ===
+  the fork parent: the rework readout tool of record (sha256 c735674ae9d8d262...)
+  the pinned sheet: streaming-event-monitors-preregistration.md (sha256 f6abaf0a72e8c2b6...)
+  the two rule lines: the B1 module of record (sha256 45bf152ed171a851...)
+  mode: REAL MODE -- every pin enforced before any read
+  pins verified: census export bc3cce0be3860dfb..., monitors 45bf152ed171a851..., census builder 099e36a0dbd7b28f..., forensics 1eb86e96ea9dba71..., caches {'mbpprw17': '69eadf05da47fe22', 'prose17p-rw17': '10791704bb8fe077'}...
+
+-- mbpprw17 --
+  docs: 400 (even calibration 200 / odd 200)
+  the r2 entry band (this leg's own, the calibration prefix-mean range): [REDACTED_PER_PUBLICATION_POLICY]
+  R-SM1 cleared silent: 102/102 -- HARD GATE GREEN
+  R-SM2 degenerate flagged: 298/298 -- HARD GATE GREEN
+  line split among flagged: {"both": 100, "cycle_only": 4, "phrase_only": 194}
+  cut-step quartiles (degenerate): min 25.0, q1 109.0, median 196.0, q3 295.75, max 500.0
+  census spike quartiles beside: min 2.0, q1 37.25, median 124.0, q3 283.5, max 511.0
+  frac of the cap saved by the cut: min 0.0215, q1 0.4204, median 0.6152, q3 0.7852, max 0.9492
+  the restoration at the cuts: 298 anchor(s) found, 0 absent
+
+-- prose17p-rw17 --
+  docs: 620 (even calibration 310 / odd 310)
+  the r2 entry band (this leg's own, the calibration prefix-mean range): [REDACTED_PER_PUBLICATION_POLICY]
+  R-SM1 cleared silent: 214/214 -- HARD GATE GREEN
+  R-SM2 degenerate flagged: 404/404 -- HARD GATE GREEN
+  line split among flagged: {"both": 40, "cycle_only": 0, "phrase_only": 364}
+  cut-step quartiles (degenerate): min 75.0, q1 226.0, median 326.5, q3 402.0, max 511.0
+  census spike quartiles beside: min 2.0, q1 95.0, median 191.0, q3 319.0, max 511.0
+  frac of the cap saved by the cut: min 0.0, q1 0.2129, median 0.3604, q3 0.5566, max 0.8516
+  the restoration at the cuts: 404 anchor(s) found, 0 absent
+  R-SM3 the boundary block: [460, 600]
+
+the pre-committed readings, asserted as hard gates: 702/702 degenerate flagged; 316/316 cleared silent -- GREEN
+
+integration receipt written: integration_receipt.json (1173445 bytes)

@@ -1,0 +1,26 @@
+=== STREAM MONITORS PARITY RUN, PHASE 2 (B5) ===
+version: triadic_stream_monitors_parity_phase2 v1.0.0
+mode: REAL MODE -- every pin enforced before any read
+pins verified: census export 5f09f1a91a942393..., monitors 45bf152ed171a851..., forensics 1eb86e96ea9dba71..., census fork cbe8b12aea49844f..., caches {'math': '11004cd11cd70b1b', 'p2': '426459930ad726d7'}...
+
+-- math --
+census rows: 1000 (expected 1000)
+parity: flagged 4 / repetition-family 4; cleared-silent 996
+hard gates G1/G2/G3: GREEN (0 red rows)
+line split among flagged: {"both": 0, "cycle_only": 2, "phrase_only": 2}
+first-event step quartiles (degenerate): min 79.0, q1 102.25, median 125.5, q3 148.75, max 172.0
+census spike quartiles recomputed beside: min 11.0, q1 42.75, median 74.5, q3 106.25, max 138.0
+frac of the cap saved by cutting at first event: min 0.3242, q1 0.415, median 0.5059, q3 0.5967, max 0.6875
+unexpected-stop block: [{'doc_id': 200, 'stop_reason': 'stop:fewshot-boundary'}, {'doc_id': 436, 'stop_reason': 'stop:fewshot-boundary'}]
+
+-- p2 --
+census rows: 750 (expected 750)
+parity: flagged 506 / repetition-family 506; cleared-silent 244
+hard gates G1/G2/G3: GREEN (0 red rows)
+line split among flagged: {"both": 26, "cycle_only": 0, "phrase_only": 480}
+first-event step quartiles (degenerate): min 26.0, q1 248.75, median 337.0, q3 412.25, max 510.0
+census spike quartiles recomputed beside: min 3.0, q1 95.0, median 159.0, q3 255.0, max 511.0
+frac of the cap saved by cutting at first event: min 0.002, q1 0.1929, median 0.3398, q3 0.5122, max 0.9473
+mild boundary block: 2 doc(s) [395, 496]
+
+parity receipt written: stream_monitors_parity_run_phase2_rw17-phase2-parity.json (878661 bytes)

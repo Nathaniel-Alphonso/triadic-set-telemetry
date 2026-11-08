@@ -10,6 +10,13 @@ the protocol doc `docs/protocols/09-model-scale-transfer.md`.
 - `s8-rework-receipts/` — the rework readout of record: per-leg parity receipts,
   entry-band receipts (values withheld per publication policy, names kept),
   reproduction receipts, and the fused-hook emission contract.
+- `stream-monitor-validation-receipts/` (the stream-monitor validation lane of
+  record): phase-1 parity and integration receipts on the code and prose legs,
+  phase-2 parity and integration receipts on the math and p2 legs; the
+  monitor-vs-census agreement readings (1,214 flagged vs 1,556 cleared, zero
+  disagreement), zero actuation on all 1,556 clean walks, cut-at-first-event
+  with restoration on every degenerate walk, entry-band values withheld per
+  publication policy with sanitization receipts riding in the subdirectory.
 
 Per the program's disclosure ladder, the withheld phase-4 material is named with
 its count stated plainly (105 files total):

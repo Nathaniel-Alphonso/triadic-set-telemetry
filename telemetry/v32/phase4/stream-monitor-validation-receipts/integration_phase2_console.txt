@@ -1,0 +1,36 @@
+=== TRIADIC INTEGRATION READOUT, PHASE 2 (B6 of the streaming-monitors act) ===
+  the fork parent: the integration runner of record (sha256 02d75b6cf5a44f07...)
+  the pinned sheet: streaming-event-monitors-phase2-preregistration.md (sha256 a0d36c1bd4fd75fe...)
+  the two rule lines: the B1 module of record (sha256 45bf152ed171a851...)
+  the label join: the landed phase-2 census export of record (sha256 5f09f1a91a942393...)
+  the pre-committed readings: the landed parity receipts of record (sha256 e620fa02bb5a20c9...)
+  mode: REAL MODE -- every pin enforced before any read
+  pins verified: census export 5f09f1a91a942393..., monitors 45bf152ed171a851..., census fork cbe8b12aea49844f..., forensics 1eb86e96ea9dba71..., caches {'math': '11004cd11cd70b1b', 'p2': '426459930ad726d7'}...
+
+-- math --
+  docs: 1000 (even calibration 500 / odd 500)
+  the r2 entry band (this leg's own, the calibration prefix-mean range): [REDACTED_PER_PUBLICATION_POLICY]
+  R-SM1 cleared silent: 996/996 -- HARD GATE GREEN
+  R-SM2 degenerate flagged: 2/2 -- HARD GATE GREEN
+  line split among flagged: {"both": 0, "cycle_only": 2, "phrase_only": 2}
+  cut-step quartiles (degenerate): min 79.0, q1 102.25, median 125.5, q3 148.75, max 172.0
+  census spike quartiles beside: min 11.0, q1 42.75, median 74.5, q3 106.25, max 138.0
+  frac of the cap saved by the cut: min 0.3242, q1 0.415, median 0.5059, q3 0.5967, max 0.6875
+  the restoration at the cuts: 2 anchor(s) found, 0 absent
+  unexpected-stop block: [{'doc_id': 200, 'stop_reason': 'stop:fewshot-boundary'}, {'doc_id': 436, 'stop_reason': 'stop:fewshot-boundary'}]
+
+-- p2 --
+  docs: 750 (even calibration 375 / odd 375)
+  the r2 entry band (this leg's own, the calibration prefix-mean range): [REDACTED_PER_PUBLICATION_POLICY]
+  R-SM1 cleared silent: 244/244 -- HARD GATE GREEN
+  R-SM2 degenerate flagged: 504/504 -- HARD GATE GREEN
+  line split among flagged: {"both": 26, "cycle_only": 0, "phrase_only": 480}
+  cut-step quartiles (degenerate): min 26.0, q1 248.75, median 337.0, q3 412.25, max 510.0
+  census spike quartiles beside: min 3.0, q1 95.0, median 159.0, q3 255.0, max 511.0
+  frac of the cap saved by the cut: min 0.002, q1 0.1929, median 0.3398, q3 0.5122, max 0.9473
+  the restoration at the cuts: 504 anchor(s) found, 0 absent
+  R-SM3 the boundary block: [395, 496]
+
+the pre-committed readings, asserted as hard gates: 506/506 degenerate flagged; 1240/1240 cleared silent; 510/510 flagged -- GREEN
+
+integration receipt written: triadic_integration_readout_phase2_rw17-phase2-integration.json (2147510 bytes)

@@ -1,0 +1,25 @@
+=== STREAM MONITORS PARITY RUN (B2) ===
+version: triadic_stream_monitors_parity_run v1.0.1
+mode: REAL MODE -- every pin enforced before any read
+pins verified: census export bc3cce0be3860dfb..., monitors 45bf152ed171a851..., forensics 1eb86e96ea9dba71..., census builder 099e36a0dbd7b28f..., caches {'mbpprw17': '69eadf05da47fe22', 'prose17p-rw17': '10791704bb8fe077'}...
+
+-- mbpprw17 --
+census rows: 400 (expected 400)
+parity: flagged 298 / repetition-family 298; cleared-silent 102
+hard gates G1/G2/G3: GREEN (0 red rows)
+line split among flagged: {"both": 100, "cycle_only": 4, "phrase_only": 194}
+first-event step quartiles (degenerate): min 25.0, q1 109.0, median 196.0, q3 295.75, max 500.0
+census spike quartiles recomputed beside: min 2.0, q1 37.25, median 124.0, q3 283.5, max 511.0
+frac of the 512 cap saved by cutting at first event: min 0.0215, q1 0.4204, median 0.6152, q3 0.7852, max 0.9492
+
+-- prose17p-rw17 --
+census rows: 620 (expected 620)
+parity: flagged 406 / repetition-family 406; cleared-silent 214
+hard gates G1/G2/G3: GREEN (0 red rows)
+line split among flagged: {"both": 40, "cycle_only": 0, "phrase_only": 366}
+first-event step quartiles (degenerate): min 75.0, q1 226.0, median 326.5, q3 402.0, max 511.0
+census spike quartiles recomputed beside: min 2.0, q1 95.0, median 191.0, q3 319.0, max 511.0
+frac of the 512 cap saved by cutting at first event: min 0.0, q1 0.2129, median 0.3604, q3 0.5566, max 0.8516
+mild boundary block: 2 doc(s) [460, 600]
+
+parity receipt written: stream_parity_receipt.json (618617 bytes)
