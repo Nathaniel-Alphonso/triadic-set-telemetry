@@ -8,7 +8,7 @@ This document extends the original technical white paper (preserved verbatim as 
 
 Modern autoregressive language models operate open-loop: once a sequence passes the input embedding layer, token generation proceeds through hidden layers without active structural control or runtime oversight. The industry cleans up afterward — correction loops, re-verification passes, multi-turn apologies — and pays for all of it in compute.
 
-The Triadic Set closes the loop. It is a four-tier runtime governance system that intercepts, monitors, and regulates tensor activations inside the model's own execution graph — without altering weights, without fine-tuning, and bit-identical to the ungoverned model wherever governance is not warranted. Its founding empirical result: **removing half of the attention paths raised benchmark accuracy by 11.53%** — governance improved the model by constraining it.
+The Triadic Set closes the loop. It is a four-tier runtime governance system that intercepts, monitors, and regulates tensor activations inside the model's own execution graph — without altering weights, without fine-tuning, and bit-identical to the ungoverned model wherever governance is not warranted. Its founding result, measured on the clean instrument: **the same-day paired receipt, one model and one harness, both states run hours apart, where governance held MMLU at parity (49.29% stock, 49.42% governed) while removing 51.04% of the attention mass in the regions it faulted.** The September pair's larger spread read a model-variant switch rather than a governance effect, and the record retired it; the same-day receipt reproduced the founding calibrated leg's scores byte-for-byte 47 days later, a determinism receipt.
 
 ---
 
@@ -92,7 +92,7 @@ Sixteen gates distribute the governance work across the four tiers. House discip
 
 ### The Commitment-Point Family (G13–G16)
 
-The program's formal definition of a hallucination: **the model bridging a gap where weak evidence collides with a request for a specific answer — committing to determinate content while the underlying support is diffuse.** Loops and confabulation complete a two-sided envelope around the answer phase: loops are *collapse*, confabulation is *diffusion at the moment of commitment*.
+The program's formal definition of a hallucination: **the model bridging a gap where weak evidence collides with a request for a specific answer — committing to determinate content while the underlying support is diffuse.** Loops and confabulation complete a two-sided envelope around the answer phase: loops are *collapse*, confabulation is *diffusion at the moment of commitment*. The envelope is one instrument by design. A live forward pass has no semantic boundary between the loud failure and the quiet one, so the gate set reads both sides from one governed ledger: collapse as confident self-prediction, diffusion as commitment on weak support. Both sides are read per walk from the model's own measured traffic under one calibration discipline, and the fresh-walk adjudication in the record re-earns each side against held-out honest traffic before any detection credit rides it. The degenerate-output reads were earned on development data across the model ladder, 1B, 3B, and 8B walk families, with the 8B offline-pass exports published in the record; the evolution under way carries this post-hoc review framework into the live tiers of this same architecture.
 
 | Gate | Function |
 | :--- | :--- |
