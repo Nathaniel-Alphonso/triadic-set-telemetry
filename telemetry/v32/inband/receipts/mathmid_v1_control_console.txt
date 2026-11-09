@@ -1,0 +1,19 @@
+[gate] every import pin exact (byte-count-before-hash): the accumulator + the v1.0 engines + the v1.1 engines + the v1.0 instrument + the walk tool card -- the additive-wrapper law, zero instrument bytes moved
+[control] THE REAL-BYTES STRUCTURAL SWEEP -- every pin asserted, every census counted, the values DISCARDED, ZERO readouts (the owner's-hardware law)
+[load] the math thin of record: 43801129 B / sha 282d48ed5043126295b506983e97a5a75160fa02e13b1dda45d00331f43af1fd PRINTED AT LOAD (the portability law) | 1329 records censused = 1319 corpus walk docs + 10 named fixtures, every record PARSED under the fail-loud gates
+[load] the export of record: 629648 B / sha 1d2d5f5f25e30e0d8b35cb1232c9038527476a8f046d34f5292877faa72e8252 | 68 complete / 5 named incomplete | 1319 walk docs, 660 calibration / 659 held-out, the even-doc-id <-> calibration correspondence EXACT on all 1319
+[S-reg] the sixth operator baselines: 16 buckets, the pooled pair over 57818 even-half s values, mu +0.5358 sd 0.1542 -- the banked receipt beside (16 / 57,818 / +0.5358 / 0.1542), asserted my-side, printed for the eyeball owner-side (the portability law); the walk tool of record cross-asserted exact on every bucket (the one-source law)
+
+[M1] the machinery validation (the banked M1 law): the computed min(steps.s) matches the export's minS exactly on the five spot docs
+    doc 226: computed min 0.16333 == the export minS 0.16333 EXACT
+    doc 119: computed min 0.03217 == the export minS 0.03217 EXACT
+    doc 1086: computed min 0.02612 == the export minS 0.02612 EXACT
+    doc 746: computed min 0.04844 == the export minS 0.04844 EXACT
+    doc 1014: computed min 0.16291 == the export minS 0.16291 EXACT
+    the M1 machinery GREEN on all five spot docs
+[control] the frames constructed by the frozen law: 48 / 47 / 43 / 46, every census asserted exact against the bank (the operand censuses, the fusion groups, the rebinds, L1, L2) -- the values DISCARDED, zero fold cells printed
+
+[anchor census] every side's header consumed (the unified anchor-header law); the math surface carries no statement-onset anchors: i_onset NAMED-ABSENT-ON-THIS-SURFACE on every console line, never zero-filled; the P2 fusion timestamp pin rides the header: t0 = the value-bound commit's step, t_op the OPERAND-ONSET INFLECTION STEP, named, carried, never a second close
+    48-frame: 96 side headers consumed | 20 carry the operand-onset inflection step (the fused sides) | i_onset NAMED-ABSENT-ON-THIS-SURFACE 96/96, VOID_HOLD 0 named
+    (every side's derivation-path header consumed fail-loud; the span-isolation guard exercised in the battery and at every load; nothing wires, nothing actuates)
+[control] THE STRUCTURAL SWEEP GREEN -- zero readouts computed, zero cells printed, nothing wired; the --run mode is the readout act

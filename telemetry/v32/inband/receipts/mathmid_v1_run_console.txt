@@ -1,0 +1,153 @@
+[gate] every import pin exact (byte-count-before-hash): the accumulator + the v1.0 engines + the v1.1 engines + the v1.0 instrument + the walk tool card -- the additive-wrapper law, zero instrument bytes moved
+[run] THE ITEM-8 MID-WALK MATH FORM READOUT -- the pinned sheet of record (24,019 B / sha 85ad0cbb...f3ec5b9, stamped at his word Nov 7 2026); findings presented, never adjudicated; the OPERATING trip-line sub-slot OPEN (both forms printed side-by-side everywhere)
+[run] both trip bars side-by-side: the record-lane cut [REDACTED_PER_PUBLICATION_POLICY] (the tool of record's own convention) and the Tier C datum [REDACTED_PER_PUBLICATION_POLICY] (carried unmoved)
+[load] the math thin of record: 43801129 B / sha 282d48ed5043126295b506983e97a5a75160fa02e13b1dda45d00331f43af1fd PRINTED AT LOAD (the portability law) | 1329 records censused = 1319 corpus walk docs + 10 named fixtures, every record PARSED under the fail-loud gates
+[load] the export of record: 629648 B / sha 1d2d5f5f25e30e0d8b35cb1232c9038527476a8f046d34f5292877faa72e8252 | 68 complete / 5 named incomplete | 1319 walk docs, 660 calibration / 659 held-out, the even-doc-id <-> calibration correspondence EXACT on all 1319
+[S-reg] the sixth operator baselines: 16 buckets, the pooled pair over 57818 even-half s values, mu +0.5358 sd 0.1542 -- the banked receipt beside (16 / 57,818 / +0.5358 / 0.1542), asserted my-side, printed for the eyeball owner-side (the portability law); the walk tool of record cross-asserted exact on every bucket (the one-source law)
+
+[M1] the machinery validation (the banked M1 law): the computed min(steps.s) matches the export's minS exactly on the five spot docs
+    doc 226: computed min 0.16333 == the export minS 0.16333 EXACT
+    doc 119: computed min 0.03217 == the export minS 0.03217 EXACT
+    doc 1086: computed min 0.02612 == the export minS 0.02612 EXACT
+    doc 746: computed min 0.04844 == the export minS 0.04844 EXACT
+    doc 1014: computed min 0.16291 == the export minS 0.16291 EXACT
+    the M1 machinery GREEN on all five spot docs
+
+[frames] the frozen law constructed: 48 fused / 47 after L1 / 43 the full law / 46 the flagged variant (selective, named) | the banked M1 receipts printed BESIDE, never recomputed silently: the paired six-op terminals +1.7556/+1.9333/+2.0355/+[REDACTED_PER_PUBLICATION_POLICY] pop -- never replaced
+  the knife-edge qualification (the banked R4) carried: the 43-form crossing margin +0.0010, smaller than every amendment step -- printed on every table, never adjudicated
+
+[a1] THE PAIRED FRAME-AUTHENTICITY GATE (the two-part parity receipt, part 1): the CONSTRUCTED frames reproduce the banked paired M1 terminals at 5e-4, both conventions, the AUCs and the win counts -- the P1/P2/P3/L1/L2 construction proven exact, the frame counts read from the construction never hardcoded
+  48-frame six-op S2: Delta pop +1.7556 n-1 +1.7372 | AUC 0.8859 | wins 40/48
+    banked beside: +1.7556 / +1.7372 / 0.8859 / 40 -- MATCH at 5e-4
+  48-frame five-op: Delta pop +1.6424 n-1 +1.6252 | AUC 0.8694 | wins 39/48
+    banked beside: +1.6424 / +1.6252 / 0.8694 / 39 -- MATCH at 5e-4
+  47-frame six-op S2: Delta pop +1.9333 n-1 +1.9126 | AUC 0.9067 | wins 40/47
+    banked beside: +1.9333 / +1.9126 / 0.9067 / 40 -- MATCH at 5e-4
+  47-frame five-op: Delta pop +1.8139 n-1 +1.7945 | AUC 0.8909 | wins 39/47
+    banked beside: +1.8139 / +1.7945 / 0.8909 / 39 -- MATCH at 5e-4
+  46-frame six-op S2: Delta pop +2.0355 n-1 +2.0133 | AUC 0.9182 | wins 40/46
+    banked beside: +2.0355 / +2.0133 / 0.9182 / 40 -- MATCH at 5e-4
+  46-frame five-op: Delta pop +1.8941 n-1 +1.8734 | AUC 0.9003 | wins 39/46
+    banked beside: +1.8941 / +1.8734 / 0.9003 / 39 -- MATCH at 5e-4
+  43-frame six-op S2: Delta pop +[REDACTED_PER_PUBLICATION_POLICY] n-1 +1.9776 | AUC 0.9135 | wins 37/43
+    banked beside: +[REDACTED_PER_PUBLICATION_POLICY] / +1.9776 / 0.9135 / 37 -- MATCH at 5e-4
+  43-frame five-op: Delta pop +1.8743 n-1 +1.8524 | AUC 0.8967 | wins 36/43
+    banked beside: +1.8743 / +1.8524 / 0.8967 / 36 -- MATCH at 5e-4
+  A1 GATE GREEN: all sixteen cells (four frames x five-op/six-op), both conventions, the AUCs and the win counts exact
+
+[a2] THE UNPAIRED v1.1 CROSS-WIRE + THE TRUE-FRAME UNPAIRED READS (the two-part parity receipt, part 2): the RAW 68/67/63 unpaired terminals reproduce the fetched v1.1 fold cells parsed from his console, never hand-typed; the NEW strictly-odd unpaired reads on the true constructed frames printed BESIDE -- the raw folds and the constructed frames named separately, never silently equated
+  the engines-lane baselines: 16 buckets, pooled 57818 -- the v1.1 form, imported VERBATIM, its own excursion convention named, never conflated with the L3 walk-tool floor register
+  complete-68 raw five-op strictly-odd unpaired: POS n 39 | NEG n 39 | SMD pop +1.5127 n-1 +1.4932 | AUC 0.8586 | Glass delta_NEG +1.5354 (identity +1.5354 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +1.7287 | POS tail 0.3077 | NEG tail 0.0769 | SMD pop minus bar -0.4873 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0175 | POS tail 0.2308 | NEG tail 0.0513 | SMD pop minus bar -0.8178 -- printed, never adjudicated in-tool
+  complete-68 raw six-op strictly-odd unpaired M-TERMINAL (M = 1): POS n 39 | NEG n 39 | SMD pop +1.5441 n-1 +1.5242 | AUC 0.8606 | Glass delta_NEG +1.5796 (identity +1.5796 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +1.7929 | POS tail 0.3333 | NEG tail 0.0769 | SMD pop minus bar -0.4559 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0750 | POS tail 0.2051 | NEG tail 0.0256 | SMD pop minus bar -0.7864 -- printed, never adjudicated in-tool
+  complete-68 raw six-op strictly-odd unpaired M-ENVELOPE (M at most 4, the grid checkpoints): POS n 39 | NEG n 39 | SMD pop +1.4966 n-1 +1.4773 | AUC 0.8534 | Glass delta_NEG +1.5401 (identity +1.5401 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +1.8667 | POS tail 0.3333 | NEG tail 0.0769 | SMD pop minus bar -0.5034 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.1462 | POS tail 0.2308 | NEG tail 0.0513 | SMD pop minus bar -0.8339 -- printed, never adjudicated in-tool
+  complete-68 five: computed pop +1.5127 n-1 +1.4932 vs the fetched console +1.5127/+1.4932 -- MATCH at 5e-4
+  complete-68 six-T: computed pop +1.5441 n-1 +1.5242 vs the fetched console +1.5441/+1.5242 -- MATCH at 5e-4
+  complete-68 six-E: computed pop +1.4966 n-1 +1.4773 vs the fetched console +1.4966/+1.4773 -- MATCH at 5e-4
+  L1-out-67 raw five-op strictly-odd unpaired: POS n 39 | NEG n 39 | SMD pop +1.5076 n-1 +1.4882 | AUC 0.8586 | Glass delta_NEG +1.5667 (identity +1.5667 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +1.9401 | POS tail 0.3590 | NEG tail 0.0513 | SMD pop minus bar -0.4924 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.2507 | POS tail 0.2308 | NEG tail 0.0513 | SMD pop minus bar -0.8229 -- printed, never adjudicated in-tool
+  L1-out-67 raw six-op strictly-odd unpaired M-TERMINAL (M = 1): POS n 39 | NEG n 39 | SMD pop +1.5383 n-1 +1.5185 | AUC 0.8600 | Glass delta_NEG +1.6125 (identity +1.6125 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0358 | POS tail 0.3590 | NEG tail 0.0769 | SMD pop minus bar -0.4617 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.3434 | POS tail 0.2564 | NEG tail 0.0256 | SMD pop minus bar -0.7922 -- printed, never adjudicated in-tool
+  L1-out-67 raw six-op strictly-odd unpaired M-ENVELOPE (M at most 4, the grid checkpoints): POS n 39 | NEG n 39 | SMD pop +1.4920 n-1 +1.4728 | AUC 0.8554 | Glass delta_NEG +1.5718 (identity +1.5718 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.1163 | POS tail 0.3590 | NEG tail 0.0769 | SMD pop minus bar -0.5080 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.4220 | POS tail 0.2308 | NEG tail 0.0513 | SMD pop minus bar -0.8385 -- printed, never adjudicated in-tool
+  L1-out-67 five: computed pop +1.5076 n-1 +1.4882 vs the fetched console +1.5076/+1.4882 -- MATCH at 5e-4
+  L1-out-67 six-T: computed pop +1.5383 n-1 +1.5185 vs the fetched console +1.5383/+1.5185 -- MATCH at 5e-4
+  L1-out-67 six-E: computed pop +1.4920 n-1 +1.4728 vs the fetched console +1.4920/+1.4728 -- MATCH at 5e-4
+  L1+L2-out-63 raw five-op strictly-odd unpaired: POS n 36 | NEG n 36 | SMD pop +1.4414 n-1 +1.4213 | AUC 0.8511 | Glass delta_NEG +1.5023 (identity +1.5023 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.1309 | POS tail 0.3333 | NEG tail 0.0556 | SMD pop minus bar -0.5586 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.4577 | POS tail 0.2500 | NEG tail 0.0556 | SMD pop minus bar -0.8891 -- printed, never adjudicated in-tool
+  L1+L2-out-63 raw six-op strictly-odd unpaired M-TERMINAL (M = 1): POS n 36 | NEG n 36 | SMD pop +1.4923 n-1 +1.4714 | AUC 0.8549 | Glass delta_NEG +1.5730 (identity +1.5730 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.2237 | POS tail 0.3611 | NEG tail 0.0833 | SMD pop minus bar -0.5077 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.5455 | POS tail 0.2222 | NEG tail 0.0278 | SMD pop minus bar -0.8382 -- printed, never adjudicated in-tool
+  L1+L2-out-63 raw six-op strictly-odd unpaired M-ENVELOPE (M at most 4, the grid checkpoints): POS n 36 | NEG n 36 | SMD pop +1.4473 n-1 +1.4271 | AUC 0.8511 | Glass delta_NEG +1.5369 (identity +1.5369 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.3028 | POS tail 0.3333 | NEG tail 0.0833 | SMD pop minus bar -0.5527 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.6212 | POS tail 0.2500 | NEG tail 0.0556 | SMD pop minus bar -0.8832 -- printed, never adjudicated in-tool
+  L1+L2-out-63 five: computed pop +1.4414 n-1 +1.4213 vs the fetched console +1.4414/+1.4213 -- MATCH at 5e-4
+  L1+L2-out-63 six-T: computed pop +1.4923 n-1 +1.4714 vs the fetched console +1.4923/+1.4714 -- MATCH at 5e-4
+  L1+L2-out-63 six-E: computed pop +1.4473 n-1 +1.4271 vs the fetched console +1.4473/+1.4271 -- MATCH at 5e-4
+  A2 GATE GREEN: all nine fetched cells, both conventions, exact at 5e-4
+  the true-frame strictly-odd unpaired reads (the NEW cells, no v1.1 counterpart, printed beside never equated):
+  48 true-frame strictly-odd unpaired M-TERMINAL (M = 1): POS n 27 | NEG n 27 | SMD pop +1.6649 n-1 +1.6338 | AUC 0.8724 | Glass delta_NEG +1.9077 (identity +1.9077 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +1.7344 | POS tail 0.4815 | NEG tail 0.0741 | SMD pop minus bar -0.3351 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0064 | POS tail 0.4074 | NEG tail 0.0370 | SMD pop minus bar -0.6656 -- printed, never adjudicated in-tool
+  47 true-frame strictly-odd unpaired M-TERMINAL (M = 1): POS n 27 | NEG n 27 | SMD pop +1.7112 n-1 +1.6792 | AUC 0.8875 | Glass delta_NEG +2.7254 (identity +2.7254 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.3623 | POS tail 0.5926 | NEG tail 0.0741 | SMD pop minus bar -0.2888 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.7089 | POS tail 0.5556 | NEG tail 0.0370 | SMD pop minus bar -0.6193 -- printed, never adjudicated in-tool
+  46 true-frame strictly-odd unpaired M-TERMINAL (M = 1): POS n 27 | NEG n 27 | SMD pop +1.6689 n-1 +1.6377 | AUC 0.8848 | Glass delta_NEG +2.4578 (identity +2.4578 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +3.0010 | POS tail 0.6296 | NEG tail 0.0741 | SMD pop minus bar -0.3311 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +3.4222 | POS tail 0.4815 | NEG tail 0.0370 | SMD pop minus bar -0.6616 -- printed, never adjudicated in-tool
+  43 true-frame strictly-odd unpaired M-TERMINAL (M = 1): POS n 24 | NEG n 24 | SMD pop +1.7089 n-1 +1.6729 | AUC 0.8889 | Glass delta_NEG +2.5197 (identity +2.5197 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +3.1014 | POS tail 0.6667 | NEG tail 0.0833 | SMD pop minus bar -0.2911 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +3.5292 | POS tail 0.5000 | NEG tail 0.0417 | SMD pop minus bar -0.6216 -- printed, never adjudicated in-tool
+
+[mid-walk] THE MID-WALK READS (the pinned sheet's own construction, section 6): the S registers at the reached grid, the horizon-matched standardization with the guard + carry law, the walk-cohort baseline beside, the strictly causal S-only surface, the terminal-held cells named as the TERMINAL-HELD DIAGNOSTIC (oracle-held at every interior h < t0), the terminal-moment form beside, both window forms, the tails at both trip-line forms
+  [census] the per-arm horizon-reach split + the look-count K (never pooled silently across arms), the constructed frames then the raw analog:
+    48-frame even-neg: n 21 | reach <36: 6 / [36,64): 5 / [64,128): 9 / >=128: 1 | K 1-4: 6/5/9/1
+    48-frame odd-pos : n 27 | reach <36: 3 / [36,64): 8 / [64,128): 14 / >=128: 2 | K 1-4: 3/8/14/2
+    48-frame odd-neg : n 27 | reach <36: 11 / [36,64): 6 / [64,128): 8 / >=128: 2 | K 1-4: 11/6/8/2
+    47-frame even-neg: n 20 | reach <36: 6 / [36,64): 5 / [64,128): 8 / >=128: 1 | K 1-4: 6/5/8/1
+    47-frame odd-pos : n 27 | reach <36: 3 / [36,64): 8 / [64,128): 14 / >=128: 2 | K 1-4: 3/8/14/2
+    47-frame odd-neg : n 27 | reach <36: 11 / [36,64): 6 / [64,128): 8 / >=128: 2 | K 1-4: 11/6/8/2
+    46-frame even-neg: n 19 | reach <36: 6 / [36,64): 5 / [64,128): 7 / >=128: 1 | K 1-4: 6/5/7/1
+    46-frame odd-pos : n 27 | reach <36: 3 / [36,64): 8 / [64,128): 14 / >=128: 2 | K 1-4: 3/8/14/2
+    46-frame odd-neg : n 27 | reach <36: 11 / [36,64): 6 / [64,128): 8 / >=128: 2 | K 1-4: 11/6/8/2
+    43-frame even-neg: n 19 | reach <36: 6 / [36,64): 5 / [64,128): 7 / >=128: 1 | K 1-4: 6/5/7/1
+    43-frame odd-pos : n 24 | reach <36: 3 / [36,64): 7 / [64,128): 12 / >=128: 2 | K 1-4: 3/7/12/2
+    43-frame odd-neg : n 24 | reach <36: 11 / [36,64): 5 / [64,128): 6 / >=128: 2 | K 1-4: 11/5/6/2
+    raw-68 even-neg: n 29 | reach <36: 9 / [36,64): 8 / [64,128): 10 / >=128: 2 | K 1-4: 9/8/10/2
+    the sheet's section-3 grounding receipted exact beside: the raw 29 even-doc pairs' NEG t0 census 9/8/10/2 -- exactly TWO reach 128, the under-5 guard CERTAIN at h = 128 on every even-clean-witness baseline (the depletion grounded never assumed)
+    raw-68 odd-pos : n 39 | reach <36: 5 / [36,64): 11 / [64,128): 19 / >=128: 4 | K 1-4: 5/11/19/4
+    raw-68 odd-neg : n 39 | reach <36: 17 / [36,64): 8 / [64,128): 11 / >=128: 3 | K 1-4: 17/8/11/3
+    raw-67 even-neg: n 28 | reach <36: 9 / [36,64): 8 / [64,128): 9 / >=128: 2 | K 1-4: 9/8/9/2
+    raw-67 odd-pos : n 39 | reach <36: 5 / [36,64): 11 / [64,128): 19 / >=128: 4 | K 1-4: 5/11/19/4
+    raw-67 odd-neg : n 39 | reach <36: 17 / [36,64): 8 / [64,128): 11 / >=128: 3 | K 1-4: 17/8/11/3
+    raw-63 even-neg: n 27 | reach <36: 9 / [36,64): 8 / [64,128): 8 / >=128: 2 | K 1-4: 9/8/8/2
+    raw-63 odd-pos : n 36 | reach <36: 5 / [36,64): 10 / [64,128): 17 / >=128: 4 | K 1-4: 5/10/17/4
+    raw-63 odd-neg : n 36 | reach <36: 17 / [36,64): 7 / [64,128): 9 / >=128: 3 | K 1-4: 17/7/9/3
+  [walk-cohort baseline] the 660-doc even calibration walk half's own S2@h / S1@h prefix moments (N far above 30 at every horizon, the reached/under split censused loud):
+    h  36: S2 mu +2.2320 sd 0.5223 | S1 mu +0.0668 sd 1.0263 | reached 639 / under 21
+    h  64: S2 mu +2.3012 sd 0.4622 | S1 mu +0.0130 sd 1.0062 | reached 469 / under 191
+    h 128: S2 mu +2.3462 sd 0.4135 | S1 mu +0.0676 sd 1.0584 | reached 82 / under 578
+  [43-frame horizon tables] the survival-cohort even NEG witnesses at each stage (the 7b/7c censoring law, the horizon-matched standardization) + the guard + carry law at any interior h with fewer than 5 uncensored witnesses:
+    h  36: n 13 | fold mu_f -0.0000 sd_f 3.5088 (the uncensored horizon-36 even moments, the survival-cohort law)
+    h  64: n  8 | fold mu_f +0.0000 sd_f 3.8744 (the uncensored horizon-64 even moments, the survival-cohort law)
+    h 128: INCONCLUSIVE-POPULATION-GUARD -- 1 uncensored even clean witnesses (< 5); the witness cell prints NO NUMBER, the envelope SKIPS this interior look (the carry law: the prior reached stage peak carried forward to the close, the side never dropped); the walk-cohort baseline keeps the reference cell live beside (S2 mu +2.3462 sd 0.4135 n 82)
+  [causal S-only surface] the S registers ALONE at each reached h -- the only strictly causal interior reads the offline layer owns; the witness-standardized cell beside the walk-cohort cell, both baselines printed, never conflated:
+    h  36: S2 witness n 13 mu +2.2586 sd 0.4472 | walk-cohort mu +2.2320 sd 0.5223 | S1 witness mu +0.0300 sd 1.0382 | walk-cohort S1 mu +0.0668 sd 1.0263
+    h  64: S2 witness n  8 mu +2.4244 sd 0.3836 | walk-cohort mu +2.3012 sd 0.4622 | S1 witness mu -0.0273 sd 0.8891 | walk-cohort S1 mu +0.0130 sd 1.0062
+    h 128: the witness-standardized cell INCONCLUSIVE-POPULATION-GUARD (carried per the law); the walk-cohort cell live: S2 mu +2.3462 sd 0.4135
+    the close: the witness S2/S1 cells ride each side's own t0 (the derivation path of section 3); the walk-cohort reference lives on the interior grid only
+  [envelope] the strictly-odd M-ENVELOPE under BOTH window forms (K-4 the full grid, M-2 the {128, close} window), the horizon-matched law with the carry guard vs the terminal-moment law beside (the degeneracy identity receipted one-for-one):
+  43-frame strictly-odd M-ENVELOPE, horizon-matched, K-4 window: POS n 24 | NEG n 24 | SMD pop +1.5142 n-1 +1.4823 | AUC 0.8941 | Glass delta_NEG +3.0109 (identity +3.0109 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +11.0302 | POS tail 0.6250 | NEG tail 0.0417 | SMD pop minus bar -0.4858 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +12.5785 | POS tail 0.5833 | NEG tail 0.0417 | SMD pop minus bar -0.8163 -- printed, never adjudicated in-tool
+    pre-close peak share (MEASURED, never asserted): 33 of 48 scored sides interior peak STRICTLY EXCEEDS the close read under the horizon-matched law (ties never counted -- an early-locked floor ties the close z)
+  43-frame strictly-odd M-ENVELOPE, terminal-moment, K-4 window: POS n 24 | NEG n 24 | SMD pop +1.9561 n-1 +1.9149 | AUC 0.9149 | Glass delta_NEG +3.6495 (identity +3.6495 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0291 | POS tail 0.7500 | NEG tail 0.0833 | SMD pop minus bar -0.0439 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.3485 | POS tail 0.7083 | NEG tail 0.0417 | SMD pop minus bar -0.3744 -- printed, never adjudicated in-tool
+    terminal-moment degeneracy receipt: 48 of 48 scored sides attain the envelope at the terminal, zero strict pre-close excesses -- the identity form, printed beside, never conflated
+  43-frame strictly-odd M-ENVELOPE, horizon-matched, M-2 window: POS n 24 | NEG n 24 | SMD pop +1.9561 n-1 +1.9149 | AUC 0.9149 | Glass delta_NEG +3.6495 (identity +3.6495 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0291 | POS tail 0.7500 | NEG tail 0.0833 | SMD pop minus bar -0.0439 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.3485 | POS tail 0.7083 | NEG tail 0.0417 | SMD pop minus bar -0.3744 -- printed, never adjudicated in-tool
+    pre-close peak share (MEASURED, never asserted): 0 of 48 scored sides interior peak STRICTLY EXCEEDS the close read under the horizon-matched law (ties never counted -- an early-locked floor ties the close z)
+  43-frame strictly-odd M-ENVELOPE, terminal-moment, M-2 window: POS n 24 | NEG n 24 | SMD pop +1.9561 n-1 +1.9149 | AUC 0.9149 | Glass delta_NEG +3.6495 (identity +3.6495 held at 5e-4)
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.0291 | POS tail 0.7500 | NEG tail 0.0833 | SMD pop minus bar -0.0439 -- printed, never adjudicated in-tool
+    bar [REDACTED_PER_PUBLICATION_POLICY]: cut +2.3485 | POS tail 0.7083 | NEG tail 0.0417 | SMD pop minus bar -0.3744 -- printed, never adjudicated in-tool
+    terminal-moment degeneracy receipt: 48 of 48 scored sides attain the envelope at the terminal, zero strict pre-close excesses -- the identity form, printed beside, never conflated
+  [first-passage] the S2 floor first-passage census (the horizon at which the floor locks in, over {36, 64, 128, the close}; the never-locked count printed loud):
+    locked at 36: 35 | 64: 7 | 128: 1 | the close: 43 | never-locked: 0 (a nonzero never-locked count is a FAIL-LOUD condition by the monotonicity law)
+  [capture] THE CAPTURE LAYER NAMED-ABSENT-ON-THIS-SURFACE: the five operators' per-checkpoint bytes are the capture act's own surface at his word only; the five-op channels stay TERMINAL-HELD on every table above, the interior six-op cells named TERMINAL-HELD DIAGNOSTIC (oracle-held), never zero-filled, never silently read as causal
+
+[anchor census] every side's header consumed (the unified anchor-header law); the math surface carries no statement-onset anchors: i_onset NAMED-ABSENT-ON-THIS-SURFACE on every console line, never zero-filled; the P2 fusion timestamp pin rides the header: t0 = the value-bound commit's step, t_op the OPERAND-ONSET INFLECTION STEP, named, carried, never a second close
+    48-frame: 96 side headers consumed | 20 carry the operand-onset inflection step (the fused sides) | i_onset NAMED-ABSENT-ON-THIS-SURFACE 96/96, VOID_HOLD 0 named
+    (every side's derivation-path header consumed fail-loud; the span-isolation guard exercised in the battery and at every load; nothing wires, nothing actuates)
+
+[close] theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no bars set, moved, or adjudicated; the operating trip-line sub-slot open at his stamps; findings presented, never adjudicated; the capture layer at his word only
