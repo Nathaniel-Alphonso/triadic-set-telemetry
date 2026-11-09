@@ -6,7 +6,6 @@
 
 **Author:** Nathaniel Alphonso Nibbs Jr.  
 **Affiliation:** Alphonso Systems & Infrastructure  
-**Publications:** [Alphonso Systems & Infrastructure Public Substack](https://nathanielalphonso.substack.com)  
 **Media & Technical Contact:** nathanielalphonsonibbsjr@gmail.com  
 
 ---
