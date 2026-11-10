@@ -1,0 +1,39 @@
+[inputs] code cache  26,209,382 B / 610d48c9689c07c7...
+[inputs] code thin   80,912,361 B / 77dd63c7d21c6303...
+[inputs] prose thin  159,280,278 B / 88cbadee7baa1e35...
+[inputs] prose export  656,143 B / a4e0ef03626a6cd4...
+[inputs] mixed census   65,583 B / cca12263db49a502...
+[adapter] CODE cache of record: 26209382 B / 610d48c9...
+[adapter] CODE corpus: 400 docs / 113,238 rows, native onset i=0-only 400/400, work_inc named-absent 400/400, t_commit strict 400/400
+[adapter] CODE thin of record: 80912361 B / 77dd63c7..., 410 = 400 corpus + 10 fixtures named -- ZERO fixtures drawn (the all-clean ruling; loop material named-absent)
+[adapter] PROSE thin of record: 159280278 B / 88cbadee...
+[adapter] PROSE corpus: 620 docs / 260,854 commits, onset census {0:205, 1:352, 2:61, 5:2} exact, phase CoT 620/620, t strict 620/620 -- 10 fixtures named, ZERO drawn (the all-clean ruling)
+[adapter] PROSE export of record: 656143 B / a4e0ef03..., doc_walk_table parity 620/620
+[adapter] MIXED census export of record: 65583 B / cca12263..., the disjointness witness: 55 PROSE + 55 CODE consumed source docs, every CD draw asserted disjoint, fail-loud
+[PROSE] filtered pool: 620 source docs (55 consumed by the mixed cache, excluded); prefix-feasible by band upper edge {"128": 562, "36": 565, "64": 563}; suffix-feasible (N - N//2 >= 129): 551
+[CODE] filtered pool: 400 source docs (55 consumed by the mixed cache, excluded); prefix-feasible by band upper edge {"128": 345, "36": 345, "64": 345}; suffix-feasible (N - N//2 >= 129): 231
+[PROSE] xdom-PROSE-CODE-01 prefix: source prose-001 native 432 rows, cut 6, band (1, 36)
+[PROSE] xdom-PROSE-CODE-02 prefix: source prose-003 native 466 rows, cut 17, band (1, 36)
+[PROSE] xdom-PROSE-CODE-03 prefix: source prose-005 native 456 rows, cut 64, band (37, 64)
+[PROSE] xdom-PROSE-CODE-04 prefix: source prose-007 native 449 rows, cut 47, band (37, 64)
+[PROSE] xdom-PROSE-CODE-05 prefix: source prose-010 native 437 rows, cut 114, band (65, 128)
+[CODE] xdom-CODE-PROSE-01 prefix: source code-001 native 336 rows, cut 6, band (1, 36)
+[CODE] xdom-CODE-PROSE-02 prefix: source code-003 native 429 rows, cut 17, band (1, 36)
+[CODE] xdom-CODE-PROSE-03 prefix: source code-005 native 332 rows, cut 64, band (37, 64)
+[CODE] xdom-CODE-PROSE-04 prefix: source code-007 native 288 rows, cut 47, band (37, 64)
+[CODE] xdom-CODE-PROSE-05 prefix: source code-010 native 362 rows, cut 114, band (65, 128)
+[PROSE] xdom-PROSE-CODE-01 suffix: source code-013 native 257 rows, cut 128, segment 129 rows
+[PROSE] xdom-PROSE-CODE-02 suffix: source code-015 native 276 rows, cut 138, segment 138 rows
+[PROSE] xdom-PROSE-CODE-03 suffix: source code-019 native 310 rows, cut 155, segment 155 rows
+[PROSE] xdom-PROSE-CODE-04 suffix: source code-022 native 307 rows, cut 153, segment 154 rows
+[PROSE] xdom-PROSE-CODE-05 suffix: source code-026 native 332 rows, cut 166, segment 166 rows
+[CODE] xdom-CODE-PROSE-01 suffix: source prose-012 native 452 rows, cut 226, segment 226 rows
+[CODE] xdom-CODE-PROSE-02 suffix: source prose-014 native 458 rows, cut 229, segment 229 rows
+[CODE] xdom-CODE-PROSE-03 suffix: source prose-016 native 454 rows, cut 227, segment 227 rows
+[CODE] xdom-CODE-PROSE-04 suffix: source prose-019 native 427 rows, cut 213, segment 214 rows
+[CODE] xdom-CODE-PROSE-05 suffix: source prose-021 native 443 rows, cut 221, segment 222 rows
+[build] census conservation re-asserted cold: 10 docs / 10 seams, directions {"CODE->PROSE": 5, "PROSE->CODE": 5}, band allocation {"CODE->PROSE": [2, 2, 1], "PROSE->CODE": [2, 2, 1]}, every pin green
+[build] fresh-draw disjointness witness: consumed sets {"CODE": 55, "PROSE": 55}, overlap zero, at-most-once 20/20
+[build] crossdomain_probe_cache_v1.json 1168366 B sha256 6b4c542d7f4ca20dcedddb3c0bc0a2c19ce0e2c0570a27d9959fff4fae67127a
+[build] crossdomain_probe_census_v1.json 8042 B sha256 151c6acea4ba8f06af37edf2c61dded1ae5a53ae9c3a61bd7c6be3a9065e9753
+(offline paper act only, zero GPU, zero decodes, zero build hours; Nov 10 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

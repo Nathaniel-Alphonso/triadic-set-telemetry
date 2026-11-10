@@ -1,0 +1,17 @@
+[battery] crossdomain_probe_builder_v1: the synthetic hand-off worlds, hand-solved
+[world] the 10-doc synthetic world built through the real plan/pool/join/validator path: 10 docs / 10 seams, directions {"CODE->PROSE": 5, "PROSE->CODE": 5}, band allocation {"CODE->PROSE": [2, 2, 1], "PROSE->CODE": [2, 2, 1]}, all pins green
+[world] xdom-PROSE-CODE-01: seam at 6 (band [1, 36]), suffix 130 rows, the WRITTEN interior onset on the CODE seam row (natively OTHER-CONTENT at the cut)
+[world] hand-solved: the seam row's token_step = prefix last + 1, stmt_ordinal = prefix last + 1, role = STATEMENT-ONSET (WRITTEN)
+[tamper-i] ONSET-LAW -> died loud (expected)
+[tamper-ii] SEAM-OFF-BOUNDARY -> died loud (expected)
+[tamper-iii] UNRECOGNIZED-SCHEMA -> died loud (expected)
+[neg-clean-reuse (pool)] CLEAN-REUSE -> died loud (expected)
+[neg-mixed-overlap (the disjointness filter refuses the consumed doc)] CLEAN-POOL-EXHAUSTED -> died loud (expected)
+[neg-truncated-census] TRUNCATED-CENSUS -> died loud (expected)
+[neg-seam-count] SEAM-COUNT -> died loud (expected)
+[neg-provenance-sha] PROVENANCE-SHA -> died loud (expected)
+[neg-clean-reuse (world: a source drawn twice)] CLEAN-REUSE -> died loud (expected)
+[neg-mixed-overlap (the cold disjointness witness)] FRESH-DRAW-OVERLAP -> died loud (expected)
+[neg-schema-impurity (a CODE row injected __onset__)] UNRECOGNIZED-SCHEMA -> died loud (expected)
+[battery] all worlds green: the 10-doc synthetic world built through the real path; 3 tamper shapes + 8 negative fixtures died loud by design, every die at its own named check
+[battery] (offline paper act only, zero GPU, zero decodes, zero build hours; Nov 10 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

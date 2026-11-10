@@ -1,0 +1,2 @@
+[verify] 90 docs / 110 seams, all pins green
+(offline paper act only, zero GPU, zero decodes, zero build hours; Nov 9 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

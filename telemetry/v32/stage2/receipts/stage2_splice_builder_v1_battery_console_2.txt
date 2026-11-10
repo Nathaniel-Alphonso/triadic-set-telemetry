@@ -1,0 +1,26 @@
+[battery] stage2_splice_builder_v1 -- the synthetic-worlds battery, zero real rows
+[battery] the fixture law: every world hand-authored, seams hand-solvable, census fields typed at build time
+[PASS] B-census-CODE -- 45 docs, 55 seams, classes 15/15/5/5/5
+[PASS] B-clean55-CODE -- 55 distinct clean source docs, at-most-once receipted
+[PASS] B-loop45-CODE -- 45 loop segment uses over 8 live fixtures, per-fixture {"synth-CODE-loop-0": 4, "synth-CODE-loop-1": 4, "synth-CODE-loop-2": 4, "synth-CODE-loop-3": 4, "synth-CODE-loop-4": 10, "synth-CODE-loop-5": 5, "synth-CODE-loop-6": 5, "synth-CODE-loop-7": 9}
+[PASS] B-inert-CODE -- the 2 inert fixtures named, excluded, never spliced (the under-32-step guard law carried verbatim)
+[PASS] B-census-PROSE -- 45 docs, 55 seams, classes 15/15/5/5/5
+[PASS] B-clean55-PROSE -- 55 distinct clean source docs, at-most-once receipted
+[PASS] B-loop45-PROSE -- 45 loop segment uses over 8 live fixtures, per-fixture {"synth-PROSE-loop-0": 4, "synth-PROSE-loop-1": 4, "synth-PROSE-loop-2": 4, "synth-PROSE-loop-3": 4, "synth-PROSE-loop-4": 10, "synth-PROSE-loop-5": 5, "synth-PROSE-loop-6": 5, "synth-PROSE-loop-7": 9}
+[PASS] B-inert-PROSE -- the 2 inert fixtures named, excluded, never spliced (the under-32-step guard law carried verbatim)
+[PASS] B-load-pins -- loader re-asserted every pin: 90 docs / 110 seams, five-token enum, span truth shapes, dual-clock seams, onset iff {0}+seams, monotonic both clocks, provenance, length law
+[PASS] N1-tamper-code-off-boundary -- REFUSED LOUD (SEAM-OFF-BOUNDARY: the suffix's first row is not a statement-onset commit boundary (the mid-statement tamper )
+[PASS] N2-tamper-prose-mid-statement -- REFUSED LOUD (SEAM-OFF-BOUNDARY: the suffix's first row is not a statement-onset commit boundary (the mid-statement tamper )
+[PASS] N3-truncated-census -- REFUSED LOUD (TRUNCATED-CENSUS: census doc mix-CODE-N-05 absent from the cache (the truncated census negative dies loud))
+[PASS] N4-seam-count -- REFUSED LOUD (SEAM-COUNT: mix-CODE-A-01: 2 seams != 1 (the mismatched seam count dies loud))
+[PASS] N5-provenance-sha -- REFUSED LOUD (PROVENANCE-SHA: mix-CODE-A-01: span provenance carries no sha_prefix (the provenance sha mismatch dies lou)
+[PASS] N6-reused-clean-segment -- REFUSED LOUD (CLEAN-REUSE: clean doc synth-CODE-clean-000 drawn twice (the at-most-once law))
+[PASS] N7-inert-never-splice -- REFUSED LOUD (INERT-NEVER-SPLICE: fixture synth-CODE-inert-0 is NOT in the live splice pool -- the 2 inert fixtures never sp)
+[PASS] N8-segment-length-under-floor -- REFUSED LOUD (SEGMENT-LENGTH: loop segment synth-CODE-loop-tiny has 30 rows -- under the under-32-step guard floor 33 (a)
+[PASS] N9-lcl-same-fixture -- REFUSED LOUD (LCL-DISTINCT-FIXTURE: the two loop segments share fixture ['synth-CODE-loop-1', 'synth-CODE-loop-1'])
+[PASS] N10-stale-class-token -- REFUSED LOUD (CLASS-ENUM: class token 'C' not in the stamped five-token enumeration ('A', 'B', 'CLC', 'LCL', 'N') --)
+[length-census] the owner-side first act proven on the synthetic pool: live fixture lengths {"synth-CODE-loop-0": 40, "synth-CODE-loop-1": 45, "synth-CODE-loop-2": 50, "synth-CODE-loop-3": 60, "synth-CODE-loop-4": 70, "synth-CODE-loop-5": 80, "synth-CODE-loop-6": 100, "synth-CODE-loop-7": 140}
+[PASS] B-length-census -- bands reachable: (1,36] all, (37,64] 4 fixtures, (65,128] ['synth-CODE-loop-7']
+[battery] 20 PASS / 0 FAIL, twice-run law: run me twice, cmp silent = success
+[battery] the deterministic laws hold by construction: no wall clock, no randomness, canonical sorted-key bytes
+(offline paper act only, zero GPU, zero decodes, zero build hours; Nov 9 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

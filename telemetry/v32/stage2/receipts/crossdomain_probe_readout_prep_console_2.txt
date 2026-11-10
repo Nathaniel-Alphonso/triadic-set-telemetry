@@ -1,0 +1,15 @@
+[pin] prep discovery: the sha256 is the path law (the directory tree never assumed) -- 5 inputs + 7 instruments admitted by exact byte size + sha256
+[pin] crossdomain_probe_cache_v1.json                [REDACTED_PER_PUBLICATION_POLICY]
+[pin] crossdomain_probe_census_v1.json               [REDACTED_PER_PUBLICATION_POLICY]
+[pin] triadic_wu_code_read_v1.json                   [REDACTED_PER_PUBLICATION_POLICY]
+[pin] triadic_t2_thin_rw17-prose-r2.jsonl            [REDACTED_PER_PUBLICATION_POLICY]
+[pin] triadic_wu_prose_read_v1.json                  [REDACTED_PER_PUBLICATION_POLICY]
+[pin] instruments co-located + byte-verified in: [REDACTED_PER_PUBLICATION_POLICY]
+[prep] the prose thin + export of record (the EMISSION machinery's own calibration + the lane-join sources)
+[prep] THE EMISSION CALIBRATION OF RECORD: the even-A 86 lane moments measured at every horizon (the banked rw16 law, zero new constants; the W derivation: 32 buckets on 310 calibration docs)
+[prep] the rw16 port cross-checked EXACT against the prose accumulator's own w_derivation on all 620 corpus docs (any drift dies loud)
+[prep] the code cache of record (the CODE-BAND calibration of record: the accumulator's own even-A 49 law)
+[prep] THE CODE-BAND CALIBRATION OF RECORD: the even-A 49 prefix moments measured at every horizon (measured never modeled; the population pin read fail-loud at load)
+[prep] the lane-join sources: 10 EMISSION source docs sliced (steps + walk ids + the per-step zmax), their calibration-half memberships {"prose-001": ["held-out", "B"], "prose-003": ["held-out", "B"], "prose-005": ["held-out", "B"], "prose-007": ["held-out", "B"], "prose-010": ["calibration", "B"], "prose-012": ["calibration", "B"], "prose-014": ["calibration", "B"], "prose-016": ["calibration", "B"], "prose-019": ["held-out", "A"], "prose-021": ["held-out", "B"]} (descriptive receipt: in-cohort sources are the development-snapshot law, the held-out act named forward)
+[prep] context cached beside the script: crossdomain_probe_readout_ctx.pkl
+[prep] (offline paper act only, zero GPU, zero decodes, zero build hours; Nov 10 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)
