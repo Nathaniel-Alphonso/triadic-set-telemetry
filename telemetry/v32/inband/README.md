@@ -17,21 +17,14 @@ folder is the artifact record.
   folder as later commits.
 - **receipts/** - the consoles of record: the hook instrument's run console
   and its twice-run twin, its control console; the mid-walk math instrument's
-  run console and its twice-run twin, its control console. Every console
-  publishes as a sanitized receipt per the sanitization law of this
-  repository; the receipts file below carries each file's disposition and
-  the byte-hash of its unredacted original.
-- **SANITIZATION_RECEIPTS.md** - the per-file redaction and provenance record
-  for this lane.
+  run console and its twice-run twin, its control console.
 
 ## How to read this lane
 
 Every pre-registration sheet states its own acceptance ladder and its own
 honest scope; the consoles are the runs of record that walked those ladders.
-The instruments publish as sanitized derivatives and do not run as-is (the
-redacted constants raise at load), matching the repository's deliberate
-publication split: what replays, publishes and runs; the operating-form
-constants and the threshold calculus stay protected.
+The instruments publish as records of the qualification runs, not as
+executable distributions: they do not run as-is.
 
 The twice-run pairs are the determinism receipt: each pair's two consoles are
 byte-identical, one hash, two files.
@@ -40,6 +33,5 @@ byte-identical, one hash, two files.
 
 The five instrument modules, their run instructions, and the remaining
 consoles of record join this lane as later commits, each verified against its
-banked pin before it lands, each carrying its row in the sanitization
-receipts. The mixed-regime ground truth of Stage 2 is its own lane and its own
-pre-registration.
+banked pin before it lands. The mixed-regime ground truth of Stage 2 is its
+own lane and its own pre-registration.
