@@ -1,0 +1,81 @@
+[battery] stage2_ladder_walk_v1 --battery: the synthetic-worlds battery (the fixture law: ZERO real rows, every law proven, every negative fixture dying loud, twice-run byte-identical by construction)
+  [PASS] W1 CODE: every authored seam latched EXACT
+  [PASS] W1 CODE: span contiguity green per doc
+  [PASS] W1 CODE: the foreign-schema-row census zero
+  [PASS] W1 CODE: the seam-aware onset derivation exact
+  [PASS] W2 CODE: the loop spans' tier-1 schema census types EMISSION rows (the finding, receipted)
+  [PASS] W2 CODE: the five-state census carries the DISAGREEMENT receipts on the loop material
+[rung-e] CODE calibration cohort: 7 clean spans (the 1307 section-3 law's analog -- the clean material defines the standard, the loop spans graded against it; the censored-at-h law carried)
+[rung-e] CODE calibration cohort sizes per horizon: {"128": 0, "36": 1, "64": 0, "EOS": 7} (spans censored at h, never pooled silent)
+[rung-e] CODE syn-CODE-A-01:s0 (true CODE/clean, source code-syn-0): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5182) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5182) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-A-01:s1 (true CODE/loop, source loop-syn-a): @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.1648 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.1648 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=36 doc-cumulative row 55 seam-local offset 36 | anchor t* RESIDUE (t* 55 > t_seam 20, the residue measured loud -- 35 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 35, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 24 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE syn-CODE-B-01:s0 (true CODE/loop, source loop-syn-b): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.9058 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.9058 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 29 seam-local offset 30 | anchor t* RESIDUE (t* 29 > t_seam 0, the residue measured loud -- 29 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 29, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE syn-CODE-B-01:s1 (true CODE/clean, source code-syn-1): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0124) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0124) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-N-01:s0 (true CODE/clean, source code-syn-2): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3175) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3175) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-N-01:s1 (true CODE/clean, source code-syn-3): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2856) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2856) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-C-01:s0 (true CODE/clean, source code-syn-4): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0623) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0623) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-C-01:s1 (true CODE/loop, source loop-syn-a): @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.1648 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.1648 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=36 doc-cumulative row 55 seam-local offset 36 | anchor t* RESIDUE (t* 55 > t_seam 20, the residue measured loud -- 35 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 35, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 4 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE syn-CODE-C-01:s2 (true CODE/clean, source code-syn-5): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.4747) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.4747) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-L-01:s0 (true CODE/loop, source loop-syn-b): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.9058 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.9058 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 29 seam-local offset 30 | anchor t* RESIDUE (t* 29 > t_seam 0, the residue measured loud -- 29 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 29, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE syn-CODE-L-01:s1 (true CODE/clean, source code-syn-6): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1252) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1252) | grade MATCH/MATCH
+[rung-e] CODE syn-CODE-L-01:s2 (true CODE/loop, source loop-syn-c): @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.4889 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.4889 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=36 doc-cumulative row 85 seam-local offset 36 | anchor t* RESIDUE (t* 85 > t_seam 50, the residue measured loud -- 35 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 35, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 4 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+  [PASS] W3 CODE: the Class A loop span trips INSIDE the document at both forms (h=36 span-local)
+  [PASS] W5 CODE: the anchor typed RESIDUE loud (t* > t_seam; the 'inside the excursion window' wording owned at Amendment Act No. 1)
+  [PASS] W3 CODE: the clean prefix span reads no trip
+  [PASS] W3 CODE: the Class N zero-trip specificity control across the seam
+  [PASS] W3 CODE: the LCL re-trip -- the SECOND loop span trips on its own rows
+  [PASS] W4 CODE: the CODE-surface read NAMED-ABSENT on the emission loop spans (the band channels absent, never zero-filled)
+[rung-f] CODE syn-CODE-A-01:s1: E-EVENT (mid-document trip) | h=36 t_raw=4.1648 | t_star 0-based 35 keep 36 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 6.0 | second_p 0.2 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 24 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE syn-CODE-B-01:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.9058 | t_star 0-based 29 keep 30 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 6.0 | second_p 0.2 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE syn-CODE-C-01:s1: E-EVENT (mid-document trip) | h=36 t_raw=4.1648 | t_star 0-based 35 keep 36 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 6.0 | second_p 0.2 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 4 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE syn-CODE-L-01:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.9058 | t_star 0-based 29 keep 30 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 6.0 | second_p 0.2 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE syn-CODE-L-01:s2: E-EVENT (mid-document trip) | h=36 t_raw=4.4889 | t_star 0-based 35 keep 36 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 6.0 | second_p 0.2 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 4 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+  [PASS] W6 CODE: the E-event stream on the mid-document trips (ladder E0, terminals NAMED-UNMEASURED-OFFLINE)
+  [PASS] W7 CODE: the isolation guard's write census EXPECTED-ZERO cross-leg trips (the intra-leg receipt)
+  [PASS] W1 PROSE: every authored seam latched EXACT
+  [PASS] W1 PROSE: span contiguity green per doc
+  [PASS] W1 PROSE: the foreign-schema-row census zero
+  [PASS] W1 PROSE: the seam-aware onset derivation exact
+  [PASS] W2 PROSE: the five-state census CONFIRM throughout
+[rung-e] PROSE syn-PROSE-A-01:s0 (true PROSE/clean, source prose-syn-0): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0416) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0416) | grade MATCH/MATCH
+[rung-e] PROSE syn-PROSE-A-01:s1 (true PROSE/loop, source loop-syn-a): @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.2398 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=36 v=4.2398 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=36 doc-cumulative row 55 seam-local offset 36 | anchor t* RESIDUE (t* 55 > t_seam 20, the residue measured loud -- 35 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 35, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 24 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE syn-PROSE-N-01:s0 (true PROSE/clean, source prose-syn-0): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0416) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0416) | grade MATCH/MATCH
+[rung-e] PROSE syn-PROSE-N-01:s1 (true PROSE/clean, source prose-syn-1): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0510) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0510) | grade MATCH/MATCH
+  [PASS] W3 PROSE: the Class A loop span trips INSIDE the document at both forms (h=36 span-local)
+  [PASS] W5 PROSE: the anchor typed RESIDUE loud (t* > t_seam; the 'inside the excursion window' wording owned at Amendment Act No. 1)
+  [PASS] W3 PROSE: the clean prefix span reads no trip
+  [PASS] W3 PROSE: the Class N zero-trip specificity control across the seam
+[rung-f] PROSE syn-PROSE-A-01:s1: E-EVENT (mid-document trip) | h=36 t_raw=4.2398 | t_star 0-based 35 keep 36 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 6.0 | second_p 0.2 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 24 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+  [PASS] W6 PROSE: the E-event stream on the mid-document trips (ladder E0, terminals NAMED-UNMEASURED-OFFLINE)
+  [PASS] W7 PROSE: the isolation guard's write census EXPECTED-ZERO cross-leg trips (the intra-leg receipt)
+TRIP-LOUD [CROSS-LEG-CONTAMINATION] a PROSE-leg value (1.23 on P_B4) written into the CODE bank whose pins are {'P_B4': -1.0, 'SideC': -1.0} -- the span-isolation law, fail-loud, never silent
+TRIP-LOUD halt: fail-loud never silent; VOID never silent.
+  [PASS] W7neg: the cross-leg write dies CROSS-LEG-CONTAMINATION loud
+  [PASS] W8: the rw16 port reproduces the instrument's own W derivation EXACTLY (the port is the law)
+[TRIP-LOUD] RW16-PORT: doc prose-syn-0: the ported W drifts from the instrument's own derivation (the port is the law or it is nothing; the tamper)
+[TRIP-LOUD] the walk halts loud, never silent (fail-loud law; findings presented, never adjudicated)
+  [PASS] W8neg: a tampered baseline dies RW16-PORT loud
+[TRIP-LOUD] ONSET-LAW: syn-CODE-A-01: row 20 onset mismatch (onset iff {0} + seams)
+[TRIP-LOUD] the walk halts loud, never silent (fail-loud law; findings presented, never adjudicated)
+  [PASS] W9a: the onset mark stripped at a seam dies ONSET-LAW loud (the per-doc census law)
+[TRIP-LOUD] DUAL-CLOCK: syn-CODE-A-01: seam token_step mismatch
+[TRIP-LOUD] the walk halts loud, never silent (fail-loud law; findings presented, never adjudicated)
+  [PASS] W9b: a census seam position tampered against the rows dies DUAL-CLOCK loud
+  [PASS] W9c: the foreign-schema row censused loud, the latch holds (foreign census 1, spans intact)
+[TRIP-LOUD] SPAN-TRUTH: syn-CODE-A-01: span states ['clean'] != the authored shape ['clean', 'loop']
+[TRIP-LOUD] the walk halts loud, never silent (fail-loud law; findings presented, never adjudicated)
+  [PASS] W9d: the truncated census dies SPAN-TRUTH loud
+[rung-e] PROSE syn-EARLY-01:s0 (true PROSE/clean, source prose-syn-0): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0416) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0416) | grade MATCH/MATCH
+[rung-e] PROSE syn-EARLY-01:s1 (true PROSE/loop, source loop-syn-a): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=4.2398 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=4.2398 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 10 seam-local offset 1 | anchor t* EARLY/SAFE (t* 10 <= t_seam 10, the operating-threshold wiring sheet's early-bias law -- the anchor prices localization, never the divergence onset) (i_target 0, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+  [PASS] W5b: the EARLY/SAFE anchor branch proven (t* == t_seam, the operating-threshold wiring sheet's early-bias law -- the anchor prices localization)
+[battery] W10 receipt: the elevated clean span read against the normal cohort -- first passage h=EOS v=33.3017 (true state clean, the read trips: the FALSE-TRIP counterfactual typed loud, never absorbed)
+  [PASS] W10: the false-trip deviation typed loud (a clean span with elevated channels against the normal cohort)
+[battery] 34 PASS / 0 FAIL
+(offline paper act only, zero GPU, zero decodes, zero build hours; Nov 9 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)

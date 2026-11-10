@@ -1,0 +1,718 @@
+[walk] stage2_ladder_walk_v1 --walk: the real acceptance-ladder walk over the mixed cache of record (offline, zero GPU, zero decodes)
+[pin] the instruments of record imported VERBATIM, byte-pinned at import: splitter 52410 B / accumulator 58292 B / prose accumulator 76867 B / hook 52078 B / splice builder 68635 B (zero instrument bytes moved)
+[load] the mixed cache + census export of record: 14814947 B / a5a4ae5391124724, 65583 B / cca12263db49a502 (asserted at load) | the builder's own loader re-asserted every census pin fail-loud | docs 90 seams 110
+[load] the prose thin + export of record: 630 records (620 corpus + 10 fixtures), 260854 commits censused | the export walk table + 529 pool asserted | the W derivation: 32 buckets on 310 calibration docs (the banked rw16 law, the instrument's own output)
+[load] the code thin of record: the 10 fixture records parsed (the corpus records not consumed by this walk -- the clean code rows ride the mixed cache's own payloads; the ten-name census asserted)
+[prose W] THE RW16 PORT + CROSS-CHECK: the bucket-baseline pooling ported verbatim, cross-checked EXACT against the instrument's own w_derivation on all 620 corpus docs (any drift dies loud); the fixture W arrays are the same law's per-doc prefix max over the fixtures' steps (the extension receipted)
+[calib] THE EMISSION-SURFACE CALIBRATION OF RECORD: the even-A 86-doc lane moments measured at every horizon (the banked calibration, zero new constants; the span-level reads standardize on it -- the span-level lane join + the span-local W restart are this wrapper's named additive constructions, receipted per span)
+[flatten] THE SCHEMA CENSUS (the finding receipted, never absorbed): {"CODE/CODE-BAND/clean": 55, "CODE/EMISSION/loop": 45, "PROSE/EMISSION/clean": 55, "PROSE/EMISSION/loop": 45} -- the loop material's rows carry the thin's EMISSION schema on BOTH legs (the banked fixture bytes: the injected walks were recorded on the emission surface); on the CODE leg the loop spans read PROSE at tier 1 inside CODE-leg spans (the five-state table types the disagreement, the latch holds); the W lane joined so the tier-1 classifier can read the emission signature
+[rung-d] RUNG (d) -- THE ENTRY-MARK MEASUREMENT (5a): the splitter's two-phase clock over the mixed cache, a fresh clock per document (the per-document contiguity law; the guard shared per leg; the state census pooled)
+[rung-d] CODE: 45 docs walked | seam receipts EXACT 55 / typed 0 | cold-start latches per span receipted below | contiguity green per doc | foreign-schema-row census 0
+[rung-d]   mix-CODE-A-01 (OK): 2 spans | latches [0, 6] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 23, "DISAGREEMENT": 241}
+[rung-d]     seam at commit 6: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 6}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 256}
+[rung-d]   mix-CODE-A-02 (OK): 2 spans | latches [0, 17] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 2, "DISAGREEMENT": 83}
+[rung-d]     seam at commit 17: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 17}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 98}
+[rung-d]   mix-CODE-A-03 (OK): 2 spans | latches [0, 28] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 13, "DISAGREEMENT": 114}
+[rung-d]     seam at commit 28: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 28}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 129}
+[rung-d]   mix-CODE-A-04 (OK): 2 spans | latches [0, 3] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 20, "DISAGREEMENT": 113}
+[rung-d]     seam at commit 3: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 3}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-CODE-A-05 (OK): 2 spans | latches [0, 14] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 31, "DISAGREEMENT": 155}
+[rung-d]     seam at commit 14: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 14}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 170}
+[rung-d]   mix-CODE-A-06 (OK): 2 spans | latches [0, 41] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 26, "DISAGREEMENT": 87}
+[rung-d]     seam at commit 41: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 41}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 102}
+[rung-d]   mix-CODE-A-07 (OK): 2 spans | latches [0, 52] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 37, "DISAGREEMENT": 113}
+[rung-d]     seam at commit 52: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 52}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-CODE-A-08 (OK): 2 spans | latches [0, 63] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 48, "DISAGREEMENT": 77}
+[rung-d]     seam at commit 63: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 63}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 92}
+[rung-d]   mix-CODE-A-09 (OK): 2 spans | latches [0, 46] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 31, "DISAGREEMENT": 241}
+[rung-d]     seam at commit 46: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 46}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 256}
+[rung-d]   mix-CODE-A-10 (OK): 2 spans | latches [0, 57] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 42, "DISAGREEMENT": 83}
+[rung-d]     seam at commit 57: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 57}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 98}
+[rung-d]   mix-CODE-A-11 (OK): 2 spans | latches [0, 116] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 101, "DISAGREEMENT": 114}
+[rung-d]     seam at commit 116: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 116}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 129}
+[rung-d]   mix-CODE-A-12 (OK): 2 spans | latches [0, 127] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 112, "DISAGREEMENT": 113}
+[rung-d]     seam at commit 127: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 127}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-CODE-A-13 (OK): 2 spans | latches [0, 74] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 59, "DISAGREEMENT": 155}
+[rung-d]     seam at commit 74: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 74}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 170}
+[rung-d]   mix-CODE-A-14 (OK): 2 spans | latches [0, 85] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 70, "DISAGREEMENT": 87}
+[rung-d]     seam at commit 85: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 85}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 102}
+[rung-d]   mix-CODE-A-15 (OK): 2 spans | latches [0, 96] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 81, "DISAGREEMENT": 113}
+[rung-d]     seam at commit 96: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 96}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-CODE-B-01 (OK): 2 spans | latches [0, 35] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 266, "DISAGREEMENT": 20}
+[rung-d]     seam at commit 35: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 35}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 281}
+[rung-d]   mix-CODE-B-02 (OK): 2 spans | latches [0, 34] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 278, "DISAGREEMENT": 19}
+[rung-d]     seam at commit 34: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 34}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 293}
+[rung-d]   mix-CODE-B-03 (OK): 2 spans | latches [0, 33] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 269, "DISAGREEMENT": 18}
+[rung-d]     seam at commit 33: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 33}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 284}
+[rung-d]   mix-CODE-B-04 (OK): 2 spans | latches [0, 36] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 361, "DISAGREEMENT": 21}
+[rung-d]     seam at commit 36: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 36}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 376}
+[rung-d]   mix-CODE-B-05 (OK): 2 spans | latches [0, 35] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 230, "DISAGREEMENT": 20}
+[rung-d]     seam at commit 35: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 35}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 245}
+[rung-d]   mix-CODE-B-06 (OK): 2 spans | latches [0, 38] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 308, "DISAGREEMENT": 23}
+[rung-d]     seam at commit 38: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 38}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 323}
+[rung-d]   mix-CODE-B-07 (OK): 2 spans | latches [0, 49] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 282, "DISAGREEMENT": 34}
+[rung-d]     seam at commit 49: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 49}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 297}
+[rung-d]   mix-CODE-B-08 (OK): 2 spans | latches [0, 60] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 161, "DISAGREEMENT": 45}
+[rung-d]     seam at commit 60: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 60}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 176}
+[rung-d]   mix-CODE-B-09 (OK): 2 spans | latches [0, 43] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 300, "DISAGREEMENT": 28}
+[rung-d]     seam at commit 43: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 43}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 315}
+[rung-d]   mix-CODE-B-10 (OK): 2 spans | latches [0, 54] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 241, "DISAGREEMENT": 39}
+[rung-d]     seam at commit 54: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 54}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 256}
+[rung-d]   mix-CODE-B-11 (OK): 2 spans | latches [0, 89] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 303, "DISAGREEMENT": 74}
+[rung-d]     seam at commit 89: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 89}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 318}
+[rung-d]   mix-CODE-B-12 (OK): 2 spans | latches [0, 100] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 265, "DISAGREEMENT": 85}
+[rung-d]     seam at commit 100: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 100}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 280}
+[rung-d]   mix-CODE-B-13 (OK): 2 spans | latches [0, 111] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 329, "DISAGREEMENT": 96}
+[rung-d]     seam at commit 111: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 111}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 344}
+[rung-d]   mix-CODE-B-14 (OK): 2 spans | latches [0, 122] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 226, "DISAGREEMENT": 107}
+[rung-d]     seam at commit 122: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 122}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 241}
+[rung-d]   mix-CODE-B-15 (OK): 2 spans | latches [0, 69] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 223, "DISAGREEMENT": 54}
+[rung-d]     seam at commit 69: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 69}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 238}
+[rung-d]   mix-CODE-CLC-01 (OK): 3 spans | latches [0, 30, 158] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 321, "DISAGREEMENT": 113}
+[rung-d]     seam at commit 30: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 158: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 30}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]     span 2 tier-1 schema census {"CODE-BAND": 321}
+[rung-d]   mix-CODE-CLC-02 (OK): 3 spans | latches [0, 37, 129] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 198, "DISAGREEMENT": 77}
+[rung-d]     seam at commit 37: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 129: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 37}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 92}
+[rung-d]     span 2 tier-1 schema census {"CODE-BAND": 191}
+[rung-d]   mix-CODE-CLC-03 (OK): 3 spans | latches [0, 44, 300] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 338, "DISAGREEMENT": 241}
+[rung-d]     seam at commit 44: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 300: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 44}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 256}
+[rung-d]     span 2 tier-1 schema census {"CODE-BAND": 324}
+[rung-d]   mix-CODE-CLC-04 (OK): 3 spans | latches [0, 51, 149] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 278, "DISAGREEMENT": 83}
+[rung-d]     seam at commit 51: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 149: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 51}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 98}
+[rung-d]     span 2 tier-1 schema census {"CODE-BAND": 257}
+[rung-d]   mix-CODE-CLC-05 (OK): 3 spans | latches [0, 58, 187] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 303, "DISAGREEMENT": 114}
+[rung-d]     seam at commit 58: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 187: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 58}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 129}
+[rung-d]     span 2 tier-1 schema census {"CODE-BAND": 275}
+[rung-d]   mix-CODE-LCL-01 (OK): 3 spans | latches [0, 98, 138] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 25, "DISAGREEMENT": 238}
+[rung-d]     seam at commit 98: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 138: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 98}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 40}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 170}
+[rung-d]   mix-CODE-LCL-02 (OK): 3 spans | latches [0, 129, 175] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 31, "DISAGREEMENT": 201}
+[rung-d]     seam at commit 129: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 175: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 129}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 46}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 102}
+[rung-d]   mix-CODE-LCL-03 (OK): 3 spans | latches [0, 128, 180] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 37, "DISAGREEMENT": 226}
+[rung-d]     seam at commit 128: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 180: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 128}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 52}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-CODE-LCL-04 (OK): 3 spans | latches [0, 170, 228] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 43, "DISAGREEMENT": 232}
+[rung-d]     seam at commit 170: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 228: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 170}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 58}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 92}
+[rung-d]   mix-CODE-LCL-05 (OK): 3 spans | latches [0, 102, 166] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 49, "DISAGREEMENT": 328}
+[rung-d]     seam at commit 102: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 166: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 102}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 64}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 256}
+[rung-d]   mix-CODE-N-01 (OK): 2 spans | latches [0, 23] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 363}
+[rung-d]     seam at commit 23: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 23}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 370}
+[rung-d]   mix-CODE-N-02 (OK): 2 spans | latches [0, 34] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 326}
+[rung-d]     seam at commit 34: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 34}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 322}
+[rung-d]   mix-CODE-N-03 (OK): 2 spans | latches [0, 41] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 378}
+[rung-d]     seam at commit 41: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 41}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 367}
+[rung-d]   mix-CODE-N-04 (OK): 2 spans | latches [0, 52] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 356}
+[rung-d]     seam at commit 52: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 52}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 334}
+[rung-d]   mix-CODE-N-05 (OK): 2 spans | latches [0, 71] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 353}
+[rung-d]     seam at commit 71: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"CODE-BAND": 71}
+[rung-d]     span 1 tier-1 schema census {"CODE-BAND": 312}
+[rung-d] PROSE: 45 docs walked | seam receipts EXACT 55 / typed 0 | cold-start latches per span receipted below | contiguity green per doc | foreign-schema-row census 0
+[rung-d]   mix-PROSE-A-01 (OK): 2 spans | latches [0, 6] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 23, "CONFIRM": 241}
+[rung-d]     seam at commit 6: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 6}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 256}
+[rung-d]   mix-PROSE-A-02 (OK): 2 spans | latches [0, 17] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 85}
+[rung-d]     seam at commit 17: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 17}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 98}
+[rung-d]   mix-PROSE-A-03 (OK): 2 spans | latches [0, 28] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 127}
+[rung-d]     seam at commit 28: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 28}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 129}
+[rung-d]   mix-PROSE-A-04 (OK): 2 spans | latches [0, 3] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 20, "CONFIRM": 113}
+[rung-d]     seam at commit 3: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 3}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-PROSE-A-05 (OK): 2 spans | latches [0, 14] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 31, "CONFIRM": 155}
+[rung-d]     seam at commit 14: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 14}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 170}
+[rung-d]   mix-PROSE-A-06 (OK): 2 spans | latches [0, 41] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 113}
+[rung-d]     seam at commit 41: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 41}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 102}
+[rung-d]   mix-PROSE-A-07 (OK): 2 spans | latches [0, 52] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 150}
+[rung-d]     seam at commit 52: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 52}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-PROSE-A-08 (OK): 2 spans | latches [0, 63] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 125}
+[rung-d]     seam at commit 63: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 63}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 92}
+[rung-d]   mix-PROSE-A-09 (OK): 2 spans | latches [0, 46] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 272}
+[rung-d]     seam at commit 46: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 46}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 256}
+[rung-d]   mix-PROSE-A-10 (OK): 2 spans | latches [0, 57] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 125}
+[rung-d]     seam at commit 57: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 57}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 98}
+[rung-d]   mix-PROSE-A-11 (OK): 2 spans | latches [0, 116] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 215}
+[rung-d]     seam at commit 116: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 116}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 129}
+[rung-d]   mix-PROSE-A-12 (OK): 2 spans | latches [0, 127] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 225}
+[rung-d]     seam at commit 127: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 127}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-PROSE-A-13 (OK): 2 spans | latches [0, 74] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 214}
+[rung-d]     seam at commit 74: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 74}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 170}
+[rung-d]   mix-PROSE-A-14 (OK): 2 spans | latches [0, 85] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 157}
+[rung-d]     seam at commit 85: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 85}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 102}
+[rung-d]   mix-PROSE-A-15 (OK): 2 spans | latches [0, 96] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 194}
+[rung-d]     seam at commit 96: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 96}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-PROSE-B-01 (OK): 2 spans | latches [0, 35] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 428}
+[rung-d]     seam at commit 35: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 35}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 423}
+[rung-d]   mix-PROSE-B-02 (OK): 2 spans | latches [0, 34] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 425}
+[rung-d]     seam at commit 34: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 34}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 421}
+[rung-d]   mix-PROSE-B-03 (OK): 2 spans | latches [0, 33] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 380}
+[rung-d]     seam at commit 33: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 33}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 377}
+[rung-d]   mix-PROSE-B-04 (OK): 2 spans | latches [0, 36] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 367}
+[rung-d]     seam at commit 36: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 36}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 361}
+[rung-d]   mix-PROSE-B-05 (OK): 2 spans | latches [0, 35] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 405}
+[rung-d]     seam at commit 35: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 35}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 400}
+[rung-d]   mix-PROSE-B-06 (OK): 2 spans | latches [0, 38] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 442}
+[rung-d]     seam at commit 38: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 38}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 434}
+[rung-d]   mix-PROSE-B-07 (OK): 2 spans | latches [0, 49] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 450}
+[rung-d]     seam at commit 49: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 49}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 431}
+[rung-d]   mix-PROSE-B-08 (OK): 2 spans | latches [0, 60] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 253}
+[rung-d]     seam at commit 60: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 60}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 223}
+[rung-d]   mix-PROSE-B-09 (OK): 2 spans | latches [0, 43] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 449}
+[rung-d]     seam at commit 43: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 43}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 436}
+[rung-d]   mix-PROSE-B-10 (OK): 2 spans | latches [0, 54] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 481}
+[rung-d]     seam at commit 54: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 54}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 457}
+[rung-d]   mix-PROSE-B-11 (OK): 2 spans | latches [0, 89] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 481}
+[rung-d]     seam at commit 89: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 89}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 422}
+[rung-d]   mix-PROSE-B-12 (OK): 2 spans | latches [0, 100] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 529}
+[rung-d]     seam at commit 100: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 100}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 459}
+[rung-d]   mix-PROSE-B-13 (OK): 2 spans | latches [0, 111] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 527}
+[rung-d]     seam at commit 111: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 111}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 446}
+[rung-d]   mix-PROSE-B-14 (OK): 2 spans | latches [0, 122] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 539}
+[rung-d]     seam at commit 122: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 122}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 447}
+[rung-d]   mix-PROSE-B-15 (OK): 2 spans | latches [0, 69] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 458}
+[rung-d]     seam at commit 69: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 69}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 419}
+[rung-d]   mix-PROSE-CLC-01 (OK): 3 spans | latches [0, 30, 158] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 556}
+[rung-d]     seam at commit 30: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 158: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 30}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 128}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 443}
+[rung-d]   mix-PROSE-CLC-02 (OK): 3 spans | latches [0, 37, 129] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 526}
+[rung-d]     seam at commit 37: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 129: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 37}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 92}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 442}
+[rung-d]   mix-PROSE-CLC-03 (OK): 3 spans | latches [0, 44, 300] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 679}
+[rung-d]     seam at commit 44: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 300: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 44}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 256}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 424}
+[rung-d]   mix-PROSE-CLC-04 (OK): 3 spans | latches [0, 51, 149] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 524}
+[rung-d]     seam at commit 51: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 149: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 51}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 98}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 420}
+[rung-d]   mix-PROSE-CLC-05 (OK): 3 spans | latches [0, 58, 187] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 596}
+[rung-d]     seam at commit 58: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 187: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 58}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 129}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 454}
+[rung-d]   mix-PROSE-LCL-01 (OK): 3 spans | latches [0, 98, 138] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 263}
+[rung-d]     seam at commit 98: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 138: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 98}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 40}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 170}
+[rung-d]   mix-PROSE-LCL-02 (OK): 3 spans | latches [0, 129, 175] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 232}
+[rung-d]     seam at commit 129: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 175: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 129}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 46}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 102}
+[rung-d]   mix-PROSE-LCL-03 (OK): 3 spans | latches [0, 128, 180] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 263}
+[rung-d]     seam at commit 128: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 180: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 128}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 52}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 128}
+[rung-d]   mix-PROSE-LCL-04 (OK): 3 spans | latches [0, 170, 228] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 275}
+[rung-d]     seam at commit 170: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 228: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 170}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 58}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 92}
+[rung-d]   mix-PROSE-LCL-05 (OK): 3 spans | latches [0, 102, 166] | cold-start latches 3 (every incoming span) | state census {"COLD_START": 48, "CONFIRM": 377}
+[rung-d]     seam at commit 102: EXACT (the five-state entry COLD_START)
+[rung-d]     seam at commit 166: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 102}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 64}
+[rung-d]     span 2 tier-1 schema census {"EMISSION": 256}
+[rung-d]   mix-PROSE-N-01 (OK): 2 spans | latches [0, 23] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 426}
+[rung-d]     seam at commit 23: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 23}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 433}
+[rung-d]   mix-PROSE-N-02 (OK): 2 spans | latches [0, 34] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 477}
+[rung-d]     seam at commit 34: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 34}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 473}
+[rung-d]   mix-PROSE-N-03 (OK): 2 spans | latches [0, 41] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 350}
+[rung-d]     seam at commit 41: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 41}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 339}
+[rung-d]   mix-PROSE-N-04 (OK): 2 spans | latches [0, 52] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 421}
+[rung-d]     seam at commit 52: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 52}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 399}
+[rung-d]   mix-PROSE-N-05 (OK): 2 spans | latches [0, 71] | cold-start latches 2 (every incoming span) | state census {"COLD_START": 32, "CONFIRM": 198}
+[rung-d]     seam at commit 71: EXACT (the five-state entry COLD_START)
+[rung-d]     span 0 tier-1 schema census {"EMISSION": 71}
+[rung-d]     span 1 tier-1 schema census {"EMISSION": 157}
+[rung-e] RUNG (e) -- THE DEMUX CLASSIFICATION ACCEPTANCE (5b): per span the latch leg vs the true leg, the span STATE read at BOTH forms (the [REDACTED_PER_PUBLICATION_POLICY] record bar / the [REDACTED_PER_PUBLICATION_POLICY] Tier C datum side by side, the designation never silently chosen) vs the true state, every deviation typed loud
+[rung-e] CODE calibration cohort: 55 clean spans (the 1307 section-3 law's analog -- the clean material defines the standard, the loop spans graded against it; the censored-at-h law carried)
+[rung-e] CODE calibration cohort sizes per horizon: {"128": 25, "36": 47, "64": 31, "EOS": 55} (spans censored at h, never pooled silent)
+[rung-e] CODE mix-CODE-A-01:s0 (true CODE/clean, source code-000): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2216) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2216) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-01:s1 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-A-02:s0 (true CODE/clean, source code-017): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2803) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2803) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-02:s1 (true CODE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 114 seam-local offset 98 | anchor t* RESIDUE (t* 114 > t_seam 17, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-03:s0 (true CODE/clean, source code-034): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1212) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1212) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-03:s1 (true CODE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-A-04:s0 (true CODE/clean, source code-051): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2354) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2354) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-04:s1 (true CODE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 130 seam-local offset 128 | anchor t* RESIDUE (t* 130 > t_seam 3, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-05:s0 (true CODE/clean, source code-068): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1288) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1288) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-05:s1 (true CODE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 183 seam-local offset 170 | anchor t* RESIDUE (t* 183 > t_seam 14, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-06:s0 (true CODE/clean, source code-085): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2505) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2505) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-06:s1 (true CODE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 104 seam-local offset 64 | anchor t* RESIDUE (t* 104 > t_seam 41, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-07:s0 (true CODE/clean, source code-102): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2870) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2870) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-07:s1 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 179 seam-local offset 128 | anchor t* RESIDUE (t* 179 > t_seam 52, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-08:s0 (true CODE/clean, source code-119): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0050) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0050) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-08:s1 (true CODE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-A-09:s0 (true CODE/clean, source code-136): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1705) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1705) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-09:s1 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-A-10:s0 (true CODE/clean, source code-153): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2229) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2229) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-10:s1 (true CODE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 154 seam-local offset 98 | anchor t* RESIDUE (t* 154 > t_seam 57, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-11:s0 (true CODE/clean, source code-170): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0952) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0952) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-11:s1 (true CODE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-A-12:s0 (true CODE/clean, source code-187): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5221) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5221) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-12:s1 (true CODE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 254 seam-local offset 128 | anchor t* RESIDUE (t* 254 > t_seam 127, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-13:s0 (true CODE/clean, source code-204): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7288) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7288) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-13:s1 (true CODE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 243 seam-local offset 170 | anchor t* RESIDUE (t* 243 > t_seam 74, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-14:s0 (true CODE/clean, source code-221): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0853) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0853) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-14:s1 (true CODE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 148 seam-local offset 64 | anchor t* RESIDUE (t* 148 > t_seam 85, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-A-15:s0 (true CODE/clean, source code-238): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5931) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5931) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-A-15:s1 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 223 seam-local offset 128 | anchor t* RESIDUE (t* 223 > t_seam 96, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-01:s0 (true CODE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.7355 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.7355 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 34 seam-local offset 35 | anchor t* RESIDUE (t* 34 > t_seam 0, the residue measured loud -- 34 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 34, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-01:s1 (true CODE/clean, source code-255): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1947) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1947) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-02:s0 (true CODE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.2407 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.2407 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 33 seam-local offset 34 | anchor t* RESIDUE (t* 33 > t_seam 0, the residue measured loud -- 33 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 33, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-02:s1 (true CODE/clean, source code-272): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0659) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0659) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-03:s0 (true CODE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=4.3957 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=4.3957 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 32 seam-local offset 33 | anchor t* RESIDUE (t* 32 > t_seam 0, the residue measured loud -- 32 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 32, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-03:s1 (true CODE/clean, source code-289): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1519) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1519) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-04:s0 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.3604 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.3604 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 35 seam-local offset 36 | anchor t* RESIDUE (t* 35 > t_seam 0, the residue measured loud -- 35 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 35, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-04:s1 (true CODE/clean, source code-306): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0474) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0474) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-05:s0 (true CODE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2202) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2202) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-B-05:s1 (true CODE/clean, source code-323): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1450) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1450) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-06:s0 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.9641) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.9641) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-B-06:s1 (true CODE/clean, source code-340): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1280) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1280) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-07:s0 (true CODE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.2621 | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 2.2621) | grade MATCH/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 48 seam-local offset 49 | anchor t* RESIDUE (t* 48 > t_seam 0, the residue measured loud -- 48 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 48, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-07:s1 (true CODE/clean, source code-357): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1860) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1860) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-08:s0 (true CODE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5283) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5283) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-B-08:s1 (true CODE/clean, source code-374): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7397) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7397) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-09:s0 (true CODE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6902 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6902 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 42 seam-local offset 43 | anchor t* RESIDUE (t* 42 > t_seam 0, the residue measured loud -- 42 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 42, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-09:s1 (true CODE/clean, source code-391): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5310) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5310) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-10:s0 (true CODE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9563 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9563 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 53 seam-local offset 54 | anchor t* RESIDUE (t* 53 > t_seam 0, the residue measured loud -- 53 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 53, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-10:s1 (true CODE/clean, source code-008): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5554) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5554) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-11:s0 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.0805 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.0805 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 88 seam-local offset 89 | anchor t* RESIDUE (t* 88 > t_seam 0, the residue measured loud -- 88 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 88, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-11:s1 (true CODE/clean, source code-025): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1762) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1762) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-12:s0 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9808 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9808 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 99 seam-local offset 100 | anchor t* RESIDUE (t* 99 > t_seam 0, the residue measured loud -- 99 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 99, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-B-12:s1 (true CODE/clean, source code-042): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2627) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2627) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-13:s0 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.8629) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.8629) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-B-13:s1 (true CODE/clean, source code-059): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1712) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1712) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-14:s0 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.6600) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.6600) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-B-14:s1 (true CODE/clean, source code-076): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1669) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1669) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-B-15:s0 (true CODE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5828) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5828) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-B-15:s1 (true CODE/clean, source code-093): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2523) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2523) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-01:s0 (true CODE/clean, source code-110): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2568) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2568) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-01:s1 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 157 seam-local offset 128 | anchor t* RESIDUE (t* 157 > t_seam 30, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-CLC-01:s2 (true CODE/clean, source code-127): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1353) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1353) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-02:s0 (true CODE/clean, source code-144): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5713) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5713) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-02:s1 (true CODE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-CLC-02:s2 (true CODE/clean, source code-161): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3595) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3595) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-03:s0 (true CODE/clean, source code-178): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8980) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8980) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-03:s1 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-CLC-03:s2 (true CODE/clean, source code-195): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3921) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3921) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-04:s0 (true CODE/clean, source code-212): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0102) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0102) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-04:s1 (true CODE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 148 seam-local offset 98 | anchor t* RESIDUE (t* 148 > t_seam 51, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-CLC-04:s2 (true CODE/clean, source code-229): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1471) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1471) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-05:s0 (true CODE/clean, source code-246): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7875) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7875) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-CLC-05:s1 (true CODE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-CLC-05:s2 (true CODE/clean, source code-263): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5137) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5137) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-LCL-01:s0 (true CODE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 97 seam-local offset 98 | anchor t* RESIDUE (t* 97 > t_seam 0, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-01:s1 (true CODE/clean, source code-280): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1553) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1553) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-LCL-01:s2 (true CODE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 307 seam-local offset 170 | anchor t* RESIDUE (t* 307 > t_seam 138, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-02:s0 (true CODE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-LCL-02:s1 (true CODE/clean, source code-297): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2915) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2915) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-LCL-02:s2 (true CODE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 238 seam-local offset 64 | anchor t* RESIDUE (t* 238 > t_seam 175, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-03:s0 (true CODE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 127 seam-local offset 128 | anchor t* RESIDUE (t* 127 > t_seam 0, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-03:s1 (true CODE/clean, source code-314): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3353) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3353) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-LCL-03:s2 (true CODE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 307 seam-local offset 128 | anchor t* RESIDUE (t* 307 > t_seam 180, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-04:s0 (true CODE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 169 seam-local offset 170 | anchor t* RESIDUE (t* 169 > t_seam 0, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-04:s1 (true CODE/clean, source code-331): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3275) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3275) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-LCL-04:s2 (true CODE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-LCL-05:s0 (true CODE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 63 seam-local offset 64 | anchor t* RESIDUE (t* 63 > t_seam 0, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] CODE mix-CODE-LCL-05:s1 (true CODE/clean, source code-348): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3357) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3357) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-LCL-05:s2 (true CODE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED | the CODE-surface read NAMED-ABSENT (the band channels absent on the emission bytes, never zero-filled)
+[rung-e] CODE mix-CODE-N-01:s0 (true CODE/clean, source code-365): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5040) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5040) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-01:s1 (true CODE/clean, source code-382): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1654) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1654) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-02:s0 (true CODE/clean, source code-399): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -1.1086) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -1.1086) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-02:s1 (true CODE/clean, source code-016): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1196) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1196) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-03:s0 (true CODE/clean, source code-033): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6302) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6302) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-03:s1 (true CODE/clean, source code-050): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1238) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1238) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-04:s0 (true CODE/clean, source code-067): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0682) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0682) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-04:s1 (true CODE/clean, source code-084): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0067) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0067) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-05:s0 (true CODE/clean, source code-101): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5444) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5444) | grade MATCH/MATCH
+[rung-e] CODE mix-CODE-N-05:s1 (true CODE/clean, source code-118): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3723) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3723) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-01:s0 (true PROSE/clean, source prose-000): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.7975) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.7975) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-01:s1 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-A-02:s0 (true PROSE/clean, source prose-017): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3742) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3742) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-02:s1 (true PROSE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 114 seam-local offset 98 | anchor t* RESIDUE (t* 114 > t_seam 17, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-03:s0 (true PROSE/clean, source prose-034): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2827) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2827) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-03:s1 (true PROSE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-A-04:s0 (true PROSE/clean, source prose-051): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -5.2447) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -5.2447) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-04:s1 (true PROSE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 130 seam-local offset 128 | anchor t* RESIDUE (t* 130 > t_seam 3, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-05:s0 (true PROSE/clean, source prose-068): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2443) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2443) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-05:s1 (true PROSE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 183 seam-local offset 170 | anchor t* RESIDUE (t* 183 > t_seam 14, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-06:s0 (true PROSE/clean, source prose-085): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0503) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.0503) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-06:s1 (true PROSE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 104 seam-local offset 64 | anchor t* RESIDUE (t* 104 > t_seam 41, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-07:s0 (true PROSE/clean, source prose-102): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3668) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.3668) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-07:s1 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 179 seam-local offset 128 | anchor t* RESIDUE (t* 179 > t_seam 52, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-08:s0 (true PROSE/clean, source prose-119): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8052) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8052) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-08:s1 (true PROSE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-A-09:s0 (true PROSE/clean, source prose-136): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0560) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0560) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-09:s1 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-A-10:s0 (true PROSE/clean, source prose-153): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.6452) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.6452) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-10:s1 (true PROSE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 154 seam-local offset 98 | anchor t* RESIDUE (t* 154 > t_seam 57, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-11:s0 (true PROSE/clean, source prose-170): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1660) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1660) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-11:s1 (true PROSE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-A-12:s0 (true PROSE/clean, source prose-187): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1979) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1979) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-12:s1 (true PROSE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 254 seam-local offset 128 | anchor t* RESIDUE (t* 254 > t_seam 127, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-13:s0 (true PROSE/clean, source prose-204): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4765) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4765) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-13:s1 (true PROSE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 243 seam-local offset 170 | anchor t* RESIDUE (t* 243 > t_seam 74, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-14:s0 (true PROSE/clean, source prose-221): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3708) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3708) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-14:s1 (true PROSE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 148 seam-local offset 64 | anchor t* RESIDUE (t* 148 > t_seam 85, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-A-15:s0 (true PROSE/clean, source prose-238): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3417) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3417) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-A-15:s1 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 223 seam-local offset 128 | anchor t* RESIDUE (t* 223 > t_seam 96, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-01:s0 (true PROSE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.7355 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.7355 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 34 seam-local offset 35 | anchor t* RESIDUE (t* 34 > t_seam 0, the residue measured loud -- 34 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 34, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-01:s1 (true PROSE/clean, source prose-255): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9174) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9174) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-02:s0 (true PROSE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.2407 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.2407 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 33 seam-local offset 34 | anchor t* RESIDUE (t* 33 > t_seam 0, the residue measured loud -- 33 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 33, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-02:s1 (true PROSE/clean, source prose-272): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.1748 | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 2.1748) | grade FALSE-TRIP/MATCH
+[rung-e] PROSE mix-PROSE-B-03:s0 (true PROSE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=4.3957 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=4.3957 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 32 seam-local offset 33 | anchor t* RESIDUE (t* 32 > t_seam 0, the residue measured loud -- 32 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 32, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-03:s1 (true PROSE/clean, source prose-289): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.9653) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.9653) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-04:s0 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.3604 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.3604 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 35 seam-local offset 36 | anchor t* RESIDUE (t* 35 > t_seam 0, the residue measured loud -- 35 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 35, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-04:s1 (true PROSE/clean, source prose-306): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4950) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4950) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-05:s0 (true PROSE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2202) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.2202) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-B-05:s1 (true PROSE/clean, source prose-323): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5061) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.5061) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-06:s0 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.9641) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.9641) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-B-06:s1 (true PROSE/clean, source prose-340): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1087) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1087) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-07:s0 (true PROSE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.2621 | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 2.2621) | grade MATCH/MISSED
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 48 seam-local offset 49 | anchor t* RESIDUE (t* 48 > t_seam 0, the residue measured loud -- 48 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 48, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-07:s1 (true PROSE/clean, source prose-357): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8004) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8004) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-08:s0 (true PROSE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5283) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5283) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-B-08:s1 (true PROSE/clean, source prose-374): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0315) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0315) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-09:s0 (true PROSE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6902 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6902 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 42 seam-local offset 43 | anchor t* RESIDUE (t* 42 > t_seam 0, the residue measured loud -- 42 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 42, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-09:s1 (true PROSE/clean, source prose-391): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5384) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5384) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-10:s0 (true PROSE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9563 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9563 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 53 seam-local offset 54 | anchor t* RESIDUE (t* 53 > t_seam 0, the residue measured loud -- 53 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 53, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-10:s1 (true PROSE/clean, source prose-408): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.2183) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.2183) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-11:s0 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.0805 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.0805 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 88 seam-local offset 89 | anchor t* RESIDUE (t* 88 > t_seam 0, the residue measured loud -- 88 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 88, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-11:s1 (true PROSE/clean, source prose-425): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6175) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6175) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-12:s0 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9808 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9808 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 99 seam-local offset 100 | anchor t* RESIDUE (t* 99 > t_seam 0, the residue measured loud -- 99 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 99, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-B-12:s1 (true PROSE/clean, source prose-442): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3320) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3320) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-13:s0 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.8629) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.8629) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-B-13:s1 (true PROSE/clean, source prose-459): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.1152) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.1152) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-14:s0 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.6600) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.6600) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-B-14:s1 (true PROSE/clean, source prose-476): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.8078) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.8078) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-B-15:s0 (true PROSE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5828) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5828) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-B-15:s1 (true PROSE/clean, source prose-493): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7951) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7951) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-01:s0 (true PROSE/clean, source prose-510): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3563) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3563) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-01:s1 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 157 seam-local offset 128 | anchor t* RESIDUE (t* 157 > t_seam 30, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-CLC-01:s2 (true PROSE/clean, source prose-527): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6715) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6715) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-02:s0 (true PROSE/clean, source prose-544): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.2663) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.2663) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-02:s1 (true PROSE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-CLC-02:s2 (true PROSE/clean, source prose-561): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1731) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.1731) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-03:s0 (true PROSE/clean, source prose-578): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9569) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9569) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-03:s1 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-CLC-03:s2 (true PROSE/clean, source prose-595): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8635) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.8635) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-04:s0 (true PROSE/clean, source prose-612): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.0149) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.0149) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-04:s1 (true PROSE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 148 seam-local offset 98 | anchor t* RESIDUE (t* 148 > t_seam 51, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-CLC-04:s2 (true PROSE/clean, source prose-009): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2550) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2550) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-05:s0 (true PROSE/clean, source prose-026): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5126) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5126) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-CLC-05:s1 (true PROSE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-CLC-05:s2 (true PROSE/clean, source prose-043): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0438) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.0438) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-LCL-01:s0 (true PROSE/loop, source loop-injection-code): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.4251 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 97 seam-local offset 98 | anchor t* RESIDUE (t* 97 > t_seam 0, the residue measured loud -- 97 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 97, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-01:s1 (true PROSE/clean, source prose-060): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5235) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.5235) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-LCL-01:s2 (true PROSE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 307 seam-local offset 170 | anchor t* RESIDUE (t* 307 > t_seam 138, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-02:s0 (true PROSE/loop, source mask-reserved-stubborn): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.4207) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-LCL-02:s1 (true PROSE/clean, source prose-077): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3203) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3203) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-LCL-02:s2 (true PROSE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 238 seam-local offset 64 | anchor t* RESIDUE (t* 238 > t_seam 175, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-03:s0 (true PROSE/loop, source loop-seeded-counter): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.9635 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 127 seam-local offset 128 | anchor t* RESIDUE (t* 127 > t_seam 0, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-03:s1 (true PROSE/clean, source prose-094): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2504) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.2504) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-LCL-03:s2 (true PROSE/loop, source loop-seeded-countdown): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.8445 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 307 seam-local offset 128 | anchor t* RESIDUE (t* 307 > t_seam 180, the residue measured loud -- 127 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 127, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-04:s0 (true PROSE/loop, source loop-seeded-cycle): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.3371 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=EOS doc-cumulative row 169 seam-local offset 170 | anchor t* RESIDUE (t* 169 > t_seam 0, the residue measured loud -- 169 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 169, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 0 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-04:s1 (true PROSE/clean, source prose-111): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1100) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.1100) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-LCL-04:s2 (true PROSE/loop, source loop-seeded-code-line): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9996) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-LCL-05:s0 (true PROSE/loop, source loop-seeded-json): @[REDACTED_PER_PUBLICATION_POLICY] trip h=64 v=2.1090 | @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=3.6883 | grade MATCH/MATCH
+[rung-e]   stress: trip span-local h=64 doc-cumulative row 63 seam-local offset 64 | anchor t* RESIDUE (t* 63 > t_seam 0, the residue measured loud -- 63 rows into the loop segment; the earlier 'inside the excursion window' wording owned at Amendment Act No. 1 as the false-acceptance hazard) (i_target 63, tier TIER_1_ANCHOR_LATCHED) | anchor-to-trip gap 1 | post-trip continuation 38 | re-billed 1 NAMED-UNMEASURED-OFFLINE
+[rung-e] PROSE mix-PROSE-LCL-05:s1 (true PROSE/clean, source prose-128): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.4454) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.4454) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-LCL-05:s2 (true PROSE/loop, source loop-injection-prose): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.5015) | grade MISSED/MISSED
+[rung-e] PROSE mix-PROSE-N-01:s0 (true PROSE/clean, source prose-145): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.0559) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.0559) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-01:s1 (true PROSE/clean, source prose-162): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3790) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.3790) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-02:s0 (true PROSE/clean, source prose-179): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.9613) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak -0.9613) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-02:s1 (true PROSE/clean, source prose-196): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6200) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6200) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-03:s0 (true PROSE/clean, source prose-213): @[REDACTED_PER_PUBLICATION_POLICY] trip h=EOS v=2.0610 | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 2.0610) | grade FALSE-TRIP/MATCH
+[rung-e] PROSE mix-PROSE-N-03:s1 (true PROSE/clean, source prose-230): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9468) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.9468) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-04:s0 (true PROSE/clean, source prose-247): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3880) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 1.3880) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-04:s1 (true PROSE/clean, source prose-264): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7449) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7449) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-05:s0 (true PROSE/clean, source prose-281): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7194) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.7194) | grade MATCH/MATCH
+[rung-e] PROSE mix-PROSE-N-05:s1 (true PROSE/clean, source prose-298): @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6824) | @[REDACTED_PER_PUBLICATION_POLICY] no trip (peak 0.6824) | grade MATCH/MATCH
+[rung-f] RUNG (f) -- THE STACK RE-READ (5c): the hook's E-event stream on the mid-document trips (the ladder E0 offline, the efficacy terminals NAMED-UNMEASURED-OFFLINE), the isolation guard's write census across the leg streams
+[rung-f] CODE mix-CODE-A-06:s1: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-A-14:s1: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-01:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.7355 | t_star 0-based 34 keep 35 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9995893239974976 | second_p 1.56842124852119e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-02:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.2407 | t_star 0-based 33 keep 34 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9870005249977112 | second_p 3.967072916566394e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-03:s0: E-EVENT (mid-document trip) | h=EOS t_raw=4.3957 | t_star 0-based 32 keep 33 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9999610185623169 | second_p 7.889078915468417e-06 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-04:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.3604 | t_star 0-based 35 keep 36 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9981327056884766 | second_p 0.00010871724953176454 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-07:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.2621 | t_star 0-based 48 keep 49 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9997016787528992 | second_p 7.483510853489861e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-09:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.6902 | t_star 0-based 42 keep 43 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996417760848999 | second_p 1.473450811317889e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-10:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.9563 | t_star 0-based 53 keep 54 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9913002848625183 | second_p 3.980380643042736e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-11:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.0805 | t_star 0-based 88 keep 89 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.999664306640625 | second_p 5.143024100107141e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-B-12:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.9808 | t_star 0-based 99 keep 100 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.999660313129425 | second_p 3.7626490666298196e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-CLC-01:s1: E-EVENT (mid-document trip) | h=EOS t_raw=2.8445 | t_star 0-based 127 keep 128 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9995580911636353 | second_p 6.60316800349392e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-CLC-04:s1: E-EVENT (mid-document trip) | h=EOS t_raw=2.4251 | t_star 0-based 97 keep 98 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9889552593231201 | second_p 0.00027603216585703194 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-LCL-01:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.4251 | t_star 0-based 97 keep 98 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9889552593231201 | second_p 0.00027603216585703194 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-LCL-02:s2: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-LCL-03:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.9635 | t_star 0-based 127 keep 128 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996463656425476 | second_p 2.1438492694869637e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-LCL-04:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.3371 | t_star 0-based 169 keep 170 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9926063418388367 | second_p 0.00013903020590078086 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE mix-CODE-LCL-05:s0: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] CODE: E-events 18 | close-riding trips 10 (typed loud, named against the 19 banked close-riding records) | the guard write census {"CODE": 100} | env writes skipped NAMED-ABSENT 0 (never zero-filled) | cross-leg contamination trips 0 -- EXPECTED-ZERO on this intra-leg cache, a real receipt never a vacuous one (the guard still runs across the leg's span stream; the non-trivial cross-LEG seam exercise rides Stage-2B, Amendment Act No. 1)
+[rung-f] PROSE mix-PROSE-A-06:s1: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-A-14:s1: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-01:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.7355 | t_star 0-based 34 keep 35 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9995893239974976 | second_p 1.56842124852119e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-02:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.2407 | t_star 0-based 33 keep 34 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9870005249977112 | second_p 3.967072916566394e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-03:s0: E-EVENT (mid-document trip) | h=EOS t_raw=4.3957 | t_star 0-based 32 keep 33 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9999610185623169 | second_p 7.889078915468417e-06 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-04:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.3604 | t_star 0-based 35 keep 36 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9981327056884766 | second_p 0.00010871724953176454 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-07:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.2621 | t_star 0-based 48 keep 49 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9997016787528992 | second_p 7.483510853489861e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-09:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.6902 | t_star 0-based 42 keep 43 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996417760848999 | second_p 1.473450811317889e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-10:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.9563 | t_star 0-based 53 keep 54 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9913002848625183 | second_p 3.980380643042736e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-11:s0: E-EVENT (mid-document trip) | h=EOS t_raw=3.0805 | t_star 0-based 88 keep 89 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.999664306640625 | second_p 5.143024100107141e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-B-12:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.9808 | t_star 0-based 99 keep 100 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.999660313129425 | second_p 3.7626490666298196e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-CLC-01:s1: E-EVENT (mid-document trip) | h=EOS t_raw=2.8445 | t_star 0-based 127 keep 128 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9995580911636353 | second_p 6.60316800349392e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-CLC-04:s1: E-EVENT (mid-document trip) | h=EOS t_raw=2.4251 | t_star 0-based 97 keep 98 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9889552593231201 | second_p 0.00027603216585703194 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-LCL-01:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.4251 | t_star 0-based 97 keep 98 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9889552593231201 | second_p 0.00027603216585703194 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-LCL-02:s2: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-LCL-03:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.9635 | t_star 0-based 127 keep 128 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996463656425476 | second_p 2.1438492694869637e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-LCL-04:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.3371 | t_star 0-based 169 keep 170 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9926063418388367 | second_p 0.00013903020590078086 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-LCL-05:s0: E-EVENT (mid-document trip) | h=64 t_raw=2.1090 | t_star 0-based 63 keep 64 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.9996153712272644 | second_p 9.026196494232863e-05 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 38 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE mix-PROSE-N-03:s0: E-EVENT (mid-document trip) | h=EOS t_raw=2.0610 | t_star 0-based 40 keep 41 gap 1 | anchor tier TIER_1_ANCHOR_LATCHED | m(t*) 0.06252540647983551 | second_p 0.09638255834579468 | ladder E0 offline | terminal NAMED-UNMEASURED-OFFLINE | meter remaining 0 vs K_max 128 | the re-billed count the offline projection, the true count NAMED-UNMEASURED-OFFLINE (decode-bearing, Stage 3)
+[rung-f] PROSE: E-events 19 | close-riding trips 11 (typed loud, named against the 19 banked close-riding records) | the guard write census {"PROSE": 100} | env writes skipped NAMED-ABSENT 0 (never zero-filled) | cross-leg contamination trips 0 -- EXPECTED-ZERO on this intra-leg cache, a real receipt never a vacuous one (the guard still runs across the leg's span stream; the non-trivial cross-LEG seam exercise rides Stage-2B, Amendment Act No. 1)
+[ladder] THE ACCEPTANCE-LADDER STATE (Section 6; findings presented, never adjudicated -- the owner's stamps decide):
+[ladder] CODE: (d) 55 seams receipted (EXACT 55, typed 0), contiguity green, foreign census 0 | (e) 100 spans graded -- {"clean/clean": 110, "loop/clean": 35, "loop/loop": 55} | (f) E-events 18, guard census {"CODE": 100}
+[ladder] CODE per-class pooled: {"A/clean/no-trip": 15, "A/loop/no-trip": 5, "A/loop/trip": 10, "B/clean/no-trip": 15, "B/loop/no-trip": 6, "B/loop/trip": 9, "CLC/clean/no-trip": 10, "CLC/loop/no-trip": 3, "CLC/loop/trip": 2, "LCL/clean/no-trip": 5, "LCL/loop/no-trip": 3, "LCL/loop/trip": 7, "N/clean/no-trip": 10}
+[ladder] PROSE: (d) 55 seams receipted (EXACT 55, typed 0), contiguity green, foreign census 0 | (e) 100 spans graded -- {"clean/clean": 108, "clean/loop": 2, "loop/clean": 35, "loop/loop": 55} | (f) E-events 19, guard census {"PROSE": 100}
+[ladder] PROSE per-class pooled: {"A/clean/no-trip": 15, "A/loop/no-trip": 5, "A/loop/trip": 10, "B/clean/no-trip": 14, "B/clean/trip": 1, "B/loop/no-trip": 6, "B/loop/trip": 9, "CLC/clean/no-trip": 10, "CLC/loop/no-trip": 3, "CLC/loop/trip": 2, "LCL/clean/no-trip": 5, "LCL/loop/no-trip": 3, "LCL/loop/trip": 7, "N/clean/no-trip": 9, "N/clean/trip": 1}
+[ladder] (g) NAMED HIS: the owner-side run + his closing stamp (the runbook stage2_ladder_walk_RUN_INSTRUCTIONS_v1.md; the portability law; every receipt at his hardware, his stamps deciding every mark)
+[ladder] the conditional refinement lane (the conditional-lane ruling of record) stands ready: if these receipts show demux gaps, the refinement opens as its own amendment act at his stamp -- never pre-decided deficient, never pre-assumed fine
+(offline paper act only, zero GPU, zero decodes, zero build hours; Nov 9 2026; theta [REDACTED_PER_PUBLICATION_POLICY] unmoved; no thresholds set, moved, or adjudicated; findings presented, never adjudicated -- the owner's stamps decide)
