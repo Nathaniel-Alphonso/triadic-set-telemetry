@@ -36,7 +36,7 @@ The repository itself is the evidence: the hardware telemetry, evaluation progra
 
 ## Current State
 
-**Where the testing stands (Nov 2026):** the initial testing and validation, the five-phase empirical record below, is complete and fully published. Stage 1 of the staged order, the five forward-pass pre-registrations, is complete, each item pre-registered before compute, built offline, and verified twice-run deterministic on my hardware, and the first refinement, the operating-threshold re-derivation, remains in progress behind it. Stage 2, the mixed-regime ground truth, opens next. The full forward structure is mapped in [In-Band Qualification Testing](#in-band-qualification-testing).
+**Where the testing stands (Nov 2026):** the initial testing and validation, the five-phase empirical record below, is complete and fully published. Stage 1 of the staged order, the five forward-pass pre-registrations, is complete, each item pre-registered before compute, built offline, and verified twice-run deterministic on my hardware, and the first refinement, the operating-threshold re-derivation, remains in progress behind it. Stage 2, the mixed-regime ground truth, is complete: the corpus and fixture build pre-registered before compute, built offline, its acceptance ladder walked green, and the cross-domain probe verified on my hardware with zero divergence by name. Stage 3, the restoration ladder, opens next. The full forward structure is mapped in [In-Band Qualification Testing](#in-band-qualification-testing).
 
 ---
 
@@ -237,13 +237,15 @@ Everything in the record above ran out of band: telemetry banked, passes replaye
 | :--- | :--- | :--- |
 | **Stage 0** | The offline rulings that closed before the live work: a twice-run determinism receipt with the operating-form ruling on the amended grid, the amended grid's console acceptance, the protected-frame ruling and its replication candidate on the math leg, and the gates-3/5 numbering harmonization into the unified map | Complete (all four stamped and banked) |
 | **Stage 1** | The forward-pass pre-registrations (5 items): the operating-form ruling, the splitter, the streaming accumulator across the code and prose legs, the in-band math form, and the trip-record emission contract | Complete (all five pre-registered, built offline, and verified on my hardware, Nov 2026) |
-| **Stage 2** | The splitter's ground truth: the mixed-regime corpus/fixture build | Pending |
+| **Stage 2** | The splitter's ground truth: the mixed-regime corpus/fixture build | Complete (pre-registered, built offline, twice-run deterministic, and cross-domain verified on my hardware, Nov 2026) |
 | **Stage 3** | The restoration ladder: one actuator per run pair, on GPU | Pending |
 | **Stage 4** | The wiring phase: live actuation behind the acceptances | Pending |
 | **Stage 5** | The model ladder, riding the Phase 4 record lane | In progress (3B complete and receipted; the 8B record lane ongoing) |
 | **Stage 6** | Regime B: the multi-turn harness and the agentic-regime gates | Pending |
 
 **Stage 1, complete (Nov 2026).** The offline detector stack is built end to end: the splitter, the streaming accumulator across the code and prose legs, the in-band math form, and the trip-record emission contract. Each was pre-registered before compute, built offline with zero decodes, and verified deterministic across two runs on my hardware.
+
+**Stage 2, complete (Nov 2026).** The mixed-regime ground truth is built and closed: the 90-document / 110-seam splice cache built under the stamped route, its acceptance ladder walked to green with the 200-span table of record, and the cross-domain probe, the ruled added step, closed green on both machines with zero divergence by name - a classification ground truth, never a live-attention ground truth, its honest limits carried in the lane. Each sheet was pre-registered before compute; every console ran twice, byte-identical; the artifacts publish in the Stage-2 qualification lane (telemetry/v32/stage2).
 
 The ten refinements produce the mechanism; the staged order tests it. Both close at the same table: the tenth refinement, reconciliation, review and integration, where all data gotten is read against the truth labels of record. A landed stage migrates into the record above as a new chapter, so the phase list stays open. The restoration term is priced on its own: Stage 3 and Stage 4 readings report the full system against both the stock baseline and the constraint-only control, so the net value of the detector and the actuator is measured separately from the constraint layer beneath them. Actuation follows acceptance: instruments present findings, and my stamps adjudicate. The forward act for every finding in this repository remains the held-out measurement on a live environment.
 
