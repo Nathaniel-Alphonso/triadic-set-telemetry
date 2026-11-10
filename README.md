@@ -18,7 +18,7 @@ The **Triadic Set** governs the forward pass of a language model directly: measu
 
 **The thesis.** The Triadic Set's position is that the waste is governable at the source. The forward pass can be constrained inside its own execution graph, at calibrated moments, before the waste is ever emitted. Constraint is only half of the mechanism. The other half is restoration: trajectories that would have been thrown away are recovered to usable form. Compute drops because less of it is wasted. Accuracy rises because what survives governance is better output from the same model. The field reads governance as a purchase, accuracy bought with compute or compute saved at the price of accuracy. The Triadic Set breaks that frame: the two directions move together, compute falling and accuracy rising on the same pass.
 
-**The founding result, re-scoped.** The September founding pair crossed model variants: its stock control ran the pretrained base model and its calibrated leg ran the Instruct variant, so the 11.53-point spread the earlier record carried belonged to the variant switch, and this draft retires it. The clean instrument is the November same-day paired receipt: one model (Llama-3.2-1B-Instruct), one machine, one harness, one driver, both legs hours apart on the same day. The stock leg reads 49.29% MMLU (10,219 evaluated questions); the governed leg reads 49.42% (±0.48), a +0.13-point paired delta, while the governance actively removed 51.04% of the attention mass in the regions it faulted. The governed leg's raw export is content-identical to the founding calibrated leg's raw export: the same governor stack, greedy decode, eager attention, and one calibration method reproduced the founding leg's scores to the byte 47 days later under a fresh same-day calibration, so the same-day receipt doubles as a determinism receipt. That is the founding claim in its measured form: the constraint side holds the line at parity, steering the model away from trajectories destined for discard without lobotomizing it, half the faulted attention mass excised while knowledge scoring does not move. Accuracy restoration stays the forward act and claims nothing ahead of the leg that measures it. GSM8K reads 0.00 in both arms of the same-day pair, a format-compliance artifact of the raw-completion protocol rather than a governance effect, and the generation-side question moves to the reasoning-protocol leg. On the hardware side of the same bench, the Phase 1 lifts cut time-to-first-token by up to 61.4% and compressed the prefill context footprint by 25.7 to 80.4% by payload, with the release recording showing the Activity Monitor at 0 B swap across the full orchestration. Every number above points at the receipt that produced it, and the control of record is the stock leg of the same variant, same day, same harness.
+**The founding result, re-scoped.** The September founding pair crossed model variants: its stock control ran the pretrained base model and its calibrated leg ran the Instruct variant, so the 11.53-point spread the earlier record carried belonged to the variant switch, and this draft retires it. The clean instrument is the November same-day paired receipt: one model (Llama-3.2-1B-Instruct), one machine, one harness, one driver, both legs hours apart on the same day. The stock leg reads 49.29% MMLU (10,219 evaluated questions); the governed leg reads 49.42% (±0.48), a +0.13-point paired delta, while the governance actively removed 51.04% of the attention mass in the regions it faulted. The governed leg's raw export is content-identical to the founding calibrated leg's raw export: the same governor stack, greedy decode, eager attention, and one calibration method reproduced the founding leg's scores to the byte 47 days later under a fresh same-day calibration, so the same-day receipt doubles as a determinism receipt. That is the founding claim in its measured form: the constraint side holds the line at parity, steering the model away from trajectories destined for discard without lobotomizing it, half the faulted attention mass excised while knowledge scoring does not move. Accuracy restoration stays the forward act and claims nothing ahead of the leg that measures it. GSM8K reads 0.00 in both arms of the same-day pair, a format-compliance artifact of the raw-completion protocol rather than a governance effect, and the generation-side question moves to the reasoning-protocol leg. On the hardware side of the same bench, the historical phase 1 lifts cut time-to-first-token by up to 61.4% and compressed the prefill context footprint by 25.7 to 80.4% by payload, with the release recording showing the Activity Monitor at 0 B swap across the full orchestration. Every number above points at the receipt that produced it, and the control of record is the stock leg of the same variant, same day, same harness.
 
 **The agnostic principle.** The mechanism is derived, not trained in, and it is agnostic to everything about a model except the one thing every model shares. The governance map is extracted from the measured execution of a model's own unmodified weights and calibrated layer by layer, so the mathematics re-derives to fit the model, never the other way around: the math bends to the measured data, the data is never reshaped to fit the instrument. Model-agnostic, parameter-agnostic, weight-agnostic: the map re-derives from whatever model sits in front of it. Change the parameter count and the map re-derives. Retrain the weights and the map re-derives. Swap in the next model and the map re-derives. No model, scale, or checkpoint owns it, because governance touches only the forward pass, the one structure every autoregressive model has in common. That universality is the design intent: upgrade the model, retrain the weights, change the parameter count, and the deployment never waits on a redesign. The model ladder is the principle's receipt in the record below: the 1B system's map re-derived and re-validated at 3B, the 8B transfer the open front.
 
@@ -36,7 +36,7 @@ The repository itself is the evidence: the hardware telemetry, evaluation progra
 
 ## Current State
 
-**Where the testing stands (Nov 2026):** the initial testing and validation, the empirical record below, is complete and fully published. The qualification work now runs one unified phase structure, phases with stages numbered inside each. Phase 1, the offline instrument, is complete end to end: the paper closers and the operating designations, the detector stack, and the ground truth, each piece pre-registered before compute, built offline, and verified twice-run deterministic on my hardware, and the cross-domain probe closed green on both machines with zero divergence by name. Phase 2, the live measurement, opens next, its pre-registration sheet drafted and presented for my pinning stamp. The full forward structure is mapped in [In-Band Qualification Testing](#in-band-qualification-testing).
+**Where the testing stands (Nov 2026):** the initial testing and validation, the empirical record below, is complete and fully published. The qualification work now runs one unified phase structure, phases with stages numbered inside each. Phase 1, the offline instrument, is complete end to end: the paper closers and the operating designations, the detector stack, and the ground truth, each piece pre-registered before compute, built offline, and verified twice-run deterministic on my hardware, and the cross-domain probe closed green on both machines with zero divergence by name. Phase 2, the live measurement, is under way: its pre-registration sheet pinned at my stamp, the offline builds running with the live-decode harness built and its battery green, and the walk act and the intervention act on GPU to come. The full forward structure is mapped in [In-Band Qualification Testing](#in-band-qualification-testing).
 
 ---
 
@@ -72,7 +72,7 @@ The hypothesis is decomposed into seven claim components. Every test, gate, and 
 | **C1** | Constraint **prevents** undesirable output | Interventions must never wrongfully terminate or redirect a healthy trajectory; wrongful terminations stay at zero as intervention counts grow. | Measured (Phases 1–3: wrongful terminations at zero across the founding run and the oracle-gate arms) |
 | **C2** | Constraint **restores** otherwise-discarded output | Trajectories that would have been thrown away are recovered to usable form more often than healthy output is worsened. | Partially tested; the restoration ladder (Phase 2) is the open front |
 | **C3** | Cost per usable output **drops** | Under governance, fewer tokens and fewer seconds are spent per correct, usable answer, with usable accuracy never below baseline. | Measured on the single-turn bench (Phases 1–2); the multi-turn regime is open |
-| **C4** | Measured overhead is an **upper bound** | The instrumentation fraction of bench-measured cost is itemized; production governance cost sits strictly below it. | Framing law of record; the bench telemetry it reads publishes in Phase 1 |
+| **C4** | Measured overhead is an **upper bound** | The instrumentation fraction of bench-measured cost is itemized; production governance cost sits strictly below it. | Framing law of record; the bench telemetry it reads publishes in historical phase 1 |
 | **C5** | Savings **scale** with degenerate-output prevalence | In multi-turn deployment, the waste ratio under governance beats baseline, which is the industry cost being targeted. | Pending (the multi-turn regime, Phase 6) |
 | **C6** | Confabulation is **detectable** at the commitment point | On populations where the model commits to known-wrong answers, the detectors separate flagged from clean trajectories with measured, reported confidence. | In progress; the 1B lane read negative and carries zero detection credit, the question reopens at larger scales on the model ladder, and the qualification refinements re-earn the detector before any detection claim rides it |
 | **C7** | Confabulated paths can be made **improbable by redistribution** | When the first-choice path is flagged, the model's own alternative path lands correct at a measured yield above first choice, with wrongful redirection bounded and counted. | Pending; redistribution remains unwired, gated on measured shadow-replay yield before any live actuation, with the restoration ladder and the near-tie band restriction standing in front of it |
@@ -97,9 +97,9 @@ The Triadic Set is a framework, and the framework itself is the novelty of this 
 
 ## Initial Testing & Validation
 
-The program's initial testing and validation record, complete and fully published, runs in five phases. Every phase below was tested for results rather than benchmarked for them: each reading comes from a pre-registered run against a same-harness control, and no number in this record was tuned toward a leaderboard.
+The program's initial testing and validation record, complete and fully published, runs in five historical phases, their numbering era-qualified and distinct from the unified phase structure that carries the work forward. Every phase below was tested for results rather than benchmarked for them: each reading comes from a pre-registered run against a same-harness control, and no number in this record was tuned toward a leaderboard.
 
-### Phase 1: Single-Stream Silicon Telemetry (Jul–Sept 2026)
+### Historical Phase 1: Single-Stream Silicon Telemetry (Jul–Sept 2026)
 
 Bare-metal execution traces on Apple Silicon unified memory, establishing the hardware-level effect of in-band interdiction at batch size 1. The rig runs three payloads (syntactic chaos, logical fracture, bot-speak grid) through four lanes each: the ungoverned baseline, the layer-12 interdiction hook alone, the full governance stack (ingress filter, interdiction hook, exit gate, polarization), and an egress-pattern lane. The paired readings below are the baseline lane against the full-stack lane, per payload, exactly as the published dump records them:
 
@@ -118,15 +118,15 @@ Readings on the table, stated for rigor:
 
 *Raw logs: `telemetry/single_stream_archive/`, `telemetry/single_stream_eval/`.*
 
-The test that produced this archive was captured on video: the release asset `triadic_silicon_hardware_execution_trace.mov` under `v1.0.0-telemetry-proof` is the unedited screen recording of the full 12-lift orchestration running in sequence, with the Activity Monitor panel on screen confirming the 0 B swap reading live. The dump this record's Phase 1 table reads from is the dump visible being produced in that recording.
+The test that produced this archive was captured on video: the release asset `triadic_silicon_hardware_execution_trace.mov` under `v1.0.0-telemetry-proof` is the unedited screen recording of the full 12-lift orchestration running in sequence, with the Activity Monitor panel on screen confirming the 0 B swap reading live. The dump this record's historical phase 1 table reads from is the dump visible being produced in that recording.
 
-### Phase 2: Multi-Batch Benchmark Validation (Sept 2026)
+### Historical Phase 2: Multi-Batch Benchmark Validation (Sept 2026)
 
 Full multi-batch evaluation across all 57 MMLU tasks (10,219 evaluated questions, 1,131,648 processed tokens) on the calibrated architecture, under one pinned evaluation configuration:
 
 - **Model:** the founding pair crossed variants, and this phase now states that in the open. The stock, degraded, and naive controls ran the pretrained base Llama-3.2-1B (unmodified weights), with the degraded leg sampling at temperature 0.8; the calibrated leg ran the Llama-3.2-1B-Instruct variant under greedy decoding. The crossing is why this phase's spread is retired as a governance delta and re-read through the same-day paired receipt below.
 - **Harness:** lm-evaluation-harness, pinned at commit `d6de8164` (v0.4.14.dev0)
-- **Decode:** batch size 2 on the same Apple Silicon bench as Phase 1; the MMLU leg is loglikelihood scoring, and the GSM8K generation leg sampled at temperature 0.8 with a 256-new-token cap
+- **Decode:** batch size 2 on the same Apple Silicon bench as historical phase 1; the MMLU leg is loglikelihood scoring, and the GSM8K generation leg sampled at temperature 0.8 with a 256-new-token cap
 - **Shot count:** 0-shot (`num_fewshot=0`, pinned in the era evaluation driver)
 - **Subset rule:** every MMLU subtask capped at 250 questions, hardcoded in the driver; subtasks smaller than 250 ran at full size, so the evaluation covers 10,219 of the benchmark's 14,042 test questions. GSM8K ran 250 of its 1,319.
 
@@ -139,7 +139,7 @@ Full multi-batch evaluation across all 57 MMLU tasks (10,219 evaluated questions
 | Naive hook interception | ~50.00% | 34.56% | Uniform static boundaries; over-clamps early layers |
 | Triadic (calibrated, Instruct variant) | 50.43% | 49.42% (±0.48) | Cross-variant spread; retired as a governance delta, re-read by the same-day receipt below |
 
-The Phase 2 table is the founding record in its September form, now re-scoped: its legs crossed model variants, so the spread reads the variant switch, and the governance delta moves to the same-day paired receipt below, where one variant runs through both states on one machine in one day.
+The historical phase 2 table is the founding record in its September form, now re-scoped: its legs crossed model variants, so the spread reads the variant switch, and the governance delta moves to the same-day paired receipt below, where one variant runs through both states on one machine in one day.
 
 Readings on the table, stated for rigor:
 
@@ -165,7 +165,7 @@ Readings on the receipt, stated for rigor:
 
 *September artifacts: the degraded and calibrated raw JSONs and summaries in `telemetry/multi_batch_eval/`; the stock and naive state logs in `telemetry/single_stream_eval/` (`unhooked_baseline_triadic_evaluation_run.log`, `triadic_evaluation_run_hooked.log`).*
 
-### Phase 3: The Test & Evaluation Program on 1B (Oct 2026)
+### Historical Phase 3: The Test & Evaluation Program on 1B (Oct 2026)
 
 With the founding result established, the program moved from demonstrating the architecture to trying to *break* it. A formal Test & Evaluation plan put the 1B-scale system under oracle verification, held-out adjudication, and pre-registered acceptance readings across two evaluation regimes: **single-pass generation** and **multi-turn deployment** (where interface gates govern turn-boundary behavior).
 
@@ -173,7 +173,7 @@ With the founding result established, the program moved from demonstrating the a
 
 The phase runs as eight pre-registered lanes, each with its protocol summary in `docs/protocols/` and its results in this repository:
 
-| # | Lane | Protocol | Results |
+| Lane # | Lane | Protocol | Results |
 | :--- | :--- | :--- | :--- |
 | 3.1 | The Test & Evaluation Plan | [01](docs/protocols/01-test-and-evaluation-plan.md) | governs every lane below |
 | 3.2 | Oracle-verification gates | [02](docs/protocols/02-oracle-verification-gates.md) | `telemetry/v32/gate17/` |
@@ -184,13 +184,13 @@ The phase runs as eight pre-registered lanes, each with its protocol summary in 
 | 3.7 | Emission-degeneration program | [07](docs/protocols/07-emission-degeneration-program.md) | `telemetry/v32/rw17/` |
 | 3.8 | Exit-verdict & restoration | [08](docs/protocols/08-exit-verdict-and-restoration.md) | `telemetry/v32/exit-verdict/` |
 
-**The gates (3.2)** are independent mechanical oracles: arithmetic, code, prose, and sycophancy-elicitation output verified against engineered ground truth, each oracle pre-registered before its arm was built. **The checker passes (3.3)** replay banked telemetry mechanically, with zero GPU contact, so every adjudication is a deterministic replay of banked bytes. **The fixture suites (3.4)** hold 288+ typed test rows across three families (arithmetic, code, prose) with engineered positive classes and negative controls, every row's ground truth verified at build.
+**The gates (lane 3.2)** are independent mechanical oracles: arithmetic, code, prose, and sycophancy-elicitation output verified against engineered ground truth, each oracle pre-registered before its arm was built. **The checker passes (lane 3.3)** replay banked telemetry mechanically, with zero GPU contact, so every adjudication is a deterministic replay of banked bytes. **The fixture suites (lane 3.4)** hold 288+ typed test rows across three families (arithmetic, code, prose) with engineered positive classes and negative controls, every row's ground truth verified at build.
 
-**The rework programs (3.5–3.7)** run the program's falsification discipline. Fresh-walk adjudication forces every detector candidate to re-earn its harness on held-out fresh walks under pinned protocols, keeping the candidate's development data out of the grading path. The dual-sided ensemble and emission-degeneration lanes extend the same discipline to multi-sided adjudication and to degenerate-output emission. **The exit-verdict instrumentation (3.8)** grades every governed walk (clean, degraded, or calibrated-rejection) from recorded telemetry alone, and the restoration protocol defines what the system does with what it recovers.
+**The rework programs (lanes 3.5–3.7)** run the program's falsification discipline. Fresh-walk adjudication forces every detector candidate to re-earn its harness on held-out fresh walks under pinned protocols, keeping the candidate's development data out of the grading path. The dual-sided ensemble and emission-degeneration lanes extend the same discipline to multi-sided adjudication and to degenerate-output emission. **The exit-verdict instrumentation (lane 3.8)** grades every governed walk (clean, degraded, or calibrated-rejection) from recorded telemetry alone, and the restoration protocol defines what the system does with what it recovers.
 
-### Phase 4: Model-Scale Transfer, 3B → 8B (Oct 2026 → present)
+### Historical Phase 4: Model-Scale Transfer, 3B → 8B (Oct 2026 → present)
 
-The governance map re-derives and re-validates at every step of the model ladder, from 1B through 3B to 8B parameters. Phase 4 re-runs the checker passes and acceptance arms at each scale and records the transfer honestly, including where the map re-derived cleanly and where the transfer surfaced real findings.
+The governance map re-derives and re-validates at every step of the model ladder, from 1B through 3B to 8B parameters. Historical phase 4 re-runs the checker passes and acceptance arms at each scale and records the transfer honestly, including where the map re-derived cleanly and where the transfer surfaced real findings.
 
 **Hardware of record.** The 3B rung (Llama-3.2-3B-Instruct) walked on a rented pair of NVIDIA T4 GPUs on Kaggle at float16; the 8B rung (Llama-3.1-8B-Instruct) walked on a rented NVIDIA RTX 4090, 24 GB, at bfloat16, the host and the precision pinned in the run spec before the first walk.
 
@@ -198,15 +198,15 @@ The governance map re-derives and re-validates at every step of the model ladder
 
 **The failure-shape program ran deepest at 8B.** The 8B work went beyond a scale transfer: the walk families walked at 8B and were read at both granularities, document and step, and the failure classes under governance (degenerate, repetitive, quiet, and overt) came out of that data carrying mechanical definitions, measured numbers and mathematical shapes in place of semantic categories. That definitional body of work is the prerequisite for the in-band mechanism: the refinements below refine against measured targets rather than semantic intent. It carries its own record in [the failure-shape program](docs/DETECTOR_SHAPE_PROGRAM.md), with the 8B offline-pass exports published in the telemetry lanes.
 
-### Phase 5: Environment Drift, Baselining & Audits (Oct 2026 → present)
+### Historical Phase 5: Environment Drift, Baselining & Audits (Oct 2026 → present)
 
-Governance depends on an environment that stays measured. Phase 5 instruments the environment itself: corpus drift is measured against pinned baselines, re-baselining acts are pre-registered before they run, and the drift-diagnostic receipts (the 3-miss, alane, b12, codev6/7, and d2sat diagnostic panels, plus the Wu population-comparability read receipts) publish in `telemetry/v32/diagnostics/` under [doc 10](docs/protocols/10-environment-drift-and-baselining.md).
+Governance depends on an environment that stays measured. Historical phase 5 instruments the environment itself: corpus drift is measured against pinned baselines, re-baselining acts are pre-registered before they run, and the drift-diagnostic receipts (the 3-miss, alane, b12, codev6/7, and d2sat diagnostic panels, plus the Wu population-comparability read receipts) publish in `telemetry/v32/diagnostics/` under [doc 10](docs/protocols/10-environment-drift-and-baselining.md).
 
 The phase also carries the program's external accountability: audit engagements are pre-registered at the boundary and their outcomes are published at count level in [doc 11](docs/protocols/11-audit-engagements.md), and the species-development lane (the program's instrument-breeding line for new diagnostic species) is documented intent-only in [doc 12](docs/protocols/12-species-development.md), with its development data remaining internal.
 
 ---
 
-Phase 3–5 artifacts publish here lane by lane as they land: results and receipts in `telemetry/v32/`, protocols in `docs/protocols/`, fixtures in `fixtures/`, and the prompt corpora behind them in `corpora/`.
+Historical phase 3–5 artifacts publish here lane by lane as they land: results and receipts in `telemetry/v32/`, protocols in `docs/protocols/`, fixtures in `fixtures/`, and the prompt corpora behind them in `corpora/`.
 
 ---
 
@@ -216,17 +216,67 @@ Everything in the record above ran out of band: telemetry banked, passes replaye
 
 **The detector arc: from post-hoc review to in-band governance.** The detector lane began the way every detector in the field begins, reading output after the fact. Banked walks were replayed offline, document by document and token by token, until the failure shapes surfaced as measured structure: repetition typed by its confident self-prediction, undesirable output typed by its excursion from its walk family's own honest traffic. The mechanism was falsified before it was trusted: every candidate re-earned its read on held-out fresh walks under pinned protocols, the negative reads kept at full weight, and zero detection credit carried where the bar was not cleared. The work re-derived at every rung of the model ladder, 1B, 3B, and 8B, the walk families and the doc-level and token-level reads rebuilt from each rung's own walks. The evolution now under way is the main move this record exists for: carrying the detection framework out of post-hoc review and into in-band governance, so the same shapes are read inside the live forward pass. The surviving signatures and their operating threshold re-derive from the banked data in the refinements below, and nothing fires in a live pass ahead of the phase that accepts it. The arc is one discipline at three altitudes: pre-registered, checksummed, replayable, and always paired with a same-harness control.
 
-**The unified phase structure.** One spine now carries the whole qualification arc, phases with stages numbered inside each. The two earlier lists, the refinements and the staged order, retired into it at my call, every row mapped in place:
+**The unified phase structure.** One spine now carries the whole qualification arc, phases with stages numbered inside each. The two earlier lists, the refinements and the staged order, retired into it at my call, every row mapped in place, and the stages inside each phase run in sequence. Each phase carries its own intent and goal below, with its stages enumerated beneath it.
 
-| Phase | What it is | Stages | Status |
+**Phase 1, the offline instrument - complete (Nov 2026).** Everything out of band: telemetry banked, passes replayed, zero model contact. The goal is the complete offline detector stack plus the ground truth it is qualified against, every piece pre-registered before compute.
+
+| Stage | What it is | Intent and goal | Status |
 | :--- | :--- | :--- | :--- |
-| **Phase 1** | The offline instrument | 1.1 the paper closers and the operating designations; 1.2 the detector stack: the splitter, the streaming accumulator across the code and prose legs, the in-band math form, and the trip-record emission contract; 1.3 the ground truth: the mixed-regime corpus and fixture build with its acceptance ladder and the cross-domain probe | Complete (all three stages closed, each piece pre-registered before compute, built offline, and verified twice-run deterministic on my hardware, Nov 2026) |
-| **Phase 2** | The live measurement | 2.1 the pre-registration pinning; 2.2 the offline builds; 2.3 the walk act, on GPU, the fresh walks and the first held-out ground; 2.4 the intervention act, on GPU, the ladder live and the meter measured, the cost-verification gate riding here; 2.5 the interpretation and the phase close | Open (Stage 2.1, the pre-registration sheet, drafted and presented for my pinning stamp; nothing runs before it pins) |
-| **Phase 3** | The mechanism refinements | 3.1 a persistence-gated refinement sheet for the sycophancy-corpus leg; 3.2 the code arm's channel change, a parse-side magnitude read of the generated self-test tail; 3.3 an 8B-native fixture re-authoring of the W5 references; 3.4 a depth-native comparison form for the identity check; 3.5 a union-controlled re-test of the committed-direction construction; 3.6 an administrative meter-budget stamp; 3.7 restricting the detector form to the measured near-tie band, only at my explicit word; 3.8 the receipts pinning the mechanism's sensitivity, sizing, coverage, and provenance | Pending (opens at my word, after Phase 2; each refinement validates on the held-out ground Phase 2 mints) |
-| **Phase 4** | The wiring | 4.1 the wiring sheet's stamp, the operating-threshold remainder closing here; 4.2 the remaining monitor pre-registrations; 4.3 the wiring act and the subscription decision | Pending |
-| **Phase 5** | The model ladder | 5.1 the record lane; 5.2 the remaining transfer rungs and the gates retest | In progress (3B complete and receipted; the 8B record lane ongoing, and Phase 2 rides it) |
-| **Phase 6** | The agentic regime | 6.1 the multi-turn harness build; 6.2 the agentic-regime gates and the agentic-compute proving test | Pending |
-| **Phase 7** | The reconciliation close | 7.1 the review of all data gotten against the truth labels of record; 7.2 the downstream decisions, my stamps adjudicating | Pending (last, after every phase that runs) |
+| 1.1 | The paper closers and the operating designations | Close the offline rulings, then stamp the operating designations the whole stack reads against: the live trip-line with the validation bar carried beside it, the look-window, and the composite map. The head of everything. | Complete |
+| 1.2 | The detector stack | Build the splitter, the streaming accumulator across the code and prose legs, the in-band math form, and the trip-record emission contract, each pre-registered before compute, built offline, and verified twice-run deterministic on my hardware. | Complete (Nov 2026) |
+| 1.3 | The ground truth | Build the mixed-regime corpus and fixture, walk its acceptance ladder to green with the 200-span table of record, and close the cross-domain probe green on both machines with zero divergence by name. A classification ground truth, never a live-attention ground truth. | Complete (Nov 2026) |
+
+**Phase 2, the live measurement - in progress.** The main move this record exists for: carrying the detection framework out of post-hoc review and into live forward passes. The goal is the first held-out ground the detector has, and the restoration side measured rather than designed.
+
+| Stage | What it is | Intent and goal | Status |
+| :--- | :--- | :--- | :--- |
+| 2.1 | The pre-registration pinning | Pin the live-measurement sheet before anything runs: the predictions committed before the runs, the honest limits carried, the constants' registry frozen. Nothing runs before it pins. | Complete (the sheet pinned at my stamp, Nov 2026) |
+| 2.2 | The offline builds | Build the live-decode harness, the rewind executor, the demotion's live form, and the repetition-signature detector offline first, battery-first, zero GPU. | In progress (the live-decode harness built and its battery green) |
+| 2.3 | The walk act | On GPU: mint the fresh walks, the first held-out ground, with nothing actuating before acceptance, the receipt measured on the walks themselves. | Pending |
+| 2.4 | The intervention act | On GPU: the ladder live, the meter's true re-billed count measured, the restoration terminals typed on real interventions, and the cost-verification gate adjudicated here, never before. | Pending |
+| 2.5 | The interpretation and the phase close | Read the results against the predictions committed before the runs, the negative reads kept at full weight, the close at my word. | Pending |
+
+**Phase 3, the mechanism refinements - pending, at my word after Phase 2.** The mechanism itself gets refined against measured targets rather than semantic intent. The goal: each refinement validates on the held-out ground Phase 2 mints, so no refinement re-earns its read on the spent development snapshot, the in-sample wall named honestly.
+
+| Stage | What it is | Intent and goal | Status |
+| :--- | :--- | :--- | :--- |
+| 3.1 | A persistence-gated refinement sheet for the sycophancy-corpus leg | Author and pin the refinement sheet before the leg's compute: the read gated on persistence across the commitment rather than a single excursion. | Pending |
+| 3.2 | The code arm's channel change | Move the code read onto the channel the arm actually generates: a parse-side magnitude read of the generated self-test tail. | Pending |
+| 3.3 | The 8B-native fixture re-authoring of the W5 references | Re-author the reference fixtures natively at the 8B scale, the hypothesis unchanged, consuming the held-out ground Phase 2 mints. | Pending |
+| 3.4 | A depth-native comparison form for the identity check | Rework the identity check's comparison form to be native to the check's own depth rather than a borrowed shape. | Pending |
+| 3.5 | The union-controlled re-test of the committed-direction construction | Re-test the committed-direction construction under union controls, the two-sided reading held together rather than each side alone. | Pending |
+| 3.6 | The administrative meter-budget stamp | Adjudicate the meter budget: a stamp, never a build. | Pending |
+| 3.7 | Restricting the detector form to the measured near-tie band | Restrict the detector's operating form to the measured near-tie band, only at my explicit word. | Pending |
+| 3.8 | The receipts pinning the mechanism's sensitivity, sizing, coverage, and provenance | Pin the four structural receipts that govern every forward use of the mechanism. | Pending |
+
+**Phase 4, the wiring - pending, at my word.** The monitors wired into the live pass, the consumer named without subscription, and the operating-threshold remainder carried from the head of everything closing here.
+
+| Stage | What it is | Intent and goal | Status |
+| :--- | :--- | :--- | :--- |
+| 4.1 | The wiring sheet's stamp | Pin the wiring sheet: the operating-threshold re-derivation's remainder closes here. | Pending |
+| 4.2 | The remaining monitor pre-registrations | Pre-register the remaining monitors before compute: the drift, stride, answer-phase, exemption-territory, per-domain recalibration, and corroborator monitors. | Pending |
+| 4.3 | The wiring act and the subscription decision | Wire the monitors into the live pass with actuation following acceptance, then take the subscription decision, the consumer named without subscription. | Pending |
+
+**Phase 5, the model ladder - in progress.** The mechanism re-derived at every rung rather than ported: the constants re-derive at each scale, and detection credit re-earns on held-out fresh walks, the negative reads kept at full weight.
+
+| Stage | What it is | Intent and goal | Status |
+| :--- | :--- | :--- | :--- |
+| 5.1 | The record lane | Bank the per-rung records: 3B complete and receipted, the 8B record lane ongoing, and Phase 2 rides the 8B. | In progress |
+| 5.2 | The remaining transfer rungs and the gates retest | Walk the remaining rungs, retest the gates, and run the detector-backlog interrogation passes at each scale. | Pending |
+
+**Phase 6, the agentic regime - pending, at my word.** The multi-turn deployment ground: where the savings claim is measured, the waste ratio under governance against baseline, the industry cost being targeted.
+
+| Stage | What it is | Intent and goal | Status |
+| :--- | :--- | :--- | :--- |
+| 6.1 | The multi-turn harness build | Build the multi-turn harness the agentic regime runs on. | Pending |
+| 6.2 | The agentic-regime gates and the agentic-compute proving test | Prove the gates hold under agentic compute, the savings claim measured where it lives. | Pending |
+
+**Phase 7, the reconciliation close - pending, last.** The conclusion step, after every phase that runs: all data gotten read against the truth labels of record, then the downstream decisions.
+
+| Stage | What it is | Intent and goal | Status |
+| :--- | :--- | :--- | :--- |
+| 7.1 | The review of all data gotten against the truth labels of record | Every measurement read back against its truth labels, the banked standings printed beside, never replaced. | Pending |
+| 7.2 | The downstream decisions | The decisions that follow the review, my stamps adjudicating. | Pending |
 
 **Stage 1.2, complete (Nov 2026).** The offline detector stack is built end to end: the splitter, the streaming accumulator across the code and prose legs, the in-band math form, and the trip-record emission contract. Each was pre-registered before compute, built offline with zero decodes, and verified deterministic across two runs on my hardware.
 
@@ -263,13 +313,13 @@ triadic-set-telemetry/
 ├── fixtures/                 ← engineered fixture suites + negative fixtures (θ-clean test data)
 ├── corpora/                  ← prompt corpora behind the evaluation legs
 └── telemetry/                ← the empirical record itself
-    ├── single_stream_archive/    (Phase 1)
-    ├── single_stream_eval/       (Phase 1)
-    ├── multi_batch_eval/         (Phase 2)
+    ├── single_stream_archive/    (historical phase 1)
+    ├── single_stream_eval/       (historical phase 1)
+    ├── multi_batch_eval/         (historical phase 2)
     └── v32/                      (Phases 3–5, by program lane)
-        ├── gate17/  offline-passes/  rw15/  rw16/  rw17/  exit-verdict/   (Phase 3: T&E on 1B)
-        ├── phase4/                (Phase 4: scale transfer 3B → 8B)
-        └── diagnostics/          (Phase 5: drift, baselining, diagnostics)
+        ├── gate17/  offline-passes/  rw15/  rw16/  rw17/  exit-verdict/   (historical phase 3: T&E on 1B)
+        ├── phase4/                (historical phase 4: scale transfer 3B → 8B)
+        └── diagnostics/          (historical phase 5: drift, baselining, diagnostics)
 ```
 
 ---
